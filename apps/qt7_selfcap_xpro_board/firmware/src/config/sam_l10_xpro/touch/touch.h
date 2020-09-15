@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.7.0 Release
+  Touch Library v3.8.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -149,26 +149,36 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 /* Defines Key Sensor setting
  * {Sensor Threshold, Sensor Hysterisis, Sensor AKS}
  */
+
 #define KEY_0_PARAMS                                                                                            \
 {                                                                                                              \
     80, HYST_25, NO_AKS_GROUP                       \
 }
+
+
 #define KEY_1_PARAMS                                                                                            \
 {                                                                                                              \
     60, HYST_25, NO_AKS_GROUP                       \
 }
+
+
 #define KEY_2_PARAMS                                                                                            \
 {                                                                                                              \
     80, HYST_25, AKS_GROUP_1                       \
 }
+
+
 #define KEY_3_PARAMS                                                                                            \
 {                                                                                                              \
     80, HYST_25, AKS_GROUP_1                       \
 }
+
+
 #define KEY_4_PARAMS                                                                                            \
 {                                                                                                              \
     80, HYST_25, AKS_GROUP_1                       \
 }
+
 
 /* De-bounce counter for additional measurements to confirm touch detection
  * Range: 0 to 255.
@@ -279,14 +289,11 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Default value: 6
  */
 #define FREQ_AUTOTUNE_COUNT_IN 6
-
-
-
-
 /**********************************************************/
 /***************** Communication - Data Streamer ******************/
 /**********************************************************/
 #define DEF_TOUCH_DATA_STREAMER_ENABLE 1u
+
 
 /**********************************************************/
 

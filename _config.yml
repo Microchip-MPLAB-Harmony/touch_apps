@@ -22,7 +22,8 @@ timezone: America/Phoenix
 description: Harmony 3 Touch Apps package
 url: "https://microchip-mplab-harmony.github.io"
 baseurl: "/touch_apps"
-remote_theme: "Microchip-MPLAB-Harmony/just-the-docs@mchp-harmony"
+remote_theme: "Microchip-MPLAB-Harmony/just-the-docs@mchp-test"
+
 
 # Build settings
 

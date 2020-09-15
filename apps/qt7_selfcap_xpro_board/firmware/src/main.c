@@ -27,6 +27,8 @@
 #include <stdlib.h>                     // Defines EXIT_FAILURE
 #include "definitions.h"                // SYS function prototypes
 
+
+void touch_status_display1(void);
 /*----------------------------------------------------------------------------
  *   Extern variables
  *----------------------------------------------------------------------------*/
@@ -43,7 +45,7 @@ uint16_t scroller_position1 = 0;
 /*----------------------------------------------------------------------------
  *   prototypes
  *----------------------------------------------------------------------------*/
-void touch_status_display1(void);
+//void touch_status_display1(void);
 
 // *****************************************************************************
 // *****************************************************************************
@@ -68,6 +70,7 @@ int main ( void )
     }
     return ( EXIT_FAILURE );
 }
+
 /*============================================================================
 void touch_status_display(void)
 ------------------------------------------------------------------------------
@@ -81,15 +84,15 @@ void touch_status_display1(void)
 {
 	key_status1 = get_sensor_state(0) & 0x80;
 	if (0u != key_status1) {
-		LED_BUT_0_Clear();
+		LED_BUTTON_0_Clear();
 	} else {
-		LED_BUT_0_Set();
+		LED_BUTTON_0_Set();
 	}
 	key_status1 = get_sensor_state(1) & 0x80;
 	if (0u != key_status1) {
-		LED_BUT_1_Clear();
+		LED_BUTTON_1_Clear();
 	} else {
-		LED_BUT_1_Set();
+		LED_BUTTON_1_Set();
 	}
 
 	scroller_status1   = get_scroller_state(0);
