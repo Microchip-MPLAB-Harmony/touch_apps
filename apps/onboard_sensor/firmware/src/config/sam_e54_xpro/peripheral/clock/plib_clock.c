@@ -49,7 +49,7 @@ static void OSCCTRL_Initialize(void)
 static void OSC32KCTRL_Initialize(void)
 {
 
-    OSC32KCTRL_REGS->OSC32KCTRL_RTCCTRL = OSC32KCTRL_RTCCTRL_RTCSEL(0);
+    OSC32KCTRL_REGS->OSC32KCTRL_RTCCTRL = OSC32KCTRL_RTCCTRL_RTCSEL(1);
 }
 
 static void FDPLL0_Initialize(void)
@@ -128,7 +128,7 @@ static void DFLL_Initialize(void)
 
 static void GCLK0_Initialize(void)
 {
-    
+
     /* selection of the CPU clock Division */
     MCLK_REGS->MCLK_CPUDIV = MCLK_CPUDIV_DIV(0x01);
 

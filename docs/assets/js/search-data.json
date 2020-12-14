@@ -1,15 +1,15 @@
 {"0": {
-    "doc": "T10 Xplained Pro Touch Examples",
-    "title": "T10 Xplained Pro Touch Examples",
-    "content": "The following table provides links to documentation on how to build and run the touch example project on different development kits . | Development Kit | . | PIC32CMLx Curiosity Example Development Board | . ",
-    "url": "http://localhost:4000/touch_apps/apps/t10_mutual_xpro_board/readme.html#t10-xplained-pro-touch-examples",
-    "relUrl": "/apps/t10_mutual_xpro_board/readme.html#t10-xplained-pro-touch-examples"
+    "doc": "QT1 Xplained Pro Self Capacitance Examples",
+    "title": "QT1 Xplained Pro Self Capacitance Examples",
+    "content": "The following table provides links to documentation on how to build and run the touch example project on different development kits . | Development Kit | . | SAMD21 Xplained Pro Development Board | . | SAMDA1 Xplained Pro Development Board | . | SAMD20 Xplained Pro Development Board | . | SAMC21 Xplained Pro Development Board | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/readme.html#qt1-xplained-pro-self-capacitance-examples",
+    "relUrl": "/apps/qt1_selfcap_xpro_board/readme.html#qt1-xplained-pro-self-capacitance-examples"
   },"1": {
-    "doc": "T10 Xplained Pro Touch Examples",
-    "title": "T10 Xplained Pro Touch Examples",
+    "doc": "QT1 Xplained Pro Self Capacitance Examples",
+    "title": "QT1 Xplained Pro Self Capacitance Examples",
     "content": ". ",
-    "url": "http://localhost:4000/touch_apps/apps/t10_mutual_xpro_board/readme.html",
-    "relUrl": "/apps/t10_mutual_xpro_board/readme.html"
+    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/readme.html",
+    "relUrl": "/apps/qt1_selfcap_xpro_board/readme.html"
   },"2": {
     "doc": "Onboard Multiple Touch Button Examples",
     "title": "Onboard Multiple Touch Button Examples",
@@ -23,585 +23,525 @@
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor_two_button/readme.html",
     "relUrl": "/apps/onboard_sensor_two_button/readme.html"
   },"4": {
-    "doc": "QT7 Xplained Pro Touch Examples",
-    "title": "QT7 Xplained Pro Touch Examples",
-    "content": "The following table provides links to documentation on how to build and run the touch example project on different development kits . | Development Kit | . | SAML10 Xplained Example Development Board | . | PIC32CMLx Curiosity Example Development Board | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/readme.html#qt7-xplained-pro-touch-examples",
-    "relUrl": "/apps/qt7_selfcap_xpro_board/readme.html#qt7-xplained-pro-touch-examples"
-  },"5": {
-    "doc": "QT7 Xplained Pro Touch Examples",
-    "title": "QT7 Xplained Pro Touch Examples",
-    "content": ". ",
-    "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/readme.html",
-    "relUrl": "/apps/qt7_selfcap_xpro_board/readme.html"
-  },"6": {
-    "doc": "QT1 Xplained Pro Self Capacitance Examples",
-    "title": "QT1 Xplained Pro Self Capacitance Examples",
-    "content": "The following table provides links to documentation on how to build and run the touch example project on different development kits . | Development Kit | . | SAMD21 Xplained Pro Development Board | . | SAMDA1 Xplained Pro Development Board | . | SAMD20 Xplained Pro Development Board | . | SAMC21 Xplained Pro Development Board | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/readme.html#qt1-xplained-pro-self-capacitance-examples",
-    "relUrl": "/apps/qt1_selfcap_xpro_board/readme.html#qt1-xplained-pro-self-capacitance-examples"
-  },"7": {
-    "doc": "QT1 Xplained Pro Self Capacitance Examples",
-    "title": "QT1 Xplained Pro Self Capacitance Examples",
-    "content": ". ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/readme.html",
-    "relUrl": "/apps/qt1_selfcap_xpro_board/readme.html"
-  },"8": {
-    "doc": "Onboard Single Touch Button Examples",
-    "title": "Onboard Single Touch Button Examples",
-    "content": "The following table provides links to documentation on how to build and run the touch example project on different development kits . | Development Kit | . | SAMD10 Xplained Mini Development Board | . | SAME54 Xplained Pro Development Board | . | SAML21 Xplained Pro Development Board | . | SAML22 Xplained Pro Development Board | . ",
-    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/readme.html#onboard-single-touch-button-examples",
-    "relUrl": "/apps/onboard_sensor/readme.html#onboard-single-touch-button-examples"
-  },"9": {
-    "doc": "Onboard Single Touch Button Examples",
-    "title": "Onboard Single Touch Button Examples",
-    "content": ". ",
-    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/readme.html",
-    "relUrl": "/apps/onboard_sensor/readme.html"
-  },"10": {
     "doc": "QT1 Xplained Pro Mutual Capacitance Examples",
     "title": "QT1 Xplained Pro Mutual Capacitance Examples",
     "content": "The following table provides links to documentation on how to build and run the touch example project on different development kits . | Development Kit | . | SAMD21 Xplained Pro Development Board | . | SAMDA1 Xplained Pro Development Board | . | SAMD20 Xplained Pro Development Board | . | SAMC21 Xplained Pro Development Board | . | SAME54 Xplained Pro Development Board | . | SAML21 Xplained Pro Development Board | . | SAML22 Xplained Pro Development Board | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/readme.html#qt1-xplained-pro-mutual-capacitance-examples",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/readme.html#qt1-xplained-pro-mutual-capacitance-examples"
-  },"11": {
+  },"5": {
     "doc": "QT1 Xplained Pro Mutual Capacitance Examples",
     "title": "QT1 Xplained Pro Mutual Capacitance Examples",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/readme.html",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/readme.html"
-  },"12": {
-    "doc": "PIC32CM LX Curiosity Pro",
-    "title": "PIC32CMLx Curiosity Example using T10 Xplained Pro",
-    "content": "Path of the application within the repository is apps/t10_mutual_xpro_board/firmware/ . To build the application, refer to the following table and open the project using its IDE. ",
-    "url": "http://localhost:4000/touch_apps/apps/t10_mutual_xpro_board/docs/readme_pic32cm_lx_curiosity_pro.html#pic32cmlx-curiosity-example-using-t10-xplained-pro",
-    "relUrl": "/apps/t10_mutual_xpro_board/docs/readme_pic32cm_lx_curiosity_pro.html#pic32cmlx-curiosity-example-using-t10-xplained-pro"
-  },"13": {
-    "doc": "PIC32CM LX Curiosity Pro",
-    "title": "Hardware Setup",
-    "content": ". | Connect T10 Xplained Pro Extension Kit to PIC32CM LX Curiosity Pro Evaluation Kit on extension header EXT1 . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
-    "url": "http://localhost:4000/touch_apps/apps/t10_mutual_xpro_board/docs/readme_pic32cm_lx_curiosity_pro.html#hardware-setup",
-    "relUrl": "/apps/t10_mutual_xpro_board/docs/readme_pic32cm_lx_curiosity_pro.html#hardware-setup"
-  },"14": {
-    "doc": "PIC32CM LX Curiosity Pro",
-    "title": "Running The Application",
-    "content": ". | Open the application project /firmware/pic32cm_lx_curiosity_pro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
-    "url": "http://localhost:4000/touch_apps/apps/t10_mutual_xpro_board/docs/readme_pic32cm_lx_curiosity_pro.html#running-the-application",
-    "relUrl": "/apps/t10_mutual_xpro_board/docs/readme_pic32cm_lx_curiosity_pro.html#running-the-application"
-  },"15": {
-    "doc": "PIC32CM LX Curiosity Pro",
-    "title": "PIC32CM LX Curiosity Pro",
+  },"6": {
+    "doc": "Onboard Single Touch Button Examples",
+    "title": "Onboard Single Touch Button Examples",
+    "content": "The following table provides links to documentation on how to build and run the touch example project on different development kits . | Development Kit | . | SAMD10 Xplained Mini Development Board | . | SAME54 Xplained Pro Development Board | . | SAML21 Xplained Pro Development Board | . | SAML22 Xplained Pro Development Board | . ",
+    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/readme.html#onboard-single-touch-button-examples",
+    "relUrl": "/apps/onboard_sensor/readme.html#onboard-single-touch-button-examples"
+  },"7": {
+    "doc": "Onboard Single Touch Button Examples",
+    "title": "Onboard Single Touch Button Examples",
     "content": ". ",
-    "url": "http://localhost:4000/touch_apps/apps/t10_mutual_xpro_board/docs/readme_pic32cm_lx_curiosity_pro.html",
-    "relUrl": "/apps/t10_mutual_xpro_board/docs/readme_pic32cm_lx_curiosity_pro.html"
-  },"16": {
-    "doc": "PIC32CM LX Curiosity Pro",
-    "title": "PIC32CMLx Curiosity Example using QT7 Xplained Pro",
-    "content": "Path of the application within the repository is apps/qt7_selfcap_xpro_board/firmware/ . To build the application, refer to the following table and open the project using its IDE. ",
-    "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/docs/readme_pic32cm_lx_curiosity_pro.html#pic32cmlx-curiosity-example-using-qt7-xplained-pro",
-    "relUrl": "/apps/qt7_selfcap_xpro_board/docs/readme_pic32cm_lx_curiosity_pro.html#pic32cmlx-curiosity-example-using-qt7-xplained-pro"
-  },"17": {
-    "doc": "PIC32CM LX Curiosity Pro",
-    "title": "Hardware Setup",
-    "content": ". | Connect QT7 Xplained Pro Extension Kit to PIC32CM LX Curiosity Pro Evaluation Kit on extension header EXT1 . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/docs/readme_pic32cm_lx_curiosity_pro.html#hardware-setup",
-    "relUrl": "/apps/qt7_selfcap_xpro_board/docs/readme_pic32cm_lx_curiosity_pro.html#hardware-setup"
-  },"18": {
-    "doc": "PIC32CM LX Curiosity Pro",
-    "title": "Running The Application",
-    "content": ". | Open the application project /firmware/pic32cm_lx_curiosity_pro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/docs/readme_pic32cm_lx_curiosity_pro.html#running-the-application",
-    "relUrl": "/apps/qt7_selfcap_xpro_board/docs/readme_pic32cm_lx_curiosity_pro.html#running-the-application"
-  },"19": {
-    "doc": "PIC32CM LX Curiosity Pro",
-    "title": "PIC32CM LX Curiosity Pro",
+    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/readme.html",
+    "relUrl": "/apps/onboard_sensor/readme.html"
+  },"8": {
+    "doc": "QT7 Xplained Pro Touch Examples",
+    "title": "QT7 Xplained Pro Touch Examples",
+    "content": "The following table provides links to documentation on how to build and run the touch example project on different development kits . | Development Kit | . | SAML10 Xplained Example Development Board | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/readme.html#qt7-xplained-pro-touch-examples",
+    "relUrl": "/apps/qt7_selfcap_xpro_board/readme.html#qt7-xplained-pro-touch-examples"
+  },"9": {
+    "doc": "QT7 Xplained Pro Touch Examples",
+    "title": "QT7 Xplained Pro Touch Examples",
     "content": ". ",
-    "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/docs/readme_pic32cm_lx_curiosity_pro.html",
-    "relUrl": "/apps/qt7_selfcap_xpro_board/docs/readme_pic32cm_lx_curiosity_pro.html"
-  },"20": {
-    "doc": "SAMC21 Xplained Pro",
-    "title": "SAMC21 Xplained Sensor Example using QT1 Xplained Pro Self",
-    "content": "Path of the application within the repository is apps/qt1_selfcap_xpro_board/firmware . To build the application, refer to the following table and open the project using its IDE. ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_c21_xpro.html#samc21-xplained-sensor-example-using-qt1-xplained-pro-self",
-    "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_c21_xpro.html#samc21-xplained-sensor-example-using-qt1-xplained-pro-self"
-  },"21": {
-    "doc": "SAMC21 Xplained Pro",
-    "title": "Touch Application",
-    "content": "| Project Name | Description | . | qt1_selfcap_xpro_board/firmware/sam_c21_xpro.X | MPLABX Project for SAM C21 Xplained Pro Evaluation Kit | . |   |   | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_c21_xpro.html#touch-application",
-    "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_c21_xpro.html#touch-application"
-  },"22": {
-    "doc": "SAMC21 Xplained Pro",
-    "title": "Setting up the hardware",
-    "content": ". | Connect the QT1 Xplained pro Self capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_c21_xpro.html#setting-up-the-hardware",
-    "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_c21_xpro.html#setting-up-the-hardware"
-  },"23": {
-    "doc": "SAMC21 Xplained Pro",
-    "title": "Running the Application",
-    "content": ". | Open the application project /firmware/sam_c21_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_c21_xpro.html#running-the-application",
-    "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_c21_xpro.html#running-the-application"
-  },"24": {
-    "doc": "SAMC21 Xplained Pro",
-    "title": "SAMC21 Xplained Pro",
-    "content": ". ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_c21_xpro.html",
-    "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_c21_xpro.html"
-  },"25": {
+    "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/readme.html",
+    "relUrl": "/apps/qt7_selfcap_xpro_board/readme.html"
+  },"10": {
     "doc": "SAMC21 Xplained Pro",
     "title": "SAMC21 Xplained Sensor Example using QT1 Xplained Pro Mutual",
     "content": "Path of the application within the repository is apps/qt1_mutualcap_xpro_board/firmware/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_c21_xpro.html#samc21-xplained-sensor-example-using-qt1-xplained-pro-mutual",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_c21_xpro.html#samc21-xplained-sensor-example-using-qt1-xplained-pro-mutual"
-  },"26": {
+  },"11": {
     "doc": "SAMC21 Xplained Pro",
     "title": "Touch Application",
     "content": "| Project Name | Description | . | qt1_mutualcap_xpro_board/firmware/sam_c21_xpro.X | MPLABX Project for SAM C21 Xplained Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_c21_xpro.html#touch-application",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_c21_xpro.html#touch-application"
-  },"27": {
+  },"12": {
     "doc": "SAMC21 Xplained Pro",
     "title": "Setting up the hardware",
     "content": ". | Connect the QT1 Xplained pro Mutual capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_c21_xpro.html#setting-up-the-hardware",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_c21_xpro.html#setting-up-the-hardware"
-  },"28": {
+  },"13": {
     "doc": "SAMC21 Xplained Pro",
     "title": "Running the Application",
     "content": ". | Open the application project /firmware/sam_c21_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_c21_xpro.html#running-the-application",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_c21_xpro.html#running-the-application"
-  },"29": {
+  },"14": {
     "doc": "SAMC21 Xplained Pro",
     "title": "SAMC21 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_c21_xpro.html",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_c21_xpro.html"
-  },"30": {
+  },"15": {
+    "doc": "SAMC21 Xplained Pro",
+    "title": "SAMC21 Xplained Sensor Example using QT1 Xplained Pro Self",
+    "content": "Path of the application within the repository is apps/qt1_selfcap_xpro_board/firmware . To build the application, refer to the following table and open the project using its IDE. ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_c21_xpro.html#samc21-xplained-sensor-example-using-qt1-xplained-pro-self",
+    "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_c21_xpro.html#samc21-xplained-sensor-example-using-qt1-xplained-pro-self"
+  },"16": {
+    "doc": "SAMC21 Xplained Pro",
+    "title": "Touch Application",
+    "content": "| Project Name | Description | . | qt1_selfcap_xpro_board/firmware/sam_c21_xpro.X | MPLABX Project for SAM C21 Xplained Pro Evaluation Kit | . |   |   | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_c21_xpro.html#touch-application",
+    "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_c21_xpro.html#touch-application"
+  },"17": {
+    "doc": "SAMC21 Xplained Pro",
+    "title": "Setting up the hardware",
+    "content": ". | Connect the QT1 Xplained pro Self capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_c21_xpro.html#setting-up-the-hardware",
+    "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_c21_xpro.html#setting-up-the-hardware"
+  },"18": {
+    "doc": "SAMC21 Xplained Pro",
+    "title": "Running the Application",
+    "content": ". | Open the application project /firmware/sam_c21_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_c21_xpro.html#running-the-application",
+    "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_c21_xpro.html#running-the-application"
+  },"19": {
+    "doc": "SAMC21 Xplained Pro",
+    "title": "SAMC21 Xplained Pro",
+    "content": ". ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_c21_xpro.html",
+    "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_c21_xpro.html"
+  },"20": {
     "doc": "SAMD10 Xplained Mini",
     "title": "SAMD10 Xplained Mini Onboard Sensor Example",
     "content": "Path of the application within the repository is apps/onboard_sensor/firmware/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/docs/readme_sam_d10_xmini.html#samd10-xplained-mini-onboard-sensor-example",
     "relUrl": "/apps/onboard_sensor/docs/readme_sam_d10_xmini.html#samd10-xplained-mini-onboard-sensor-example"
-  },"31": {
+  },"21": {
     "doc": "SAMD10 Xplained Mini",
     "title": "Hardware Setup",
     "content": ". | Project uses SAM D10 Xplained Mini Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/docs/readme_sam_d10_xmini.html#hardware-setup",
     "relUrl": "/apps/onboard_sensor/docs/readme_sam_d10_xmini.html#hardware-setup"
-  },"32": {
+  },"22": {
     "doc": "SAMD10 Xplained Mini",
     "title": "Running The Application",
     "content": ". | Open the application project /firmware/sam_d10_xmini.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 38400 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/docs/readme_sam_d10_xmini.html#running-the-application",
     "relUrl": "/apps/onboard_sensor/docs/readme_sam_d10_xmini.html#running-the-application"
-  },"33": {
+  },"23": {
     "doc": "SAMD10 Xplained Mini",
     "title": "SAMD10 Xplained Mini",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/docs/readme_sam_d10_xmini.html",
     "relUrl": "/apps/onboard_sensor/docs/readme_sam_d10_xmini.html"
-  },"34": {
+  },"24": {
     "doc": "SAMD11 Xplained Pro",
     "title": "SAMD11 Xplained Pro Onboard Sensor Example",
     "content": "Path of the application within the repository is apps/onboard_sensor_two_button/firmware/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor_two_button/docs/readme_sam_d11_xpro.html#samd11-xplained-pro-onboard-sensor-example",
     "relUrl": "/apps/onboard_sensor_two_button/docs/readme_sam_d11_xpro.html#samd11-xplained-pro-onboard-sensor-example"
-  },"35": {
+  },"25": {
     "doc": "SAMD11 Xplained Pro",
     "title": "Hardware Setup",
     "content": ". | Project uses SAM D11 Xplained Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor_two_button/docs/readme_sam_d11_xpro.html#hardware-setup",
     "relUrl": "/apps/onboard_sensor_two_button/docs/readme_sam_d11_xpro.html#hardware-setup"
-  },"36": {
+  },"26": {
     "doc": "SAMD11 Xplained Pro",
     "title": "Running The Application",
     "content": ". | Open the application project /firmware/sam_d11_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor_two_button/docs/readme_sam_d11_xpro.html#running-the-application",
     "relUrl": "/apps/onboard_sensor_two_button/docs/readme_sam_d11_xpro.html#running-the-application"
-  },"37": {
+  },"27": {
     "doc": "SAMD11 Xplained Pro",
     "title": "SAMD11 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor_two_button/docs/readme_sam_d11_xpro.html",
     "relUrl": "/apps/onboard_sensor_two_button/docs/readme_sam_d11_xpro.html"
-  },"38": {
+  },"28": {
     "doc": "SAMD20 Xplained Pro",
     "title": "SAMD20 Xplained Sensor Example using QT1 Xplained Pro Self",
     "content": "Path of the application within the repository is apps/qt1_selfcap_xpro_board/firmware . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_d20_xpro.html#samd20-xplained-sensor-example-using-qt1-xplained-pro-self",
     "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_d20_xpro.html#samd20-xplained-sensor-example-using-qt1-xplained-pro-self"
-  },"39": {
+  },"29": {
     "doc": "SAMD20 Xplained Pro",
     "title": "Touch Application",
     "content": "| Project Name | Description | . | qt1_selfcap_xpro_board/firmware/sam_d20_xpro.X | MPLABX Project for SAM D20 Xplained Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_d20_xpro.html#touch-application",
     "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_d20_xpro.html#touch-application"
-  },"40": {
+  },"30": {
     "doc": "SAMD20 Xplained Pro",
     "title": "Setting up the hardware",
     "content": ". | Connect the QT1 Xplained pro Self capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_d20_xpro.html#setting-up-the-hardware",
     "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_d20_xpro.html#setting-up-the-hardware"
-  },"41": {
+  },"31": {
     "doc": "SAMD20 Xplained Pro",
     "title": "Running the Application",
     "content": ". | Open the application project /firmware/sam_d20_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_d20_xpro.html#running-the-application",
     "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_d20_xpro.html#running-the-application"
-  },"42": {
+  },"32": {
     "doc": "SAMD20 Xplained Pro",
     "title": "SAMD20 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_d20_xpro.html",
     "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_d20_xpro.html"
-  },"43": {
+  },"33": {
     "doc": "SAMD20 Xplained Pro",
     "title": "SAMD20 Xplained Sensor Example using QT1 Xplained Pro Mutual",
     "content": "Path of the application within the repository is apps/qt1_mutualcap_xpro_board/firmware/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_d20_xpro.html#samd20-xplained-sensor-example-using-qt1-xplained-pro-mutual",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_d20_xpro.html#samd20-xplained-sensor-example-using-qt1-xplained-pro-mutual"
-  },"44": {
+  },"34": {
     "doc": "SAMD20 Xplained Pro",
     "title": "Touch Application",
     "content": "| Project Name | Description | . | qt1_mutualcap_xpro_board/firmware/sam_d20_xpro.X | MPLABX Project for SAM D20 Xplained Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_d20_xpro.html#touch-application",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_d20_xpro.html#touch-application"
-  },"45": {
+  },"35": {
     "doc": "SAMD20 Xplained Pro",
     "title": "Setting up the hardware",
     "content": ". | Connect the QT1 Xplained pro Mutual capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_d20_xpro.html#setting-up-the-hardware",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_d20_xpro.html#setting-up-the-hardware"
-  },"46": {
+  },"36": {
     "doc": "SAMD20 Xplained Pro",
     "title": "Running the Application",
     "content": ". | Open the application project /firmware/sam_d20_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_d20_xpro.html#running-the-application",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_d20_xpro.html#running-the-application"
-  },"47": {
+  },"37": {
     "doc": "SAMD20 Xplained Pro",
     "title": "SAMD20 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_d20_xpro.html",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_d20_xpro.html"
-  },"48": {
-    "doc": "SAMD21 Xplained Pro",
-    "title": "SAMD21 Xplained Sensor Example using QT1 Xplained Pro Self",
-    "content": "Path of the application within the repository is apps/qt1_selfcap_xpro_board/firmware . To build the application, refer to the following table and open the project using its IDE. ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_d21_xpro.html#samd21-xplained-sensor-example-using-qt1-xplained-pro-self",
-    "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_d21_xpro.html#samd21-xplained-sensor-example-using-qt1-xplained-pro-self"
-  },"49": {
-    "doc": "SAMD21 Xplained Pro",
-    "title": "Touch Application",
-    "content": "| Project Name | Description | . | qt1_selfcap_xpro_board/firmware/sam_d21_xpro.X | MPLABX Project for SAM D21 Xplained Pro Evaluation Kit | . |   |   | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_d21_xpro.html#touch-application",
-    "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_d21_xpro.html#touch-application"
-  },"50": {
-    "doc": "SAMD21 Xplained Pro",
-    "title": "Setting up the hardware",
-    "content": ". | Connect the QT1 Xplained pro Self capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_d21_xpro.html#setting-up-the-hardware",
-    "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_d21_xpro.html#setting-up-the-hardware"
-  },"51": {
-    "doc": "SAMD21 Xplained Pro",
-    "title": "Running the Application",
-    "content": ". | Open the application project /firmware/sam_d21_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_d21_xpro.html#running-the-application",
-    "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_d21_xpro.html#running-the-application"
-  },"52": {
-    "doc": "SAMD21 Xplained Pro",
-    "title": "SAMD21 Xplained Pro",
-    "content": ". ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_d21_xpro.html",
-    "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_d21_xpro.html"
-  },"53": {
+  },"38": {
     "doc": "SAMD21 Xplained Pro",
     "title": "SAMD21 Xplained Sensor Example using QT1 Xplained Pro Mutual",
     "content": "Path of the application within the repository is apps/qt1_mutualcap_xpro_board/firmware/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_d21_xpro.html#samd21-xplained-sensor-example-using-qt1-xplained-pro-mutual",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_d21_xpro.html#samd21-xplained-sensor-example-using-qt1-xplained-pro-mutual"
-  },"54": {
+  },"39": {
     "doc": "SAMD21 Xplained Pro",
     "title": "Touch Application",
     "content": "| Project Name | Description | . | qt1_mutualcap_xpro_board/firmware/sam_d21_xpro.X | MPLABX Project for SAM D21 Xplained Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_d21_xpro.html#touch-application",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_d21_xpro.html#touch-application"
-  },"55": {
+  },"40": {
     "doc": "SAMD21 Xplained Pro",
     "title": "Setting up the hardware",
     "content": ". | Connect the QT1 Xplained pro Mutual capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_d21_xpro.html#setting-up-the-hardware",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_d21_xpro.html#setting-up-the-hardware"
-  },"56": {
+  },"41": {
     "doc": "SAMD21 Xplained Pro",
     "title": "Running the Application",
     "content": ". | Open the application project /firmware/sam_d21_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_d21_xpro.html#running-the-application",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_d21_xpro.html#running-the-application"
-  },"57": {
+  },"42": {
     "doc": "SAMD21 Xplained Pro",
     "title": "SAMD21 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_d21_xpro.html",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_d21_xpro.html"
-  },"58": {
-    "doc": "SAMDA1 Xplained Pro",
-    "title": "SAMDA1 Xplained Sensor Example using QT1 Xplained Pro Mutual",
-    "content": "Path of the application within the repository is apps/qt1_mutualcap_xpro_board/firmware/ . To build the application, refer to the following table and open the project using its IDE. ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_da1_xpro.html#samda1-xplained-sensor-example-using-qt1-xplained-pro-mutual",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_da1_xpro.html#samda1-xplained-sensor-example-using-qt1-xplained-pro-mutual"
-  },"59": {
-    "doc": "SAMDA1 Xplained Pro",
+  },"43": {
+    "doc": "SAMD21 Xplained Pro",
+    "title": "SAMD21 Xplained Sensor Example using QT1 Xplained Pro Self",
+    "content": "Path of the application within the repository is apps/qt1_selfcap_xpro_board/firmware . To build the application, refer to the following table and open the project using its IDE. ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_d21_xpro.html#samd21-xplained-sensor-example-using-qt1-xplained-pro-self",
+    "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_d21_xpro.html#samd21-xplained-sensor-example-using-qt1-xplained-pro-self"
+  },"44": {
+    "doc": "SAMD21 Xplained Pro",
     "title": "Touch Application",
-    "content": "| Project Name | Description | . | qt1_mutualcap_xpro_board/firmware/sam_da1_xpro.X | MPLABX Project for SAM DA1 Xplained Pro Evaluation Kit | . |   |   | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_da1_xpro.html#touch-application",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_da1_xpro.html#touch-application"
-  },"60": {
-    "doc": "SAMDA1 Xplained Pro",
+    "content": "| Project Name | Description | . | qt1_selfcap_xpro_board/firmware/sam_d21_xpro.X | MPLABX Project for SAM D21 Xplained Pro Evaluation Kit | . |   |   | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_d21_xpro.html#touch-application",
+    "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_d21_xpro.html#touch-application"
+  },"45": {
+    "doc": "SAMD21 Xplained Pro",
     "title": "Setting up the hardware",
-    "content": ". | Connect the QT1 Xplained pro Mutual capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_da1_xpro.html#setting-up-the-hardware",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_da1_xpro.html#setting-up-the-hardware"
-  },"61": {
-    "doc": "SAMDA1 Xplained Pro",
+    "content": ". | Connect the QT1 Xplained pro Self capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_d21_xpro.html#setting-up-the-hardware",
+    "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_d21_xpro.html#setting-up-the-hardware"
+  },"46": {
+    "doc": "SAMD21 Xplained Pro",
     "title": "Running the Application",
-    "content": ". | Open the application project /firmware/sam_da1_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_da1_xpro.html#running-the-application",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_da1_xpro.html#running-the-application"
-  },"62": {
-    "doc": "SAMDA1 Xplained Pro",
-    "title": "SAMDA1 Xplained Pro",
+    "content": ". | Open the application project /firmware/sam_d21_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_d21_xpro.html#running-the-application",
+    "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_d21_xpro.html#running-the-application"
+  },"47": {
+    "doc": "SAMD21 Xplained Pro",
+    "title": "SAMD21 Xplained Pro",
     "content": ". ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_da1_xpro.html",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_da1_xpro.html"
-  },"63": {
+    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_d21_xpro.html",
+    "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_d21_xpro.html"
+  },"48": {
     "doc": "SAMDA1 Xplained Pro",
     "title": "SAMDA1 Xplained Sensor Example using QT1 Xplained Pro Self",
     "content": "Path of the application within the repository is apps/qt1_selfcap_xpro_board/firmware . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_da1_xpro.html#samda1-xplained-sensor-example-using-qt1-xplained-pro-self",
     "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_da1_xpro.html#samda1-xplained-sensor-example-using-qt1-xplained-pro-self"
-  },"64": {
+  },"49": {
     "doc": "SAMDA1 Xplained Pro",
     "title": "Touch Application",
     "content": "| Project Name | Description | . | qt1_selfcap_xpro_board/firmware/sam_da1_xpro.X | MPLABX Project for SAM DA1 Xplained Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_da1_xpro.html#touch-application",
     "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_da1_xpro.html#touch-application"
-  },"65": {
+  },"50": {
     "doc": "SAMDA1 Xplained Pro",
     "title": "Setting up the hardware",
     "content": ". | Connect the QT1 Xplained pro Self capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_da1_xpro.html#setting-up-the-hardware",
     "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_da1_xpro.html#setting-up-the-hardware"
-  },"66": {
+  },"51": {
     "doc": "SAMDA1 Xplained Pro",
     "title": "Running the Application",
     "content": ". | Open the application project /firmware/sam_da1_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_da1_xpro.html#running-the-application",
     "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_da1_xpro.html#running-the-application"
-  },"67": {
+  },"52": {
     "doc": "SAMDA1 Xplained Pro",
     "title": "SAMDA1 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/docs/readme_sam_da1_xpro.html",
     "relUrl": "/apps/qt1_selfcap_xpro_board/docs/readme_sam_da1_xpro.html"
-  },"68": {
-    "doc": "SAME54 Xplained Pro",
-    "title": "SAME54 Xplained Sensor Example using QT1 Xplained Pro Mutual",
+  },"53": {
+    "doc": "SAMDA1 Xplained Pro",
+    "title": "SAMDA1 Xplained Sensor Example using QT1 Xplained Pro Mutual",
     "content": "Path of the application within the repository is apps/qt1_mutualcap_xpro_board/firmware/ . To build the application, refer to the following table and open the project using its IDE. ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_e54_xpro.html#same54-xplained-sensor-example-using-qt1-xplained-pro-mutual",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_e54_xpro.html#same54-xplained-sensor-example-using-qt1-xplained-pro-mutual"
-  },"69": {
-    "doc": "SAME54 Xplained Pro",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_da1_xpro.html#samda1-xplained-sensor-example-using-qt1-xplained-pro-mutual",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_da1_xpro.html#samda1-xplained-sensor-example-using-qt1-xplained-pro-mutual"
+  },"54": {
+    "doc": "SAMDA1 Xplained Pro",
     "title": "Touch Application",
-    "content": "| Project Name | Description | . | qt1_mutualcap_xpro_board/firmware/sam_e54_xpro.X | MPLABX Project for SAM E54 Xplained Pro Evaluation Kit | . |   |   | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_e54_xpro.html#touch-application",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_e54_xpro.html#touch-application"
-  },"70": {
-    "doc": "SAME54 Xplained Pro",
+    "content": "| Project Name | Description | . | qt1_mutualcap_xpro_board/firmware/sam_da1_xpro.X | MPLABX Project for SAM DA1 Xplained Pro Evaluation Kit | . |   |   | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_da1_xpro.html#touch-application",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_da1_xpro.html#touch-application"
+  },"55": {
+    "doc": "SAMDA1 Xplained Pro",
     "title": "Setting up the hardware",
     "content": ". | Connect the QT1 Xplained pro Mutual capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_e54_xpro.html#setting-up-the-hardware",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_e54_xpro.html#setting-up-the-hardware"
-  },"71": {
-    "doc": "SAME54 Xplained Pro",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_da1_xpro.html#setting-up-the-hardware",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_da1_xpro.html#setting-up-the-hardware"
+  },"56": {
+    "doc": "SAMDA1 Xplained Pro",
     "title": "Running the Application",
-    "content": ". | Open the application project /firmware/sam_e54_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_e54_xpro.html#running-the-application",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_e54_xpro.html#running-the-application"
-  },"72": {
-    "doc": "SAME54 Xplained Pro",
-    "title": "SAME54 Xplained Pro",
+    "content": ". | Open the application project /firmware/sam_da1_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_da1_xpro.html#running-the-application",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_da1_xpro.html#running-the-application"
+  },"57": {
+    "doc": "SAMDA1 Xplained Pro",
+    "title": "SAMDA1 Xplained Pro",
     "content": ". ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_e54_xpro.html",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_e54_xpro.html"
-  },"73": {
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_da1_xpro.html",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_da1_xpro.html"
+  },"58": {
     "doc": "SAME54 Xplained Pro",
     "title": "SAME54 Xplained Pro Onboard Sensor Example",
     "content": "Path of the application within the repository is apps/onboard_sensor/firmware/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/docs/readme_sam_e54_xpro.html#same54-xplained-pro-onboard-sensor-example",
     "relUrl": "/apps/onboard_sensor/docs/readme_sam_e54_xpro.html#same54-xplained-pro-onboard-sensor-example"
-  },"74": {
+  },"59": {
     "doc": "SAME54 Xplained Pro",
     "title": "Hardware Setup",
     "content": ". | Project uses SAM E54 Xplained Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/docs/readme_sam_e54_xpro.html#hardware-setup",
     "relUrl": "/apps/onboard_sensor/docs/readme_sam_e54_xpro.html#hardware-setup"
-  },"75": {
+  },"60": {
     "doc": "SAME54 Xplained Pro",
     "title": "Running The Application",
     "content": ". | Open the application project /firmware/sam_e54_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/docs/readme_sam_e54_xpro.html#running-the-application",
     "relUrl": "/apps/onboard_sensor/docs/readme_sam_e54_xpro.html#running-the-application"
-  },"76": {
+  },"61": {
     "doc": "SAME54 Xplained Pro",
     "title": "SAME54 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/docs/readme_sam_e54_xpro.html",
     "relUrl": "/apps/onboard_sensor/docs/readme_sam_e54_xpro.html"
-  },"77": {
+  },"62": {
+    "doc": "SAME54 Xplained Pro",
+    "title": "SAME54 Xplained Sensor Example using QT1 Xplained Pro Mutual",
+    "content": "Path of the application within the repository is apps/qt1_mutualcap_xpro_board/firmware/ . To build the application, refer to the following table and open the project using its IDE. ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_e54_xpro.html#same54-xplained-sensor-example-using-qt1-xplained-pro-mutual",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_e54_xpro.html#same54-xplained-sensor-example-using-qt1-xplained-pro-mutual"
+  },"63": {
+    "doc": "SAME54 Xplained Pro",
+    "title": "Touch Application",
+    "content": "| Project Name | Description | . | qt1_mutualcap_xpro_board/firmware/sam_e54_xpro.X | MPLABX Project for SAM E54 Xplained Pro Evaluation Kit | . |   |   | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_e54_xpro.html#touch-application",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_e54_xpro.html#touch-application"
+  },"64": {
+    "doc": "SAME54 Xplained Pro",
+    "title": "Setting up the hardware",
+    "content": ". | Connect the QT1 Xplained pro Mutual capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_e54_xpro.html#setting-up-the-hardware",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_e54_xpro.html#setting-up-the-hardware"
+  },"65": {
+    "doc": "SAME54 Xplained Pro",
+    "title": "Running the Application",
+    "content": ". | Open the application project /firmware/sam_e54_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_e54_xpro.html#running-the-application",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_e54_xpro.html#running-the-application"
+  },"66": {
+    "doc": "SAME54 Xplained Pro",
+    "title": "SAME54 Xplained Pro",
+    "content": ". ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_e54_xpro.html",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_e54_xpro.html"
+  },"67": {
     "doc": "SAML10 Xplained Pro",
     "title": "SAML10 Xplained Example using QT7 Xplained Pro",
     "content": "Path of the application within the repository is apps/qt7_selfcap_xpro_board/firmware/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/docs/readme_sam_l10_xpro.html#saml10-xplained-example-using-qt7-xplained-pro",
     "relUrl": "/apps/qt7_selfcap_xpro_board/docs/readme_sam_l10_xpro.html#saml10-xplained-example-using-qt7-xplained-pro"
-  },"78": {
+  },"68": {
     "doc": "SAML10 Xplained Pro",
     "title": "Hardware Setup",
     "content": ". | Connect QT7 Xplained Pro Extension Kit to SAM L10 Xplained Pro Evaluation Kit on extension header EXT1 . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/docs/readme_sam_l10_xpro.html#hardware-setup",
     "relUrl": "/apps/qt7_selfcap_xpro_board/docs/readme_sam_l10_xpro.html#hardware-setup"
-  },"79": {
+  },"69": {
     "doc": "SAML10 Xplained Pro",
     "title": "Running The Application",
     "content": ". | Open the application project /firmware/sam_L10_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/docs/readme_sam_l10_xpro.html#running-the-application",
     "relUrl": "/apps/qt7_selfcap_xpro_board/docs/readme_sam_l10_xpro.html#running-the-application"
-  },"80": {
+  },"70": {
     "doc": "SAML10 Xplained Pro",
     "title": "SAML10 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/docs/readme_sam_l10_xpro.html",
     "relUrl": "/apps/qt7_selfcap_xpro_board/docs/readme_sam_l10_xpro.html"
-  },"81": {
-    "doc": "SAML21 Xplained Pro",
-    "title": "SAML21 Xplained Pro Onboard Sensor Example",
-    "content": "Path of the application within the repository is apps/onboard_sensor/firmware/ . To build the application, refer to the following table and open the project using its IDE. ",
-    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/docs/readme_sam_l21_xpro.html#saml21-xplained-pro-onboard-sensor-example",
-    "relUrl": "/apps/onboard_sensor/docs/readme_sam_l21_xpro.html#saml21-xplained-pro-onboard-sensor-example"
-  },"82": {
-    "doc": "SAML21 Xplained Pro",
-    "title": "Hardware Setup",
-    "content": ". | Project uses SAM L21 Xplained Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
-    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/docs/readme_sam_l21_xpro.html#hardware-setup",
-    "relUrl": "/apps/onboard_sensor/docs/readme_sam_l21_xpro.html#hardware-setup"
-  },"83": {
-    "doc": "SAML21 Xplained Pro",
-    "title": "Running The Application",
-    "content": ". | Open the application project /firmware/sam_l21_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
-    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/docs/readme_sam_l21_xpro.html#running-the-application",
-    "relUrl": "/apps/onboard_sensor/docs/readme_sam_l21_xpro.html#running-the-application"
-  },"84": {
-    "doc": "SAML21 Xplained Pro",
-    "title": "SAML21 Xplained Pro",
-    "content": ". ",
-    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/docs/readme_sam_l21_xpro.html",
-    "relUrl": "/apps/onboard_sensor/docs/readme_sam_l21_xpro.html"
-  },"85": {
+  },"71": {
     "doc": "SAML21 Xplained Pro",
     "title": "SAML21 Xplained Sensor Example using QT1 Xplained Pro Mutual",
     "content": "Path of the application within the repository is apps/qt1_mutualcap_xpro_board/firmware/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_l21_xpro.html#saml21-xplained-sensor-example-using-qt1-xplained-pro-mutual",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_l21_xpro.html#saml21-xplained-sensor-example-using-qt1-xplained-pro-mutual"
-  },"86": {
+  },"72": {
     "doc": "SAML21 Xplained Pro",
     "title": "Touch Application",
     "content": "| Project Name | Description | . | qt1_mutualcap_xpro_board/firmware/sam_l21_xpro.X | MPLABX Project for SAM L21 Xplained Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_l21_xpro.html#touch-application",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_l21_xpro.html#touch-application"
-  },"87": {
+  },"73": {
     "doc": "SAML21 Xplained Pro",
     "title": "Setting up the hardware",
     "content": ". | Connect the QT1 Xplained pro Mutual capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_l21_xpro.html#setting-up-the-hardware",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_l21_xpro.html#setting-up-the-hardware"
-  },"88": {
+  },"74": {
     "doc": "SAML21 Xplained Pro",
     "title": "Running the Application",
     "content": ". | Open the application project /firmware/sam_l21_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_l21_xpro.html#running-the-application",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_l21_xpro.html#running-the-application"
-  },"89": {
+  },"75": {
     "doc": "SAML21 Xplained Pro",
     "title": "SAML21 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_l21_xpro.html",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_l21_xpro.html"
-  },"90": {
+  },"76": {
+    "doc": "SAML21 Xplained Pro",
+    "title": "SAML21 Xplained Pro Onboard Sensor Example",
+    "content": "Path of the application within the repository is apps/onboard_sensor/firmware/ . To build the application, refer to the following table and open the project using its IDE. ",
+    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/docs/readme_sam_l21_xpro.html#saml21-xplained-pro-onboard-sensor-example",
+    "relUrl": "/apps/onboard_sensor/docs/readme_sam_l21_xpro.html#saml21-xplained-pro-onboard-sensor-example"
+  },"77": {
+    "doc": "SAML21 Xplained Pro",
+    "title": "Hardware Setup",
+    "content": ". | Project uses SAM L21 Xplained Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
+    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/docs/readme_sam_l21_xpro.html#hardware-setup",
+    "relUrl": "/apps/onboard_sensor/docs/readme_sam_l21_xpro.html#hardware-setup"
+  },"78": {
+    "doc": "SAML21 Xplained Pro",
+    "title": "Running The Application",
+    "content": ". | Open the application project /firmware/sam_l21_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
+    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/docs/readme_sam_l21_xpro.html#running-the-application",
+    "relUrl": "/apps/onboard_sensor/docs/readme_sam_l21_xpro.html#running-the-application"
+  },"79": {
+    "doc": "SAML21 Xplained Pro",
+    "title": "SAML21 Xplained Pro",
+    "content": ". ",
+    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/docs/readme_sam_l21_xpro.html",
+    "relUrl": "/apps/onboard_sensor/docs/readme_sam_l21_xpro.html"
+  },"80": {
     "doc": "SAML22 Xplained Pro",
     "title": "SAML22 Xplained Sensor Example using QT1 Xplained Pro Mutual",
     "content": "Path of the application within the repository is apps/qt1_mutualcap_xpro_board/firmware/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_l22_xpro.html#saml22-xplained-sensor-example-using-qt1-xplained-pro-mutual",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_l22_xpro.html#saml22-xplained-sensor-example-using-qt1-xplained-pro-mutual"
-  },"91": {
+  },"81": {
     "doc": "SAML22 Xplained Pro",
     "title": "Touch Application",
     "content": "| Project Name | Description | . | qt1_mutualcap_xpro_board/firmware/sam_l22_xpro.X | MPLABX Project for SAM L22 Xplained Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_l22_xpro.html#touch-application",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_l22_xpro.html#touch-application"
-  },"92": {
+  },"82": {
     "doc": "SAML22 Xplained Pro",
     "title": "Setting up the hardware",
     "content": ". | Connect the QT1 Xplained pro Mutual capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_l22_xpro.html#setting-up-the-hardware",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_l22_xpro.html#setting-up-the-hardware"
-  },"93": {
+  },"83": {
     "doc": "SAML22 Xplained Pro",
     "title": "Running the Application",
     "content": ". | Open the application project /firmware/sam_l22_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_l22_xpro.html#running-the-application",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_l22_xpro.html#running-the-application"
-  },"94": {
+  },"84": {
     "doc": "SAML22 Xplained Pro",
     "title": "SAML22 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/docs/readme_sam_l22_xpro.html",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/docs/readme_sam_l22_xpro.html"
-  },"95": {
+  },"85": {
     "doc": "SAML22 Xplained Pro",
     "title": "SAML22 Xplained Pro Onboard Sensor Example",
     "content": " ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/docs/readme_sam_l22_xpro.html#saml22-xplained-pro-onboard-sensor-example",
     "relUrl": "/apps/onboard_sensor/docs/readme_sam_l22_xpro.html#saml22-xplained-pro-onboard-sensor-example"
-  },"96": {
+  },"86": {
     "doc": "SAML22 Xplained Pro",
     "title": "Downloading and building the application",
     "content": "Path of the application within the repository is apps/onboard_sensor/firmware/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/docs/readme_sam_l22_xpro.html#downloading-and-building-the-application",
     "relUrl": "/apps/onboard_sensor/docs/readme_sam_l22_xpro.html#downloading-and-building-the-application"
-  },"97": {
+  },"87": {
     "doc": "SAML22 Xplained Pro",
     "title": "Hardware Setup",
     "content": ". | Project uses SAM L22 Xplained Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/docs/readme_sam_l22_xpro.html#hardware-setup",
     "relUrl": "/apps/onboard_sensor/docs/readme_sam_l22_xpro.html#hardware-setup"
-  },"98": {
+  },"88": {
     "doc": "SAML22 Xplained Pro",
     "title": "Running The Application",
     "content": ". | Open the application project /firmware/sam_l22_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/docs/readme_sam_l22_xpro.html#running-the-application",
     "relUrl": "/apps/onboard_sensor/docs/readme_sam_l22_xpro.html#running-the-application"
-  },"99": {
+  },"89": {
     "doc": "SAML22 Xplained Pro",
     "title": "SAML22 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/docs/readme_sam_l22_xpro.html",
     "relUrl": "/apps/onboard_sensor/docs/readme_sam_l22_xpro.html"
-  },"100": {
+  },"90": {
     "doc": "Touch Applications",
     "title": "Touch Applications",
-    "content": "![Microchip logo](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_logo.png) ![Harmony logo small](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_mplab_harmony_logo_small.png) # Microchip MPLAB® Harmony 3 Touch Library MPLAB Harmony 3 Touch Library is a royalty-free software library for developing touch applications on 32-bit microcontrollers using the Peripheral Touch Controller (PTC). Developers can use it to integrate touch-sensing capability into their applications. The library supports both self-capacitance and mutual-capacitance acquisition methods. MPLAB Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded firmware solutions for Microchip 32-bit SAM and PIC microcontroller and microprocessor devices. Refer to the following links for more information. - [Microchip 32-bit MCUs](https://www.microchip.com/design-centers/32-bit) - [Microchip 32-bit MPUs](https://www.microchip.com/design-centers/32-bit-mpus) - [Microchip MPLAB X IDE](https://www.microchip.com/mplab/mplab-x-ide) - [Microchip MPLAB Harmony](https://www.microchip.com/mplab/mplab-harmony) - [Microchip MPLAB Harmony Pages](https://microchip-mplab-harmony.github.io/) This repository contains the MPLAB® Harmony 3 Touch application examples - [Release Notes](/touch_apps/release_notes.html) - [MPLAB® Harmony License](/touch_apps/mplab_harmony_license.html) To clone or download these application from Github,go to the [main page of this repository](https://github.com/Microchip-MPLAB-Harmony/touch_apps) and then click Clone button to clone this repo or download as zip file. This content can also be download using content manager by following [these instructions](https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki) ## Contents Summary | Folder | Description | --- | --- | apps | Touch example applications | docs | Applications help documentation | ## Touch Library Refer to [Touch Library Help](https://microchip-mplab-harmony.github.io/touch) for overview ## Touch Examples The following applications are provided to demonstrate touch applications using Touch supporting Xplained boards | Name | Description|:---------|:-----------| [QT1 Xplained Pro Self Capacitance Extension Board](/touch_apps/apps/qt1_selfcap_xpro_board/readme.html)| Examples using the button and scroller operation using self capacitance | [QT1 Xplained Pro Mutual Capacitance Extension Board](/touch_apps/apps/qt1_mutualcap_xpro_board/readme.html) | Examples using the button and scroller operation using mutual capacitance | [QT7 Xplained Pro Extension Board](/touch_apps/apps/qt7_selfcap_xpro_board/readme.html)| Examples using the QT7 water tolerant and robust touch board | [Onboard Sensors - Single Button Development Boards](/touch_apps/apps/onboard_sensor/readme.html) | Examples using single onboard button on the Xplained / xplained mini boards | [Onboard Sensors - Multiple Button Development Boards](/touch_apps/apps/onboard_sensor_two_button/readme.html) | Examples using multiple onboard button on the Xplained / xplained mini boards | [T10 Xplained Pro Extension Board](/touch_apps/apps/t10_mutual_xpro_board/readme.html) | Examples using the button and scroller operation using mutual capacitance * Please refer to the [Touch Modular Library Userguide](https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en590454) available in the link below for further information. * Also, refer to the microchip developer pages listed under \"Harmony 3 Touch Configurator\" > Step by Step Examples > [Set Up the Environment](http://microchipdeveloper.com/touch:set-up-the-environment) for detailed information regarding configuring touch projects in Harmony framework. * For licensing information about contents of this module, please refer to [MPLAB Harmony License](/touch_apps/mplab_harmony_license.html). * For more information about the latest release, please refer to [Release Notes](/touch_apps/release_notes.html). ",
+    "content": "![Microchip logo](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_logo.png) ![Harmony logo small](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_mplab_harmony_logo_small.png) # Microchip MPLAB® Harmony 3 Touch Library MPLAB Harmony 3 Touch Library is a royalty-free software library for developing touch applications on 32-bit microcontrollers using the Peripheral Touch Controller (PTC). Developers can use it to integrate touch-sensing capability into their applications. The library supports both self-capacitance and mutual-capacitance acquisition methods. MPLAB Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded firmware solutions for Microchip 32-bit SAM and PIC microcontroller and microprocessor devices. Refer to the following links for more information. - [Microchip 32-bit MCUs](https://www.microchip.com/design-centers/32-bit) - [Microchip 32-bit MPUs](https://www.microchip.com/design-centers/32-bit-mpus) - [Microchip MPLAB X IDE](https://www.microchip.com/mplab/mplab-x-ide) - [Microchip MPLAB Harmony](https://www.microchip.com/mplab/mplab-harmony) - [Microchip MPLAB Harmony Pages](https://microchip-mplab-harmony.github.io/) This repository contains the MPLAB® Harmony 3 Touch application examples - [Release Notes](/touch_apps/release_notes.html) - [MPLAB® Harmony License](/touch_apps/mplab_harmony_license.html) To clone or download these application from Github,go to the [main page of this repository](https://github.com/Microchip-MPLAB-Harmony/touch_apps) and then click Clone button to clone this repo or download as zip file. This content can also be download using content manager by following [these instructions](https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki) ## Contents Summary | Folder | Description | --- | --- | apps | Touch example applications | docs | Applications help documentation | ## Touch Library Refer to [Touch Library Help](https://microchip-mplab-harmony.github.io/touch) for overview ## Touch Examples The following applications are provided to demonstrate touch applications using Touch supporting Xplained boards | Name | Description|:---------|:-----------| [QT1 Xplained Pro Self Capacitance Extension Board](/touch_apps/apps/qt1_selfcap_xpro_board/readme.html)| Examples using the button and scroller operation using self capacitance | [QT1 Xplained Pro Mutual Capacitance Extension Board](/touch_apps/apps/qt1_mutualcap_xpro_board/readme.html) | Examples using the button and scroller operation using mutual capacitance | [QT7 Xplained Pro Extension Board](/touch_apps/apps/qt7_selfcap_xpro_board/readme.html)| Examples using the QT7 water tolerant and robust touch board | [Onboard Sensors - Single Button Development Boards](/touch_apps/apps/onboard_sensor/readme.html) | Examples using single onboard button on the Xplained / xplained mini boards | [Onboard Sensors - Multiple Button Development Boards](/touch_apps/apps/onboard_sensor_two_button/readme.html) | Examples using multiple onboard button on the Xplained / xplained mini boards | [T10 Xplained Pro Extension Board](apps/t10_mutual_xpro_board/readme.md) | Examples using the button and scroller operation using mutual capacitance * Please refer to the [Touch Modular Library Userguide](https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en590454) available in the link below for further information. * Also, refer to the microchip developer pages listed under \"Harmony 3 Touch Configurator\" > Step by Step Examples > [Set Up the Environment](http://microchipdeveloper.com/touch:set-up-the-environment) for detailed information regarding configuring touch projects in Harmony framework. * For licensing information about contents of this module, please refer to [MPLAB Harmony License](/touch_apps/mplab_harmony_license.html). * For more information about the latest release, please refer to [Release Notes](/touch_apps/release_notes.html). ",
     "url": "http://localhost:4000/touch_apps/",
     "relUrl": "/"
   }

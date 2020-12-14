@@ -65,54 +65,50 @@
 // *****************************************************************************
 // *****************************************************************************
 
-  
 /*** Macros for LED_BUT_0 pin ***/
 #define LED_BUT_0_Set()               (PORT_REGS->GROUP[1].PORT_OUTSET = 1 << 12)
 #define LED_BUT_0_Clear()             (PORT_REGS->GROUP[1].PORT_OUTCLR = 1 << 12)
 #define LED_BUT_0_Toggle()            (PORT_REGS->GROUP[1].PORT_OUTTGL = 1 << 12)
-#define LED_BUT_0_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 12)) & 0x01)
 #define LED_BUT_0_OutputEnable()      (PORT_REGS->GROUP[1].PORT_DIRSET = 1 << 12)
 #define LED_BUT_0_InputEnable()       (PORT_REGS->GROUP[1].PORT_DIRCLR = 1 << 12)
+#define LED_BUT_0_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 12)) & 0x01)
 #define LED_BUT_0_PIN                  PORT_PIN_PB12
 
 /*** Macros for LED_BUT_1 pin ***/
 #define LED_BUT_1_Set()               (PORT_REGS->GROUP[1].PORT_OUTSET = 1 << 13)
 #define LED_BUT_1_Clear()             (PORT_REGS->GROUP[1].PORT_OUTCLR = 1 << 13)
 #define LED_BUT_1_Toggle()            (PORT_REGS->GROUP[1].PORT_OUTTGL = 1 << 13)
-#define LED_BUT_1_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 13)) & 0x01)
 #define LED_BUT_1_OutputEnable()      (PORT_REGS->GROUP[1].PORT_DIRSET = 1 << 13)
 #define LED_BUT_1_InputEnable()       (PORT_REGS->GROUP[1].PORT_DIRCLR = 1 << 13)
+#define LED_BUT_1_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 13)) & 0x01)
 #define LED_BUT_1_PIN                  PORT_PIN_PB13
 
 /*** Macros for LED_WHEEL_R pin ***/
 #define LED_WHEEL_R_Set()               (PORT_REGS->GROUP[1].PORT_OUTSET = 1 << 14)
 #define LED_WHEEL_R_Clear()             (PORT_REGS->GROUP[1].PORT_OUTCLR = 1 << 14)
 #define LED_WHEEL_R_Toggle()            (PORT_REGS->GROUP[1].PORT_OUTTGL = 1 << 14)
-#define LED_WHEEL_R_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 14)) & 0x01)
 #define LED_WHEEL_R_OutputEnable()      (PORT_REGS->GROUP[1].PORT_DIRSET = 1 << 14)
 #define LED_WHEEL_R_InputEnable()       (PORT_REGS->GROUP[1].PORT_DIRCLR = 1 << 14)
+#define LED_WHEEL_R_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 14)) & 0x01)
 #define LED_WHEEL_R_PIN                  PORT_PIN_PB14
 
 /*** Macros for LED_WHEEL_G pin ***/
 #define LED_WHEEL_G_Set()               (PORT_REGS->GROUP[1].PORT_OUTSET = 1 << 15)
 #define LED_WHEEL_G_Clear()             (PORT_REGS->GROUP[1].PORT_OUTCLR = 1 << 15)
 #define LED_WHEEL_G_Toggle()            (PORT_REGS->GROUP[1].PORT_OUTTGL = 1 << 15)
-#define LED_WHEEL_G_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 15)) & 0x01)
 #define LED_WHEEL_G_OutputEnable()      (PORT_REGS->GROUP[1].PORT_DIRSET = 1 << 15)
 #define LED_WHEEL_G_InputEnable()       (PORT_REGS->GROUP[1].PORT_DIRCLR = 1 << 15)
+#define LED_WHEEL_G_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 15)) & 0x01)
 #define LED_WHEEL_G_PIN                  PORT_PIN_PB15
 
 /*** Macros for LED_WHEEL_B pin ***/
 #define LED_WHEEL_B_Set()               (PORT_REGS->GROUP[0].PORT_OUTSET = 1 << 17)
 #define LED_WHEEL_B_Clear()             (PORT_REGS->GROUP[0].PORT_OUTCLR = 1 << 17)
 #define LED_WHEEL_B_Toggle()            (PORT_REGS->GROUP[0].PORT_OUTTGL = 1 << 17)
-#define LED_WHEEL_B_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 17)) & 0x01)
 #define LED_WHEEL_B_OutputEnable()      (PORT_REGS->GROUP[0].PORT_DIRSET = 1 << 17)
 #define LED_WHEEL_B_InputEnable()       (PORT_REGS->GROUP[0].PORT_DIRCLR = 1 << 17)
+#define LED_WHEEL_B_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 17)) & 0x01)
 #define LED_WHEEL_B_PIN                  PORT_PIN_PA17
-
-
-
 // *****************************************************************************
 /* PORT Group
 
@@ -922,7 +918,7 @@ void PORT_GroupToggle(PORT_GROUP group, uint32_t mask);
     void PORT_GroupInputEnable(PORT_GROUP group, uint32_t mask)
 
   Summary:
-    Confgiures the selected IO pins of a group as input.
+    Configures the selected IO pins of a group as input.
 
   Description:
     This function configures the selected IO pins of a group as input. The pins
@@ -961,7 +957,7 @@ void PORT_GroupInputEnable(PORT_GROUP group, uint32_t mask);
     void PORT_GroupOutputEnable(PORT_GROUP group, uint32_t mask)
 
   Summary:
-    Confgiures the selected IO pins of a group as output.
+    Configures the selected IO pins of a group as output.
 
   Description:
     This function configures the selected IO pins of a group as output. The pins

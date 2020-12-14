@@ -60,7 +60,7 @@ void RTC_Initialize(void)
 
     RTC_REGS->MODE0.RTC_CTRLA = RTC_MODE0_CTRLA_MODE(0) | RTC_MODE0_CTRLA_PRESCALER(0x1) | RTC_MODE0_CTRLA_COUNTSYNC_Msk |RTC_MODE0_CTRLA_MATCHCLR_Msk ;
 
-   RTC_REGS->MODE0.RTC_COMP = 0x0;
+   RTC_REGS->MODE0.RTC_COMP = 0x1;
 
     RTC_REGS->MODE0.RTC_INTENSET = 0x100;
 
@@ -113,8 +113,7 @@ uint32_t RTC_Timer32CounterGet ( void )
     {
         /* Wait for Synchronization before reading value from Count Register */
     }
-
-    return(RTC_REGS->MODE0.RTC_COUNT + 4);
+   return(RTC_REGS->MODE0.RTC_COUNT);
 }
 
 uint32_t RTC_Timer32PeriodGet ( void )
@@ -168,7 +167,7 @@ void RTC_InterruptHandler( void )
 {
     rtcObj.timer32intCause = (RTC_TIMER32_INT_MASK) RTC_REGS->MODE0.RTC_INTFLAG;
     RTC_REGS->MODE0.RTC_INTFLAG = RTC_MODE0_INTFLAG_Msk;
-        
+
     /* Invoke registered Callback function */
     if(rtcObj.timer32BitCallback != NULL)
     {

@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.7.0 Release
+  Touch Library v3.9.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -37,7 +37,6 @@ CONSEQUENTIAL DAMAGES, LOST  PROFITS  OR  LOST  DATA,  COST  OF  PROCUREMENT  OF
 SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 (INCLUDING BUT NOT LIMITED TO ANY DEFENSE  THEREOF),  OR  OTHER  SIMILAR  COSTS.
 *******************************************************************************/
-
 #ifndef TOUCH_H
 #define TOUCH_H
 
@@ -118,7 +117,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #define NODE_0_PARAMS                                                                                               \
 {                                                                                                                  \
-   X(24), Y(12), 0,PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_16                   \
+   X_NONE, Y(12), 0,PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_16                   \
 }
 
 /**********************************************************/
@@ -133,10 +132,12 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 /* Defines Key Sensor setting
  * {Sensor Threshold, Sensor Hysterisis, Sensor AKS}
  */
+
 #define KEY_0_PARAMS                                                                                            \
 {                                                                                                              \
     20, HYST_25, NO_AKS_GROUP                       \
 }
+
 
 /* De-bounce counter for additional measurements to confirm touch detection
  * Range: 0 to 255.
@@ -227,13 +228,11 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  */
 #define FREQ_AUTOTUNE_COUNT_IN 6
 
-
-
-
 /**********************************************************/
 /***************** Communication - Data Streamer ******************/
 /**********************************************************/
 #define DEF_TOUCH_DATA_STREAMER_ENABLE 1u
+
 
 /**********************************************************/
 

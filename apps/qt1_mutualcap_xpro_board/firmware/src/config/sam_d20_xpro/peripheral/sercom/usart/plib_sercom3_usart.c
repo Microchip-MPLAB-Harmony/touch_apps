@@ -111,6 +111,7 @@ void SERCOM3_USART_Initialize( void )
     /* Wait for sync */
     while((SERCOM3_REGS->USART_INT.SERCOM_STATUS & SERCOM_USART_INT_STATUS_SYNCBUSY_Msk) & SERCOM_USART_INT_STATUS_SYNCBUSY_Msk);
 
+
     /* Enable the UART after the configurations */
     SERCOM3_REGS->USART_INT.SERCOM_CTRLA |= SERCOM_USART_INT_CTRLA_ENABLE_Msk;
 
@@ -154,15 +155,17 @@ bool SERCOM3_USART_SerialSetup( USART_SERIAL_SETUP * serialSetup, uint32_t clkFr
             /* Configure Parity Options */
             if(serialSetup->parity == USART_PARITY_NONE)
             {
-                SERCOM3_REGS->USART_INT.SERCOM_CTRLA |= SERCOM_USART_INT_CTRLA_FORM(0x0) ;
+                SERCOM3_REGS->USART_INT.SERCOM_CTRLA = 
+                (SERCOM3_REGS->USART_INT.SERCOM_CTRLA & ~SERCOM_USART_INT_CTRLA_FORM_Msk) | SERCOM_USART_INT_CTRLA_FORM(0x0);
 
-                SERCOM3_REGS->USART_INT.SERCOM_CTRLB |= (uint32_t) serialSetup->dataWidth | (uint32_t) serialSetup->stopBits;
+                SERCOM3_REGS->USART_INT.SERCOM_CTRLB = (SERCOM3_REGS->USART_INT.SERCOM_CTRLB & ~(SERCOM_USART_INT_CTRLB_CHSIZE_Msk | SERCOM_USART_INT_CTRLB_SBMODE_Pos)) | ((uint32_t) serialSetup->dataWidth | (uint32_t) serialSetup->stopBits);
             }
             else
             {
-                SERCOM3_REGS->USART_INT.SERCOM_CTRLA |= SERCOM_USART_INT_CTRLA_FORM(0x1) ;
+                SERCOM3_REGS->USART_INT.SERCOM_CTRLA = 
+                (SERCOM3_REGS->USART_INT.SERCOM_CTRLA & ~SERCOM_USART_INT_CTRLA_FORM_Msk) | SERCOM_USART_INT_CTRLA_FORM(0x1);
 
-                SERCOM3_REGS->USART_INT.SERCOM_CTRLB |= (uint32_t) serialSetup->dataWidth | (uint32_t) serialSetup->parity | (uint32_t) serialSetup->stopBits;
+                SERCOM3_REGS->USART_INT.SERCOM_CTRLB = (SERCOM3_REGS->USART_INT.SERCOM_CTRLB & ~(SERCOM_USART_INT_CTRLB_CHSIZE_Msk | SERCOM_USART_INT_CTRLB_SBMODE_Pos | SERCOM_USART_INT_CTRLB_PMODE_Msk)) | (uint32_t) serialSetup->dataWidth | (uint32_t) serialSetup->stopBits | (uint32_t) serialSetup->parity ;
             }
 
             /* Wait for sync */
@@ -195,6 +198,23 @@ USART_ERROR SERCOM3_USART_ErrorGet( void )
     return errorStatus;
 }
 
+
+void SERCOM3_USART_TransmitterEnable( void )
+{
+    SERCOM3_REGS->USART_INT.SERCOM_CTRLB |= SERCOM_USART_INT_CTRLB_TXEN_Msk;
+	
+	/* Wait for sync */
+    while((SERCOM3_REGS->USART_INT.SERCOM_STATUS & SERCOM_USART_INT_STATUS_SYNCBUSY_Msk) & SERCOM_USART_INT_STATUS_SYNCBUSY_Msk);
+}
+
+void SERCOM3_USART_TransmitterDisable( void )
+{
+    SERCOM3_REGS->USART_INT.SERCOM_CTRLB &= ~SERCOM_USART_INT_CTRLB_TXEN_Msk;
+	
+	/* Wait for sync */
+    while((SERCOM3_REGS->USART_INT.SERCOM_STATUS & SERCOM_USART_INT_STATUS_SYNCBUSY_Msk) & SERCOM_USART_INT_STATUS_SYNCBUSY_Msk);
+}
+
 bool SERCOM3_USART_Write( void *buffer, const size_t size )
 {
     bool writeStatus      = false;
@@ -218,6 +238,7 @@ bool SERCOM3_USART_Write( void *buffer, const size_t size )
 
     return writeStatus;
 }
+
 
 bool SERCOM3_USART_TransmitterIsReady( void )
 {
@@ -249,6 +270,22 @@ void SERCOM3_USART_WriteByte( int data )
     while((SERCOM3_REGS->USART_INT.SERCOM_INTFLAG & SERCOM_USART_INT_INTFLAG_DRE_Msk) != SERCOM_USART_INT_INTFLAG_DRE_Msk);
 
     SERCOM3_REGS->USART_INT.SERCOM_DATA = data;
+}
+
+void SERCOM3_USART_ReceiverEnable( void )
+{
+    SERCOM3_REGS->USART_INT.SERCOM_CTRLB |= SERCOM_USART_INT_CTRLB_RXEN_Msk;
+	
+	/* Wait for sync */
+    while((SERCOM3_REGS->USART_INT.SERCOM_STATUS & SERCOM_USART_INT_STATUS_SYNCBUSY_Msk) & SERCOM_USART_INT_STATUS_SYNCBUSY_Msk);
+}
+
+void SERCOM3_USART_ReceiverDisable( void )
+{
+    SERCOM3_REGS->USART_INT.SERCOM_CTRLB &= ~SERCOM_USART_INT_CTRLB_RXEN_Msk;
+	
+	/* Wait for sync */
+    while((SERCOM3_REGS->USART_INT.SERCOM_STATUS & SERCOM_USART_INT_STATUS_SYNCBUSY_Msk) & SERCOM_USART_INT_STATUS_SYNCBUSY_Msk);
 }
 
 bool SERCOM3_USART_Read( void *buffer, const size_t size )

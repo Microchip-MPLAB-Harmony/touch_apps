@@ -65,18 +65,14 @@
 // *****************************************************************************
 // *****************************************************************************
 
-  
 /*** Macros for LED_BUT_0 pin ***/
 #define LED_BUT_0_Set()               (PORT_REGS->GROUP[0].PORT_OUTSET = 1 << 16)
 #define LED_BUT_0_Clear()             (PORT_REGS->GROUP[0].PORT_OUTCLR = 1 << 16)
 #define LED_BUT_0_Toggle()            (PORT_REGS->GROUP[0].PORT_OUTTGL = 1 << 16)
-#define LED_BUT_0_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 16)) & 0x01)
 #define LED_BUT_0_OutputEnable()      (PORT_REGS->GROUP[0].PORT_DIRSET = 1 << 16)
 #define LED_BUT_0_InputEnable()       (PORT_REGS->GROUP[0].PORT_DIRCLR = 1 << 16)
+#define LED_BUT_0_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 16)) & 0x01)
 #define LED_BUT_0_PIN                  PORT_PIN_PA16
-
-
-
 // *****************************************************************************
 /* PORT Group
 
@@ -172,6 +168,24 @@ typedef enum
 
     /* PA23 pin */
     PORT_PIN_PA23 = 23,
+
+    /* PA24 pin */
+    PORT_PIN_PA24 = 24,
+
+    /* PA25 pin */
+    PORT_PIN_PA25 = 25,
+
+    /* PA27 pin */
+    PORT_PIN_PA27 = 27,
+
+    /* PA28 pin */
+    PORT_PIN_PA28 = 28,
+
+    /* PA30 pin */
+    PORT_PIN_PA30 = 30,
+
+    /* PA31 pin */
+    PORT_PIN_PA31 = 31,
 
     /* This element should not be used in any of the PORT APIs.
      * It will be used by other modules or application to denote that none of
@@ -775,7 +789,7 @@ void PORT_GroupToggle(PORT_GROUP group, uint32_t mask);
     void PORT_GroupInputEnable(PORT_GROUP group, uint32_t mask)
 
   Summary:
-    Confgiures the selected IO pins of a group as input.
+    Configures the selected IO pins of a group as input.
 
   Description:
     This function configures the selected IO pins of a group as input. The pins
@@ -814,7 +828,7 @@ void PORT_GroupInputEnable(PORT_GROUP group, uint32_t mask);
     void PORT_GroupOutputEnable(PORT_GROUP group, uint32_t mask)
 
   Summary:
-    Confgiures the selected IO pins of a group as output.
+    Configures the selected IO pins of a group as output.
 
   Description:
     This function configures the selected IO pins of a group as output. The pins

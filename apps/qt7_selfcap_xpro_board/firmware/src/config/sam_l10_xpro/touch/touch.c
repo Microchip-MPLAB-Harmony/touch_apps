@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.8.0 Release
+  Touch Library v3.9.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -38,6 +38,8 @@ CONSEQUENTIAL DAMAGES, LOST  PROFITS  OR  LOST  DATA,  COST  OF  PROCUREMENT  OF
 SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 (INCLUDING BUT NOT LIMITED TO ANY DEFENSE  THEREOF),  OR  OTHER  SIMILAR  COSTS.
 *******************************************************************************/
+
+
 
 /*----------------------------------------------------------------------------
  *     include files
@@ -224,7 +226,6 @@ static void qtm_measure_complete_callback(void)
     touch_postprocess_request = 1u;
 }
 
-
 /*============================================================================
 static void qtm_error_callback(uint8_t error)
 ------------------------------------------------------------------------------
@@ -284,9 +285,10 @@ Notes  :
 void touch_process(void)
 {
     touch_ret_t touch_ret;
+
     /* check the time_to_measure_touch for Touch Acquisition */
-    if (time_to_measure_touch_var)
-	{
+    if (time_to_measure_touch_var == 1u) {
+
         /* Do the acquisition */
          touch_ret = qtm_ptc_start_measurement_seq(&qtlib_acq_set1, qtm_measure_complete_callback);
 
@@ -317,27 +319,27 @@ void touch_process(void)
             touch_ret = qtm_scroller_process(&qtm_scroller_control1);
             if (TOUCH_SUCCESS != touch_ret) {
                 qtm_error_callback(3);
-}        
+            }
          }else {
            /* Acq module Error Detected: Issue an Acq module common error code 0x80 */
             qtm_error_callback(0);
         }
-        if((0u != (qtlib_key_set1.qtm_touch_key_group_data->qtm_keys_status & 0x80u)))
-        {
-        time_to_measure_touch_var = 1u;
+
+        if (0u != (qtlib_key_set1.qtm_touch_key_group_data->qtm_keys_status & QTM_KEY_REBURST)) {
+            time_to_measure_touch_var = 1u;
+        } else if (0u != (qtlib_key_grp_data_set1.qtm_keys_status & QTM_KEY_DETECT)) {
+            /* Something in detect */
+            time_to_measure_touch_var = 1u;
+            measurement_done_touch =1u;
         }
-        else
-        {   
-            measurement_done_touch = 1u;
-        }
+    }
 
 
     #if DEF_TOUCH_DATA_STREAMER_ENABLE == 1
         datastreamer_output();
     #endif
 }
-}
-uint8_t interrupt_cnt;
+
 /*============================================================================
 void touch_timer_handler(void)
 ------------------------------------------------------------------------------
@@ -349,28 +351,23 @@ Notes  :
 ============================================================================*/
 void touch_timer_handler(void)
 {
-	interrupt_cnt++;
-	if (interrupt_cnt >= DEF_TOUCH_MEASUREMENT_PERIOD_MS) {
-		interrupt_cnt = 0;
-		/* Count complete - Measure touch sensors */
-		time_to_measure_touch_var = 1;
-		qtm_update_qtlib_timer(DEF_TOUCH_MEASUREMENT_PERIOD_MS);
-	}
-    /* Count complete - Measure touch sensors */
-	time_to_measure_touch_var = 1;
+ 
+  
+    time_to_measure_touch_var = 1u;
     qtm_update_qtlib_timer(DEF_TOUCH_MEASUREMENT_PERIOD_MS);
 }
+
 void rtc_cb( RTC_TIMER32_INT_MASK intCause, uintptr_t context )
 {
-     touch_timer_handler();
+    touch_timer_handler();
 }
 uintptr_t rtc_context;
 
 void touch_timer_config(void)
 {  
-	RTC_Timer32CallbackRegister(rtc_cb, rtc_context);
-	RTC_Timer32Start();
-RTC_Timer32CompareSet(DEF_TOUCH_MEASUREMENT_PERIOD_MS);
+    RTC_Timer32CallbackRegister(rtc_cb, rtc_context);
+    RTC_Timer32CompareSet(DEF_TOUCH_MEASUREMENT_PERIOD_MS);
+    RTC_Timer32Start();  
 }
 
 uint16_t get_sensor_node_signal(uint16_t sensor_node)
@@ -420,6 +417,7 @@ void calibrate_node(uint16_t sensor_node)
     /* Initialize key */
     qtm_init_sensor_key(&qtlib_key_set1, sensor_node, &ptc_qtlib_node_stat1[sensor_node]);
 }
+
 uint8_t get_scroller_state(uint16_t sensor_node)
 {
 	return (qtm_scroller_control1.qtm_scroller_data[sensor_node].scroller_status);

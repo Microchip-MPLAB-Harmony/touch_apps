@@ -40,7 +40,6 @@
               <itemPath>../src/config/sam_d21_xpro/touch/datastreamer/03EB00000000000000AA5501.sc</itemPath>
             </logicalFolder>
             <itemPath>../src/config/sam_d21_xpro/touch/qtm_acq_samd21_0x0024_api.h</itemPath>
-            <itemPath>../src/config/sam_d21_xpro/touch/qtm_binding_layer_0x0005_api.h</itemPath>
             <itemPath>../src/config/sam_d21_xpro/touch/qtm_common_components_api.h</itemPath>
             <itemPath>../src/config/sam_d21_xpro/touch/qtm_touch_key_0x0002_api.h</itemPath>
             <itemPath>../src/config/sam_d21_xpro/touch/qtm_scroller_0x000b_api.h</itemPath>
@@ -51,6 +50,7 @@
           <itemPath>../src/config/sam_d21_xpro/device_cache.h</itemPath>
           <itemPath>../src/config/sam_d21_xpro/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/sam_d21_xpro/definitions.h</itemPath>
+          <itemPath>..\src\config\sam_d21_xpro\device.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="packs" projectFiles="true">
@@ -83,8 +83,6 @@
           <logicalFolder name="f2" displayName="pio" projectFiles="true">
             <itemPath>../src/packs/ATSAMD21J18A_DFP/pio/samd21j18a.h</itemPath>
           </logicalFolder>
-          <itemPath>../src/packs/ATSAMD21J18A_DFP/device.h</itemPath>
-          <itemPath>../src/packs/ATSAMD21J18A_DFP/atsamd21j18a_compat.h</itemPath>
           <itemPath>../src/packs/ATSAMD21J18A_DFP/atsamd21j18a.h</itemPath>
         </logicalFolder>
         <logicalFolder name="f2" displayName="CMSIS" projectFiles="true">
@@ -100,6 +98,7 @@
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm0plus.h</itemPath>
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv7.h</itemPath>
+                <itemPath>..\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
@@ -109,6 +108,11 @@
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
                    projectFiles="true">
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1" displayName="sam_d21_xpro" projectFiles="true">
+          <itemPath>..\src\config\sam_d21_xpro\ATSAMD21J18A.ld</itemPath>
+        </logicalFolder>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
@@ -161,9 +165,21 @@
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="false">
+      <logicalFolder name="f1" displayName="sam_d21_xpro.mhc" projectFiles="true">
+        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\cmsis.yml</itemPath>
+        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\core.yml</itemPath>
+        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\dfp.yml</itemPath>
+        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\evsys.yml</itemPath>
+        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\GraphSettings.yml</itemPath>
+        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\lib_qtouch.yml</itemPath>
+        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\nvmctrl.yml</itemPath>
+        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\project.yml</itemPath>
+        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\rtc.yml</itemPath>
+        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\sercom3.yml</itemPath>
+        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\settings.yml</itemPath>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/sam_d21_xpro/harmony.prj</itemPath>
-      <itemPath>../src/config/sam_d21_xpro/sam_d21_xpro.xml</itemPath>
+      <itemPath>..\src\config\sam_d21_xpro\harmony-manifest-success.yml</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
@@ -177,7 +193,7 @@
         <targetDevice>ATSAMD21J18A</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>noID</platformTool>
+        <platformTool>EdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>2.41</languageToolchainVersion>
         <platform>3</platform>
@@ -192,7 +208,6 @@
         <linkerTool>
           <linkerLibItems>
             <linkerLibFileItem>../src/config/sam_d21_xpro/touch/lib/qtm_acq_samd21_0x0024.X.a</linkerLibFileItem>
-            <linkerLibFileItem>../src/config/sam_d21_xpro/touch/lib/qtm_binding_layer_cm0p_0x0005.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/sam_d21_xpro/touch/lib/qtm_touch_key_cm0p_0x0002.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/sam_d21_xpro/touch/lib/qtm_scroller_cm0p_0x000b.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/sam_d21_xpro/touch/lib/qtm_freq_hop_auto_cm0p_0x0004.X.a</linkerLibFileItem>
@@ -210,6 +225,7 @@
       </compileType>
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeUseCleanTarget>false</makeUseCleanTarget>
         <makeCustomizationPreStep></makeCustomizationPreStep>
         <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
         <makeCustomizationPostStep></makeCustomizationPostStep>
@@ -250,7 +266,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/sam_d21_xpro;../src/packs/ATSAMD21J18A_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
+                  value="../src;../src/config/sam_d21_xpro;../src/packs/ATSAMD21J18A_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -345,7 +361,8 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories" value=""/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/sam_d21_xpro;../src/packs/ATSAMD21J18A_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -377,6 +394,8 @@
       </C32Global>
       <EdbgTool>
         <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="arm.use_vtor" value="false"/>
+        <property key="arm.vtor_adr" value="exception_table"/>
         <property key="communication.activationmode" value="nohv"/>
         <property key="communication.interface" value="swd"/>
         <property key="communication.speed" value="2.000"/>
@@ -386,6 +405,8 @@
         <property key="firmware.toolpack"
                   value="Press to select which tool pack to use"/>
         <property key="firmware.update.action" value="firmware.update.use.latest"/>
+        <property key="freeze.timers" value="false"/>
+        <property key="lastid" value=""/>
         <property key="memories.aux" value="false"/>
         <property key="memories.bootflash" value="true"/>
         <property key="memories.configurationmemory" value="true"/>
@@ -399,7 +420,10 @@
                   value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-3ffff"/>
+        <property key="memories.rww" value="true"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/Repositories/Harmony/touch_apps/apps/qt1_selfcap_xpro_board/firmware/sam_d21_xpro.X/debug/sam_d21_xpro/sam_d21_xpro_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"
@@ -410,6 +434,9 @@
         <property key="programoptions.preserveprogramrange" value="false"/>
         <property key="programoptions.preserveuserid" value="false"/>
         <property key="programoptions.programuserotp" value="false"/>
+        <property key="script.log_level" value="0"/>
+        <property key="script.reset_delay" value="0"/>
+        <property key="script.show_output" value="false"/>
         <property key="toolpack.updateoptions"
                   value="toolpack.updateoptions.uselatestoolpack"/>
         <property key="toolpack.updateoptions.packversion"

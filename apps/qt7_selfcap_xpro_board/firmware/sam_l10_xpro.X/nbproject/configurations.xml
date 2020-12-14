@@ -95,25 +95,6 @@
           </logicalFolder>
           <itemPath>../src/packs/ATSAML10E16A_DFP/atsaml10e16a.h</itemPath>
         </logicalFolder>
-        <logicalFolder name="f2" displayName="CMSIS" projectFiles="true">
-          <logicalFolder name="f1" displayName="CMSIS" projectFiles="true">
-            <logicalFolder name="f1" displayName="Core" projectFiles="true">
-              <logicalFolder name="f1" displayName="Include" projectFiles="true">
-                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_version.h</itemPath>
-                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h</itemPath>
-                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_iccarm.h</itemPath>
-                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_gcc.h</itemPath>
-                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armcc.h</itemPath>
-                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang.h</itemPath>
-                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
-                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm23.h</itemPath>
-                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv8.h</itemPath>
-                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
-                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/tz_context.h</itemPath>
-              </logicalFolder>
-            </logicalFolder>
-          </logicalFolder>
-        </logicalFolder>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
@@ -179,9 +160,20 @@
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="false">
+      <logicalFolder name="f1" displayName="sam_l10_xpro.mhc" projectFiles="true">
+        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\core.yml</itemPath>
+        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\dfp.yml</itemPath>
+        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\evsys.yml</itemPath>
+        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\GraphSettings.yml</itemPath>
+        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\lib_qtouch.yml</itemPath>
+        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\nvmctrl.yml</itemPath>
+        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\pm.yml</itemPath>
+        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\project.yml</itemPath>
+        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\rtc.yml</itemPath>
+        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\sercom0.yml</itemPath>
+        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\settings.yml</itemPath>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/sam_l10_xpro/harmony.prj</itemPath>
-      <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro.xml</itemPath>
       <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro_lp.xml</itemPath>
       <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro_surface.xml</itemPath>
       <itemPath>../src/config/sam_l10_xpro/harmony-manifest-success.yml</itemPath>
@@ -204,16 +196,14 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
         <pack name="SAML10_DFP" vendor="Microchip" version="3.2.68"/>
+        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
       <compileType>
         <linkerTool>
           <linkerLibItems>
-            <linkerLibFileItem>../src/config/sam_l10_xpro/touch/lib/qtm_surface_cs_2t_cm23_0x0025.X.a</linkerLibFileItem>
-            <linkerLibFileItem>../src/config/sam_l10_xpro/touch/lib/qtm_surface_gestures_cm23_0x0023.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/sam_l10_xpro/touch/lib/qtm_acq_saml10_0x0027.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/sam_l10_xpro/touch/lib/qtm_touch_key_cm23_0x0002.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/sam_l10_xpro/touch/lib/qtm_scroller_cm23_0x000b.X.a</linkerLibFileItem>
@@ -232,6 +222,7 @@
       </compileType>
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeUseCleanTarget>false</makeUseCleanTarget>
         <makeCustomizationPreStep></makeCustomizationPreStep>
         <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
         <makeCustomizationPostStep></makeCustomizationPostStep>
@@ -412,6 +403,7 @@
         <property key="firmware.toolpack"
                   value="Press to select which tool pack to use"/>
         <property key="firmware.update.action" value="firmware.update.use.latest"/>
+        <property key="freeze.timers" value="false"/>
         <property key="lastid" value=""/>
         <property key="memories.aux" value="false"/>
         <property key="memories.bootflash" value="true"/>
@@ -426,6 +418,7 @@
                   value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-ffff"/>
+        <property key="memories.rww" value="true"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programmerToGoFilePath"
                   value="C:/Repositories/Harmony/touch_apps/apps/qt7_selfcap_xpro_board/firmware/sam_l10_xpro.X/debug/sam_l10_xpro/sam_l10_xpro_ptg"/>

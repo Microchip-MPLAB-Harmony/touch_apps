@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2020-07-21T06:47:55Z */
+/* file generated from device description version 2020-08-24T19:30:19Z */
 #ifndef _SAML10E16A_H_
 #define _SAML10E16A_H_
 
@@ -595,8 +595,8 @@ void TRAM_Handler                  ( void );
 #define EVENT_ID_USER_TC2_EVU                            13 /**< ID for TC2 event user EVU */
 #define EVENT_ID_USER_ADC_START                          14 /**< ID for ADC event user START */
 #define EVENT_ID_USER_ADC_FLUSH                          15 /**< ID for ADC event user FLUSH */
-#define EVENT_ID_USER_AC_COMP_0                          16 /**< ID for AC event user COMP_0 */
-#define EVENT_ID_USER_AC_COMP_1                          17 /**< ID for AC event user COMP_1 */
+#define EVENT_ID_USER_AC_SOC_0                           16 /**< ID for AC event user SOC_0 */
+#define EVENT_ID_USER_AC_SOC_1                           17 /**< ID for AC event user SOC_1 */
 #define EVENT_ID_USER_DAC_START                          18 /**< ID for DAC event user START */
 #define EVENT_ID_USER_PTC_STCONV                         19 /**< ID for PTC event user STCONV */
 #define EVENT_ID_USER_PTC_DSEQR                          20 /**< ID for PTC event user DSEQR */

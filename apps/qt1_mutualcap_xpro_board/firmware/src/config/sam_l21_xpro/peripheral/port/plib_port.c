@@ -73,6 +73,7 @@ void PORT_Initialize(void)
 {
    /************************** GROUP 0 Initialization *************************/
    PORT_REGS->GROUP[0].PORT_DIR = 0x230f8;
+   PORT_REGS->GROUP[0].PORT_OUT = 0x230f8;
    PORT_REGS->GROUP[0].PORT_PINCFG[3] = 0x2;
    PORT_REGS->GROUP[0].PORT_PINCFG[4] = 0x2;
    PORT_REGS->GROUP[0].PORT_PINCFG[5] = 0x2;
@@ -88,6 +89,7 @@ void PORT_Initialize(void)
                 
    /************************** GROUP 1 Initialization *************************/
    PORT_REGS->GROUP[1].PORT_DIR = 0xf020;
+   PORT_REGS->GROUP[1].PORT_OUT = 0xf020;
    PORT_REGS->GROUP[1].PORT_PINCFG[5] = 0x2;
    PORT_REGS->GROUP[1].PORT_PINCFG[12] = 0x2;
    PORT_REGS->GROUP[1].PORT_PINCFG[13] = 0x2;
@@ -250,7 +252,7 @@ void PORT_GroupToggle(PORT_GROUP group, uint32_t mask)
     void PORT_GroupInputEnable(PORT_GROUP group, uint32_t mask)
 
   Summary:
-    Confgiures the selected IO pins of a group as input.
+    Configures the selected IO pins of a group as input.
 
   Description:
     This function configures the selected IO pins of a group as input. The pins
@@ -271,7 +273,7 @@ void PORT_GroupInputEnable(PORT_GROUP group, uint32_t mask)
     void PORT_GroupOutputEnable(PORT_GROUP group, uint32_t mask)
 
   Summary:
-    Confgiures the selected IO pins of a group as output.
+    Configures the selected IO pins of a group as output.
 
   Description:
     This function configures the selected IO pins of a group as output. The pins

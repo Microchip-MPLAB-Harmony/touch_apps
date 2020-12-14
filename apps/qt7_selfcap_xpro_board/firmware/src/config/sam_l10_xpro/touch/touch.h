@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.8.0 Release
+  Touch Library v3.9.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -37,7 +37,6 @@ CONSEQUENTIAL DAMAGES, LOST  PROFITS  OR  LOST  DATA,  COST  OF  PROCUREMENT  OF
 SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 (INCLUDING BUT NOT LIMITED TO ANY DEFENSE  THEREOF),  OR  OTHER  SIMILAR  COSTS.
 *******************************************************************************/
-
 #ifndef TOUCH_H
 #define TOUCH_H
 
@@ -289,6 +288,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Default value: 6
  */
 #define FREQ_AUTOTUNE_COUNT_IN 6
+
 /**********************************************************/
 /***************** Communication - Data Streamer ******************/
 /**********************************************************/
