@@ -13,7 +13,7 @@ plugin_version: v3.6.2        # if MPLAB X plugin only
 compiler: XC32 (2.41)
 
 modules:
-    - {name: "csp", version: "unknown"}
+    - {name: "csp", version: "v3.8.3"}
     - {name: "dev_packs", version: "v3.8.0"}
     - {name: "touch", version: "v3.9.0"}
 
