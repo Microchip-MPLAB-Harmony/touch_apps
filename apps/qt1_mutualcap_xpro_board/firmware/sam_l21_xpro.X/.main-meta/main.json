@@ -1,0 +1,74 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.touch_apps_qt1_mutualcap_xpro_board_sam_l21_xpro",
+		"version": "3.1.0",
+		"displayName": "Mutual Capacitance Example for SAM L21/L22 Family",
+		"projectName": "sam_l21_xpro_qt1_mutualcap",
+		"shortDescription": "",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.45.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=2.50.0"
+			}
+		],
+		"dfp": {
+			"name": "SAML21_DFP",
+			"semverRange": "^3.3.68"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.6.4"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "ATSAML21J18B",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit", "SAM L21 Xplained Pro Evaluation Kit"
+			],
+			[
+				"Harmony", "Middleware", "Touch", "MUTUAL_CAPACITANCE"
+			],
+			[
+				"Middleware", "Touch", "MUTUAL_CAPACITANCE"
+			]
+		],
+		"peripherals": [
+			"Touch"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"Middleware",
+			"Touch",
+			"ATSAML21J18B",
+			"SAM L21/L22 Family"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../docs/readme_sam_l21_xpro.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}

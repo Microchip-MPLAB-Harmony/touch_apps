@@ -1,0 +1,74 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.touch_apps_qt1_mutualcap_xpro_board_sam_e54_xpro",
+		"version": "3.1.0",
+		"displayName": "Mutual Capacitance Example for SAM D5x/E5x Family",
+		"projectName": "sam_e54_xpro_qt1_mutualcap",
+		"shortDescription": "",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.45.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=2.50.0"
+			}
+		],
+		"dfp": {
+			"name": "SAME54_DFP",
+			"semverRange": "^3.2.56"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.6.4"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "ATSAME54P20A",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit", "SAM E54 Xplained Pro Evaluation Kit"
+			],
+			[
+				"Harmony", "Middleware", "Touch", "MUTUAL_CAPACITANCE"
+			],
+			[
+				"Middleware", "Touch", "MUTUAL_CAPACITANCE"
+			]
+		],
+		"peripherals": [
+			"Touch"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"Middleware",
+			"Touch",
+			"ATSAME54P20A",
+			"SAM D5x/E5x Family"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../docs/readme_sam_e54_xpro.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.touch_apps_onboard_sensor_two_button_sam_d11_xpro",
+		"version": "3.1.0",
+		"displayName": "Onboard Multiple Touch Button Example for SAM D09/D10/D11 Family",
+		"projectName": "sam_d11_xpro",
+		"shortDescription": "",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.45.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=2.50.0"
+			}
+		],
+		"dfp": {
+			"name": "SAMD11_DFP",
+			"semverRange": "^2.3.40"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.6.4"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "ATSAMD11D14AM",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit", "SAM D11 Xplained Pro Evaluation Kit"
+			],
+			[
+				"Harmony", "Middleware", "Touch", "ONBOARD_SENSOR_TWO_BUTTON"
+			],
+			[
+				"Middleware", "Touch", "ONBOARD_SENSOR_TWO_BUTTON"
+			]
+		],
+		"peripherals": [
+			"Touch"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"Middleware",
+			"Touch",
+			"ATSAMD11D14AM",
+			"SAM D09/D10/D11 Family"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../docs/readme_sam_d11_xpro.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}

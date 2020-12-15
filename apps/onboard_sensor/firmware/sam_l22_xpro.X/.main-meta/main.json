@@ -1,0 +1,74 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.touch_apps_onboard_sensor_sam_l22_xpro",
+		"version": "3.1.0",
+		"displayName": "Onboard Single Touch Button Example for SAM L22 Family",
+		"projectName": "sam_l22_xpro",
+		"shortDescription": "",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.45.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=2.50.0"
+			}
+		],
+		"dfp": {
+			"name": "SAML22_DFP",
+			"semverRange": "^3.3.47"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.6.4"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "ATSAML22N18A",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit", "SAM L22 Xplained Pro Evaluation Kit"
+			],
+			[
+				"Harmony", "Middleware", "Touch", "ONBOARD_SENSOR"
+			],
+			[
+				"Middleware", "Touch", "ONBOARD_SENSOR"
+			]
+		],
+		"peripherals": [
+			"Touch"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"Middleware",
+			"Touch",
+			"ATSAML22N18A",
+			"SAM L21/L22 Family"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../docs/readme_sam_l22_xpro.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}
