@@ -50,8 +50,6 @@
           <itemPath>../src/config/sam_d20_xpro/device_cache.h</itemPath>
           <itemPath>../src/config/sam_d20_xpro/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/sam_d20_xpro/definitions.h</itemPath>
-          <itemPath>../src/config/sam_d20_xpro/interrupts.h</itemPath>
-          <itemPath>../src/config/sam_d20_xpro/device_vectors.h</itemPath>
           <itemPath>../src/config/sam_d20_xpro/device.h</itemPath>
         </logicalFolder>
       </logicalFolder>
@@ -189,9 +187,9 @@
         <targetDevice>ATSAMD20J18</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>EdbgTool</platformTool>
+        <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>2.41</languageToolchainVersion>
+        <languageToolchainVersion>2.50</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>

@@ -1,11 +1,11 @@
 files:
-- generatedChecksum: FDA531AC26552B7B4F6738EF1BC9FADC
+- generatedChecksum: 8031232838D3E2F489ABE24E4DAAACC2
   logicalPath: config\sam_da1_xpro\touch\datastreamer
   name: datastreamer_UART_sam.c
   physicalPath: touch\datastreamer
   security: NON_SECURE
   type: SOURCE
-  userChecksum: FDA531AC26552B7B4F6738EF1BC9FADC
+  userChecksum: 8031232838D3E2F489ABE24E4DAAACC2
 - generatedChecksum: 9762B12622FD08815784244AF2080753
   logicalPath: config\sam_da1_xpro
   name: exceptions.c
@@ -97,13 +97,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 949BBD944EC8B81E639121B72E7C7510
-- generatedChecksum: 5164960F7F313095E4E3E68A27A7A5AD
+- generatedChecksum: 51CB6DB832B284C1CE7754DB7B03CE19
   logicalPath: config\sam_da1_xpro\touch
   name: touch.c
   physicalPath: touch
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 5164960F7F313095E4E3E68A27A7A5AD
+  userChecksum: 51CB6DB832B284C1CE7754DB7B03CE19
 - generatedChecksum: 16BE5CCEE5F9AF5909BF3F69B51C7D93
   logicalPath: config\sam_da1_xpro\stdio
   name: xc32_monitor.c
@@ -111,27 +111,27 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 16BE5CCEE5F9AF5909BF3F69B51C7D93
-- generatedChecksum: 068B3EF1938C9F296DBE4AC51AC363EC
+- generatedChecksum: 39A5D2C5D0AB4E2EC3C11A2906DA07C0
   logicalPath: config\sam_da1_xpro\touch\datastreamer
   name: 03EB00000000000000AA5501.db
   physicalPath: touch\datastreamer
   security: NON_SECURE
   type: HEADER
-  userChecksum: 068B3EF1938C9F296DBE4AC51AC363EC
-- generatedChecksum: 0BA4672321224F3E487F979BA02BA08D
+  userChecksum: 39A5D2C5D0AB4E2EC3C11A2906DA07C0
+- generatedChecksum: 9FF2C2973AD0F18E2A5DB6AA2F1685FF
   logicalPath: config\sam_da1_xpro\touch\datastreamer
   name: 03EB00000000000000AA5501.ds
   physicalPath: touch\datastreamer
   security: NON_SECURE
   type: HEADER
-  userChecksum: 0BA4672321224F3E487F979BA02BA08D
-- generatedChecksum: 0BD775CE66E9D9056FD8A0EB410F9659
+  userChecksum: 9FF2C2973AD0F18E2A5DB6AA2F1685FF
+- generatedChecksum: 30F21CB85FAC696CFAE2E5F1C16A1BF3
   logicalPath: config\sam_da1_xpro\touch\datastreamer
   name: 03EB00000000000000AA5501.sc
   physicalPath: touch\datastreamer
   security: NON_SECURE
   type: HEADER
-  userChecksum: 0BD775CE66E9D9056FD8A0EB410F9659
+  userChecksum: 30F21CB85FAC696CFAE2E5F1C16A1BF3
 - generatedChecksum: D14B46ED14C76B9CE6FE57C0E2129357
   logicalPath: packs\ATSAMDA1J16B_DFP\component
   name: ac.h
@@ -356,6 +356,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 7DEFA02F559ACE61891DB528BF24E326
+- generatedChecksum: 9D97AA6DCD7F4BB3C4582D995C98D84B
+  logicalPath: config\sam_da1_xpro\touch
+  name: qtm_freq_hop_auto_0x0004_api.h
+  physicalPath: touch
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 9D97AA6DCD7F4BB3C4582D995C98D84B
 - generatedChecksum: FB86752FE87F6FFC05CA323960F53142
   logicalPath: config\sam_da1_xpro\touch
   name: qtm_scroller_0x000b_api.h
@@ -419,20 +426,20 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 20E829A99B86C2889E4E2E536161C27A
-- generatedChecksum: B18473DF3A9FB33AD1FECB83C74C5498
+- generatedChecksum: 8895BC319073D850DF1F15841CC12B5A
   logicalPath: config\sam_da1_xpro\touch
   name: touch.h
   physicalPath: touch
   security: NON_SECURE
   type: HEADER
-  userChecksum: B18473DF3A9FB33AD1FECB83C74C5498
-- generatedChecksum: A71B5C10984CBA7B8300E717E15F6B83
+  userChecksum: 8895BC319073D850DF1F15841CC12B5A
+- generatedChecksum: 0EF56D2E36B86F970BAA1186B5CCF96E
   logicalPath: config\sam_da1_xpro\touch
   name: touch_api_ptc.h
   physicalPath: touch
   security: NON_SECURE
   type: HEADER
-  userChecksum: A71B5C10984CBA7B8300E717E15F6B83
+  userChecksum: 0EF56D2E36B86F970BAA1186B5CCF96E
 - generatedChecksum: 5D429A6E6B24F81F114829E317B4D824
   logicalPath: packs\ATSAMDA1J16B_DFP\component
   name: usb.h
@@ -463,6 +470,9 @@ libraries:
   path: /touch/lib/
   security: NON_SECURE
 - name: qtm_scroller_cm0p_0x000b.X.a
+  path: /touch/lib/
+  security: NON_SECURE
+- name: qtm_freq_hop_auto_cm0p_0x0004.X.a
   path: /touch/lib/
   security: NON_SECURE
 settings:

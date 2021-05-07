@@ -1,6 +1,6 @@
 
 /*******************************************************************************
-  Touch Library v3.9.0 Release
+  Touch Library v3.9.1 Release
 
   Company:
     Microchip Technology Inc.
@@ -17,7 +17,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (c)  2020 released Microchip Technology Inc.  All rights reserved.
+Copyright (c)  2021 released Microchip Technology Inc.  All rights reserved.
 
 Microchip licenses to you the right to use, modify, copy and distribute
 Software only when embedded on a Microchip microcontroller or digital signal
@@ -53,6 +53,7 @@ extern "C" {
 #include "qtm_common_components_api.h"
 #include "qtm_acq_samda1_0x0024_api.h"
 #include "qtm_touch_key_0x0002_api.h"
+#include "qtm_freq_hop_auto_0x0004_api.h"
 #include "qtm_scroller_0x000b_api.h"
 /*----------------------------------------------------------------------------
  *   prototypes

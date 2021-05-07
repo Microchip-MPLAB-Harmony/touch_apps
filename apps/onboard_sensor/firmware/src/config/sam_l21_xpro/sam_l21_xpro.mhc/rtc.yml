@@ -79,6 +79,8 @@ children:
     children:
     - type: Values
       children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: '1'}
       - type: User
         attributes: {value: '1'}
   - type: KeyValueSet

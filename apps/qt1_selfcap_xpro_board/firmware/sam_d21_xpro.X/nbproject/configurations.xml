@@ -50,7 +50,7 @@
           <itemPath>../src/config/sam_d21_xpro/device_cache.h</itemPath>
           <itemPath>../src/config/sam_d21_xpro/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/sam_d21_xpro/definitions.h</itemPath>
-          <itemPath>..\src\config\sam_d21_xpro\device.h</itemPath>
+          <itemPath>../src/config/sam_d21_xpro/device.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="packs" projectFiles="true">
@@ -98,7 +98,7 @@
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm0plus.h</itemPath>
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv7.h</itemPath>
-                <itemPath>..\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
@@ -110,7 +110,7 @@
                    projectFiles="true">
       <logicalFolder name="f1" displayName="config" projectFiles="true">
         <logicalFolder name="f1" displayName="sam_d21_xpro" projectFiles="true">
-          <itemPath>..\src\config\sam_d21_xpro\ATSAMD21J18A.ld</itemPath>
+          <itemPath>../src/config/sam_d21_xpro/ATSAMD21J18A.ld</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
@@ -165,18 +165,31 @@
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="false">
+      <logicalFolder name="f2" displayName="sam_d20_xpro.mhc" projectFiles="true">
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/cmsis.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/core.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/evsys.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/GraphSettings.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/lib_qtouch.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/nvmctrl.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/project.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/rtc.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/sercom3.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/settings.yml</itemPath>
+      </logicalFolder>
       <logicalFolder name="f1" displayName="sam_d21_xpro.mhc" projectFiles="true">
-        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\cmsis.yml</itemPath>
-        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\core.yml</itemPath>
-        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\dfp.yml</itemPath>
-        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\evsys.yml</itemPath>
-        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\GraphSettings.yml</itemPath>
-        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\lib_qtouch.yml</itemPath>
-        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\nvmctrl.yml</itemPath>
-        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\project.yml</itemPath>
-        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\rtc.yml</itemPath>
-        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\sercom3.yml</itemPath>
-        <itemPath>..\src\config\sam_d21_xpro\sam_d21_xpro.mhc\settings.yml</itemPath>
+        <itemPath>../src/config/sam_d21_xpro/sam_d21_xpro.mhc/cmsis.yml</itemPath>
+        <itemPath>../src/config/sam_d21_xpro/sam_d21_xpro.mhc/core.yml</itemPath>
+        <itemPath>../src/config/sam_d21_xpro/sam_d21_xpro.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/sam_d21_xpro/sam_d21_xpro.mhc/evsys.yml</itemPath>
+        <itemPath>../src/config/sam_d21_xpro/sam_d21_xpro.mhc/GraphSettings.yml</itemPath>
+        <itemPath>../src/config/sam_d21_xpro/sam_d21_xpro.mhc/lib_qtouch.yml</itemPath>
+        <itemPath>../src/config/sam_d21_xpro/sam_d21_xpro.mhc/nvmctrl.yml</itemPath>
+        <itemPath>../src/config/sam_d21_xpro/sam_d21_xpro.mhc/project.yml</itemPath>
+        <itemPath>../src/config/sam_d21_xpro/sam_d21_xpro.mhc/rtc.yml</itemPath>
+        <itemPath>../src/config/sam_d21_xpro/sam_d21_xpro.mhc/sercom3.yml</itemPath>
+        <itemPath>../src/config/sam_d21_xpro/sam_d21_xpro.mhc/settings.yml</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>..\src\config\sam_d21_xpro\harmony-manifest-success.yml</itemPath>
@@ -193,9 +206,9 @@
         <targetDevice>ATSAMD21J18A</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>EdbgTool</platformTool>
+        <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>2.41</languageToolchainVersion>
+        <languageToolchainVersion>2.50</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
@@ -422,8 +435,6 @@
         <property key="memories.programmemory.ranges" value="0-3ffff"/>
         <property key="memories.rww" value="true"/>
         <property key="poweroptions.powerenable" value="false"/>
-        <property key="programmerToGoFilePath"
-                  value="C:/Repositories/Harmony/touch_apps/apps/qt1_selfcap_xpro_board/firmware/sam_d21_xpro.X/debug/sam_d21_xpro/sam_d21_xpro_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"

@@ -49,7 +49,7 @@
           <itemPath>../src/config/sam_d10_xmini/device_cache.h</itemPath>
           <itemPath>../src/config/sam_d10_xmini/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/sam_d10_xmini/definitions.h</itemPath>
-          <itemPath>..\src\config\sam_d10_xmini\device.h</itemPath>
+          <itemPath>../src/config/sam_d10_xmini/device.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="packs" projectFiles="true">
@@ -89,7 +89,7 @@
                    projectFiles="true">
       <logicalFolder name="f1" displayName="config" projectFiles="true">
         <logicalFolder name="f1" displayName="sam_d10_xmini" projectFiles="true">
-          <itemPath>..\src\config\sam_d10_xmini\ATSAMD10D14AM.ld</itemPath>
+          <itemPath>../src/config/sam_d10_xmini/ATSAMD10D14AM.ld</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
@@ -145,16 +145,16 @@
                    displayName="Important Files"
                    projectFiles="false">
       <logicalFolder name="f1" displayName="sam_d10_xmini.mhc" projectFiles="true">
-        <itemPath>..\src\config\sam_d10_xmini\sam_d10_xmini.mhc\core.yml</itemPath>
-        <itemPath>..\src\config\sam_d10_xmini\sam_d10_xmini.mhc\dfp.yml</itemPath>
-        <itemPath>..\src\config\sam_d10_xmini\sam_d10_xmini.mhc\evsys.yml</itemPath>
-        <itemPath>..\src\config\sam_d10_xmini\sam_d10_xmini.mhc\GraphSettings.yml</itemPath>
-        <itemPath>..\src\config\sam_d10_xmini\sam_d10_xmini.mhc\lib_qtouch.yml</itemPath>
-        <itemPath>..\src\config\sam_d10_xmini\sam_d10_xmini.mhc\nvmctrl.yml</itemPath>
-        <itemPath>..\src\config\sam_d10_xmini\sam_d10_xmini.mhc\project.yml</itemPath>
-        <itemPath>..\src\config\sam_d10_xmini\sam_d10_xmini.mhc\rtc.yml</itemPath>
-        <itemPath>..\src\config\sam_d10_xmini\sam_d10_xmini.mhc\sercom0.yml</itemPath>
-        <itemPath>..\src\config\sam_d10_xmini\sam_d10_xmini.mhc\settings.yml</itemPath>
+        <itemPath>../src/config/sam_d10_xmini/sam_d10_xmini.mhc/core.yml</itemPath>
+        <itemPath>../src/config/sam_d10_xmini/sam_d10_xmini.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/sam_d10_xmini/sam_d10_xmini.mhc/evsys.yml</itemPath>
+        <itemPath>../src/config/sam_d10_xmini/sam_d10_xmini.mhc/GraphSettings.yml</itemPath>
+        <itemPath>../src/config/sam_d10_xmini/sam_d10_xmini.mhc/lib_qtouch.yml</itemPath>
+        <itemPath>../src/config/sam_d10_xmini/sam_d10_xmini.mhc/nvmctrl.yml</itemPath>
+        <itemPath>../src/config/sam_d10_xmini/sam_d10_xmini.mhc/project.yml</itemPath>
+        <itemPath>../src/config/sam_d10_xmini/sam_d10_xmini.mhc/rtc.yml</itemPath>
+        <itemPath>../src/config/sam_d10_xmini/sam_d10_xmini.mhc/sercom0.yml</itemPath>
+        <itemPath>../src/config/sam_d10_xmini/sam_d10_xmini.mhc/settings.yml</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>..\src\config\sam_d10_xmini\harmony-manifest-success.yml</itemPath>
@@ -171,9 +171,9 @@
         <targetDevice>ATSAMD10D14AM</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>mEdbgTool</platformTool>
+        <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>2.41</languageToolchainVersion>
+        <languageToolchainVersion>2.50</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>

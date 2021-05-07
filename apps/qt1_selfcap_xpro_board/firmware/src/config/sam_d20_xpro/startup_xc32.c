@@ -23,11 +23,10 @@
 *******************************************************************************/
 // DOM-IGNORE-END
 
+#include "definitions.h" /* for potential custom handler names */
 #include <libpic32c.h>
+#include <sys/cdefs.h>
 #include <stdbool.h>
-#include <stddef.h>
-#include "device.h"
-#include "interrupts.h"
 
 /*
  *  The MPLAB X Simulator does not yet support simulation of programming the
@@ -48,27 +47,19 @@
 /* Initialize segments */
 extern uint32_t __svectors;
 
-extern int main(void);
+int main(void);
 extern void __attribute__((long_call)) __libc_init_array(void);
 
 /* Device Vector information is available in interrupt.c file */
 
-
-extern void Dummy_App_Func(void);
-
-/* Brief default application function used as a weak reference */
-void __attribute__((optimize("-O1"),long_call))Dummy_App_Func(void)
-{
-    return;
-}
-
 /* Optional application-provided functions */
-extern void __attribute__((weak,long_call, alias("Dummy_App_Func"))) _on_reset(void);
-extern void __attribute__((weak,long_call, alias("Dummy_App_Func"))) _on_bootstrap(void);
+extern void __attribute__((weak,long_call)) _on_reset(void);
+extern void __attribute__((weak,long_call)) _on_bootstrap(void);
 
 /* Reserved for use by the MPLAB XC32 Compiler */
-extern void __attribute__((weak,long_call, alias("Dummy_App_Func"))) __xc32_on_reset(void);
-extern void __attribute__((weak,long_call, alias("Dummy_App_Func"))) __xc32_on_bootstrap(void);
+extern void __attribute__((weak,long_call)) __xc32_on_reset(void);
+extern void __attribute__((weak,long_call)) __xc32_on_bootstrap(void);
+
 
 /**
  * \brief This is the code that gets called on processor reset.
@@ -79,7 +70,6 @@ void __attribute__((optimize("-O1"), section(".text.Reset_Handler"), long_call, 
 #ifdef SCB_VTOR_TBLOFF_Msk
     uint32_t *pSrc;
 #endif
-
 
 #if defined (__REINIT_STACK_POINTER)
     /* Initialize SP from linker-defined _stack symbol. */
@@ -94,10 +84,14 @@ void __attribute__((optimize("-O1"), section(".text.Reset_Handler"), long_call, 
 
 
     /* Call the optional application-provided _on_reset() function. */
-    _on_reset();
+    if (_on_reset)
+    {
+        _on_reset();
+    }
 
     /* Reserved for use by MPLAB XC32. */
-    __xc32_on_reset();
+    if (__xc32_on_reset)
+        __xc32_on_reset();
 
 
 
@@ -120,18 +114,23 @@ void __attribute__((optimize("-O1"), section(".text.Reset_Handler"), long_call, 
 
 
     /* Call the optional application-provided _on_bootstrap() function. */
-    _on_bootstrap();
-    
+    if (_on_bootstrap)
+    {
+        _on_bootstrap();
+    }
+
     /* Reserved for use by MPLAB XC32. */
-    __xc32_on_bootstrap();
+    if (__xc32_on_bootstrap)
+    {
+        __xc32_on_bootstrap();
+    }
 
     /* Branch to application's main function */
-    int retval = main();
-    (void)retval;
+    main();
 
 #if (defined(__DEBUG) || defined(__DEBUG_D)) && defined(__XC32)
     __builtin_software_breakpoint();
 #endif
     /* Infinite loop */
-    while (true) {}
+    while (1) {}
 }

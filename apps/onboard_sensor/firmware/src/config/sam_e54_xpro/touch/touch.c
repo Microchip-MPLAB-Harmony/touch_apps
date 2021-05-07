@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.9.0 Release
+  Touch Library v3.9.1 Release
 
   Company:
     Microchip Technology Inc.
@@ -17,7 +17,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (c)  2020 released Microchip Technology Inc.  All rights reserved.
+Copyright (c)  2021 released Microchip Technology Inc.  All rights reserved.
 
 Microchip licenses to you the right to use, modify, copy and distribute
 Software only when embedded on a Microchip microcontroller or digital signal
@@ -38,7 +38,6 @@ CONSEQUENTIAL DAMAGES, LOST  PROFITS  OR  LOST  DATA,  COST  OF  PROCUREMENT  OF
 SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 (INCLUDING BUT NOT LIMITED TO ANY DEFENSE  THEREOF),  OR  OTHER  SIMILAR  COSTS.
 *******************************************************************************/
-
 
 
 /*----------------------------------------------------------------------------
@@ -169,9 +168,9 @@ static touch_ret_t touch_sensors_config(void)
 {
     uint16_t    sensor_nodes;
     touch_ret_t touch_ret = TOUCH_SUCCESS;
+
     /* Init acquisition module */
     qtm_ptc_init_acquisition_module(&qtlib_acq_set1);
-    /* Init pointers to DMA sequence memory */
     qtm_ptc_qtlib_assign_signal_memory(&touch_acq_signals_raw[0]);
 
     /* Initialize sensor nodes */
@@ -302,11 +301,10 @@ void touch_process(void)
             qtm_error_callback(0);
         }
 
+
         if (0u != (qtlib_key_set1.qtm_touch_key_group_data->qtm_keys_status & QTM_KEY_REBURST)) {
             time_to_measure_touch_var = 1u;
-        } else if (0u != (qtlib_key_grp_data_set1.qtm_keys_status & QTM_KEY_DETECT)) {
-            /* Something in detect */
-            time_to_measure_touch_var = 1u;
+        } else {
             measurement_done_touch =1u;
         }
     }
@@ -343,7 +341,8 @@ uintptr_t rtc_context;
 void touch_timer_config(void)
 {  
     RTC_Timer32CallbackRegister(rtc_cb, rtc_context);
-    RTC_Timer32Compare0Set(DEF_TOUCH_MEASUREMENT_PERIOD_MS);
+    RTC_Timer32CounterSet((uint32_t) 0);
+    RTC_Timer32Compare0Set((uint32_t) DEF_TOUCH_MEASUREMENT_PERIOD_MS);
     RTC_Timer32Start();  
 }
 

@@ -510,7 +510,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: lib_qtouch, value: GCLK_ID_19_FREQ}
+        attributes: {id: lib_qtouch, value: 'GCLK_ID_19_FREQ:sync'}
   - type: KeyValueSet
     attributes: {id: SELFCAP-INPUT_0}
     children:
@@ -682,24 +682,6 @@ children:
       children:
       - type: User
         attributes: {value: 'true'}
-  - type: File
-    attributes: {id: TOUCH_HOP_AUTO_HEADER}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: enabled}
-        children:
-        - {type: Value, value: 'true'}
-  - type: Library
-    attributes: {id: TOUCH_HOP_AUTO_LIB}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: enabled}
-        children:
-        - {type: Value, value: 'true'}
   - type: Integer
     attributes: {id: TOUCH_KEY_ENABLE_CNT}
     children:
@@ -712,17 +694,22 @@ children:
     children:
     - type: Values
       children:
-      - type: Dynamic
-        attributes: {id: TOUCH_LOADED, value: 'true'}
+      - type: User
+        attributes: {value: 'true'}
   - type: Boolean
     attributes: {id: TOUCH_PRE_GENERATE}
     children:
     - type: Values
       children:
-      - type: Dynamic
-        attributes: {id: TOUCH_PRE_GENERATE, value: 'true'}
       - type: User
         attributes: {value: 'true'}
+  - type: String
+    attributes: {id: TOUCH_SCRIPT_EVENT}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
   - type: Integer
     attributes: {id: TOUCH_SCROLLER_ENABLE_CNT}
     children:
@@ -775,6 +762,23 @@ children:
       children:
       - type: Dynamic
         attributes: {id: lib_qtouch, value: RTC}
+  - type: Menu
+    attributes: {id: TOUCH_WARNING}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: description}
+        children:
+        - {type: Value, value: Open touch configurator and save project}
+      - type: String
+        attributes: {id: label}
+        children:
+        - {type: Value, value: '!!!Warning PTC clock out of sync'}
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
   - type: KeyValueSet
     attributes: {id: TUNE_MODE_SELECTED}
     children:

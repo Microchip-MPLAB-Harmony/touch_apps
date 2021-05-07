@@ -160,17 +160,17 @@
                    displayName="Important Files"
                    projectFiles="false">
       <logicalFolder name="f1" displayName="sam_l21_xpro.mhc" projectFiles="true">
-        <itemPath>..\src\config\sam_l21_xpro\sam_l21_xpro.mhc\core.yml</itemPath>
-        <itemPath>..\src\config\sam_l21_xpro\sam_l21_xpro.mhc\dfp.yml</itemPath>
-        <itemPath>..\src\config\sam_l21_xpro\sam_l21_xpro.mhc\evsys.yml</itemPath>
-        <itemPath>..\src\config\sam_l21_xpro\sam_l21_xpro.mhc\GraphSettings.yml</itemPath>
-        <itemPath>..\src\config\sam_l21_xpro\sam_l21_xpro.mhc\lib_qtouch.yml</itemPath>
-        <itemPath>..\src\config\sam_l21_xpro\sam_l21_xpro.mhc\nvmctrl.yml</itemPath>
-        <itemPath>..\src\config\sam_l21_xpro\sam_l21_xpro.mhc\pm.yml</itemPath>
-        <itemPath>..\src\config\sam_l21_xpro\sam_l21_xpro.mhc\project.yml</itemPath>
-        <itemPath>..\src\config\sam_l21_xpro\sam_l21_xpro.mhc\rtc.yml</itemPath>
-        <itemPath>..\src\config\sam_l21_xpro\sam_l21_xpro.mhc\sercom3.yml</itemPath>
-        <itemPath>..\src\config\sam_l21_xpro\sam_l21_xpro.mhc\settings.yml</itemPath>
+        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/core.yml</itemPath>
+        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/evsys.yml</itemPath>
+        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/GraphSettings.yml</itemPath>
+        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/lib_qtouch.yml</itemPath>
+        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/nvmctrl.yml</itemPath>
+        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/pm.yml</itemPath>
+        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/project.yml</itemPath>
+        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/rtc.yml</itemPath>
+        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/sercom3.yml</itemPath>
+        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/settings.yml</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>..\src\config\sam_l21_xpro\harmony-manifest-success.yml</itemPath>
@@ -187,9 +187,9 @@
         <targetDevice>ATSAML21J18B</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>EdbgTool</platformTool>
+        <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>2.41</languageToolchainVersion>
+        <languageToolchainVersion>2.50</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
@@ -201,6 +201,7 @@
       <compileType>
         <linkerTool>
           <linkerLibItems>
+            <linkerLibFileItem>../src/config/sam_l21_xpro/touch/lib/qtm_acq_saml21_0x0026.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/sam_l21_xpro/touch/lib/qtm_saml21_acq_0x0026.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/sam_l21_xpro/touch/lib/qtm_touch_key_cm0p_0x0002.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/sam_l21_xpro/touch/lib/qtm_scroller_cm0p_0x000b.X.a</linkerLibFileItem>

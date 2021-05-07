@@ -1,11 +1,11 @@
 files:
-- generatedChecksum: F80AAB27611709334D6B0CAA62A27980
+- generatedChecksum: FBA52D1D3B3584ACBC723FBBDFE8D2C4
   logicalPath: config\sam_d10_xmini\touch\datastreamer
   name: datastreamer_UART_sam.c
   physicalPath: touch\datastreamer
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F80AAB27611709334D6B0CAA62A27980
+  userChecksum: FBA52D1D3B3584ACBC723FBBDFE8D2C4
 - generatedChecksum: 9762B12622FD08815784244AF2080753
   logicalPath: config\sam_d10_xmini
   name: exceptions.c
@@ -76,13 +76,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 284294059E48BDC21B79EDCC6ED873E0
-- generatedChecksum: 4A6615DF1E16F5596924C3F084CF76F1
+- generatedChecksum: 9EC1182767AFF702BE209DC487D07162
   logicalPath: config\sam_d10_xmini\peripheral\rtc
   name: plib_rtc_timer.c
   physicalPath: peripheral\rtc
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 4A6615DF1E16F5596924C3F084CF76F1
+  userChecksum: 9EC1182767AFF702BE209DC487D07162
 - generatedChecksum: AE3FAE408966D36AF31DA383896E3B67
   logicalPath: config\sam_d10_xmini\peripheral\sercom\usart
   name: plib_sercom0_usart.c
@@ -97,13 +97,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 949BBD944EC8B81E639121B72E7C7510
-- generatedChecksum: 141BA1BC9720266396CD862965F4D6D8
+- generatedChecksum: 703272BCEC83304E266B8C6ADCF4900D
   logicalPath: config\sam_d10_xmini\touch
   name: touch.c
   physicalPath: touch
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 141BA1BC9720266396CD862965F4D6D8
+  userChecksum: 703272BCEC83304E266B8C6ADCF4900D
 - generatedChecksum: 16BE5CCEE5F9AF5909BF3F69B51C7D93
   logicalPath: config\sam_d10_xmini\stdio
   name: xc32_monitor.c
@@ -146,13 +146,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 188EA3093489E7794B87AEC720B74BC0
-- generatedChecksum: 31FE8FAC521AB3478EDA9C21FB5CA1F6
+- generatedChecksum: 012033C6691CEC45C78CB4F7C59C0D17
   logicalPath: packs\ATSAMD10D14AM_DFP
   name: atsamd10d14am.h
   physicalPath: ..\..\packs\ATSAMD10D14AM_DFP
   security: NON_SECURE
   type: HEADER
-  userChecksum: 31FE8FAC521AB3478EDA9C21FB5CA1F6
+  userChecksum: 012033C6691CEC45C78CB4F7C59C0D17
 - generatedChecksum: 4BA8D35393F06D23A4A5E7DB43985E2D
   logicalPath: packs\ATSAMD10D14AM_DFP\component
   name: dac.h
@@ -363,13 +363,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 5CCEBFB2063928ADA1F031B6C871437A
-- generatedChecksum: E4E26D34EBEECB6D763E9C4F8F2920A9
+- generatedChecksum: 5B40ABA3D9E9D16AB560AE1B74F9CA1B
   logicalPath: packs\ATSAMD10D14AM_DFP\pio
   name: samd10d14am.h
   physicalPath: ..\..\packs\ATSAMD10D14AM_DFP\pio
   security: NON_SECURE
   type: HEADER
-  userChecksum: E4E26D34EBEECB6D763E9C4F8F2920A9
+  userChecksum: 5B40ABA3D9E9D16AB560AE1B74F9CA1B
 - generatedChecksum: FCF51B27133192191EC8D906DC44C02D
   logicalPath: packs\ATSAMD10D14AM_DFP\component
   name: sercom.h
@@ -405,20 +405,20 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 20E829A99B86C2889E4E2E536161C27A
-- generatedChecksum: BAEF2E984757A278C070535826972D4C
+- generatedChecksum: 9DECCE8355E671A5C9E79BEABA2E990B
   logicalPath: config\sam_d10_xmini\touch
   name: touch.h
   physicalPath: touch
   security: NON_SECURE
   type: HEADER
-  userChecksum: BAEF2E984757A278C070535826972D4C
-- generatedChecksum: F3954BDE2CD16ADAE0BB12E9FF1E1D73
+  userChecksum: 9DECCE8355E671A5C9E79BEABA2E990B
+- generatedChecksum: 71EEB5B41E5AEE48364C704BD816A315
   logicalPath: config\sam_d10_xmini\touch
   name: touch_api_ptc.h
   physicalPath: touch
   security: NON_SECURE
   type: HEADER
-  userChecksum: F3954BDE2CD16ADAE0BB12E9FF1E1D73
+  userChecksum: 71EEB5B41E5AEE48364C704BD816A315
 - generatedChecksum: B1E85E22BAE85D76EF38416FC2048D75
   logicalPath: packs\ATSAMD10D14AM_DFP\component
   name: wdt.h

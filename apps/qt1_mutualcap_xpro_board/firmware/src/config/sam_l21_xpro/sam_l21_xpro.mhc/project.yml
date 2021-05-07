@@ -1,11 +1,11 @@
 files:
-- generatedChecksum: 46603BAEE159F18E57B4F158B6F09E7B
+- generatedChecksum: 8031232838D3E2F489ABE24E4DAAACC2
   logicalPath: config\sam_l21_xpro\touch\datastreamer
   name: datastreamer_UART_sam.c
   physicalPath: touch\datastreamer
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 46603BAEE159F18E57B4F158B6F09E7B
+  userChecksum: 8031232838D3E2F489ABE24E4DAAACC2
 - generatedChecksum: 9762B12622FD08815784244AF2080753
   logicalPath: config\sam_l21_xpro
   name: exceptions.c
@@ -104,13 +104,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 949BBD944EC8B81E639121B72E7C7510
-- generatedChecksum: 6A8AA8EC6EA93CB6753B7004F06E8497
+- generatedChecksum: CDBB70BB21B536E83902D501F17E82F7
   logicalPath: config\sam_l21_xpro\touch
   name: touch.c
   physicalPath: touch
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 6A8AA8EC6EA93CB6753B7004F06E8497
+  userChecksum: CDBB70BB21B536E83902D501F17E82F7
 - generatedChecksum: 16BE5CCEE5F9AF5909BF3F69B51C7D93
   logicalPath: config\sam_l21_xpro\stdio
   name: xc32_monitor.c
@@ -468,20 +468,20 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 20E829A99B86C2889E4E2E536161C27A
-- generatedChecksum: 0290111BC8EB765BC650778F0074B3E9
+- generatedChecksum: 34A40ABAD32CA9BA9D9D7B30A18E4289
   logicalPath: config\sam_l21_xpro\touch
   name: touch.h
   physicalPath: touch
   security: NON_SECURE
   type: HEADER
-  userChecksum: 0290111BC8EB765BC650778F0074B3E9
-- generatedChecksum: 4D89783F9CAFB1686AEB5056E7549C23
+  userChecksum: 34A40ABAD32CA9BA9D9D7B30A18E4289
+- generatedChecksum: 2D34983A68C47D773DCF5F586B9401F5
   logicalPath: config\sam_l21_xpro\touch
   name: touch_api_ptc.h
   physicalPath: touch
   security: NON_SECURE
   type: HEADER
-  userChecksum: 4D89783F9CAFB1686AEB5056E7549C23
+  userChecksum: 2D34983A68C47D773DCF5F586B9401F5
 - generatedChecksum: 089AB9C09BC574AB9914F47DDF587886
   logicalPath: packs\ATSAML21J18B_DFP\component
   name: trng.h

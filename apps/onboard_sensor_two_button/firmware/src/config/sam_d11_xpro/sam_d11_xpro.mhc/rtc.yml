@@ -67,6 +67,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: lib_qtouch, value: 'true'}
+  - type: Hex
+    attributes: {id: RTC_MODE0_TIMER_COMPARE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: '1'}
   - type: KeyValueSet
     attributes: {id: RTC_MODULE_SELECTION}
     children:

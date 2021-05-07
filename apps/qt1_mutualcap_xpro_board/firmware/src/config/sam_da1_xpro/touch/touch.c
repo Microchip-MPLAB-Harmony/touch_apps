@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.9.0 Release
+  Touch Library v3.9.1 Release
 
   Company:
     Microchip Technology Inc.
@@ -17,7 +17,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (c)  2020 released Microchip Technology Inc.  All rights reserved.
+Copyright (c)  2021 released Microchip Technology Inc.  All rights reserved.
 
 Microchip licenses to you the right to use, modify, copy and distribute
 Software only when embedded on a Microchip microcontroller or digital signal
@@ -38,7 +38,6 @@ CONSEQUENTIAL DAMAGES, LOST  PROFITS  OR  LOST  DATA,  COST  OF  PROCUREMENT  OF
 SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 (INCLUDING BUT NOT LIMITED TO ANY DEFENSE  THEREOF),  OR  OTHER  SIMILAR  COSTS.
 *******************************************************************************/
-
 
 
 /*----------------------------------------------------------------------------
@@ -95,6 +94,32 @@ qtm_acq_samda1_node_config_t ptc_seq_node_cfg1[DEF_NUM_CHANNELS] = {NODE_0_PARAM
 
 /* Container */
 qtm_acquisition_control_t qtlib_acq_set1 = {&ptc_qtlib_acq_gen1, &ptc_seq_node_cfg1[0], &ptc_qtlib_node_stat1[0]};
+
+/**********************************************************/
+/*********** Frequency Hop Auto tune Module **********************/
+/**********************************************************/
+
+/* Buffer used with various noise filtering functions */
+uint16_t noise_filter_buffer[DEF_NUM_CHANNELS * NUM_FREQ_STEPS];
+uint8_t  freq_hop_delay_selection[NUM_FREQ_STEPS] = {DEF_MEDIAN_FILTER_FREQUENCIES};
+uint8_t  freq_hop_autotune_counters[NUM_FREQ_STEPS];
+
+/* Configuration */
+qtm_freq_hop_autotune_config_t qtm_freq_hop_autotune_config1 = {DEF_NUM_CHANNELS,
+                                                                NUM_FREQ_STEPS,
+                                                                &ptc_qtlib_acq_gen1.freq_option_select,
+                                                                &freq_hop_delay_selection[0],
+                                                                DEF_FREQ_AUTOTUNE_ENABLE,
+                                                                FREQ_AUTOTUNE_MAX_VARIANCE,
+                                                                FREQ_AUTOTUNE_COUNT_IN};
+
+/* Data */
+qtm_freq_hop_autotune_data_t qtm_freq_hop_autotune_data1
+    = {0, 0, &noise_filter_buffer[0], &ptc_qtlib_node_stat1[0], &freq_hop_autotune_counters[0]};
+
+/* Container */
+qtm_freq_hop_autotune_control_t qtm_freq_hop_autotune_control1
+    = {&qtm_freq_hop_autotune_data1, &qtm_freq_hop_autotune_config1};
 
 /**********************************************************/
 /*********************** Keys Module **********************/
@@ -160,9 +185,9 @@ static touch_ret_t touch_sensors_config(void)
 {
     uint16_t    sensor_nodes;
     touch_ret_t touch_ret = TOUCH_SUCCESS;
+
     /* Init acquisition module */
     qtm_ptc_init_acquisition_module(&qtlib_acq_set1);
-    /* Init pointers to DMA sequence memory */
     qtm_ptc_qtlib_assign_signal_memory(&touch_acq_signals_raw[0]);
 
     /* Initialize sensor nodes */
@@ -282,24 +307,27 @@ void touch_process(void)
         if (TOUCH_SUCCESS == touch_ret) {
             /* Returned with success: Start module level post processing */
 
-            touch_ret = qtm_key_sensors_process(&qtlib_key_set1);
+            touch_ret = qtm_freq_hop_autotune(&qtm_freq_hop_autotune_control1);
             if (TOUCH_SUCCESS != touch_ret) {
                 qtm_error_callback(1);
+        }
+            touch_ret = qtm_key_sensors_process(&qtlib_key_set1);
+            if (TOUCH_SUCCESS != touch_ret) {
+                qtm_error_callback(2);
             }
             touch_ret = qtm_scroller_process(&qtm_scroller_control1);
             if (TOUCH_SUCCESS != touch_ret) {
-                qtm_error_callback(2);
+                qtm_error_callback(3);
             }
          }else {
            /* Acq module Error Detected: Issue an Acq module common error code 0x80 */
             qtm_error_callback(0);
         }
 
+
         if (0u != (qtlib_key_set1.qtm_touch_key_group_data->qtm_keys_status & QTM_KEY_REBURST)) {
             time_to_measure_touch_var = 1u;
-        } else if (0u != (qtlib_key_grp_data_set1.qtm_keys_status & QTM_KEY_DETECT)) {
-            /* Something in detect */
-            time_to_measure_touch_var = 1u;
+        } else {
             measurement_done_touch =1u;
         }
     }
@@ -336,7 +364,8 @@ uintptr_t rtc_context;
 void touch_timer_config(void)
 {  
     RTC_Timer32CallbackRegister(rtc_cb, rtc_context);
-    RTC_Timer32CompareSet(DEF_TOUCH_MEASUREMENT_PERIOD_MS);
+    RTC_Timer32CounterSet((uint32_t) 0);
+    RTC_Timer32CompareSet((uint32_t) DEF_TOUCH_MEASUREMENT_PERIOD_MS);
     RTC_Timer32Start();  
 }
 

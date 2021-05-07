@@ -46,6 +46,7 @@
             <itemPath>../src/config/sam_da1_xpro/touch/qtm_scroller_0x000b_api.h</itemPath>
             <itemPath>../src/config/sam_da1_xpro/touch/touch.h</itemPath>
             <itemPath>../src/config/sam_da1_xpro/touch/touch_api_ptc.h</itemPath>
+            <itemPath>../src/config/sam_da1_xpro/touch/qtm_freq_hop_auto_0x0004_api.h</itemPath>
           </logicalFolder>
           <itemPath>../src/config/sam_da1_xpro/device_cache.h</itemPath>
           <itemPath>../src/config/sam_da1_xpro/toolchain_specifics.h</itemPath>
@@ -148,16 +149,16 @@
                    displayName="Important Files"
                    projectFiles="false">
       <logicalFolder name="f1" displayName="sam_da1_xpro.mhc" projectFiles="true">
-        <itemPath>..\src\config\sam_da1_xpro\sam_da1_xpro.mhc\core.yml</itemPath>
-        <itemPath>..\src\config\sam_da1_xpro\sam_da1_xpro.mhc\dfp.yml</itemPath>
-        <itemPath>..\src\config\sam_da1_xpro\sam_da1_xpro.mhc\evsys.yml</itemPath>
-        <itemPath>..\src\config\sam_da1_xpro\sam_da1_xpro.mhc\GraphSettings.yml</itemPath>
-        <itemPath>..\src\config\sam_da1_xpro\sam_da1_xpro.mhc\lib_qtouch.yml</itemPath>
-        <itemPath>..\src\config\sam_da1_xpro\sam_da1_xpro.mhc\nvmctrl.yml</itemPath>
-        <itemPath>..\src\config\sam_da1_xpro\sam_da1_xpro.mhc\project.yml</itemPath>
-        <itemPath>..\src\config\sam_da1_xpro\sam_da1_xpro.mhc\rtc.yml</itemPath>
-        <itemPath>..\src\config\sam_da1_xpro\sam_da1_xpro.mhc\sercom3.yml</itemPath>
-        <itemPath>..\src\config\sam_da1_xpro\sam_da1_xpro.mhc\settings.yml</itemPath>
+        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/core.yml</itemPath>
+        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/evsys.yml</itemPath>
+        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/GraphSettings.yml</itemPath>
+        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/lib_qtouch.yml</itemPath>
+        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/nvmctrl.yml</itemPath>
+        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/project.yml</itemPath>
+        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/rtc.yml</itemPath>
+        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/sercom3.yml</itemPath>
+        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/settings.yml</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>..\src\config\sam_da1_xpro\harmony-manifest-success.yml</itemPath>
@@ -174,9 +175,9 @@
         <targetDevice>ATSAMDA1J16B</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>EdbgTool</platformTool>
+        <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>2.41</languageToolchainVersion>
+        <languageToolchainVersion>2.50</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
@@ -191,6 +192,7 @@
             <linkerLibFileItem>../src/config/sam_da1_xpro/touch/lib/qtm_acq_samd21_0x0024.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/sam_da1_xpro/touch/lib/qtm_touch_key_cm0p_0x0002.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/sam_da1_xpro/touch/lib/qtm_scroller_cm0p_0x000b.X.a</linkerLibFileItem>
+            <linkerLibFileItem>../src/config/sam_da1_xpro/touch/lib/qtm_freq_hop_auto_cm0p_0x0004.X.a</linkerLibFileItem>
           </linkerLibItems>
         </linkerTool>
         <archiverTool>
@@ -374,6 +376,8 @@
       </C32Global>
       <EdbgTool>
         <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="arm.use_vtor" value="false"/>
+        <property key="arm.vtor_adr" value="exception_table"/>
         <property key="communication.activationmode" value="nohv"/>
         <property key="communication.interface" value="swd"/>
         <property key="communication.speed" value="2.000"/>
@@ -383,6 +387,8 @@
         <property key="firmware.toolpack"
                   value="Press to select which tool pack to use"/>
         <property key="firmware.update.action" value="firmware.update.use.latest"/>
+        <property key="freeze.timers" value="false"/>
+        <property key="lastid" value=""/>
         <property key="memories.aux" value="false"/>
         <property key="memories.bootflash" value="true"/>
         <property key="memories.configurationmemory" value="true"/>
@@ -396,6 +402,7 @@
                   value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-ffff"/>
+        <property key="memories.rww" value="true"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
@@ -407,6 +414,9 @@
         <property key="programoptions.preserveprogramrange" value="false"/>
         <property key="programoptions.preserveuserid" value="false"/>
         <property key="programoptions.programuserotp" value="false"/>
+        <property key="script.log_level" value="0"/>
+        <property key="script.reset_delay" value="0"/>
+        <property key="script.show_output" value="false"/>
         <property key="toolpack.updateoptions"
                   value="toolpack.updateoptions.uselatestoolpack"/>
         <property key="toolpack.updateoptions.packversion"

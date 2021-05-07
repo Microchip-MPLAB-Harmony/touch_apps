@@ -95,6 +95,25 @@
           </logicalFolder>
           <itemPath>../src/packs/ATSAML10E16A_DFP/atsaml10e16a.h</itemPath>
         </logicalFolder>
+        <logicalFolder name="f2" displayName="CMSIS" projectFiles="true">
+          <logicalFolder name="f1" displayName="CMSIS" projectFiles="true">
+            <logicalFolder name="f1" displayName="Core" projectFiles="true">
+              <logicalFolder name="f1" displayName="Include" projectFiles="true">
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_version.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_iccarm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_gcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm23.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv8.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/tz_context.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
@@ -161,17 +180,18 @@
                    displayName="Important Files"
                    projectFiles="false">
       <logicalFolder name="f1" displayName="sam_l10_xpro.mhc" projectFiles="true">
-        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\core.yml</itemPath>
-        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\dfp.yml</itemPath>
-        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\evsys.yml</itemPath>
-        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\GraphSettings.yml</itemPath>
-        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\lib_qtouch.yml</itemPath>
-        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\nvmctrl.yml</itemPath>
-        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\pm.yml</itemPath>
-        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\project.yml</itemPath>
-        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\rtc.yml</itemPath>
-        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\sercom0.yml</itemPath>
-        <itemPath>..\src\config\sam_l10_xpro\sam_l10_xpro.mhc\settings.yml</itemPath>
+        <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro.mhc/cmsis.yml</itemPath>
+        <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro.mhc/core.yml</itemPath>
+        <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro.mhc/evsys.yml</itemPath>
+        <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro.mhc/GraphSettings.yml</itemPath>
+        <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro.mhc/lib_qtouch.yml</itemPath>
+        <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro.mhc/nvmctrl.yml</itemPath>
+        <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro.mhc/pm.yml</itemPath>
+        <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro.mhc/project.yml</itemPath>
+        <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro.mhc/rtc.yml</itemPath>
+        <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro.mhc/sercom0.yml</itemPath>
+        <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro.mhc/settings.yml</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro_lp.xml</itemPath>
@@ -190,9 +210,9 @@
         <targetDevice>ATSAML10E16A</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>EdbgTool</platformTool>
+        <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>2.41</languageToolchainVersion>
+        <languageToolchainVersion>2.50</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
@@ -263,7 +283,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/sam_l10_xpro;../src/packs/ATSAML10E16A_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;"/>
+                  value="../src;../src/config/sam_l10_xpro;../src/packs/ATSAML10E16A_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -360,7 +380,7 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/sam_l10_xpro;../src/packs/ATSAML10E16A_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;"/>
+                  value="../src;../src/config/sam_l10_xpro;../src/packs/ATSAML10E16A_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -420,8 +440,6 @@
         <property key="memories.programmemory.ranges" value="0-ffff"/>
         <property key="memories.rww" value="true"/>
         <property key="poweroptions.powerenable" value="false"/>
-        <property key="programmerToGoFilePath"
-                  value="C:/Repositories/Harmony/touch_apps/apps/qt7_selfcap_xpro_board/firmware/sam_l10_xpro.X/debug/sam_l10_xpro/sam_l10_xpro_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"

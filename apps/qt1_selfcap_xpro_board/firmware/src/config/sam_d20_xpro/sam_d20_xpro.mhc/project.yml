@@ -1,18 +1,18 @@
 files:
-- generatedChecksum: 46603BAEE159F18E57B4F158B6F09E7B
+- generatedChecksum: 8031232838D3E2F489ABE24E4DAAACC2
   logicalPath: config\sam_d20_xpro\touch\datastreamer
   name: datastreamer_UART_sam.c
   physicalPath: touch\datastreamer
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 46603BAEE159F18E57B4F158B6F09E7B
-- generatedChecksum: E45D1648EFC10229D7BE94DB19221FF7
+  userChecksum: 8031232838D3E2F489ABE24E4DAAACC2
+- generatedChecksum: 9762B12622FD08815784244AF2080753
   logicalPath: config\sam_d20_xpro
   name: exceptions.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: E45D1648EFC10229D7BE94DB19221FF7
+  userChecksum: 9762B12622FD08815784244AF2080753
 - generatedChecksum: B455DD3F48E1FD7641D72CE54403B918
   logicalPath: config\sam_d20_xpro
   name: initialization.c
@@ -20,20 +20,20 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: B455DD3F48E1FD7641D72CE54403B918
-- generatedChecksum: EDE43F9221220C878A5B9CEE41A65CF4
+- generatedChecksum: DC686AE5D279FA6A3216D2011E5240F3
   logicalPath: config\sam_d20_xpro
   name: interrupts.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: EDE43F9221220C878A5B9CEE41A65CF4
-- generatedChecksum: 6513F2461B8F476B68CA73906086047F
+  userChecksum: DC686AE5D279FA6A3216D2011E5240F3
+- generatedChecksum: 328F1E09E0DD9BEE901C4562A3E5180A
   logicalPath: config\sam_d20_xpro
   name: libc_syscalls.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 6513F2461B8F476B68CA73906086047F
+  userChecksum: 328F1E09E0DD9BEE901C4562A3E5180A
 - generatedChecksum: null
   logicalPath: ''
   name: main.c
@@ -55,13 +55,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: C99E6D9B9BA371EA749B7DC16BC2C209
-- generatedChecksum: 8FE5490B8E7689B5B921419CF2BE297D
+- generatedChecksum: C01556A578C620EE96855774B53E7468
   logicalPath: config\sam_d20_xpro\peripheral\nvic
   name: plib_nvic.c
   physicalPath: peripheral\nvic
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 8FE5490B8E7689B5B921419CF2BE297D
+  userChecksum: C01556A578C620EE96855774B53E7468
 - generatedChecksum: 4924A39380F3BDF3EE769570743C460D
   logicalPath: config\sam_d20_xpro\peripheral\nvmctrl
   name: plib_nvmctrl.c
@@ -69,13 +69,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 4924A39380F3BDF3EE769570743C460D
-- generatedChecksum: B1301FE4E2FE570ED9FE3B9983E66481
+- generatedChecksum: 60CF1ECB8A98B25DD8516AA8A489FCC5
   logicalPath: config\sam_d20_xpro\peripheral\port
   name: plib_port.c
   physicalPath: peripheral\port
   security: NON_SECURE
   type: SOURCE
-  userChecksum: B1301FE4E2FE570ED9FE3B9983E66481
+  userChecksum: 60CF1ECB8A98B25DD8516AA8A489FCC5
 - generatedChecksum: 9EC1182767AFF702BE209DC487D07162
   logicalPath: config\sam_d20_xpro\peripheral\rtc
   name: plib_rtc_timer.c
@@ -83,34 +83,34 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 9EC1182767AFF702BE209DC487D07162
-- generatedChecksum: 160666765902D835EDECC5EB91D6CDDF
+- generatedChecksum: F5CFA8FECFDC204DE91036DE54CB2EEB
   logicalPath: config\sam_d20_xpro\peripheral\sercom\usart
   name: plib_sercom3_usart.c
   physicalPath: peripheral\sercom\usart
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 160666765902D835EDECC5EB91D6CDDF
-- generatedChecksum: 2645E564BD945DAED1424FD8D7B39330
+  userChecksum: F5CFA8FECFDC204DE91036DE54CB2EEB
+- generatedChecksum: 949BBD944EC8B81E639121B72E7C7510
   logicalPath: config\sam_d20_xpro
   name: startup_xc32.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 2645E564BD945DAED1424FD8D7B39330
-- generatedChecksum: E9D826A71CCBA17B45EE8E83BA3276AB
+  userChecksum: 949BBD944EC8B81E639121B72E7C7510
+- generatedChecksum: A11EB2A6428A7CBE4FFAD18F7926F36F
   logicalPath: config\sam_d20_xpro\touch
   name: touch.c
   physicalPath: touch
   security: NON_SECURE
   type: SOURCE
-  userChecksum: E9D826A71CCBA17B45EE8E83BA3276AB
-- generatedChecksum: 7806B30ECAE0D18D08CD583D8775530D
+  userChecksum: A11EB2A6428A7CBE4FFAD18F7926F36F
+- generatedChecksum: 16BE5CCEE5F9AF5909BF3F69B51C7D93
   logicalPath: config\sam_d20_xpro\stdio
   name: xc32_monitor.c
   physicalPath: stdio
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7806B30ECAE0D18D08CD583D8775530D
+  userChecksum: 16BE5CCEE5F9AF5909BF3F69B51C7D93
 - generatedChecksum: C90096E1F900F7C19A1751188E3A8E32
   logicalPath: config\sam_d20_xpro\touch\datastreamer
   name: 03EB00000000000000AA5501.db
@@ -230,20 +230,20 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 9370572AD402AB9E975F0FDC2266795F
-- generatedChecksum: 85B1C9DD5D8D4F37E702A388970B1D13
+- generatedChecksum: 1E95897BEB609CBE498A0D06CA7AA631
   logicalPath: config\sam_d20_xpro
   name: definitions.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: 85B1C9DD5D8D4F37E702A388970B1D13
-- generatedChecksum: EBE4EB7842A4289C2AC1C0D28EF5AD67
+  userChecksum: 1E95897BEB609CBE498A0D06CA7AA631
+- generatedChecksum: 92912B70806DCA78FC309C856AD2F2E3
   logicalPath: config\sam_d20_xpro
   name: device.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: EBE4EB7842A4289C2AC1C0D28EF5AD67
+  userChecksum: 92912B70806DCA78FC309C856AD2F2E3
 - generatedChecksum: 85D3482D395C59BDFF268B01940CDDDE
   logicalPath: config\sam_d20_xpro
   name: device_cache.h
@@ -251,13 +251,6 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 85D3482D395C59BDFF268B01940CDDDE
-- generatedChecksum: DF73F1FD406128CFF6DCDCF17B582138
-  logicalPath: config\sam_d20_xpro
-  name: device_vectors.h
-  physicalPath: ''
-  security: NON_SECURE
-  type: HEADER
-  userChecksum: DF73F1FD406128CFF6DCDCF17B582138
 - generatedChecksum: F7E9546F7C4EFD53476AA132B069BC26
   logicalPath: packs\ATSAMD20J18_DFP\component
   name: dsu.h
@@ -286,13 +279,6 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: C9C0FCAB478A35649A2BA7BDBD3CBA30
-- generatedChecksum: B06A7E2E53689A0BBD537D2D33717226
-  logicalPath: config\sam_d20_xpro
-  name: interrupts.h
-  physicalPath: ''
-  security: NON_SECURE
-  type: HEADER
-  userChecksum: B06A7E2E53689A0BBD537D2D33717226
 - generatedChecksum: B96ADDA2C111E73B26EBA5E7B4498912
   logicalPath: packs\CMSIS\CMSIS\Core\Include
   name: mpu_armv7.h
@@ -314,13 +300,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: A1DEB7F98ED9B61451CE5969BB69C4E2
-- generatedChecksum: D9883C70E96468DEE4D7B4669D1C837B
+- generatedChecksum: C591D09F115E12D00921D14939E3900D
   logicalPath: config\sam_d20_xpro\peripheral\clock
   name: plib_clock.h
   physicalPath: peripheral\clock
   security: NON_SECURE
   type: HEADER
-  userChecksum: D9883C70E96468DEE4D7B4669D1C837B
+  userChecksum: C591D09F115E12D00921D14939E3900D
 - generatedChecksum: CCAEF942C66AF995876DFD85CEFF611F
   logicalPath: config\sam_d20_xpro\peripheral\evsys
   name: plib_evsys.h
@@ -328,13 +314,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: CCAEF942C66AF995876DFD85CEFF611F
-- generatedChecksum: 55ECCC7FA71BD15B46EF80DC0515ED7A
+- generatedChecksum: E95AB23B866AA0CE6F0ABF637E9E2C83
   logicalPath: config\sam_d20_xpro\peripheral\nvic
   name: plib_nvic.h
   physicalPath: peripheral\nvic
   security: NON_SECURE
   type: HEADER
-  userChecksum: 55ECCC7FA71BD15B46EF80DC0515ED7A
+  userChecksum: E95AB23B866AA0CE6F0ABF637E9E2C83
 - generatedChecksum: 71D16914F1E580B0AF77141622DCD865
   logicalPath: config\sam_d20_xpro\peripheral\nvmctrl
   name: plib_nvmctrl.h
@@ -342,13 +328,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 71D16914F1E580B0AF77141622DCD865
-- generatedChecksum: FE51A9DF504C4F93F293285C41E122A1
+- generatedChecksum: B710963C5AEA138EE632B6C1FC700AF5
   logicalPath: config\sam_d20_xpro\peripheral\port
   name: plib_port.h
   physicalPath: peripheral\port
   security: NON_SECURE
   type: HEADER
-  userChecksum: FE51A9DF504C4F93F293285C41E122A1
+  userChecksum: B710963C5AEA138EE632B6C1FC700AF5
 - generatedChecksum: 555E6DA59F0EC034C1C4776C8FBC9C7F
   logicalPath: config\sam_d20_xpro\peripheral\rtc
   name: plib_rtc.h
@@ -363,13 +349,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: DCC0369AFDD597FB63203FB1B7488E8B
-- generatedChecksum: 6F7C32BEA82BE8985E2B44B601498B7C
+- generatedChecksum: 925FCFFDB3C2D6B21726F0B97CDA821B
   logicalPath: config\sam_d20_xpro\peripheral\sercom\usart
   name: plib_sercom_usart_common.h
   physicalPath: peripheral\sercom\usart
   security: NON_SECURE
   type: HEADER
-  userChecksum: 6F7C32BEA82BE8985E2B44B601498B7C
+  userChecksum: 925FCFFDB3C2D6B21726F0B97CDA821B
 - generatedChecksum: 04C8E3C2A27856229F9387BED9467911
   logicalPath: packs\ATSAMD20J18_DFP\component
   name: pm.h
@@ -468,20 +454,20 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 20E829A99B86C2889E4E2E536161C27A
-- generatedChecksum: F4A700BDACFCE69A996C2250DCF60FFF
+- generatedChecksum: 15F95D5FD44EAC28B3319D8407BB7990
   logicalPath: config\sam_d20_xpro\touch
   name: touch.h
   physicalPath: touch
   security: NON_SECURE
   type: HEADER
-  userChecksum: F4A700BDACFCE69A996C2250DCF60FFF
-- generatedChecksum: 6D4F4B6BDDCFAAB2A42B4CC277DF3E91
+  userChecksum: 15F95D5FD44EAC28B3319D8407BB7990
+- generatedChecksum: A421C572EF6E0345770AB9A014662F0C
   logicalPath: config\sam_d20_xpro\touch
   name: touch_api_ptc.h
   physicalPath: touch
   security: NON_SECURE
   type: HEADER
-  userChecksum: 6D4F4B6BDDCFAAB2A42B4CC277DF3E91
+  userChecksum: A421C572EF6E0345770AB9A014662F0C
 - generatedChecksum: A102ED238794D81B3B354DBD9D8978FD
   logicalPath: packs\ATSAMD20J18_DFP\component
   name: wdt.h

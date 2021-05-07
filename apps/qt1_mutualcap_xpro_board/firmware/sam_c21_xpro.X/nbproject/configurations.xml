@@ -156,16 +156,16 @@
                    displayName="Important Files"
                    projectFiles="false">
       <logicalFolder name="f1" displayName="sam_c21_xpro.mhc" projectFiles="true">
-        <itemPath>..\src\config\sam_c21_xpro\sam_c21_xpro.mhc\core.yml</itemPath>
-        <itemPath>..\src\config\sam_c21_xpro\sam_c21_xpro.mhc\dfp.yml</itemPath>
-        <itemPath>..\src\config\sam_c21_xpro\sam_c21_xpro.mhc\evsys.yml</itemPath>
-        <itemPath>..\src\config\sam_c21_xpro\sam_c21_xpro.mhc\GraphSettings.yml</itemPath>
-        <itemPath>..\src\config\sam_c21_xpro\sam_c21_xpro.mhc\lib_qtouch.yml</itemPath>
-        <itemPath>..\src\config\sam_c21_xpro\sam_c21_xpro.mhc\nvmctrl.yml</itemPath>
-        <itemPath>..\src\config\sam_c21_xpro\sam_c21_xpro.mhc\project.yml</itemPath>
-        <itemPath>..\src\config\sam_c21_xpro\sam_c21_xpro.mhc\rtc.yml</itemPath>
-        <itemPath>..\src\config\sam_c21_xpro\sam_c21_xpro.mhc\sercom4.yml</itemPath>
-        <itemPath>..\src\config\sam_c21_xpro\sam_c21_xpro.mhc\settings.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/core.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/evsys.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/GraphSettings.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/lib_qtouch.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/nvmctrl.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/project.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/rtc.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/sercom4.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/settings.yml</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>..\src\config\sam_c21_xpro\harmony-manifest-success.yml</itemPath>
@@ -182,9 +182,9 @@
         <targetDevice>ATSAMC21J18A</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>EdbgTool</platformTool>
+        <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>2.41</languageToolchainVersion>
+        <languageToolchainVersion>2.50</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>

@@ -1,11 +1,11 @@
 files:
-- generatedChecksum: D7A0014F6C423D56110B73A1F4AA501F
+- generatedChecksum: 58C38691DA2D9E4BABD357D648617B99
   logicalPath: config\sam_l10_xpro\touch\datastreamer
   name: datastreamer_UART_sam.c
   physicalPath: touch\datastreamer
   security: NON_SECURE
   type: SOURCE
-  userChecksum: D7A0014F6C423D56110B73A1F4AA501F
+  userChecksum: 58C38691DA2D9E4BABD357D648617B99
 - generatedChecksum: B9388144EA8C18C396F2DB6CC40DCB4D
   logicalPath: config\sam_l10_xpro
   name: exceptions.c
@@ -104,13 +104,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 949BBD944EC8B81E639121B72E7C7510
-- generatedChecksum: 27B38493C02DDAF0942D3117864E697E
+- generatedChecksum: 14F23C4D984A1D95FD78D76417A053FF
   logicalPath: config\sam_l10_xpro\touch
   name: touch.c
   physicalPath: touch
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 27B38493C02DDAF0942D3117864E697E
+  userChecksum: 14F23C4D984A1D95FD78D76417A053FF
 - generatedChecksum: 16BE5CCEE5F9AF5909BF3F69B51C7D93
   logicalPath: config\sam_l10_xpro\stdio
   name: xc32_monitor.c
@@ -160,6 +160,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 88944E91A85756AF650DAEF9D9322C9F
+- generatedChecksum: 01B82424BC59A54620F7E9E0DB808EBB
+  logicalPath: packs\CMSIS\CMSIS\Core\Include
+  name: cachel1_armv7.h
+  physicalPath: ..\..\packs\CMSIS\CMSIS\Core\Include
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 01B82424BC59A54620F7E9E0DB808EBB
 - generatedChecksum: D083E231381A8103FB0EE4055181F90F
   logicalPath: packs\ATSAML10E16A_DFP\component
   name: ccl.h
@@ -167,6 +174,62 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: D083E231381A8103FB0EE4055181F90F
+- generatedChecksum: 00A88E28C299A373117BC4D5B9E80C80
+  logicalPath: packs\CMSIS\CMSIS\Core\Include
+  name: cmsis_armcc.h
+  physicalPath: ..\..\packs\CMSIS\CMSIS\Core\Include
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 00A88E28C299A373117BC4D5B9E80C80
+- generatedChecksum: 734DF6998F09B2D22A4D9FE1D544FDFC
+  logicalPath: packs\CMSIS\CMSIS\Core\Include
+  name: cmsis_armclang.h
+  physicalPath: ..\..\packs\CMSIS\CMSIS\Core\Include
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 734DF6998F09B2D22A4D9FE1D544FDFC
+- generatedChecksum: 5D653BEFE5E6B1D00AB3682CE5D24C11
+  logicalPath: packs\CMSIS\CMSIS\Core\Include
+  name: cmsis_armclang_ltm.h
+  physicalPath: ..\..\packs\CMSIS\CMSIS\Core\Include
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 5D653BEFE5E6B1D00AB3682CE5D24C11
+- generatedChecksum: 60385A5C6C9882B5D30709A1F6EAEC35
+  logicalPath: packs\CMSIS\CMSIS\Core\Include
+  name: cmsis_compiler.h
+  physicalPath: ..\..\packs\CMSIS\CMSIS\Core\Include
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 60385A5C6C9882B5D30709A1F6EAEC35
+- generatedChecksum: 42E8B722917508A3A9373D13AD827ED6
+  logicalPath: packs\CMSIS\CMSIS\Core\Include
+  name: cmsis_gcc.h
+  physicalPath: ..\..\packs\CMSIS\CMSIS\Core\Include
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 42E8B722917508A3A9373D13AD827ED6
+- generatedChecksum: 376D5C7FD29CAA507ACB1AAB8746B1AD
+  logicalPath: packs\CMSIS\CMSIS\Core\Include
+  name: cmsis_iccarm.h
+  physicalPath: ..\..\packs\CMSIS\CMSIS\Core\Include
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 376D5C7FD29CAA507ACB1AAB8746B1AD
+- generatedChecksum: 52F91AC0727F2311EDA0E3BAA7719A9F
+  logicalPath: packs\CMSIS\CMSIS\Core\Include
+  name: cmsis_version.h
+  physicalPath: ..\..\packs\CMSIS\CMSIS\Core\Include
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 52F91AC0727F2311EDA0E3BAA7719A9F
+- generatedChecksum: 0FA8F383A68E6909F4F1D040B920F2F2
+  logicalPath: packs\CMSIS\CMSIS\Core\Include
+  name: core_cm23.h
+  physicalPath: ..\..\packs\CMSIS\CMSIS\Core\Include
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 0FA8F383A68E6909F4F1D040B920F2F2
 - generatedChecksum: 8148893677E9029400979A2C42738F9D
   logicalPath: packs\ATSAML10E16A_DFP\component
   name: dac.h
@@ -258,6 +321,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: F2F5A442958EDEF69DC790DEF2950181
+- generatedChecksum: AF4D338B8CE47DE6D837EBA192EB7ADC
+  logicalPath: packs\CMSIS\CMSIS\Core\Include
+  name: mpu_armv8.h
+  physicalPath: ..\..\packs\CMSIS\CMSIS\Core\Include
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: AF4D338B8CE47DE6D837EBA192EB7ADC
 - generatedChecksum: CBF85FCDA2A92DBF5241B0EB01A2D84E
   logicalPath: packs\ATSAML10E16A_DFP\component
   name: nvmctrl.h
@@ -461,20 +531,20 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 20E829A99B86C2889E4E2E536161C27A
-- generatedChecksum: 1473B3D9C45FE8D3F48DBD48B53383FE
+- generatedChecksum: 45809578B8F620D9B85492B451AAD8F1
   logicalPath: config\sam_l10_xpro\touch
   name: touch.h
   physicalPath: touch
   security: NON_SECURE
   type: HEADER
-  userChecksum: 1473B3D9C45FE8D3F48DBD48B53383FE
-- generatedChecksum: BEAC23C3C2B559A94CC1842C64355B0C
+  userChecksum: 45809578B8F620D9B85492B451AAD8F1
+- generatedChecksum: D8CEDFB16217A15368725F989CA384D3
   logicalPath: config\sam_l10_xpro\touch
   name: touch_api_ptc.h
   physicalPath: touch
   security: NON_SECURE
   type: HEADER
-  userChecksum: BEAC23C3C2B559A94CC1842C64355B0C
+  userChecksum: D8CEDFB16217A15368725F989CA384D3
 - generatedChecksum: 92C92A6B70777715EA22C05539CFA7E5
   logicalPath: packs\ATSAML10E16A_DFP\component
   name: tram.h
@@ -489,6 +559,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 9CFFDA7F3BD7FF000B7882494E3B4D80
+- generatedChecksum: 8710F2682DA1C97558850902DABA38BA
+  logicalPath: packs\CMSIS\CMSIS\Core\Include
+  name: tz_context.h
+  physicalPath: ..\..\packs\CMSIS\CMSIS\Core\Include
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 8710F2682DA1C97558850902DABA38BA
 - generatedChecksum: 00F5724D6297A8F9F5094040A22311D1
   logicalPath: packs\ATSAML10E16A_DFP\component
   name: wdt.h

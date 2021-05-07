@@ -1,11 +1,11 @@
 files:
-- generatedChecksum: B01D5D5949367B60911AD1E8B0DF26CE
+- generatedChecksum: E55BD483D191454EF5301758D8A22C8F
   logicalPath: config\sam_l22_xpro\touch\datastreamer
   name: datastreamer_UART_sam.c
   physicalPath: touch\datastreamer
   security: NON_SECURE
   type: SOURCE
-  userChecksum: B01D5D5949367B60911AD1E8B0DF26CE
+  userChecksum: E55BD483D191454EF5301758D8A22C8F
 - generatedChecksum: 9762B12622FD08815784244AF2080753
   logicalPath: config\sam_l22_xpro
   name: exceptions.c
@@ -104,13 +104,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 949BBD944EC8B81E639121B72E7C7510
-- generatedChecksum: 50EB165095649C61773386A15793C41A
+- generatedChecksum: B2D2B45BF67F22F9C5DCAF94104128F2
   logicalPath: config\sam_l22_xpro\touch
   name: touch.c
   physicalPath: touch
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 50EB165095649C61773386A15793C41A
+  userChecksum: B2D2B45BF67F22F9C5DCAF94104128F2
 - generatedChecksum: 16BE5CCEE5F9AF5909BF3F69B51C7D93
   logicalPath: config\sam_l22_xpro\stdio
   name: xc32_monitor.c
@@ -118,13 +118,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 16BE5CCEE5F9AF5909BF3F69B51C7D93
-- generatedChecksum: E7E77254A550AF0835AD9293B0C39E0E
+- generatedChecksum: 04D2827549B9132D58E93BABE90A71A0
   logicalPath: config\sam_l22_xpro\touch\datastreamer
   name: 03EB00000000000000AA5501.db
   physicalPath: touch\datastreamer
   security: NON_SECURE
   type: HEADER
-  userChecksum: E7E77254A550AF0835AD9293B0C39E0E
+  userChecksum: 04D2827549B9132D58E93BABE90A71A0
 - generatedChecksum: 4E0C368059E34863CDFC5D86290A9B9F
   logicalPath: config\sam_l22_xpro\touch\datastreamer
   name: 03EB00000000000000AA5501.ds
@@ -468,20 +468,20 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 20E829A99B86C2889E4E2E536161C27A
-- generatedChecksum: 3701E6B885C1FEB37892DC9F3F471B44
+- generatedChecksum: 38523DF710E14BED2BB276186C64D128
   logicalPath: config\sam_l22_xpro\touch
   name: touch.h
   physicalPath: touch
   security: NON_SECURE
   type: HEADER
-  userChecksum: 3701E6B885C1FEB37892DC9F3F471B44
-- generatedChecksum: 15D9F79B9E1A558CC73876967D1F4A02
+  userChecksum: 38523DF710E14BED2BB276186C64D128
+- generatedChecksum: FB880A377C7212483039B004ED3A5A85
   logicalPath: config\sam_l22_xpro\touch
   name: touch_api_ptc.h
   physicalPath: touch
   security: NON_SECURE
   type: HEADER
-  userChecksum: 15D9F79B9E1A558CC73876967D1F4A02
+  userChecksum: FB880A377C7212483039B004ED3A5A85
 - generatedChecksum: 385AF708E41EEB807A3A7EF39E406F64
   logicalPath: packs\ATSAML22N18A_DFP\component
   name: trng.h

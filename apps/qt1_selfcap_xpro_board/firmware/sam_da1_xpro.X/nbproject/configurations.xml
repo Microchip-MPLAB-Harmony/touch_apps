@@ -51,7 +51,7 @@
           <itemPath>../src/config/sam_da1_xpro/device_cache.h</itemPath>
           <itemPath>../src/config/sam_da1_xpro/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/sam_da1_xpro/definitions.h</itemPath>
-          <itemPath>..\src\config\sam_da1_xpro\device.h</itemPath>
+          <itemPath>../src/config/sam_da1_xpro/device.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="packs" projectFiles="true">
@@ -99,7 +99,7 @@
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm0plus.h</itemPath>
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv7.h</itemPath>
-                <itemPath>..\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
@@ -111,7 +111,7 @@
                    projectFiles="true">
       <logicalFolder name="f1" displayName="config" projectFiles="true">
         <logicalFolder name="f1" displayName="sam_da1_xpro" projectFiles="true">
-          <itemPath>..\src\config\sam_da1_xpro\ATSAMDA1J16B.ld</itemPath>
+          <itemPath>../src/config/sam_da1_xpro/ATSAMDA1J16B.ld</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
@@ -167,17 +167,17 @@
                    displayName="Important Files"
                    projectFiles="false">
       <logicalFolder name="f1" displayName="sam_da1_xpro.mhc" projectFiles="true">
-        <itemPath>..\src\config\sam_da1_xpro\sam_da1_xpro.mhc\cmsis.yml</itemPath>
-        <itemPath>..\src\config\sam_da1_xpro\sam_da1_xpro.mhc\core.yml</itemPath>
-        <itemPath>..\src\config\sam_da1_xpro\sam_da1_xpro.mhc\dfp.yml</itemPath>
-        <itemPath>..\src\config\sam_da1_xpro\sam_da1_xpro.mhc\evsys.yml</itemPath>
-        <itemPath>..\src\config\sam_da1_xpro\sam_da1_xpro.mhc\GraphSettings.yml</itemPath>
-        <itemPath>..\src\config\sam_da1_xpro\sam_da1_xpro.mhc\lib_qtouch.yml</itemPath>
-        <itemPath>..\src\config\sam_da1_xpro\sam_da1_xpro.mhc\nvmctrl.yml</itemPath>
-        <itemPath>..\src\config\sam_da1_xpro\sam_da1_xpro.mhc\project.yml</itemPath>
-        <itemPath>..\src\config\sam_da1_xpro\sam_da1_xpro.mhc\rtc.yml</itemPath>
-        <itemPath>..\src\config\sam_da1_xpro\sam_da1_xpro.mhc\sercom3.yml</itemPath>
-        <itemPath>..\src\config\sam_da1_xpro\sam_da1_xpro.mhc\settings.yml</itemPath>
+        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/cmsis.yml</itemPath>
+        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/core.yml</itemPath>
+        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/evsys.yml</itemPath>
+        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/GraphSettings.yml</itemPath>
+        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/lib_qtouch.yml</itemPath>
+        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/nvmctrl.yml</itemPath>
+        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/project.yml</itemPath>
+        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/rtc.yml</itemPath>
+        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/sercom3.yml</itemPath>
+        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/settings.yml</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>..\src\config\sam_da1_xpro\harmony-manifest-success.yml</itemPath>
@@ -194,14 +194,14 @@
         <targetDevice>ATSAMDA1J16B</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>EdbgTool</platformTool>
+        <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>2.41</languageToolchainVersion>
+        <languageToolchainVersion>2.50</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="SAMDA1_DFP" vendor="Microchip" version="2.3.56"/>
         <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
+        <pack name="SAMDA1_DFP" vendor="Microchip" version="2.3.56"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>

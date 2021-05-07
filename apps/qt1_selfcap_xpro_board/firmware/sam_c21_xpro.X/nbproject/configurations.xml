@@ -50,7 +50,7 @@
           <itemPath>../src/config/sam_c21_xpro/device_cache.h</itemPath>
           <itemPath>../src/config/sam_c21_xpro/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/sam_c21_xpro/definitions.h</itemPath>
-          <itemPath>..\src\config\sam_c21_xpro\device.h</itemPath>
+          <itemPath>../src/config/sam_c21_xpro/device.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="packs" projectFiles="true">
@@ -106,7 +106,7 @@
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm0plus.h</itemPath>
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv7.h</itemPath>
-                <itemPath>..\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
@@ -118,7 +118,7 @@
                    projectFiles="true">
       <logicalFolder name="f1" displayName="config" projectFiles="true">
         <logicalFolder name="f1" displayName="sam_c21_xpro" projectFiles="true">
-          <itemPath>..\src\config\sam_c21_xpro\ATSAMC21J18A.ld</itemPath>
+          <itemPath>../src/config/sam_c21_xpro/ATSAMC21J18A.ld</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
@@ -174,17 +174,17 @@
                    displayName="Important Files"
                    projectFiles="false">
       <logicalFolder name="f1" displayName="sam_c21_xpro.mhc" projectFiles="true">
-        <itemPath>..\src\config\sam_c21_xpro\sam_c21_xpro.mhc\cmsis.yml</itemPath>
-        <itemPath>..\src\config\sam_c21_xpro\sam_c21_xpro.mhc\core.yml</itemPath>
-        <itemPath>..\src\config\sam_c21_xpro\sam_c21_xpro.mhc\dfp.yml</itemPath>
-        <itemPath>..\src\config\sam_c21_xpro\sam_c21_xpro.mhc\evsys.yml</itemPath>
-        <itemPath>..\src\config\sam_c21_xpro\sam_c21_xpro.mhc\GraphSettings.yml</itemPath>
-        <itemPath>..\src\config\sam_c21_xpro\sam_c21_xpro.mhc\lib_qtouch.yml</itemPath>
-        <itemPath>..\src\config\sam_c21_xpro\sam_c21_xpro.mhc\nvmctrl.yml</itemPath>
-        <itemPath>..\src\config\sam_c21_xpro\sam_c21_xpro.mhc\project.yml</itemPath>
-        <itemPath>..\src\config\sam_c21_xpro\sam_c21_xpro.mhc\rtc.yml</itemPath>
-        <itemPath>..\src\config\sam_c21_xpro\sam_c21_xpro.mhc\sercom4.yml</itemPath>
-        <itemPath>..\src\config\sam_c21_xpro\sam_c21_xpro.mhc\settings.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/cmsis.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/core.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/evsys.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/GraphSettings.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/lib_qtouch.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/nvmctrl.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/project.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/rtc.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/sercom4.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/settings.yml</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>..\src\config\sam_c21_xpro\harmony-manifest-success.yml</itemPath>
@@ -201,9 +201,9 @@
         <targetDevice>ATSAMC21J18A</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>EdbgTool</platformTool>
+        <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>2.41</languageToolchainVersion>
+        <languageToolchainVersion>2.50</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
@@ -273,7 +273,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/sam_c21_xpro;../src/packs/ATSAMC21J18A_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
+                  value="../src;../src/config/sam_c21_xpro;../src/packs/ATSAMC21J18A_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -369,7 +369,7 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/sam_c21_xpro;../src/packs/ATSAMC21J18A_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
+                  value="../src;../src/config/sam_c21_xpro;../src/packs/ATSAMC21J18A_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
