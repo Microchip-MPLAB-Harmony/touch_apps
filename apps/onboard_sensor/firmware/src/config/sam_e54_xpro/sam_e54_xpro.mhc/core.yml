@@ -163,7 +163,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: '120000000'}
+        attributes: {id: core, value: '0'}
   - type: Integer
     attributes: {id: GCLK_0_FREQ}
     children:

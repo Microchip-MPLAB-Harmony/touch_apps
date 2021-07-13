@@ -335,13 +335,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 9370572AD402AB9E975F0FDC2266795F
-- generatedChecksum: DCC1B01243911FE70AA38825FB9F3300
+- generatedChecksum: 7B126D05072FAAE562C55728F453D58D
   logicalPath: config/sam_e54_xpro
   name: definitions.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: DCC1B01243911FE70AA38825FB9F3300
+  userChecksum: 7B126D05072FAAE562C55728F453D58D
 - generatedChecksum: AA255350342164F392C52E11EFC2A7F3
   logicalPath: config/sam_e54_xpro
   name: device.h

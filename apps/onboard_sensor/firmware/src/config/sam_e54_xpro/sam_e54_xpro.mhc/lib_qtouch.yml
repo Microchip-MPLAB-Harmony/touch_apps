@@ -31,7 +31,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: lib_qtouch, value: GCLK_ID_40_FREQ}
+        attributes: {id: lib_qtouch, value: 'GCLK_ID_40_FREQ:sync'}
   - type: KeyValueSet
     attributes: {id: SELFCAP-INPUT_0}
     children:
