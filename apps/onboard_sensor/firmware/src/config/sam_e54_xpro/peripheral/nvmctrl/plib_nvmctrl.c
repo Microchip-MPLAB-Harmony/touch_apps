@@ -49,6 +49,7 @@
 
 #include <string.h>
 #include "plib_nvmctrl.h"
+#include "interrupts.h"
 
 static volatile uint16_t nvm_error;
 static uint16_t nvm_status;
@@ -64,7 +65,7 @@ static uint32_t smart_eep_status;
 
 void NVMCTRL_Initialize(void)
 {
-   NVMCTRL_REGS->NVMCTRL_CTRLA = NVMCTRL_CTRLA_RWS(4) | NVMCTRL_CTRLA_AUTOWS_Msk;    
+   NVMCTRL_REGS->NVMCTRL_CTRLA = NVMCTRL_CTRLA_RWS(1) | NVMCTRL_CTRLA_AUTOWS_Msk;    
 }
 
 bool NVMCTRL_Read( uint32_t *data, uint32_t length, const uint32_t address )
@@ -187,9 +188,12 @@ uint16_t NVMCTRL_ErrorGet( void )
     uint16_t temp;
     /* Store previous and current error flags */
     temp = NVMCTRL_REGS->NVMCTRL_INTFLAG;
+
     nvm_error |= temp;
+
     /* Clear NVMCTRL INTFLAG register */
-    NVMCTRL_REGS->NVMCTRL_INTFLAG = NVMCTRL_INTFLAG_Msk;
+    NVMCTRL_REGS->NVMCTRL_INTFLAG = nvm_error;
+
     return nvm_error;
 }
 

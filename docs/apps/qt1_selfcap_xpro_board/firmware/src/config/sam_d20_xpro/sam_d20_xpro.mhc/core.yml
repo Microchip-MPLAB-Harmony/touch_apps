@@ -120,7 +120,7 @@ children:
       - type: Dynamic
         attributes: {id: core, value: '1'}
   - type: KeyValueSet
-    attributes: {id: DEVICE_SECURITY_CMD}
+    attributes: {id: DEVICE_SECURITY}
     children:
     - type: Values
       children:
@@ -1303,7 +1303,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: '0xBB80'}
+        attributes: {id: core, value: '0xbb80'}
   - type: Float
     attributes: {id: SYSTICK_PERIOD_MS}
     children:
@@ -1320,19 +1320,5 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '1000'}
-  - type: Boolean
-    attributes: {id: SYSTICK_PUBLISH_CAPABILITIES}
-    children:
-    - type: Values
-      children:
-      - type: Dynamic
-        attributes: {id: core, value: 'false'}
-  - type: Boolean
-    attributes: {id: SYSTICK_USED_BY_SYS_TIME}
-    children:
-    - type: Values
-      children:
-      - type: Dynamic
-        attributes: {id: core, value: 'false'}
 - type: ElementPosition
   attributes: {x: '560', y: '20', id: core}

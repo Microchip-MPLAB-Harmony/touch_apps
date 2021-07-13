@@ -51,12 +51,13 @@
 #include "peripheral/nvmctrl/plib_nvmctrl.h"
 #include "peripheral/sercom/usart/plib_sercom2_usart.h"
 #include "peripheral/evsys/plib_evsys.h"
+#include "peripheral/adc/plib_adc0.h"
 #include "peripheral/port/plib_port.h"
 #include "peripheral/clock/plib_clock.h"
 #include "peripheral/nvic/plib_nvic.h"
 #include "peripheral/cmcc/plib_cmcc.h"
-#include "touch/touch.h"
 #include "peripheral/rtc/plib_rtc.h"
+#include "touch/touch.h"
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
@@ -65,6 +66,9 @@ extern "C" {
 
 #endif
 // DOM-IGNORE-END
+
+/* CPU clock frequency */
+#define CPU_CLOCK_FREQUENCY 48000000
 
 // *****************************************************************************
 // *****************************************************************************

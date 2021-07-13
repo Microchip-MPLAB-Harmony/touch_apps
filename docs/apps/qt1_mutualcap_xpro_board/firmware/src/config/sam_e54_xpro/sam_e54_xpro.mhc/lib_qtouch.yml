@@ -61,76 +61,6 @@ children:
       - type: User
         attributes: {value: '2'}
   - type: KeyValueSet
-    attributes: {id: DEF_NOD_PTC_PRESCALER0}
-    children:
-    - type: Values
-      children:
-      - type: User
-        attributes: {value: '1'}
-  - type: KeyValueSet
-    attributes: {id: DEF_NOD_PTC_PRESCALER1}
-    children:
-    - type: Values
-      children:
-      - type: User
-        attributes: {value: '1'}
-  - type: KeyValueSet
-    attributes: {id: DEF_NOD_PTC_PRESCALER2}
-    children:
-    - type: Values
-      children:
-      - type: User
-        attributes: {value: '1'}
-  - type: KeyValueSet
-    attributes: {id: DEF_NOD_PTC_PRESCALER3}
-    children:
-    - type: Values
-      children:
-      - type: User
-        attributes: {value: '1'}
-  - type: KeyValueSet
-    attributes: {id: DEF_NOD_PTC_PRESCALER4}
-    children:
-    - type: Values
-      children:
-      - type: User
-        attributes: {value: '1'}
-  - type: KeyValueSet
-    attributes: {id: DEF_NOD_PTC_PRESCALER5}
-    children:
-    - type: Values
-      children:
-      - type: User
-        attributes: {value: '1'}
-  - type: KeyValueSet
-    attributes: {id: DEF_NOD_PTC_PRESCALER6}
-    children:
-    - type: Values
-      children:
-      - type: User
-        attributes: {value: '1'}
-  - type: KeyValueSet
-    attributes: {id: DEF_NOD_PTC_PRESCALER7}
-    children:
-    - type: Values
-      children:
-      - type: User
-        attributes: {value: '1'}
-  - type: KeyValueSet
-    attributes: {id: DEF_NOD_PTC_PRESCALER8}
-    children:
-    - type: Values
-      children:
-      - type: User
-        attributes: {value: '1'}
-  - type: KeyValueSet
-    attributes: {id: DEF_NOD_PTC_PRESCALER9}
-    children:
-    - type: Values
-      children:
-      - type: User
-        attributes: {value: '1'}
-  - type: KeyValueSet
     attributes: {id: DEF_SCR_TYPE1}
     children:
     - type: Values
@@ -145,26 +75,21 @@ children:
       - type: User
         attributes: {value: 'true'}
   - type: Boolean
-    attributes: {id: ENABLE_FREQ_HOP}
-    children:
-    - type: Values
-      children:
-      - type: User
-        attributes: {value: 'true'}
-  - type: Boolean
     attributes: {id: ENABLE_SCROLLER}
     children:
     - type: Values
       children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: 'false'}
       - type: User
         attributes: {value: 'true'}
-  - type: Boolean
-    attributes: {id: FREQ_AUTOTUNE}
+  - type: String
+    attributes: {id: LOW_POWER_KEYS_MASK}
     children:
     - type: Values
       children:
-      - type: User
-        attributes: {value: 'true'}
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: '0x0,0x0'}
   - type: KeyValueSet
     attributes: {id: MUTL-X-INPUT_0}
     children:
@@ -192,7 +117,7 @@ children:
     - type: Values
       children:
       - type: User
-        attributes: {value: '0'}
+        attributes: {value: '7'}
   - type: KeyValueSet
     attributes: {id: MUTL-X-INPUT_4}
     children:
@@ -312,6 +237,19 @@ children:
       children:
       - type: Dynamic
         attributes: {id: lib_qtouch, value: GCLK_ID_40_FREQ}
+  - type: Menu
+    attributes: {id: SCROLLER_MENU}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
   - type: KeyValueSet
     attributes: {id: SENSE_TECHNOLOGY}
     children:
@@ -525,24 +463,6 @@ children:
       children:
       - type: User
         attributes: {value: 'true'}
-  - type: File
-    attributes: {id: TOUCH_HOP_AUTO_HEADER}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: enabled}
-        children:
-        - {type: Value, value: 'true'}
-  - type: Library
-    attributes: {id: TOUCH_HOP_AUTO_LIB}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: enabled}
-        children:
-        - {type: Value, value: 'true'}
   - type: Integer
     attributes: {id: TOUCH_KEY_ENABLE_CNT}
     children:
@@ -555,17 +475,22 @@ children:
     children:
     - type: Values
       children:
-      - type: Dynamic
-        attributes: {id: TOUCH_LOADED, value: 'true'}
+      - type: User
+        attributes: {value: 'true'}
   - type: Boolean
     attributes: {id: TOUCH_PRE_GENERATE}
     children:
     - type: Values
       children:
-      - type: Dynamic
-        attributes: {id: TOUCH_PRE_GENERATE, value: 'true'}
       - type: User
         attributes: {value: 'true'}
+  - type: String
+    attributes: {id: TOUCH_SCRIPT_EVENT}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
   - type: Integer
     attributes: {id: TOUCH_SCROLLER_ENABLE_CNT}
     children:
@@ -671,5 +596,18 @@ children:
         attributes: {id: targetAttachmentID}
         children:
         - {type: Value, value: RTC_TMR}
+  - type: DirectDependency
+    attributes: {id: lib_acquire}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: targetComponentID}
+        children:
+        - {type: Value, value: ptc}
+      - type: String
+        attributes: {id: targetAttachmentID}
+        children:
+        - {type: Value, value: ptc_Acq_Engine}
 - type: ElementPosition
   attributes: {x: '330', y: '60', id: lib_qtouch}

@@ -4,27 +4,6 @@ attributes: {id: lib_qtouch}
 children:
 - type: Symbols
   children:
-  - type: KeyValueSet
-    attributes: {id: DEF_NOD_PTC_PRESCALER0}
-    children:
-    - type: Values
-      children:
-      - type: User
-        attributes: {value: '1'}
-  - type: Integer
-    attributes: {id: DEF_SENSOR_DET_THRESHOLD0}
-    children:
-    - type: Values
-      children:
-      - type: User
-        attributes: {value: '80'}
-  - type: Integer
-    attributes: {id: DEF_TOUCH_CHARGE_SHARE_DELAY0}
-    children:
-    - type: Values
-      children:
-      - type: User
-        attributes: {value: '10'}
   - type: Boolean
     attributes: {id: ENABLE_DATA_STREAMER}
     children:
@@ -33,97 +12,19 @@ children:
       - type: User
         attributes: {value: 'true'}
   - type: Boolean
-    attributes: {id: ENABLE_FREQ_HOP}
+    attributes: {id: ENABLE_SCROLLER}
     children:
-    - type: Values
-      children:
-      - type: User
-        attributes: {value: 'true'}
-  - type: Boolean
-    attributes: {id: FREQ_AUTOTUNE}
-    children:
-    - type: Values
-      children:
-      - type: User
-        attributes: {value: 'true'}
-  - type: KeyValueSet
-    attributes: {id: MUTL-X-INPUT_0}
-    children:
-    - type: Attributes
-      children:
-      - type: KeyValuePairList
-        attributes: {id: pairs}
-        children:
-        - type: Pairs
-          children:
-          - type: Pair
-            attributes: {description: X0  (PA03), value: X_NONE, key: '0'}
-          - type: Pair
-            attributes: {description: X1  (PB08), value: X(1), key: '1'}
-          - type: Pair
-            attributes: {description: X2  (PB09), value: X(2), key: '2'}
-          - type: Pair
-            attributes: {description: X3  (PA04), value: X(3), key: '3'}
-          - type: Pair
-            attributes: {description: X4  (PA06), value: X(4), key: '4'}
-          - type: Pair
-            attributes: {description: X5  (PA07), value: X(5), key: '5'}
-          - type: Pair
-            attributes: {description: X6  (PA08), value: X(6), key: '6'}
-          - type: Pair
-            attributes: {description: X7  (PA09), value: X(7), key: '7'}
-          - type: Pair
-            attributes: {description: X8  (PA10), value: X(8), key: '8'}
-          - type: Pair
-            attributes: {description: X9  (PA11), value: X(9), key: '9'}
-          - type: Pair
-            attributes: {description: X10  (PA16), value: X(10), key: '10'}
-          - type: Pair
-            attributes: {description: X11  (PA17), value: X(11), key: '11'}
-          - type: Pair
-            attributes: {description: X12  (PA18), value: X(12), key: '12'}
-          - type: Pair
-            attributes: {description: X13  (PA19), value: X(13), key: '13'}
-          - type: Pair
-            attributes: {description: X14  (PA20), value: X(14), key: '14'}
-          - type: Pair
-            attributes: {description: X15  (PA21), value: X(15), key: '15'}
-          - type: Pair
-            attributes: {description: X16  (PA22), value: X(16), key: '16'}
-          - type: Pair
-            attributes: {description: X17  (PA23), value: X(17), key: '17'}
-          - type: Pair
-            attributes: {description: X18  (PA27), value: X(18), key: '18'}
-          - type: Pair
-            attributes: {description: X19  (PA30), value: X(19), key: '19'}
-          - type: Pair
-            attributes: {description: X20  (PB02), value: X(20), key: '20'}
-          - type: Pair
-            attributes: {description: X21  (PB03), value: X(21), key: '21'}
-          - type: Pair
-            attributes: {description: X22  (PB04), value: X(22), key: '22'}
-          - type: Pair
-            attributes: {description: X23  (PB05), value: X(23), key: '23'}
-          - type: Pair
-            attributes: {description: X24  (PB06), value: X(24), key: '24'}
-          - type: Pair
-            attributes: {description: X25  (PB07), value: X(25), key: '25'}
-          - type: Pair
-            attributes: {description: X26  (PB12), value: X(26), key: '26'}
-          - type: Pair
-            attributes: {description: X27  (PB13), value: X(27), key: '27'}
-          - type: Pair
-            attributes: {description: X28  (PB14), value: X(28), key: '28'}
-          - type: Pair
-            attributes: {description: X29  (PB15), value: X(29), key: '29'}
-          - type: Pair
-            attributes: {description: X30  (PB00), value: X(30), key: '30'}
-          - type: Pair
-            attributes: {description: X31  (PB01), value: X(31), key: '31'}
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: lib_qtouch, value: '0'}
+        attributes: {id: lib_qtouch, value: 'false'}
+  - type: String
+    attributes: {id: LOW_POWER_KEYS_MASK}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: '0x0'}
   - type: String
     attributes: {id: PTC_CLOCK_FREQ}
     children:
@@ -226,6 +127,13 @@ children:
       - type: User
         attributes: {value: 'true'}
   - type: String
+    attributes: {id: TOUCH_SCRIPT_EVENT}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
     attributes: {id: TOUCH_SERCOM_INSTANCE}
     children:
     - type: Attributes
@@ -277,5 +185,18 @@ children:
         attributes: {id: targetAttachmentID}
         children:
         - {type: Value, value: RTC_TMR}
+  - type: DirectDependency
+    attributes: {id: lib_acquire}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: targetComponentID}
+        children:
+        - {type: Value, value: ptc}
+      - type: String
+        attributes: {id: targetAttachmentID}
+        children:
+        - {type: Value, value: ptc_Acq_Engine}
 - type: ElementPosition
-  attributes: {x: '330', y: '60', id: lib_qtouch}
+  attributes: {x: '457', y: '248', id: lib_qtouch}

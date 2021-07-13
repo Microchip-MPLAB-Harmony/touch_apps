@@ -95,7 +95,7 @@ children:
       - type: Dynamic
         attributes: {id: core, value: '0'}
   - type: KeyValueSet
-    attributes: {id: DEVICE_SECURITY}
+    attributes: {id: DEVICE_SECURITY_CMD}
     children:
     - type: Values
       children:
@@ -567,6 +567,8 @@ children:
     children:
     - type: Values
       children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
       - type: User
         attributes: {value: SERCOM0_PAD3}
   - type: String
@@ -583,6 +585,20 @@ children:
       children:
       - type: User
         attributes: {value: C}
+  - type: String
+    attributes: {id: PIN_11_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_12_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
   - type: String
     attributes: {id: PIN_13_DIR}
     children:
@@ -602,6 +618,8 @@ children:
     children:
     - type: Values
       children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
       - type: User
         attributes: {value: GPIO}
   - type: String
@@ -626,10 +644,96 @@ children:
       - type: User
         attributes: {value: GPIO}
   - type: String
+    attributes: {id: PIN_14_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_15_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_16_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_17_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_1_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: PTC_Y0}
+  - type: String
+    attributes: {id: PIN_21_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_22_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_2_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: PTC_Y1}
+  - type: String
+    attributes: {id: PIN_3_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_4_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_5_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_6_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
     attributes: {id: PIN_9_FUNCTION_TYPE}
     children:
     - type: Values
       children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
       - type: User
         attributes: {value: SERCOM0_PAD2}
   - type: String
@@ -862,7 +966,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: '0xbb80'}
+        attributes: {id: core, value: '0xBB80'}
   - type: Float
     attributes: {id: SYSTICK_PERIOD_MS}
     children:

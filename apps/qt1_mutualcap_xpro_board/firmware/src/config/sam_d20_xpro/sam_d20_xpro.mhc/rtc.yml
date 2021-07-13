@@ -127,4 +127,4 @@ children:
         children:
         - {type: Value, value: Touch_timer}
 - type: ElementPosition
-  attributes: {x: '79', y: '305', id: rtc}
+  attributes: {x: '83', y: '270', id: rtc}

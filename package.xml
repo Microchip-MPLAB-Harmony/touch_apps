@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Package name="touch_apps">
     <Dependencies>
-        <Dependency name="csp" version="v3.8.3"/>
-        <Dependency name="touch" version="v3.9.2"/>
+        <Dependency name="csp" version="v3.9.1"/>
+        <Dependency name="touch" version="v3.10.0"/>
     </Dependencies>
 </Package>

@@ -72,6 +72,8 @@ children:
     children:
     - type: Values
       children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: '1'}
       - type: User
         attributes: {value: '1'}
   - type: KeyValueSet
@@ -125,4 +127,4 @@ children:
         children:
         - {type: Value, value: Touch_timer}
 - type: ElementPosition
-  attributes: {x: '374', y: '271', id: rtc}
+  attributes: {x: '135', y: '176', id: rtc}

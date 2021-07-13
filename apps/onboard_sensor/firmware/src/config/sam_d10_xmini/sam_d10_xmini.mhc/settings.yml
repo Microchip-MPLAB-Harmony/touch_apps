@@ -5,9 +5,9 @@ frameworkPath: ../../..
 processor: ATSAMD10D14AM
 projectName: ''
 settings:
-  PackageFilter: bsp;core;csp;quick_docs;touch;touch_apps;touch_apps;touch;usb;
+  PackageFilter: bsp;core;csp;quick_docs;touch;touch_apps;touch_apps_local;touch_freshcopy;touch_rel310;touch_std;usb
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
   CMSISPath: .\dev_packs\arm\CMSIS\5.7.0
   MERGE_STRATEGY: USER_ALL
-  DFPPath: .\dev_packs\Microchip\SAMD10_DFP\2.5.53\atdf\ATSAMD10D14AM.atdf
+  DFPPath: .\dev_packs\Microchip\SAMD10_DFP\2.5.64\atdf\ATSAMD10D14AM.atdf

@@ -46,11 +46,14 @@
             <itemPath>../src/config/sam_c21_xpro/touch/qtm_freq_hop_auto_0x0004_api.h</itemPath>
             <itemPath>../src/config/sam_c21_xpro/touch/touch.h</itemPath>
             <itemPath>../src/config/sam_c21_xpro/touch/touch_api_ptc.h</itemPath>
+            <itemPath>../src/config/sam_c21_xpro/touch/touch_example.h</itemPath>
           </logicalFolder>
           <itemPath>../src/config/sam_c21_xpro/device_cache.h</itemPath>
           <itemPath>../src/config/sam_c21_xpro/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/sam_c21_xpro/definitions.h</itemPath>
           <itemPath>../src/config/sam_c21_xpro/device.h</itemPath>
+          <itemPath>../src/config/sam_c21_xpro/interrupts.h</itemPath>
+          <itemPath>../src/config/sam_c21_xpro/device_vectors.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="packs" projectFiles="true">
@@ -88,10 +91,74 @@
             <itemPath>../src/packs/ATSAMC21J18A_DFP/component/tsens.h</itemPath>
             <itemPath>../src/packs/ATSAMC21J18A_DFP/component/wdt.h</itemPath>
           </logicalFolder>
+          <logicalFolder name="f3" displayName="instance" projectFiles="true">
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/ac.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/adc0.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/adc1.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/can0.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/can1.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/ccl.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/dac.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/divas.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/dmac.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/dsu.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/eic.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/evsys.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/freqm.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/gclk.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/hmatrixhs.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/mclk.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/mtb.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/nvmctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/osc32kctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/oscctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/pac.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/pm.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/port.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/ptc.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/rstc.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/rtc.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/sdadc.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/sercom0.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/sercom1.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/sercom2.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/sercom3.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/sercom4.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/sercom5.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/supc.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/tc0.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/tc1.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/tc2.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/tc3.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/tc4.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/tcc0.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/tcc1.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/tcc2.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/tsens.h</itemPath>
+            <itemPath>../src/packs/ATSAMC21J18A_DFP/instance/wdt.h</itemPath>
+          </logicalFolder>
           <logicalFolder name="f2" displayName="pio" projectFiles="true">
             <itemPath>../src/packs/ATSAMC21J18A_DFP/pio/samc21j18a.h</itemPath>
           </logicalFolder>
-          <itemPath>../src/packs/ATSAMC21J18A_DFP/atsamc21j18a.h</itemPath>
+          <itemPath>../src/packs/ATSAMC21J18A_DFP/samc21j18a.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="CMSIS" projectFiles="true">
+          <logicalFolder name="f1" displayName="CMSIS" projectFiles="true">
+            <logicalFolder name="f1" displayName="Core" projectFiles="true">
+              <logicalFolder name="f1" displayName="Include" projectFiles="true">
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_version.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_iccarm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_gcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm0plus.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
@@ -142,6 +209,7 @@
               <itemPath>../src/config/sam_c21_xpro/touch/datastreamer/datastreamer_UART_sam.c</itemPath>
             </logicalFolder>
             <itemPath>../src/config/sam_c21_xpro/touch/touch.c</itemPath>
+            <itemPath>../src/config/sam_c21_xpro/touch/touch_example.c</itemPath>
           </logicalFolder>
           <itemPath>../src/config/sam_c21_xpro/initialization.c</itemPath>
           <itemPath>../src/config/sam_c21_xpro/interrupts.c</itemPath>
@@ -156,6 +224,7 @@
                    displayName="Important Files"
                    projectFiles="false">
       <logicalFolder name="f1" displayName="sam_c21_xpro.mhc" projectFiles="true">
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/cmsis.yml</itemPath>
         <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/core.yml</itemPath>
         <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/dfp.yml</itemPath>
         <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/evsys.yml</itemPath>
@@ -163,6 +232,7 @@
         <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/lib_qtouch.yml</itemPath>
         <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/nvmctrl.yml</itemPath>
         <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/project.yml</itemPath>
+        <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/ptc.yml</itemPath>
         <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/rtc.yml</itemPath>
         <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/sercom4.yml</itemPath>
         <itemPath>../src/config/sam_c21_xpro/sam_c21_xpro.mhc/settings.yml</itemPath>
@@ -254,7 +324,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/sam_c21_xpro;../src/packs/ATSAMC21J18A_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;"/>
+                  value="../src;../src/config/sam_c21_xpro;../src/packs/ATSAMC21J18A_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -350,7 +420,7 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/sam_c21_xpro;../src/packs/ATSAMC21J18A_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;"/>
+                  value="../src;../src/config/sam_c21_xpro;../src/packs/ATSAMC21J18A_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>

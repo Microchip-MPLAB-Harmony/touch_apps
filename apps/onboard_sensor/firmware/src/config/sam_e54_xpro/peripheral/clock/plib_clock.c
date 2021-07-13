@@ -52,77 +52,11 @@ static void OSC32KCTRL_Initialize(void)
     OSC32KCTRL_REGS->OSC32KCTRL_RTCCTRL = OSC32KCTRL_RTCCTRL_RTCSEL(1);
 }
 
-static void FDPLL0_Initialize(void)
-{
-    GCLK_REGS->GCLK_PCHCTRL[1] = GCLK_PCHCTRL_GEN(0x2)  | GCLK_PCHCTRL_CHEN_Msk;
-    while ((GCLK_REGS->GCLK_PCHCTRL[1] & GCLK_PCHCTRL_CHEN_Msk) != GCLK_PCHCTRL_CHEN_Msk)
-    {
-        /* Wait for synchronization */
-    }
-
-    /****************** DPLL0 Initialization  *********************************/
-
-    /* Configure DPLL    */
-    OSCCTRL_REGS->DPLL[0].OSCCTRL_DPLLCTRLB = OSCCTRL_DPLLCTRLB_FILTER(0) | OSCCTRL_DPLLCTRLB_LTIME(0x0)| OSCCTRL_DPLLCTRLB_REFCLK(0) ;
-
-
-    OSCCTRL_REGS->DPLL[0].OSCCTRL_DPLLRATIO = OSCCTRL_DPLLRATIO_LDRFRAC(0) | OSCCTRL_DPLLRATIO_LDR(119);
-
-    while((OSCCTRL_REGS->DPLL[0].OSCCTRL_DPLLSYNCBUSY & OSCCTRL_DPLLSYNCBUSY_DPLLRATIO_Msk) == OSCCTRL_DPLLSYNCBUSY_DPLLRATIO_Msk)
-    {
-        /* Waiting for the synchronization */
-    }
-
-    /* Enable DPLL */
-    OSCCTRL_REGS->DPLL[0].OSCCTRL_DPLLCTRLA = OSCCTRL_DPLLCTRLA_ENABLE_Msk   ;
-
-    while((OSCCTRL_REGS->DPLL[0].OSCCTRL_DPLLSYNCBUSY & OSCCTRL_DPLLSYNCBUSY_ENABLE_Msk) == OSCCTRL_DPLLSYNCBUSY_ENABLE_Msk )
-    {
-        /* Waiting for the DPLL enable synchronization */
-    }
-
-    while((OSCCTRL_REGS->DPLL[0].OSCCTRL_DPLLSTATUS & (OSCCTRL_DPLLSTATUS_LOCK_Msk | OSCCTRL_DPLLSTATUS_CLKRDY_Msk)) !=
-                (OSCCTRL_DPLLSTATUS_LOCK_Msk | OSCCTRL_DPLLSTATUS_CLKRDY_Msk))
-    {
-        /* Waiting for the Ready state */
-    }
-}
 
 
 static void DFLL_Initialize(void)
 {
-    /****************** DFLL Initialization  *********************************/
-    GCLK_REGS->GCLK_PCHCTRL[0] = GCLK_PCHCTRL_GEN(0x3)  | GCLK_PCHCTRL_CHEN_Msk;
-    while ((GCLK_REGS->GCLK_PCHCTRL[0] & GCLK_PCHCTRL_CHEN_Msk) != GCLK_PCHCTRL_CHEN_Msk)
-    {
-        /* Wait for synchronization */
-    }
-
-    OSCCTRL_REGS->OSCCTRL_DFLLMUL = OSCCTRL_DFLLMUL_MUL(1464) | OSCCTRL_DFLLMUL_FSTEP(10) | OSCCTRL_DFLLMUL_CSTEP(10);
-    while((OSCCTRL_REGS->OSCCTRL_DFLLSYNC & OSCCTRL_DFLLSYNC_DFLLMUL_Msk) == OSCCTRL_DFLLSYNC_DFLLMUL_Msk )
-    {
-        /* Waiting for the DPLL enable synchronization */
-    }
-
-    /* Configure DFLL    */
-    OSCCTRL_REGS->OSCCTRL_DFLLCTRLB = OSCCTRL_DFLLCTRLB_MODE_Msk ;
-
-    while((OSCCTRL_REGS->OSCCTRL_DFLLSYNC & OSCCTRL_DFLLSYNC_DFLLCTRLB_Msk) == OSCCTRL_DFLLSYNC_DFLLCTRLB_Msk )
-    {
-        /* Waiting for the DPLL enable synchronization */
-    }
-
-    OSCCTRL_REGS->OSCCTRL_DFLLCTRLA = OSCCTRL_DFLLCTRLA_ENABLE_Msk ;
-
-    while((OSCCTRL_REGS->OSCCTRL_DFLLSYNC & OSCCTRL_DFLLSYNC_ENABLE_Msk) == OSCCTRL_DFLLSYNC_ENABLE_Msk )
-    {
-        /* Waiting for the DFLL enable synchronization */
-    }
-
-    while((OSCCTRL_REGS->OSCCTRL_STATUS & OSCCTRL_STATUS_DFLLRDY_Msk) != OSCCTRL_STATUS_DFLLRDY_Msk)
-    {
-        /* Waiting for the DFLL Ready state */
-    }
+    OSCCTRL_REGS->OSCCTRL_DFLLCTRLA = OSCCTRL_DFLLCTRLA_ENABLE_Msk | OSCCTRL_DFLLCTRLA_RUNSTDBY_Msk ;
 }
 
 
@@ -198,7 +132,6 @@ void CLOCK_Initialize (void)
     GCLK1_Initialize();
     GCLK2_Initialize();
     GCLK4_Initialize();
-    FDPLL0_Initialize();
 
 
 
@@ -210,7 +143,7 @@ void CLOCK_Initialize (void)
         /* Wait for synchronization */
     }
     /* Selection of the Generator and write Lock for ADC0 */
-    GCLK_REGS->GCLK_PCHCTRL[40] = GCLK_PCHCTRL_GEN(0x4)  | GCLK_PCHCTRL_CHEN_Msk;
+    GCLK_REGS->GCLK_PCHCTRL[40] = GCLK_PCHCTRL_GEN(0x1)  | GCLK_PCHCTRL_CHEN_Msk;
 
     while ((GCLK_REGS->GCLK_PCHCTRL[40] & GCLK_PCHCTRL_CHEN_Msk) != GCLK_PCHCTRL_CHEN_Msk)
     {

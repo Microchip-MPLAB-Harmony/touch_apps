@@ -45,11 +45,14 @@
             <itemPath>../src/config/sam_d11_xpro/touch/qtm_freq_hop_auto_0x0004_api.h</itemPath>
             <itemPath>../src/config/sam_d11_xpro/touch/touch.h</itemPath>
             <itemPath>../src/config/sam_d11_xpro/touch/touch_api_ptc.h</itemPath>
+            <itemPath>../src/config/sam_d11_xpro/touch/touch_example.h</itemPath>
           </logicalFolder>
           <itemPath>../src/config/sam_d11_xpro/device_cache.h</itemPath>
           <itemPath>../src/config/sam_d11_xpro/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/sam_d11_xpro/definitions.h</itemPath>
           <itemPath>../src/config/sam_d11_xpro/device.h</itemPath>
+          <itemPath>../src/config/sam_d11_xpro/interrupts.h</itemPath>
+          <itemPath>../src/config/sam_d11_xpro/device_vectors.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="packs" projectFiles="true">
@@ -78,10 +81,57 @@
             <itemPath>../src/packs/ATSAMD11D14AM_DFP/component/usb.h</itemPath>
             <itemPath>../src/packs/ATSAMD11D14AM_DFP/component/wdt.h</itemPath>
           </logicalFolder>
+          <logicalFolder name="f3" displayName="instance" projectFiles="true">
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/ac.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/adc.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/dac.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/dmac.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/dsu.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/eic.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/evsys.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/gclk.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/mtb.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/nvmctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/pac0.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/pac1.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/pac2.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/pm.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/port.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/ptc.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/rtc.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/sbmatrix.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/sercom0.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/sercom1.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/sercom2.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/sysctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/tc1.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/tc2.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/tcc0.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/usb.h</itemPath>
+            <itemPath>../src/packs/ATSAMD11D14AM_DFP/instance/wdt.h</itemPath>
+          </logicalFolder>
           <logicalFolder name="f2" displayName="pio" projectFiles="true">
             <itemPath>../src/packs/ATSAMD11D14AM_DFP/pio/samd11d14am.h</itemPath>
           </logicalFolder>
-          <itemPath>../src/packs/ATSAMD11D14AM_DFP/atsamd11d14am.h</itemPath>
+          <itemPath>../src/packs/ATSAMD11D14AM_DFP/samd11d14am.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="CMSIS" projectFiles="true">
+          <logicalFolder name="f1" displayName="CMSIS" projectFiles="true">
+            <logicalFolder name="f1" displayName="Core" projectFiles="true">
+              <logicalFolder name="f1" displayName="Include" projectFiles="true">
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_version.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_iccarm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_gcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm0plus.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
@@ -132,6 +182,7 @@
               <itemPath>../src/config/sam_d11_xpro/touch/datastreamer/datastreamer_UART_sam.c</itemPath>
             </logicalFolder>
             <itemPath>../src/config/sam_d11_xpro/touch/touch.c</itemPath>
+            <itemPath>../src/config/sam_d11_xpro/touch/touch_example.c</itemPath>
           </logicalFolder>
           <itemPath>../src/config/sam_d11_xpro/initialization.c</itemPath>
           <itemPath>../src/config/sam_d11_xpro/interrupts.c</itemPath>
@@ -146,6 +197,7 @@
                    displayName="Important Files"
                    projectFiles="false">
       <logicalFolder name="f1" displayName="sam_d11_xpro.mhc" projectFiles="true">
+        <itemPath>../src/config/sam_d11_xpro/sam_d11_xpro.mhc/cmsis.yml</itemPath>
         <itemPath>../src/config/sam_d11_xpro/sam_d11_xpro.mhc/core.yml</itemPath>
         <itemPath>../src/config/sam_d11_xpro/sam_d11_xpro.mhc/dfp.yml</itemPath>
         <itemPath>../src/config/sam_d11_xpro/sam_d11_xpro.mhc/evsys.yml</itemPath>
@@ -153,6 +205,7 @@
         <itemPath>../src/config/sam_d11_xpro/sam_d11_xpro.mhc/lib_qtouch.yml</itemPath>
         <itemPath>../src/config/sam_d11_xpro/sam_d11_xpro.mhc/nvmctrl.yml</itemPath>
         <itemPath>../src/config/sam_d11_xpro/sam_d11_xpro.mhc/project.yml</itemPath>
+        <itemPath>../src/config/sam_d11_xpro/sam_d11_xpro.mhc/ptc.yml</itemPath>
         <itemPath>../src/config/sam_d11_xpro/sam_d11_xpro.mhc/rtc.yml</itemPath>
         <itemPath>../src/config/sam_d11_xpro/sam_d11_xpro.mhc/sercom0.yml</itemPath>
         <itemPath>../src/config/sam_d11_xpro/sam_d11_xpro.mhc/settings.yml</itemPath>
@@ -243,7 +296,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/sam_d11_xpro;../src/packs/ATSAMD11D14AM_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;"/>
+                  value="../src;../src/config/sam_d11_xpro;../src/packs/ATSAMD11D14AM_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -339,7 +392,7 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/sam_d11_xpro;../src/packs/ATSAMD11D14AM_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;"/>
+                  value="../src;../src/config/sam_d11_xpro;../src/packs/ATSAMD11D14AM_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>

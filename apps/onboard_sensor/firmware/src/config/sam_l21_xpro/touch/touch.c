@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.9.1 Release
+  Touch Library v3.10.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -46,6 +46,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 #include "touch/touch.h"
 #include "definitions.h" 
 #include "touch/datastreamer/datastreamer.h"
+
 /*----------------------------------------------------------------------------
  *   prototypes
  *----------------------------------------------------------------------------*/
@@ -341,7 +342,6 @@ uintptr_t rtc_context;
 void touch_timer_config(void)
 {  
     RTC_Timer32CallbackRegister(rtc_cb, rtc_context);
-    RTC_Timer32CounterSet((uint32_t) 0);
     RTC_Timer32CompareSet((uint32_t) DEF_TOUCH_MEASUREMENT_PERIOD_MS);
     RTC_Timer32Start();  
 }

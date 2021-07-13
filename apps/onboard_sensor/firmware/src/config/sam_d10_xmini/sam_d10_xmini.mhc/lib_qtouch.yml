@@ -19,12 +19,26 @@ children:
       - type: User
         attributes: {value: 'true'}
   - type: Boolean
+    attributes: {id: ENABLE_SCROLLER}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: 'false'}
+  - type: Boolean
     attributes: {id: FREQ_AUTOTUNE}
     children:
     - type: Values
       children:
       - type: User
         attributes: {value: 'true'}
+  - type: String
+    attributes: {id: LOW_POWER_KEYS_MASK}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: '0x0'}
   - type: KeyValueSet
     attributes: {id: MUTL-X-INPUT_0}
     children:
@@ -141,6 +155,42 @@ children:
       children:
       - type: User
         attributes: {value: 'true'}
+  - type: File
+    attributes: {id: TOUCH_HOP_AUTO_HEADER}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+  - type: Library
+    attributes: {id: TOUCH_HOP_AUTO_LIB}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+  - type: File
+    attributes: {id: TOUCH_HOP_HEADER}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
+  - type: Library
+    attributes: {id: TOUCH_HOP_LIB}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
   - type: Integer
     attributes: {id: TOUCH_KEY_ENABLE_CNT}
     children:
@@ -189,19 +239,6 @@ children:
       children:
       - type: Dynamic
         attributes: {id: lib_qtouch, value: RTC}
-  - type: Menu
-    attributes: {id: TOUCH_WARNING}
-    children:
-    - type: Attributes
-      children:
-      - type: String
-        attributes: {id: description}
-        children:
-        - {type: Value}
-      - type: String
-        attributes: {id: label}
-        children:
-        - {type: Value}
 - type: Attachments
   children:
   - type: DirectDependency
@@ -234,5 +271,18 @@ children:
         attributes: {id: targetAttachmentID}
         children:
         - {type: Value, value: RTC_TMR}
+  - type: DirectDependency
+    attributes: {id: lib_acquire}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: targetComponentID}
+        children:
+        - {type: Value, value: ptc}
+      - type: String
+        attributes: {id: targetAttachmentID}
+        children:
+        - {type: Value, value: ptc_Acq_Engine}
 - type: ElementPosition
-  attributes: {x: '66', y: '161', id: lib_qtouch}
+  attributes: {x: '433', y: '171', id: lib_qtouch}

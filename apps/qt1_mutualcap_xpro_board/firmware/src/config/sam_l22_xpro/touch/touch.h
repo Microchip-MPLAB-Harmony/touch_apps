@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.9.1 Release
+  Touch Library v3.10.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -39,8 +39,8 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 *******************************************************************************/
 #ifndef TOUCH_H
 #define TOUCH_H
-
 #include "device.h"
+
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
@@ -49,7 +49,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #endif
 // DOM-IGNORE-END
-
+//SAML22
 
 /*----------------------------------------------------------------------------
  *     include files
@@ -109,62 +109,53 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  */
 #define DEF_NUM_CHANNELS (10)
 
+
 /* Defines node parameter setting
  * {X-line, Y-line, Charge Share Delay, NODE_RSEL_PRSC(series resistor, prescaler), NODE_G(Analog Gain , Digital Gain),
  * filter level}
  */
-	
+
 
 #define NODE_0_PARAMS                                                                                               \
 {                                                                                                                  \
-   X(10), Y(6), 20, NODE_RSEL_PRSC(RSEL_VAL_0, PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_16                   \
+   X(18), Y(6), 20, NODE_RSEL_PRSC(RSEL_VAL_0, PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_16                   \
 }
-
 #define NODE_1_PARAMS                                                                                               \
 {                                                                                                                  \
-   X(11), Y(6), 20, NODE_RSEL_PRSC(RSEL_VAL_0, PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_16                   \
+   X(19), Y(6), 20, NODE_RSEL_PRSC(RSEL_VAL_0, PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_16                   \
 }
-
 #define NODE_2_PARAMS                                                                                               \
 {                                                                                                                  \
-   X(24), Y(16), 20, NODE_RSEL_PRSC(RSEL_VAL_0, PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_64                   \
+   X(0), Y(16), 20, NODE_RSEL_PRSC(RSEL_VAL_0, PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_64                   \
 }
-
 #define NODE_3_PARAMS                                                                                               \
 {                                                                                                                  \
-   X(25), Y(16), 20, NODE_RSEL_PRSC(RSEL_VAL_0, PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_64                   \
+   X(1), Y(16), 20, NODE_RSEL_PRSC(RSEL_VAL_0, PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_64                   \
 }
-
 #define NODE_4_PARAMS                                                                                               \
 {                                                                                                                  \
-   X(10), Y(16), 20, NODE_RSEL_PRSC(RSEL_VAL_0, PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_64                   \
+   X(18), Y(16), 20, NODE_RSEL_PRSC(RSEL_VAL_0, PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_64                   \
 }
-
 #define NODE_5_PARAMS                                                                                               \
 {                                                                                                                  \
-   X(11), Y(16), 20, NODE_RSEL_PRSC(RSEL_VAL_0, PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_64                   \
+   X(19), Y(16), 20, NODE_RSEL_PRSC(RSEL_VAL_0, PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_64                   \
 }
-
 #define NODE_6_PARAMS                                                                                               \
 {                                                                                                                  \
-   X(24), Y(17), 20, NODE_RSEL_PRSC(RSEL_VAL_0, PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_64                   \
+   X(0), Y(17), 20, NODE_RSEL_PRSC(RSEL_VAL_0, PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_64                   \
 }
-
 #define NODE_7_PARAMS                                                                                               \
 {                                                                                                                  \
-   X(25), Y(17), 20, NODE_RSEL_PRSC(RSEL_VAL_0, PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_64                   \
+   X(1), Y(17), 20, NODE_RSEL_PRSC(RSEL_VAL_0, PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_64                   \
 }
-
 #define NODE_8_PARAMS                                                                                               \
 {                                                                                                                  \
-   X(10), Y(17), 20, NODE_RSEL_PRSC(RSEL_VAL_0, PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_64                   \
+   X(18), Y(17), 20, NODE_RSEL_PRSC(RSEL_VAL_0, PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_64                   \
 }
-
 #define NODE_9_PARAMS                                                                                               \
 {                                                                                                                  \
-   X(11), Y(17), 20, NODE_RSEL_PRSC(RSEL_VAL_0, PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_64                   \
+   X(19), Y(17), 20, NODE_RSEL_PRSC(RSEL_VAL_0, PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_64                   \
 }
-
 
 /**********************************************************/
 /***************** Key Params   ******************/
@@ -361,6 +352,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 
 /**********************************************************/
+
 
 
 // DOM-IGNORE-BEGIN

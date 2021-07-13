@@ -5,9 +5,9 @@ frameworkPath: ../../..
 processor: ATSAML22N18A
 projectName: ''
 settings:
-  PackageFilter: bsp;core;csp;quick_docs;touch;touch_apps;touch_apps;touch;usb;
+  PackageFilter: bsp;core;csp;quick_docs;touch;touch_apps;touch_apps_local;touch_freshcopy;touch_rel310;touch_std;usb
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
   CMSISPath: .\dev_packs\arm\CMSIS\5.7.0
   MERGE_STRATEGY: USER_ALL
-  DFPPath: .\dev_packs\Microchip\SAML22_DFP\3.4.59\atdf\ATSAML22N18A.atdf
+  DFPPath: .\dev_packs\Microchip\SAML22_DFP\3.5.68\atdf\ATSAML22N18A.atdf

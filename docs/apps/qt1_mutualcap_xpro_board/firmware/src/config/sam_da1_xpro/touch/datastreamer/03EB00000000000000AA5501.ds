@@ -72,7 +72,6 @@ B,7,10,State9
 B,8,10,Threshold9
 
 
-
 B,9,1,SWState0
 D,10,1,SWDelta0
 D,11,1,SWThreshold0
@@ -81,7 +80,6 @@ B,9,2,SWState1
 D,10,2,SWDelta1
 D,11,2,SWThreshold1
 D,12,2,SWPosition1
-
 
 
 B,1,3,QTouchLibError

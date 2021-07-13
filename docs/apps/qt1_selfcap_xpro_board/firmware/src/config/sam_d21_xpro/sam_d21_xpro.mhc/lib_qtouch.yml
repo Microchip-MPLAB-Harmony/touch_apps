@@ -489,24 +489,6 @@ children:
       children:
       - type: User
         attributes: {value: 'true'}
-  - type: File
-    attributes: {id: TOUCH_HOP_AUTO_HEADER}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: enabled}
-        children:
-        - {type: Value, value: 'true'}
-  - type: Library
-    attributes: {id: TOUCH_HOP_AUTO_LIB}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: enabled}
-        children:
-        - {type: Value, value: 'true'}
   - type: Integer
     attributes: {id: TOUCH_KEY_ENABLE_CNT}
     children:
@@ -519,15 +501,13 @@ children:
     children:
     - type: Values
       children:
-      - type: Dynamic
-        attributes: {id: TOUCH_LOADED, value: 'true'}
+      - type: User
+        attributes: {value: 'true'}
   - type: Boolean
     attributes: {id: TOUCH_PRE_GENERATE}
     children:
     - type: Values
       children:
-      - type: Dynamic
-        attributes: {id: TOUCH_PRE_GENERATE, value: 'true'}
       - type: User
         attributes: {value: 'true'}
   - type: Integer

@@ -51,11 +51,14 @@
             <itemPath>../src/config/sam_l10_xpro/touch/qtm_freq_hop_auto_0x0004_api.h</itemPath>
             <itemPath>../src/config/sam_l10_xpro/touch/touch.h</itemPath>
             <itemPath>../src/config/sam_l10_xpro/touch/touch_api_ptc.h</itemPath>
+            <itemPath>../src/config/sam_l10_xpro/touch/touch_example.h</itemPath>
           </logicalFolder>
           <itemPath>../src/config/sam_l10_xpro/device_cache.h</itemPath>
           <itemPath>../src/config/sam_l10_xpro/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/sam_l10_xpro/definitions.h</itemPath>
           <itemPath>../src/config/sam_l10_xpro/device.h</itemPath>
+          <itemPath>../src/config/sam_l10_xpro/interrupts.h</itemPath>
+          <itemPath>../src/config/sam_l10_xpro/device_vectors.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="packs" projectFiles="true">
@@ -90,10 +93,44 @@
             <itemPath>../src/packs/ATSAML10E16A_DFP/component/trng.h</itemPath>
             <itemPath>../src/packs/ATSAML10E16A_DFP/component/wdt.h</itemPath>
           </logicalFolder>
+          <logicalFolder name="f3" displayName="instance" projectFiles="true">
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/ac.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/adc.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/ccl.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/dac.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/dmac.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/dsu.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/eic.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/evsys.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/freqm.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/gclk.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/idau.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/mclk.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/nvmctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/opamp.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/osc32kctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/oscctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/pac.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/pm.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/port.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/ptc.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/rstc.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/rtc.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/sercom0.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/sercom1.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/sercom2.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/supc.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/tc0.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/tc1.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/tc2.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/tram.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/trng.h</itemPath>
+            <itemPath>../src/packs/ATSAML10E16A_DFP/instance/wdt.h</itemPath>
+          </logicalFolder>
           <logicalFolder name="f2" displayName="pio" projectFiles="true">
             <itemPath>../src/packs/ATSAML10E16A_DFP/pio/saml10e16a.h</itemPath>
           </logicalFolder>
-          <itemPath>../src/packs/ATSAML10E16A_DFP/atsaml10e16a.h</itemPath>
+          <itemPath>../src/packs/ATSAML10E16A_DFP/saml10e16a.h</itemPath>
         </logicalFolder>
         <logicalFolder name="f2" displayName="CMSIS" projectFiles="true">
           <logicalFolder name="f1" displayName="CMSIS" projectFiles="true">
@@ -166,6 +203,7 @@
               <itemPath>../src/config/sam_l10_xpro/touch/datastreamer/datastreamer_UART_sam.c</itemPath>
             </logicalFolder>
             <itemPath>../src/config/sam_l10_xpro/touch/touch.c</itemPath>
+            <itemPath>../src/config/sam_l10_xpro/touch/touch_example.c</itemPath>
           </logicalFolder>
           <itemPath>../src/config/sam_l10_xpro/initialization.c</itemPath>
           <itemPath>../src/config/sam_l10_xpro/interrupts.c</itemPath>
@@ -189,6 +227,7 @@
         <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro.mhc/nvmctrl.yml</itemPath>
         <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro.mhc/pm.yml</itemPath>
         <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro.mhc/project.yml</itemPath>
+        <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro.mhc/ptc.yml</itemPath>
         <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro.mhc/rtc.yml</itemPath>
         <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro.mhc/sercom0.yml</itemPath>
         <itemPath>../src/config/sam_l10_xpro/sam_l10_xpro.mhc/settings.yml</itemPath>
@@ -210,7 +249,7 @@
         <targetDevice>ATSAML10E16A</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>noID</platformTool>
+        <platformTool>EdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>2.50</languageToolchainVersion>
         <platform>3</platform>
@@ -283,7 +322,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/sam_l10_xpro;../src/packs/ATSAML10E16A_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
+                  value="../src;../src/config/sam_l10_xpro;../src/packs/ATSAML10E16A_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -380,7 +419,7 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/sam_l10_xpro;../src/packs/ATSAML10E16A_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
+                  value="../src;../src/config/sam_l10_xpro;../src/packs/ATSAML10E16A_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>

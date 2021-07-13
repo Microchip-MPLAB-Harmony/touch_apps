@@ -73,38 +73,7 @@ static void OSC32KCTRL_Initialize(void)
 
 static void DFLL_Initialize(void)
 {
-    /****************** DFLL Initialization  *********************************/
-    GCLK_REGS->GCLK_PCHCTRL[0] = GCLK_PCHCTRL_GEN(0x3)  | GCLK_PCHCTRL_CHEN_Msk;
-    while ((GCLK_REGS->GCLK_PCHCTRL[0] & GCLK_PCHCTRL_CHEN_Msk) != GCLK_PCHCTRL_CHEN_Msk)
-    {
-        /* Wait for synchronization */
-    }
-
-    OSCCTRL_REGS->OSCCTRL_DFLLMUL = OSCCTRL_DFLLMUL_MUL(1464) | OSCCTRL_DFLLMUL_FSTEP(10) | OSCCTRL_DFLLMUL_CSTEP(10);
-    while((OSCCTRL_REGS->OSCCTRL_DFLLSYNC & OSCCTRL_DFLLSYNC_DFLLMUL_Msk) == OSCCTRL_DFLLSYNC_DFLLMUL_Msk )
-    {
-        /* Waiting for the DPLL enable synchronization */
-    }
-
-    /* Configure DFLL    */
-    OSCCTRL_REGS->OSCCTRL_DFLLCTRLB = OSCCTRL_DFLLCTRLB_MODE_Msk ;
-
-    while((OSCCTRL_REGS->OSCCTRL_DFLLSYNC & OSCCTRL_DFLLSYNC_DFLLCTRLB_Msk) == OSCCTRL_DFLLSYNC_DFLLCTRLB_Msk )
-    {
-        /* Waiting for the DPLL enable synchronization */
-    }
-
-    OSCCTRL_REGS->OSCCTRL_DFLLCTRLA = OSCCTRL_DFLLCTRLA_ENABLE_Msk ;
-
-    while((OSCCTRL_REGS->OSCCTRL_DFLLSYNC & OSCCTRL_DFLLSYNC_ENABLE_Msk) == OSCCTRL_DFLLSYNC_ENABLE_Msk )
-    {
-        /* Waiting for the DFLL enable synchronization */
-    }
-
-    while((OSCCTRL_REGS->OSCCTRL_STATUS & OSCCTRL_STATUS_DFLLRDY_Msk) != OSCCTRL_STATUS_DFLLRDY_Msk)
-    {
-        /* Waiting for the DFLL Ready state */
-    }
+    OSCCTRL_REGS->OSCCTRL_DFLLCTRLA = OSCCTRL_DFLLCTRLA_ENABLE_Msk | OSCCTRL_DFLLCTRLA_RUNSTDBY_Msk ;
 }
 
 

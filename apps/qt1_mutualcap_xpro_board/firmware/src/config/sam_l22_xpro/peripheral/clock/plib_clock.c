@@ -40,6 +40,10 @@
 
 #include "plib_clock.h"
 #include "device.h"
+#include "interrupts.h"
+
+
+
 
 static void OSCCTRL_Initialize(void)
 {
@@ -49,8 +53,8 @@ static void OSCCTRL_Initialize(void)
 
 static void OSC32KCTRL_Initialize(void)
 {
-	OSC32KCTRL_REGS->OSC32KCTRL_RTCCTRL = OSC32KCTRL_RTCCTRL_RTCSEL(0);
-	OSC32KCTRL_REGS->OSC32KCTRL_SLCDCTRL = 0;
+    OSC32KCTRL_REGS->OSC32KCTRL_RTCCTRL = OSC32KCTRL_RTCCTRL_RTCSEL(0);
+    OSC32KCTRL_REGS->OSC32KCTRL_SLCDCTRL = 0;
 }
 
 
@@ -58,7 +62,7 @@ static void OSC32KCTRL_Initialize(void)
 
 static void GCLK0_Initialize(void)
 {
-    
+
     GCLK_REGS->GCLK_GENCTRL[0] = GCLK_GENCTRL_DIV(1) | GCLK_GENCTRL_SRC(5) | GCLK_GENCTRL_GENEN_Msk;
 
     while((GCLK_REGS->GCLK_SYNCBUSY & GCLK_SYNCBUSY_GENCTRL0_Msk) == GCLK_SYNCBUSY_GENCTRL0_Msk)
@@ -97,7 +101,7 @@ void CLOCK_Initialize (void)
     /* Function to Initialize the 32KHz Oscillators */
     OSC32KCTRL_Initialize();
 
-    /*Initialize Backup Divider*/    
+    /*Initialize Backup Divider*/
     MCLK_REGS->MCLK_BUPDIV = MCLK_BUPDIV_BUPDIV(0x04);
 
     GCLK3_Initialize();
@@ -105,21 +109,21 @@ void CLOCK_Initialize (void)
     GCLK1_Initialize();
 
 
-	/* Selection of the Generator and write Lock for SERCOM0_SLOW SERCOM1_SLOW SERCOM2_SLOW SERCOM3_SLOW SERCOM4_SLOW SERCOM5_SLOW */
+    /* Selection of the Generator and write Lock for SERCOM0_SLOW SERCOM1_SLOW SERCOM2_SLOW SERCOM3_SLOW SERCOM4_SLOW SERCOM5_SLOW */
     GCLK_REGS->GCLK_PCHCTRL[15] = GCLK_PCHCTRL_GEN(0x3)  | GCLK_PCHCTRL_CHEN_Msk;
 
     while ((GCLK_REGS->GCLK_PCHCTRL[15] & GCLK_PCHCTRL_CHEN_Msk) != GCLK_PCHCTRL_CHEN_Msk)
     {
         /* Wait for synchronization */
     }
-	/* Selection of the Generator and write Lock for SERCOM0_CORE */
+    /* Selection of the Generator and write Lock for SERCOM0_CORE */
     GCLK_REGS->GCLK_PCHCTRL[16] = GCLK_PCHCTRL_GEN(0x0)  | GCLK_PCHCTRL_CHEN_Msk;
 
     while ((GCLK_REGS->GCLK_PCHCTRL[16] & GCLK_PCHCTRL_CHEN_Msk) != GCLK_PCHCTRL_CHEN_Msk)
     {
         /* Wait for synchronization */
     }
-	/* Selection of the Generator and write Lock for PTC */
+    /* Selection of the Generator and write Lock for PTC */
     GCLK_REGS->GCLK_PCHCTRL[27] = GCLK_PCHCTRL_GEN(0x1)  | GCLK_PCHCTRL_CHEN_Msk;
 
     while ((GCLK_REGS->GCLK_PCHCTRL[27] & GCLK_PCHCTRL_CHEN_Msk) != GCLK_PCHCTRL_CHEN_Msk)
@@ -129,3 +133,6 @@ void CLOCK_Initialize (void)
 
 
 }
+
+
+

@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.9.1 Release
+  Touch Library v3.10.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -39,8 +39,8 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 *******************************************************************************/
 #ifndef TOUCH_H
 #define TOUCH_H
-
 #include "device.h"
+
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
@@ -49,7 +49,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #endif
 // DOM-IGNORE-END
-
+//SAML10
 
 /*----------------------------------------------------------------------------
  *     include files
@@ -109,11 +109,12 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  */
 #define DEF_NUM_CHANNELS (5)
 
+
 /* Defines node parameter setting
  * {X-line, Y-line, Charge Share Delay, NODE_RSEL_PRSC(series resistor, prescaler), NODE_G(Analog Gain , Digital Gain),
  * filter level}
  */
-	
+
 
 #define NODE_0_PARAMS                                                                                               \
 {                                                                                                                  \
@@ -296,6 +297,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 
 /**********************************************************/
+
 
 
 // DOM-IGNORE-BEGIN

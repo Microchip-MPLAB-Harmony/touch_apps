@@ -1300,7 +1300,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: '0x3e80'}
+        attributes: {id: core, value: '0x3E80'}
   - type: Float
     attributes: {id: SYSTICK_PERIOD_MS}
     children:

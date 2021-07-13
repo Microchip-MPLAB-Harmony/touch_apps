@@ -81,6 +81,7 @@ exclude:
   - "*.ld"
   - "*.jar"
   - "*.prj"
+  - "*.X.a"
 
 # Aux links for the upper right navigation
 aux_links:
