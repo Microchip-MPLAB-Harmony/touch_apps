@@ -46,11 +46,14 @@
             <itemPath>../src/config/sam_d21_xpro/touch/qtm_freq_hop_auto_0x0004_api.h</itemPath>
             <itemPath>../src/config/sam_d21_xpro/touch/touch.h</itemPath>
             <itemPath>../src/config/sam_d21_xpro/touch/touch_api_ptc.h</itemPath>
+            <itemPath>../src/config/sam_d21_xpro/touch/touch_example.h</itemPath>
           </logicalFolder>
           <itemPath>../src/config/sam_d21_xpro/device_cache.h</itemPath>
           <itemPath>../src/config/sam_d21_xpro/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/sam_d21_xpro/definitions.h</itemPath>
           <itemPath>../src/config/sam_d21_xpro/device.h</itemPath>
+          <itemPath>../src/config/sam_d21_xpro/interrupts.h</itemPath>
+          <itemPath>../src/config/sam_d21_xpro/device_vectors.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="packs" projectFiles="true">
@@ -80,10 +83,48 @@
             <itemPath>../src/packs/ATSAMD21J18A_DFP/component/usb.h</itemPath>
             <itemPath>../src/packs/ATSAMD21J18A_DFP/component/wdt.h</itemPath>
           </logicalFolder>
+          <logicalFolder name="f3" displayName="instance" projectFiles="true">
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/ac.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/adc.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/dac.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/dmac.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/dsu.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/eic.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/evsys.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/gclk.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/i2s.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/mtb.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/nvmctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/pac0.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/pac1.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/pac2.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/pm.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/port.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/ptc.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/rtc.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/sbmatrix.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/sercom0.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/sercom1.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/sercom2.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/sercom3.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/sercom4.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/sercom5.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/sysctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/tc3.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/tc4.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/tc5.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/tc6.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/tc7.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/tcc0.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/tcc1.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/tcc2.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/usb.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/wdt.h</itemPath>
+          </logicalFolder>
           <logicalFolder name="f2" displayName="pio" projectFiles="true">
             <itemPath>../src/packs/ATSAMD21J18A_DFP/pio/samd21j18a.h</itemPath>
           </logicalFolder>
-          <itemPath>../src/packs/ATSAMD21J18A_DFP/atsamd21j18a.h</itemPath>
+          <itemPath>../src/packs/ATSAMD21J18A_DFP/samd21j18a.h</itemPath>
         </logicalFolder>
         <logicalFolder name="f2" displayName="CMSIS" projectFiles="true">
           <logicalFolder name="f1" displayName="CMSIS" projectFiles="true">
@@ -152,6 +193,7 @@
               <itemPath>../src/config/sam_d21_xpro/touch/datastreamer/datastreamer_UART_sam.c</itemPath>
             </logicalFolder>
             <itemPath>../src/config/sam_d21_xpro/touch/touch.c</itemPath>
+            <itemPath>../src/config/sam_d21_xpro/touch/touch_example.c</itemPath>
           </logicalFolder>
           <itemPath>../src/config/sam_d21_xpro/initialization.c</itemPath>
           <itemPath>../src/config/sam_d21_xpro/interrupts.c</itemPath>
@@ -187,6 +229,7 @@
         <itemPath>../src/config/sam_d21_xpro/sam_d21_xpro.mhc/lib_qtouch.yml</itemPath>
         <itemPath>../src/config/sam_d21_xpro/sam_d21_xpro.mhc/nvmctrl.yml</itemPath>
         <itemPath>../src/config/sam_d21_xpro/sam_d21_xpro.mhc/project.yml</itemPath>
+        <itemPath>../src/config/sam_d21_xpro/sam_d21_xpro.mhc/ptc.yml</itemPath>
         <itemPath>../src/config/sam_d21_xpro/sam_d21_xpro.mhc/rtc.yml</itemPath>
         <itemPath>../src/config/sam_d21_xpro/sam_d21_xpro.mhc/sercom3.yml</itemPath>
         <itemPath>../src/config/sam_d21_xpro/sam_d21_xpro.mhc/settings.yml</itemPath>
@@ -206,14 +249,14 @@
         <targetDevice>ATSAMD21J18A</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>EdbgTool</platformTool>
+        <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>2.50</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
+        <pack name="SAMD21_DFP" vendor="Microchip" version="3.4.116"/>
         <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
-        <pack name="SAMD21_DFP" vendor="Microchip" version="3.3.98"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -279,7 +322,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/sam_d21_xpro;../src/packs/ATSAMD21J18A_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;"/>
+                  value="../src;../src/config/sam_d21_xpro;../src/packs/ATSAMD21J18A_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -291,6 +334,7 @@
         <property key="preprocessor-macros" value=""/>
         <property key="strict-ansi" value="false"/>
         <property key="support-ansi" value="false"/>
+        <property key="tentative-definitions" value=""/>
         <property key="toplevel-reordering" value=""/>
         <property key="unaligned-access" value=""/>
         <property key="use-cci" value="false"/>
@@ -322,6 +366,7 @@
       </C32-AS>
       <C32-CO>
         <property key="coverage-enable" value=""/>
+        <property key="stack-guidance" value="false"/>
       </C32-CO>
       <C32-LD>
         <property key="additional-options-use-response-files" value="false"/>
@@ -375,7 +420,7 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/sam_d21_xpro;../src/packs/ATSAMD21J18A_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;"/>
+                  value="../src;../src/config/sam_d21_xpro;../src/packs/ATSAMD21J18A_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -403,12 +448,11 @@
         <property key="omit-pack-options" value="1"/>
         <property key="relaxed-math" value="false"/>
         <property key="save-temps" value="false"/>
+        <property key="stack-smashing" value=""/>
         <property key="wpo-lto" value="false"/>
       </C32Global>
       <EdbgTool>
         <property key="AutoSelectMemRanges" value="auto"/>
-        <property key="arm.use_vtor" value="false"/>
-        <property key="arm.vtor_adr" value="exception_table"/>
         <property key="communication.activationmode" value="nohv"/>
         <property key="communication.interface" value="swd"/>
         <property key="communication.speed" value="2.000"/>
@@ -419,7 +463,6 @@
                   value="Press to select which tool pack to use"/>
         <property key="firmware.update.action" value="firmware.update.use.latest"/>
         <property key="freeze.timers" value="false"/>
-        <property key="lastid" value=""/>
         <property key="memories.aux" value="false"/>
         <property key="memories.bootflash" value="true"/>
         <property key="memories.configurationmemory" value="true"/>
@@ -445,9 +488,6 @@
         <property key="programoptions.preserveprogramrange" value="false"/>
         <property key="programoptions.preserveuserid" value="false"/>
         <property key="programoptions.programuserotp" value="false"/>
-        <property key="script.log_level" value="0"/>
-        <property key="script.reset_delay" value="0"/>
-        <property key="script.show_output" value="false"/>
         <property key="toolpack.updateoptions"
                   value="toolpack.updateoptions.uselatestoolpack"/>
         <property key="toolpack.updateoptions.packversion"
@@ -940,6 +980,55 @@
                   value=""/>
         <property key="warningmessagebreakoptions.warningmessages" value="holdstate"/>
       </Simulator>
+      <Tool>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="arm.use_vtor" value="false"/>
+        <property key="arm.vtor_adr" value="exception_table"/>
+        <property key="communication.activationmode" value="nohv"/>
+        <property key="communication.interface" value="swd"/>
+        <property key="communication.speed" value="2.000"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="firmware.path"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="firmware.toolpack"
+                  value="Press to select which tool pack to use"/>
+        <property key="firmware.update.action" value="firmware.update.use.latest"/>
+        <property key="freeze.timers" value="false"/>
+        <property key="lastid" value=""/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.exclude.configurationmemory" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="0-3ffff"/>
+        <property key="memories.rww" value="true"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges"
+                  value="${memories.dataflash.default}"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value="0-20007fff"/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="script.log_level" value="0"/>
+        <property key="script.reset_delay" value="0"/>
+        <property key="script.show_output" value="false"/>
+        <property key="toolpack.updateoptions"
+                  value="toolpack.updateoptions.uselatestoolpack"/>
+        <property key="toolpack.updateoptions.packversion"
+                  value="Press to select which tool pack to use"/>
+        <property key="voltagevalue" value=""/>
+      </Tool>
     </conf>
   </confs>
 </configurationDescriptor>

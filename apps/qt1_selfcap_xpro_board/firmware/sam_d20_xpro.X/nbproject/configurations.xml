@@ -46,11 +46,14 @@
             <itemPath>../src/config/sam_d20_xpro/touch/qtm_freq_hop_auto_0x0004_api.h</itemPath>
             <itemPath>../src/config/sam_d20_xpro/touch/touch.h</itemPath>
             <itemPath>../src/config/sam_d20_xpro/touch/touch_api_ptc.h</itemPath>
+            <itemPath>../src/config/sam_d20_xpro/touch/touch_example.h</itemPath>
           </logicalFolder>
           <itemPath>../src/config/sam_d20_xpro/device_cache.h</itemPath>
           <itemPath>../src/config/sam_d20_xpro/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/sam_d20_xpro/definitions.h</itemPath>
           <itemPath>../src/config/sam_d20_xpro/device.h</itemPath>
+          <itemPath>../src/config/sam_d20_xpro/interrupts.h</itemPath>
+          <itemPath>../src/config/sam_d20_xpro/device_vectors.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="packs" projectFiles="true">
@@ -74,10 +77,43 @@
             <itemPath>../src/packs/ATSAMD20J18_DFP/component/tc.h</itemPath>
             <itemPath>../src/packs/ATSAMD20J18_DFP/component/wdt.h</itemPath>
           </logicalFolder>
+          <logicalFolder name="f3" displayName="instance" projectFiles="true">
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/ac.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/adc.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/dac.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/dsu.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/eic.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/evsys.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/gclk.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/nvmctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/pac0.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/pac1.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/pac2.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/pm.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/port.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/ptc.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/rtc.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/sercom0.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/sercom1.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/sercom2.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/sercom3.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/sercom4.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/sercom5.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/sysctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/tc0.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/tc1.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/tc2.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/tc3.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/tc4.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/tc5.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/tc6.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/tc7.h</itemPath>
+            <itemPath>../src/packs/ATSAMD20J18_DFP/instance/wdt.h</itemPath>
+          </logicalFolder>
           <logicalFolder name="f2" displayName="pio" projectFiles="true">
             <itemPath>../src/packs/ATSAMD20J18_DFP/pio/samd20j18.h</itemPath>
           </logicalFolder>
-          <itemPath>../src/packs/ATSAMD20J18_DFP/atsamd20j18.h</itemPath>
+          <itemPath>../src/packs/ATSAMD20J18_DFP/samd20j18.h</itemPath>
         </logicalFolder>
         <logicalFolder name="f2" displayName="CMSIS" projectFiles="true">
           <logicalFolder name="f1" displayName="CMSIS" projectFiles="true">
@@ -146,6 +182,7 @@
               <itemPath>../src/config/sam_d20_xpro/touch/datastreamer/datastreamer_UART_sam.c</itemPath>
             </logicalFolder>
             <itemPath>../src/config/sam_d20_xpro/touch/touch.c</itemPath>
+            <itemPath>../src/config/sam_d20_xpro/touch/touch_example.c</itemPath>
           </logicalFolder>
           <itemPath>../src/config/sam_d20_xpro/initialization.c</itemPath>
           <itemPath>../src/config/sam_d20_xpro/interrupts.c</itemPath>
@@ -168,6 +205,7 @@
         <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/lib_qtouch.yml</itemPath>
         <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/nvmctrl.yml</itemPath>
         <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/project.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/ptc.yml</itemPath>
         <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/rtc.yml</itemPath>
         <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/sercom3.yml</itemPath>
         <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/settings.yml</itemPath>
@@ -193,7 +231,7 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="SAMD20_DFP" vendor="Microchip" version="3.3.56"/>
+        <pack name="SAMD20_DFP" vendor="Microchip" version="3.4.68"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -259,7 +297,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/sam_d20_xpro;../src/packs/ATSAMD20J18_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;"/>
+                  value="../src;../src/config/sam_d20_xpro;../src/packs/ATSAMD20J18_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -271,6 +309,7 @@
         <property key="preprocessor-macros" value=""/>
         <property key="strict-ansi" value="false"/>
         <property key="support-ansi" value="false"/>
+        <property key="tentative-definitions" value=""/>
         <property key="toplevel-reordering" value=""/>
         <property key="unaligned-access" value=""/>
         <property key="use-cci" value="false"/>
@@ -302,6 +341,7 @@
       </C32-AS>
       <C32-CO>
         <property key="coverage-enable" value=""/>
+        <property key="stack-guidance" value="false"/>
       </C32-CO>
       <C32-LD>
         <property key="additional-options-use-response-files" value="false"/>
@@ -355,7 +395,7 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/sam_d20_xpro;../src/packs/ATSAMD20J18_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;"/>
+                  value="../src;../src/config/sam_d20_xpro;../src/packs/ATSAMD20J18_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -383,6 +423,7 @@
         <property key="omit-pack-options" value="1"/>
         <property key="relaxed-math" value="false"/>
         <property key="save-temps" value="false"/>
+        <property key="stack-smashing" value=""/>
         <property key="wpo-lto" value="false"/>
       </C32Global>
       <EdbgTool>

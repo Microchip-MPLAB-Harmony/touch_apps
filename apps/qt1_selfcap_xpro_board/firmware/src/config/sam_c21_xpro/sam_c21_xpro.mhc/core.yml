@@ -51,7 +51,7 @@ children:
       - type: Dynamic
         attributes: {id: core, value: '0'}
   - type: KeyValueSet
-    attributes: {id: DEVICE_SECURITY}
+    attributes: {id: DEVICE_SECURITY_CMD}
     children:
     - type: Values
       children:
@@ -350,6 +350,83 @@ children:
       - type: Dynamic
         attributes: {id: core, value: PTC_Handler}
   - type: String
+    attributes: {id: PIN_10_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_11_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_12_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_13_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_14_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_15_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_16_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_17_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_18_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_19_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_20_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
     attributes: {id: PIN_23_FUNCTION_TYPE}
     children:
     - type: Values
@@ -392,6 +469,34 @@ children:
       - type: User
         attributes: {value: D}
   - type: String
+    attributes: {id: PIN_25_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_26_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_27_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: PTC_X14/Y30}
+  - type: String
+    attributes: {id: PIN_28_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: PTC_X15/Y31}
+  - type: String
     attributes: {id: PIN_32_DIR}
     children:
     - type: Values
@@ -405,6 +510,34 @@ children:
       children:
       - type: User
         attributes: {value: SWITCH_AL}
+  - type: String
+    attributes: {id: PIN_35_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_36_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_37_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: PTC_X6/Y22}
+  - type: String
+    attributes: {id: PIN_38_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: PTC_X7/Y23}
   - type: String
     attributes: {id: PIN_39_DIR}
     children:
@@ -455,6 +588,13 @@ children:
       - type: User
         attributes: {value: GPIO}
   - type: String
+    attributes: {id: PIN_3_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
     attributes: {id: PIN_40_DIR}
     children:
     - type: Values
@@ -504,6 +644,41 @@ children:
       - type: User
         attributes: {value: GPIO}
   - type: String
+    attributes: {id: PIN_41_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_42_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: PTC_X9/Y25}
+  - type: String
+    attributes: {id: PIN_43_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_44_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_4_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
     attributes: {id: PIN_59_DIR}
     children:
     - type: Values
@@ -545,6 +720,13 @@ children:
       children:
       - type: User
         attributes: {value: GPIO}
+  - type: String
+    attributes: {id: PIN_5_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
   - type: String
     attributes: {id: PIN_60_DIR}
     children:
@@ -595,6 +777,27 @@ children:
       - type: User
         attributes: {value: GPIO}
   - type: String
+    attributes: {id: PIN_61_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_62_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_63_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
     attributes: {id: PIN_64_DIR}
     children:
     - type: Values
@@ -613,6 +816,8 @@ children:
     children:
     - type: Values
       children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
       - type: User
         attributes: {value: GPIO}
   - type: String
@@ -643,6 +848,20 @@ children:
       children:
       - type: User
         attributes: {value: GPIO}
+  - type: String
+    attributes: {id: PIN_6_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: String
+    attributes: {id: PIN_9_FUNCTION_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
   - type: Boolean
     attributes: {id: PORT_GROUP_0}
     children:
@@ -950,7 +1169,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: '0xbb80'}
+        attributes: {id: core, value: '0xBB80'}
   - type: Integer
     attributes: {id: SYSTICK_PERIOD_US}
     children:
