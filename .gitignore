@@ -3,6 +3,7 @@
 *.map
 *.d
 *.flag
+**/.generated_files
 **/nbproject/private
 **/nbproject/Makefile-*
 **/nbproject/Package-*

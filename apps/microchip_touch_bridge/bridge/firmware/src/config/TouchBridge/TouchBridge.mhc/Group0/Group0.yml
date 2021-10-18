@@ -1,0 +1,6 @@
+format_version: v1.0
+type: GroupComponent
+attributes: {displayName: Touch Peripherals, id: Group0}
+children:
+- type: ElementPosition
+  attributes: {x: '28', y: '417', id: Group0}
