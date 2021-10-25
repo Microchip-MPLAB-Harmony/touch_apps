@@ -145,7 +145,6 @@ extern "C" {
 /* Alignment for buffers that are submitted to USB Driver*/ 
 #define USB_ALIGN  __ALIGNED(CACHE_LINE_SIZE)
 
-#define USB_DEVICE_ENDPOINT_QUEUE_DEPTH_COMBINED 8u
 
 
 // *****************************************************************************

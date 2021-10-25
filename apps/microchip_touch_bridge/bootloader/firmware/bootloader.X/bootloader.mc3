@@ -518,7 +518,8 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;ComponentGraph dnOrder=&quot;0&quot; id=&quot;__ROOTVIEW&quot;&gt;
+    &lt;GraphSettings canvasHeight=&quot;478&quot; canvasWidth=&quot;733&quot; dnOrder=&quot;0&quot;/&gt;
+    &lt;ComponentGraph dnOrder=&quot;1&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;HarmonyCore&quot; x=&quot;310&quot; y=&quot;60&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;cmsis&quot; x=&quot;600&quot; y=&quot;20&quot;/&gt;
@@ -534,7 +535,6 @@
         &lt;ElementPosition dnOrder=&quot;11&quot; id=&quot;usb_device_msd&quot; x=&quot;371&quot; y=&quot;216&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
-    &lt;GraphSettings canvasHeight=&quot;478&quot; canvasWidth=&quot;733&quot; dnOrder=&quot;1&quot;/&gt;
   &lt;/UserData&gt;
 &lt;/UserData&gt;
 </value>
@@ -4771,12 +4771,12 @@
          <hash>7e885bc9cddcb4c95b1e45508bd6d53fc4c000a93d7256f59c8748bf4f4e2148</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMD21J18A_DFP\instance\evsys.h</file>
-         <hash>7488654ca7685e64d5ca690260260f53492875be0c191805f4a7aff48e94701a</hash>
-      </entry>
-      <entry>
          <file>..\src\config\bootloader\usb\usb_host_client_driver.h</file>
          <hash>d11085e6a64f6b4551b1dc19aaee5b8a2555b7df649057bdb2ce8549c296a87d</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMD21J18A_DFP\instance\evsys.h</file>
+         <hash>7488654ca7685e64d5ca690260260f53492875be0c191805f4a7aff48e94701a</hash>
       </entry>
       <entry>
          <file>..\src\app.h</file>
@@ -5047,12 +5047,12 @@
          <hash>40aa2013385ec344c267d5779ef941d663ecc0739ebe962ad906324e71666c43</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMD21J18A_DFP\instance\usb.h</file>
-         <hash>0230a32d948e226f1e02e99af00430d752c8b0416479ee9d1fa66ca94796417f</hash>
-      </entry>
-      <entry>
          <file>..\src\config\bootloader\driver\usb\usbfsv1\src\drv_usbfsv1_device.c</file>
          <hash>d0368cfaca1dd8d0bae2ede5ffdae578db27f0845604b1ce6bbc80ee04670b98</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMD21J18A_DFP\instance\usb.h</file>
+         <hash>0230a32d948e226f1e02e99af00430d752c8b0416479ee9d1fa66ca94796417f</hash>
       </entry>
       <entry>
          <file>..\src\config\bootloader\peripheral\nvic\plib_nvic.c</file>

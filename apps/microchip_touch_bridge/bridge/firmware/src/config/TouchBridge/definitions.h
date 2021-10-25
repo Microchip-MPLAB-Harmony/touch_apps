@@ -204,7 +204,7 @@ typedef struct
 // *****************************************************************************
 
 extern const USB_DEVICE_INIT usbDevInitData; 
-extern const USB_DEVICE_INIT usbDevInitDataCapBridge;
+
 
 
 extern SYSTEM_OBJECTS sysObj;

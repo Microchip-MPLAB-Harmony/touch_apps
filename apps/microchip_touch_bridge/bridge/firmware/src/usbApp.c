@@ -60,6 +60,8 @@
 uint8_t rxBuffer[8] USB_ALIGN;
 uint8_t txBuffer[8] USB_ALIGN;
 
+extern const USB_DEVICE_INIT usbDevInitDataCapBridge;
+
 // *****************************************************************************
 // *****************************************************************************
 // Section: Global Data Definitions

@@ -420,6 +420,7 @@ static void SYS_TIME_PLIBCallback(uint32_t status, uintptr_t context)
 
         counterObj->interruptNestingCount--;
     }
+
 }
 
 static SYS_TIME_HANDLE SYS_TIME_TimerObjectCreate(
