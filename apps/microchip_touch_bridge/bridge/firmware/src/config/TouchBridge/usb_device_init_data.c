@@ -46,6 +46,7 @@
 
 #include "configuration.h"
 #include "definitions.h"
+#if 0
 /**************************************************
  * USB Device Function Driver Init Data
  **************************************************/
@@ -319,3 +320,4 @@ const USB_DEVICE_INIT usbDevInitData =
 	
 };
 // </editor-fold>
+#endif
