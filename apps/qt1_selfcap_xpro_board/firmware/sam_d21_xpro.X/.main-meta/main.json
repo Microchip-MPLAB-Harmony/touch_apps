@@ -1,74 +1,69 @@
 {
-	"metaDataVersion": "1.0.0",
-	"category": "com.microchip.ide.project",
-	"content": {
-		"metaDataVersion": "1.1.0",
-		"name": "com.microchip.mcu32.mplabx.project.touch_apps_qt1_selfcap_xpro_board_sam_d21_xpro",
-		"version": "3.1.0",
-		"displayName": "Self Capacitance Example for SAM D21/DA1 Family",
-		"projectName": "sam_d21_xpro_qt1_selfcap",
-		"shortDescription": "MPLAB Harmony 3 Touch Library is a royalty-free software library for developing touch applications on 32-bit microcontrollers using the Peripheral Touch Controller (PTC). Developers can use it to integrate touch-sensing capability into their applications. This example application shows how to use self capacitance touch.",
-		"ide": {
-			"name": "MPLABX",
-			"semverRange": ">=5.45.0"
-		},
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.portal.schemaDefinition",
+    "content": {
+        "metaDataVersion": "1.3.0",
+
+        "name": "com.microchip.mcu32.mplabx.project.touch_apps_qt1_selfcap_xpro_board_sam_d21_xpro",
+        "version": "3.1.0",
+
+        "displayName": "Self Capacitance Example for SAM D21 Family",
+        "projectName": "sam_d21_xpro_qt1_selfcap",
+
+        "shortDescription": "MPLAB Harmony 3 Touch Library is a royalty-free software library for developing touch applications on 32-bit microcontrollers using the Peripheral Touch Controller (PTC). Developers can use it to integrate touch-sensing capability into their applications. This example application shows how to use self capacitance touch.",
+
+        "ide": {
+            "name": "MPLABX",
+            "semverRange": ">=5.50.0"
+        },
+        
 		"compiler": [
 			{
 				"name": "XC32",
 				"semverRange": ">=2.50.0"
 			}
 		],
-		"dfp": {
+        "dfp": {
 			"name": "SAMD21_DFP",
 			"semverRange": "^3.3.98"
-		},
-		"configurator": {
-			"name": "MHC",
-			"semverRange": ">=3.6.4"
-		},
-		"device": {
-			"metaDataVersion": "1.0.0",
-			"category": "com.microchip.portal.contentRef",
-			"content": {
-				"metaDataVersion": "1.0.0",
-				"category": "com.microchip.device",
-				"name": "ATSAMD21J18A",
-				"versionRange": "*"
-			}
-		},
-		"author": "Microchip",
-		"subcategories": [
-			[
-				"Development Kit", "SAM D21 Xplained Pro Evaluation Kit"
-			],
-			[
-				"Harmony", "Middleware", "Touch", "SELF_CAPACITANCE"
-			],
-			[
-				"Middleware", "Touch", "SELF_CAPACITANCE"
-			]
-		],
-		"peripherals": [
-			"Touch"
-		],
-		"keywords": [
-			"MHC",
-			"Harmony",
-			"Middleware",
-			"Touch",
-			"ATSAMD21J18A",
-			"SAM D21/DA1 Family"
-		],
-		"additionalData": {
-			"longDescription": {
-				"metaDataVersion": "1.0.0",
-				"category": "com.microchip.portal.fileRef",
-				"content": {
-					"metaDataVersion": "1.0.0",
+            },
+        
+        "configurator": {
+            "name": "MHC",
+            "semverRange": ">=3.6.4"
+        },
+        
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+        "name": "ATSAMD21J18A",
+                "versionRange": "*"
+            }
+        },
+        "author": "Microchip",
+        "peripherals":   ["PTC","UART","RTC"],
+        "keywords": [
+            "MHC",
+            "Harmony",
+            "Middleware",
+            "Touch",
+            "1D Touch",
+            "Self Capacitance",
+            "Slider"
+        ],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
 					"fileName": "./../../docs/readme_sam_d21_xpro.md",
-					"mimeType": "text/markdown"
-				}
-			}
-		}
-	}
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
 }
