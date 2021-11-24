@@ -78,11 +78,11 @@ void SERCOM0_USART_TransmitterDisable( void );
 bool SERCOM0_USART_Write( void *buffer, const size_t size );
 
 
-bool SERCOM0_USART_TransmitterIsReady( void );
+bool SERCOM0_USART_WriteIsBusy( void );
 
-bool SERCOM0_USART_TransmitComplete( void );
+size_t SERCOM0_USART_WriteCountGet( void );
 
-void SERCOM0_USART_WriteByte( int data );
+void SERCOM0_USART_WriteCallbackRegister( SERCOM_USART_CALLBACK callback, uintptr_t context );
 
 
 void SERCOM0_USART_ReceiverEnable( void );
@@ -91,9 +91,13 @@ void SERCOM0_USART_ReceiverDisable( void );
 
 bool SERCOM0_USART_Read( void *buffer, const size_t size );
 
-bool SERCOM0_USART_ReceiverIsReady( void );
+bool SERCOM0_USART_ReadIsBusy( void );
 
-int SERCOM0_USART_ReadByte( void );
+size_t SERCOM0_USART_ReadCountGet( void );
+
+bool SERCOM0_USART_ReadAbort(void);
+
+void SERCOM0_USART_ReadCallbackRegister( SERCOM_USART_CALLBACK callback, uintptr_t context );
 
 USART_ERROR SERCOM0_USART_ErrorGet( void );
 

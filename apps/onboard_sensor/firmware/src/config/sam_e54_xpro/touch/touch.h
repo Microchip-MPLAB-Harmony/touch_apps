@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.10.0 Release
+  Touch Library v3.11.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -118,7 +118,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #define NODE_0_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(10), 0,PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_16                   \
+   X_NONE, Y(10), 0,PRSC_DIV_SEL_8, NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_16                   \
 }
 
 /**********************************************************/
@@ -215,7 +215,9 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 /**********************************************************/
 /***************** Communication - Data Streamer ******************/
 /**********************************************************/
-#define DEF_TOUCH_DATA_STREAMER_ENABLE 1u
+#define DEF_TOUCH_DATA_STREAMER_ENABLE 0u
+
+#define DEF_TOUCH_TUNE_ENABLE 1u
 
 
 /**********************************************************/

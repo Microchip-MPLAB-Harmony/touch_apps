@@ -36,12 +36,6 @@
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="f2" displayName="touch" projectFiles="true">
-            <logicalFolder name="f1" displayName="datastreamer" projectFiles="true">
-              <itemPath>../src/config/sam_l22_xpro/touch/datastreamer/datastreamer.h</itemPath>
-              <itemPath>../src/config/sam_l22_xpro/touch/datastreamer/03EB00000000000000AA5501.db</itemPath>
-              <itemPath>../src/config/sam_l22_xpro/touch/datastreamer/03EB00000000000000AA5501.ds</itemPath>
-              <itemPath>../src/config/sam_l22_xpro/touch/datastreamer/03EB00000000000000AA5501.sc</itemPath>
-            </logicalFolder>
             <itemPath>../src/config/sam_l22_xpro/touch/qtm_acq_saml22_0x0028_api.h</itemPath>
             <itemPath>../src/config/sam_l22_xpro/touch/qtm_common_components_api.h</itemPath>
             <itemPath>../src/config/sam_l22_xpro/touch/qtm_touch_key_0x0002_api.h</itemPath>
@@ -49,6 +43,7 @@
             <itemPath>../src/config/sam_l22_xpro/touch/touch.h</itemPath>
             <itemPath>../src/config/sam_l22_xpro/touch/touch_api_ptc.h</itemPath>
             <itemPath>../src/config/sam_l22_xpro/touch/touch_example.h</itemPath>
+            <itemPath>../src/config/sam_l22_xpro/touch/touchTune.h</itemPath>
           </logicalFolder>
           <itemPath>../src/config/sam_l22_xpro/device_cache.h</itemPath>
           <itemPath>../src/config/sam_l22_xpro/toolchain_specifics.h</itemPath>
@@ -201,11 +196,9 @@
             <itemPath>../src/config/sam_l22_xpro/stdio/xc32_monitor.c</itemPath>
           </logicalFolder>
           <logicalFolder name="f3" displayName="touch" projectFiles="true">
-            <logicalFolder name="f1" displayName="datastreamer" projectFiles="true">
-              <itemPath>../src/config/sam_l22_xpro/touch/datastreamer/datastreamer_UART_sam.c</itemPath>
-            </logicalFolder>
             <itemPath>../src/config/sam_l22_xpro/touch/touch.c</itemPath>
             <itemPath>../src/config/sam_l22_xpro/touch/touch_example.c</itemPath>
+            <itemPath>../src/config/sam_l22_xpro/touch/touchTune.c</itemPath>
           </logicalFolder>
           <itemPath>../src/config/sam_l22_xpro/initialization.c</itemPath>
           <itemPath>../src/config/sam_l22_xpro/interrupts.c</itemPath>

@@ -36,12 +36,6 @@
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="f2" displayName="touch" projectFiles="true">
-            <logicalFolder name="f1" displayName="datastreamer" projectFiles="true">
-              <itemPath>../src/config/sam_l21_xpro/touch/datastreamer/datastreamer.h</itemPath>
-              <itemPath>../src/config/sam_l21_xpro/touch/datastreamer/03EB00000000000000AA5501.db</itemPath>
-              <itemPath>../src/config/sam_l21_xpro/touch/datastreamer/03EB00000000000000AA5501.ds</itemPath>
-              <itemPath>../src/config/sam_l21_xpro/touch/datastreamer/03EB00000000000000AA5501.sc</itemPath>
-            </logicalFolder>
             <itemPath>../src/config/sam_l21_xpro/touch/qtm_acq_saml21_0x0026_api.h</itemPath>
             <itemPath>../src/config/sam_l21_xpro/touch/qtm_common_components_api.h</itemPath>
             <itemPath>../src/config/sam_l21_xpro/touch/qtm_touch_key_0x0002_api.h</itemPath>
@@ -49,6 +43,7 @@
             <itemPath>../src/config/sam_l21_xpro/touch/touch.h</itemPath>
             <itemPath>../src/config/sam_l21_xpro/touch/touch_api_ptc.h</itemPath>
             <itemPath>../src/config/sam_l21_xpro/touch/touch_example.h</itemPath>
+            <itemPath>../src/config/sam_l21_xpro/touch/touchTune.h</itemPath>
           </logicalFolder>
           <itemPath>../src/config/sam_l21_xpro/device_cache.h</itemPath>
           <itemPath>../src/config/sam_l21_xpro/toolchain_specifics.h</itemPath>
@@ -204,11 +199,9 @@
             <itemPath>../src/config/sam_l21_xpro/stdio/xc32_monitor.c</itemPath>
           </logicalFolder>
           <logicalFolder name="f3" displayName="touch" projectFiles="true">
-            <logicalFolder name="f1" displayName="datastreamer" projectFiles="true">
-              <itemPath>../src/config/sam_l21_xpro/touch/datastreamer/datastreamer_UART_sam.c</itemPath>
-            </logicalFolder>
             <itemPath>../src/config/sam_l21_xpro/touch/touch.c</itemPath>
             <itemPath>../src/config/sam_l21_xpro/touch/touch_example.c</itemPath>
+            <itemPath>../src/config/sam_l21_xpro/touch/touchTune.c</itemPath>
           </logicalFolder>
           <itemPath>../src/config/sam_l21_xpro/initialization.c</itemPath>
           <itemPath>../src/config/sam_l21_xpro/interrupts.c</itemPath>
@@ -222,6 +215,21 @@
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="false">
+      <logicalFolder name="f2" displayName="sam_e54_xpro.mhc" projectFiles="true">
+        <itemPath>../src/config/sam_e54_xpro/sam_e54_xpro.mhc/adc0.yml</itemPath>
+        <itemPath>../src/config/sam_e54_xpro/sam_e54_xpro.mhc/cmsis.yml</itemPath>
+        <itemPath>../src/config/sam_e54_xpro/sam_e54_xpro.mhc/core.yml</itemPath>
+        <itemPath>../src/config/sam_e54_xpro/sam_e54_xpro.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/sam_e54_xpro/sam_e54_xpro.mhc/evsys.yml</itemPath>
+        <itemPath>../src/config/sam_e54_xpro/sam_e54_xpro.mhc/GraphSettings.yml</itemPath>
+        <itemPath>../src/config/sam_e54_xpro/sam_e54_xpro.mhc/lib_qtouch.yml</itemPath>
+        <itemPath>../src/config/sam_e54_xpro/sam_e54_xpro.mhc/nvmctrl.yml</itemPath>
+        <itemPath>../src/config/sam_e54_xpro/sam_e54_xpro.mhc/project.yml</itemPath>
+        <itemPath>../src/config/sam_e54_xpro/sam_e54_xpro.mhc/ptc.yml</itemPath>
+        <itemPath>../src/config/sam_e54_xpro/sam_e54_xpro.mhc/rtc.yml</itemPath>
+        <itemPath>../src/config/sam_e54_xpro/sam_e54_xpro.mhc/sercom2.yml</itemPath>
+        <itemPath>../src/config/sam_e54_xpro/sam_e54_xpro.mhc/settings.yml</itemPath>
+      </logicalFolder>
       <logicalFolder name="f1" displayName="sam_l21_xpro.mhc" projectFiles="true">
         <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/cmsis.yml</itemPath>
         <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/core.yml</itemPath>
@@ -236,6 +244,21 @@
         <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/rtc.yml</itemPath>
         <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/sercom3.yml</itemPath>
         <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/settings.yml</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="sam_l22_xpro.mhc" projectFiles="true">
+        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/cmsis.yml</itemPath>
+        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/core.yml</itemPath>
+        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/evsys.yml</itemPath>
+        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/GraphSettings.yml</itemPath>
+        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/lib_qtouch.yml</itemPath>
+        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/nvmctrl.yml</itemPath>
+        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/pm.yml</itemPath>
+        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/project.yml</itemPath>
+        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/ptc.yml</itemPath>
+        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/rtc.yml</itemPath>
+        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/sercom0.yml</itemPath>
+        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/settings.yml</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>..\src\config\sam_l21_xpro\harmony-manifest-success.yml</itemPath>
@@ -252,9 +275,9 @@
         <targetDevice>ATSAML21J18B</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>noID</platformTool>
+        <platformTool>EdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>2.50</languageToolchainVersion>
+        <languageToolchainVersion>2.49</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
@@ -1024,6 +1047,55 @@
                   value=""/>
         <property key="warningmessagebreakoptions.warningmessages" value="holdstate"/>
       </Simulator>
+      <Tool>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="arm.use_vtor" value="false"/>
+        <property key="arm.vtor_adr" value="exception_table"/>
+        <property key="communication.activationmode" value="nohv"/>
+        <property key="communication.interface" value="swd"/>
+        <property key="communication.speed" value="2.000"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="firmware.path"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="firmware.toolpack"
+                  value="Press to select which tool pack to use"/>
+        <property key="firmware.update.action" value="firmware.update.use.latest"/>
+        <property key="freeze.timers" value="false"/>
+        <property key="lastid" value=""/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.exclude.configurationmemory" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="0-3ffff"/>
+        <property key="memories.rww" value="true"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges"
+                  value="${memories.dataflash.default}"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="script.log_level" value="0"/>
+        <property key="script.reset_delay" value="0"/>
+        <property key="script.show_output" value="false"/>
+        <property key="toolpack.updateoptions"
+                  value="toolpack.updateoptions.uselatestoolpack"/>
+        <property key="toolpack.updateoptions.packversion"
+                  value="Press to select which tool pack to use"/>
+        <property key="voltagevalue" value=""/>
+      </Tool>
     </conf>
   </confs>
 </configurationDescriptor>

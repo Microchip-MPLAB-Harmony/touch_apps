@@ -1,11 +1,4 @@
 files:
-- generatedChecksum: 92F75A8929511F5DE1FDD9FEB942CB87
-  logicalPath: config/sam_l21_xpro/touch/datastreamer
-  name: datastreamer_UART_sam.c
-  physicalPath: touch/datastreamer
-  security: NON_SECURE
-  type: SOURCE
-  userChecksum: 92F75A8929511F5DE1FDD9FEB942CB87
 - generatedChecksum: E45D1648EFC10229D7BE94DB19221FF7
   logicalPath: config/sam_l21_xpro
   name: exceptions.c
@@ -13,20 +6,20 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: E45D1648EFC10229D7BE94DB19221FF7
-- generatedChecksum: 6A582D90C494CF97D976AEF28AB14ECF
+- generatedChecksum: 6A13116B86AB895FA39076D8B0C39AE3
   logicalPath: config/sam_l21_xpro
   name: initialization.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 6A582D90C494CF97D976AEF28AB14ECF
-- generatedChecksum: AC5339A0BF2082498893A284B0817D96
+  userChecksum: 6A13116B86AB895FA39076D8B0C39AE3
+- generatedChecksum: AC22B8DDAE611BA1C75ACBAC0CE7374D
   logicalPath: config/sam_l21_xpro
   name: interrupts.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: AC5339A0BF2082498893A284B0817D96
+  userChecksum: AC22B8DDAE611BA1C75ACBAC0CE7374D
 - generatedChecksum: 6513F2461B8F476B68CA73906086047F
   logicalPath: config/sam_l21_xpro
   name: libc_syscalls.c
@@ -55,20 +48,20 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: C3ECDED3D6301DB0DE622293ED615D21
-- generatedChecksum: 8FE5490B8E7689B5B921419CF2BE297D
+- generatedChecksum: 514362830CA8188DD649C90BABBC96D8
   logicalPath: config/sam_l21_xpro/peripheral/nvic
   name: plib_nvic.c
   physicalPath: peripheral/nvic
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 8FE5490B8E7689B5B921419CF2BE297D
-- generatedChecksum: F9AA498D2DB20E7E1CEAFA0BD65BC0E6
+  userChecksum: 514362830CA8188DD649C90BABBC96D8
+- generatedChecksum: 1A6B34827B2EAC8D3DE1BA775FD84592
   logicalPath: config/sam_l21_xpro/peripheral/nvmctrl
   name: plib_nvmctrl.c
   physicalPath: peripheral/nvmctrl
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F9AA498D2DB20E7E1CEAFA0BD65BC0E6
+  userChecksum: 1A6B34827B2EAC8D3DE1BA775FD84592
 - generatedChecksum: A74E40BC6FB50F134417F2039E5EABBE
   logicalPath: config/sam_l21_xpro/peripheral/pm
   name: plib_pm.c
@@ -76,13 +69,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: A74E40BC6FB50F134417F2039E5EABBE
-- generatedChecksum: BE8A1CC7A5D3A3279071C485E76FF1D0
+- generatedChecksum: 0E30C5C2DC8152A165D7132FE786BEA4
   logicalPath: config/sam_l21_xpro/peripheral/port
   name: plib_port.c
   physicalPath: peripheral/port
   security: NON_SECURE
   type: SOURCE
-  userChecksum: BE8A1CC7A5D3A3279071C485E76FF1D0
+  userChecksum: 0E30C5C2DC8152A165D7132FE786BEA4
 - generatedChecksum: 8D95D32695EACBDE1D49E5007EAC950D
   logicalPath: config/sam_l21_xpro/peripheral/rtc
   name: plib_rtc_timer.c
@@ -90,13 +83,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 8D95D32695EACBDE1D49E5007EAC950D
-- generatedChecksum: CE1CF2E778D00CD8B9407936E684947B
+- generatedChecksum: 318AB0FD19A3DAC6113B06A9646BFBB6
   logicalPath: config/sam_l21_xpro/peripheral/sercom/usart
   name: plib_sercom3_usart.c
   physicalPath: peripheral/sercom/usart
   security: NON_SECURE
   type: SOURCE
-  userChecksum: CE1CF2E778D00CD8B9407936E684947B
+  userChecksum: 318AB0FD19A3DAC6113B06A9646BFBB6
 - generatedChecksum: 2645E564BD945DAED1424FD8D7B39330
   logicalPath: config/sam_l21_xpro
   name: startup_xc32.c
@@ -104,20 +97,27 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 2645E564BD945DAED1424FD8D7B39330
-- generatedChecksum: ABB73D3B682FABFF80BA6707569B21EE
+- generatedChecksum: 1B91EEB312E04BFCEBF3C41603A2A3EB
   logicalPath: config/sam_l21_xpro/touch
   name: touch.c
   physicalPath: touch
   security: NON_SECURE
   type: SOURCE
-  userChecksum: ABB73D3B682FABFF80BA6707569B21EE
-- generatedChecksum: C94D00E71463604216FF8399ECEA7F9D
+  userChecksum: 1B91EEB312E04BFCEBF3C41603A2A3EB
+- generatedChecksum: 85B5C82478C44803F73C83E87A8AE347
+  logicalPath: config/sam_l21_xpro/touch
+  name: touchTune.c
+  physicalPath: touch
+  security: NON_SECURE
+  type: SOURCE
+  userChecksum: 85B5C82478C44803F73C83E87A8AE347
+- generatedChecksum: A8E1D8105B14B2D92D406471546410CD
   logicalPath: config/sam_l21_xpro/touch
   name: touch_example.c
   physicalPath: touch
   security: NON_SECURE
   type: SOURCE
-  userChecksum: C94D00E71463604216FF8399ECEA7F9D
+  userChecksum: A8E1D8105B14B2D92D406471546410CD
 - generatedChecksum: 7806B30ECAE0D18D08CD583D8775530D
   logicalPath: config/sam_l21_xpro/stdio
   name: xc32_monitor.c
@@ -125,27 +125,6 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 7806B30ECAE0D18D08CD583D8775530D
-- generatedChecksum: DAA7E72FD50A6A3448B9D3B72CDB2105
-  logicalPath: config/sam_l21_xpro/touch/datastreamer
-  name: 03EB00000000000000AA5501.db
-  physicalPath: touch/datastreamer
-  security: NON_SECURE
-  type: HEADER
-  userChecksum: DAA7E72FD50A6A3448B9D3B72CDB2105
-- generatedChecksum: 302C94482B5355A1AB4E2E0E34D28CB9
-  logicalPath: config/sam_l21_xpro/touch/datastreamer
-  name: 03EB00000000000000AA5501.ds
-  physicalPath: touch/datastreamer
-  security: NON_SECURE
-  type: HEADER
-  userChecksum: 302C94482B5355A1AB4E2E0E34D28CB9
-- generatedChecksum: 564DFA4C66EFD42BF3DC98FD0C9ACB9B
-  logicalPath: config/sam_l21_xpro/touch/datastreamer
-  name: 03EB00000000000000AA5501.sc
-  physicalPath: touch/datastreamer
-  security: NON_SECURE
-  type: HEADER
-  userChecksum: 564DFA4C66EFD42BF3DC98FD0C9ACB9B
 - generatedChecksum: 837CA0DA3B4EE73A2C32494DC58D2178
   logicalPath: packs/ATSAML21J18B_DFP/component
   name: ac.h
@@ -188,13 +167,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: EE55C2D7547AB04F84546F3433021F6D
-- generatedChecksum: 01B82424BC59A54620F7E9E0DB808EBB
+- generatedChecksum: 14F1AD56D242EFD0AF76849C6ADFECC4
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cachel1_armv7.h
   physicalPath: ../../packs/CMSIS/CMSIS/Core/Include
   security: NON_SECURE
   type: HEADER
-  userChecksum: 01B82424BC59A54620F7E9E0DB808EBB
+  userChecksum: 14F1AD56D242EFD0AF76849C6ADFECC4
 - generatedChecksum: 0438524E7F67F44D9697B1F3FDA7F044
   logicalPath: packs/ATSAML21J18B_DFP/component
   name: ccl.h
@@ -209,27 +188,27 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: D8C8D650D95DD41CAF5DF7871E581C9E
-- generatedChecksum: 00A88E28C299A373117BC4D5B9E80C80
+- generatedChecksum: B79C08E0901948AD04D944B4BCE1B60D
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cmsis_armcc.h
   physicalPath: ../../packs/CMSIS/CMSIS/Core/Include
   security: NON_SECURE
   type: HEADER
-  userChecksum: 00A88E28C299A373117BC4D5B9E80C80
-- generatedChecksum: 734DF6998F09B2D22A4D9FE1D544FDFC
+  userChecksum: B79C08E0901948AD04D944B4BCE1B60D
+- generatedChecksum: 6B4E2EBA8708D9E04E6136F29460ACB9
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cmsis_armclang.h
   physicalPath: ../../packs/CMSIS/CMSIS/Core/Include
   security: NON_SECURE
   type: HEADER
-  userChecksum: 734DF6998F09B2D22A4D9FE1D544FDFC
-- generatedChecksum: 5D653BEFE5E6B1D00AB3682CE5D24C11
+  userChecksum: 6B4E2EBA8708D9E04E6136F29460ACB9
+- generatedChecksum: 415E22EBE7A3BACE87240A7F16492C46
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cmsis_armclang_ltm.h
   physicalPath: ../../packs/CMSIS/CMSIS/Core/Include
   security: NON_SECURE
   type: HEADER
-  userChecksum: 5D653BEFE5E6B1D00AB3682CE5D24C11
+  userChecksum: 415E22EBE7A3BACE87240A7F16492C46
 - generatedChecksum: 60385A5C6C9882B5D30709A1F6EAEC35
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cmsis_compiler.h
@@ -237,20 +216,20 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 60385A5C6C9882B5D30709A1F6EAEC35
-- generatedChecksum: 42E8B722917508A3A9373D13AD827ED6
+- generatedChecksum: 4DC978B079559EB044AFD32A57768238
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cmsis_gcc.h
   physicalPath: ../../packs/CMSIS/CMSIS/Core/Include
   security: NON_SECURE
   type: HEADER
-  userChecksum: 42E8B722917508A3A9373D13AD827ED6
-- generatedChecksum: 376D5C7FD29CAA507ACB1AAB8746B1AD
+  userChecksum: 4DC978B079559EB044AFD32A57768238
+- generatedChecksum: 11521476050CAC6C1F3A91A5BB5DBB9A
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cmsis_iccarm.h
   physicalPath: ../../packs/CMSIS/CMSIS/Core/Include
   security: NON_SECURE
   type: HEADER
-  userChecksum: 376D5C7FD29CAA507ACB1AAB8746B1AD
+  userChecksum: 11521476050CAC6C1F3A91A5BB5DBB9A
 - generatedChecksum: 52F91AC0727F2311EDA0E3BAA7719A9F
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cmsis_version.h
@@ -279,13 +258,6 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 15337EB39125979F6F6391018942CCAA
-- generatedChecksum: 9370572AD402AB9E975F0FDC2266795F
-  logicalPath: config/sam_l21_xpro/touch/datastreamer
-  name: datastreamer.h
-  physicalPath: touch/datastreamer
-  security: NON_SECURE
-  type: HEADER
-  userChecksum: 9370572AD402AB9E975F0FDC2266795F
 - generatedChecksum: DFDF6A0DA1F2ABC855C6CCF51BB48855
   logicalPath: config/sam_l21_xpro
   name: definitions.h
@@ -384,13 +356,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 5122A03687D8BC40DAC4F1E6213E6021
-- generatedChecksum: B06A7E2E53689A0BBD537D2D33717226
+- generatedChecksum: 40DAC35C4C25A23D051521A7263DE4A7
   logicalPath: config/sam_l21_xpro
   name: interrupts.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: B06A7E2E53689A0BBD537D2D33717226
+  userChecksum: 40DAC35C4C25A23D051521A7263DE4A7
 - generatedChecksum: 5734D2D37425FCD9686FE090E8F9E744
   logicalPath: packs/ATSAML21J18B_DFP/component
   name: mclk.h
@@ -405,13 +377,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: F9901E8433D2E83B92BA6D46520EF94E
-- generatedChecksum: B96ADDA2C111E73B26EBA5E7B4498912
+- generatedChecksum: 47E760D36E42A7B436306A9CB4E72A0E
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: mpu_armv7.h
   physicalPath: ../../packs/CMSIS/CMSIS/Core/Include
   security: NON_SECURE
   type: HEADER
-  userChecksum: B96ADDA2C111E73B26EBA5E7B4498912
+  userChecksum: 47E760D36E42A7B436306A9CB4E72A0E
 - generatedChecksum: EC59F62307D5B3409C99A79EA583F26A
   logicalPath: packs/ATSAML21J18B_DFP/component
   name: mtb.h
@@ -517,13 +489,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 55ECCC7FA71BD15B46EF80DC0515ED7A
-- generatedChecksum: C7FA7CF30AF942DFE939176BCD4062DD
+- generatedChecksum: BE89B413DB19A2200ACA807470499603
   logicalPath: config/sam_l21_xpro/peripheral/nvmctrl
   name: plib_nvmctrl.h
   physicalPath: peripheral/nvmctrl
   security: NON_SECURE
   type: HEADER
-  userChecksum: C7FA7CF30AF942DFE939176BCD4062DD
+  userChecksum: BE89B413DB19A2200ACA807470499603
 - generatedChecksum: 2C6F9BA1BFA523200ED784A7D4FC3C81
   logicalPath: config/sam_l21_xpro/peripheral/pm
   name: plib_pm.h
@@ -545,13 +517,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: DEEEA6079601ACFC6F872A4548BCC38F
-- generatedChecksum: DCC0369AFDD597FB63203FB1B7488E8B
+- generatedChecksum: BF6EFCCF1BB3BD81649BA580AAB0760F
   logicalPath: config/sam_l21_xpro/peripheral/sercom/usart
   name: plib_sercom3_usart.h
   physicalPath: peripheral/sercom/usart
   security: NON_SECURE
   type: HEADER
-  userChecksum: DCC0369AFDD597FB63203FB1B7488E8B
+  userChecksum: BF6EFCCF1BB3BD81649BA580AAB0760F
 - generatedChecksum: 6F9F9CBBFEDEC8784446F157BB625E1C
   logicalPath: config/sam_l21_xpro/peripheral/sercom/usart
   name: plib_sercom_usart_common.h
@@ -804,34 +776,41 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: A10FC01AC9135B1D5545DC3EEF3C7BCB
-- generatedChecksum: 20E829A99B86C2889E4E2E536161C27A
+- generatedChecksum: 5A6CE947CB477E5554790DE371B7FBAB
   logicalPath: config/sam_l21_xpro
   name: toolchain_specifics.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: 20E829A99B86C2889E4E2E536161C27A
-- generatedChecksum: F1B29882A15EEE619D420DB827524924
+  userChecksum: 5A6CE947CB477E5554790DE371B7FBAB
+- generatedChecksum: 7F66FA949322D918A257ADD5A55E33E2
   logicalPath: config/sam_l21_xpro/touch
   name: touch.h
   physicalPath: touch
   security: NON_SECURE
   type: HEADER
-  userChecksum: F1B29882A15EEE619D420DB827524924
-- generatedChecksum: 1447BC58F23430B17C52E890090357D9
+  userChecksum: 7F66FA949322D918A257ADD5A55E33E2
+- generatedChecksum: D446004BC1F39730D5B27240575CC7FE
+  logicalPath: config/sam_l21_xpro/touch
+  name: touchTune.h
+  physicalPath: touch
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: D446004BC1F39730D5B27240575CC7FE
+- generatedChecksum: D95665EF56AD0556AD2F4609A3C98EAB
   logicalPath: config/sam_l21_xpro/touch
   name: touch_api_ptc.h
   physicalPath: touch
   security: NON_SECURE
   type: HEADER
-  userChecksum: 1447BC58F23430B17C52E890090357D9
-- generatedChecksum: F6C8656A37C188F6F20348885369BB49
+  userChecksum: D95665EF56AD0556AD2F4609A3C98EAB
+- generatedChecksum: 9D140A660BDFE5B327A6376A34A7271B
   logicalPath: config/sam_l21_xpro/touch
   name: touch_example.h
   physicalPath: touch
   security: NON_SECURE
   type: HEADER
-  userChecksum: F6C8656A37C188F6F20348885369BB49
+  userChecksum: 9D140A660BDFE5B327A6376A34A7271B
 - generatedChecksum: 407DFFDDA4621EEE6BDE8C9CC0F092DF
   logicalPath: packs/ATSAML21J18B_DFP/component
   name: trng.h

@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.10.0 Release
+  Touch Library v3.11.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -43,9 +43,9 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 /*----------------------------------------------------------------------------
  *     include files
  *----------------------------------------------------------------------------*/
+#include "definitions.h"
 #include "touch/touch.h"
-#include "definitions.h" 
-#include "touch/datastreamer/datastreamer.h"
+#include "touch/touchTune.h"
 
 /*----------------------------------------------------------------------------
  *   prototypes
@@ -245,9 +245,6 @@ static void qtm_error_callback(uint8_t error)
 {
 	module_error_code = error + 1u;
 
-	#if DEF_TOUCH_DATA_STREAMER_ENABLE == 1
-	    datastreamer_output();
-	#endif
 }
 
 /*============================================================================
@@ -267,9 +264,10 @@ void touch_init(void)
 	touch_sensors_config();
 
 	
-#if DEF_TOUCH_DATA_STREAMER_ENABLE == 1
-	datastreamer_init();
-#endif
+
+    #if DEF_TOUCH_TUNE_ENABLE == 1u
+    touchTuneInit();
+    #endif
 }
 
 /*============================================================================
@@ -326,6 +324,10 @@ void touch_process(void)
         }
 
 
+        #if DEF_TOUCH_TUNE_ENABLE == 1u
+        touchTuneNewDataAvailable();
+        #endif
+
         if (0u != (qtlib_key_set1.qtm_touch_key_group_data->qtm_keys_status & QTM_KEY_REBURST)) {
             time_to_measure_touch_var = 1u;
         } else {
@@ -334,8 +336,9 @@ void touch_process(void)
     }
 
 
-    #if DEF_TOUCH_DATA_STREAMER_ENABLE == 1
-        datastreamer_output();
+
+    #if DEF_TOUCH_TUNE_ENABLE == 1u
+    touchTuneProcess();
     #endif
 }
 

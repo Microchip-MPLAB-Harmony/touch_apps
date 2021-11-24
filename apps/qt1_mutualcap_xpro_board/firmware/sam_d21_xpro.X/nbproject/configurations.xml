@@ -33,12 +33,6 @@
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="f2" displayName="touch" projectFiles="true">
-            <logicalFolder name="f1" displayName="datastreamer" projectFiles="true">
-              <itemPath>../src/config/sam_d21_xpro/touch/datastreamer/datastreamer.h</itemPath>
-              <itemPath>../src/config/sam_d21_xpro/touch/datastreamer/03EB00000000000000AA5501.db</itemPath>
-              <itemPath>../src/config/sam_d21_xpro/touch/datastreamer/03EB00000000000000AA5501.ds</itemPath>
-              <itemPath>../src/config/sam_d21_xpro/touch/datastreamer/03EB00000000000000AA5501.sc</itemPath>
-            </logicalFolder>
             <itemPath>../src/config/sam_d21_xpro/touch/qtm_acq_samd21_0x0024_api.h</itemPath>
             <itemPath>../src/config/sam_d21_xpro/touch/qtm_common_components_api.h</itemPath>
             <itemPath>../src/config/sam_d21_xpro/touch/qtm_touch_key_0x0002_api.h</itemPath>
@@ -47,6 +41,7 @@
             <itemPath>../src/config/sam_d21_xpro/touch/touch.h</itemPath>
             <itemPath>../src/config/sam_d21_xpro/touch/touch_api_ptc.h</itemPath>
             <itemPath>../src/config/sam_d21_xpro/touch/touch_example.h</itemPath>
+            <itemPath>../src/config/sam_d21_xpro/touch/touchTune.h</itemPath>
           </logicalFolder>
           <itemPath>../src/config/sam_d21_xpro/device_cache.h</itemPath>
           <itemPath>../src/config/sam_d21_xpro/toolchain_specifics.h</itemPath>
@@ -189,11 +184,9 @@
             <itemPath>../src/config/sam_d21_xpro/stdio/xc32_monitor.c</itemPath>
           </logicalFolder>
           <logicalFolder name="f3" displayName="touch" projectFiles="true">
-            <logicalFolder name="f1" displayName="datastreamer" projectFiles="true">
-              <itemPath>../src/config/sam_d21_xpro/touch/datastreamer/datastreamer_UART_sam.c</itemPath>
-            </logicalFolder>
             <itemPath>../src/config/sam_d21_xpro/touch/touch.c</itemPath>
             <itemPath>../src/config/sam_d21_xpro/touch/touch_example.c</itemPath>
+            <itemPath>../src/config/sam_d21_xpro/touch/touchTune.c</itemPath>
           </logicalFolder>
           <itemPath>../src/config/sam_d21_xpro/initialization.c</itemPath>
           <itemPath>../src/config/sam_d21_xpro/interrupts.c</itemPath>
@@ -207,6 +200,20 @@
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="false">
+      <logicalFolder name="f2" displayName="sam_d20_xpro.mhc" projectFiles="true">
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/cmsis.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/core.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/evsys.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/GraphSettings.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/lib_qtouch.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/nvmctrl.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/project.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/ptc.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/rtc.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/sercom3.yml</itemPath>
+        <itemPath>../src/config/sam_d20_xpro/sam_d20_xpro.mhc/settings.yml</itemPath>
+      </logicalFolder>
       <logicalFolder name="f1" displayName="sam_d21_xpro.mhc" projectFiles="true">
         <itemPath>../src/config/sam_d21_xpro/sam_d21_xpro.mhc/cmsis.yml</itemPath>
         <itemPath>../src/config/sam_d21_xpro/sam_d21_xpro.mhc/core.yml</itemPath>
@@ -236,7 +243,7 @@
         <targetDevice>ATSAMD21J18A</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>noID</platformTool>
+        <platformTool>EdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>2.50</languageToolchainVersion>
         <platform>3</platform>

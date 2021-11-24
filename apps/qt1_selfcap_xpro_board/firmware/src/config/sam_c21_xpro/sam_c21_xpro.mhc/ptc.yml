@@ -18,4 +18,4 @@ children:
         children:
         - {type: Value, value: lib_acquire}
 - type: ElementPosition
-  attributes: {x: '12', y: '243', id: ptc}
+  attributes: {x: '206', y: '257', id: ptc}
