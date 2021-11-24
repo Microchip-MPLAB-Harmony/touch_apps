@@ -5,7 +5,7 @@ frameworkPath: D:\Harmony\h3_repo
 processor: ATSAMC21J18A
 projectName: sam_c21_xpro
 settings:
-  PackageFilter: bsp;core;csp;dev_packs;quick_docs;touch;touch_apps
+  PackageFilter: bsp;core;core_apps_pic32cm_mc00;csp;csp_apps_pic32cm_mc00;dev_packs;quick_docs;touch;touch_apps
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
   TRUSTZONE: 'false'

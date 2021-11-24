@@ -1,11 +1,4 @@
 files:
-- generatedChecksum: 4157CCBD7B92F7AB127A49AF60BC3BDB
-  logicalPath: config/sam_l10_xpro/touch/datastreamer
-  name: datastreamer_UART_sam.c
-  physicalPath: touch/datastreamer
-  security: NON_SECURE
-  type: SOURCE
-  userChecksum: 4157CCBD7B92F7AB127A49AF60BC3BDB
 - generatedChecksum: 9D5EE038B893127B787BC03DFA6B467F
   logicalPath: config/sam_l10_xpro
   name: exceptions.c
@@ -20,13 +13,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: FDB369BB41202252465FB6B2E2B65D84
-- generatedChecksum: F8C446985ECD1C617E58EB56ED8B2CFD
+- generatedChecksum: 75FFC4886B7EC13B5652D5AD3CF5E259
   logicalPath: config/sam_l10_xpro
   name: interrupts.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F8C446985ECD1C617E58EB56ED8B2CFD
+  userChecksum: 75FFC4886B7EC13B5652D5AD3CF5E259
 - generatedChecksum: 6513F2461B8F476B68CA73906086047F
   logicalPath: config/sam_l10_xpro
   name: libc_syscalls.c
@@ -55,13 +48,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: C3ECDED3D6301DB0DE622293ED615D21
-- generatedChecksum: 89B6D5A322858A3338E71A71F8FBD388
+- generatedChecksum: 992CEE5E54ABF4615C4827025F03AEF3
   logicalPath: config/sam_l10_xpro/peripheral/nvic
   name: plib_nvic.c
   physicalPath: peripheral/nvic
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 89B6D5A322858A3338E71A71F8FBD388
+  userChecksum: 992CEE5E54ABF4615C4827025F03AEF3
 - generatedChecksum: 45E7ED8C2CDB7AECB41578CB0F6213A0
   logicalPath: config/sam_l10_xpro/peripheral/nvmctrl
   name: plib_nvmctrl.c
@@ -97,13 +90,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 62F8B7D2225C77DBC5FDD53EA3EE5FAB
-- generatedChecksum: 1BF11CC94FF3440CE2CC429514D34509
+- generatedChecksum: 13AD72878E1054366762C55AA88A955C
   logicalPath: config/sam_l10_xpro/peripheral/sercom/usart
   name: plib_sercom2_usart.c
   physicalPath: peripheral/sercom/usart
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 1BF11CC94FF3440CE2CC429514D34509
+  userChecksum: 13AD72878E1054366762C55AA88A955C
 - generatedChecksum: 2645E564BD945DAED1424FD8D7B39330
   logicalPath: config/sam_l10_xpro
   name: startup_xc32.c
@@ -111,20 +104,27 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 2645E564BD945DAED1424FD8D7B39330
-- generatedChecksum: F7928D5000BDEBA1AEB75DBBBF918DB4
+- generatedChecksum: 941CC59C1AD2941D69D1E946FF764092
   logicalPath: config/sam_l10_xpro/touch
   name: touch.c
   physicalPath: touch
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F7928D5000BDEBA1AEB75DBBBF918DB4
-- generatedChecksum: 4056BB0CB3EDEE9B6A1DB06929A20391
+  userChecksum: 941CC59C1AD2941D69D1E946FF764092
+- generatedChecksum: B77735C023251C2B135DD12D2FC77F10
+  logicalPath: config/sam_l10_xpro/touch
+  name: touchTune.c
+  physicalPath: touch
+  security: NON_SECURE
+  type: SOURCE
+  userChecksum: B77735C023251C2B135DD12D2FC77F10
+- generatedChecksum: F005781E21665EB55BD21D4002E58C4D
   logicalPath: config/sam_l10_xpro/touch
   name: touch_example.c
   physicalPath: touch
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 4056BB0CB3EDEE9B6A1DB06929A20391
+  userChecksum: F005781E21665EB55BD21D4002E58C4D
 - generatedChecksum: 7806B30ECAE0D18D08CD583D8775530D
   logicalPath: config/sam_l10_xpro/stdio
   name: xc32_monitor.c
@@ -132,27 +132,6 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 7806B30ECAE0D18D08CD583D8775530D
-- generatedChecksum: 78287E7153BE54F8B2D6623D585FD610
-  logicalPath: config/sam_l10_xpro/touch/datastreamer
-  name: 03EB00000000000000AA5501.db
-  physicalPath: touch/datastreamer
-  security: NON_SECURE
-  type: HEADER
-  userChecksum: 78287E7153BE54F8B2D6623D585FD610
-- generatedChecksum: 8FE914CDB6B2641E04B8E54278CC3564
-  logicalPath: config/sam_l10_xpro/touch/datastreamer
-  name: 03EB00000000000000AA5501.ds
-  physicalPath: touch/datastreamer
-  security: NON_SECURE
-  type: HEADER
-  userChecksum: 8FE914CDB6B2641E04B8E54278CC3564
-- generatedChecksum: 31EA3BA29930803AD2837DD4F5D80909
-  logicalPath: config/sam_l10_xpro/touch/datastreamer
-  name: 03EB00000000000000AA5501.sc
-  physicalPath: touch/datastreamer
-  security: NON_SECURE
-  type: HEADER
-  userChecksum: 31EA3BA29930803AD2837DD4F5D80909
 - generatedChecksum: 7F125128B44FE669CD1223320343EAA7
   logicalPath: packs/ATSAML10E16A_DFP/component
   name: ac.h
@@ -272,13 +251,6 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 9BB7526550465EE2EB342E47AE09B494
-- generatedChecksum: 9370572AD402AB9E975F0FDC2266795F
-  logicalPath: config/sam_l10_xpro/touch/datastreamer
-  name: datastreamer.h
-  physicalPath: touch/datastreamer
-  security: NON_SECURE
-  type: HEADER
-  userChecksum: 9370572AD402AB9E975F0FDC2266795F
 - generatedChecksum: E8595A4786D89DF78E8C06E9AC2D7443
   logicalPath: config/sam_l10_xpro
   name: definitions.h
@@ -419,13 +391,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 49B604E4E34ACC92AA04F828AD77209F
-- generatedChecksum: DC3D61A087EA1B947D72CD45765497F0
+- generatedChecksum: 7A2BF6DBB21FDCA78A749F5ED25C22D3
   logicalPath: config/sam_l10_xpro
   name: interrupts.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: DC3D61A087EA1B947D72CD45765497F0
+  userChecksum: 7A2BF6DBB21FDCA78A749F5ED25C22D3
 - generatedChecksum: B54440C2E900C8E34A7A7337710DA286
   logicalPath: packs/ATSAML10E16A_DFP/component
   name: mclk.h
@@ -573,13 +545,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 978427979D8DA89D5B1DA14F7B59732A
-- generatedChecksum: 3483A352FFE8C9101A808A2A4898DC04
+- generatedChecksum: 2D6925775E71FC9817974B1226CD8403
   logicalPath: config/sam_l10_xpro/peripheral/sercom/usart
   name: plib_sercom2_usart.h
   physicalPath: peripheral/sercom/usart
   security: NON_SECURE
   type: HEADER
-  userChecksum: 3483A352FFE8C9101A808A2A4898DC04
+  userChecksum: 2D6925775E71FC9817974B1226CD8403
 - generatedChecksum: 555AC09B32F566FBFB0A0505CF73ABD6
   logicalPath: config/sam_l10_xpro/peripheral/sercom/i2c_master
   name: plib_sercom_i2c_master_common.h
@@ -790,27 +762,34 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 5A6CE947CB477E5554790DE371B7FBAB
-- generatedChecksum: 0B9AF35D289F667142FA64750CEA70AC
+- generatedChecksum: 30F63F703A945BFF95798C65A2C72D79
   logicalPath: config/sam_l10_xpro/touch
   name: touch.h
   physicalPath: touch
   security: NON_SECURE
   type: HEADER
-  userChecksum: 0B9AF35D289F667142FA64750CEA70AC
-- generatedChecksum: 104763847F1552D51E21A8FC88E9217F
+  userChecksum: 30F63F703A945BFF95798C65A2C72D79
+- generatedChecksum: D446004BC1F39730D5B27240575CC7FE
+  logicalPath: config/sam_l10_xpro/touch
+  name: touchTune.h
+  physicalPath: touch
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: D446004BC1F39730D5B27240575CC7FE
+- generatedChecksum: 439137199342DD177B73CF8482F8EBB6
   logicalPath: config/sam_l10_xpro/touch
   name: touch_api_ptc.h
   physicalPath: touch
   security: NON_SECURE
   type: HEADER
-  userChecksum: 104763847F1552D51E21A8FC88E9217F
-- generatedChecksum: CB137D097F912AD6538DCC4CD150BE44
+  userChecksum: 439137199342DD177B73CF8482F8EBB6
+- generatedChecksum: 9D140A660BDFE5B327A6376A34A7271B
   logicalPath: config/sam_l10_xpro/touch
   name: touch_example.h
   physicalPath: touch
   security: NON_SECURE
   type: HEADER
-  userChecksum: CB137D097F912AD6538DCC4CD150BE44
+  userChecksum: 9D140A660BDFE5B327A6376A34A7271B
 - generatedChecksum: 06885CDDF037E9EACE0D313BC4809F7F
   logicalPath: packs/ATSAML10E16A_DFP/component
   name: tram.h

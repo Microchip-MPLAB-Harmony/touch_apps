@@ -517,84 +517,84 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'false'}
+        attributes: {id: core, value: 'true'}
   - type: String
     attributes: {id: NVIC_30_0_HANDLER}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: SERCOM2_0_Handler}
+        attributes: {id: core, value: SERCOM2_USART_InterruptHandler}
   - type: Boolean
     attributes: {id: NVIC_30_0_HANDLER_LOCK}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'false'}
+        attributes: {id: core, value: 'true'}
   - type: Boolean
     attributes: {id: NVIC_31_0_ENABLE}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'false'}
+        attributes: {id: core, value: 'true'}
   - type: String
     attributes: {id: NVIC_31_0_HANDLER}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: SERCOM2_1_Handler}
+        attributes: {id: core, value: SERCOM2_USART_InterruptHandler}
   - type: Boolean
     attributes: {id: NVIC_31_0_HANDLER_LOCK}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'false'}
+        attributes: {id: core, value: 'true'}
   - type: Boolean
     attributes: {id: NVIC_32_0_ENABLE}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'false'}
+        attributes: {id: core, value: 'true'}
   - type: String
     attributes: {id: NVIC_32_0_HANDLER}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: SERCOM2_2_Handler}
+        attributes: {id: core, value: SERCOM2_USART_InterruptHandler}
   - type: Boolean
     attributes: {id: NVIC_32_0_HANDLER_LOCK}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'false'}
+        attributes: {id: core, value: 'true'}
   - type: Boolean
     attributes: {id: NVIC_33_0_ENABLE}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'false'}
+        attributes: {id: core, value: 'true'}
   - type: String
     attributes: {id: NVIC_33_0_HANDLER}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: SERCOM2_OTHER_Handler}
+        attributes: {id: core, value: SERCOM2_USART_InterruptHandler}
   - type: Boolean
     attributes: {id: NVIC_33_0_HANDLER_LOCK}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'false'}
+        attributes: {id: core, value: 'true'}
   - type: Boolean
     attributes: {id: NVIC_42_0_ENABLE}
     children:
@@ -1042,84 +1042,84 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: sercom2, value: 'false'}
+        attributes: {id: sercom2, value: 'true'}
   - type: Boolean
     attributes: {id: SERCOM2_0_INTERRUPT_ENABLE_UPDATE}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
   - type: String
     attributes: {id: SERCOM2_0_INTERRUPT_HANDLER}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: sercom2, value: SERCOM2_0_Handler}
+        attributes: {id: sercom2, value: SERCOM2_USART_InterruptHandler}
   - type: Boolean
     attributes: {id: SERCOM2_0_INTERRUPT_HANDLER_LOCK}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: sercom2, value: 'false'}
+        attributes: {id: sercom2, value: 'true'}
   - type: Boolean
     attributes: {id: SERCOM2_1_INTERRUPT_ENABLE}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: sercom2, value: 'false'}
+        attributes: {id: sercom2, value: 'true'}
   - type: Boolean
     attributes: {id: SERCOM2_1_INTERRUPT_ENABLE_UPDATE}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
   - type: String
     attributes: {id: SERCOM2_1_INTERRUPT_HANDLER}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: sercom2, value: SERCOM2_1_Handler}
+        attributes: {id: sercom2, value: SERCOM2_USART_InterruptHandler}
   - type: Boolean
     attributes: {id: SERCOM2_1_INTERRUPT_HANDLER_LOCK}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: sercom2, value: 'false'}
+        attributes: {id: sercom2, value: 'true'}
   - type: Boolean
     attributes: {id: SERCOM2_2_INTERRUPT_ENABLE}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: sercom2, value: 'false'}
+        attributes: {id: sercom2, value: 'true'}
   - type: Boolean
     attributes: {id: SERCOM2_2_INTERRUPT_ENABLE_UPDATE}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
   - type: String
     attributes: {id: SERCOM2_2_INTERRUPT_HANDLER}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: sercom2, value: SERCOM2_2_Handler}
+        attributes: {id: sercom2, value: SERCOM2_USART_InterruptHandler}
   - type: Boolean
     attributes: {id: SERCOM2_2_INTERRUPT_HANDLER_LOCK}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: sercom2, value: 'false'}
+        attributes: {id: sercom2, value: 'true'}
   - type: Boolean
     attributes: {id: SERCOM2_CORE_CLOCK_ENABLE}
     children:
@@ -1140,28 +1140,28 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: sercom2, value: 'false'}
+        attributes: {id: sercom2, value: 'true'}
   - type: Boolean
     attributes: {id: SERCOM2_OTHER_INTERRUPT_ENABLE_UPDATE}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
   - type: String
     attributes: {id: SERCOM2_OTHER_INTERRUPT_HANDLER}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: sercom2, value: SERCOM2_OTHER_Handler}
+        attributes: {id: sercom2, value: SERCOM2_USART_InterruptHandler}
   - type: Boolean
     attributes: {id: SERCOM2_OTHER_INTERRUPT_HANDLER_LOCK}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: sercom2, value: 'false'}
+        attributes: {id: sercom2, value: 'true'}
   - type: String
     attributes: {id: SYSTICK_PERIOD}
     children:

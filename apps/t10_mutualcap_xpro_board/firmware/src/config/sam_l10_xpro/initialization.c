@@ -130,13 +130,12 @@ void SYS_Initialize ( void* data )
 
 
     NVMCTRL_Initialize();
-    
-    SERCOM0_I2C_Initialize();
+
     SERCOM2_USART_Initialize();
 
     EVSYS_Initialize();
 
-    
+    SERCOM0_I2C_Initialize();
 
     RTC_Initialize();
 

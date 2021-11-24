@@ -87,25 +87,12 @@ children:
       - type: Dynamic
         attributes: {id: sercom3, value: '0'}
   - type: Boolean
-    attributes: {id: USART_INTERRUPT_MODE}
-    children:
-    - type: Attributes
-      children:
-      - type: String
-        attributes: {id: label}
-        children:
-        - {type: Value, value: '---'}
-    - type: Values
-      children:
-      - type: Dynamic
-        attributes: {id: lib_qtouch, value: 'false'}
-  - type: Boolean
     attributes: {id: USART_INTERRUPT_MODE_ENABLE}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: sercom3, value: 'false'}
+        attributes: {id: sercom3, value: 'true'}
   - type: Boolean
     attributes: {id: USART_LIN_MASTER_SUPPORTED}
     children:
@@ -119,7 +106,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: sercom3, value: '0'}
+        attributes: {id: lib_qtouch, value: '1'}
   - type: Boolean
     attributes: {id: USART_RING_BUFFER_MODE_ENABLE}
     children:
@@ -127,13 +114,6 @@ children:
       children:
       - type: Dynamic
         attributes: {id: sercom3, value: 'false'}
-  - type: Boolean
-    attributes: {id: USART_RUNSTDBY}
-    children:
-    - type: Values
-      children:
-      - type: User
-        attributes: {value: 'true'}
   - type: KeyValueSet
     attributes: {id: USART_RXPO}
     children:
@@ -187,6 +167,6 @@ children:
       - type: String
         attributes: {id: targetAttachmentID}
         children:
-        - {type: Value, value: Touch_sercom}
+        - {type: Value, value: Touch_sercom_Krono}
 - type: ElementPosition
-  attributes: {x: '315', y: '115', id: sercom3}
+  attributes: {x: '315', y: '113', id: sercom3}
