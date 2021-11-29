@@ -1,0 +1,14 @@
+configName: bootloader
+folderName: bootloader
+format_version: v1.0
+frameworkPath: ..\..\harmony\h3_bitbucket
+processor: ATSAMD21J18A
+projectName: bootloader
+settings:
+  PackageFilter: bootloader;bsp;core;csp;gfx;quick_docs;touch;touch_apps;touch_turnkey_host;usb
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: .\dev_packs\arm\CMSIS\5.7.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: .\dev_packs\Microchip\SAMD21_DFP\3.4.116\samd21a\atdf\ATSAMD21J18A.atdf

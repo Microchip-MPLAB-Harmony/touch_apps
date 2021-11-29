@@ -129,7 +129,7 @@ children:
     - type: Values
       children:
       - type: User
-        attributes: {value: 'true'}
+        attributes: {value: 'false'}
   - type: Boolean
     attributes: {id: ENABLE_FREQ_HOP}
     children:
@@ -142,6 +142,15 @@ children:
     children:
     - type: Values
       children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: 'false'}
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: ENABLE_TOUCH_TUNE_WITH_PLUGIN}
+    children:
+    - type: Values
+      children:
       - type: User
         attributes: {value: 'true'}
   - type: Boolean
@@ -151,6 +160,13 @@ children:
       children:
       - type: User
         attributes: {value: 'true'}
+  - type: String
+    attributes: {id: LOW_POWER_KEYS_MASK}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: '0x0'}
   - type: KeyValueSet
     attributes: {id: MUTL-X-INPUT_0}
     children:
@@ -381,6 +397,26 @@ children:
       children:
       - type: Dynamic
         attributes: {id: lib_qtouch, value: '4'}
+  - type: String
+    attributes: {id: PTC_CLOCK_FREQ}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: GCLK_ID_37_FREQ}
+  - type: Menu
+    attributes: {id: SCROLLER_MENU}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
   - type: KeyValueSet
     attributes: {id: SELFCAP-INPUT_0}
     children:
@@ -431,7 +467,7 @@ children:
       - type: Boolean
         attributes: {id: enabled}
         children:
-        - {type: Value, value: 'true'}
+        - {type: Value, value: 'false'}
   - type: File
     attributes: {id: TOUCH_DATA_STREAMER_HEADER_db}
     children:
@@ -440,7 +476,7 @@ children:
       - type: Boolean
         attributes: {id: enabled}
         children:
-        - {type: Value, value: 'true'}
+        - {type: Value, value: 'false'}
   - type: File
     attributes: {id: TOUCH_DATA_STREAMER_HEADER_ds}
     children:
@@ -449,7 +485,7 @@ children:
       - type: Boolean
         attributes: {id: enabled}
         children:
-        - {type: Value, value: 'true'}
+        - {type: Value, value: 'false'}
   - type: File
     attributes: {id: TOUCH_DATA_STREAMER_HEADER_sc}
     children:
@@ -458,7 +494,7 @@ children:
       - type: Boolean
         attributes: {id: enabled}
         children:
-        - {type: Value, value: 'true'}
+        - {type: Value, value: 'false'}
   - type: File
     attributes: {id: TOUCH_DATA_STREAMER_SOURCE}
     children:
@@ -467,7 +503,7 @@ children:
       - type: Boolean
         attributes: {id: enabled}
         children:
-        - {type: Value, value: 'true'}
+        - {type: Value, value: 'false'}
   - type: Boolean
     attributes: {id: TOUCH_ENABLE_CH_0}
     children:
@@ -545,6 +581,42 @@ children:
       children:
       - type: User
         attributes: {value: 'true'}
+  - type: File
+    attributes: {id: TOUCH_HOP_AUTO_HEADER}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+  - type: Library
+    attributes: {id: TOUCH_HOP_AUTO_LIB}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+  - type: File
+    attributes: {id: TOUCH_HOP_HEADER}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
+  - type: Library
+    attributes: {id: TOUCH_HOP_LIB}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
   - type: Integer
     attributes: {id: TOUCH_KEY_ENABLE_CNT}
     children:
@@ -566,6 +638,13 @@ children:
       children:
       - type: User
         attributes: {value: 'true'}
+  - type: String
+    attributes: {id: TOUCH_SCRIPT_EVENT}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
   - type: Integer
     attributes: {id: TOUCH_SCROLLER_ENABLE_CNT}
     children:
@@ -606,6 +685,15 @@ children:
       - type: Boolean
         attributes: {id: visible}
         children:
+        - {type: Value, value: 'false'}
+  - type: String
+    attributes: {id: TOUCH_SERCOM_KRONO_INSTANCE}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
         - {type: Value, value: 'true'}
     - type: Values
       children:
@@ -618,10 +706,37 @@ children:
       children:
       - type: Dynamic
         attributes: {id: lib_qtouch, value: RTC}
+  - type: File
+    attributes: {id: TOUCH_TUNE_WITH_PLUGIN_HEADER}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+  - type: File
+    attributes: {id: TOUCH_TUNE_WITH_PLUGIN_SOURCE}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
 - type: Attachments
   children:
   - type: DirectDependency
     attributes: {id: Touch_sercom}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
+  - type: DirectDependency
+    attributes: {id: Touch_sercom_Krono}
     children:
     - type: Attributes
       children:
@@ -650,5 +765,18 @@ children:
         attributes: {id: targetAttachmentID}
         children:
         - {type: Value, value: RTC_TMR}
+  - type: DirectDependency
+    attributes: {id: lib_acquire}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: targetComponentID}
+        children:
+        - {type: Value, value: ptc}
+      - type: String
+        attributes: {id: targetAttachmentID}
+        children:
+        - {type: Value, value: ptc_Acq_Engine}
 - type: ElementPosition
-  attributes: {x: '170', y: '100', id: lib_qtouch}
+  attributes: {x: '402', y: '154', id: lib_qtouch}

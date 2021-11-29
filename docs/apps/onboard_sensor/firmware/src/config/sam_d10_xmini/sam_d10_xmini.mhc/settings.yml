@@ -5,7 +5,7 @@ frameworkPath: ../../..
 processor: ATSAMD10D14AM
 projectName: ''
 settings:
-  PackageFilter: bsp;core;csp;quick_docs;touch;touch_apps;touch_apps_local;touch_freshcopy;touch_rel310;touch_std;usb
+  PackageFilter: bsp;core;csp;quick_docs;touch;touch_apps;usb
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
   CMSISPath: .\dev_packs\arm\CMSIS\5.7.0

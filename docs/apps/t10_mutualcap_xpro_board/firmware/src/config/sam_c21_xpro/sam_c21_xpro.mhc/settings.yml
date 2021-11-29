@@ -1,0 +1,14 @@
+configName: sam_c21_xpro
+folderName: sam_c21_xpro
+format_version: v1.0
+frameworkPath: D:\Harmony\h3_repo
+processor: ATSAMC21J18A
+projectName: sam_c21_xpro
+settings:
+  PackageFilter: bsp;core;core_apps_pic32cm_mc00;csp;csp_apps_pic32cm_mc00;dev_packs;quick_docs;touch;touch_apps
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: .\dev_packs\arm\CMSIS\5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: .\dev_packs\Microchip\SAMC21_DFP\3.5.95\samc21\atdf\ATSAMC21J18A.atdf
