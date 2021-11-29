@@ -20,9 +20,9 @@
 #include <stdbool.h>                    // Defines true
 #include <stdlib.h>                     // Defines EXIT_FAILURE
 #include "definitions.h"                // SYS function prototypes
-#include <string.h>
+//#include <string.h>
 #include "led_driver.h"
-#include "strings.h"
+//#include "strings.h"
 // *****************************************************************************
 // Section: Global Variables
 // *****************************************************************************
