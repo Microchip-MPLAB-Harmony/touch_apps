@@ -3,6 +3,34 @@
 
 #  Microchip MPLAB Harmony 3 Touch Applications Release Notes
 
+## Touch Applications v3.2.0 Release
+
+### Development kit and demo application support
+
+See [readme](readme.md) for detailed list of example applications
+
+### NEW FEATURES
+* [T10 Xplained Pro](https://www.microchip.com/en-us/development-tool/AC47H23A) Mutual Capacitance example projects are added for SAM D21, C21 and L10 devices
+* [Microchip Touch Bridge](https://www.microchip.com/en-us/development-tool/EV96R35A) board's bootloader and application examples are added
+* The existing touch examples migrated to MPLABX Data Visualizer tool support for two-way Touch tuning
+
+### BUGS FIXED
+* None
+
+### DEVELOPMENT TOOLS 
+
+* [MPLAB X IDE v5.50](https://www.microchip.com/mplabx-ide-windows-installer)
+* [MPLAB XC32 C/C++ Compiler v3.01](https://www.microchip.com/mplab/compilers)
+* MPLAB X IDE plug-ins:
+  * MPLAB Harmony Configurator (MHC) v3.8.2 
+
+### REQUIRED MPLAB HARMONY v3.x.x MODULES 
+
+* csp v3.10.0
+* dev_packs v3.10.0
+* mhc v3.8.2
+* touch v3.11.0
+
 ## Touch Applications v3.1.2 Release
 
 ### Development kit and demo application support
