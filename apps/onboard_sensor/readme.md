@@ -17,3 +17,4 @@ The following table provides links to documentation on how to build and run the 
 |[SAME54 Xplained Pro Development Board](docs/readme_sam_e54_xpro.md)|
 |[SAML21 Xplained Pro Development Board](docs/readme_sam_l21_xpro.md)|
 |[SAML22 Xplained Pro Development Board](docs/readme_sam_l22_xpro.md)|
+|[PIC32CM JH01 Curiosity Pro Development Board](docs/readme_pic32cmjh_curiosity_pro.md)|
