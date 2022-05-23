@@ -113,6 +113,8 @@ void NVMCTRL_RegionLock (uint32_t address);
 
 void NVMCTRL_RegionUnlock (uint32_t address);
 
+void NVMCTRL_SecurityBitSet(void);
+
 
 void NVMCTRL_CacheInvalidate ( void );
 

@@ -175,7 +175,7 @@ bool NVMCTRL_RowErase( uint32_t address )
 
 NVMCTRL_ERROR NVMCTRL_ErrorGet( void )
 {
-    volatile uint16_t nvm_error = 0;
+    uint16_t nvm_error = 0;
 
     /* Get the error bits set */
     nvm_error = (NVMCTRL_REGS->NVMCTRL_STATUS & (NVMCTRL_STATUS_NVME_Msk | NVMCTRL_STATUS_LOCKE_Msk | NVMCTRL_STATUS_PROGE_Msk));
@@ -207,4 +207,9 @@ void NVMCTRL_RegionUnlock(uint32_t address)
     NVMCTRL_REGS->NVMCTRL_ADDR = address >> 1U;
 
     NVMCTRL_REGS->NVMCTRL_CTRLA = (uint16_t)(NVMCTRL_CTRLA_CMD_UR_Val | NVMCTRL_CTRLA_CMDEX_KEY);
+}
+
+void NVMCTRL_SecurityBitSet(void)
+{
+    NVMCTRL_REGS->NVMCTRL_CTRLA = (uint16_t)(NVMCTRL_CTRLA_CMD_SSB_Val | NVMCTRL_CTRLA_CMDEX_KEY);
 }

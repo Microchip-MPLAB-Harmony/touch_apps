@@ -362,7 +362,7 @@ bool SERCOM2_I2C_IsBusy(void)
     bool isBusy = true;
     if((sercom2I2CObj.state == SERCOM_I2C_STATE_IDLE))
     {
-        if(((SERCOM2_REGS->I2CM.SERCOM_STATUS & SERCOM_I2CM_STATUS_BUSSTATE_Msk) == SERCOM_I2CM_STATUS_BUSSTATE(0x01UL)))
+        if(((SERCOM2_REGS->I2CM.SERCOM_STATUS & SERCOM_I2CM_STATUS_BUSSTATE_Msk) == SERCOM_I2CM_STATUS_BUSSTATE(0x01U)))
         {
            isBusy = false;
         }
@@ -462,8 +462,8 @@ void SERCOM2_I2C_InterruptHandler(void)
                     /* Write next byte */
                     else
                     {
-                        SERCOM2_REGS->I2CM.SERCOM_DATA = sercom2I2CObj.writeBuffer[sercom2I2CObj.writeCount++];
-
+                        SERCOM2_REGS->I2CM.SERCOM_DATA = sercom2I2CObj.writeBuffer[sercom2I2CObj.writeCount];
+                        sercom2I2CObj.writeCount++;
                         /* Wait for synchronization */
                             while((SERCOM2_REGS->I2CM.SERCOM_SYNCBUSY) != 0U)
                             {
@@ -496,8 +496,8 @@ void SERCOM2_I2C_InterruptHandler(void)
                         }
 
                     /* Read the received data */
-                    sercom2I2CObj.readBuffer[sercom2I2CObj.readCount++] = SERCOM2_REGS->I2CM.SERCOM_DATA;
-
+                    sercom2I2CObj.readBuffer[sercom2I2CObj.readCount] = (uint8_t) SERCOM2_REGS->I2CM.SERCOM_DATA;
+                    sercom2I2CObj.readCount++;
 
                     break;
 
@@ -541,7 +541,7 @@ void SERCOM2_I2C_InterruptHandler(void)
             SERCOM2_REGS->I2CM.SERCOM_INTFLAG = (uint8_t)SERCOM_I2CM_INTFLAG_Msk;
 
             /* Wait for the NAK and STOP bit to be transmitted out and I2C state machine to rest in IDLE state */
-            while((SERCOM2_REGS->I2CM.SERCOM_STATUS & SERCOM_I2CM_STATUS_BUSSTATE_Msk) != SERCOM_I2CM_STATUS_BUSSTATE(0x01UL))
+            while((SERCOM2_REGS->I2CM.SERCOM_STATUS & SERCOM_I2CM_STATUS_BUSSTATE_Msk) != SERCOM_I2CM_STATUS_BUSSTATE(0x01U))
             {
                 /* Do nothing */
             }

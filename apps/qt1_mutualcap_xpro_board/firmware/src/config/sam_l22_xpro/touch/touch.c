@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.11.0 Release
+  Touch Library v3.12.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -17,7 +17,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (c)  2021 released Microchip Technology Inc.  All rights reserved.
+Copyright (c)  2022 released Microchip Technology Inc.  All rights reserved.
 
 Microchip licenses to you the right to use, modify, copy and distribute
 Software only when embedded on a Microchip microcontroller or digital signal
@@ -335,8 +335,6 @@ void touch_process(void)
         }
     }
 
-
-
     #if DEF_TOUCH_TUNE_ENABLE == 1u
     touchTuneProcess();
     #endif
@@ -368,6 +366,12 @@ uintptr_t rtc_context;
 void touch_timer_config(void)
 {  
     RTC_Timer32CallbackRegister(rtc_cb, rtc_context);
+
+    while((RTC_REGS->MODE0.RTC_SYNCBUSY & RTC_MODE0_SYNCBUSY_COUNT_Msk) == RTC_MODE0_SYNCBUSY_COUNT_Msk)
+    /* Wait for Synchronization after writing value to Count Register */
+    RTC_Timer32Stop();
+    RTC_Timer32CounterSet(0u);
+
     RTC_Timer32CompareSet((uint32_t) DEF_TOUCH_MEASUREMENT_PERIOD_MS);
     RTC_Timer32Start();  
 }

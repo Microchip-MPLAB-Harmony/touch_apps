@@ -65,6 +65,11 @@
 #pragma config WDT_EWOFFSET = 0xB
 #pragma config WDT_WEN = CLEAR
 #pragma config BOD33_HYST = CLEAR
+#pragma config IDAU_BOOTPROT = 0x0
+#pragma config BOOTROM_CRCKEY_0 = 0xffffffff
+#pragma config BOOTROM_CRCKEY_1 = 0xffffffff
+#pragma config BOOTROM_CRCKEY_2 = 0xffffffff
+#pragma config BOOTROM_CRCKEY_3 = 0xffffffff
 
 
 
@@ -117,6 +122,7 @@
 
 void SYS_Initialize ( void* data )
 {
+
     NVMCTRL_REGS->NVMCTRL_CTRLB = NVMCTRL_CTRLB_RWS(2);
 
     PM_Initialize();

@@ -55,7 +55,7 @@ extern "C" {
 // DOM-IGNORE-END
 
 /* Frequency of Counter Clock for RTC */
-#define RTC_COUNTER_CLOCK_FREQUENCY        (2048 / (1 << (0x1)))
+#define RTC_COUNTER_CLOCK_FREQUENCY        (2048U / (1U << (0x1U)))
 
 typedef enum
 {

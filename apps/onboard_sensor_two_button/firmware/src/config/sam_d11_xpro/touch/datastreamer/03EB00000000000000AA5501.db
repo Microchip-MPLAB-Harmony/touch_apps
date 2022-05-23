@@ -4,6 +4,7 @@
 
 
 
+
 {
 0,
 'T','o','u','c','h',' ','D','a','t','a',' ','V','i','s','u','a','l','i','z','e','r','\0', //heading
@@ -114,7 +115,6 @@ DB_TYPE_TABLE, // Element Type
 };
 
 
-
 {
 0:0:1, // Dashboard ID
 24, // Element ID
@@ -163,7 +163,6 @@ DB_TYPE_TABLE, // Element Type
 1, // Label Horizontal Alignment
 1, // Data Horizontal Alignment
 };
-
 
 
 {
@@ -543,7 +542,6 @@ DB_TYPE_TABLE, // Element Type
 };
 
 
-
 {
 0:0:3, // Dashboard ID
 38, // Element ID
@@ -592,7 +590,6 @@ DB_TYPE_TABLE, // Element Type
 1, // Label Horizontal Alignment
 1, // Data Horizontal Alignment
 };
-
 
 
 {
@@ -717,6 +714,7 @@ DB_TYPE_TABLE, // Element Type
 1, // Label Horizontal Alignment
 1, // Data Horizontal Alignment
 };
+
 {
 0:0:3, // Dashboard ID
 43, // Element ID
@@ -785,7 +783,6 @@ DB_TYPE_LABEL, // Element Type
 255, 0, 0, 0, // Foreground Color
 '"','C','o','m','p','e','n','s','a','t','i','o','n','"',' ','v','a','l','u','e',' ','c','a','n',' ','b','e',' ','u','s','e','d',' ','t','o',' ','c','h','e','c','k',' ','w','h','e','t','h','e','r',' ','s','e','n','s','o','r',' ','i','s',' ','s','a','t','u','r','a','t','e','d','.',' ','R','e','f','e','r',' ','t','o',' ','U','s','e','r',' ','G','u','i','d','e','\0', // Text
 };
-
 
 {
 0:0:3, // Dashboard ID
@@ -903,7 +900,6 @@ DB_TYPE_LABEL, // Element Type
 255, 0, 0, 0, // Foreground Color
 'D','i','s','p','l','a','y','e','d',' ','f','r','e','q','u','e','n','c','i','e','s',' ','a','r','e',' ','a','u','t','o','-','t','u','n','e','d',' ','b','y',' ','Q','T','o','u','c','h',' ','L','i','b','r','a','r','y',' ','b','a','s','e','d',' ','o','n',' ','n','o','i','s','e',' ','l','e','v','e','l','s','\0', // Text
 };
-
 
 
 {
