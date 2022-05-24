@@ -15,3 +15,4 @@ The following table provides links to documentation on how to build and run the 
 | Development Kit |
 | --- |
 |[SAML10 Xplained Example Development Board](docs/readme_sam_l10_xpro.md) |
+|[ PIC32CM LE Curiosity Pro Example Development Board](docs/readme_pic32cm_LE00_cpro.md) |
