@@ -3,6 +3,36 @@
 
 #  Microchip MPLAB Harmony 3 Touch Applications Release Notes
 
+## Touch Applications v3.3.0 Release
+
+### Development kit and demo application support
+
+See [readme](readme.md) for detailed list of example applications
+
+### NEW FEATURES
+* Karma Onboard Sensor Example Project
+* Lifeguard Example Projects for Onboard Sensor, QT7 and T10 Extension boards.
+* The existing touch examples are regenerated using MCC.
+
+### BUGS FIXED
+* None
+
+### DEVELOPMENT TOOLS 
+
+* [MPLAB® X IDE v6.00](https://www.microchip.com/mplabx-ide-windows-installer)
+* [MPLAB® XC32 C/C++ Compiler v4.00](https://www.microchip.com/mplab/compilers)
+* MPLAB® XIDE plug-ins: 
+    * MPLAB® Code Configurator (MCC)
+      * MCC Plugin v5.1.4
+      * MCC Core v5.4.3 
+
+### REQUIRED MPLAB HARMONY v3.x.x MODULES 
+
+* csp v3.12.0
+* dev_packs v3.12.0
+* mcc v5.1.4
+* touch v3.12.0
+
 ## Touch Applications v3.2.0 Release
 
 ### Development kit and demo application support
