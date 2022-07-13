@@ -1,0 +1,14 @@
+configName: pic32cm_LE00_cpro
+folderName: pic32cm_LE00_cpro
+format_version: v1.0
+frameworkPath: D:\Harmony\h3_repo
+processor: PIC32CM5164LE00100
+projectName: pic32cm_LE00_cpro
+settings:
+  PackageFilter: bsp;core;core_apps_pic32cm_mc00;csp;csp_apps_pic32cm_mc00;dev_packs;quick_docs;touch;touch_apps
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: .\dev_packs\arm\CMSIS\5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: .\dev_packs\Microchip\PIC32CM-LE_DFP\1.0.110\atdf\PIC32CM5164LE00100.atdf

@@ -1,0 +1,322 @@
+C:/Programs/Microchip/MPLABX/v6.00/gnuBins/GnuWin32/bin/make -f nbproject/Makefile-bootloader.mk SUBPROJECTS= .build-conf
+make[1]: Entering directory 'E:/work/harmony/h3_bitbucket/touch_apps/apps/microchip_touch_bridge/bootloader/firmware/bootloader.X'
+C:/Programs/Microchip/MPLABX/v6.00/gnuBins/GnuWin32/bin/make  -f nbproject/Makefile-bootloader.mk dist/bootloader/production/bootloader.X.production.hex
+make[2]: Entering directory 'E:/work/harmony/h3_bitbucket/touch_apps/apps/microchip_touch_bridge/bootloader/firmware/bootloader.X'
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/1555530298/drv_memory_nvmctrl.o.d" -o build/bootloader/production/_ext/1555530298/drv_memory_nvmctrl.o ../src/config/bootloader/driver/memory/src/drv_memory_nvmctrl.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/1555530298/drv_memory.o.d" -o build/bootloader/production/_ext/1555530298/drv_memory.o ../src/config/bootloader/driver/memory/src/drv_memory.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/1720916198/drv_usbfsv1.o.d" -o build/bootloader/production/_ext/1720916198/drv_usbfsv1.o ../src/config/bootloader/driver/usb/usbfsv1/src/drv_usbfsv1.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/1720916198/drv_usbfsv1_device.o.d" -o build/bootloader/production/_ext/1720916198/drv_usbfsv1_device.o ../src/config/bootloader/driver/usb/usbfsv1/src/drv_usbfsv1_device.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/1145748750/plib_clock.o.d" -o build/bootloader/production/_ext/1145748750/plib_clock.o ../src/config/bootloader/peripheral/clock/plib_clock.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/1143599264/plib_evsys.o.d" -o build/bootloader/production/_ext/1143599264/plib_evsys.o ../src/config/bootloader/peripheral/evsys/plib_evsys.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/1625945470/plib_nvic.o.d" -o build/bootloader/production/_ext/1625945470/plib_nvic.o ../src/config/bootloader/peripheral/nvic/plib_nvic.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/95858316/plib_nvmctrl.o.d" -o build/bootloader/production/_ext/95858316/plib_nvmctrl.o ../src/config/bootloader/peripheral/nvmctrl/plib_nvmctrl.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/1625998621/plib_port.o.d" -o build/bootloader/production/_ext/1625998621/plib_port.o ../src/config/bootloader/peripheral/port/plib_port.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/1590369997/plib_sercom0_usart.o.d" -o build/bootloader/production/_ext/1590369997/plib_sercom0_usart.o ../src/config/bootloader/peripheral/sercom/usart/plib_sercom0_usart.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/760693170/xc32_monitor.o.d" -o build/bootloader/production/_ext/760693170/xc32_monitor.o ../src/config/bootloader/stdio/xc32_monitor.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/773207235/sys_console.o.d" -o build/bootloader/production/_ext/773207235/sys_console.o ../src/config/bootloader/system/console/src/sys_console.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/773207235/sys_console_uart.o.d" -o build/bootloader/production/_ext/773207235/sys_console_uart.o ../src/config/bootloader/system/console/src/sys_console_uart.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/72826587/sys_int.o.d" -o build/bootloader/production/_ext/72826587/sys_int.o ../src/config/bootloader/system/int/src/sys_int.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/1670460478/usb_device_msd.o.d" -o build/bootloader/production/_ext/1670460478/usb_device_msd.o ../src/config/bootloader/usb/src/usb_device_msd.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/1670460478/usb_device.o.d" -o build/bootloader/production/_ext/1670460478/usb_device.o ../src/config/bootloader/usb/src/usb_device.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/709920760/initialization.o.d" -o build/bootloader/production/_ext/709920760/initialization.o ../src/config/bootloader/initialization.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/709920760/interrupts.o.d" -o build/bootloader/production/_ext/709920760/interrupts.o ../src/config/bootloader/interrupts.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/709920760/exceptions.o.d" -o build/bootloader/production/_ext/709920760/exceptions.o ../src/config/bootloader/exceptions.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/709920760/startup_xc32.o.d" -o build/bootloader/production/_ext/709920760/startup_xc32.o ../src/config/bootloader/startup_xc32.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/709920760/libc_syscalls.o.d" -o build/bootloader/production/_ext/709920760/libc_syscalls.o ../src/config/bootloader/libc_syscalls.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/709920760/usb_device_init_data.o.d" -o build/bootloader/production/_ext/709920760/usb_device_init_data.o ../src/config/bootloader/usb_device_init_data.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/709920760/diskImage.o.d" -o build/bootloader/production/_ext/709920760/diskImage.o ../src/config/bootloader/diskImage.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/709920760/tasks.o.d" -o build/bootloader/production/_ext/709920760/tasks.o ../src/config/bootloader/tasks.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/1360937237/main.o.d" -o build/bootloader/production/_ext/1360937237/main.o ../src/main.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/1360937237/app.o.d" -o build/bootloader/production/_ext/1360937237/app.o ../src/app.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/1360937237/hex_parser.o.d" -o build/bootloader/production/_ext/1360937237/hex_parser.o ../src/hex_parser.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"    -g -x c -c -mprocessor=ATSAMD21J18A  -ffunction-sections -fdata-sections -O1 -I"../src" -I"../src/config/bootloader" -I"../src/packs/ATSAMD21J18A_DFP" -I"../src/packs/CMSIS/" -I"../src/packs/CMSIS/CMSIS/Core/Include" -Werror -Wall -MP -MMD -MF "build/bootloader/production/_ext/1360937237/fs.o.d" -o build/bootloader/production/_ext/1360937237/fs.o ../src/fs.c    -DXPRJ_bootloader=bootloader      -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a" -I "C:/Programs/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include" 
+"C:\Programs\Microchip\xc32\v4.10\bin\xc32-gcc.exe"   -mprocessor=ATSAMD21J18A -mno-device-startup-code -o dist/bootloader/production/bootloader.X.production.elf build/bootloader/production/_ext/1555530298/drv_memory_nvmctrl.o build/bootloader/production/_ext/1555530298/drv_memory.o build/bootloader/production/_ext/1720916198/drv_usbfsv1.o build/bootloader/production/_ext/1720916198/drv_usbfsv1_device.o build/bootloader/production/_ext/1145748750/plib_clock.o build/bootloader/production/_ext/1143599264/plib_evsys.o build/bootloader/production/_ext/1625945470/plib_nvic.o build/bootloader/production/_ext/95858316/plib_nvmctrl.o build/bootloader/production/_ext/1625998621/plib_port.o build/bootloader/production/_ext/1590369997/plib_sercom0_usart.o build/bootloader/production/_ext/760693170/xc32_monitor.o build/bootloader/production/_ext/773207235/sys_console.o build/bootloader/production/_ext/773207235/sys_console_uart.o build/bootloader/production/_ext/72826587/sys_int.o build/bootloader/production/_ext/1670460478/usb_device_msd.o build/bootloader/production/_ext/1670460478/usb_device.o build/bootloader/production/_ext/709920760/initialization.o build/bootloader/production/_ext/709920760/interrupts.o build/bootloader/production/_ext/709920760/exceptions.o build/bootloader/production/_ext/709920760/startup_xc32.o build/bootloader/production/_ext/709920760/libc_syscalls.o build/bootloader/production/_ext/709920760/usb_device_init_data.o build/bootloader/production/_ext/709920760/diskImage.o build/bootloader/production/_ext/709920760/tasks.o build/bootloader/production/_ext/1360937237/main.o build/bootloader/production/_ext/1360937237/app.o build/bootloader/production/_ext/1360937237/hex_parser.o build/bootloader/production/_ext/1360937237/fs.o          -DXPRJ_bootloader=bootloader      -Wl,--defsym=__MPLAB_BUILD=1,--script="..\src\config\bootloader\ATSAMD21J18A.ld",--defsym=_min_heap_size=1024,--gc-sections,-Map="dist/bootloader/production/bootloader.X.production.map",--report-mem,--memorysummary,dist/bootloader/production/memoryfile.xml -mdfp="C:/Users/i41681/.mchp_packs/Microchip/SAMD21_DFP/3.6.144/samd21a"
+
+Microchip PIC32 Memory-Usage Report
+
+ROM Program-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.vectors                         0           0xb0         176   
+.text                         0xb0           0x20          32  App's exec code 
+.ARM.exidx                    0xd0            0x8           8   
+.text._DRV_USBFSV1_DEVI       0xd8          0x570        1392   
+.text.__fmt_fp               0x648          0x4c0        1216   
+.text.__fmt_a                0xb08          0x4b0        1200   
+.text._USB_DEVICE_MSD_P      0xfb8          0x3e4         996   
+.text.DRV_USBFSV1_DEVIC     0x139c          0x3d8         984   
+.text._USB_DEVICE_MSD_P     0x1774          0x3b4         948   
+.text.__printf_core         0x1b28          0x324         804   
+.text._USB_DEVICE_MSD_T     0x1e4c          0x270         624   
+.dinit                      0x20bc          0x230         560   
+.text.SERCOM0_USART_Int     0x22ec          0x1ec         492   
+.text.__aeabi_dadd          0x24d8          0x1c8         456   
+.text.DRV_MEMORY_Open       0x26a0          0x1b8         440   
+.text._USB_DEVICE_MSD_V     0x2858          0x1a0         416   
+.text._USB_DEVICE_MSD_P     0x29f8          0x194         404   
+.text.DRV_USBFSV1_DEVIC     0x2b8c          0x190         400   
+.text.__aeabi_dmul_aux      0x2d1c          0x18a         394   
+.text.DRV_NVMCTRL_Open      0x2ea6            0x2           2   
+.text.DRV_MEMORY_SetupX     0x2ea8          0x170         368   
+.text.DRV_USBFSV1_DEVIC     0x3018          0x14c         332   
+.text._USB_DEVICE_Proce     0x3164          0x142         322   
+.text.__fmt_x               0x32a6          0x130         304   
+.text.DRV_NVMCTRL_Close     0x33d6            0x2           2   
+.text._USB_DEVICE_MSD_C     0x33d8          0x12c         300   
+.text.DRV_USBFSV1_Initi     0x3504          0x124         292   
+.text.DRV_USBFSV1_DEVIC     0x3628          0x124         292   
+.text.DRV_MEMORY_Tasks      0x374c          0x11c         284   
+.text._USB_DEVICE_Contr     0x3868          0x11c         284   
+.text._USB_DEVICE_Event     0x3984          0x114         276   
+.text._USB_DEVICE_MSD_C     0x3a98          0x108         264   
+.text._USB_DEVICE_MSD_P     0x3ba0          0x100         256   
+.text.USB_DEVICE_Initia     0x3ca0           0xfc         252   
+.text._USB_DEVICE_Proce     0x3d9c           0xfc         252   
+.text.DRV_USBFSV1_DEVIC     0x3e98           0xf8         248   
+.text._USB_DEVICE_Ep0Re     0x3f90           0xf8         248   
+.text.DRV_MEMORY_Handle     0x4088           0xee         238   
+.text.DRV_MEMORY_Regist     0x4176            0x2           2   
+.text.SERCOM0_USART_Wri     0x4178           0xe8         232   
+.text.USB_DEVICE_Tasks      0x4260           0xe8         232   
+.text                       0x4348           0xe2         226  App's exec code 
+.text.DRV_USBFSV1_DEVIC     0x442a            0x2           2   
+.text.main                  0x442c           0xdc         220   
+.text.DRV_USBFSV1_Tasks     0x4508           0xc4         196   
+.text.__aeabi_ddiv          0x45cc           0xc4         196   
+.rodata._USB_DEVICE_MSD     0x4690           0xc0         192   
+.text.DRV_MEMORY_Initia     0x4750           0xb4         180   
+.text.floor                 0x4804           0xb4         180   
+.text.__fmt_d               0x48b8           0xb2         178   
+.text.EVSYS_Initialize      0x496a            0x2           2   
+.text                       0x496c           0xa8         168  App's exec code 
+.text.DRV_MEMORY_Close      0x4a14           0xa4         164   
+.text.DRV_USBFSV1_DEVIC     0x4ab8           0xa4         164   
+.text.__pop_int             0x4b5c           0xa0         160   
+.text.DRV_USBFSV1_DEVIC     0x4bfc           0x9c         156   
+.text.CLOCK_Initialize      0x4c98           0x9c         156   
+.text.SERCOM0_USART_Rea     0x4d34           0x94         148   
+.text._USB_DEVICE_MSD_D     0x4dc8           0x90         144   
+.text.__pic32c_data_ini     0x4e58           0x90         144   
+.text                       0x4ee8           0x8c         140  App's exec code 
+.text._USB_DEVICE_GetSt     0x4f74           0x8a         138   
+.text.Console_UART_Task     0x4ffe            0x2           2   
+.text.DRV_USBFSV1_DEVIC     0x5000           0x88         136   
+.text.SERCOM0_USART_Ini     0x5088           0x88         136   
+.text._USB_DEVICE_Proce     0x5110           0x86         134   
+.text._USB_DEVICE_MSD_C     0x5196            0x2           2   
+.text.PORT_Initialize       0x5198           0x80         128   
+.text.__cvt_u               0x5218           0x7e         126   
+.text._USB_DEVICE_MSD_C     0x5296            0x2           2   
+.text.SYS_CONSOLE_Print     0x5298           0x7c         124   
+.text._USB_DEVICE_Confi     0x5314           0x7c         124   
+.text.DRV_USBFSV1_Tasks     0x5390           0x78         120   
+.text.__pad                 0x5408           0x78         120   
+.text.DRV_MEMORY_Handle     0x5480           0x70         112   
+.text.__fmt_o               0x54f0           0x6e         110   
+.text.Dummy_Handler         0x555e            0x2           2   
+.text.DRV_MEMORY_Driver     0x5560           0x6c         108   
+.text._USB_DEVICE_Ep0Tr     0x55cc           0x68         104   
+.text.SYS_Initialize        0x5634           0x68         104   
+.text.__pop_ptr             0x569c           0x68         104   
+.text.DRV_MEMORY_Handle     0x5704           0x66         102   
+.text._USB_DEVICE_MSD_I     0x576a           0x62          98   
+.text.vsnprintf             0x57cc           0x60          96   
+.text.SYS_CONSOLE_Initi     0x582c           0x5c          92   
+.text.readInputSwitchSt     0x5888           0x5c          92   
+.text.__libc_start_init     0x58e4           0x5c          92   
+.text._USB_DEVICE_MSD_I     0x5940           0x58          88   
+.text.__fmt_u               0x5998           0x56          86   
+.text._USB_DEVICE_Forwa     0x59ee           0x50          80   
+.text.NonMaskableInt_Ha     0x5a3e            0x2           2   
+.text.__fmt_s               0x5a40           0x50          80   
+.text._USB_DEVICE_DeIni     0x5a90           0x4e          78   
+.text._USB_DEVICE_MSD_R     0x5ade           0x4c          76   
+.text._USB_DEVICE_GetFu     0x5b2a           0x4a          74   
+.text.USB_DEVICE_Contro     0x5b74           0x4a          74   
+.text.HardFault_Handler     0x5bbe            0x2           2   
+.text                       0x5bc0           0x48          72  App's exec code 
+.text.Reset_Handler         0x5c08           0x48          72   
+.text.USB_DEVICE_Contro     0x5c50           0x46          70   
+.text.Dummy_App_Func        0x5c96            0x2           2   
+.text.__aeabi_dcmple        0x5c98           0x44          68   
+.text.DRV_MEMORY_Handle     0x5cdc           0x42          66   
+.text.__dummy               0x5d1e            0x2           2   
+.text.NVIC_Initialize       0x5d20           0x40          64   
+.text._USB_DEVICE_FindE     0x5d60           0x40          64   
+.text.atoi                  0x5da0           0x40          64   
+.text.__aeabi_dcmpgt        0x5de0           0x40          64   
+.text.__aeabi_dcmplt        0x5e20           0x40          64   
+.text                       0x5e60           0x40          64  App's exec code 
+.text.SYS_INT_SourceDis     0x5ea0           0x3c          60   
+.text.USB_DEVICE_Open       0x5edc           0x3c          60   
+.text                       0x5f18           0x3c          60  App's exec code 
+.text.Console_UART_Read     0x5f54           0x38          56   
+.text.Console_UART_Writ     0x5f8c           0x38          56   
+.rodata.sd001               0x5fc4           0x34          52   
+.rodata                     0x5ff8           0x34          52  Read-only const 
+.text.APP_Tasks             0x602c           0x34          52   
+.text.__fmt_state           0x6060           0x34          52   
+.text.__aeabi_d2iz          0x6094           0x34          52   
+.text.DRV_USBFSV1_DEVIC     0x60c8           0x32          50   
+.text.Console_UART_Writ     0x60fc           0x30          48   
+.text.Console_UART_Writ     0x612c           0x30          48   
+.text.Console_UART_Read     0x615c           0x30          48   
+.text.Console_UART_Read     0x618c           0x30          48   
+.rodata.sd002               0x61bc           0x30          48   
+.text.callApp               0x61ec           0x30          48   
+.text.__aeabi_dcmpeq        0x621c           0x30          48   
+.text.__aeabi_d2uiz         0x624c           0x30          48   
+.text._DRV_USBFSV1_DEVI     0x627c           0x2c          44   
+.rodata.sysConsoleUARTD     0x62a8           0x2c          44   
+.text._USB_DEVICE_MSD_S     0x62d4           0x2c          44   
+.text._USB_DEVICE_MSD_I     0x6300           0x2c          44   
+.text._USB_DEVICE_Redir     0x632c           0x2c          44   
+.rodata.usbMasterDescri     0x6358           0x2c          44   
+.text._DRV_USBFSV1_DEVI     0x6384           0x2a          42   
+.text.USB_DEVICE_Endpoi     0x63ae           0x2a          42   
+.text.__pop_float           0x63d8           0x2a          42   
+.text.DRV_NVMCTRL_Geome     0x6402           0x28          40   
+.text.DRV_USBFSV1_Open      0x642c           0x28          40   
+.text.NVMCTRL_PageWrite     0x6454           0x28          40   
+.text.SYS_CONSOLE_Tasks     0x647c           0x28          40   
+.rodata._USB_DEVICE_Eve     0x64a4           0x28          40   
+.text.USB_DEVICE_EventH     0x64cc           0x28          40   
+.rodata.drvMemory0InitD     0x64f4           0x28          40   
+.rodata.usbDevInitData      0x651c           0x28          40   
+.text.DRV_USBFSV1_DEVIC     0x6544           0x26          38   
+.text.USB_DEVICE_Detach     0x656a           0x26          38   
+.text.USB_DEVICE_IRPSub     0x6590           0x26          38   
+.text.__string_out          0x65b6           0x26          38   
+.rodata.drvMemory0Devic     0x65dc           0x24          36   
+.rodata.drvUSBInit          0x6600           0x24          36   
+.text.USB_DEVICE_Attach     0x6624           0x22          34   
+.text.USB_DEVICE_Endpoi     0x6646           0x22          34   
+.text.USB_DEVICE_IRPCan     0x6668           0x22          34   
+.text.DRV_USBFSV1_DEVIC     0x668c           0x20          32   
+.rodata._USB_DEVICE_MSD     0x66ac           0x20          32   
+.text.USB_DEVICE_Endpoi     0x66cc           0x20          32   
+.rodata._USB_DEVICE_Pro     0x66ec           0x20          32   
+.rodata.fullSpeedConfig     0x670c           0x20          32   
+.text.SYS_Tasks             0x672c           0x20          32   
+.text.DRV_MEMORY_AsyncE     0x674c           0x1c          28   
+.text.DRV_MEMORY_Geomet     0x6768           0x1c          28   
+.text.SERCOM0_USART_Wri     0x6784           0x1c          28   
+.text.SERCOM0_USART_Rea     0x67a0           0x1c          28   
+.text.USB_DEVICE_Deinit     0x67bc           0x1c          28   
+.text.USB_DEVICE_Endpoi     0x67d8           0x1c          28   
+.text.APP_USBDeviceEven     0x67f4           0x1c          28   
+.rodata                     0x6810           0x1c          28  Read-only const 
+.text.DRV_MEMORY_AsyncR     0x682c           0x1a          26   
+.text._USB_DEVICE_MSD_G     0x6846           0x1a          26   
+.text._USB_DEVICE_MSD_S     0x6860           0x1a          26   
+.text.NVMCTRL_RowErase      0x687c           0x18          24   
+.text.Console_UART_Init     0x6894           0x18          24   
+.text._USB_DEVICE_Clien     0x68ac           0x18          24   
+.rodata.sysConsole0UART     0x68c4           0x18          24   
+.rodata.serialNumberStr     0x68dc           0x18          24   
+.text.readVersionInform     0x68f4           0x18          24   
+.text.vfprintf              0x690c           0x18          24   
+.text                       0x6924           0x48          72  App's exec code 
+.text._USB_DEVICE_MSD_B     0x696c           0x16          22   
+.text.DRV_MEMORY_Transf     0x6982           0x14          20   
+.text.NVIC_INT_Restore      0x6996           0x14          20   
+.text.NVMCTRL_IsBusy        0x69ac           0x14          20   
+.text.SERCOM0_USART_Rea     0x69c0           0x14          20   
+.text.SERCOM0_USART_Wri     0x69d4           0x14          20   
+.text.Console_UART_Stat     0x69e8           0x14          20   
+.rodata.deviceDescripto     0x69fc           0x14          20   
+.text.resetBt               0x6a10           0x14          20   
+.text.DRV_USBFSV1_Close     0x6a24           0x12          18   
+.text.DRV_USBFSV1_DEVIC     0x6a36           0x12          18   
+.text.NVIC_INT_Disable      0x6a48           0x12          18   
+.text.memcpy                0x6a5a           0x12          18   
+.text.stpcpy                0x6a6c           0x12          18   
+.rodata.gMemoryXferFunc     0x6a80           0x10          16   
+.text.DRV_USBFSV1_USB_H     0x6a90           0x10          16   
+.text.DRV_USBFSV1_Clien     0x6aa0           0x10          16   
+.text.DRV_USBFSV1_DEVIC     0x6ab0           0x10          16   
+.text.NVMCTRL_Read          0x6ac0           0x10          16   
+.rodata.funcRegistratio     0x6ad0           0x10          16   
+.rodata.msdInit0            0x6ae0           0x10          16   
+.rodata.stringDescripto     0x6af0           0x10          16   
+.text.memset                0x6b00           0x10          16   
+.text.strlen                0x6b10           0x10          16   
+.rodata                     0x6b20           0x20          32  Read-only const 
+.text.fma                   0x6b40           0x10          16   
+.text.__aeabi_dsub          0x6b50           0x10          16   
+.text.DRV_NVMCTRL_Trans     0x6b60            0xe          14   
+.text.DRV_NVMCTRL_Read      0x6b6e            0xe          14   
+.text.DRV_MEMORY_IsAtta     0x6b7c            0xe          14   
+.text.DRV_USBFSV1_DEVIC     0x6b8a            0xe          14   
+.text.DRV_USBFSV1_DEVIC     0x6b98            0xe          14   
+.text.tolower               0x6ba6            0xe          14   
+.text.toupper               0x6bb4            0xe          14   
+.text.DRV_NVMCTRL_PageW     0x6bc2            0xc          12   
+.text.NVMCTRL_Initializ     0x6bd0            0xc          12   
+.rodata.sysConsole0Init     0x6bdc            0xc          12   
+.text.APP_Initialize        0x6be8            0xc          12   
+.text.strcpy                0x6bf4            0xc          12   
+.text.DRV_NVMCTRL_Secto     0x6c00            0xa          10   
+.text.DRV_MEMORY_EventH     0x6c0a            0x8           8   
+.rodata.gDrvUSBFSV1Devi     0x6c14            0x8           8   
+.text.SERCOM0_USART_Wri     0x6c1c            0x8           8   
+.rodata                     0x6c24            0x7           7  Read-only const 
+.text.DRV_NVMCTRL_Statu     0x6c2c            0x4           4   
+.text.DRV_MEMORY_IsWrit     0x6c30            0x4           4   
+.rodata.gDrvUSBFSV1Devi     0x6c34            0x4           4   
+.text.Console_UART_Flus     0x6c38            0x4           4   
+.rodata.sysConsole0UART     0x6c3c            0x4           4   
+.rodata.fullSpeedConfig     0x6c40            0x4           4   
+.rodata.sd000               0x6c44            0x4           4   
+.text                       0x6c48            0x4           4  App's exec code 
+.btver                      0xffc0            0x8           8   
+.text.SYS_CONSOLE_Write     0xffc8           0x38          56   
+.diskImage                 0x10000         0x8000       32768   
+      Total ROM used  :      0xec7b       60539  23.1% of 0x40000
+        --------------------------------------------------------------------------
+         Total Program Memory used  :      0xec7b       60539  23.1% of 0x40000
+        --------------------------------------------------------------------------
+
+
+RAM Data-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.bss                    0x20000000          0x444        1092  Uninitialized data 
+.bss.consolePrintBuffer 0x20000444          0x400        1024   
+.bss.gDrvMemory0EraseBu 0x20000844          0x100         256   
+.bss.usbDeviceInstance  0x20000944           0xec         236   
+.bss.gDrvMemoryObj      0x20000a30           0x98         152   
+.bss.gUSBDeviceMSDInsta 0x20000ac8           0x8c         140   
+.bss.SERCOM0_USART_Read 0x20000b54           0x80         128   
+.bss.SERCOM0_USART_Writ 0x20000bd4           0x80         128   
+.data.msdMediaInit0     0x20000c54           0x5c          92   
+.data.gDrvUSBFSV1Device 0x20000cb0           0x50          80   
+.bss                    0x20000d00           0x50          80  Uninitialized data 
+.bss.sercom0USARTObj    0x20000d50           0x40          64   
+.bss.gDrvMemory0BufferO 0x20000d90           0x24          36   
+.bss                    0x20000db4           0x1c          28  Uninitialized data 
+.data.msdFunctionDriver 0x20000dd0           0x14          20   
+.bss.gUSBDeviceMSDSense 0x20000de4           0x12          18   
+.bss.consolePrintBuffer 0x20000df6            0x1           1   
+.bss.isConsoleMutexCrea 0x20000df7            0x1           1   
+.bss.gDrvMemory0ClientO 0x20000df8           0x10          16   
+.bss.consoleDeviceInsta 0x20000e08            0xc          12   
+.bss.gConsoleUartData   0x20000e14            0x8           8   
+.bss.swtichToAppDelay   0x20000e1c            0x4           4   
+.bss                    0x20000e20            0xc          12  Uninitialized data 
+         Total RAM used  :       0xe2c        3628  11.1% of 0x8000
+        --------------------------------------------------------------------------
+            Total Data Memory used  :       0xe2c        3628  11.1% of 0x8000
+        --------------------------------------------------------------------------
+
+
+Dynamic Data-Memory Reservation
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+heap                    0x20000e30          0x400        1024  Reserved for heap 
+stack                   0x20001248         0x6da8       28072  Reserved for stack 
+
+        --------------------------------------------------------------------------
+"C:\Programs\Microchip\xc32\v4.10\bin"\\xc32-bin2hex dist/bootloader/production/bootloader.X.production.elf 
+make[2]: Leaving directory 'E:/work/harmony/h3_bitbucket/touch_apps/apps/microchip_touch_bridge/bootloader/firmware/bootloader.X'
+make[1]: Leaving directory 'E:/work/harmony/h3_bitbucket/touch_apps/apps/microchip_touch_bridge/bootloader/firmware/bootloader.X'

@@ -47,8 +47,6 @@
 #include "definitions.h"
 #include "device.h"
 
-#include "fs.h"
-
 
 
 // ****************************************************************************
@@ -91,15 +89,15 @@ static DRV_MEMORY_CLIENT_OBJECT gDrvMemory0ClientObject[DRV_MEMORY_CLIENTS_NUMBE
 static DRV_MEMORY_BUFFER_OBJECT gDrvMemory0BufferObject[DRV_MEMORY_BUFFER_QUEUE_SIZE_IDX0];
 
 const DRV_MEMORY_DEVICE_INTERFACE drvMemory0DeviceAPI = {
-    .Open               = fsOpen,
-    .Close              = fsClose,
-    .Status             = fsStatus,
-    .SectorErase        = fsSectorErase,
-    .Read               = fsRead,
-    .PageWrite          = fsPageWrite,
+    .Open               = DRV_NVMCTRL_Open,
+    .Close              = DRV_NVMCTRL_Close,
+    .Status             = DRV_NVMCTRL_Status,
+    .SectorErase        = DRV_NVMCTRL_SectorErase,
+    .Read               = DRV_NVMCTRL_Read,
+    .PageWrite          = DRV_NVMCTRL_PageWrite,
     .EventHandlerSet    = NULL,
-    .GeometryGet        = (DRV_MEMORY_DEVICE_GEOMETRY_GET)fsGeometryGet,
-    .TransferStatusGet  = (DRV_MEMORY_DEVICE_TRANSFER_STATUS_GET)fsTransferStatusGet
+    .GeometryGet        = (DRV_MEMORY_DEVICE_GEOMETRY_GET)DRV_NVMCTRL_GeometryGet,
+    .TransferStatusGet  = (DRV_MEMORY_DEVICE_TRANSFER_STATUS_GET)DRV_NVMCTRL_TransferStatusGet
 };
 
 const DRV_MEMORY_INIT drvMemory0InitData =
@@ -135,8 +133,8 @@ SYSTEM_OBJECTS sysObj;
  * USB Driver Initialization
  ******************************************************/
  
-    
-    
+
+
 const DRV_USBFSV1_INIT drvUSBInit =
 {
     /* Interrupt Source for USB module */
@@ -226,7 +224,7 @@ const SYS_CONSOLE_INIT sysConsole0Init =
 void SYS_Initialize ( void* data )
 {
 
-    NVMCTRL_REGS->NVMCTRL_CTRLB = NVMCTRL_CTRLB_RWS(3);
+    NVMCTRL_REGS->NVMCTRL_CTRLB = NVMCTRL_CTRLB_RWS(3UL);
 
   
     PORT_Initialize();
@@ -253,7 +251,7 @@ void SYS_Initialize ( void* data )
 	 /* Initialize the USB device layer */
     sysObj.usbDevObject0 = USB_DEVICE_Initialize (USB_DEVICE_INDEX_0 , ( SYS_MODULE_INIT* ) & usbDevInitData);
 	
-
+	
 
 	/* Initialize USB Driver */ 
     sysObj.drvUSBFSV1Object = DRV_USBFSV1_Initialize(DRV_USBFSV1_INDEX_0, (SYS_MODULE_INIT *) &drvUSBInit);	

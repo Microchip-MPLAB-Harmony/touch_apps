@@ -48,7 +48,7 @@
 #include "configuration.h"
 #include "definitions.h"
 #include "usb/src/usb_device_msd_local.h"
-#if 0
+
 const unsigned char 
     __attribute__((keep)) __attribute__((address(DRV_MEMORY_DEVICE_START_ADDRESS)))
     diskImage[32768] = 
@@ -1278,5 +1278,3 @@ const unsigned char
     0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
     
 };
-
-#endif

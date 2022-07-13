@@ -10,8 +10,8 @@
 See [readme](readme.md) for detailed list of example applications
 
 ### NEW FEATURES
-* Karma Onboard Sensor Example Project
-* Lifeguard Example Projects for Onboard Sensor, QT7 and T10 Extension boards.
+* PIC32CM JH Onboard Sensor Example Project
+* PIC32CM LE Example Projects for Onboard Sensor, QT7 and T10 Extension boards.
 * The existing touch examples are regenerated using MCC.
 
 ### BUGS FIXED
@@ -20,7 +20,7 @@ See [readme](readme.md) for detailed list of example applications
 ### DEVELOPMENT TOOLS 
 
 * [MPLAB® X IDE v6.00](https://www.microchip.com/mplabx-ide-windows-installer)
-* [MPLAB® XC32 C/C++ Compiler v4.00](https://www.microchip.com/mplab/compilers)
+* [MPLAB® XC32 C/C++ Compiler v4.10](https://www.microchip.com/mplab/compilers)
 * MPLAB® XIDE plug-ins: 
     * MPLAB® Code Configurator (MCC)
       * MCC Plugin v5.1.4

@@ -48,8 +48,7 @@ The following applications are provided to demonstrate touch applications using 
 | [QT1 Xplained Pro Mutual Capacitance Extension Board](apps/qt1_mutualcap_xpro_board/readme.md) | Examples using the button and scroller operation using mutual capacitance
 | [QT7 Xplained Pro Extension Board](apps/qt7_selfcap_xpro_board/readme.md)| Examples using the QT7 water tolerant and robust touch board
 | [T10 Xplained Pro Extension Board](apps/t10_mutualcap_xpro_board/readme.md) | Examples using the button and scroller operation using mutual capacitance
-| [Onboard Sensors - Single Button Development Boards](apps/onboard_sensor/readme.md) | Examples using single onboard button on the Xplained / xplained mini boards 
-| [Onboard Sensors - Multiple Button Development Boards](apps/onboard_sensor_two_button/readme.md) | Examples using multiple onboard button on the Xplained / xplained mini boards
+| [Onboard Sensors Development Boards](apps/onboard_sensor/readme.md) | Examples using single onboard button on the Xplained / xplained mini boards 
 
 * Please refer to the [Touch Modular Library Userguide](https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en590454) available in the link below for further information.
 

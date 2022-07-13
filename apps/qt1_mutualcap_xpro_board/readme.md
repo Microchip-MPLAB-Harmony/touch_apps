@@ -14,10 +14,10 @@ The following table provides links to documentation on how to build and run the 
 
 | Development Kit |
 | --- |
-| [SAMD21 Xplained Pro Development Board ](docs/readme_sam_d21_xpro.md) |
-| [SAMDA1 Xplained Pro Development Board](docs/readme_sam_da1_xpro.md) |
-| [SAMD20 Xplained Pro Development Board](docs/readme_sam_d20_xpro.md) |
-| [SAMC21 Xplained Pro Development Board](docs/readme_sam_c21_xpro.md) |
-| [SAME54 Xplained Pro Development Board](docs/readme_sam_e54_xpro.md) |
-| [SAML21 Xplained Pro Development Board](docs/readme_sam_l21_xpro.md) |
-| [SAML22 Xplained Pro Development Board](docs/readme_sam_l22_xpro.md) |
+| [SAMD21 Xplained Pro Development Board ](sam_d21_xpro/readme_sam_d21_xpro.md) |
+| [SAMDA1 Xplained Pro Development Board](sam_da1_xpro/readme_sam_da1_xpro.md) |
+| [SAMD20 Xplained Pro Development Board](sam_d20_xpro/readme_sam_d20_xpro.md) |
+| [SAMC21 Xplained Pro Development Board](sam_c21_xpro/readme_sam_c21_xpro.md) |
+| [SAME54 Xplained Pro Development Board](sam_e54_xpro/readme_sam_e54_xpro.md) |
+| [SAML21 Xplained Pro Development Board](sam_l21_xpro/readme_sam_l21_xpro.md) |
+| [SAML22 Xplained Pro Development Board](sam_l22_xpro/readme_sam_l22_xpro.md) |
