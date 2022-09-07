@@ -3,6 +3,35 @@
 
 #  Microchip MPLAB Harmony 3 Touch Applications Release Notes
 
+## Touch Applications v3.4.0 Release
+
+### Development kit and demo application support
+
+See [readme](readme.md) for detailed list of example applications
+
+### NEW FEATURES
+* PIC32CM JH Example Projects for QT7 Extension boards.
+* The existing touch examples are regenerated using MCC.
+
+### BUGS FIXED
+* None
+
+### DEVELOPMENT TOOLS 
+
+* [MPLAB® X IDE v6.00](https://www.microchip.com/mplabx-ide-windows-installer)
+* [MPLAB® XC32 C/C++ Compiler v4.10](https://www.microchip.com/mplab/compilers)
+* MPLAB® XIDE plug-ins: 
+    * MPLAB® Code Configurator (MCC)
+      * MCC Plugin v5.1.9
+      * MCC Core v5.4.4 
+
+### REQUIRED MPLAB HARMONY v3.x.x MODULES 
+
+* csp v3.13.1
+* dev_packs v3.13.0
+* mcc v5.4.4
+* touch v3.12.1
+
 ## Touch Applications v3.3.0 Release
 
 ### Development kit and demo application support

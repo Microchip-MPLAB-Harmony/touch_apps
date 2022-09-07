@@ -1,0 +1,74 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.touch_apps_qt7_selfcap_xpro_board_pic32cm JH01 curiosity pro",
+		"version": "1.0.0",
+		"displayName": "Self Capacitance Example for PIC32CM JH Family",
+		"projectName": "pic32cmjh_curiosity_pro",
+		"shortDescription": "MPLAB Harmony 3 Touch Library is a royalty-free software library for developing touch applications on 32-bit microcontrollers using the Peripheral Touch Controller (PTC). Developers can use it to integrate touch-sensing capability into their applications. This example application shows how to use self capacitance touch.",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.45.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=2.50.0"
+			}
+		],
+		"dfp": {
+			"name": "PIC32CM-JH_DFP",
+			"semverRange": "^1.0.40"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.6.4"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "PIC32CM5164JH01100",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit", "PIC32CM JH01 Curiosity Pro Evaluation Kit"
+			],
+			[
+				"Harmony", "Middleware", "Touch", "SELF_CAPACITANCE"
+			],
+			[
+				"Middleware", "Touch", "SELF_CAPACITANCE"
+			]
+		],
+		"peripherals": [
+			"Touch"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"Middleware",
+			"Touch",
+			"PIC32CM5164JH01100",
+			"PIC32CM JH Family"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../docs/readme_pic32cm_JH01_cpro.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}
