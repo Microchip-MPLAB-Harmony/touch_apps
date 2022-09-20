@@ -17,12 +17,4 @@
 **/*.IAR/*.custom_argvars
 /Gemfile.lock
 /Gemfile
-/apps/qt7_selfcap_xpro_board/firmware/src/config/pic32cm_lx_curiosity_pro/harmony-manifest-failure.yml
-/apps/qt7_selfcap_xpro_board/firmware/src/config/pic32cm_lx_curiosity_pro/touch/qtm_binding_layer_0x0005_api.h
-/apps/qt7_selfcap_xpro_board/firmware/src/config/pic32cm_lx_curiosity_pro/touch/lib/qtm_binding_layer_cm23_0x0005.X.a
-/apps/qt7_selfcap_xpro_board/firmware/src/config/pic32cm_lx_curiosity_pro/touch/lib/qtm_freq_hop_auto_cm0p_0x0004.X.a
-/apps/qt7_selfcap_xpro_board/firmware/src/config/pic32cm_lx_curiosity_pro/touch/lib/qtm_scroller_cm0p_0x000b.X.a
-/apps/qt7_selfcap_xpro_board/firmware/src/config/pic32cm_lx_curiosity_pro/touch/lib/qtm_touch_key_cm0p_0x0002.X.a
-/apps/t10_mutual_xpro_board/firmware/src/config/pic32cm_lx_curiosity_pro/harmony-manifest-success.yml
-/apps/t10_mutual_xpro_board/firmware/src/config/pic32cm_lx_curiosity_pro/harmony-manifest-failure.yml
-/apps/qt7_selfcap_xpro_board/firmware/sam_l10_xpro.X/disassembly
+

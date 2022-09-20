@@ -124,6 +124,7 @@
             <itemPath>../src/packs/ATSAMD21J18A_DFP/component/tcc.h</itemPath>
             <itemPath>../src/packs/ATSAMD21J18A_DFP/component/usb.h</itemPath>
             <itemPath>../src/packs/ATSAMD21J18A_DFP/component/wdt.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/component/fuses.h</itemPath>
           </logicalFolder>
           <logicalFolder displayName="instance" name="f2" projectFiles="true">
             <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/ac.h</itemPath>
@@ -162,6 +163,7 @@
             <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/tcc2.h</itemPath>
             <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/usb.h</itemPath>
             <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/wdt.h</itemPath>
+            <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/fuses.h</itemPath>
           </logicalFolder>
           <logicalFolder displayName="pio" name="f3" projectFiles="true">
             <itemPath>../src/packs/ATSAMD21J18A_DFP/pio/samd21j18a.h</itemPath>
@@ -295,6 +297,7 @@
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/bootloader/harmony-manifest-success.yml</itemPath>
       <itemPath>bootloader.mc3</itemPath>
+      <itemPath>../src/config/bootloader/pin_configurations.csv</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
