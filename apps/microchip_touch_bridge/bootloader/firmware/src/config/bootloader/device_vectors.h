@@ -59,7 +59,7 @@
 typedef void (*pfn_handler_t)(void);
 
 /* Structure defining device vector types */
-typedef struct H3DeviceVectorsTag
+typedef struct _H3DeviceVectors
 {
   /* Stack pointer */
   uint32_t* pvStack;

@@ -1,13 +1,14 @@
-configName: sam_d20_xpro
-folderName: ''
 format_version: v1.0
-frameworkPath: ../../..
+configName: sam_d20_xpro
+folderName: sam_d20_xpro
+frameworkPath: E:\work\harmony\h3_bitbucket
 processor: ATSAMD20J18
-projectName: ''
+projectName: sam_d20_xpro
 settings:
-  PackageFilter: bsp;core;core_apps_pic32cm_mc00;csp;csp_apps_pic32cm_mc00;dev_packs;quick_docs;touch;touch_apps
+  PackageFilter: ''
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
-  CMSISPath: .\dev_packs\arm\CMSIS\5.8.0
+  TRUSTZONE: 'false'
+  CMSISPath: dev_packs\arm\CMSIS\5.8.0
   MERGE_STRATEGY: USER_ALL
-  DFPPath: .\dev_packs\Microchip\SAMD20_DFP\3.4.68\samd20\atdf\ATSAMD20J18.atdf
+  DFPPath: dev_packs\Microchip\SAMD20_DFP\3.6.112\samd20\atdf\ATSAMD20J18.atdf

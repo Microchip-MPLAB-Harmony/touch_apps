@@ -3,10 +3,10 @@
 2,PA01,,Available,,,,,,NORMAL
 3,PA02,,Available,,,,,,NORMAL
 4,PA03,,Available,,,,,,NORMAL
-5,PB04,,PTC_Y10,Digital,High Impedance,n/a,No,No,NORMAL
+5,PB04,,PTC_Y10,Analog,High Impedance,n/a,,,NORMAL
 6,PB05,,Available,,,,,,NORMAL
-9,PB06,,PTC_Y12,Digital,High Impedance,n/a,No,No,NORMAL
-10,PB07,,PTC_Y13,Digital,High Impedance,n/a,No,No,NORMAL
+9,PB06,,PTC_Y12,Analog,High Impedance,n/a,,,NORMAL
+10,PB07,,PTC_Y13,Analog,High Impedance,n/a,,,NORMAL
 11,PB08,,Available,,,,,,NORMAL
 12,PB09,,Available,,,,,,NORMAL
 13,PA04,LED_SLIDER_6,GPIO,Digital,Out,High,,,NORMAL
@@ -15,8 +15,8 @@
 16,PA07,LED_SLIDER_7,GPIO,Digital,Out,High,,,NORMAL
 17,PA08,,Available,,,,,,NORMAL
 18,PA09,,Available,,,,,,NORMAL
-19,PA10,,PTC_X2,Digital,High Impedance,n/a,No,No,NORMAL
-20,PA11,,PTC_X3,Digital,High Impedance,n/a,No,No,NORMAL
+19,PA10,,PTC_X2,Analog,High Impedance,n/a,,,NORMAL
+20,PA11,,PTC_X3,Analog,High Impedance,n/a,,,NORMAL
 23,PB10,,Available,,,,,,NORMAL
 24,PB11,,Available,,,,,,NORMAL
 25,PB12,LED_BUT_0,GPIO,Digital,Out,High,,,NORMAL

@@ -54,7 +54,7 @@
 // ****************************************************************************
 // ****************************************************************************
 #pragma config NVMCTRL_BOOTPROT = SIZE_0BYTES
-#pragma config BODVDDUSERLEVEL = 0x8
+#pragma config BODVDDUSERLEVEL = 0x8U
 #pragma config BODVDD_DIS = ENABLED
 #pragma config BODVDD_ACTION = RESET
 #pragma config WDT_ENABLE = DISABLED
@@ -64,7 +64,7 @@
 #pragma config WDT_EWOFFSET = CYC16384
 #pragma config WDT_WEN = DISABLED
 #pragma config BODVDD_HYST = DISABLED
-#pragma config NVMCTRL_REGION_LOCKS = 0xffff
+#pragma config NVMCTRL_REGION_LOCKS = 0xffffU
 
 
 
@@ -117,8 +117,10 @@
 
 void SYS_Initialize ( void* data )
 {
+    /* MISRAC 2012 deviation block start */
+    /* MISRA C-2012 Rule 2.2 deviated in this file.  Deviation record ID -  H3_MISRAC_2012_R_2_2_DR_1 */
 
-    NVMCTRL_REGS->NVMCTRL_CTRLB = NVMCTRL_CTRLB_RWS(3);
+    NVMCTRL_REGS->NVMCTRL_CTRLB = NVMCTRL_CTRLB_RWS(3U);
 
   
     PORT_Initialize();
@@ -145,6 +147,7 @@ void SYS_Initialize ( void* data )
 
     NVIC_Initialize();
 
+    /* MISRAC 2012 deviation block end */
 }
 
 

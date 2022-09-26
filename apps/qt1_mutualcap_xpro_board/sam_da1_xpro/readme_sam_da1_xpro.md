@@ -16,7 +16,7 @@ To build the application, refer to the following table and open the project usin
 
 | Project Name      | Description                                    |
 | ----------------- | ---------------------------------------------- |
-| qt1_mutualcap_xpro_board/sam_da1_xpro/sam_da1_xpro.X    | MPLABX Project for [SAM DA1 Xplained Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/atsamda1-xpro)|
+| qt1_mutualcap_xpro_board/sam_da1_xpro/sam_da1_xpro_qt1_mutualcap.X    | MPLABX Project for [SAM DA1 Xplained Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/atsamda1-xpro)|
 |||
 
 

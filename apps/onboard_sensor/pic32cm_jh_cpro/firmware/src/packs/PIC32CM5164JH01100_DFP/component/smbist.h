@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2022-01-18T09:31:06Z */
+/* file generated from device description version 2022-05-20T08:40:47Z */
 #ifndef _PIC32CMJH01_SMBIST_COMPONENT_H_
 #define _PIC32CMJH01_SMBIST_COMPONENT_H_
 
@@ -29,35 +29,35 @@
 /* ************************************************************************** */
 
 /* -------- SMBIST_CTRL : (SMBIST Offset: 0x00) (R/W 32) Control -------- */
-#define SMBIST_CTRL_RESETVALUE                _U_(0x00)                                            /**<  (SMBIST_CTRL) Control  Reset Value */
+#define SMBIST_CTRL_RESETVALUE                _UINT32_(0x00)                                       /*  (SMBIST_CTRL) Control  Reset Value */
 
-#define SMBIST_CTRL_SMBISTP1_Pos              _U_(0)                                               /**< (SMBIST_CTRL) SRAM MBIST Partition 1 test start Position */
-#define SMBIST_CTRL_SMBISTP1_Msk              (_U_(0x1) << SMBIST_CTRL_SMBISTP1_Pos)               /**< (SMBIST_CTRL) SRAM MBIST Partition 1 test start Mask */
-#define SMBIST_CTRL_SMBISTP1(value)           (SMBIST_CTRL_SMBISTP1_Msk & ((value) << SMBIST_CTRL_SMBISTP1_Pos))
-#define SMBIST_CTRL_SMBISTP2_Pos              _U_(1)                                               /**< (SMBIST_CTRL) SRAM MBIST Partition 2 test start Position */
-#define SMBIST_CTRL_SMBISTP2_Msk              (_U_(0x1) << SMBIST_CTRL_SMBISTP2_Pos)               /**< (SMBIST_CTRL) SRAM MBIST Partition 2 test start Mask */
-#define SMBIST_CTRL_SMBISTP2(value)           (SMBIST_CTRL_SMBISTP2_Msk & ((value) << SMBIST_CTRL_SMBISTP2_Pos))
-#define SMBIST_CTRL_Msk                       _U_(0x00000003)                                      /**< (SMBIST_CTRL) Register Mask  */
+#define SMBIST_CTRL_SMBISTP1_Pos              _UINT32_(0)                                          /* (SMBIST_CTRL) SRAM MBIST Partition 1 test start Position */
+#define SMBIST_CTRL_SMBISTP1_Msk              (_UINT32_(0x1) << SMBIST_CTRL_SMBISTP1_Pos)          /* (SMBIST_CTRL) SRAM MBIST Partition 1 test start Mask */
+#define SMBIST_CTRL_SMBISTP1(value)           (SMBIST_CTRL_SMBISTP1_Msk & (_UINT32_(value) << SMBIST_CTRL_SMBISTP1_Pos)) /* Assigment of value for SMBISTP1 in the SMBIST_CTRL register */
+#define SMBIST_CTRL_SMBISTP2_Pos              _UINT32_(1)                                          /* (SMBIST_CTRL) SRAM MBIST Partition 2 test start Position */
+#define SMBIST_CTRL_SMBISTP2_Msk              (_UINT32_(0x1) << SMBIST_CTRL_SMBISTP2_Pos)          /* (SMBIST_CTRL) SRAM MBIST Partition 2 test start Mask */
+#define SMBIST_CTRL_SMBISTP2(value)           (SMBIST_CTRL_SMBISTP2_Msk & (_UINT32_(value) << SMBIST_CTRL_SMBISTP2_Pos)) /* Assigment of value for SMBISTP2 in the SMBIST_CTRL register */
+#define SMBIST_CTRL_Msk                       _UINT32_(0x00000003)                                 /* (SMBIST_CTRL) Register Mask  */
 
-#define SMBIST_CTRL_SMBISTP_Pos               _U_(0)                                               /**< (SMBIST_CTRL Position) SRAM MBIST Partition 2 test start */
-#define SMBIST_CTRL_SMBISTP_Msk               (_U_(0x3) << SMBIST_CTRL_SMBISTP_Pos)                /**< (SMBIST_CTRL Mask) SMBISTP */
-#define SMBIST_CTRL_SMBISTP(value)            (SMBIST_CTRL_SMBISTP_Msk & ((value) << SMBIST_CTRL_SMBISTP_Pos)) 
+#define SMBIST_CTRL_SMBISTP_Pos               _UINT32_(0)                                          /* (SMBIST_CTRL Position) SRAM MBIST Partition 2 test start */
+#define SMBIST_CTRL_SMBISTP_Msk               (_UINT32_(0x3) << SMBIST_CTRL_SMBISTP_Pos)           /* (SMBIST_CTRL Mask) SMBISTP */
+#define SMBIST_CTRL_SMBISTP(value)            (SMBIST_CTRL_SMBISTP_Msk & (_UINT32_(value) << SMBIST_CTRL_SMBISTP_Pos)) 
 
 /* -------- SMBIST_STATUS : (SMBIST Offset: 0x04) (R/W 32) Status -------- */
-#define SMBIST_STATUS_RESETVALUE              _U_(0x00)                                            /**<  (SMBIST_STATUS) Status  Reset Value */
+#define SMBIST_STATUS_RESETVALUE              _UINT32_(0x00)                                       /*  (SMBIST_STATUS) Status  Reset Value */
 
-#define SMBIST_STATUS_DONE_Pos                _U_(0)                                               /**< (SMBIST_STATUS) Done Position */
-#define SMBIST_STATUS_DONE_Msk                (_U_(0x1) << SMBIST_STATUS_DONE_Pos)                 /**< (SMBIST_STATUS) Done Mask */
-#define SMBIST_STATUS_DONE(value)             (SMBIST_STATUS_DONE_Msk & ((value) << SMBIST_STATUS_DONE_Pos))
-#define SMBIST_STATUS_FAIL_Pos                _U_(1)                                               /**< (SMBIST_STATUS) Fail Position */
-#define SMBIST_STATUS_FAIL_Msk                (_U_(0x1) << SMBIST_STATUS_FAIL_Pos)                 /**< (SMBIST_STATUS) Fail Mask */
-#define SMBIST_STATUS_FAIL(value)             (SMBIST_STATUS_FAIL_Msk & ((value) << SMBIST_STATUS_FAIL_Pos))
-#define SMBIST_STATUS_Msk                     _U_(0x00000003)                                      /**< (SMBIST_STATUS) Register Mask  */
+#define SMBIST_STATUS_DONE_Pos                _UINT32_(0)                                          /* (SMBIST_STATUS) Done Position */
+#define SMBIST_STATUS_DONE_Msk                (_UINT32_(0x1) << SMBIST_STATUS_DONE_Pos)            /* (SMBIST_STATUS) Done Mask */
+#define SMBIST_STATUS_DONE(value)             (SMBIST_STATUS_DONE_Msk & (_UINT32_(value) << SMBIST_STATUS_DONE_Pos)) /* Assigment of value for DONE in the SMBIST_STATUS register */
+#define SMBIST_STATUS_FAIL_Pos                _UINT32_(1)                                          /* (SMBIST_STATUS) Fail Position */
+#define SMBIST_STATUS_FAIL_Msk                (_UINT32_(0x1) << SMBIST_STATUS_FAIL_Pos)            /* (SMBIST_STATUS) Fail Mask */
+#define SMBIST_STATUS_FAIL(value)             (SMBIST_STATUS_FAIL_Msk & (_UINT32_(value) << SMBIST_STATUS_FAIL_Pos)) /* Assigment of value for FAIL in the SMBIST_STATUS register */
+#define SMBIST_STATUS_Msk                     _UINT32_(0x00000003)                                 /* (SMBIST_STATUS) Register Mask  */
 
 
 /** \brief SMBIST register offsets definitions */
-#define SMBIST_CTRL_REG_OFST           (0x00)              /* (SMBIST_CTRL) Control Offset */
-#define SMBIST_STATUS_REG_OFST         (0x04)              /* (SMBIST_STATUS) Status Offset */
+#define SMBIST_CTRL_REG_OFST           _UINT32_(0x00)      /* (SMBIST_CTRL) Control Offset */
+#define SMBIST_STATUS_REG_OFST         _UINT32_(0x04)      /* (SMBIST_STATUS) Status Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /** \brief SMBIST register API structure */

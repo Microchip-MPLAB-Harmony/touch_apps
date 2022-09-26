@@ -47,7 +47,7 @@
 56,PC16,,Available,,,,,,NORMAL
 57,PC17,,Available,,,,,,NORMAL
 58,PC18,,Available,,,,,,NORMAL
-59,PC19,LED_BUTTON_0,GPIO,Digital,In/Out,High,,,NORMAL
+59,PC19,LED_BUT_0,GPIO,Digital,In/Out,High,,,NORMAL
 60,PC20,,Available,,,,,,NORMAL
 61,PC21,,Available,,,,,,NORMAL
 64,PB16,,Available,,,,,,NORMAL

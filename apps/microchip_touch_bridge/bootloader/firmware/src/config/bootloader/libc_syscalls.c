@@ -33,9 +33,6 @@
 extern "C" {
 #endif
 
-
-/* MISRAC 2012 deviation block start */
-/* MISRA C-2012 Rule 21.2 deviated twice.  Deviation record ID -  H3_MISRAC_2012_R_21_2_DR_1 */
 /* Harmony specific
  * We implement only the syscalls we want over the stubs provided by libpic32c
  */
@@ -57,5 +54,3 @@ void _exit(int status)
 #ifdef __cplusplus
 }
 #endif
-
-/* MISRAC 2012 deviation block end */

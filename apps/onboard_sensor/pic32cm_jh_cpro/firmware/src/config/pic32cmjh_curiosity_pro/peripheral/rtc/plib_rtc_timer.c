@@ -80,7 +80,7 @@ void RTC_Timer32CountSyncEnable ( void )
         /* Wait for Synchronization */
     }
 }
-	
+
 void RTC_Timer32CountSyncDisable ( void )
 {
     RTC_REGS->MODE0.RTC_CTRLA &= (uint16_t)(~RTC_MODE0_CTRLA_COUNTSYNC_Msk);
@@ -90,7 +90,7 @@ void RTC_Timer32CountSyncDisable ( void )
         /* Wait for Synchronization */
     }
 }
-	
+
 void RTC_Timer32Start ( void )
 {
     RTC_REGS->MODE0.RTC_CTRLA |= RTC_MODE0_CTRLA_ENABLE_Msk;

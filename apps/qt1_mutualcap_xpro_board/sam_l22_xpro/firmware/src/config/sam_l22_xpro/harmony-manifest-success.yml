@@ -4,9 +4,9 @@
 
 
 project: sam_l22_xpro
-creation_date: 2022-09-20T14:54:26.901+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2022-09-26T19:00:16.164+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 10
-mhc_mode: Headless            # [IDE|Standalone|Headless]
+mhc_mode: Standalone            # [IDE|Standalone|Headless]
 mhc_version: v3.8.5
 mplabx_version: NA        # if MPLAB X plugin only
 plugin_version: NA        # if MPLAB X plugin only

@@ -4,7 +4,7 @@
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
             <name>sam_da1_xpro</name>
-            <creation-uuid>e54023e9-3948-44ef-bf6f-29d8b223e555</creation-uuid>
+            <creation-uuid>92908ff8-0c19-4998-adcf-c502adf75a4f</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
             <cpp-extensions/>
@@ -12,9 +12,7 @@
             <asminc-extensions/>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
-            <sourceRootList>
-                <sourceRootElem>../src</sourceRootElem>
-            </sourceRootList>
+            <sourceRootList/>
             <confList>
                 <confElem>
                     <name>sam_da1_xpro</name>

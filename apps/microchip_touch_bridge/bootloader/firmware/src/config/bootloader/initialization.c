@@ -47,6 +47,8 @@
 #include "definitions.h"
 #include "device.h"
 
+#include "fs.h"
+
 
 
 // ****************************************************************************
@@ -56,19 +58,19 @@
 // ****************************************************************************
 #pragma config NVMCTRL_BOOTPROT = SIZE_0BYTES
 #pragma config NVMCTRL_EEPROM_SIZE = SIZE_0BYTES
-#pragma config BOD33USERLEVEL = 0x7U // Enter Hexadecimal value
+#pragma config BOD33USERLEVEL = 0x7 // Enter Hexadecimal value
 #pragma config BOD33_EN = ENABLED
 #pragma config BOD33_ACTION = RESET
 
 #pragma config BOD33_HYST = DISABLED
-#pragma config NVMCTRL_REGION_LOCKS = 0xffffU // Enter Hexadecimal value
+#pragma config NVMCTRL_REGION_LOCKS = 0xffff // Enter Hexadecimal value
 
 #pragma config WDT_ENABLE = DISABLED
 #pragma config WDT_ALWAYSON = DISABLED
 #pragma config WDT_PER = CYC16384
 
 #pragma config WDT_WINDOW_0 = SET
-#pragma config WDT_WINDOW_1 = 0x4U // Enter Hexadecimal value
+#pragma config WDT_WINDOW_1 = 0x4 // Enter Hexadecimal value
 #pragma config WDT_EWOFFSET = CYC16384
 #pragma config WDT_WEN = DISABLED
 
@@ -89,15 +91,15 @@ static DRV_MEMORY_CLIENT_OBJECT gDrvMemory0ClientObject[DRV_MEMORY_CLIENTS_NUMBE
 static DRV_MEMORY_BUFFER_OBJECT gDrvMemory0BufferObject[DRV_MEMORY_BUFFER_QUEUE_SIZE_IDX0];
 
 const DRV_MEMORY_DEVICE_INTERFACE drvMemory0DeviceAPI = {
-    .Open               = DRV_NVMCTRL_Open,
-    .Close              = DRV_NVMCTRL_Close,
-    .Status             = DRV_NVMCTRL_Status,
-    .SectorErase        = DRV_NVMCTRL_SectorErase,
-    .Read               = DRV_NVMCTRL_Read,
-    .PageWrite          = DRV_NVMCTRL_PageWrite,
+    .Open               = fsOpen,
+    .Close              = fsClose,
+    .Status             = fsStatus,
+    .SectorErase        = fsSectorErase,
+    .Read               = fsRead,
+    .PageWrite          = fsPageWrite,
     .EventHandlerSet    = NULL,
-    .GeometryGet        = (DRV_MEMORY_DEVICE_GEOMETRY_GET)DRV_NVMCTRL_GeometryGet,
-    .TransferStatusGet  = (DRV_MEMORY_DEVICE_TRANSFER_STATUS_GET)DRV_NVMCTRL_TransferStatusGet
+    .GeometryGet        = (DRV_MEMORY_DEVICE_GEOMETRY_GET)fsGeometryGet,
+    .TransferStatusGet  = (DRV_MEMORY_DEVICE_TRANSFER_STATUS_GET)fsTransferStatusGet
 };
 
 const DRV_MEMORY_INIT drvMemory0InitData =
@@ -133,8 +135,8 @@ SYSTEM_OBJECTS sysObj;
  * USB Driver Initialization
  ******************************************************/
  
-
-
+    
+    
 const DRV_USBFSV1_INIT drvUSBInit =
 {
     /* Interrupt Source for USB module */
@@ -223,10 +225,8 @@ const SYS_CONSOLE_INIT sysConsole0Init =
 
 void SYS_Initialize ( void* data )
 {
-    /* MISRAC 2012 deviation block start */
-    /* MISRA C-2012 Rule 2.2 deviated in this file.  Deviation record ID -  H3_MISRAC_2012_R_2_2_DR_1 */
 
-    NVMCTRL_REGS->NVMCTRL_CTRLB = NVMCTRL_CTRLB_RWS(3UL);
+    NVMCTRL_REGS->NVMCTRL_CTRLB = NVMCTRL_CTRLB_RWS(3);
 
   
     PORT_Initialize();
@@ -238,6 +238,7 @@ void SYS_Initialize ( void* data )
 
     NVMCTRL_Initialize( );
 
+    EVSYS_Initialize();
 
     SERCOM0_USART_Initialize();
 
@@ -252,7 +253,7 @@ void SYS_Initialize ( void* data )
 	 /* Initialize the USB device layer */
     sysObj.usbDevObject0 = USB_DEVICE_Initialize (USB_DEVICE_INDEX_0 , ( SYS_MODULE_INIT* ) & usbDevInitData);
 	
-	
+
 
 	/* Initialize USB Driver */ 
     sysObj.drvUSBFSV1Object = DRV_USBFSV1_Initialize(DRV_USBFSV1_INDEX_0, (SYS_MODULE_INIT *) &drvUSBInit);	
@@ -263,7 +264,6 @@ void SYS_Initialize ( void* data )
 
     NVIC_Initialize();
 
-    /* MISRAC 2012 deviation block end */
 }
 
 

@@ -150,7 +150,6 @@
       </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/sam_d10_xmini/harmony-manifest-success.yml</itemPath>
-      <itemPath>../src/config/sam_d10_xmini/harmony-manifest-failure.yml</itemPath>
       <itemPath>sam_d10_xmini.mc3</itemPath>
       <itemPath>../src/config/sam_d10_xmini/pin_configurations.csv</itemPath>
     </logicalFolder>
@@ -222,7 +221,7 @@
         <targetPluginBoard/>
         <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>v4.10</languageToolchainVersion>
+        <languageToolchainVersion>4.10</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>

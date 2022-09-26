@@ -1,13 +1,14 @@
-configName: sam_da1_xpro
-folderName: ''
 format_version: v1.0
-frameworkPath: ../../..
+configName: sam_da1_xpro
+folderName: sam_da1_xpro
+frameworkPath: E:\work\harmony\h3_bitbucket
 processor: ATSAMDA1J16B
-projectName: ''
+projectName: sam_da1_xpro
 settings:
-  PackageFilter: bsp;core;core_apps_pic32cm_mc00;csp;csp_apps_pic32cm_mc00;dev_packs;quick_docs;touch;touch_apps
+  PackageFilter: ''
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
-  CMSISPath: .\dev_packs\arm\CMSIS\5.8.0
+  TRUSTZONE: 'false'
+  CMSISPath: dev_packs\arm\CMSIS\5.8.0
   MERGE_STRATEGY: USER_ALL
-  DFPPath: .\dev_packs\Microchip\SAMDA1_DFP\2.5.68\atdf\ATSAMDA1J16B.atdf
+  DFPPath: dev_packs\Microchip\SAMDA1_DFP\2.7.82\atdf\ATSAMDA1J16B.atdf

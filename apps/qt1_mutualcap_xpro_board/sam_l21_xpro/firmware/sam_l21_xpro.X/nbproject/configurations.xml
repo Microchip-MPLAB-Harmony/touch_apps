@@ -216,39 +216,9 @@
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="false">
-      <logicalFolder name="f1" displayName="sam_l21_xpro.mhc" projectFiles="true">
-        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/cmsis.yml</itemPath>
-        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/core.yml</itemPath>
-        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/dfp.yml</itemPath>
-        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/evsys.yml</itemPath>
-        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/GraphSettings.yml</itemPath>
-        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/lib_qtouch.yml</itemPath>
-        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/nvmctrl.yml</itemPath>
-        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/pm.yml</itemPath>
-        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/project.yml</itemPath>
-        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/ptc.yml</itemPath>
-        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/rtc.yml</itemPath>
-        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/sercom3.yml</itemPath>
-        <itemPath>../src/config/sam_l21_xpro/sam_l21_xpro.mhc/settings.yml</itemPath>
-      </logicalFolder>
-      <logicalFolder name="f2" displayName="sam_l22_xpro.mhc" projectFiles="true">
-        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/cmsis.yml</itemPath>
-        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/core.yml</itemPath>
-        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/dfp.yml</itemPath>
-        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/evsys.yml</itemPath>
-        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/GraphSettings.yml</itemPath>
-        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/lib_qtouch.yml</itemPath>
-        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/nvmctrl.yml</itemPath>
-        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/pm.yml</itemPath>
-        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/project.yml</itemPath>
-        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/ptc.yml</itemPath>
-        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/rtc.yml</itemPath>
-        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/sercom0.yml</itemPath>
-        <itemPath>../src/config/sam_l22_xpro/sam_l22_xpro.mhc/settings.yml</itemPath>
-      </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>..\src\config\sam_l21_xpro\harmony-manifest-success.yml</itemPath>
-      <itemPath>sam_l21_xpro_qt1_mutualcap.mc3</itemPath>
+      <itemPath>sam_l21_xpro.mc3</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
@@ -268,7 +238,7 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="SAML21_DFP" vendor="Microchip" version="3.5.87"/>
+        <pack name="SAML21_DFP" vendor="Microchip" version="3.6.105"/>
         <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
       </packs>
       <ScriptingSettings>

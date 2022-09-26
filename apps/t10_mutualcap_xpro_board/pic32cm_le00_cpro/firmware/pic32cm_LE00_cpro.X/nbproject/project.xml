@@ -3,8 +3,8 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>pic32cm_LE00_cpro</name>
-            <creation-uuid>e54023e9-3948-44ef-bf6f-29d8b223e555</creation-uuid>
+            <name>pic32cm_le00_cpro</name>
+            <creation-uuid>33423ba2-faca-42da-93e8-eba1ef4ba9e6</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
             <cpp-extensions/>
@@ -17,7 +17,7 @@
             </sourceRootList>
             <confList>
                 <confElem>
-                    <name>pic32cm_LE00_cpro</name>
+                    <name>pic32cm_le00_cpro</name>
                     <type>2</type>
                 </confElem>
             </confList>

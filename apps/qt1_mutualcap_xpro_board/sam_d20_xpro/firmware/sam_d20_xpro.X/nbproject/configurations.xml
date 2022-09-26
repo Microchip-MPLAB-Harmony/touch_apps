@@ -199,7 +199,7 @@
       </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/sam_d20_xpro/harmony-manifest-success.yml</itemPath>
-      <itemPath>sam_d20_xpro_qt1_mutualcap.mc3</itemPath>
+      <itemPath>sam_d20_xpro.mc3</itemPath>
       <itemPath>../src/config/sam_d20_xpro/pin_configurations.csv</itemPath>
     </logicalFolder>
   </logicalFolder>
@@ -216,7 +216,7 @@
         <targetPluginBoard/>
         <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>v4.10</languageToolchainVersion>
+        <languageToolchainVersion>4.10</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>

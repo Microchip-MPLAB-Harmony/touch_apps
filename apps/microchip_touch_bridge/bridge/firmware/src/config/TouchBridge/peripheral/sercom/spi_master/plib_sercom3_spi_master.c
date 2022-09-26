@@ -92,8 +92,8 @@ void SERCOM3_SPI_Initialize(void)
     /* Instantiate the SERCOM3 SPI object */
     sercom3SPIObj.callback = NULL ;
     sercom3SPIObj.transferIsBusy = false ;
-    sercom3SPIObj.txSize = 0U;
-    sercom3SPIObj.rxSize = 0U;
+	sercom3SPIObj.txSize = 0U;
+	sercom3SPIObj.rxSize = 0U;
 
     /* Selection of the Character Size and Receiver Enable */
     SERCOM3_REGS->SPIM.SERCOM_CTRLB = SERCOM_SPIM_CTRLB_CHSIZE_8_BIT | SERCOM_SPIM_CTRLB_RXEN_Msk ;
@@ -172,25 +172,19 @@ bool SERCOM3_SPI_TransferSetup(SPI_TRANSFER_SETUP *setup, uint32_t spiSourceCloc
 
     if(setup != NULL)
     {
-        if (setup->clockFrequency <= spiSourceClock/2U)
+        baudValue = (spiSourceClock/(2U*(setup->clockFrequency))) - 1U;
+
+        if((baudValue > 0U) && (baudValue <= 255U))
         {
-            baudValue = (spiSourceClock/(2U*(setup->clockFrequency))) - 1U;
-
-            /* Set the lowest possible baud */
-            if (baudValue >= 255U)
-            {
-                baudValue = 255U;
-            }
-
             /* Selection of the Clock Polarity and Clock Phase */
-            SERCOM3_REGS->SPIM.SERCOM_CTRLA &= ~(SERCOM_SPIM_CTRLA_CPOL_Msk | SERCOM_SPIM_CTRLA_CPHA_Msk);
+			SERCOM3_REGS->SPIM.SERCOM_CTRLA &= ~(SERCOM_SPIM_CTRLA_CPOL_Msk | SERCOM_SPIM_CTRLA_CPHA_Msk);
             SERCOM3_REGS->SPIM.SERCOM_CTRLA |= (uint32_t)setup->clockPolarity | (uint32_t)setup->clockPhase;
 
             /* Selection of the Baud Value */
             SERCOM3_REGS->SPIM.SERCOM_BAUD = (uint8_t)baudValue;
 
             /* Selection of the Character Size */
-            SERCOM3_REGS->SPIM.SERCOM_CTRLB &= ~SERCOM_SPIM_CTRLB_CHSIZE_Msk;
+			SERCOM3_REGS->SPIM.SERCOM_CTRLB &= ~SERCOM_SPIM_CTRLB_CHSIZE_Msk;
             SERCOM3_REGS->SPIM.SERCOM_CTRLB |= (uint32_t)setup->dataBits;
 
             /* Wait for synchronization */
@@ -269,22 +263,17 @@ void SERCOM3_SPI_CallbackRegister(SERCOM_SPI_CALLBACK callBack, uintptr_t contex
 bool SERCOM3_SPI_IsBusy(void)
 {
     bool isBusy = false;
-    if ((sercom3SPIObj.txSize == 0U) && (sercom3SPIObj.rxSize == 0U))
-    {
-        /* This means no transfer has been requested yet; hence SPI is not busy. */
-        isBusy = false;
-    }
-    else
-    {
+	if ((sercom3SPIObj.txSize == 0U) && (sercom3SPIObj.rxSize == 0U))
+	{
+		/* This means no transfer has been requested yet; hence SPI is not busy. */
+		isBusy = false;
+	}
+	else
+	{
         /* if transmit is not complete or if the state flag is not set, SPI is busy */
         isBusy = (((SERCOM3_REGS->SPIM.SERCOM_INTFLAG & SERCOM_SPIM_INTFLAG_TXC_Msk) == 0U) || sercom3SPIObj.transferIsBusy);
-    }
+	}
     return isBusy;
-}
-
-bool SERCOM3_SPI_IsTransmitterBusy(void)
-{
-    return ((SERCOM3_REGS->SPIM.SERCOM_INTFLAG & SERCOM_SPIM_INTFLAG_TXC_Msk) == 0U)? true : false;
 }
 
 // *****************************************************************************
@@ -374,7 +363,7 @@ bool SERCOM3_SPI_WriteRead (void* pTransmitData, size_t txSize, void* pReceiveDa
             (void)dummyData;
         }
 
-        SERCOM3_REGS->SPIM.SERCOM_STATUS |= SERCOM_SPIM_STATUS_BUFOVF_Msk;
+        SERCOM3_REGS->SPIM.SERCOM_STATUS |= (uint16_t)SERCOM_SPIM_STATUS_BUFOVF_Msk;
 
         SERCOM3_REGS->SPIM.SERCOM_INTFLAG |= (uint8_t)SERCOM_SPIM_INTFLAG_ERROR_Msk;
 
@@ -400,7 +389,7 @@ bool SERCOM3_SPI_WriteRead (void* pTransmitData, size_t txSize, void* pReceiveDa
             }
             else
             {
-                /* Do nothing */
+                /* Do nothing */    
             }
         }
         else
@@ -485,13 +474,11 @@ void SERCOM3_SPI_InterruptHandler(void)
             {
                 if(dataBits == (uint32_t)SPI_DATA_BITS_8)
                 {
-                    ((uint8_t*)sercom3SPIObj.rxBuffer)[sercom3SPIObj.rxCount] = (uint8_t)receivedData;
-                    sercom3SPIObj.rxCount++;
+                    ((uint8_t*)sercom3SPIObj.rxBuffer)[sercom3SPIObj.rxCount++] = (uint8_t)receivedData;
                 }
                 else
                 {
-                    ((uint16_t*)sercom3SPIObj.rxBuffer)[sercom3SPIObj.rxCount] = (uint16_t)receivedData;
-                    sercom3SPIObj.rxCount++;
+                    ((uint16_t*)sercom3SPIObj.rxBuffer)[sercom3SPIObj.rxCount++] = (uint16_t)receivedData;
                 }
             }
         }
@@ -507,8 +494,7 @@ void SERCOM3_SPI_InterruptHandler(void)
             {
                 if(sercom3SPIObj.txCount < sercom3SPIObj.txSize)
                 {
-                    SERCOM3_REGS->SPIM.SERCOM_DATA = ((uint8_t*)sercom3SPIObj.txBuffer)[sercom3SPIObj.txCount];
-                    sercom3SPIObj.txCount++;
+                    SERCOM3_REGS->SPIM.SERCOM_DATA = ((uint8_t*)sercom3SPIObj.txBuffer)[sercom3SPIObj.txCount++];
                 }
                 else if(sercom3SPIObj.dummySize > 0U)
                 {
@@ -525,8 +511,7 @@ void SERCOM3_SPI_InterruptHandler(void)
             {
                 if(sercom3SPIObj.txCount < sercom3SPIObj.txSize)
                 {
-                    SERCOM3_REGS->SPIM.SERCOM_DATA = ((uint16_t*)sercom3SPIObj.txBuffer)[sercom3SPIObj.txCount];
-                    sercom3SPIObj.txCount++;
+                    SERCOM3_REGS->SPIM.SERCOM_DATA = ((uint16_t*)sercom3SPIObj.txBuffer)[sercom3SPIObj.txCount++];
                 }
                 else if(sercom3SPIObj.dummySize > 0U)
                 {

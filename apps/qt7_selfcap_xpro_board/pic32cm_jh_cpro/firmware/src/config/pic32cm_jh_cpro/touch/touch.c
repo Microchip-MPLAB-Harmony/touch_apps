@@ -363,6 +363,9 @@ void touch_timer_config(void)
     RTC_Timer32CallbackRegister(rtc_cb, rtc_context);
 
     while((RTC_REGS->MODE0.RTC_SYNCBUSY & RTC_MODE0_SYNCBUSY_COUNT_Msk) == RTC_MODE0_SYNCBUSY_COUNT_Msk)
+    {
+        
+    }
     /* Wait for Synchronization after writing value to Count Register */
     RTC_Timer32Stop();
     RTC_Timer32CounterSet(0u);

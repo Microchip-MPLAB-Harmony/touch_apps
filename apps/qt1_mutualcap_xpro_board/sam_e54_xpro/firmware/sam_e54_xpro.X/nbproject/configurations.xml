@@ -247,20 +247,6 @@
       <itemPath>../src/main.c</itemPath>
     </logicalFolder>
     <logicalFolder displayName="Important Files" name="ExternalFiles" projectFiles="true">
-      <logicalFolder displayName="sam_da1_xpro.mhc" name="f1" projectFiles="true">
-        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/cmsis.yml</itemPath>
-        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/core.yml</itemPath>
-        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/dfp.yml</itemPath>
-        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/evsys.yml</itemPath>
-        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/GraphSettings.yml</itemPath>
-        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/lib_qtouch.yml</itemPath>
-        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/nvmctrl.yml</itemPath>
-        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/project.yml</itemPath>
-        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/ptc.yml</itemPath>
-        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/rtc.yml</itemPath>
-        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/sercom3.yml</itemPath>
-        <itemPath>../src/config/sam_da1_xpro/sam_da1_xpro.mhc/settings.yml</itemPath>
-      </logicalFolder>
       <logicalFolder displayName="sam_e54_xpro.mhc" name="f2" projectFiles="true">
         <itemPath>../src/config/sam_e54_xpro/sam_e54_xpro.mhc/adc0.yml</itemPath>
         <itemPath>../src/config/sam_e54_xpro/sam_e54_xpro.mhc/cmsis.yml</itemPath>
@@ -278,7 +264,7 @@
       </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/sam_e54_xpro/harmony-manifest-success.yml</itemPath>
-      <itemPath>sam_e54_xpro_qt1_mutualcap.mc3</itemPath>
+      <itemPath>sam_e54_xpro.mc3</itemPath>
       <itemPath>../src/config/sam_e54_xpro/pin_configurations.csv</itemPath>
     </logicalFolder>
   </logicalFolder>
@@ -295,7 +281,7 @@
         <targetPluginBoard/>
         <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>v4.10</languageToolchainVersion>
+        <languageToolchainVersion>4.10</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
@@ -307,16 +293,8 @@
       <compileType>
         <linkerTool>
           <linkerLibItems>
-            
-            
-            
-            
             <linkerLibFileItem>../src/config/sam_e54_xpro/touch/lib/qtm_freq_hop_auto_cm4_0x0004.X.a</linkerLibFileItem>
-          
-            
-            
-            
-          <linkerLibFileItem>../src/config/sam_e54_xpro/touch/lib/qtm_acq_same54_0x000f.X.a</linkerLibFileItem>
+            <linkerLibFileItem>../src/config/sam_e54_xpro/touch/lib/qtm_acq_same54_0x000f.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/sam_e54_xpro/touch/lib/qtm_touch_key_cm4_0x0002.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/sam_e54_xpro/touch/lib/qtm_scroller_cm4_0x000b.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/sam_e54_xpro/touch/lib/qtm_freq_hop_cm4_0x0006.X.a</linkerLibFileItem>
