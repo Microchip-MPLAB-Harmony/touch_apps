@@ -2366,9 +2366,6 @@
           &lt;String dnOrder=&quot;1&quot; id=&quot;targetAttachmentID&quot;&gt;
             &lt;Value dnOrder=&quot;0&quot;&gt;SERCOM3_UART&lt;/Value&gt;
           &lt;/String&gt;
-          &lt;Boolean dnOrder=&quot;2&quot; id=&quot;enabled&quot;&gt;
-            &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
-          &lt;/Boolean&gt;
         &lt;/Attributes&gt;
       &lt;/DirectDependency&gt;
       &lt;DirectDependency dnOrder=&quot;1&quot; id=&quot;Touch_timer&quot;&gt;
@@ -4371,7 +4368,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_cpro\definitions.h</file>
-         <hash>3fd3a3da729253b4fc1830e8d05a9f4fc109131b63ffed842aa4d6b77dbc50ed</hash>
+         <hash>5fc4f114279b184e32de9f12d93b98279917908daf9cfcc0f3e8d091d88e9806</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\port.h</file>
