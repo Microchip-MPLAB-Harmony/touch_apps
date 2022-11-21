@@ -1,0 +1,14 @@
+format_version: v1.0
+configName: pic32czca_curiosity_qt7
+folderName: pic32czca_curiosity_qt7
+frameworkPath: C:\Users\i41646\.mcc\libraries\HarmonyContent
+processor: PIC32CZ8110CA90208
+projectName: pic32czca_curiosity_qt7
+settings:
+  PackageFilter: ''
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: dev_packs\arm\CMSIS\5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: dev_packs\Microchip\PIC32CZ-CA90_DFP\1.0.14\CA90\atdf\PIC32CZ8110CA90208.atdf
