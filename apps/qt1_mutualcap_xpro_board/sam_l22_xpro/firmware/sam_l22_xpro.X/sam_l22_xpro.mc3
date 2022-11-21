@@ -1,4 +1,4 @@
-<config configName="sam_l22_xpro" projectName="sam_l22_xpro" configVersion="1.1" device="ATSAML22N18A" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.4">
+<config configName="sam_l22_xpro" projectName="sam_l22_xpro" configVersion="1.1" device="ATSAML22N18A" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.14">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -54,8 +54,7 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;GraphSettings canvasHeight=&quot;431&quot; canvasWidth=&quot;990&quot; dnOrder=&quot;0&quot;/&gt;
-    &lt;ComponentGraph dnOrder=&quot;1&quot; id=&quot;__ROOTVIEW&quot;&gt;
+    &lt;ComponentGraph dnOrder=&quot;0&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;cmsis&quot; x=&quot;880&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;core&quot; x=&quot;720&quot; y=&quot;20&quot;/&gt;
@@ -69,6 +68,7 @@
         &lt;ElementPosition dnOrder=&quot;9&quot; id=&quot;sercom0&quot; x=&quot;289&quot; y=&quot;182&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
+    &lt;GraphSettings canvasHeight=&quot;431&quot; canvasWidth=&quot;990&quot; dnOrder=&quot;1&quot;/&gt;
   &lt;/UserData&gt;
 &lt;/UserData&gt;
 </value>
@@ -5174,7 +5174,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\touch\touch_api_ptc.h</file>
-         <hash>9e4f802b2cbbe5c7289a36a4ee8ab401a1d3d8f01a41127f4ff814387240f5a3</hash>
+         <hash>3af9b288ddaea9312e47f5c0b57218fa60149d3e82ad9c495a896ec97a6f6067</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML22N18A_DFP\instance\tc3.h</file>
@@ -5182,7 +5182,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\touch\touchTune.h</file>
-         <hash>9c85cf2a47631d1f84953e31b36ee7c4bdee438f889bbbf2cab5c37c375167dc</hash>
+         <hash>31ab281dc2b1c84190451fb4aebd5b446a425be3a4b73fbabf81c855d1e86454</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML22N18A_DFP\instance\dmac.h</file>
@@ -5190,7 +5190,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\touch\touchTune.c</file>
-         <hash>1aabaeb2123d1fbbd31413617c3ea6ebe4adf849814e1227bf063496824fc531</hash>
+         <hash>35f0cd458bb62eca6a4e20d283e0c38467257e7941f8d46a9d2735c28980a0df</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML22N18A_DFP\instance\nvmctrl.h</file>
@@ -5214,11 +5214,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\touch\touch.c</file>
-         <hash>6b41641c31c07db0e16e1ae8b84ecb6629a525ef41e65d02eb6798be7bd8333f</hash>
+         <hash>7ed9a6b3cdb72a7701e539aefb8868ba49ec55d5525b57f06d51085a5d3e142e</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\touch\touch.h</file>
-         <hash>921823f217389601021dcf725359062e5cbb59f49f7a6712f4985c79773be774</hash>
+         <hash>90d2e7afa6551cf9b2df3c8bab570b55f38be42384294ccf26162cf269786e09</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML22N18A_DFP\component\osc32kctrl.h</file>
@@ -5250,7 +5250,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\definitions.h</file>
-         <hash>29ed4514de1bce186fa47a05b9bb5a166a54441458fe1c15b86d424bec1d540e</hash>
+         <hash>80d1df52ca879030f5f8ca873cc48d1caf6d1b1a039e4b1772760ff45fa05fda</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML22N18A_DFP\instance\ccl.h</file>
@@ -5274,7 +5274,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\touch\touch_example.c</file>
-         <hash>018c5d9efe9864cae8bcf444ba2d56c6dc86b003853eb1951b277940811a3539</hash>
+         <hash>4ff63841e0c932a81a98259ee4dffcae3a3fc4b3b6562e8b274f0307dab1f966</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML22N18A_DFP\instance\tc2.h</file>
@@ -5302,7 +5302,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\touch\touch_example.h</file>
-         <hash>a73b2d1a09dde6d3a6e20d72d12382d4e8552e3a378ff9fc217ad578f18b13f4</hash>
+         <hash>e58c89edcd9cad6ac791bfeab116b67e57dd54baf9e7d26f90afa1c5083e874f</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h</file>
@@ -5502,7 +5502,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l22_xpro\initialization.c</file>
-         <hash>28ed5f7f648dd076525e8b32a339134744c2e35414e4237017bfd1af01d5eeed</hash>
+         <hash>836e15e27903735ec897ed8fc5085e90244abc10c785c78016b74417cfe75251</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML22N18A_DFP\component\port.h</file>

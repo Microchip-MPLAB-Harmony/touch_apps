@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.12.1 Release
+  Touch Library v3.13.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -50,7 +50,6 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 /*----------------------------------------------------------------------------
  *   prototypes
  *----------------------------------------------------------------------------*/
-
 /*! \brief configure keys, wheels and sliders.
  */
 static touch_ret_t touch_sensors_config(void);
@@ -194,7 +193,6 @@ static touch_ret_t touch_sensors_config(void)
         qtm_calibrate_sensor_node(&qtlib_acq_set1, sensor_nodes);
     }
 
-
     /* Enable sensor keys and assign nodes */
     for (sensor_nodes = 0u; sensor_nodes < DEF_NUM_SENSORS; sensor_nodes++) {
 			qtm_init_sensor_key(&qtlib_key_set1, sensor_nodes, &ptc_qtlib_node_stat1[sensor_nodes]);
@@ -242,7 +240,6 @@ static void qtm_error_callback(uint8_t error)
 	module_error_code = error + 1u;
 
 }
-
 /*============================================================================
 void touch_init(void)
 ------------------------------------------------------------------------------
@@ -329,7 +326,6 @@ void touch_process(void)
             measurement_done_touch =1u;
         }
     }
-
     #if DEF_TOUCH_TUNE_ENABLE == 1u
     touchTuneProcess();
     #endif

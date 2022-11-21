@@ -1,4 +1,4 @@
-<config configName="pic32cmjh_curiosity_pro" projectName="pic32cmjh_curiosity_pro" configVersion="1.1" device="PIC32CM5164JH01100" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
+<config configName="pic32cmjh_curiosity_pro" projectName="pic32cmjh_curiosity_pro" configVersion="1.1" device="PIC32CM5164JH01100" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.14">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -50,8 +50,7 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;GraphSettings canvasHeight=&quot;290&quot; canvasWidth=&quot;535&quot; dnOrder=&quot;0&quot;/&gt;
-    &lt;ComponentGraph dnOrder=&quot;1&quot; id=&quot;__ROOTVIEW&quot;&gt;
+    &lt;ComponentGraph dnOrder=&quot;0&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;cmsis&quot; x=&quot;170&quot; y=&quot;80&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;core&quot; x=&quot;330&quot; y=&quot;60&quot;/&gt;
@@ -64,6 +63,7 @@
         &lt;ElementPosition dnOrder=&quot;8&quot; id=&quot;sercom4&quot; x=&quot;444&quot; y=&quot;67&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
+    &lt;GraphSettings canvasHeight=&quot;290&quot; canvasWidth=&quot;535&quot; dnOrder=&quot;1&quot;/&gt;
   &lt;/UserData&gt;
 &lt;/UserData&gt;
 </value>
@@ -1791,9 +1791,6 @@
           &lt;String dnOrder=&quot;1&quot; id=&quot;targetAttachmentID&quot;&gt;
             &lt;Value dnOrder=&quot;0&quot;&gt;SERCOM4_UART&lt;/Value&gt;
           &lt;/String&gt;
-          &lt;Boolean dnOrder=&quot;2&quot; id=&quot;enabled&quot;&gt;
-            &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
-          &lt;/Boolean&gt;
         &lt;/Attributes&gt;
       &lt;/DirectDependency&gt;
       &lt;DirectDependency dnOrder=&quot;1&quot; id=&quot;Touch_timer&quot;&gt;
@@ -2457,7 +2454,7 @@
    <generatedFileHashHistoryMap class="java.util.HashMap">
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\tc7.h</file>
-         <hash>4bc00f6a14e3205da1482828c86ee2990db21254da3bccbf9aa2199cf26834f3</hash>
+         <hash>7f3f8d6b14c5535115bc96179f0c89491fcdcdec6897ab9d82d729c5c8bf38f6</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h</file>
@@ -2465,7 +2462,7 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\tc3.h</file>
-         <hash>6b42b3ccebff74a1e730abed995524c55008ee00d7cd2dd1bf4e6414fe478084</hash>
+         <hash>ad73d1c3d00ec08ec289b79b19ba91328caab3f0d3d0f47e0551fbe09124ebfc</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_gcc.h</file>
@@ -2473,23 +2470,23 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\divas.h</file>
-         <hash>5d679bfdfd6e81f65eb097bced1640dcfb7c3f3685f56a0a68cb14ff2095e7e9</hash>
+         <hash>6e8e075ae2ab756165cc1e0fbfcfac45f2422adfe721d7bc5da055b5d31c414a</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\smbist.h</file>
-         <hash>2855605f396b275a0c1515732b12bd655097ff9769bb57fb23464c2fa39494c8</hash>
+         <hash>8444f0b8f161a180b84e46aaee4aaef491aa47135c0270fce554e57dde8bbb74</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\touch\touch_api_ptc.h</file>
-         <hash>a19484cf96b30eb4015dff295510e956aec22abd88450a6a5c8a8923f5d7f8de</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\gclk.h</file>
-         <hash>c0ef32cce53034b03f00c1a63bfdba9bd5549be7ef423926ac02cd934c5dc237</hash>
+         <hash>bfc46981efaee022af5187e29746e0a62a5355517fcb2fa64293685d0f41ecd0</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\initialization.c</file>
-         <hash>fd904446aacb3fb731a9f5cf340c8408c3571485d2a3796ecf3c930ae118b391</hash>
+         <hash>bb94537fd6bb59cdb2dfe476fdd736e37028f5729152baabd3238e43b246f8b2</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\gclk.h</file>
+         <hash>410b537ac255fb88cbafc8b06c07009213a5497369f51c8a9321436a572cdf79</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\touch\lib\qtm_touch_key_cm0p_0x0002.X.a</file>
@@ -2497,11 +2494,11 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\adc1.h</file>
-         <hash>37c743c49dbc32d8128536712f49bac933ae6efe98c88a922398d92ed597197d</hash>
+         <hash>6ca7a517f68d24e427abdaef9a21467e45c9515060e0d2f48b80ef6ec9f9fb81</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\PIC32CM5164JH01100.ld</file>
-         <hash>08a0021861ebcd1a1adc7e3ebdbe48c39052ba9b738266f9a800e1f407aff5f9</hash>
+         <hash>eb6e3c4dd2c65f5aa86fba7b5119b24ef5413881a79adb2484b8d1e69eb1f635</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\libc_syscalls.c</file>
@@ -2509,19 +2506,19 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\dac.h</file>
-         <hash>b9916516ca63b23c58ba0e8b9f88dc38e783b2ce36f3657b4eb8c8f9f1c4d3eb</hash>
+         <hash>fb34e381375e65daa87d872ff2727bbaaf25250d2e958e263da8046cebdf42fb</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\ccl.h</file>
-         <hash>d4632c9ec576f780865e41137e843b3a9884dcd0eaf21734911f608fb3390c31</hash>
+         <hash>de2bc7bb7292ed8b1b029db7647e7d92d8869b4f7897b1e050507c674595938a</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\fuses.h</file>
-         <hash>4ebdfb0d541efc10216c724264d3eda46d9ff79516606956432ceda39b77e974</hash>
+         <hash>a567a55a69732d17ae7e4e6f29ade9993dac3b98b18617af7322a46fd23b9944</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\port.h</file>
-         <hash>499864ebb74d87e20cff553f9eca9089e538b721393bbbbe05b319c9b2f67638</hash>
+         <hash>175351956be58fa9e6b8318957144a5a5950423d7402116573c804bcb3b7c239</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\core_cm0plus.h</file>
@@ -2529,31 +2526,31 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\fuses.h</file>
-         <hash>ef922c09c2adf15248f6853c6d740beda0ae373e1db303a80489bd65e40c5034</hash>
+         <hash>f1e8dc721592e9bdc4d1c34d72aa7ea276e192cdc122664bbb11a0b0e89b0976</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\adc0.h</file>
-         <hash>ccdc06f991e52bc5e10912b70793e750abe5e6e529eeba2198f3e7a37f215c86</hash>
+         <hash>2421cbac920e8cd14816ced1b9ef3e7ff5c21dc2adba4f133d1989963925db92</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\touch\touchTune.c</file>
-         <hash>a6fea2d2f0a28c33b5e6e90e867ad07f27fc1b2cb03d6086996fb8e8e1eea56f</hash>
+         <hash>42e55340b31d701d93604ba1f809005c4240833a5f1cb4274cd302956f65d84c</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\osc32kctrl.h</file>
-         <hash>8121c8743d5da0b06139df4f8fae3eb01cab2c66319ce74ede22e3adeffeaee9</hash>
+         <hash>9a0428a5c7d5f2ee32274b0b35335458ecb346ba03f79870e57ce249a76b555c</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\touch\touchTune.h</file>
-         <hash>d3cfa7bc6a71074e8a80c275ea447303edde304b1ef54cae23eb9302fec2d92e</hash>
+         <hash>31ab281dc2b1c84190451fb4aebd5b446a425be3a4b73fbabf81c855d1e86454</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\sercom7.h</file>
-         <hash>a9951d13d0de6c283f3b4f26771790ab31984afea231a3355b82f8d03ad804bc</hash>
+         <hash>b5a1db5beb1f364441fd34b8eb70272b59c8a6383ad072d9de679a6a85039b42</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\divas.h</file>
-         <hash>1fb59800054a3b2be674197f59fff13179a6e28431ff0161ee185c764b8c8123</hash>
+         <hash>aa7d18cb021d16f8fa24d660d5a8737a89990dfe5a42e772214390b251562519</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\peripheral\clock\plib_clock.h</file>
@@ -2565,7 +2562,7 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\tcc1.h</file>
-         <hash>4cd73e52dc545ad9de859ff1b83ae1a91c3235ac12f0d591a9afc7967fb20291</hash>
+         <hash>5e6adc438cccf3e1606d5081495dcf969591288ce4d314da9c07b524109d35b2</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\device.h</file>
@@ -2573,7 +2570,7 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\sercom3.h</file>
-         <hash>63c284b6200e6454d182a78f8081b6ee3a3ca0f8dff3510d589e7ede5e93e321</hash>
+         <hash>e946c50c49fbc8ea85ebd064a5b359bc0c9b5c4b51e66b84047dbd9d09ba7a42</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\peripheral\sercom\usart\plib_sercom4_usart.h</file>
@@ -2581,11 +2578,11 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\adc.h</file>
-         <hash>4431f918b95cbd9870c71b38f4bf3d3203cf24d39edc081b51ed6c7e9e0960d2</hash>
+         <hash>9b11ba63c366debe3a6f8d2c90419cd4faa44dfba3d398195f5ad1cff1d66230</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\tc4.h</file>
-         <hash>2836e5e257060f642637880696a50e6fb88fcef5e2cb0ac0e7693e651d57c8af</hash>
+         <hash>bb3a901e05ed7846abe140d895d69fd6a5d3161dd1a934ed68825fefbdf86c57</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv7.h</file>
@@ -2593,11 +2590,11 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\tc0.h</file>
-         <hash>215ea2dcdc915ec9c1d3c3ccc57835ac47447ae503b65931b00a3557af02f722</hash>
+         <hash>fdc507ef51f8dd1d996f82683d0f2c1e3167512f0e3722fb4a1d54f50d16d303</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\nvmctrl.h</file>
-         <hash>b9765dd0fa11c7a6344b5bbf6b8880511c68d4a519b46d9e733a65d85db122ad</hash>
+         <hash>3a8196abef80807643b5351de5f391b2a45b318b5c2dc129de4aafb997d1b4cf</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h</file>
@@ -2613,23 +2610,23 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\ac.h</file>
-         <hash>75431a7bae352645d1f180a2d68255b8d832edcf5b2d0b8e46336829f15c7161</hash>
+         <hash>c558079398511269368085c0ec85ed5a5a214ee6e9aab6ca9f26b53f8ab85c05</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\touch\touch.h</file>
-         <hash>eb88cf608504008b7bb0842c79012922abf529415774b4fb3b571d11fb29f6cd</hash>
+         <hash>bb963ad19ab2a39d4c7cbadd0f771bfba0ee7ec9166a06ec5362d89ec334441a</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\wdt.h</file>
-         <hash>ea994aa37e5482773aa8f5cc7027473d1fba339c78bf456b7de688c5d917496f</hash>
+         <hash>8edee2eff3b5dfb9fc986d952f9fc50cff7a6d54700612d6444858aa5e094ceb</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\can0.h</file>
-         <hash>0eb5dd953a6844f6cac32c716063895600d1faec6927b85b096ddc0999825657</hash>
+         <hash>d5e4c0c190077f4c326bee0e08af692faa642c3c0474141abf870156eb3b518c</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\eic.h</file>
-         <hash>eb19cc8852054f88577c03e3b8dd3f3b884e1e2b675b0f7c8f97d48cbbf69436</hash>
+         <hash>0019a132227a2210cd3400509718d39e1a7c84c2140642d5fa4d2524db19d503</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang.h</file>
@@ -2637,7 +2634,7 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\pic32cm5164jh01100.h</file>
-         <hash>f9e37b04861d0cf3350c984d40102365bd8fa612e89f75c7c78ee554a11ed02f</hash>
+         <hash>6e9919829f47d3b9a33ac06cd577ffc5190eb3ba4856038f054cb0bf2f914037</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\interrupts.h</file>
@@ -2645,11 +2642,11 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\can.h</file>
-         <hash>42c9d4a96f4f74e9e26fa8c459f69125aa36f360f93d60b8589b3b7253daa552</hash>
+         <hash>77e32b02ddea4a80d0a6b74cf88e5dc552ff93f26ec1199d3bc6dc018c4756ab</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\touch\touch.c</file>
-         <hash>05334dada07050fe6b67a18fce625f93064730891ba442244bfb451310b19ee2</hash>
+         <hash>031e63db2e9178f378388acf8e2450c9efe2469cfccbf6475fda10df2a0d86d8</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h</file>
@@ -2661,15 +2658,15 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\pac.h</file>
-         <hash>7e017bcaa0cde338808f7cd136bbba7755b73198629801b77602a161c8afbe45</hash>
+         <hash>6577179d72170466e874fb828a775d6402d6ca15167a203b30303f911e847c19</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\tcc.h</file>
-         <hash>61e12bbee615724a58f51bd050e71d6cae0d57aff7d9cce6f9f1f15ad495c32a</hash>
+         <hash>2c40707f8e127b1a57ae65f14891a5c263c4e20834f02fae51b471fe2bdc696b</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\evsys.h</file>
-         <hash>0bc8adc1a35c832e1c2a6b7bd83624cc76ed2b3061260cb0bf1d597ff651667a</hash>
+         <hash>34356ba13dddfc0d13f780b245c5dca10be088a1d22a3f8fbf692fdb5abd0ab6</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
@@ -2677,15 +2674,15 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\pm.h</file>
-         <hash>43b1fc9a5334b36da2ee40514b76efcf882932082f300db0fc3c445f82f5d578</hash>
+         <hash>a0b33e2e7afba4497f2acb4b8a2b6e7b0b76420fa6a78819e607b153fa54acb0</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\pdec.h</file>
-         <hash>6cc6b1e11cbea00a4afd2630da664d09def11a1349f760cba83f4bfaac13a01a</hash>
+         <hash>10d92fb6b01bbf517659327d2a15da2cbc3d7b525a9799a8ce7665f53fc92c88</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\eic.h</file>
-         <hash>04e74409ff8716bfffc3668e62332ada654f75da4f6d5384320d7c04e44f88ad</hash>
+         <hash>974c80c2e41a881a3cf3f83829f03012408efd5e460a9dc9a8f86f44f41d2d12</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\peripheral\evsys\plib_evsys.c</file>
@@ -2693,51 +2690,51 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\wdt.h</file>
-         <hash>62c9ab8b2d6c2d0bed0f4ed5ab0fa0d8621c18a1a14f034a57572c7b4b0a25dc</hash>
+         <hash>c9e5959234d1bf5ff61a8a15ea351160e77d01755778c527fa8976005e489149</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\sercom4.h</file>
-         <hash>7fcce95a6e7060661f3eac83045bd9b941bee727af5eea16b25dbdc558345668</hash>
+         <hash>96cc812ae8962c2bbf7564df176404da1dcc241c87ff384bf744cccdeb9db5e7</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\mtb.h</file>
-         <hash>910891368f9fe0b0979e30dd5cd66239b13ca18933df7c64e3dfd25d6d80d9c7</hash>
+         <hash>a5c332fdda33dd57b9f0a9d67cce5992992e0ddadd6f95442c74d78c8640c857</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\gclk.h</file>
-         <hash>d6cdb7d1c0460c7b8b563b7e08a71a1bce26a7b0c3cfaf16e888075e960f0162</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\freqm.h</file>
-         <hash>00f3db1802e753e3489419a712c37a355f18bd6f21c448f1e22dc97f1de075ef</hash>
+         <hash>c0fa90cd4494df42ee0c5250e6e82020c64ca969cd98e52ff9879cc3527f626a</hash>
       </entry>
       <entry>
          <file>..\src\main.c</file>
          <hash>d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5</hash>
       </entry>
       <entry>
+         <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\freqm.h</file>
+         <hash>e67316b86ee931b2d5f7eb1d9f953f515b982d95c9031b915817ebafc873ff98</hash>
+      </entry>
+      <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\mclk.h</file>
-         <hash>1f5935fa70941066b551b46e39155ee41451cb9cc599ed38abbe30a78a3f977c</hash>
+         <hash>27a8270a52b569aae78b016d20701ae70ec854b8ae27c45def3bcc4b045b087b</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\mcramc.h</file>
-         <hash>6c05d6e60d4f62613633811ef23c77f764e435208c1e88a56c032910ba74b932</hash>
+         <hash>e8c7afb7741bd940c7cdd62d6e553bc140f53382d0009b880765ea8d7ca83e71</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\oscctrl.h</file>
-         <hash>f7918320a9d4c04120009a0b71c7fb6ee603a8c776de4352ea3abe5c0e4292e4</hash>
+         <hash>1d38e8525442677810f27206e9f6dac588dbf149d88d0e4f694c44f1e3f49caa</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\mcramc.h</file>
-         <hash>6391e7ad75aba477fef4b93b090b2bc1c68da948a9825db67b57b1f8eb44ba22</hash>
+         <hash>e4a0bff9decaa53f6649e67bf8056d018d613551756b34e392d51457188ad2f1</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\sercom0.h</file>
-         <hash>cd748b96c5df0750d4da8bebcfa2a34780510c14535062f5f4aa3ed03da182f8</hash>
+         <hash>0cdfd4edec680e74a5221b792a28ae9ba8d392c15333a0bdb0d101844a724896</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\tcc2.h</file>
-         <hash>4566f0326c0b008ba65a5f0441719eb1e66300184c74ffb7adec229c6420c917</hash>
+         <hash>fa3c3db198e193bde32457153051d3da1674813ee7c1bca3a313685b443ba187</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\peripheral\evsys\plib_evsys.h</file>
@@ -2745,11 +2742,11 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\pm.h</file>
-         <hash>5e022ace4004828cd5076da6678440ea2a7bec8fa4c509fd7c19ea427a8600ad</hash>
+         <hash>732b04d992fa44d4738b7cabf7b652a65894f16e5fb287eb5670c6c09029507c</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\icm.h</file>
-         <hash>8ec3c54de88b9a75f887197a5f1020f3ae7e3ef4e2d0158e5a878d27ed101dc4</hash>
+         <hash>a82d3ae2225109a1bd0238c015dcc2b76810712d46007915d33cbd05bd4874f9</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\touch\lib\qtm_acq_pic32cmjh_0x002f.X.a</file>
@@ -2757,31 +2754,31 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\oscctrl.h</file>
-         <hash>97b459b3413242b3004772c1c38fae5466fbdbf906889dd75b7f3b36141046d6</hash>
+         <hash>a27943eab2c7f3c80fb5ecd2805425a9d69ca5cab1e46b1f532015e156cf43b0</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\supc.h</file>
-         <hash>a7548d05dcefa9f1e2e0c03aef46a36e77270f6150dc79228d48612e15b21db1</hash>
+         <hash>17fc22087da9a75bef2ccdfdedb8b0a2b2ec8e01f033d03b78180287c1a07158</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\tc5.h</file>
-         <hash>a09cfac4e422bea8643f67443a1981c216953914ac164be6cb21f5e2882317cd</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\can1.h</file>
-         <hash>f343a1fa0e2e12b96a794fc16787185661ff5e3912889f693b45e276b611fcb5</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\mclk.h</file>
-         <hash>882b87a3c673db2dcb468604ec0ed47241be3f25d93066cd8884926de0e8635f</hash>
+         <hash>df127a982a6e1c3cf74eada0d77fad4fbe8ae35d877e0e322737b4ce928520a3</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\exceptions.c</file>
          <hash>b850253aacaae1bddfcb426c2dc11e0688900afffe9b22c60d0ab16298701118</hash>
       </entry>
       <entry>
+         <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\can1.h</file>
+         <hash>33fab3cc22bd8fd0e32c78ce6cf18861f8130d0ef594e3e01a6110922be8586d</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\mclk.h</file>
+         <hash>3b1b36816c5c9de6edc9d37409b2bc01a3fcfe5f955caae0aabe1fc12893e5f1</hash>
+      </entry>
+      <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\tc1.h</file>
-         <hash>2172c7acf577623e31e42624a51c3c0c4352d496902137f6d970bcd181ee9423</hash>
+         <hash>40dc839bd12eae14ab7e33e1080e4cf5f5bf814b18e600723183fd3d68f2a8e9</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\touch\qtm_freq_hop_0x0006_api.h</file>
@@ -2789,7 +2786,7 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\pdec.h</file>
-         <hash>7da08e024a3edaffe41a3dd2fbed07c74456800c93fedb149e55b665ff9cf30a</hash>
+         <hash>c9f45791099a84bf4100c8f309f47a4ead40a74883d5816383f0af56f64635b2</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_version.h</file>
@@ -2800,28 +2797,28 @@
          <hash>f28119adbc81fb0e3c957c9aebe8fb423ad93634e76ead3caa2b0818d2e123ae</hash>
       </entry>
       <entry>
-         <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\dsu.h</file>
-         <hash>0c2234965afba4e00011ba122a34ce30aacd6fe3e4169a29b98cca0b5bca0935</hash>
-      </entry>
-      <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\device_vectors.h</file>
          <hash>2c00958efae834be27f857729d62c98d19ee0654f2af18b4ae8182ccbc50d495</hash>
       </entry>
       <entry>
-         <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\pac.h</file>
-         <hash>fc4b8f8203cd72cb6ed66d3cd20fe0807d40f0cd91fcbb4d9c4cb3a5cca0a8b8</hash>
+         <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\dsu.h</file>
+         <hash>ff69ae9a40b8b02410e16c2cfd3178a01a7fc30f8f349b2e4ac9e038d28e2005</hash>
       </entry>
       <entry>
-         <file>..\src\packs\PIC32CM5164JH01100_DFP\component\sercom.h</file>
-         <hash>915de0182c0f6715813fa58e804f805572967e40829cb297b733195cc3848bd9</hash>
+         <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\pac.h</file>
+         <hash>ca68304dc0d8ff97c2dfed83f58c32674fdc5c5eb3eb491c993bcb97dca1c559</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\stdio\xc32_monitor.c</file>
-         <hash>a3a259d197561bbe1e22146d2b26a0bc8851b81a3a0a61529724c7cd8811799b</hash>
+         <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\PIC32CM5164JH01100_DFP\component\sercom.h</file>
+         <hash>be0789f9e7e52499c2b3b0ecc1bae53171141a18a7f45778742f0222ca78e5e6</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\peripheral\rtc\plib_rtc_timer.c</file>
-         <hash>5042c69b7413882c82f5a2a1dd84a63a56ec584805880ffa9cc646f4bce9e29a</hash>
+         <hash>65d159c64663ce0ffa7ffe0b7bcd9ba4aa41a5eecdbcd1188bee7ce2ee9ae26c</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\toolchain_specifics.h</file>
@@ -2829,27 +2826,27 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\startup_xc32.c</file>
-         <hash>775b3a2becf542a2eae3e966a753d700f8dc5048832e9f50f479df489b095768</hash>
+         <hash>6946abce2180998f58d5dd1b56c778d49b636406cfabc2c04d2266a9ce701d66</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\ac.h</file>
-         <hash>a0bb7d399b9e0bfe54341d9acc0c1991160bc858d2e134f90a45772cae8ecc3c</hash>
+         <hash>b1d8e2f71b5ce48d26062f325130a17fc184ab6bb859fa77cb74998694a13c03</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\smbist.h</file>
-         <hash>408e51d8a45c35ab4c4c99dd4394c2fc866851021494a52ec44b5fde32d5c097</hash>
+         <hash>50b6fbcc823c8e931b18cb3e24c47cadc9877be24589d6418e695e88e33456ec</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\ptc.h</file>
-         <hash>d87a97b824229ae7e3ce640346d8ea5cb8a5f13ad22f5730a0df8d1ce0d2928b</hash>
+         <hash>13823009b8a245cd5a7fcf155b9a0b8690502319c1ea1e65ae809a8a7124edc5</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\tc.h</file>
-         <hash>019c283a77181e654ed7f4988439acd1963fa007a4e0e2b91d063b3242ac896b</hash>
+         <hash>5892feb7b3e076b7531772ecf7d5ae0251fb6d991886d66608145347e3c09b89</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\sercom5.h</file>
-         <hash>6190fcab55a35a6069e0dffceb398c0e0dcc65f47bf6c3d95d46b4e5a5b69030</hash>
+         <hash>3a4f46f11bbdcda66ebed5a62ca2856043293778c1893d5546f74605fedd3951</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\peripheral\nvic\plib_nvic.c</file>
@@ -2857,7 +2854,7 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\mtb.h</file>
-         <hash>0fbf73a37edd29d925742ccb32a207cf040359b912dd45a7c08db4697c1beaab</hash>
+         <hash>037f5bc211075c164652cf1065e11672fc7f720d4d0a5bcb4f2853b6d1a25ca7</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\peripheral\nvic\plib_nvic.h</file>
@@ -2865,7 +2862,7 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\sercom1.h</file>
-         <hash>13a1d44a92b1248d25b2bdf4617e3d003b8b636e023fc1ee37a8a91a8b69ab29</hash>
+         <hash>9f3c5bf96a3d677a57ea70a64dd2527e1733ac0e6cd3dc7b81e602d61cf27dd5</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\touch\lib\qtm_freq_hop_auto_cm0p_0x0004.X.a</file>
@@ -2873,7 +2870,7 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\port.h</file>
-         <hash>1edbb5afa08500ae9f591ae02086a121a3ee47bdb907ec7589dfeb3a23acd619</hash>
+         <hash>180c6bfcf2e638a086dd892977b6ba67290444bb11fd71def056da5d1d8c350f</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang_ltm.h</file>
@@ -2885,31 +2882,31 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\dac.h</file>
-         <hash>22381420733537531f93924dc6c5cfdde3602c81b6a23003dbdb9dc79242d756</hash>
+         <hash>1dbb20d47f0cff0b0fb42e057c31960a12809f7e3b1024f6a2ee0b21c298a4d3</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\tc6.h</file>
-         <hash>f62295a548baf02d772398fa06d37d5341cb1eb8fb38c2ac22e6d2faf7af085c</hash>
+         <hash>cc839574d06d506228c04ec2a64da47c414f94e285a8a6177985c6f55911e803</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\tc2.h</file>
-         <hash>c0e9a9615811b25c6936784110fa8cbef609d31542e9c0b9fcd201edd1aac555</hash>
+         <hash>9da106d7f17e2a3349322de4c64cfb7b7de5aa1ac46a363fadf6618317ed5de3</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\freqm.h</file>
-         <hash>06ea14a344fc2ac3b9c0259328d9e1066d57382b4c0ffb10c35b934fda96d296</hash>
+         <hash>42b321f2046a614f5904211c36aa6d95d250b94068b58d6e7d1c54628e2d2810</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\rtc.h</file>
-         <hash>d88e1c5300a0cfec3778830db876f22ec2ea370ab7996dac6a2eac0284d24015</hash>
+         <hash>3b2d7e43c7f1b1b423de406caeec255432ee3b012ba0f239555809e2d10821e1</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\osc32kctrl.h</file>
-         <hash>ad0c4f2c156696349b491b52565cbb47cd01183807506061ed5f85c0e6179624</hash>
+         <hash>51f66f11f8dd3b33829cb130c15ce717a0a2b590863c0c3098ba5ad34255cf99</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\icm.h</file>
-         <hash>cddc8653713c406f72f6df87d8e0e4be50f10aef2bd10f38523bcb2bdee231f5</hash>
+         <hash>eb8d2791c829368f5d5d29c1e117b3bbe9fc9a8795077b90c73147e39016be3f</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\definitions.h</file>
@@ -2921,15 +2918,15 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\dsu.h</file>
-         <hash>171d00fab0add9b72f9413b97b5d699b3a9fbf913cb4dd8f9d8d7d76a55b3597</hash>
+         <hash>02c850b3cf168b7f994714d3d1345f86c5d6ea23598d0ec4ba472a9f5009855c</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\peripheral\port\plib_port.h</file>
-         <hash>91f9294e0c1b508f3deec07bc3a11b19692b250e3a254d2dcb7588a14a1ccf0f</hash>
+         <hash>ed8dcf147db9fe5d812a13f9eb7138f0f38a47a6491c06236c8d5b434a2a63b1</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\ptc.h</file>
-         <hash>125879817d011f536a91332bc338af0f27a3bf3ffc8f9c91dd57400319e447bd</hash>
+         <hash>9099db78129b11e38dabf651337d7c00c2372b4ac0436a031599289c6d3179c8</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\touch\qtm_touch_key_0x0002_api.h</file>
@@ -2937,15 +2934,15 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\peripheral\port\plib_port.c</file>
-         <hash>093c2d093af978f77c49713181c7bd75d20f3f26d05d517828a8da3a70382c08</hash>
+         <hash>3b3792163d8540eedc9d447f4ff5ef9a38b8b3e34d1c23b31212f98dfdaf4d03</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\touch\touch_example.h</file>
-         <hash>193e37834d939133f3d4da1439db7ae484f48dbf20db40373ae1ea232070e0b2</hash>
+         <hash>e58c89edcd9cad6ac791bfeab116b67e57dd54baf9e7d26f90afa1c5083e874f</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\pio\pic32cm5164jh01100.h</file>
-         <hash>80b4bee222ba12207115d1963b68015287bd493ac88d1784199d52e537203ec4</hash>
+         <hash>b984eb0d07c03889dbd497a46b448af2f656729f094db11c8aef5ffaf78b273e</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\touch\qtm_freq_hop_auto_0x0004_api.h</file>
@@ -2953,11 +2950,15 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\touch\touch_example.c</file>
-         <hash>2015cee5018a42d9e93afa9c696d534a7f6fc65f5050d26c10c0e756914ef072</hash>
+         <hash>c130acbb8c4ad4b744690f87349e14afcc3b6e6e07f6de62f956b403f21939db</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32cmjh_curiosity_pro\pin_configurations.csv</file>
+         <hash>289fee2051a27b6c2175627bd21dc19370e60d749d575cd4aa3b1fabe4b4e2f0</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\nvmctrl.h</file>
-         <hash>e4bfc2560f02c9365db451889e5ec58821f766a7ba28624c6865e6aa196311b8</hash>
+         <hash>76778abb950717c9bd8ccc041e6d94bb7c0b3139a375625a093923667ec1bcac</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\touch\qtm_acq_pic32cmjh_0x002f_api.h</file>
@@ -2965,11 +2966,11 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\ccl.h</file>
-         <hash>0a9a005c7e16eda0494f8465ca7feaaf5ee46c4e2d8ad935a04cf3f78b60de51</hash>
+         <hash>a45350b52a64071b8a77bbe6c4adad4d40bc7234d6d6546d3037f506a7a31521</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\rstc.h</file>
-         <hash>8451f86120f2b26f4dba06666bd64e5f5cb24dea427227283012ee7ac991cee7</hash>
+         <hash>3968df24272c4337cefdb612fab8397f4f5510833573de0cdb624f028de27d49</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\peripheral\nvmctrl\plib_nvmctrl.c</file>
@@ -2977,15 +2978,15 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\sercom6.h</file>
-         <hash>3fc4c332da33e1ba4d077390c70fa413957cbc2b4d0b563d5c4803f9fbff5e94</hash>
+         <hash>a9703b534c83ac13f987f70c11d7f58bf409eb61a38ee9e500ceff8b90826ee1</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\dmac.h</file>
-         <hash>4dd15a8424200f768695f19f51c2f929b80b9d0aae222da71c720b51962a1ab0</hash>
+         <hash>fc88939b11e0816e61fdfbfb5c8b4d44bb776b980fdd9c8017f965bf194fdf1d</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\rstc.h</file>
-         <hash>2438fe77ed3ecc1ca362eba280d4f7f4703df2d6146bab8de843c9a2c229d08c</hash>
+         <hash>94e6cb4ddd657324a8836c51fa1d9f65dca677397b38b5500a8b17c64cc4f99c</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\touch\qtm_common_components_api.h</file>
@@ -2993,19 +2994,19 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\dmac.h</file>
-         <hash>998a1d179f9bfc655ae11ad1482855de0aeddd48e3c883638325ba5a68eb702a</hash>
+         <hash>859227056e7578a69a91b44cfe614a6cf87b9bb3af968416a6ed3948d3447817</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\supc.h</file>
-         <hash>3dc1cfb4d81df916e7c97db07c6b422aa3b2bb25117a7d6c76b0c88040da3355</hash>
+         <hash>f93c5c05474cdeb52ef5d70d3911397a6e740a602f93d4cccc52235cf04500f4</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\evsys.h</file>
-         <hash>e5e1541a182c23a018a4e541da1022ac2eac192eb7a47a2ef426110e3103096d</hash>
+         <hash>d8667fdd4710fb24d3b04cd0dbcd786180c5df6792a7b8e3689f2cca3fbf9ad8</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\tcc0.h</file>
-         <hash>f58e650533eb3d11a0e2d3ca3584cd34a5a2ee5bfbbfc277f33f8f9efe6b4de3</hash>
+         <hash>5fbcb8162e628440749209496f8bfe9d80c2f0dce4334807f2b57c0413dcd335</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cmjh_curiosity_pro\peripheral\nvmctrl\plib_nvmctrl.h</file>
@@ -3013,11 +3014,11 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\rtc.h</file>
-         <hash>07964bfa19f3f28eeec05581fc79978381f3121129dabc587a8fff766d81fda8</hash>
+         <hash>00327ad7a6e7cfa66827381c98a71456c990eebaa51ad31484c60d08a39cde03</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\sercom2.h</file>
-         <hash>ac19f09fa54023286a532d60c81171fc792d4641b943476b7d72634906926345</hash>
+         <hash>022792101ae66e48bca31c5fec6358e024e05ca2a380f490b1f9332269f0ce88</hash>
       </entry>
    </generatedFileHashHistoryMap>
 </config>

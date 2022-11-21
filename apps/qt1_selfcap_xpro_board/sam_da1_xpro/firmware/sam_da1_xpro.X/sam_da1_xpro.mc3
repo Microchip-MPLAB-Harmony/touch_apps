@@ -1,4 +1,4 @@
-<config configName="sam_da1_xpro" projectName="sam_da1_xpro" configVersion="1.1" device="ATSAMDA1J16B" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.4">
+<config configName="sam_da1_xpro" projectName="sam_da1_xpro" configVersion="1.1" device="ATSAMDA1J16B" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.14">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -50,8 +50,7 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;GraphSettings canvasHeight=&quot;362&quot; canvasWidth=&quot;770&quot; dnOrder=&quot;0&quot;/&gt;
-    &lt;ComponentGraph dnOrder=&quot;1&quot; id=&quot;__ROOTVIEW&quot;&gt;
+    &lt;ComponentGraph dnOrder=&quot;0&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;cmsis&quot; x=&quot;660&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;core&quot; x=&quot;560&quot; y=&quot;20&quot;/&gt;
@@ -64,6 +63,7 @@
         &lt;ElementPosition dnOrder=&quot;8&quot; id=&quot;sercom3&quot; x=&quot;265&quot; y=&quot;103&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
+    &lt;GraphSettings canvasHeight=&quot;362&quot; canvasWidth=&quot;770&quot; dnOrder=&quot;1&quot;/&gt;
   &lt;/UserData&gt;
 &lt;/UserData&gt;
 </value>
@@ -4173,7 +4173,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_da1_xpro\touch\touch.h</file>
-         <hash>7afb7b2d0111a0d787ba5363902278514fedfe8a3b257d336abc0bbf2c064846</hash>
+         <hash>88c3e79b3ac5a26584525b60c47d3553cb6ee50e98389e6881d24c53d045e905</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_da1_xpro\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
@@ -4181,7 +4181,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_da1_xpro\touch\touch.c</file>
-         <hash>6f937daee393c5fe0735e0ee5b4dbc06e976295e0b7a43afc8c3d9e1071fe2d6</hash>
+         <hash>6e27c58ff4034db086bf5ce53bb31de9e437a34f3016a3724f95a815589b65a1</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMDA1J16B_DFP\component\fuses.h</file>
@@ -4193,7 +4193,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_da1_xpro\definitions.h</file>
-         <hash>db84e85c6b89e38ddd425a9e2da97c700a7b05bf823d2dfc576a1aa704cc87f7</hash>
+         <hash>2d7248faa83d5df5bb7432a2c0fc63b2d99f1d45ecd7e0c327b360adc9166c3a</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\core_cm0plus.h</file>
@@ -4253,7 +4253,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_da1_xpro\touch\touch_example.h</file>
-         <hash>a73b2d1a09dde6d3a6e20d72d12382d4e8552e3a378ff9fc217ad578f18b13f4</hash>
+         <hash>e58c89edcd9cad6ac791bfeab116b67e57dd54baf9e7d26f90afa1c5083e874f</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h</file>
@@ -4285,7 +4285,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_da1_xpro\touch\touch_example.c</file>
-         <hash>119f52cc6d6e6a4d31cdf4a38e8c282bbecf6cd319544df126826c9d3c61ad26</hash>
+         <hash>b12b6a2ac9a8cc12eb02228bb87ccc664b5ad22b3001f4c21c23cb3f7463a7a8</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMDA1J16B_DFP\component\dac.h</file>
@@ -4321,7 +4321,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_da1_xpro\touch\touchTune.h</file>
-         <hash>9c85cf2a47631d1f84953e31b36ee7c4bdee438f889bbbf2cab5c37c375167dc</hash>
+         <hash>31ab281dc2b1c84190451fb4aebd5b446a425be3a4b73fbabf81c855d1e86454</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_da1_xpro\peripheral\sercom\usart\plib_sercom3_usart.c</file>
@@ -4341,11 +4341,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_da1_xpro\touch\touchTune.c</file>
-         <hash>648d53f0f445755dab1ea16278cae729cdde4efd045e1a494666a63d69215098</hash>
+         <hash>3cfa17ccc5f695973e2133dc14b9743e20de6b84f54ea65adc5d8f96b3f5c5c4</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_da1_xpro\touch\touch_api_ptc.h</file>
-         <hash>e28df6bf7b0c45e40beb4d1fdb0f83134c7f6541899e87448533b9e8a865a8f7</hash>
+         <hash>275521b093f37657b198104f3f224a966d70843b83e8c4bc77d4bdab51b2e1ca</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_da1_xpro\peripheral\port\plib_port.h</file>

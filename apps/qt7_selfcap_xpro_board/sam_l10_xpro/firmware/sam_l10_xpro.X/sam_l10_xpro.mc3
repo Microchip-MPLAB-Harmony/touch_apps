@@ -1,4 +1,4 @@
-<config configName="sam_l10_xpro" projectName="sam_l10_xpro" configVersion="1.1" device="ATSAML10E16A" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.4">
+<config configName="sam_l10_xpro" projectName="sam_l10_xpro" configVersion="1.1" device="ATSAML10E16A" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.14">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -2368,9 +2368,6 @@
           &lt;String dnOrder=&quot;1&quot; id=&quot;targetAttachmentID&quot;&gt;
             &lt;Value dnOrder=&quot;0&quot;&gt;SERCOM0_UART&lt;/Value&gt;
           &lt;/String&gt;
-          &lt;Boolean dnOrder=&quot;2&quot; id=&quot;enabled&quot;&gt;
-            &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
-          &lt;/Boolean&gt;
         &lt;/Attributes&gt;
       &lt;/DirectDependency&gt;
       &lt;DirectDependency dnOrder=&quot;1&quot; id=&quot;Touch_timer&quot;&gt;
@@ -3820,7 +3817,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\touch\touch_example.c</file>
-         <hash>119f52cc6d6e6a4d31cdf4a38e8c282bbecf6cd319544df126826c9d3c61ad26</hash>
+         <hash>b12b6a2ac9a8cc12eb02228bb87ccc664b5ad22b3001f4c21c23cb3f7463a7a8</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\libc_syscalls.c</file>
@@ -3856,7 +3853,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\touch\touch_example.h</file>
-         <hash>a73b2d1a09dde6d3a6e20d72d12382d4e8552e3a378ff9fc217ad578f18b13f4</hash>
+         <hash>e58c89edcd9cad6ac791bfeab116b67e57dd54baf9e7d26f90afa1c5083e874f</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML10E16A_DFP\component\adc.h</file>
@@ -3976,7 +3973,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\touch\touch_api_ptc.h</file>
-         <hash>d1394f3a4959a2cf33f88835eb3e5d7d3239e01cb001d9a67df56d487716f354</hash>
+         <hash>4b7bf01d48f571b76743195c5a60862ec86c0d2feaf408bc6248f0e4e49e8e55</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\peripheral\nvmctrl\plib_nvmctrl.h</file>
@@ -4004,7 +4001,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\definitions.h</file>
-         <hash>9472ff249c22daf259e3c22a697079445bec5f1d309cc29365a1a1171fe37b78</hash>
+         <hash>3174df34fb5dbc0a1d8759ff333afbbbc248cd11c4c6196081715b5fde60d1c2</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML10E16A_DFP\pio\saml10e16a.h</file>
@@ -4092,11 +4089,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\touch\touch.h</file>
-         <hash>34c402cd8fc6d7064908a7e07131556e75f34622ca232fb61347c0506bb5628a</hash>
+         <hash>2310a6a4c0ca3acf1e58aa1bbbfdc8f4caebe5a9ca75695da4f3a5fd46883689</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\touch\touch.c</file>
-         <hash>b4fc253b32abdf64dfa21032008786ef579e670caec4bcb8b07e4a5947da9bcb</hash>
+         <hash>a188fed40642936a2856113457a6af234d43314cc3546c35b4d42fbea74b6235</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML10E16A_DFP\component\rtc.h</file>
@@ -4176,7 +4173,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\touch\touchTune.c</file>
-         <hash>45912cd77acd1451a5b26bd4d3b477eec2aa425bb6ee9a9fe39e040caf1bf171</hash>
+         <hash>22bca9e9c4fa06da5b9e43763121433f10ce20455fb0091ddbb1822c812c9348</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
@@ -4184,7 +4181,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\touch\touchTune.h</file>
-         <hash>9c85cf2a47631d1f84953e31b36ee7c4bdee438f889bbbf2cab5c37c375167dc</hash>
+         <hash>31ab281dc2b1c84190451fb4aebd5b446a425be3a4b73fbabf81c855d1e86454</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\peripheral\rtc\plib_rtc.h</file>
@@ -4296,7 +4293,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\initialization.c</file>
-         <hash>5397988d59a7dc9bd576fbfb602c89d9a66bde83f0dd632a53ddab63c6549037</hash>
+         <hash>42dbd356241cac9b21bc3cea0eac1e26f32fda2728f989810b72da25a15b199e</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML10E16A_DFP\instance\sercom0.h</file>

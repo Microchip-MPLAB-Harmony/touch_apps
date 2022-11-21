@@ -1,4 +1,4 @@
-<config configName="sam_d21_xpro" projectName="sam_d21_xpro" configVersion="1.1" device="ATSAMD21J18A" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.4">
+<config configName="sam_d21_xpro" projectName="sam_d21_xpro" configVersion="1.1" device="ATSAMD21J18A" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.14">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -2788,9 +2788,6 @@
           &lt;String dnOrder=&quot;1&quot; id=&quot;targetAttachmentID&quot;&gt;
             &lt;Value dnOrder=&quot;0&quot;&gt;SERCOM3_UART&lt;/Value&gt;
           &lt;/String&gt;
-          &lt;Boolean dnOrder=&quot;2&quot; id=&quot;enabled&quot;&gt;
-            &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
-          &lt;/Boolean&gt;
         &lt;/Attributes&gt;
       &lt;/DirectDependency&gt;
       &lt;DirectDependency dnOrder=&quot;1&quot; id=&quot;Touch_timer&quot;&gt;
@@ -4098,7 +4095,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d21_xpro\definitions.h</file>
-         <hash>1cf81599b87cc4d16711e8668d025d7c19081481fd2e78363034c22d4b87e161</hash>
+         <hash>440ec4e83b60a9a84dc935827b9878a2406eae9a87d4549c20c2ae4e055ea836</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h</file>
@@ -4158,7 +4155,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d21_xpro\touch\touchTune.c</file>
-         <hash>975bacc216c02a4c7f945cb534855635dc71cecfd8dc30b61ffd2fd15e8afc13</hash>
+         <hash>da9a50e7923a2835885a1b0cae67412da85f536d78f601aac2c4a41220ea864e</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD21J18A_DFP\instance\ac.h</file>
@@ -4170,7 +4167,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d21_xpro\touch\touchTune.h</file>
-         <hash>9c85cf2a47631d1f84953e31b36ee7c4bdee438f889bbbf2cab5c37c375167dc</hash>
+         <hash>31ab281dc2b1c84190451fb4aebd5b446a425be3a4b73fbabf81c855d1e86454</hash>
       </entry>
       <entry>
          <file>..\src\main.c</file>
@@ -4346,7 +4343,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d21_xpro\touch\touch_example.h</file>
-         <hash>a73b2d1a09dde6d3a6e20d72d12382d4e8552e3a378ff9fc217ad578f18b13f4</hash>
+         <hash>e58c89edcd9cad6ac791bfeab116b67e57dd54baf9e7d26f90afa1c5083e874f</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d21_xpro\peripheral\clock\plib_clock.h</file>
@@ -4366,7 +4363,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d21_xpro\touch\touch_api_ptc.h</file>
-         <hash>a6d59ed3debad37663ea577a841578e8779701938f3df215edbe456ad43bc2c5</hash>
+         <hash>7225b76a31e283ce61f7b40248e69e6d07a78812d1c04a19361061cf055867b5</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d21_xpro\peripheral\nvmctrl\plib_nvmctrl.h</file>
@@ -4390,7 +4387,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d21_xpro\touch\touch.c</file>
-         <hash>4685912bc7ec6cafb4df841b53e4f5c7b9eac82c810b5116f93f5d1a1ac34353</hash>
+         <hash>b223703d4b8ecfa11f90d9464795f0069dacc2ba48c0f5f961fd2a61128cc34f</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d21_xpro\touch\lib\qtm_scroller_cm0p_0x000b.X.a</file>
@@ -4406,7 +4403,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d21_xpro\touch\touch.h</file>
-         <hash>a7baa7bbc77041aebcddd47d94d89d2f0ca4bb6ce81661c682e22e27c5211821</hash>
+         <hash>6e408b0c1343ba33a16892132fb1d91b088664fd3f7ef5b16188b9553e6447c7</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD21J18A_DFP\pio\samd21j18a.h</file>
@@ -4434,7 +4431,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d21_xpro\touch\touch_example.c</file>
-         <hash>119f52cc6d6e6a4d31cdf4a38e8c282bbecf6cd319544df126826c9d3c61ad26</hash>
+         <hash>b12b6a2ac9a8cc12eb02228bb87ccc664b5ad22b3001f4c21c23cb3f7463a7a8</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d21_xpro\device_cache.h</file>

@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.12.1 Release
+  Touch Library v3.13.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -71,7 +71,6 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  */
 #define DEF_SENSOR_TYPE NODE_MUTUAL
 
-
 /* Set sensor calibration mode for charge share delay ,Prescaler or series resistor.
  * Range: CAL_AUTO_TUNE_NONE / CAL_AUTO_TUNE_RSEL / CAL_AUTO_TUNE_PRSC / CAL_AUTO_TUNE_CSD
  * Default value: CAL_AUTO_TUNE_NONE.
@@ -79,21 +78,22 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #define DEF_PTC_CAL_OPTION   CAL_AUTO_TUNE_NONE
 
-/* Defines the interrupt priority for the PTC. Set low priority to PTC interrupt for applications having interrupt time
- * constraints.
- */
-#define DEF_PTC_INTERRUPT_PRIORITY 3
-
 /* Calibration option to ensure full charge transfer */
 /* Bits 7:0 = XX | TT SELECT_TAU | X | CAL_OPTION */
 #define DEF_PTC_TAU_TARGET CAL_CHRG_5TAU
 #define DEF_PTC_CAL_AUTO_TUNE (uint8_t)((DEF_PTC_TAU_TARGET << CAL_CHRG_TIME_POS) | DEF_PTC_CAL_OPTION)
+
+/* Defines the interrupt priority for the PTC. Set low priority to PTC interrupt for applications having interrupt time
+ * constraints.
+ */
+#define DEF_PTC_INTERRUPT_PRIORITY 3
 
 /* Set default bootup acquisition frequency.
  * Range: FREQ_SEL_0 - FREQ_SEL_15 , FREQ_SEL_SPREAD
  * Default value: FREQ_SEL_0.
  */
 #define DEF_SEL_FREQ_INIT FREQ_SEL_0
+
 
 /*----------------------------------------------------------------------------
  *     defines

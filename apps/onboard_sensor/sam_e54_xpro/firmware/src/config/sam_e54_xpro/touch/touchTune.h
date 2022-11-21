@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.12.1 Release
+  Touch Library v3.13.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -81,7 +81,8 @@ typedef enum {
 	same5x = 0x35,
 	saml1x_pic32cmle = 0x36,
 	saml22 = 0x37,
-	pic32cvd = 0x38
+	pic32cvd = 0x38,
+	pic32czca = 0x39
 }DEVICE_TYPE;
 
 //typedef enum

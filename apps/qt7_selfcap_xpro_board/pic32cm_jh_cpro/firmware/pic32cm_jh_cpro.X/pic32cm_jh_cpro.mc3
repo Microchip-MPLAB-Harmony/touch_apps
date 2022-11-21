@@ -2,10 +2,6 @@
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
-         <string>HarmonyCore</string>
-         <string>class com.microchip.mcc.harmony.HarmonyModule</string>
-      </entry>
-      <entry>
          <string>cmsis</string>
          <string>class com.microchip.mcc.harmony.HarmonyModule</string>
       </entry>
@@ -43,96 +39,9 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.0.3"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.2.0"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="HarmonyCore" name="!@#harmonyAttachmentState"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;HarmonyCore&gt;
-  &lt;HarmonyCore dnOrder=&quot;0&quot;/&gt;
-&lt;/HarmonyCore&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="HarmonyCore" name="#&amp;__MCC_Group_Parrent_id"/>
-         <value>__ROOTVIEW</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="HarmonyCore" name="ENABLE_APP_FILE"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;HarmonyCore&gt;
-  &lt;HarmonyCore dnOrder=&quot;0&quot; id=&quot;ENABLE_APP_FILE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;HarmonyCore&quot; value=&quot;false&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/HarmonyCore&gt;
-&lt;/HarmonyCore&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="HarmonyCore" name="ENABLE_DRV_COMMON"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;HarmonyCore&gt;
-  &lt;HarmonyCore dnOrder=&quot;0&quot; id=&quot;ENABLE_DRV_COMMON&quot;&gt;
-    &lt;Attributes dnOrder=&quot;0&quot;&gt;
-      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;readOnly&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
-      &lt;/Boolean&gt;
-    &lt;/Attributes&gt;
-    &lt;Values dnOrder=&quot;1&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;HarmonyCore&quot; value=&quot;false&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/HarmonyCore&gt;
-&lt;/HarmonyCore&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="HarmonyCore" name="ENABLE_OSAL"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;HarmonyCore&gt;
-  &lt;HarmonyCore dnOrder=&quot;0&quot; id=&quot;ENABLE_OSAL&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;HarmonyCore&quot; value=&quot;false&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/HarmonyCore&gt;
-&lt;/HarmonyCore&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="HarmonyCore" name="ENABLE_SYS_CACHE"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;HarmonyCore&gt;
-  &lt;HarmonyCore dnOrder=&quot;0&quot; id=&quot;ENABLE_SYS_CACHE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;HarmonyCore&quot; value=&quot;false&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/HarmonyCore&gt;
-&lt;/HarmonyCore&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="HarmonyCore" name="ENABLE_SYS_COMMON"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;HarmonyCore&gt;
-  &lt;HarmonyCore dnOrder=&quot;0&quot; id=&quot;ENABLE_SYS_COMMON&quot;&gt;
-    &lt;Attributes dnOrder=&quot;0&quot;&gt;
-      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;readOnly&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
-      &lt;/Boolean&gt;
-    &lt;/Attributes&gt;
-    &lt;Values dnOrder=&quot;1&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;HarmonyCore&quot; value=&quot;false&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/HarmonyCore&gt;
-&lt;/HarmonyCore&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="HarmonyCore" name="ENABLE_SYS_INT"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;HarmonyCore&gt;
-  &lt;HarmonyCore dnOrder=&quot;0&quot; id=&quot;ENABLE_SYS_INT&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;HarmonyCore&quot; value=&quot;false&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/HarmonyCore&gt;
-&lt;/HarmonyCore&gt;
-</value>
-      </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="cmsis" name="#&amp;__MCC_Group_Parrent_id"/>
          <value>__ROOTVIEW</value>
@@ -141,21 +50,20 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;GraphSettings canvasHeight=&quot;492&quot; canvasWidth=&quot;963&quot; dnOrder=&quot;0&quot;/&gt;
-    &lt;ComponentGraph dnOrder=&quot;1&quot; id=&quot;__ROOTVIEW&quot;&gt;
+    &lt;ComponentGraph dnOrder=&quot;0&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
-        &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;HarmonyCore&quot; x=&quot;800&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;cmsis&quot; x=&quot;660&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;core&quot; x=&quot;560&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;dfp&quot; x=&quot;340&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;evsys&quot; x=&quot;180&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;lib_qtouch&quot; x=&quot;616&quot; y=&quot;196&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;6&quot; id=&quot;nvmctrl&quot; x=&quot;20&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;7&quot; id=&quot;ptc&quot; x=&quot;390&quot; y=&quot;252&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;8&quot; id=&quot;rtc&quot; x=&quot;394&quot; y=&quot;186&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;9&quot; id=&quot;sercom4&quot; x=&quot;391&quot; y=&quot;121&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;cmsis&quot; x=&quot;660&quot; y=&quot;20&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;core&quot; x=&quot;560&quot; y=&quot;20&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;dfp&quot; x=&quot;340&quot; y=&quot;20&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;evsys&quot; x=&quot;468&quot; y=&quot;53&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;lib_qtouch&quot; x=&quot;393&quot; y=&quot;345&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;nvmctrl&quot; x=&quot;659&quot; y=&quot;87&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;6&quot; id=&quot;ptc&quot; x=&quot;390&quot; y=&quot;252&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;7&quot; id=&quot;rtc&quot; x=&quot;394&quot; y=&quot;186&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;8&quot; id=&quot;sercom4&quot; x=&quot;391&quot; y=&quot;121&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
+    &lt;GraphSettings canvasHeight=&quot;529&quot; canvasWidth=&quot;773&quot; dnOrder=&quot;1&quot;/&gt;
   &lt;/UserData&gt;
 &lt;/UserData&gt;
 </value>
@@ -3928,7 +3836,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_jh_cpro\touch\touch_api_ptc.h</file>
-         <hash>3b7ece12e85feb8bdcd9e7f3be229a53d41c227ccc995ad8c2d1b316b62ad9f0</hash>
+         <hash>a3b740dc68183aefd6fad862be92255875e7e8fc235d11f00411b1127800fb3f</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\fuses.h</file>
@@ -3996,11 +3904,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_jh_cpro\touch\touch_example.c</file>
-         <hash>119f52cc6d6e6a4d31cdf4a38e8c282bbecf6cd319544df126826c9d3c61ad26</hash>
+         <hash>b12b6a2ac9a8cc12eb02228bb87ccc664b5ad22b3001f4c21c23cb3f7463a7a8</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_jh_cpro\touch\touch_example.h</file>
-         <hash>a73b2d1a09dde6d3a6e20d72d12382d4e8552e3a378ff9fc217ad578f18b13f4</hash>
+         <hash>e58c89edcd9cad6ac791bfeab116b67e57dd54baf9e7d26f90afa1c5083e874f</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\adc.h</file>
@@ -4156,7 +4064,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_jh_cpro\peripheral\port\plib_port.c</file>
-         <hash>a7590841bcfc291ccd62298a4f0744650599a0dbeba39a9413f4830a46e3a488</hash>
+         <hash>692975267f2903957e08829c719eb777b83ece0594ae9b6b7fd24d65b7a4b7d3</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\sercom0.h</file>
@@ -4332,7 +4240,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_jh_cpro\touch\touch.h</file>
-         <hash>ce1da1e82e1d476d6dacc749c341f52516ff4bcffec453d43bcacdc527a3d101</hash>
+         <hash>d0ee1e656bef018ea51538e4329ba35fc10245091d9089159e96ef12dad463ab</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\component\dsu.h</file>
@@ -4348,7 +4256,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_jh_cpro\touch\touch.c</file>
-         <hash>3a6e202551c4195f751ef7a33909ab4a5c382b0f2fb69a454ab601528f7b076a</hash>
+         <hash>afce448fade49ec76ab74a15cde5dc11a72181dd7cb066158c36a4431bedf3bc</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_jh_cpro\initialization.c</file>
@@ -4360,7 +4268,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_jh_cpro\touch\touchTune.h</file>
-         <hash>9c85cf2a47631d1f84953e31b36ee7c4bdee438f889bbbf2cab5c37c375167dc</hash>
+         <hash>31ab281dc2b1c84190451fb4aebd5b446a425be3a4b73fbabf81c855d1e86454</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164JH01100_DFP\instance\nvmctrl.h</file>
@@ -4404,7 +4312,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_jh_cpro\touch\touchTune.c</file>
-         <hash>05b4ee00993386b753573b12b428cdfe97f03da88a967bfd40646bbdcca73e6f</hash>
+         <hash>21db4d5f414167d6253fc2dafd26e0af6b5534f813fdc2c8774f62a8455af292</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_jh_cpro\exceptions.c</file>

@@ -1,4 +1,4 @@
-<config configName="sam_d20_xpro" projectName="sam_d20_xpro" configVersion="1.1" device="ATSAMD20J18" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.4">
+<config configName="sam_d20_xpro" projectName="sam_d20_xpro" configVersion="1.1" device="ATSAMD20J18" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.14">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -50,8 +50,7 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;GraphSettings canvasHeight=&quot;432&quot; canvasWidth=&quot;770&quot; dnOrder=&quot;0&quot;/&gt;
-    &lt;ComponentGraph dnOrder=&quot;1&quot; id=&quot;__ROOTVIEW&quot;&gt;
+    &lt;ComponentGraph dnOrder=&quot;0&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;cmsis&quot; x=&quot;660&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;core&quot; x=&quot;560&quot; y=&quot;20&quot;/&gt;
@@ -64,6 +63,7 @@
         &lt;ElementPosition dnOrder=&quot;8&quot; id=&quot;sercom3&quot; x=&quot;142&quot; y=&quot;179&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
+    &lt;GraphSettings canvasHeight=&quot;432&quot; canvasWidth=&quot;770&quot; dnOrder=&quot;1&quot;/&gt;
   &lt;/UserData&gt;
 &lt;/UserData&gt;
 </value>
@@ -4424,7 +4424,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d20_xpro\touch\touchTune.h</file>
-         <hash>9c85cf2a47631d1f84953e31b36ee7c4bdee438f889bbbf2cab5c37c375167dc</hash>
+         <hash>31ab281dc2b1c84190451fb4aebd5b446a425be3a4b73fbabf81c855d1e86454</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d20_xpro\touch\lib\qtm_touch_key_cm0p_0x0002.X.a</file>
@@ -4468,7 +4468,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d20_xpro\touch\touchTune.c</file>
-         <hash>4685d307491f0c204b4a11a1ad1354db9335ea48f136d6629acf3682d6d435fe</hash>
+         <hash>b833fe7bdf9ff0f78b6886274975979d54bc3d04e3523ed656c441a1843bc07c</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD20J18_DFP\component\eic.h</file>
@@ -4564,7 +4564,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d20_xpro\touch\touch.c</file>
-         <hash>9f03869bf01d92432c895fc0cc93c87b95e010470cf706c3dbae235af8a421fa</hash>
+         <hash>6139df2c9b17d41bf545b73905458d3061ff7c7936ddca2b884c149a00befef7</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD20J18_DFP\component\dsu.h</file>
@@ -4584,11 +4584,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d20_xpro\touch\touch.h</file>
-         <hash>d7041bf2b1788720db38904951dd274723756f0caf91bd6ae1dec6ad2bc84a1e</hash>
+         <hash>8d96aca1c0766d01ef703337c6310dad74a95e84d088c1d4efacb75cd8da4453</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d20_xpro\touch\touch_example.c</file>
-         <hash>119f52cc6d6e6a4d31cdf4a38e8c282bbecf6cd319544df126826c9d3c61ad26</hash>
+         <hash>b12b6a2ac9a8cc12eb02228bb87ccc664b5ad22b3001f4c21c23cb3f7463a7a8</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d20_xpro\peripheral\evsys\plib_evsys.c</file>
@@ -4648,7 +4648,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d20_xpro\touch\touch_api_ptc.h</file>
-         <hash>09badbafdea7acc500560fc075099a6f48ba73d760c34cba69a1dc9cbfc8f12d</hash>
+         <hash>9ce79f9681b59012a526e6f9c519357ac1577def8f1622b58a6fc75c69e22ac1</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d20_xpro\touch\lib\qtm_acq_samd20_0x000e.X.a</file>
@@ -4688,7 +4688,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d20_xpro\touch\touch_example.h</file>
-         <hash>a73b2d1a09dde6d3a6e20d72d12382d4e8552e3a378ff9fc217ad578f18b13f4</hash>
+         <hash>e58c89edcd9cad6ac791bfeab116b67e57dd54baf9e7d26f90afa1c5083e874f</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD20J18_DFP\component\ptc.h</file>

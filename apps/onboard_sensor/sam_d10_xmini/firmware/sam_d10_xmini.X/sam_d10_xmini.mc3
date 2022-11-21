@@ -1,4 +1,4 @@
-<config configName="sam_d10_xmini" projectName="sam_d10_xmini" configVersion="1.1" device="ATSAMD10D14AM" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.4">
+<config configName="sam_d10_xmini" projectName="sam_d10_xmini" configVersion="1.1" device="ATSAMD10D14AM" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.14">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -2640,7 +2640,11 @@
    <generatedFileHashHistoryMap class="java.util.HashMap">
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\pac2.h</file>
-         <hash>102a8ebed5f5c6f56109057aacec1d92b17f7525ea2a4eab6374b0f693cef512</hash>
+         <hash>0c63ea03a05e7d139edf8af071d2d0a50097340548113d0ef56946609a981d52</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMD10D14AM_DFP\instance\fuses.h</file>
+         <hash>43fd3292445fdd954f13ea7650e2bbcb0f5f35bce7b77df4cdaa1f30045afbab</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h</file>
@@ -2648,15 +2652,15 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\rtc\plib_rtc.h</file>
-         <hash>3f5128ecf37be1c17a65d6b4a5d1212096815311bf0033efd82e2b9014cb986e</hash>
+         <hash>a69dc754ef3896d6e371e4c8a9f623f3a848329f9a5786fbed963fa587257bb0</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\sercom.h</file>
-         <hash>7bf912f97082360fd57ee0b1ba8a61854271d821108a42601bb21d17673679f4</hash>
+         <hash>3fa4a4b12832757445b9c3f435836d634069d15d13f82e9e40cb7b45fd7b06bb</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\nvmctrl.h</file>
-         <hash>6f8657cab3675d37b44961bfb0348f20f74695f0b83da2bd06f29b05d1058299</hash>
+         <hash>6dde5f8e913a3d0873392351ab3bd2cf89833c4797b780f3685dce609a467a0d</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_gcc.h</file>
@@ -2664,7 +2668,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\clock\plib_clock.c</file>
-         <hash>43dc7ef12a89ca03f4cf2ec42ebe6c328bb52ab99eefb3a5183b3f58aa52d6ac</hash>
+         <hash>0d696782e30bb709714f1679f4a0e0380920486eb69f6bfc9737a567499185a5</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\nvic\plib_nvic.h</file>
@@ -2676,7 +2680,7 @@
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\sercom1.h</file>
-         <hash>a3b55359e7105619897d65677c5071b6ecbe63aa781c8abf7a6119fa09ed3fb6</hash>
+         <hash>c5f506b8fa143daede26516528af15ec3455f83e886edce6c7ceed8bb24e1eb4</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\touch\qtm_common_components_api.h</file>
@@ -2684,7 +2688,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\nvic\plib_nvic.c</file>
-         <hash>cf6b1385b188783ea8f3fb3733bd0ec896a093b1bd03316d9eae2e4fcfa9206e</hash>
+         <hash>bac9b131e383255d5c1a23af5cf81ec5a8c9c60cd6c32314725505e0e675bffc</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\device.h</file>
@@ -2692,7 +2696,7 @@
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\adc.h</file>
-         <hash>fbc6070ac82e74f25dfa8729f42bc7c6ef7fab16e71c0b6ae442e6624de42d07</hash>
+         <hash>2f2cd4cb5d105728ebfb61f576ebf1e36f0389b6dcbe47227ee9d219d6f61c6a</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\touch\lib\qtm_freq_hop_auto_cm0p_0x0004.X.a</file>
@@ -2700,15 +2704,15 @@
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\tcc0.h</file>
-         <hash>1c5eaf9f56146afa6e72797ddc82d6b2f115967c09b0186856c409b23f9d0604</hash>
+         <hash>1bb4f10da88279381ed558c232dc8dda25abd26478eeb989349bedcf487680f5</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\sercom\usart\plib_sercom0_usart.c</file>
-         <hash>e87f24e327c8ab8aca0cf15214a7f23c1b61c66fe1dd237739818f1d32828633</hash>
+         <hash>6dcbaf2469e08f5a537b839fbd3f44737cd3a05496194612cceb922ba03cdbcc</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\sercom\usart\plib_sercom0_usart.h</file>
-         <hash>0fc1c409bd6652c8c5157bdb180093e4176e249f1d3348d2105302a223c111a5</hash>
+         <hash>b92d5b8f35de50940c3ba193bd69b79e06ea4ab1c72fc2f62227b176f087f1f5</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\core_cm0plus.h</file>
@@ -2716,31 +2720,31 @@
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\sysctrl.h</file>
-         <hash>ad6352d7b7489030e0564e87be62ac1dbcc273b004e80cb72ccfec027ff22bb4</hash>
+         <hash>2234955091c08a8affde6e59b85132733786a6e7104cd4cbc30ac550d00aa087</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\ac.h</file>
-         <hash>79156af47901dd2149d8a27971aa96129c3348834c9a078378d3a815ab1efe55</hash>
+         <hash>67ed96f5853a44f53fe6f24deb484a3ce4d1a26352ff8994b89021a86f2f6e33</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\evsys.h</file>
-         <hash>be988f8ca04d2e78e408d9d5231b5e62107cf2fee889cb4fb2f2b768eddfd029</hash>
+         <hash>9643e954bd6bb55ad7d806e1a1f5081a34707366abaaab619064b6ef416080b3</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\startup_xc32.c</file>
-         <hash>0daa92ab227c2d0b2746b14b920680c58690c4f3ade28ae6cef46927b7e413fd</hash>
+         <hash>d7ba451f4fffc267a5da6a83377b2b935a88cd73342f8a1f38ea8c39a86d963f</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\dac.h</file>
-         <hash>3bbf13e1789a73f2d967c28cd3930a03c6722a8957ce90e9b9b1e6ed07b9db63</hash>
+         <hash>40efc0ccd349021e9ec8f55d0e8fd298527b5e0df1ab78188cf45dbe5aa6026b</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\nvmctrl.h</file>
-         <hash>a1981f37a8a332e76a130e48cb543c7b21995a798cd4b224e541d9ecb1e2d92f</hash>
+         <hash>409fdd6a41b176c9a2ac970f45aa6820cee7e4ba56a23f560edbe07148700125</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\ATSAMD10D14AM.ld</file>
-         <hash>4d4b41b56d5526c20d0e6c6573ae3c5add971fe69f35b61a01b2e16aada6978d</hash>
+         <hash>c8496f629b23d64812c60c31c13598c47bcdfeeb142ee9ada403dadd350c2086</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\touch\lib\qtm_acq_samd10_0x0009.X.a</file>
@@ -2748,15 +2752,15 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\initialization.c</file>
-         <hash>e5c63d5dcb3d3986ac46e198284692b7db0470759b8714fea15c6d9399128526</hash>
+         <hash>3918c6b2ec705f186e8f55b977cb56f8aa8b8cccad292fead594251d2f0d6f3b</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\pm.h</file>
-         <hash>38579a5eacca2634c3a3f42e7dfa799a7c4667c3e2631591efe881e0957ddebd</hash>
+         <hash>427b09f1cb0efda26ff73da7a20b2707c822487d13286a854b7358bcd3efec84</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\rtc.h</file>
-         <hash>9564a83ad867e9ae633a44322bb76e597ac5a8e2cf7c5612bf1f31f9cf5319e1</hash>
+         <hash>f216fbadd0bb9e41c7e7a1aaefc2c179b66f47c0447a59ed4f78560eb1087c9d</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv7.h</file>
@@ -2764,11 +2768,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\touch\touch.c</file>
-         <hash>47531f4dcf5e5d5725cc9f6ba6250542413553529d31e749416b99120af603d8</hash>
+         <hash>8ee84c36dbeb65198b788aab72c37fbe837df81497f9d659bddc5130e9ce2976</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\sercom0.h</file>
-         <hash>ca8c01f156b57bf80987e4ac2acbf98cd3b1ab96bff74396f125422f3fa0c3a7</hash>
+         <hash>814d844895701b4064bc5093e39802e57a690abe0fe50f2d0198c552fd2dd93e</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h</file>
@@ -2780,27 +2784,27 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\touch\touch.h</file>
-         <hash>b2c9375c974e167230a7077174e5f87d06ae651e62f08484a24b68be0e162792</hash>
+         <hash>274039df2486837da93afa04bc9c382105f8abe253cb28d4478fb9d980d63230</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\eic.h</file>
-         <hash>07516861458db7177f8f047dd1b851ac64ea28cf1eacd2bd41b8edb8988e8769</hash>
+         <hash>bb7336072cc8411dfbdb7a8c5067712369ad5f5ebe6014eaafaba53aab83bc42</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\ptc.h</file>
-         <hash>28bd2b9f52152cba129b38b74fa831fcd24aef100c3993827059ae83d65a0192</hash>
+         <hash>dc0868daa30b7a817ae8aa8ea67fc2c5fe4bca609bad467d76faf27959f75af4</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\port\plib_port.c</file>
-         <hash>87756d2e6030d5473ca635fb736bfa552c60c5da9a9196c2f69aee02eae63394</hash>
+         <hash>44bd49100b64fa7547fb3e11da9427a6b1ad53f897a9cbf89e0cc7e2e8c5c43f</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
-         <hash>5f22a98af6f1aa745b41195472e69df58c460da55f7bca08e991dc9f8f04927d</hash>
+         <hash>1dbf674e2bc9708afe2cacc75141707c42b89f166e0f1d6f81c04b1b2fa166b8</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\sysctrl.h</file>
-         <hash>bc8714f678173f2382a049dea62284948957a6c171cdc60beae964070c99d714</hash>
+         <hash>ca8459cac3fd38d74806b6e64a803296523ac17f9b1e3487cb719ea3c0b419bb</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang.h</file>
@@ -2812,15 +2816,15 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\port\plib_port.h</file>
-         <hash>f9121980e259719e03e25862f324a481c17a2c1602899b28f5208624a7e71910</hash>
+         <hash>0f6ace70a33cdfb41ddfc72011279628354e00753b77340c43374c2e7bb93634</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\pio\samd10d14am.h</file>
-         <hash>8dac2f15406613ce29fb639fd621591abb36fbf2739d3b265e7acc3932051e20</hash>
+         <hash>1dffb669d1717197e632343d64de705d1c80ddf0ee71a258a9db5d8ad6880104</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\exceptions.c</file>
-         <hash>bfd108301928495d78fb40a7ff9ca1f0f1e82b2e3fbf62733a587a3159c48393</hash>
+         <hash>b850253aacaae1bddfcb426c2dc11e0688900afffe9b22c60d0ab16298701118</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h</file>
@@ -2828,19 +2832,19 @@
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\gclk.h</file>
-         <hash>ae67b75231b08046bb3589a791eb8af49110c3f8bd4173be0cdaea1a1dd48e4d</hash>
+         <hash>1a8e7bfc70f7095838d034e1d520258a84aefa4f6f5f7548558ea2efb25bcfd9</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\hmatrixb.h</file>
-         <hash>9317ffb4daa83474c26283c83b0e479e65541497934f834c152c431089bc83cd</hash>
+         <hash>f66ed500d1a14cbc849556fa8637c38ac59a723d1a5d0b12272ce72f29304b88</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\dac.h</file>
-         <hash>ce98cff99c04168f920c6872e0b814d4730a2448fd8bdd9778d309a2ee3a725e</hash>
+         <hash>368801c21ab703d6f020b03edaaab25eb4fa358c2bb364a8adbc48172db48006</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\stdio\xc32_monitor.c</file>
-         <hash>26e5749db654ed433fd94f6c732ef8600d0cbf5196493374cf111877c02b694e</hash>
+         <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\device_cache.h</file>
@@ -2852,31 +2856,31 @@
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\tcc.h</file>
-         <hash>6711b57636c3dcbf83bf822ddf4c73cec6b604f67629c63c3f3ca4ca77ad5df5</hash>
+         <hash>10f4d25d58eea3b448ff7ab6cc9d9303e9e25296a64cf1538d0843b27df182a1</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\pac.h</file>
-         <hash>918293c0bbf18456732d4408745469f9a2c2e6c865f36cd4f3616911995f8abb</hash>
+         <hash>583fcf883f2f04c75a4e82ea5017d528eb417a42e46b0ec6a99fff046cbdc57c</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\dsu.h</file>
-         <hash>1906cadfbcbcd24aa045334ac7afd058dba5a8f0bcd0851d20e5be96151216c2</hash>
+         <hash>fc6f9bf0690d19ab30af4b5bdd37752226e66341520ce6d1dd06bb909f1c4493</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\sbmatrix.h</file>
-         <hash>4f4023f36d2c9ed1d8a4504e3b429910b7a2435ab9f16f1d5f019691d14e6cba</hash>
+         <hash>7f929c36a0cfe32431a61f5d90664242801abfac729c7d6ae8780e32cf4b43b8</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\pac0.h</file>
-         <hash>bf198262a336d884560080ad9825a4e4d876d1ad19ed194003d85c8dd7302d44</hash>
+         <hash>d72cfb06dae44a4775300ed3140cf97015ee6d69bbc5021ba755823220878d0e</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\tc1.h</file>
-         <hash>5673ac66d511a48ee87366522b8556fbdc30ee7ad243f3551087df69174d0015</hash>
+         <hash>43e8329c90a32c6a566c9b2bd1dba16817b7dccbfa218299a7feddfecf47420d</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\pm.h</file>
-         <hash>8d717d8030808b0c04b36d25bcba9bc2794db151d51f63a3bedb66c9ca0b0683</hash>
+         <hash>fb5d50650368fb143380dcb3d013feb7203cafd040d05ed0e1922e381894902e</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\touch\datastreamer\03EB00000000000000AA5501.sc</file>
@@ -2884,35 +2888,39 @@
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\ac.h</file>
-         <hash>2fbaa13a841d33260c828415a60c34d1230e7db4c4137bbcd7a98281438c2b8b</hash>
+         <hash>e9af21996998bed282cbc44385075965060cef5eab82ac959632748d077bb5d0</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMD10D14AM_DFP\component\fuses.h</file>
+         <hash>b5f127a07f695242b4ac30734d5eddc8de7fa3e26620bbcb68be5add87245719</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\nvmctrl\plib_nvmctrl.h</file>
-         <hash>792fa6cae12cf2f543d756f79ca4ff2ea666f3a7c6cb300feba8314be47c4315</hash>
+         <hash>a10c9385ab1460929c8d9efdbd3ee8e491051546a6e08c5dbf7767300235ebcd</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\port.h</file>
-         <hash>cd0deeb21620c8b6a9556cc840b43d96d42b4ced963e10dfe8fb7897fff13b8d</hash>
+         <hash>0addce36fa92a3b3b6b751c4c60e7c2f592a9ed32fefd5c5b780a318a584b280</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\touch\touch_api_ptc.h</file>
-         <hash>aca80636f5a080f238f4ece1c77f26b51fca99f13ce0a57b2130635513097448</hash>
+         <hash>f629b2fd5ba9fc497040a94c546c2bcb350e471e9a9f9a12496de670d96bc8bd</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\mtb.h</file>
-         <hash>6ee64ba6701fcacebf3f9e1689027550ae97d44ee7ddd9e984e9e9973db4f9bf</hash>
+         <hash>70ad1b89d7ee72f6c110e7dc8b9610934de925ebd7e1be426bb20312953ecb55</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\nvmctrl\plib_nvmctrl.c</file>
-         <hash>749e28a04682dd3f474b34d13d5bccfd8af576ef572086a3b51518f3a2a446ad</hash>
+         <hash>ec79234a2c1a1a51140b4cdd9146d4cb0bc13a5c164a8374bfe1a0d70f114709</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\tc.h</file>
-         <hash>38516251249324c0e629e76fb79e32694c816ec6b54c372262246d50860717c9</hash>
+         <hash>e6c75b645ee4d866addcc27eaa9874b7e897016755ff958cf6778cd5df348962</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\rtc.h</file>
-         <hash>23278a9efe0975a2381407e77b8aa7f19e2c062145cb4e2dc13e5abd3dd70655</hash>
+         <hash>34d96d4393e9cb38c31420f48b2e6464db220046f7dbacc40b7be100e334553b</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_version.h</file>
@@ -2924,7 +2932,7 @@
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\wdt.h</file>
-         <hash>a39bdf2751387adcd4d016947ca2580513768aff4a9c190eaa926849358213af</hash>
+         <hash>29707d439a3e23f04025fe6aa30c1eeb3fe8dd2cc8bd9167d7a6f113c77cc3a4</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\touch\qtm_touch_key_0x0002_api.h</file>
@@ -2932,7 +2940,7 @@
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\evsys.h</file>
-         <hash>337b8f3ece7088917d06c8b8061c26039e2901450e88f211bc98e3fbb0b8c75b</hash>
+         <hash>ec3ea7d6dbf68d2112d4e3104e755ebd2452f5afbead4bea0e432a154aea522a</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\touch\datastreamer\datastreamer.h</file>
@@ -2940,11 +2948,11 @@
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\adc.h</file>
-         <hash>24416594a75c054ebbec17e77b2758ce3a5815e462e6e34e323e46e43b8bd925</hash>
+         <hash>4ccc29f562f296d36d21b75c67afe6c66e3b0326ca3a5a71e6677a60464bfae6</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\ptc.h</file>
-         <hash>053eaf53b9b0293cc44d2265181094d699239aeb167d5e9680c5a7c13c2bbbe3</hash>
+         <hash>fb9e1c1c7c22b588eb8e14652b1df89aaf66f44518ed12679f98aa5806894fa1</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\touch\qtm_freq_hop_auto_0x0004_api.h</file>
@@ -2952,15 +2960,15 @@
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\gclk.h</file>
-         <hash>1126a9465d1a2539a5a8a4ca877a5cf62f72b6c32418994219f1368836154aa3</hash>
+         <hash>a14cc0b2d335ffbb388a821165d6ad4c1e60da62d4d12374061fc4ec1be083bc</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\device_vectors.h</file>
-         <hash>5777b46d54e81c6991b4e4fb56e29a426196492c1a0b130653883ea23fd2b8b3</hash>
+         <hash>0db7460236357139684ff7ed0506430412b44be9ba78a3d54547769b56801d6d</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\touch\datastreamer\datastreamer_UART_sam.c</file>
-         <hash>46d5945c24ffa23f60d9a1f3e3658a10486721b18ec2fb6f38381556951509a4</hash>
+         <hash>79f63ff870d6d454697cfe309e6354c63a7ccc01c004d10cfcc207c426ed09a4</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\touch\lib\qtm_touch_key_cm0p_0x0002.X.a</file>
@@ -2972,7 +2980,7 @@
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\dmac.h</file>
-         <hash>875fab9c032655eb751dfd0ed2ba6691f3b86933bf20a61fb8e1140781595216</hash>
+         <hash>258868aac3f9a072e76ab897f08494c0c2b29773cf6c8b6a81bf1614792d5af1</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang_ltm.h</file>
@@ -2980,35 +2988,39 @@
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\pac1.h</file>
-         <hash>7eaf425f13ba37697c45a919d98ac6367fad18d51cc3ea287096a6e50ce761df</hash>
+         <hash>46f41387dc202d6630f87c91dff1fbe590dc2681c38c38671ea8f602fe6b29a3</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\tc2.h</file>
-         <hash>39035a402cc59678966506e50452083b254db907f36ef4a4ec6192ca562f0833</hash>
+         <hash>58b041482016c2c161bab78f1614ee049b6d49cad323bc6772a64dba23cbfcef</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\wdt.h</file>
-         <hash>4ce40a0aabfa89bb19457038f0ca3dc86a3c89434055b6af270c6f075714adb4</hash>
+         <hash>a0c42c0968a598ebf36ed1a43fd6bffc0d93e0269c67d09b0e029c3284281c79</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\rtc\plib_rtc_timer.c</file>
-         <hash>32d95aa5a62511c282b20f37d6fc33f4b7f95b00019d6183e3f5a4f9c443cf57</hash>
+         <hash>e131cab6ab1bcc3b8b3569704d52c2081a528b0707c4b1773addba6e9f5535c1</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\sercom2.h</file>
-         <hash>58f51c7d2f219e5ebad540098d2245f067eaa71fb8a517d58b7737a3273c0ec4</hash>
+         <hash>21ce69adbc05c92e65dc2ff82aa9549bf8359c3915fdbaa513282d21e10ca617</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\interrupts.c</file>
-         <hash>2ad00b8c6b2487fc26babf0693b21622e3640260b1e94f2ed2bcadd6fc7609a6</hash>
+         <hash>01267d89008bdc5513f37a048f5456b16bb69619bb3dc27f8b4db90bf3a4ca74</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\touch\touch_example.c</file>
-         <hash>2015cee5018a42d9e93afa9c696d534a7f6fc65f5050d26c10c0e756914ef072</hash>
+         <hash>c130acbb8c4ad4b744690f87349e14afcc3b6e6e07f6de62f956b403f21939db</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\sam_d10_xmini\pin_configurations.csv</file>
+         <hash>efeb85e21513c583c511b01ff21fb0bcff4d64651175c2ef0a9eebdf4717a33b</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\mtb.h</file>
-         <hash>176793877f6fe1c5d2a11de517df275a6512a4d3926d50c51173493f874f8851</hash>
+         <hash>918ada31eaf1af5223ee465a736526c96a36accc6f51a485f4ddfdfad307711d</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\evsys\plib_evsys.h</file>
@@ -3016,7 +3028,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\definitions.h</file>
-         <hash>51bef4d52f72fe24a5b4336e6a5a303306b593d4f640c9407325c6db0599b37c</hash>
+         <hash>1af08e403cdb3aa87774343c143c4bed0355050d4bf70b01915f8cf03a333ee8</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\interrupts.h</file>
@@ -3024,7 +3036,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\touch\touch_example.h</file>
-         <hash>193e37834d939133f3d4da1439db7ae484f48dbf20db40373ae1ea232070e0b2</hash>
+         <hash>e58c89edcd9cad6ac791bfeab116b67e57dd54baf9e7d26f90afa1c5083e874f</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\evsys\plib_evsys.c</file>
@@ -3036,27 +3048,27 @@
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\dsu.h</file>
-         <hash>f5e99e3dc9ab52c14ad48141dc4651e277bd8b7aa1fe937a2541f79b3e2dcbda</hash>
+         <hash>a7df7fe3ee3a1f5ac7de7ad1551922f05752a20de39388ee2eace5c0a10d49ef</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\samd10d14am.h</file>
-         <hash>ab1d72c1839ee4f027c9b1b56b6e4e925a6a6defa880985774c82aef21512664</hash>
+         <hash>5ee4d37579c36973fef1369a64486526ab826314ca75543aec27ba0657d4878f</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\dmac.h</file>
-         <hash>a918cb159f1a2d0a0d544ba4cc340eef92b51c2aec3320506fdc972775a09cb1</hash>
+         <hash>3b184a9c11792205cfef2129ff95a931af3d07ec3c1dddf0ffaaf8fe302e29fd</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\libc_syscalls.c</file>
-         <hash>ff03e955db4f7bb775c7989bc2254553698f3d921e9885caac347ccd118e55d7</hash>
+         <hash>88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\eic.h</file>
-         <hash>715d71b221b3e06bf0e9b95d7ed54c3c4ccddbc055639e9f350fb315ed36afc9</hash>
+         <hash>11f9ea80f1cd543591ccfd171dcbddbaf05a5c5275d11e1ecfe7ae4400c42ede</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\port.h</file>
-         <hash>2f8f5b456247744a801d7b431976da9c3a6c000ec9da299d2e96132ba39ac2d9</hash>
+         <hash>6d27fcacd0b5b82ec767eddfb17707a9c51f11d5df0ee8208e512753f250f6b1</hash>
       </entry>
    </generatedFileHashHistoryMap>
 </config>

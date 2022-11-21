@@ -1,4 +1,4 @@
-<config configName="pic32cm_LE00_cpro" projectName="pic32cm_LE00_cpro" configVersion="1.1" device="PIC32CM5164LE00100" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.4">
+<config configName="pic32cm_LE00_cpro" projectName="pic32cm_LE00_cpro" configVersion="1.1" device="PIC32CM5164LE00100" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.14">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -54,8 +54,7 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;GraphSettings canvasHeight=&quot;351&quot; canvasWidth=&quot;853&quot; dnOrder=&quot;0&quot;/&gt;
-    &lt;ComponentGraph dnOrder=&quot;1&quot; id=&quot;__ROOTVIEW&quot;&gt;
+    &lt;ComponentGraph dnOrder=&quot;0&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;cmsis&quot; x=&quot;740&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;core&quot; x=&quot;640&quot; y=&quot;20&quot;/&gt;
@@ -69,6 +68,7 @@
         &lt;ElementPosition dnOrder=&quot;9&quot; id=&quot;sercom3&quot; x=&quot;68&quot; y=&quot;93&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
+    &lt;GraphSettings canvasHeight=&quot;351&quot; canvasWidth=&quot;853&quot; dnOrder=&quot;1&quot;/&gt;
   &lt;/UserData&gt;
 &lt;/UserData&gt;
 </value>
@@ -2998,11 +2998,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_LE00_cpro\touch\touchTune.c</file>
-         <hash>51d19b0d1fc4b0634ae79b123411f69447c0aed9f40ee2787dd45204abb3a615</hash>
+         <hash>b7d6f309dd7c030bcc54ff7b1d38c5c126197019319d0cf0570051308137b746</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_LE00_cpro\touch\touchTune.h</file>
-         <hash>9c85cf2a47631d1f84953e31b36ee7c4bdee438f889bbbf2cab5c37c375167dc</hash>
+         <hash>31ab281dc2b1c84190451fb4aebd5b446a425be3a4b73fbabf81c855d1e86454</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_LE00_cpro\interrupts.h</file>
@@ -3086,7 +3086,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_LE00_cpro\definitions.h</file>
-         <hash>fa4ca989e2d9ee6d6512b183918e331ff4b4b2bd0a3499c3118d7250b8fdd550</hash>
+         <hash>42264c73c1a843880b1651eaebb85c93e519c66cb60c512e78b031df18f7f0d9</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\i2s.h</file>
@@ -3353,12 +3353,12 @@
          <hash>6c332dd1c15ef2a85610006f99d283da5b6142377ff37ad2de2a2a9ab50f77cd</hash>
       </entry>
       <entry>
-         <file>..\src\config\pic32cm_LE00_cpro\peripheral\pm\plib_pm.c</file>
-         <hash>298850e9d54d237f93b16abca226d64f1db961004ab900ba052fb3cba31af461</hash>
-      </entry>
-      <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\ac.h</file>
          <hash>310bba7b271e67fed57ff677b3127c2d2679e34b0cb7a912c2f62ae9b080f235</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32cm_LE00_cpro\peripheral\pm\plib_pm.c</file>
+         <hash>298850e9d54d237f93b16abca226d64f1db961004ab900ba052fb3cba31af461</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\sercom.h</file>
@@ -3394,11 +3394,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_LE00_cpro\touch\touch.h</file>
-         <hash>0067544d93945e2d1a964dc83f668ae60b3146daa57a84083ddaf73fafb4cd6e</hash>
+         <hash>ab451e84e6a3a2e3380be0ff049af0fd22cfd23603bf1493decf6ac5966300cf</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_LE00_cpro\touch\touch_example.c</file>
-         <hash>a9e569ebaa95b0a2cae92d6906be35331e3d02964bfec78a338915dad3e2bcc0</hash>
+         <hash>e8613e601e0aa40ed508610c994ab6b6885d1cf3140a2f39ea03f7e863103546</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\mclk.h</file>
@@ -3406,7 +3406,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_LE00_cpro\touch\touch_api_ptc.h</file>
-         <hash>4cc38193f913b2ee20e6b24335aee9106d02dac703c9a07c00b085d94fe51ada</hash>
+         <hash>2c85630fe9fdab25cc5612dde533bca9bc1625968f4d98cf9665d5a284432800</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\sercom3.h</file>
@@ -3418,11 +3418,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_LE00_cpro\touch\touch.c</file>
-         <hash>cacc6e80bfddbbdc3137f67bf713bd35aa21ad2a548c3d4ae1e737e9db9fad7f</hash>
+         <hash>34ebc0a50288272a5ed56cd5fbfaeaf51d97d6511fab2b82b0e03e3c0ee4dec7</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_LE00_cpro\touch\touch_example.h</file>
-         <hash>a73b2d1a09dde6d3a6e20d72d12382d4e8552e3a378ff9fc217ad578f18b13f4</hash>
+         <hash>e58c89edcd9cad6ac791bfeab116b67e57dd54baf9e7d26f90afa1c5083e874f</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_LE00_cpro\toolchain_specifics.h</file>

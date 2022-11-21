@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.12.1 Release
+  Touch Library v3.13.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -105,7 +105,7 @@ typedef struct  __attribute__((packed)) {
 #define DEBUG_DATA_FREQ_HOP_LEN (sizeof(tuneFreqData_t))
 #endif
 
-extern qtm_acq_pic32cm_node_config_t ptc_seq_node_cfg1[DEF_NUM_CHANNELS] ;
+extern qtm_acq_pic32cm_node_config_t ptc_seq_node_cfg1[DEF_NUM_CHANNELS];
 extern qtm_touch_key_data_t         qtlib_key_data_set1[DEF_NUM_CHANNELS];
 extern qtm_touch_key_config_t       qtlib_key_configs_set1[DEF_NUM_CHANNELS];
 extern qtm_touch_key_group_config_t qtlib_key_grp_config_set1;
