@@ -1,0 +1,14 @@
+format_version: v1.0
+configName: sam_d20_xpro
+folderName: sam_d20_xpro
+frameworkPath: E:\work\harmony\h3_bitbucket
+processor: ATSAMD20J18
+projectName: sam_d20_xpro
+settings:
+  PackageFilter: ''
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: dev_packs\arm\CMSIS\5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: dev_packs\Microchip\SAMD20_DFP\3.6.112\samd20\atdf\ATSAMD20J18.atdf

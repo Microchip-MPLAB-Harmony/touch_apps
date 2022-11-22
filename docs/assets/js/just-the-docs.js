@@ -2,7 +2,7 @@ var myVariable = `
 {"0": {
     "doc": "QT7 Xplained Pro Touch Examples",
     "title": "QT7 Xplained Pro Touch Examples",
-    "content": "The following table provides links to documentation on how to build and run the touch example project on different development kits . | Development Kit | . | SAML10 Xplained Example Development Board | . | PIC32CM LE Curiosity Pro Example Development Board | . ",
+    "content": "The following table provides links to documentation on how to build and run the touch example project on different development kits . | Development Kit | . | SAML10 Xplained Example Development Board | . | PIC32CM LE Curiosity Pro Example Development Board | . | PIC32CM JH Curiosity Pro Example Development Board | . | PIC32CZ CA Curiosity Ultra Example Development Board | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/readme.html#qt7-xplained-pro-touch-examples",
     "relUrl": "/apps/qt7_selfcap_xpro_board/readme.html#qt7-xplained-pro-touch-examples"
   },"1": {
@@ -138,822 +138,882 @@ var myVariable = `
     "url": "http://localhost:4000/touch_apps/apps/microchip_touch_bridge/docs/readme_bridge.html",
     "relUrl": "/apps/microchip_touch_bridge/docs/readme_bridge.html"
   },"23": {
-    "doc": "PIC32CM LE Curiosity Pro",
-    "title": "PIC32CM LE Curiosity Pro Sensor Example using T10 Xplained Pro Mutual",
-    "content": "Path of the application within the repository is apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/ . To build the application, refer to the following table and open the project using its IDE. ",
-    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#pic32cm-le-curiosity-pro-sensor-example-using-t10-xplained-pro-mutual",
-    "relUrl": "/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#pic32cm-le-curiosity-pro-sensor-example-using-t10-xplained-pro-mutual"
+    "doc": "PIC32CM JH Curiosity Pro",
+    "title": "PIC32CM JH Curiosity Pro Example using QT7 Xplained Pro",
+    "content": "Path of the application within the repository is apps/qt7_selfcap_xpro_board/pic32cm_jh_cpro/ . To build the application, refer to the following table and open the project using its IDE. ",
+    "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/pic32cm_jh_cpro/readme_pic32cm_JH_cpro.html#pic32cm-jh-curiosity-pro-example-using-qt7-xplained-pro",
+    "relUrl": "/apps/qt7_selfcap_xpro_board/pic32cm_jh_cpro/readme_pic32cm_JH_cpro.html#pic32cm-jh-curiosity-pro-example-using-qt7-xplained-pro"
   },"24": {
-    "doc": "PIC32CM LE Curiosity Pro",
-    "title": "Touch Application",
-    "content": "| Project Name | Description | . | t10_mutualcap_xpro_board/pic32cm_LE00_cpro/pic32cm_LE00_cpro.X | MPLABX Project for PIC32CM LE Curiosity Pro Evaluation Kit | . |   |   | . ",
-    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#touch-application",
-    "relUrl": "/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#touch-application"
-  },"25": {
-    "doc": "PIC32CM LE Curiosity Pro",
-    "title": "Setting up the hardware",
-    "content": ". | Connect T10 Xplained Pro Extension Kit to PIC32CM LE Curiosity Pro Evaluation Kit on extension header EXT1 &amp; EXT2 | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
-    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#setting-up-the-hardware",
-    "relUrl": "/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#setting-up-the-hardware"
-  },"26": {
-    "doc": "PIC32CM LE Curiosity Pro",
-    "title": "Running the Application",
-    "content": ". | Open the application project pic32cm_LE00_cpro.X in the IDE | Build the project and program the target board | . ",
-    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#running-the-application",
-    "relUrl": "/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#running-the-application"
-  },"27": {
-    "doc": "PIC32CM LE Curiosity Pro",
-    "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
-    "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
-    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
-    "relUrl": "/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
-  },"28": {
-    "doc": "PIC32CM LE Curiosity Pro",
-    "title": "PIC32CM LE Curiosity Pro",
-    "content": ". ",
-    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html",
-    "relUrl": "/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html"
-  },"29": {
-    "doc": "PIC32CM LE Curiosity Pro",
-    "title": "PIC32CM LE Curiosity Pro Onboard Sensor Example",
-    "content": " ",
-    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#pic32cm-le-curiosity-pro-onboard-sensor-example",
-    "relUrl": "/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#pic32cm-le-curiosity-pro-onboard-sensor-example"
-  },"30": {
-    "doc": "PIC32CM LE Curiosity Pro",
-    "title": "Downloading and building the application",
-    "content": "Path of the application within the repository is apps/onboard_sensor/pic32cm_le00/ . To build the application, refer to the following table and open the project using its IDE. ",
-    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#downloading-and-building-the-application",
-    "relUrl": "/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#downloading-and-building-the-application"
-  },"31": {
-    "doc": "PIC32CM LE Curiosity Pro",
+    "doc": "PIC32CM JH Curiosity Pro",
     "title": "Hardware Setup",
-    "content": ". | Project uses PIC32CM LE Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
-    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#hardware-setup",
-    "relUrl": "/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#hardware-setup"
-  },"32": {
-    "doc": "PIC32CM LE Curiosity Pro",
+    "content": ". | Connect QT7 Xplained Pro Extension Kit to PIC32CM JH Curiosity Pro Evaluation on extension header EXT1 . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/pic32cm_jh_cpro/readme_pic32cm_JH_cpro.html#hardware-setup",
+    "relUrl": "/apps/qt7_selfcap_xpro_board/pic32cm_jh_cpro/readme_pic32cm_JH_cpro.html#hardware-setup"
+  },"25": {
+    "doc": "PIC32CM JH Curiosity Pro",
     "title": "Running The Application",
-    "content": ". | Open the application project pic32cm_LE00_cpro.X in the IDE | Build the project and program the target board | . ",
-    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#running-the-application",
-    "relUrl": "/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#running-the-application"
-  },"33": {
-    "doc": "PIC32CM LE Curiosity Pro",
+    "content": ". | Open the application project /firmware/pic32cmjh_curiosity_pro.X in the IDE | Build the project and program the target board | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/pic32cm_jh_cpro/readme_pic32cm_JH_cpro.html#running-the-application",
+    "relUrl": "/apps/qt7_selfcap_xpro_board/pic32cm_jh_cpro/readme_pic32cm_JH_cpro.html#running-the-application"
+  },"26": {
+    "doc": "PIC32CM JH Curiosity Pro",
     "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
     "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
-    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
-    "relUrl": "/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
-  },"34": {
-    "doc": "PIC32CM LE Curiosity Pro",
-    "title": "PIC32CM LE Curiosity Pro",
+    "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/pic32cm_jh_cpro/readme_pic32cm_JH_cpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
+    "relUrl": "/apps/qt7_selfcap_xpro_board/pic32cm_jh_cpro/readme_pic32cm_JH_cpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
+  },"27": {
+    "doc": "PIC32CM JH Curiosity Pro",
+    "title": "PIC32CM JH Curiosity Pro",
     "content": ". ",
-    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html",
-    "relUrl": "/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html"
-  },"35": {
+    "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/pic32cm_jh_cpro/readme_pic32cm_JH_cpro.html",
+    "relUrl": "/apps/qt7_selfcap_xpro_board/pic32cm_jh_cpro/readme_pic32cm_JH_cpro.html"
+  },"28": {
     "doc": "PIC32CM LE Curiosity Pro",
     "title": "PIC32CM LE Curiosity Pro Example using QT7 Xplained Pro",
     "content": "Path of the application within the repository is apps/qt7_selfcap_xpro_board/pic32cm_le00_cpro/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#pic32cm-le-curiosity-pro-example-using-qt7-xplained-pro",
     "relUrl": "/apps/qt7_selfcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#pic32cm-le-curiosity-pro-example-using-qt7-xplained-pro"
-  },"36": {
+  },"29": {
     "doc": "PIC32CM LE Curiosity Pro",
     "title": "Hardware Setup",
     "content": ". | Connect QT7 Xplained Pro Extension Kit to PIC32CM LE Curiosity Pro Evaluation Kit on extension header EXT1 . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#hardware-setup",
     "relUrl": "/apps/qt7_selfcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#hardware-setup"
-  },"37": {
+  },"30": {
     "doc": "PIC32CM LE Curiosity Pro",
     "title": "Running The Application",
     "content": ". | Open the application project pic32cm_LE00_cpro.X in the IDE | Build the project and program the target board | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#running-the-application",
     "relUrl": "/apps/qt7_selfcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#running-the-application"
-  },"38": {
+  },"31": {
     "doc": "PIC32CM LE Curiosity Pro",
     "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
     "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
     "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
     "relUrl": "/apps/qt7_selfcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
-  },"39": {
+  },"32": {
     "doc": "PIC32CM LE Curiosity Pro",
     "title": "PIC32CM LE Curiosity Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html",
     "relUrl": "/apps/qt7_selfcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html"
+  },"33": {
+    "doc": "PIC32CM LE Curiosity Pro",
+    "title": "PIC32CM LE Curiosity Pro Onboard Sensor Example",
+    "content": " ",
+    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#pic32cm-le-curiosity-pro-onboard-sensor-example",
+    "relUrl": "/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#pic32cm-le-curiosity-pro-onboard-sensor-example"
+  },"34": {
+    "doc": "PIC32CM LE Curiosity Pro",
+    "title": "Downloading and building the application",
+    "content": "Path of the application within the repository is apps/onboard_sensor/pic32cm_le00/ . To build the application, refer to the following table and open the project using its IDE. ",
+    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#downloading-and-building-the-application",
+    "relUrl": "/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#downloading-and-building-the-application"
+  },"35": {
+    "doc": "PIC32CM LE Curiosity Pro",
+    "title": "Hardware Setup",
+    "content": ". | Project uses PIC32CM LE Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
+    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#hardware-setup",
+    "relUrl": "/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#hardware-setup"
+  },"36": {
+    "doc": "PIC32CM LE Curiosity Pro",
+    "title": "Running The Application",
+    "content": ". | Open the application project pic32cm_LE00_cpro.X in the IDE | Build the project and program the target board | . ",
+    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#running-the-application",
+    "relUrl": "/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#running-the-application"
+  },"37": {
+    "doc": "PIC32CM LE Curiosity Pro",
+    "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
+    "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
+    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
+    "relUrl": "/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
+  },"38": {
+    "doc": "PIC32CM LE Curiosity Pro",
+    "title": "PIC32CM LE Curiosity Pro",
+    "content": ". ",
+    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html",
+    "relUrl": "/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html"
+  },"39": {
+    "doc": "PIC32CM LE Curiosity Pro",
+    "title": "PIC32CM LE Curiosity Pro Sensor Example using T10 Xplained Pro Mutual",
+    "content": "Path of the application within the repository is apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/ . To build the application, refer to the following table and open the project using its IDE. ",
+    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#pic32cm-le-curiosity-pro-sensor-example-using-t10-xplained-pro-mutual",
+    "relUrl": "/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#pic32cm-le-curiosity-pro-sensor-example-using-t10-xplained-pro-mutual"
   },"40": {
+    "doc": "PIC32CM LE Curiosity Pro",
+    "title": "Touch Application",
+    "content": "| Project Name | Description | . | t10_mutualcap_xpro_board/pic32cm_LE00_cpro/pic32cm_LE00_cpro.X | MPLABX Project for PIC32CM LE Curiosity Pro Evaluation Kit | . |   |   | . ",
+    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#touch-application",
+    "relUrl": "/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#touch-application"
+  },"41": {
+    "doc": "PIC32CM LE Curiosity Pro",
+    "title": "Setting up the hardware",
+    "content": ". | Connect T10 Xplained Pro Extension Kit to PIC32CM LE Curiosity Pro Evaluation Kit on extension header EXT1 &amp; EXT2 | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
+    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#setting-up-the-hardware",
+    "relUrl": "/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#setting-up-the-hardware"
+  },"42": {
+    "doc": "PIC32CM LE Curiosity Pro",
+    "title": "Running the Application",
+    "content": ". | Open the application project pic32cm_LE00_cpro.X in the IDE | Build the project and program the target board | . ",
+    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#running-the-application",
+    "relUrl": "/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#running-the-application"
+  },"43": {
+    "doc": "PIC32CM LE Curiosity Pro",
+    "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
+    "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
+    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
+    "relUrl": "/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
+  },"44": {
+    "doc": "PIC32CM LE Curiosity Pro",
+    "title": "PIC32CM LE Curiosity Pro",
+    "content": ". ",
+    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html",
+    "relUrl": "/apps/t10_mutualcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html"
+  },"45": {
     "doc": "PIC32CMJH CURIOSITY Pro",
     "title": "PIC32CM JH01 CURIOSITY Pro Onboard Sensor Example",
     "content": " ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/pic32cm_jh_cpro/readme_pic32cmjh_curiosity_pro.html#pic32cm-jh01-curiosity-pro-onboard-sensor-example",
     "relUrl": "/apps/onboard_sensor/pic32cm_jh_cpro/readme_pic32cmjh_curiosity_pro.html#pic32cm-jh01-curiosity-pro-onboard-sensor-example"
-  },"41": {
+  },"46": {
     "doc": "PIC32CMJH CURIOSITY Pro",
     "title": "Downloading and building the application",
     "content": "Path of the application within the repository is apps/onboard_sensor/pic32cm_jh_cpro/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/pic32cm_jh_cpro/readme_pic32cmjh_curiosity_pro.html#downloading-and-building-the-application",
     "relUrl": "/apps/onboard_sensor/pic32cm_jh_cpro/readme_pic32cmjh_curiosity_pro.html#downloading-and-building-the-application"
-  },"42": {
+  },"47": {
     "doc": "PIC32CMJH CURIOSITY Pro",
     "title": "Hardware Setup",
     "content": ". | Project uses PIC32CM JH01 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/pic32cm_jh_cpro/readme_pic32cmjh_curiosity_pro.html#hardware-setup",
     "relUrl": "/apps/onboard_sensor/pic32cm_jh_cpro/readme_pic32cmjh_curiosity_pro.html#hardware-setup"
-  },"43": {
+  },"48": {
     "doc": "PIC32CMJH CURIOSITY Pro",
     "title": "Running The Application",
     "content": ". | Open the application project pic32cmjh_curiosity_pro.X in the IDE | Build the project and program the target board | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/pic32cm_jh_cpro/readme_pic32cmjh_curiosity_pro.html#running-the-application",
     "relUrl": "/apps/onboard_sensor/pic32cm_jh_cpro/readme_pic32cmjh_curiosity_pro.html#running-the-application"
-  },"44": {
+  },"49": {
     "doc": "PIC32CMJH CURIOSITY Pro",
     "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
     "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/pic32cm_jh_cpro/readme_pic32cmjh_curiosity_pro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
     "relUrl": "/apps/onboard_sensor/pic32cm_jh_cpro/readme_pic32cmjh_curiosity_pro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
-  },"45": {
+  },"50": {
     "doc": "PIC32CMJH CURIOSITY Pro",
     "title": "PIC32CMJH CURIOSITY Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/pic32cm_jh_cpro/readme_pic32cmjh_curiosity_pro.html",
     "relUrl": "/apps/onboard_sensor/pic32cm_jh_cpro/readme_pic32cmjh_curiosity_pro.html"
-  },"46": {
-    "doc": "SAMC21 Xplained Pro",
-    "title": "SAMC21 Xplained Sensor Example using QT1 Xplained Pro Mutual",
-    "content": "Path of the application within the repository is apps/qt1_mutualcap_xpro_board/sam_c21_xpro/ . To build the application, refer to the following table and open the project using its IDE. ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#samc21-xplained-sensor-example-using-qt1-xplained-pro-mutual",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#samc21-xplained-sensor-example-using-qt1-xplained-pro-mutual"
-  },"47": {
-    "doc": "SAMC21 Xplained Pro",
-    "title": "Touch Application",
-    "content": "| Project Name | Description | . | qt1_mutualcap_xpro_board/sam_c21_xpro/sam_c21_xpro.X | MPLABX Project for SAM C21 Xplained Pro Evaluation Kit | . |   |   | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#touch-application",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#touch-application"
-  },"48": {
-    "doc": "SAMC21 Xplained Pro",
-    "title": "Setting up the hardware",
-    "content": ". | Connect the QT1 Xplained pro Mutual capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#setting-up-the-hardware",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#setting-up-the-hardware"
-  },"49": {
-    "doc": "SAMC21 Xplained Pro",
-    "title": "Running The Application",
-    "content": ". | Open the application project sam_c21_xpro.X in the IDE | Build the project and program the target board | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#running-the-application",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#running-the-application"
-  },"50": {
-    "doc": "SAMC21 Xplained Pro",
-    "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
-    "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page.. ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
   },"51": {
-    "doc": "SAMC21 Xplained Pro",
-    "title": "SAMC21 Xplained Pro",
-    "content": ". ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html"
+    "doc": "PIC32CZ CA Curiosity Ultra",
+    "title": "PIC32CZ CA Curiosity Ultra Example using QT7 Xplained Pro",
+    "content": "Path of the application within the repository is apps/qt7_selfcap_xpro_board/pic32czca_cultra/ . To build the application, refer to the following table and open the project using its IDE. The project configures only one button of QT7 with the shield capability. ",
+    "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/pic32czca_cultra/readme_pic32czca_cultra.html#pic32cz-ca-curiosity-ultra-example-using-qt7-xplained-pro",
+    "relUrl": "/apps/qt7_selfcap_xpro_board/pic32czca_cultra/readme_pic32czca_cultra.html#pic32cz-ca-curiosity-ultra-example-using-qt7-xplained-pro"
   },"52": {
-    "doc": "SAMC21 Xplained Pro",
-    "title": "SAMC21 Xplained Sensor Example using T10 Xplained Pro Mutual",
-    "content": "Path of the application within the repository is apps/t10_mutualcap_xpro_board/sam_c21_xpro/ . To build the application, refer to the following table and open the project using its IDE. ",
-    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#samc21-xplained-sensor-example-using-t10-xplained-pro-mutual",
-    "relUrl": "/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#samc21-xplained-sensor-example-using-t10-xplained-pro-mutual"
+    "doc": "PIC32CZ CA Curiosity Ultra",
+    "title": "Hardware Setup",
+    "content": ". | Connect QT7 Xplained Pro Extension Kit to PIC32CZ CA Curiosity Ultra Evaluation Kit on extension header EXT1 such that pin 1 of QT7 is connected to pin 3 of Curiosity board. | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/pic32czca_cultra/readme_pic32czca_cultra.html#hardware-setup",
+    "relUrl": "/apps/qt7_selfcap_xpro_board/pic32czca_cultra/readme_pic32czca_cultra.html#hardware-setup"
   },"53": {
-    "doc": "SAMC21 Xplained Pro",
-    "title": "Touch Application",
-    "content": "| Project Name | Description | . | t10_mutualcap_xpro_board/sam_c21_xpro/sam_c21_xpro.X | MPLABX Project for SAM C21 Xplained Pro Evaluation Kit | . |   |   | . ",
-    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#touch-application",
-    "relUrl": "/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#touch-application"
+    "doc": "PIC32CZ CA Curiosity Ultra",
+    "title": "Running The Application",
+    "content": ". | Open the application project pic32czca_curiosity_qt7.X in the IDE | Build the project and program the target board | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/pic32czca_cultra/readme_pic32czca_cultra.html#running-the-application",
+    "relUrl": "/apps/qt7_selfcap_xpro_board/pic32czca_cultra/readme_pic32czca_cultra.html#running-the-application"
   },"54": {
-    "doc": "SAMC21 Xplained Pro",
-    "title": "Setting up the hardware",
-    "content": ". | Connect T10 Xplained Pro Extension Kit to SAM C21 Xplained Pro Evaluation Kit on extension header EXT1 &amp; EXT2 | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
-    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#setting-up-the-hardware",
-    "relUrl": "/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#setting-up-the-hardware"
-  },"55": {
-    "doc": "SAMC21 Xplained Pro",
-    "title": "Running the Application",
-    "content": ". | Open the application project sam_c21_xpro.X in the IDE | Build the project and program the target board | . ",
-    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#running-the-application",
-    "relUrl": "/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#running-the-application"
-  },"56": {
-    "doc": "SAMC21 Xplained Pro",
+    "doc": "PIC32CZ CA Curiosity Ultra",
     "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
     "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
-    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
-    "relUrl": "/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
-  },"57": {
-    "doc": "SAMC21 Xplained Pro",
-    "title": "SAMC21 Xplained Pro",
+    "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/pic32czca_cultra/readme_pic32czca_cultra.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
+    "relUrl": "/apps/qt7_selfcap_xpro_board/pic32czca_cultra/readme_pic32czca_cultra.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
+  },"55": {
+    "doc": "PIC32CZ CA Curiosity Ultra",
+    "title": "PIC32CZ CA Curiosity Ultra",
     "content": ". ",
-    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html",
-    "relUrl": "/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html"
-  },"58": {
+    "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/pic32czca_cultra/readme_pic32czca_cultra.html",
+    "relUrl": "/apps/qt7_selfcap_xpro_board/pic32czca_cultra/readme_pic32czca_cultra.html"
+  },"56": {
     "doc": "SAMC21 Xplained Pro",
     "title": "SAMC21 Xplained Sensor Example using QT1 Xplained Pro Self",
     "content": "Path of the application within the repository is apps/qt1_selfcap_xpro_board/sam_c21_xpro . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#samc21-xplained-sensor-example-using-qt1-xplained-pro-self",
     "relUrl": "/apps/qt1_selfcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#samc21-xplained-sensor-example-using-qt1-xplained-pro-self"
-  },"59": {
+  },"57": {
     "doc": "SAMC21 Xplained Pro",
     "title": "Touch Application",
     "content": "| Project Name | Description | . | qt1_selfcap_xpro_board/sam_c21_xpro/sam_c21_xpro.X | MPLABX Project for SAM C21 Xplained Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#touch-application",
     "relUrl": "/apps/qt1_selfcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#touch-application"
-  },"60": {
+  },"58": {
     "doc": "SAMC21 Xplained Pro",
     "title": "Setting up the hardware",
     "content": ". | Connect the QT1 Xplained pro Self capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#setting-up-the-hardware",
     "relUrl": "/apps/qt1_selfcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#setting-up-the-hardware"
-  },"61": {
+  },"59": {
     "doc": "SAMC21 Xplained Pro",
     "title": "Running The Application",
     "content": ". | Open the application project sam_c21_xpro.X in the IDE | Build the project and program the target board | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#running-the-application",
     "relUrl": "/apps/qt1_selfcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#running-the-application"
-  },"62": {
+  },"60": {
     "doc": "SAMC21 Xplained Pro",
     "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
     "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
     "relUrl": "/apps/qt1_selfcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
-  },"63": {
+  },"61": {
     "doc": "SAMC21 Xplained Pro",
     "title": "SAMC21 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html",
     "relUrl": "/apps/qt1_selfcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html"
+  },"62": {
+    "doc": "SAMC21 Xplained Pro",
+    "title": "SAMC21 Xplained Sensor Example using QT1 Xplained Pro Mutual",
+    "content": "Path of the application within the repository is apps/qt1_mutualcap_xpro_board/sam_c21_xpro/ . To build the application, refer to the following table and open the project using its IDE. ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#samc21-xplained-sensor-example-using-qt1-xplained-pro-mutual",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#samc21-xplained-sensor-example-using-qt1-xplained-pro-mutual"
+  },"63": {
+    "doc": "SAMC21 Xplained Pro",
+    "title": "Touch Application",
+    "content": "| Project Name | Description | . | qt1_mutualcap_xpro_board/sam_c21_xpro/sam_c21_xpro.X | MPLABX Project for SAM C21 Xplained Pro Evaluation Kit | . |   |   | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#touch-application",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#touch-application"
   },"64": {
+    "doc": "SAMC21 Xplained Pro",
+    "title": "Setting up the hardware",
+    "content": ". | Connect the QT1 Xplained pro Mutual capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#setting-up-the-hardware",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#setting-up-the-hardware"
+  },"65": {
+    "doc": "SAMC21 Xplained Pro",
+    "title": "Running The Application",
+    "content": ". | Open the application project sam_c21_xpro.X in the IDE | Build the project and program the target board | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#running-the-application",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#running-the-application"
+  },"66": {
+    "doc": "SAMC21 Xplained Pro",
+    "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
+    "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page.. ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
+  },"67": {
+    "doc": "SAMC21 Xplained Pro",
+    "title": "SAMC21 Xplained Pro",
+    "content": ". ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html"
+  },"68": {
+    "doc": "SAMC21 Xplained Pro",
+    "title": "SAMC21 Xplained Sensor Example using T10 Xplained Pro Mutual",
+    "content": "Path of the application within the repository is apps/t10_mutualcap_xpro_board/sam_c21_xpro/ . To build the application, refer to the following table and open the project using its IDE. ",
+    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#samc21-xplained-sensor-example-using-t10-xplained-pro-mutual",
+    "relUrl": "/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#samc21-xplained-sensor-example-using-t10-xplained-pro-mutual"
+  },"69": {
+    "doc": "SAMC21 Xplained Pro",
+    "title": "Touch Application",
+    "content": "| Project Name | Description | . | t10_mutualcap_xpro_board/sam_c21_xpro/sam_c21_xpro.X | MPLABX Project for SAM C21 Xplained Pro Evaluation Kit | . |   |   | . ",
+    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#touch-application",
+    "relUrl": "/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#touch-application"
+  },"70": {
+    "doc": "SAMC21 Xplained Pro",
+    "title": "Setting up the hardware",
+    "content": ". | Connect T10 Xplained Pro Extension Kit to SAM C21 Xplained Pro Evaluation Kit on extension header EXT1 &amp; EXT2 | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
+    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#setting-up-the-hardware",
+    "relUrl": "/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#setting-up-the-hardware"
+  },"71": {
+    "doc": "SAMC21 Xplained Pro",
+    "title": "Running the Application",
+    "content": ". | Open the application project sam_c21_xpro.X in the IDE | Build the project and program the target board | . ",
+    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#running-the-application",
+    "relUrl": "/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#running-the-application"
+  },"72": {
+    "doc": "SAMC21 Xplained Pro",
+    "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
+    "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
+    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
+    "relUrl": "/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
+  },"73": {
+    "doc": "SAMC21 Xplained Pro",
+    "title": "SAMC21 Xplained Pro",
+    "content": ". ",
+    "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html",
+    "relUrl": "/apps/t10_mutualcap_xpro_board/sam_c21_xpro/readme_sam_c21_xpro.html"
+  },"74": {
     "doc": "SAMD10 Xplained Mini",
     "title": "SAMD10 Xplained Mini Onboard Sensor Example",
     "content": "Path of the application within the repository is apps/onboard_sensor/firmware/sam_d10_xmini/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_d10_xmini/readme_sam_d10_xmini.html#samd10-xplained-mini-onboard-sensor-example",
     "relUrl": "/apps/onboard_sensor/sam_d10_xmini/readme_sam_d10_xmini.html#samd10-xplained-mini-onboard-sensor-example"
-  },"65": {
+  },"75": {
     "doc": "SAMD10 Xplained Mini",
     "title": "Hardware Setup",
     "content": ". | Project uses SAM D10 Xplained Mini Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_d10_xmini/readme_sam_d10_xmini.html#hardware-setup",
     "relUrl": "/apps/onboard_sensor/sam_d10_xmini/readme_sam_d10_xmini.html#hardware-setup"
-  },"66": {
+  },"76": {
     "doc": "SAMD10 Xplained Mini",
     "title": "Running The Application",
     "content": ". | Open the application project sam_d10_xmini.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 38400 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_d10_xmini/readme_sam_d10_xmini.html#running-the-application",
     "relUrl": "/apps/onboard_sensor/sam_d10_xmini/readme_sam_d10_xmini.html#running-the-application"
-  },"67": {
+  },"77": {
     "doc": "SAMD10 Xplained Mini",
     "title": "SAMD10 Xplained Mini",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_d10_xmini/readme_sam_d10_xmini.html",
     "relUrl": "/apps/onboard_sensor/sam_d10_xmini/readme_sam_d10_xmini.html"
-  },"68": {
+  },"78": {
     "doc": "SAMD11 Xplained Pro",
     "title": "SAMD11 Xplained Pro Onboard Sensor Example",
     "content": "Path of the application within the repository is apps/onboard_sensor/sam_d11_xpro/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_d11_xpro/readme_sam_d11_xpro.html#samd11-xplained-pro-onboard-sensor-example",
     "relUrl": "/apps/onboard_sensor/sam_d11_xpro/readme_sam_d11_xpro.html#samd11-xplained-pro-onboard-sensor-example"
-  },"69": {
+  },"79": {
     "doc": "SAMD11 Xplained Pro",
     "title": "Hardware Setup",
     "content": ". | Project uses SAM D11 Xplained Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_d11_xpro/readme_sam_d11_xpro.html#hardware-setup",
     "relUrl": "/apps/onboard_sensor/sam_d11_xpro/readme_sam_d11_xpro.html#hardware-setup"
-  },"70": {
+  },"80": {
     "doc": "SAMD11 Xplained Pro",
     "title": "Running The Application",
     "content": ". | Open the application project sam_d11_xpro.X in the IDE | Build the project and program the target board | Open Data Visualizer and configure the serial port control settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | Config Path : | . | Select the Port from the dropdown menu and click “Connect” | Configuration files are stored as part of the project source files. Browse the ../touch/datastreamer/ project folder and click on Select Folder. | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_d11_xpro/readme_sam_d11_xpro.html#running-the-application",
     "relUrl": "/apps/onboard_sensor/sam_d11_xpro/readme_sam_d11_xpro.html#running-the-application"
-  },"71": {
+  },"81": {
     "doc": "SAMD11 Xplained Pro",
     "title": "SAMD11 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_d11_xpro/readme_sam_d11_xpro.html",
     "relUrl": "/apps/onboard_sensor/sam_d11_xpro/readme_sam_d11_xpro.html"
-  },"72": {
-    "doc": "SAMD20 Xplained Pro",
-    "title": "SAMD20 Xplained Sensor Example using QT1 Xplained Pro Self",
-    "content": "Path of the application within the repository is apps/qt1_selfcap_xpro_board/sam_d20_xpro . To build the application, refer to the following table and open the project using its IDE. ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#samd20-xplained-sensor-example-using-qt1-xplained-pro-self",
-    "relUrl": "/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#samd20-xplained-sensor-example-using-qt1-xplained-pro-self"
-  },"73": {
-    "doc": "SAMD20 Xplained Pro",
-    "title": "Touch Application",
-    "content": "| Project Name | Description | . | qt1_selfcap_xpro_board/sam_d20_xpro/sam_d20_xpro.X | MPLABX Project for SAM D20 Xplained Pro Evaluation Kit | . |   |   | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#touch-application",
-    "relUrl": "/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#touch-application"
-  },"74": {
-    "doc": "SAMD20 Xplained Pro",
-    "title": "Setting up the hardware",
-    "content": ". | Connect the QT1 Xplained pro Self capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#setting-up-the-hardware",
-    "relUrl": "/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#setting-up-the-hardware"
-  },"75": {
-    "doc": "SAMD20 Xplained Pro",
-    "title": "Running The Application",
-    "content": ". | Open the application project sam_d20_xpro.X in the IDE | Build the project and program the target board | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#running-the-application",
-    "relUrl": "/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#running-the-application"
-  },"76": {
-    "doc": "SAMD20 Xplained Pro",
-    "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
-    "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
-    "relUrl": "/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
-  },"77": {
-    "doc": "SAMD20 Xplained Pro",
-    "title": "SAMD20 Xplained Pro",
-    "content": ". ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html",
-    "relUrl": "/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html"
-  },"78": {
+  },"82": {
     "doc": "SAMD20 Xplained Pro",
     "title": "SAMD20 Xplained Sensor Example using QT1 Xplained Pro Mutual",
     "content": "Path of the application within the repository is apps/qt1_mutualcap_xpro_board/sam_d20_xpro/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#samd20-xplained-sensor-example-using-qt1-xplained-pro-mutual",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#samd20-xplained-sensor-example-using-qt1-xplained-pro-mutual"
-  },"79": {
+  },"83": {
     "doc": "SAMD20 Xplained Pro",
     "title": "Touch Application",
     "content": "| Project Name | Description | . | qt1_mutualcap_xpro_board/sam_d20_xpro/sam_d20_xpro.X | MPLABX Project for SAM D20 Xplained Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#touch-application",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#touch-application"
-  },"80": {
+  },"84": {
     "doc": "SAMD20 Xplained Pro",
     "title": "Setting up the hardware",
     "content": ". | Connect the QT1 Xplained pro Mutual capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#setting-up-the-hardware",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#setting-up-the-hardware"
-  },"81": {
+  },"85": {
     "doc": "SAMD20 Xplained Pro",
     "title": "Running The Application",
     "content": ". | Open the application project sam_d20_xpro.X in the IDE | Build the project and program the target board | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#running-the-application",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#running-the-application"
-  },"82": {
+  },"86": {
     "doc": "SAMD20 Xplained Pro",
     "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
     "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
-  },"83": {
+  },"87": {
     "doc": "SAMD20 Xplained Pro",
     "title": "SAMD20 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html"
-  },"84": {
-    "doc": "SAMD21 Xplained Pro",
-    "title": "SAMD21 Xplained Sensor Example using QT1 Xplained Pro Mutual",
-    "content": "Path of the application within the repository is apps/qt1_mutualcap_xpro_board/sam_d21_xpro/ . To build the application, refer to the following table and open the project using its IDE. ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#samd21-xplained-sensor-example-using-qt1-xplained-pro-mutual",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#samd21-xplained-sensor-example-using-qt1-xplained-pro-mutual"
-  },"85": {
-    "doc": "SAMD21 Xplained Pro",
-    "title": "Touch Application",
-    "content": "| Project Name | Description | . | qt1_mutualcap_xpro_board/sam_d21_xpro/sam_d21_xpro.X | MPLABX Project for SAM D21 Xplained Pro Evaluation Kit | . |   |   | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#touch-application",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#touch-application"
-  },"86": {
-    "doc": "SAMD21 Xplained Pro",
-    "title": "Setting up the hardware",
-    "content": ". | Connect the QT1 Xplained pro Mutual capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#setting-up-the-hardware",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#setting-up-the-hardware"
-  },"87": {
-    "doc": "SAMD21 Xplained Pro",
-    "title": "Running The Application",
-    "content": ". | Open the application project sam_d21_xpro.X in the IDE | Build the project and program the target board | . ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#running-the-application",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#running-the-application"
   },"88": {
-    "doc": "SAMD21 Xplained Pro",
+    "doc": "SAMD20 Xplained Pro",
+    "title": "SAMD20 Xplained Sensor Example using QT1 Xplained Pro Self",
+    "content": "Path of the application within the repository is apps/qt1_selfcap_xpro_board/sam_d20_xpro . To build the application, refer to the following table and open the project using its IDE. ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#samd20-xplained-sensor-example-using-qt1-xplained-pro-self",
+    "relUrl": "/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#samd20-xplained-sensor-example-using-qt1-xplained-pro-self"
+  },"89": {
+    "doc": "SAMD20 Xplained Pro",
+    "title": "Touch Application",
+    "content": "| Project Name | Description | . | qt1_selfcap_xpro_board/sam_d20_xpro/sam_d20_xpro.X | MPLABX Project for SAM D20 Xplained Pro Evaluation Kit | . |   |   | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#touch-application",
+    "relUrl": "/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#touch-application"
+  },"90": {
+    "doc": "SAMD20 Xplained Pro",
+    "title": "Setting up the hardware",
+    "content": ". | Connect the QT1 Xplained pro Self capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#setting-up-the-hardware",
+    "relUrl": "/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#setting-up-the-hardware"
+  },"91": {
+    "doc": "SAMD20 Xplained Pro",
+    "title": "Running The Application",
+    "content": ". | Open the application project sam_d20_xpro.X in the IDE | Build the project and program the target board | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#running-the-application",
+    "relUrl": "/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#running-the-application"
+  },"92": {
+    "doc": "SAMD20 Xplained Pro",
     "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
     "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
-  },"89": {
-    "doc": "SAMD21 Xplained Pro",
-    "title": "SAMD21 Xplained Pro",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
+    "relUrl": "/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
+  },"93": {
+    "doc": "SAMD20 Xplained Pro",
+    "title": "SAMD20 Xplained Pro",
     "content": ". ",
-    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html",
-    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html"
-  },"90": {
+    "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html",
+    "relUrl": "/apps/qt1_selfcap_xpro_board/sam_d20_xpro/readme_sam_d20_xpro.html"
+  },"94": {
     "doc": "SAMD21 Xplained Pro",
     "title": "SAMD21 Xplained Sensor Example using QT1 Xplained Pro Self",
     "content": "Path of the application within the repository is apps/qt1_selfcap_xpro_board/firmware . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#samd21-xplained-sensor-example-using-qt1-xplained-pro-self",
     "relUrl": "/apps/qt1_selfcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#samd21-xplained-sensor-example-using-qt1-xplained-pro-self"
-  },"91": {
+  },"95": {
     "doc": "SAMD21 Xplained Pro",
     "title": "Touch Application",
     "content": "| Project Name | Description | . | qt1_selfcap_xpro_board/sam_d21_xpro/sam_d21_xpro.X | MPLABX Project for SAM D21 Xplained Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#touch-application",
     "relUrl": "/apps/qt1_selfcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#touch-application"
-  },"92": {
+  },"96": {
     "doc": "SAMD21 Xplained Pro",
     "title": "Setting up the hardware",
     "content": ". | Connect the QT1 Xplained pro Self capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#setting-up-the-hardware",
     "relUrl": "/apps/qt1_selfcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#setting-up-the-hardware"
-  },"93": {
+  },"97": {
     "doc": "SAMD21 Xplained Pro",
     "title": "Running The Application",
     "content": "| Open the application project sam_d21_xpro.X in the IDE | Build the project and program the target board | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#running-the-application",
     "relUrl": "/apps/qt1_selfcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#running-the-application"
-  },"94": {
+  },"98": {
     "doc": "SAMD21 Xplained Pro",
     "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
     "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
     "relUrl": "/apps/qt1_selfcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
-  },"95": {
+  },"99": {
     "doc": "SAMD21 Xplained Pro",
     "title": "SAMD21 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html",
     "relUrl": "/apps/qt1_selfcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html"
-  },"96": {
+  },"100": {
     "doc": "SAMD21 Xplained Pro",
     "title": "SAMD21 Xplained Sensor Example using T10 Xplained Pro Mutual",
     "content": "Path of the application within the repository is apps/t10_mutualcap_xpro_board/sam_d21_xpro/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#samd21-xplained-sensor-example-using-t10-xplained-pro-mutual",
     "relUrl": "/apps/t10_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#samd21-xplained-sensor-example-using-t10-xplained-pro-mutual"
-  },"97": {
+  },"101": {
     "doc": "SAMD21 Xplained Pro",
     "title": "Touch Application",
     "content": "| Project Name | Description | . | t10_mutualcap_xpro_board/sam_d21_xpro/sam_d21_xpro.X | MPLABX Project for SAM D21 Xplained Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#touch-application",
     "relUrl": "/apps/t10_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#touch-application"
-  },"98": {
+  },"102": {
     "doc": "SAMD21 Xplained Pro",
     "title": "Setting up the hardware",
     "content": ". | Connect T10 Xplained Pro Extension Kit to SAM D21 Xplained Pro Evaluation Kit on extension header EXT1 &amp; EXT2 | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#setting-up-the-hardware",
     "relUrl": "/apps/t10_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#setting-up-the-hardware"
-  },"99": {
+  },"103": {
     "doc": "SAMD21 Xplained Pro",
     "title": "Running the Application",
     "content": ". | Open the application project sam_d21_xpro.X in the IDE | Build the project and program the target board | . ",
     "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#running-the-application",
     "relUrl": "/apps/t10_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#running-the-application"
-  },"100": {
+  },"104": {
     "doc": "SAMD21 Xplained Pro",
     "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
     "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page.. ",
     "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
     "relUrl": "/apps/t10_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
-  },"101": {
+  },"105": {
     "doc": "SAMD21 Xplained Pro",
     "title": "SAMD21 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html",
     "relUrl": "/apps/t10_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html"
-  },"102": {
+  },"106": {
+    "doc": "SAMD21 Xplained Pro",
+    "title": "SAMD21 Xplained Sensor Example using QT1 Xplained Pro Mutual",
+    "content": "Path of the application within the repository is apps/qt1_mutualcap_xpro_board/sam_d21_xpro/ . To build the application, refer to the following table and open the project using its IDE. ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#samd21-xplained-sensor-example-using-qt1-xplained-pro-mutual",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#samd21-xplained-sensor-example-using-qt1-xplained-pro-mutual"
+  },"107": {
+    "doc": "SAMD21 Xplained Pro",
+    "title": "Touch Application",
+    "content": "| Project Name | Description | . | qt1_mutualcap_xpro_board/sam_d21_xpro/sam_d21_xpro.X | MPLABX Project for SAM D21 Xplained Pro Evaluation Kit | . |   |   | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#touch-application",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#touch-application"
+  },"108": {
+    "doc": "SAMD21 Xplained Pro",
+    "title": "Setting up the hardware",
+    "content": ". | Connect the QT1 Xplained pro Mutual capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#setting-up-the-hardware",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#setting-up-the-hardware"
+  },"109": {
+    "doc": "SAMD21 Xplained Pro",
+    "title": "Running The Application",
+    "content": ". | Open the application project sam_d21_xpro.X in the IDE | Build the project and program the target board | . ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#running-the-application",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#running-the-application"
+  },"110": {
+    "doc": "SAMD21 Xplained Pro",
+    "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
+    "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
+  },"111": {
+    "doc": "SAMD21 Xplained Pro",
+    "title": "SAMD21 Xplained Pro",
+    "content": ". ",
+    "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html",
+    "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_d21_xpro/readme_sam_d21_xpro.html"
+  },"112": {
     "doc": "SAMDA1 Xplained Pro",
     "title": "SAMDA1 Xplained Sensor Example using QT1 Xplained Pro Mutual",
     "content": "Path of the application within the repository is apps/qt1_mutualcap_xpro_board/sam_da1_xpro/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html#samda1-xplained-sensor-example-using-qt1-xplained-pro-mutual",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html#samda1-xplained-sensor-example-using-qt1-xplained-pro-mutual"
-  },"103": {
+  },"113": {
     "doc": "SAMDA1 Xplained Pro",
     "title": "Touch Application",
-    "content": "| Project Name | Description | . | qt1_mutualcap_xpro_board/sam_da1_xpro/sam_da1_xpro.X | MPLABX Project for SAM DA1 Xplained Pro Evaluation Kit | . |   |   | . ",
+    "content": "| Project Name | Description | . | qt1_mutualcap_xpro_board/sam_da1_xpro/sam_da1_xpro_qt1_mutualcap.X | MPLABX Project for SAM DA1 Xplained Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html#touch-application",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html#touch-application"
-  },"104": {
+  },"114": {
     "doc": "SAMDA1 Xplained Pro",
     "title": "Setting up the hardware",
     "content": ". | Connect the QT1 Xplained pro Mutual capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html#setting-up-the-hardware",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html#setting-up-the-hardware"
-  },"105": {
+  },"115": {
     "doc": "SAMDA1 Xplained Pro",
     "title": "Running The Application",
     "content": ". | Open the application project sam_da1_xpro.X in the IDE | Build the project and program the target board | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html#running-the-application",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html#running-the-application"
-  },"106": {
+  },"116": {
     "doc": "SAMDA1 Xplained Pro",
     "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
     "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
-  },"107": {
+  },"117": {
     "doc": "SAMDA1 Xplained Pro",
     "title": "SAMDA1 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html"
-  },"108": {
+  },"118": {
     "doc": "SAMDA1 Xplained Pro",
     "title": "SAMDA1 Xplained Sensor Example using QT1 Xplained Pro Self",
     "content": "Path of the application within the repository is apps/qt1_selfcap_xpro_board/sam_da1_xpro . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html#samda1-xplained-sensor-example-using-qt1-xplained-pro-self",
     "relUrl": "/apps/qt1_selfcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html#samda1-xplained-sensor-example-using-qt1-xplained-pro-self"
-  },"109": {
+  },"119": {
     "doc": "SAMDA1 Xplained Pro",
     "title": "Touch Application",
     "content": "| Project Name | Description | . | qt1_selfcap_xpro_board/sam_da1_xpro/sam_da1_xpro.X | MPLABX Project for SAM DA1 Xplained Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html#touch-application",
     "relUrl": "/apps/qt1_selfcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html#touch-application"
-  },"110": {
+  },"120": {
     "doc": "SAMDA1 Xplained Pro",
     "title": "Setting up the hardware",
     "content": ". | Connect the QT1 Xplained pro Self capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html#setting-up-the-hardware",
     "relUrl": "/apps/qt1_selfcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html#setting-up-the-hardware"
-  },"111": {
+  },"121": {
     "doc": "SAMDA1 Xplained Pro",
     "title": "Running The Application",
     "content": ". | Open the application project sam_da1_xpro.X in the IDE | Build the project and program the target board ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html#running-the-application",
     "relUrl": "/apps/qt1_selfcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html#running-the-application"
-  },"112": {
+  },"122": {
     "doc": "SAMDA1 Xplained Pro",
     "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
     "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
     "relUrl": "/apps/qt1_selfcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
-  },"113": {
+  },"123": {
     "doc": "SAMDA1 Xplained Pro",
     "title": "SAMDA1 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_selfcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html",
     "relUrl": "/apps/qt1_selfcap_xpro_board/sam_da1_xpro/readme_sam_da1_xpro.html"
-  },"114": {
+  },"124": {
     "doc": "SAME54 Xplained Pro",
     "title": "SAME54 Xplained Sensor Example using QT1 Xplained Pro Mutual",
     "content": "Path of the application within the repository is apps/qt1_mutualcap_xpro_board/sam_e54_xpro/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_e54_xpro/readme_sam_e54_xpro.html#same54-xplained-sensor-example-using-qt1-xplained-pro-mutual",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_e54_xpro/readme_sam_e54_xpro.html#same54-xplained-sensor-example-using-qt1-xplained-pro-mutual"
-  },"115": {
+  },"125": {
     "doc": "SAME54 Xplained Pro",
     "title": "Touch Application",
     "content": "| Project Name | Description | . | qt1_mutualcap_xpro_board/sam_e54_xpro/sam_e54_xpro.X | MPLABX Project for SAM E54 Xplained Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_e54_xpro/readme_sam_e54_xpro.html#touch-application",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_e54_xpro/readme_sam_e54_xpro.html#touch-application"
-  },"116": {
+  },"126": {
     "doc": "SAME54 Xplained Pro",
     "title": "Setting up the hardware",
     "content": ". | Connect the QT1 Xplained pro Mutual capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_e54_xpro/readme_sam_e54_xpro.html#setting-up-the-hardware",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_e54_xpro/readme_sam_e54_xpro.html#setting-up-the-hardware"
-  },"117": {
+  },"127": {
     "doc": "SAME54 Xplained Pro",
     "title": "Running The Application",
     "content": ". | Open the application project sam_e54_xpro.X in the IDE | Build the project and program the target board ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_e54_xpro/readme_sam_e54_xpro.html#running-the-application",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_e54_xpro/readme_sam_e54_xpro.html#running-the-application"
-  },"118": {
+  },"128": {
     "doc": "SAME54 Xplained Pro",
     "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
     "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_e54_xpro/readme_sam_e54_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_e54_xpro/readme_sam_e54_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
-  },"119": {
+  },"129": {
     "doc": "SAME54 Xplained Pro",
     "title": "SAME54 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_e54_xpro/readme_sam_e54_xpro.html",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_e54_xpro/readme_sam_e54_xpro.html"
-  },"120": {
+  },"130": {
     "doc": "SAME54 Xplained Pro",
     "title": "SAME54 Xplained Pro Onboard Sensor Example",
     "content": "Path of the application within the repository is apps/onboard_sensor/sam_e54_xpro/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_e54_xpro/readme_sam_e54_xpro.html#same54-xplained-pro-onboard-sensor-example",
     "relUrl": "/apps/onboard_sensor/sam_e54_xpro/readme_sam_e54_xpro.html#same54-xplained-pro-onboard-sensor-example"
-  },"121": {
+  },"131": {
     "doc": "SAME54 Xplained Pro",
     "title": "Hardware Setup",
     "content": ". | Project uses SAM E54 Xplained Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_e54_xpro/readme_sam_e54_xpro.html#hardware-setup",
     "relUrl": "/apps/onboard_sensor/sam_e54_xpro/readme_sam_e54_xpro.html#hardware-setup"
-  },"122": {
+  },"132": {
     "doc": "SAME54 Xplained Pro",
     "title": "Running The Application",
     "content": ". | Open the application project sam_e54_xpro.X in the IDE | Build the project and program the target board | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_e54_xpro/readme_sam_e54_xpro.html#running-the-application",
     "relUrl": "/apps/onboard_sensor/sam_e54_xpro/readme_sam_e54_xpro.html#running-the-application"
-  },"123": {
+  },"133": {
     "doc": "SAME54 Xplained Pro",
     "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
     "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_e54_xpro/readme_sam_e54_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
     "relUrl": "/apps/onboard_sensor/sam_e54_xpro/readme_sam_e54_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
-  },"124": {
+  },"134": {
     "doc": "SAME54 Xplained Pro",
     "title": "SAME54 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_e54_xpro/readme_sam_e54_xpro.html",
     "relUrl": "/apps/onboard_sensor/sam_e54_xpro/readme_sam_e54_xpro.html"
-  },"125": {
+  },"135": {
     "doc": "SAML10 Xplained Pro",
     "title": "SAML10 Xplained Sensor Example using T10 Xplained Pro Mutual",
     "content": "Path of the application within the repository is apps/t10_mutualcap_xpro_board/sam_l10_xpro/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html#saml10-xplained-sensor-example-using-t10-xplained-pro-mutual",
     "relUrl": "/apps/t10_mutualcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html#saml10-xplained-sensor-example-using-t10-xplained-pro-mutual"
-  },"126": {
+  },"136": {
     "doc": "SAML10 Xplained Pro",
     "title": "Touch Application",
     "content": "| Project Name | Description | . | t10_mutualcap_xpro_board/sam_l10_xpro/sam_l10_xpro.X | MPLABX Project for SAM L10 Xplained Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html#touch-application",
     "relUrl": "/apps/t10_mutualcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html#touch-application"
-  },"127": {
+  },"137": {
     "doc": "SAML10 Xplained Pro",
     "title": "Setting up the hardware",
     "content": ". | Connect T10 Xplained Pro Extension Kit to SAM L10 Xplained Pro Evaluation Kit on extension header EXT3 | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html#setting-up-the-hardware",
     "relUrl": "/apps/t10_mutualcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html#setting-up-the-hardware"
-  },"128": {
+  },"138": {
     "doc": "SAML10 Xplained Pro",
     "title": "Running the Application",
     "content": ". | Open the application project sam_l10_xpro.X in the IDE | Build the project and program the target board | . ",
     "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html#running-the-application",
     "relUrl": "/apps/t10_mutualcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html#running-the-application"
-  },"129": {
+  },"139": {
     "doc": "SAML10 Xplained Pro",
     "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
     "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
     "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
     "relUrl": "/apps/t10_mutualcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
-  },"130": {
+  },"140": {
     "doc": "SAML10 Xplained Pro",
     "title": "SAML10 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/t10_mutualcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html",
     "relUrl": "/apps/t10_mutualcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html"
-  },"131": {
+  },"141": {
     "doc": "SAML10 Xplained Pro",
     "title": "SAML10 Xplained Example using QT7 Xplained Pro",
     "content": "Path of the application within the repository is apps/qt7_selfcap_xpro_board/sam_l10_xpro/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html#saml10-xplained-example-using-qt7-xplained-pro",
     "relUrl": "/apps/qt7_selfcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html#saml10-xplained-example-using-qt7-xplained-pro"
-  },"132": {
+  },"142": {
     "doc": "SAML10 Xplained Pro",
     "title": "Hardware Setup",
     "content": ". | Connect QT7 Xplained Pro Extension Kit to SAM L10 Xplained Pro Evaluation Kit on extension header EXT1 . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html#hardware-setup",
     "relUrl": "/apps/qt7_selfcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html#hardware-setup"
-  },"133": {
+  },"143": {
     "doc": "SAML10 Xplained Pro",
     "title": "Running The Application",
     "content": ". | Open the application project sam_L10_xpro.X in the IDE | Build the project and program the target board | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html#running-the-application",
     "relUrl": "/apps/qt7_selfcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html#running-the-application"
-  },"134": {
+  },"144": {
     "doc": "SAML10 Xplained Pro",
     "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
     "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
     "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
     "relUrl": "/apps/qt7_selfcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
-  },"135": {
+  },"145": {
     "doc": "SAML10 Xplained Pro",
     "title": "SAML10 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html",
     "relUrl": "/apps/qt7_selfcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html"
-  },"136": {
+  },"146": {
     "doc": "SAML21 Xplained Pro",
     "title": "SAML21 Xplained Pro Onboard Sensor Example",
     "content": "Path of the application within the repository is apps/onboard_sensor/sam_l21_xpro/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_l21_xpro/readme_sam_l21_xpro.html#saml21-xplained-pro-onboard-sensor-example",
     "relUrl": "/apps/onboard_sensor/sam_l21_xpro/readme_sam_l21_xpro.html#saml21-xplained-pro-onboard-sensor-example"
-  },"137": {
+  },"147": {
     "doc": "SAML21 Xplained Pro",
     "title": "Hardware Setup",
     "content": ". | Project uses SAM L21 Xplained Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_l21_xpro/readme_sam_l21_xpro.html#hardware-setup",
     "relUrl": "/apps/onboard_sensor/sam_l21_xpro/readme_sam_l21_xpro.html#hardware-setup"
-  },"138": {
+  },"148": {
     "doc": "SAML21 Xplained Pro",
     "title": "Running The Application",
     "content": ". | Open the application project sam_l21_xpro.X in the IDE | Build the project and program the target board | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_l21_xpro/readme_sam_l21_xpro.html#running-the-application",
     "relUrl": "/apps/onboard_sensor/sam_l21_xpro/readme_sam_l21_xpro.html#running-the-application"
-  },"139": {
+  },"149": {
     "doc": "SAML21 Xplained Pro",
     "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
     "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_l21_xpro/readme_sam_l21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
     "relUrl": "/apps/onboard_sensor/sam_l21_xpro/readme_sam_l21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
-  },"140": {
+  },"150": {
     "doc": "SAML21 Xplained Pro",
     "title": "SAML21 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_l21_xpro/readme_sam_l21_xpro.html",
     "relUrl": "/apps/onboard_sensor/sam_l21_xpro/readme_sam_l21_xpro.html"
-  },"141": {
+  },"151": {
     "doc": "SAML21 Xplained Pro",
     "title": "SAML21 Xplained Sensor Example using QT1 Xplained Pro Mutual",
     "content": "Path of the application within the repository is apps/qt1_mutualcap_xpro_board/sam_l21_xpro/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_l21_xpro/readme_sam_l21_xpro.html#saml21-xplained-sensor-example-using-qt1-xplained-pro-mutual",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_l21_xpro/readme_sam_l21_xpro.html#saml21-xplained-sensor-example-using-qt1-xplained-pro-mutual"
-  },"142": {
+  },"152": {
     "doc": "SAML21 Xplained Pro",
     "title": "Touch Application",
     "content": "| Project Name | Description | . | qt1_mutualcap_xpro_board/sam_l21_xpro/sam_l21_xpro.X | MPLABX Project for SAM L21 Xplained Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_l21_xpro/readme_sam_l21_xpro.html#touch-application",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_l21_xpro/readme_sam_l21_xpro.html#touch-application"
-  },"143": {
+  },"153": {
     "doc": "SAML21 Xplained Pro",
     "title": "Setting up the hardware",
     "content": ". | Connect the QT1 Xplained pro Mutual capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_l21_xpro/readme_sam_l21_xpro.html#setting-up-the-hardware",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_l21_xpro/readme_sam_l21_xpro.html#setting-up-the-hardware"
-  },"144": {
+  },"154": {
     "doc": "SAML21 Xplained Pro",
     "title": "Running The Application",
     "content": ". | Open the application project sam_l21_xpro.X in the IDE | Build the project and program the target board | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_l21_xpro/readme_sam_l21_xpro.html#running-the-application",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_l21_xpro/readme_sam_l21_xpro.html#running-the-application"
-  },"145": {
+  },"155": {
     "doc": "SAML21 Xplained Pro",
     "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
     "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_l21_xpro/readme_sam_l21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_l21_xpro/readme_sam_l21_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
-  },"146": {
+  },"156": {
     "doc": "SAML21 Xplained Pro",
     "title": "SAML21 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_l21_xpro/readme_sam_l21_xpro.html",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_l21_xpro/readme_sam_l21_xpro.html"
-  },"147": {
-    "doc": "SAML22 Xplained Pro",
-    "title": "SAML22 Xplained Pro Onboard Sensor Example",
-    "content": " ",
-    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#saml22-xplained-pro-onboard-sensor-example",
-    "relUrl": "/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#saml22-xplained-pro-onboard-sensor-example"
-  },"148": {
-    "doc": "SAML22 Xplained Pro",
-    "title": "Downloading and building the application",
-    "content": "Path of the application within the repository is apps/onboard_sensor/sam_l22_xpro/ . To build the application, refer to the following table and open the project using its IDE. ",
-    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#downloading-and-building-the-application",
-    "relUrl": "/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#downloading-and-building-the-application"
-  },"149": {
-    "doc": "SAML22 Xplained Pro",
-    "title": "Hardware Setup",
-    "content": ". | Project uses SAM L22 Xplained Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
-    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#hardware-setup",
-    "relUrl": "/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#hardware-setup"
-  },"150": {
-    "doc": "SAML22 Xplained Pro",
-    "title": "Running The Application",
-    "content": ". | Open the application project sam_l22_xpro.X in the IDE | Build the project and program the target board | . ",
-    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#running-the-application",
-    "relUrl": "/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#running-the-application"
-  },"151": {
-    "doc": "SAML22 Xplained Pro",
-    "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
-    "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
-    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
-    "relUrl": "/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
-  },"152": {
-    "doc": "SAML22 Xplained Pro",
-    "title": "SAML22 Xplained Pro",
-    "content": ". ",
-    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html",
-    "relUrl": "/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html"
-  },"153": {
+  },"157": {
     "doc": "SAML22 Xplained Pro",
     "title": "SAML22 Xplained Sensor Example using QT1 Xplained Pro Mutual",
     "content": "Path of the application within the repository is apps/qt1_mutualcap_xpro_board/sam_l22_xpro/ . To build the application, refer to the following table and open the project using its IDE. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_l22_xpro/readme_sam_l22_xpro.html#saml22-xplained-sensor-example-using-qt1-xplained-pro-mutual",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_l22_xpro/readme_sam_l22_xpro.html#saml22-xplained-sensor-example-using-qt1-xplained-pro-mutual"
-  },"154": {
+  },"158": {
     "doc": "SAML22 Xplained Pro",
     "title": "Touch Application",
     "content": "| Project Name | Description | . | qt1_mutualcap_xpro_board/sam_l22_xpro/sam_l22_xpro.X | MPLABX Project for SAM L22 Xplained Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_l22_xpro/readme_sam_l22_xpro.html#touch-application",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_l22_xpro/readme_sam_l22_xpro.html#touch-application"
-  },"155": {
+  },"159": {
     "doc": "SAML22 Xplained Pro",
     "title": "Setting up the hardware",
     "content": ". | Connect the QT1 Xplained pro Mutual capacitance to the Xplained Board | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_l22_xpro/readme_sam_l22_xpro.html#setting-up-the-hardware",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_l22_xpro/readme_sam_l22_xpro.html#setting-up-the-hardware"
-  },"156": {
+  },"160": {
     "doc": "SAML22 Xplained Pro",
     "title": "Running The Application",
     "content": ". | Open the application project sam_l22_xpro.X in the IDE | Build the project and program the target board ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_l22_xpro/readme_sam_l22_xpro.html#running-the-application",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_l22_xpro/readme_sam_l22_xpro.html#running-the-application"
-  },"157": {
+  },"161": {
     "doc": "SAML22 Xplained Pro",
     "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
     "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_l22_xpro/readme_sam_l22_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_l22_xpro/readme_sam_l22_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
-  },"158": {
+  },"162": {
     "doc": "SAML22 Xplained Pro",
     "title": "SAML22 Xplained Pro",
     "content": ". ",
     "url": "http://localhost:4000/touch_apps/apps/qt1_mutualcap_xpro_board/sam_l22_xpro/readme_sam_l22_xpro.html",
     "relUrl": "/apps/qt1_mutualcap_xpro_board/sam_l22_xpro/readme_sam_l22_xpro.html"
-  },"159": {
+  },"163": {
+    "doc": "SAML22 Xplained Pro",
+    "title": "SAML22 Xplained Pro Onboard Sensor Example",
+    "content": " ",
+    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#saml22-xplained-pro-onboard-sensor-example",
+    "relUrl": "/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#saml22-xplained-pro-onboard-sensor-example"
+  },"164": {
+    "doc": "SAML22 Xplained Pro",
+    "title": "Downloading and building the application",
+    "content": "Path of the application within the repository is apps/onboard_sensor/sam_l22_xpro/ . To build the application, refer to the following table and open the project using its IDE. ",
+    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#downloading-and-building-the-application",
+    "relUrl": "/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#downloading-and-building-the-application"
+  },"165": {
+    "doc": "SAML22 Xplained Pro",
+    "title": "Hardware Setup",
+    "content": ". | Project uses SAM L22 Xplained Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
+    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#hardware-setup",
+    "relUrl": "/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#hardware-setup"
+  },"166": {
+    "doc": "SAML22 Xplained Pro",
+    "title": "Running The Application",
+    "content": ". | Open the application project sam_l22_xpro.X in the IDE | Build the project and program the target board | . ",
+    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#running-the-application",
+    "relUrl": "/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#running-the-application"
+  },"167": {
+    "doc": "SAML22 Xplained Pro",
+    "title": "Monitoring Touch Data in MPLAB DV Touch plugin",
+    "content": "Prerequisite MPLAB Data Visualizer and Touch Pluign. Procedure for Installation is available in Introduction to Touch Plugin. | Configure COM Port . | Select the correct COM port in Connection tab | Update the Baud Rate to 115200 in COM Settings | Start Streaming for COM data | . | COM Port on Touch . | Select Touch in Connection tab | For data source, from drop-down menu, select configured COM port as source | Start Streaming on Touch | . | . Detailed procedure can be found in Introduction to Touch Plugin page. ",
+    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin",
+    "relUrl": "/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#monitoring-touch-data-in-mplab-dv-touch-plugin"
+  },"168": {
+    "doc": "SAML22 Xplained Pro",
+    "title": "SAML22 Xplained Pro",
+    "content": ". ",
+    "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html",
+    "relUrl": "/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html"
+  },"169": {
     "doc": "Touch Applications",
     "title": "Touch Applications",
     "content": "![Microchip logo](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_logo.png) ![Harmony logo small](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_mplab_harmony_logo_small.png) # Microchip MPLAB® Harmony 3 Touch Library MPLAB Harmony 3 Touch Library is a royalty-free software library for developing touch applications on 32-bit microcontrollers using the Peripheral Touch Controller (PTC). Developers can use it to integrate touch-sensing capability into their applications. The library supports both self-capacitance and mutual-capacitance acquisition methods. MPLAB Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded firmware solutions for Microchip 32-bit SAM and PIC microcontroller and microprocessor devices. Refer to the following links for more information. - [Microchip 32-bit MCUs](https://www.microchip.com/design-centers/32-bit) - [Microchip 32-bit MPUs](https://www.microchip.com/design-centers/32-bit-mpus) - [Microchip MPLAB X IDE](https://www.microchip.com/mplab/mplab-x-ide) - [Microchip MPLAB Harmony](https://www.microchip.com/mplab/mplab-harmony) - [Microchip MPLAB Harmony Pages](https://microchip-mplab-harmony.github.io/) This repository contains the MPLAB® Harmony 3 Touch application examples - [Release Notes](/touch_apps/release_notes.html) - [MPLAB® Harmony License](/touch_apps/mplab_harmony_license.html) To clone or download these application from Github,go to the [main page of this repository](https://github.com/Microchip-MPLAB-Harmony/touch_apps) and then click Clone button to clone this repo or download as zip file. This content can also be download using content manager by following [these instructions](https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki) ## Contents Summary | Folder | Description | --- | --- | apps | Touch example applications | docs | Applications help documentation | ## Touch Library Refer to [Touch Library Help](https://microchip-mplab-harmony.github.io/touch) for overview ## Touch Examples The following applications are provided to demonstrate touch applications using Touch supporting Xplained boards | Name | Description|:---------|:-----------| [QT1 Xplained Pro Self Capacitance Extension Board](/touch_apps/apps/qt1_selfcap_xpro_board/readme.html)| Examples using the button and scroller operation using self capacitance | [QT1 Xplained Pro Mutual Capacitance Extension Board](/touch_apps/apps/qt1_mutualcap_xpro_board/readme.html) | Examples using the button and scroller operation using mutual capacitance | [QT7 Xplained Pro Extension Board](/touch_apps/apps/qt7_selfcap_xpro_board/readme.html)| Examples using the QT7 water tolerant and robust touch board | [T10 Xplained Pro Extension Board](/touch_apps/apps/t10_mutualcap_xpro_board/readme.html) | Examples using the button and scroller operation using mutual capacitance | [Onboard Sensors Development Boards](/touch_apps/apps/onboard_sensor/readme.html) | Examples using single onboard button on the Xplained / xplained mini boards * Please refer to the [Touch Modular Library Userguide](https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en590454) available in the link below for further information. * Also, refer to the microchip developer pages listed under \\\"Harmony 3 Touch Configurator\\\" > Step by Step Examples > [Set Up the Environment](http://microchipdeveloper.com/touch:set-up-the-environment) for detailed information regarding configuring touch projects in Harmony framework. * For licensing information about contents of this module, please refer to [MPLAB Harmony License](/touch_apps/mplab_harmony_license.html). * For more information about the latest release, please refer to [Release Notes](/touch_apps/release_notes.html). ",

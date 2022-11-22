@@ -1,0 +1,14 @@
+format_version: v1.0
+configName: sam_da1_xpro
+folderName: sam_da1_xpro
+frameworkPath: E:\work\harmony\h3_bitbucket
+processor: ATSAMDA1J16B
+projectName: sam_da1_xpro
+settings:
+  PackageFilter: ''
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: dev_packs\arm\CMSIS\5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: dev_packs\Microchip\SAMDA1_DFP\2.7.82\atdf\ATSAMDA1J16B.atdf

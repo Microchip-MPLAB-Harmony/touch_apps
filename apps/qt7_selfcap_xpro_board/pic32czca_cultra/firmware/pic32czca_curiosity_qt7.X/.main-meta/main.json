@@ -4,13 +4,13 @@
     "content": {
         "metaDataVersion": "1.3.0",
 
-        "name": "com.microchip.mcu32.mplabx.project.touch_apps_qt7_selfcap_xpro_board_sam_l10_xpro",
+        "name": "com.microchip.mcu32.mplabx.project.touch_apps_qt7_selfcap_xpro_board_pic32czca_cultra",
         "version": "3.1.0",
 
-        "displayName": "Self Capacitance Example for SAM L10/L11 Family",
-        "projectName": "sam_l10_xpro",
+        "displayName": "Self Capacitance Example for PIC32CZCA Family",
+        "projectName": "pic32czca_curiosity_qt7",
 
-        "shortDescription": "MPLAB Harmony 3 Touch Library is a royalty-free software library for developing touch applications on 32-bit microcontrollers using the Peripheral Touch Controller (PTC). Developers can use it to integrate touch-sensing capability into their applications. This example application shows how to use self capacitance touch.",
+        "shortDescription": "MPLAB Harmony 3 Touch Library is a royalty-free software library for developing touch applications on 32-bit microcontrollers using the Peripheral Touch Controller (PTC). Developers can use it to integrate touch-sensing capability into their applications. This example application shows how to use self capacitance touch using only one button of QT7 with the shield capability.",
 
         "ide": {
             "name": "MPLABX",
@@ -24,8 +24,8 @@
 			}
 		],
         "dfp": {
-            "name": "SAML10_DFP",
-            "semverRange": "^3.2.68"
+            "name": "PIC32CZ8110CA90208_DFP",
+            "semverRange": "^1.0.14"
             },
         
         "configurator": {
@@ -39,7 +39,7 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-        "name": "ATSAML10E16A",
+        "name": "PIC32CZ8110CA90208",
                 "versionRange": "*"
             }
         },
@@ -60,7 +60,7 @@
                 "category": "com.microchip.portal.fileRef",
                 "content": {
                     "metaDataVersion": "1.0.0",
-					"fileName": "./../../docs/readme_sam_l10_xpro.md",
+                    "fileName": "./../../docs/readme_pic32czca_cultra.md",
                     "mimeType": "text/markdown"
                 }
             }

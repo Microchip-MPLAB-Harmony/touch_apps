@@ -1,0 +1,14 @@
+configName: pic32cm_jh_cpro
+folderName: pic32cm_jh_cpro
+format_version: v1.0
+frameworkPath: C:\Users\M69427\Harmony3
+processor: PIC32CM5164JH01100
+projectName: pic32cm_jh_cpro
+settings:
+  PackageFilter: ''
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: dev_packs\arm\CMSIS\5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: dev_packs\Microchip\PIC32CM-JH_DFP\1.0.88\PIC32CM-JH01\atdf\PIC32CM5164JH01100.atdf

@@ -1,0 +1,783 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: lib_qtouch}
+children:
+- type: Symbols
+  children:
+  - type: KeyValueSet
+    attributes: {id: DEF_DIGI_FILT_OVERSAMPLING0}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '4'}
+  - type: KeyValueSet
+    attributes: {id: DEF_DIGI_FILT_OVERSAMPLING1}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '4'}
+  - type: KeyValueSet
+    attributes: {id: DEF_DIGI_FILT_OVERSAMPLING2}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '6'}
+  - type: KeyValueSet
+    attributes: {id: DEF_DIGI_FILT_OVERSAMPLING3}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '6'}
+  - type: KeyValueSet
+    attributes: {id: DEF_DIGI_FILT_OVERSAMPLING4}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '6'}
+  - type: KeyValueSet
+    attributes: {id: DEF_DIGI_FILT_OVERSAMPLING5}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '6'}
+  - type: KeyValueSet
+    attributes: {id: DEF_DIGI_FILT_OVERSAMPLING6}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '6'}
+  - type: KeyValueSet
+    attributes: {id: DEF_DIGI_FILT_OVERSAMPLING7}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '6'}
+  - type: KeyValueSet
+    attributes: {id: DEF_DIGI_FILT_OVERSAMPLING8}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '6'}
+  - type: KeyValueSet
+    attributes: {id: DEF_DIGI_FILT_OVERSAMPLING9}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '6'}
+  - type: KeyValueSet
+    attributes: {id: DEF_NOD_AKS2}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '1'}
+  - type: KeyValueSet
+    attributes: {id: DEF_NOD_AKS3}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '1'}
+  - type: KeyValueSet
+    attributes: {id: DEF_NOD_AKS4}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '1'}
+  - type: KeyValueSet
+    attributes: {id: DEF_NOD_AKS5}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '1'}
+  - type: KeyValueSet
+    attributes: {id: DEF_NOD_AKS6}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '2'}
+  - type: KeyValueSet
+    attributes: {id: DEF_NOD_AKS7}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '2'}
+  - type: KeyValueSet
+    attributes: {id: DEF_NOD_AKS8}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '2'}
+  - type: KeyValueSet
+    attributes: {id: DEF_NOD_AKS9}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '2'}
+  - type: KeyValueSet
+    attributes: {id: DEF_SCR_TYPE1}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '1'}
+  - type: Integer
+    attributes: {id: DEF_TOUCH_MAX_VARIANCE}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '15'}
+  - type: Boolean
+    attributes: {id: ENABLE_DATA_STREAMER}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'false'}
+  - type: Boolean
+    attributes: {id: ENABLE_FREQ_HOP}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: ENABLE_SCROLLER}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: 'false'}
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: ENABLE_TOUCH_TUNE_WITH_PLUGIN}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: FREQ_AUTOTUNE}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: String
+    attributes: {id: LOW_POWER_KEYS_MASK}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: '0x0,0x0'}
+  - type: KeyValueSet
+    attributes: {id: MUTL-X-INPUT_0}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '8'}
+  - type: KeyValueSet
+    attributes: {id: MUTL-X-INPUT_1}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '9'}
+  - type: KeyValueSet
+    attributes: {id: MUTL-X-INPUT_2}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '2'}
+  - type: KeyValueSet
+    attributes: {id: MUTL-X-INPUT_3}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '3'}
+  - type: KeyValueSet
+    attributes: {id: MUTL-X-INPUT_4}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '8'}
+  - type: KeyValueSet
+    attributes: {id: MUTL-X-INPUT_5}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '9'}
+  - type: KeyValueSet
+    attributes: {id: MUTL-X-INPUT_6}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '2'}
+  - type: KeyValueSet
+    attributes: {id: MUTL-X-INPUT_7}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '3'}
+  - type: KeyValueSet
+    attributes: {id: MUTL-X-INPUT_8}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '8'}
+  - type: KeyValueSet
+    attributes: {id: MUTL-X-INPUT_9}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '9'}
+  - type: KeyValueSet
+    attributes: {id: MUTL-Y-INPUT_0}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '10'}
+  - type: KeyValueSet
+    attributes: {id: MUTL-Y-INPUT_1}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '10'}
+  - type: KeyValueSet
+    attributes: {id: MUTL-Y-INPUT_2}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '12'}
+  - type: KeyValueSet
+    attributes: {id: MUTL-Y-INPUT_3}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '12'}
+  - type: KeyValueSet
+    attributes: {id: MUTL-Y-INPUT_4}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '12'}
+  - type: KeyValueSet
+    attributes: {id: MUTL-Y-INPUT_5}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '12'}
+  - type: KeyValueSet
+    attributes: {id: MUTL-Y-INPUT_6}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '13'}
+  - type: KeyValueSet
+    attributes: {id: MUTL-Y-INPUT_7}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '13'}
+  - type: KeyValueSet
+    attributes: {id: MUTL-Y-INPUT_8}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '13'}
+  - type: KeyValueSet
+    attributes: {id: MUTL-Y-INPUT_9}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '13'}
+  - type: String
+    attributes: {id: PTC_CLOCK_FREQ}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: GCLK_ID_33_FREQ}
+  - type: Menu
+    attributes: {id: SCROLLER_MENU}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+  - type: KeyValueSet
+    attributes: {id: SENSE_TECHNOLOGY}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '1'}
+  - type: Integer
+    attributes: {id: TOUCH_CHAN_ENABLE_CNT}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '10'}
+  - type: File
+    attributes: {id: TOUCH_DATA_STREAMER_HEADER}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
+  - type: File
+    attributes: {id: TOUCH_DATA_STREAMER_HEADER_db}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
+  - type: File
+    attributes: {id: TOUCH_DATA_STREAMER_HEADER_ds}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
+  - type: File
+    attributes: {id: TOUCH_DATA_STREAMER_HEADER_sc}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
+  - type: File
+    attributes: {id: TOUCH_DATA_STREAMER_SOURCE}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_CH_0}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_CH_1}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_CH_2}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_CH_3}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_CH_4}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_CH_5}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_CH_6}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_CH_7}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_CH_8}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_CH_9}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_KEY_0}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_KEY_1}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_KEY_2}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_KEY_3}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_KEY_4}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_KEY_5}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_KEY_6}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_KEY_7}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_KEY_8}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_KEY_9}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_SCROLLER_0}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_ENABLE_SCROLLER_1}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: File
+    attributes: {id: TOUCH_HOP_AUTO_HEADER}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+  - type: Library
+    attributes: {id: TOUCH_HOP_AUTO_LIB}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+  - type: File
+    attributes: {id: TOUCH_HOP_HEADER}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
+  - type: Library
+    attributes: {id: TOUCH_HOP_LIB}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
+  - type: Integer
+    attributes: {id: TOUCH_KEY_ENABLE_CNT}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '10'}
+  - type: Boolean
+    attributes: {id: TOUCH_LOADED}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: TOUCH_PRE_GENERATE}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: String
+    attributes: {id: TOUCH_SCRIPT_EVENT}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: ''}
+  - type: Integer
+    attributes: {id: TOUCH_SCROLLER_ENABLE_CNT}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '2'}
+  - type: File
+    attributes: {id: TOUCH_SCR_HEADER}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+  - type: Library
+    attributes: {id: TOUCH_SCR_LIB}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+  - type: Integer
+    attributes: {id: TOUCH_SCR_SIZE0}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '4'}
+  - type: Integer
+    attributes: {id: TOUCH_SCR_SIZE1}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '4'}
+  - type: Integer
+    attributes: {id: TOUCH_SCR_START_KEY0}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '2'}
+  - type: Integer
+    attributes: {id: TOUCH_SCR_START_KEY1}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '6'}
+  - type: String
+    attributes: {id: TOUCH_SERCOM_INSTANCE}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'false'}
+  - type: String
+    attributes: {id: TOUCH_SERCOM_KRONO_INSTANCE}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: SERCOM3}
+  - type: String
+    attributes: {id: TOUCH_TIMER_INSTANCE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_qtouch, value: RTC}
+  - type: File
+    attributes: {id: TOUCH_TUNE_WITH_PLUGIN_HEADER}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+  - type: File
+    attributes: {id: TOUCH_TUNE_WITH_PLUGIN_SOURCE}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+- type: Attachments
+  children:
+  - type: DirectDependency
+    attributes: {id: Touch_sercom}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
+  - type: DirectDependency
+    attributes: {id: Touch_sercom_Krono}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: targetComponentID}
+        children:
+        - {type: Value, value: sercom3}
+      - type: String
+        attributes: {id: targetAttachmentID}
+        children:
+        - {type: Value, value: SERCOM3_UART}
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+  - type: DirectDependency
+    attributes: {id: Touch_timer}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: targetComponentID}
+        children:
+        - {type: Value, value: rtc}
+      - type: String
+        attributes: {id: targetAttachmentID}
+        children:
+        - {type: Value, value: RTC_TMR}
+  - type: DirectDependency
+    attributes: {id: lib_acquire}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: targetComponentID}
+        children:
+        - {type: Value, value: ptc}
+      - type: String
+        attributes: {id: targetAttachmentID}
+        children:
+        - {type: Value, value: ptc_Acq_Engine}
+- type: ElementPosition
+  attributes: {x: '433', y: '185', id: lib_qtouch}

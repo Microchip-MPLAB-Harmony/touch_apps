@@ -18,19 +18,19 @@ See [readme](readme.md) for detailed list of example applications
 
 ### DEVELOPMENT TOOLS 
 
-* [MPLAB® X IDE v6.00](https://www.microchip.com/mplabx-ide-windows-installer)
-* [MPLAB® XC32 C/C++ Compiler v4.10](https://www.microchip.com/mplab/compilers)
+* [MPLAB® X IDE v6.05](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
+* [MPLAB® XC32 C/C++ Compiler v4.20](https://www.microchip.com/mplab/compilers)
 * MPLAB® XIDE plug-ins: 
     * MPLAB® Code Configurator (MCC)
-      * MCC Plugin v5.1.9
-      * MCC Core v5.4.4 
+      * MCC Plugin v5.2.2
+      * MCC Core v5.4.14 
 
 ### REQUIRED MPLAB HARMONY v3.x.x MODULES 
 
-* csp v3.13.1
-* dev_packs v3.13.0
-* mcc v5.4.4
-* touch v3.12.1
+* csp v3.14.0
+* dev_packs v3.14.0
+* mcc v5.4.14
+* touch v3.13.0
 
 ## Touch Applications v3.3.0 Release
 
