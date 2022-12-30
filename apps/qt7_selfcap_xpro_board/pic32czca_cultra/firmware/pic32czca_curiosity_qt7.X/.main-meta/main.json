@@ -10,7 +10,7 @@
         "displayName": "Self Capacitance Example for PIC32CZCA Family",
         "projectName": "pic32czca_curiosity_qt7",
 
-        "shortDescription": "MPLAB Harmony 3 Touch Library is a royalty-free software library for developing touch applications on 32-bit microcontrollers using the Peripheral Touch Controller (PTC). Developers can use it to integrate touch-sensing capability into their applications. This example application shows how to use self capacitance touch using only one button of QT7 with the shield capability.",
+        "shortDescription": "This example demonstrates touch application using PIC32CZCA CURIOSITY ULTRA with QT7 Selfcap XPRO extension board.",
 
         "ide": {
             "name": "MPLABX",

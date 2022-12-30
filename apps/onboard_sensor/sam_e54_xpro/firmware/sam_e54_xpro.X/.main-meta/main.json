@@ -10,7 +10,7 @@
         "displayName": "Onboard Single Touch Button Example for SAM D5x/E5x Family",
         "projectName": "sam_e54_xpro_on_board_sensor",
 
-        "shortDescription": "MPLAB Harmony 3 Touch Library is a royalty-free software library for developing touch applications on 32-bit microcontrollers using the Peripheral Touch Controller (PTC). Developers can use it to integrate touch-sensing capability into their applications. This example application shows how to use onboard single touch button.",
+        "shortDescription": "This example demonstrates touch application using the on-board touch sensor in SAME54 XPRO board.",
 
         "ide": {
             "name": "MPLABX",

@@ -10,7 +10,7 @@
         "displayName": "Self Capacitance Example for SAM C20/C21 Family",
         "projectName": "sam_c21_xpro_qt1_selfcap",
 
-        "shortDescription": "MPLAB Harmony 3 Touch Library is a royalty-free software library for developing touch applications on 32-bit microcontrollers using the Peripheral Touch Controller (PTC). Developers can use it to integrate touch-sensing capability into their applications. This example application shows how to use self capacitance touch.",
+        "shortDescription": "This example demonstrates touch application using SAMC21 XPRO with QT1 Selfcap XPRO extension board.",
 
         "ide": {
             "name": "MPLABX",
