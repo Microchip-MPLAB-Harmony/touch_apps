@@ -1,0 +1,69 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.3.0",
+
+        "name": "com.microchip.mcu32.mplabx.project.touch_apps_t9_selfcap_xpro_board_sam_d21_xpro",
+        "version": "3.5.0",
+
+        "displayName": "Self Capacitance Example using T9 XPRO for SAM D20/D21 Family",
+        "projectName": "sam_d21_xpro",
+
+        "shortDescription": "This example demonstrates touch application using SAMD21 XPRO with T9 Selfcap XPRO extension board.",
+
+        "ide": {
+            "name": "MPLABX",
+            "semverRange": ">=6.05.0"
+        },
+        
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=4.20.0"
+			}
+		],
+        "dfp": {
+            "name": "SAMD21_DFP",
+            "semverRange": "^3.6.144"
+            },
+        
+        "configurator": {
+            "name": "MCC",
+            "semverRange": ">=5.2.2"
+        },
+        
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+        "name": "ATSAMD21J18A",
+                "versionRange": "*"
+            }
+        },
+        "author": "Microchip",
+        "peripherals":   ["PTC","I2C","UART","RTC"],
+        "keywords": [
+            "MHC",
+            "Harmony",
+            "Middleware",
+            "Touch",
+            "1D Touch",
+            "Self Capacitance"
+            
+        ],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+					"fileName": "./../../readme_sam_d21_xpro.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
