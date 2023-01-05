@@ -5,32 +5,32 @@
         "metaDataVersion": "1.3.0",
 
         "name": "com.microchip.mcu32.mplabx.project.touch_apps_qt1_selfcap_xpro_board_sam_d21_xpro",
-        "version": "3.1.0",
+        "version": "3.5.0",
 
-        "displayName": "Self Capacitance Example for SAM D21 Family",
+        "displayName": "Self Capacitance Example using QT1 SELFCAP XPRO for SAM D21 Family",
         "projectName": "sam_d21_xpro_qt1_selfcap",
 
         "shortDescription": "This example demonstrates touch application using SAMD21 XPRO with QT1 Selfcap XPRO extension board.",
 
         "ide": {
             "name": "MPLABX",
-            "semverRange": ">=5.50.0"
+            "semverRange": ">=6.05.0"
         },
         
 		"compiler": [
 			{
 				"name": "XC32",
-				"semverRange": ">=2.50.0"
+				"semverRange": ">=4.20.0"
 			}
 		],
         "dfp": {
 			"name": "SAMD21_DFP",
-			"semverRange": "^3.3.98"
+			"semverRange": "^3.6.144"
             },
         
         "configurator": {
-            "name": "MHC",
-            "semverRange": ">=3.6.4"
+            "name": "MCC",
+            "semverRange": ">=5.2.2"
         },
         
         "device": {

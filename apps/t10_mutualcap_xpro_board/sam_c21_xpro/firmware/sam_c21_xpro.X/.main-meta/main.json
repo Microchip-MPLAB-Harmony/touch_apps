@@ -5,32 +5,32 @@
         "metaDataVersion": "1.3.0",
 
         "name": "com.microchip.mcu32.mplabx.project.touch_apps_t10_mutualcap_xpro_board_sam_c21_xpro",
-        "version": "3.1.0",
+        "version": "3.5.0",
 
-        "displayName": "Mutual Capacitance Example for SAM C20/C21 Family",
+        "displayName": "Mutual Capacitance Example using T10 Mutualcap XPRO for SAM C20/C21 Family",
         "projectName": "sam_c21_xpro_t10_mutualcap",
 
         "shortDescription": "This example demonstrates touch application using SAMC21 XPRO with T10 Mutualcap XPRO extension board.",
 
         "ide": {
             "name": "MPLABX",
-            "semverRange": ">=5.50.0"
+            "semverRange": ">=6.05.0"
         },
         
 		"compiler": [
 			{
 				"name": "XC32",
-				"semverRange": ">=2.50.0"
+				"semverRange": ">=4.20.0"
 			}
 		],
         "dfp": {
             "name": "SAMC21_DFP",
-            "semverRange": "^3.3.72"
+            "semverRange": "^3.8.119"
             },
         
         "configurator": {
-            "name": "MHC",
-            "semverRange": ">=3.6.4"
+            "name": "MCC",
+            "semverRange": ">=5.2.2"
         },
         
         "device": {
