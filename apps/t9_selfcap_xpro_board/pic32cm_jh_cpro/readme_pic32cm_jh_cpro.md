@@ -17,7 +17,7 @@ To build the application, refer to the following table and open the project usin
 
 | Project Name      | Description                                    |
 | ----------------- | ---------------------------------------------- |
-| t9_selfcap_xpro_board/pic32cm_jh_cpro/pic32cm_jh_cpro.X    | MPLABX Project for [SAM C21 Xplained Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV80P12A_TODO)|
+| t9_selfcap_xpro_board/pic32cm_jh_cpro/pic32cm_jh_cpro.X    | MPLABX Project for [PIC32CMJH Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV80P12A_TODO)|
 |||
 
 ## Hardware Setup
