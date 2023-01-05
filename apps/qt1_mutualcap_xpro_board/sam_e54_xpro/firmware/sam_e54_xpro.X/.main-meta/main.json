@@ -5,7 +5,7 @@
         "metaDataVersion": "1.3.0",
 
         "name": "com.microchip.mcu32.mplabx.project.touch_apps_qt1_mutualcap_xpro_board_sam_e54_xpro",
-        "version": "3.1.0",
+        "version": "3.5.0",
 
 		"displayName": "Mutual Capacitance Example using QT1 MUTUALCAP XPRO for SAM D5x/E5x Family",
 		"projectName": "sam_e54_xpro_qt1_mutualcap",
@@ -61,7 +61,7 @@
                 "category": "com.microchip.portal.fileRef",
                 "content": {
                     "metaDataVersion": "1.0.0",
-					"fileName": "./../../docs/readme_sam_e54_xpro.md",
+					"fileName": "./../../readme_sam_e54_xpro.md",
                     "mimeType": "text/markdown"
                 }
             }

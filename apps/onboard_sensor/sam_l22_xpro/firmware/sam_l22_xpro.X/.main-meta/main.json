@@ -59,7 +59,7 @@
                 "category": "com.microchip.portal.fileRef",
                 "content": {
                     "metaDataVersion": "1.0.0",
-					"fileName": "./../../docs/readme_sam_l22_xpro.md",
+					"fileName": "./../../readme_sam_l22_xpro.md",
                     "mimeType": "text/markdown"
                 }
             }

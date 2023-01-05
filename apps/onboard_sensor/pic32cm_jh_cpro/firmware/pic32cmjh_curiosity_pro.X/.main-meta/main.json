@@ -59,7 +59,7 @@
                 "category": "com.microchip.portal.fileRef",
                 "content": {
                     "metaDataVersion": "1.0.0",
-					"fileName": "./../../docs/readme_pic32cmjh_curiosity_pro.md",
+					"fileName": "./../../readme_pic32cmjh_curiosity_pro.md",
                     "mimeType": "text/markdown"
                 }
             }

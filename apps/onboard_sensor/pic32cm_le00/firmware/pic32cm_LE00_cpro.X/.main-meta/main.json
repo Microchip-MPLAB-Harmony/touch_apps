@@ -52,7 +52,7 @@
 				"category": "com.microchip.portal.fileRef",
 				"content": {
 					"metaDataVersion": "1.0.0",
-					"fileName": "./../../docs/readme_pic32cm_LE00_cpro.md",
+					"fileName": "./../../readme_pic32cm_LE00_cpro.md",
 					"mimeType": "text/markdown"
 				}
 			}

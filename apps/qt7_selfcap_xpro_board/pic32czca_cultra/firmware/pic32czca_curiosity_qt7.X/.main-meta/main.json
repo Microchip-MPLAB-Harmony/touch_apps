@@ -60,7 +60,7 @@
                 "category": "com.microchip.portal.fileRef",
                 "content": {
                     "metaDataVersion": "1.0.0",
-                    "fileName": "./../../docs/readme_pic32czca_cultra.md",
+                    "fileName": "./../../readme_pic32czca_cultra.md",
                     "mimeType": "text/markdown"
                 }
             }

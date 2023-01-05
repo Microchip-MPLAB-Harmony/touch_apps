@@ -63,7 +63,7 @@
                 "category": "com.microchip.portal.fileRef",
                 "content": {
                     "metaDataVersion": "1.0.0",
-					"fileName": "./../../docs/readme_bootloader.md",
+					"fileName": "./../../readme_bootloader.md",
                     "mimeType": "text/markdown"
                 }
             }

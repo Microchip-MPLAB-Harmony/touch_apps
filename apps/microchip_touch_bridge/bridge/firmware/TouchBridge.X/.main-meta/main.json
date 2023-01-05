@@ -46,12 +46,12 @@
 			"Harmony",
 			"Middleware",
 			"Touch",
-			"ATSAMD21J18A",
-			"SAM D21/DA1 Family",
-			"Touch Bridge",
-			"Microchip Touch Bridge",
-			"MTB",
-			"RN4678"
+			"1D Touch",
+            "2D Touch",
+            "Bluetooth",
+            "Wireless",
+            "Self Capacitance",
+            "Mutual Capacitance"
 		],
 		"additionalData": {
 			"longDescription": {
@@ -59,7 +59,7 @@
 				"category": "com.microchip.portal.fileRef",
 				"content": {
 					"metaDataVersion": "1.0.0",
-					"fileName": "./../../docs/readme_bridge.md",
+					"fileName": "./../../readme_bridge.md",
 					"mimeType": "text/markdown"
 				}
 			}
