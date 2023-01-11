@@ -93,7 +93,8 @@ void touch_status_display1(void)
     }
 
     key_status1 = get_sensor_state(3) & KEY_TOUCHED_MASK;
-    if (0u != key_status1) {git add
+    if (0u != key_status1) 
+    {
         //Touch detect
         LED_3_Clear();
     } else {
