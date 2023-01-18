@@ -51,7 +51,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #define SCROLLER_MODULE_OUTPUT 0u
 
-#define FREQ_HOP_AUTO_MODULE_OUTPUT 0u
+#define FREQ_HOP_AUTO_MODULE_OUTPUT 1u
 #define OUTPUT_MODULE_CNT 3u
 
 typedef struct __attribute__((packed)) {
@@ -247,8 +247,8 @@ sensorData_t runtime_data_arr;
 
 /* configuration details */
 uint8_t proj_config[PROJECT_CONFIG_DATA_LEN] = {PROTOCOL_VERSION, saml1x_pic32cmle, TECH, (DEF_NUM_CHANNELS),
-									(SENSOR_NODE_CONFIG_ID|SENSOR_KEY_CONFIG_ID|COMMON_SENSOR_CONFIG_ID), (0u), (0u),
-									(KEYS_MODULE), (0u),(0u)};
+									(SENSOR_NODE_CONFIG_ID|SENSOR_KEY_CONFIG_ID|COMMON_SENSOR_CONFIG_ID|FREQ_HOPPING_AUTO_TUNE_ID), (0u), (0u),
+									(KEYS_MODULE|FREQ_HOP_AUTO_TUNE_MODULE), (0u),(0u)};
 
 uint16_t frame_len_lookup[NO_OF_CONFIG_FRAME_ID]  = {CONFIG_0_LEN,CONFIG_1_LEN,CONFIG_2_LEN,CONFIG_3_LEN,CONFIG_4_LEN,CONFIG_5_LEN,CONFIG_6_LEN};
 uint8_t *ptr_arr[NO_OF_CONFIG_FRAME_ID]	= {CONFIG_0_PTR,CONFIG_1_PTR,CONFIG_2_PTR,CONFIG_3_PTR,CONFIG_4_PTR,CONFIG_5_PTR,CONFIG_6_PTR};
@@ -259,7 +259,7 @@ uint8_t debug_frame_id[OUTPUT_MODULE_CNT]		  = {DATA_0_ID,DATA_1_ID,DATA_2_ID};
 uint16_t debug_frame_data_len[OUTPUT_MODULE_CNT]  = {DATA_0_LEN,DATA_1_LEN,DATA_2_LEN};
 uint16_t debug_frame_total_len[OUTPUT_MODULE_CNT] = {DATA_0_FRAME_LEN,DATA_1_FRAME_LEN,DATA_2_FRAME_LEN};
 uint8_t debug_num_ch_scroller[OUTPUT_MODULE_CNT] = {DATA_0_REPEAT,DATA_1_REPEAT,DATA_2_REPEAT};
-void (*debug_func_ptr[OUTPUT_MODULE_CNT])(uint8_t ch) = {copy_run_time_data,NULL,NULL};
+void (*debug_func_ptr[OUTPUT_MODULE_CNT])(uint8_t ch) = {copy_run_time_data,NULL,copy_freq_hop_auto_runtime_data};
 
 #if FREQ_HOP_AUTO_MODULE_OUTPUT == 1u
 void copy_freq_hop_auto_runtime_data(uint8_t channel_num)

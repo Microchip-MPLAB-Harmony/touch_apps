@@ -53,7 +53,7 @@ extern "C" {
 #include "qtm_common_components_api.h"
 #include "qtm_acq_saml10_0x0027_api.h"
 #include "qtm_touch_key_0x0002_api.h"
-#include "qtm_freq_hop_0x0006_api.h"
+#include "qtm_freq_hop_auto_0x0004_api.h"
 /*----------------------------------------------------------------------------
  *   prototypes
  *----------------------------------------------------------------------------*/

@@ -1494,7 +1494,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_103_FUNCTION_NAME&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;LED_3&quot;/&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;LED_4&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -1560,7 +1560,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_104_FUNCTION_NAME&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;LED_4&quot;/&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;LED_3&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -1681,6 +1681,28 @@
   &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_10_FUNCTION_TYPE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;lib_qtouch&quot; value=&quot;&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_10_MODE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_10_MODE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;ANALOG&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_10_PERIPHERAL_FUNCTION"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_10_PERIPHERAL_FUNCTION&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;B&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -2272,6 +2294,17 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PAD_3"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PAD_3&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;PA03&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PAD_6"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PAD_6&quot;&gt;
@@ -2297,6 +2330,17 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PINCFG27"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PINCFG27&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x1&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PINCFG3"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PINCFG3&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x1&quot;/&gt;
     &lt;/Values&gt;
@@ -2338,6 +2382,17 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PIN_3_USED"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PIN_3_USED&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PIN_6_USED"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PIN_6_USED&quot;&gt;
@@ -2354,6 +2409,17 @@
   &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PIN_7_USED&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PMUX1"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PMUX1&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x10&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -3157,7 +3223,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="DEF_DIGI_FILT_GAIN0"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;DEF_DIGI_FILT_GAIN0&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;1&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
 </value>
@@ -3166,7 +3234,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="DEF_DIGI_FILT_GAIN1"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;DEF_DIGI_FILT_GAIN1&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;1&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
 </value>
@@ -4165,7 +4235,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="DEF_DIGI_FILT_GAIN2"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;DEF_DIGI_FILT_GAIN2&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;1&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
 </value>
@@ -4912,7 +4984,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="DEF_DIGI_FILT_GAIN3"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;DEF_DIGI_FILT_GAIN3&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;1&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
 </value>
@@ -30156,7 +30230,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="DEF_SENSOR_DET_THRESHOLD0"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;DEF_SENSOR_DET_THRESHOLD0&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;30&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
 </value>
@@ -30165,7 +30241,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="DEF_SENSOR_DET_THRESHOLD1"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;DEF_SENSOR_DET_THRESHOLD1&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;30&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
 </value>
@@ -31164,7 +31242,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="DEF_SENSOR_DET_THRESHOLD2"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;DEF_SENSOR_DET_THRESHOLD2&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;30&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
 </value>
@@ -31911,7 +31991,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="DEF_SENSOR_DET_THRESHOLD3"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;DEF_SENSOR_DET_THRESHOLD3&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;30&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
 </value>
@@ -42654,7 +42736,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="FREQ_AUTOTUNE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;FREQ_AUTOTUNE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;true&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
 </value>
@@ -58204,6 +58288,58 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="TOUCH_HOP_AUTO_HEADER"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
+  &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;TOUCH_HOP_AUTO_HEADER&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+  &lt;/lib_qtouch&gt;
+&lt;/lib_qtouch&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="TOUCH_HOP_AUTO_LIB"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
+  &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;TOUCH_HOP_AUTO_LIB&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+  &lt;/lib_qtouch&gt;
+&lt;/lib_qtouch&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="TOUCH_HOP_HEADER"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
+  &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;TOUCH_HOP_HEADER&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+  &lt;/lib_qtouch&gt;
+&lt;/lib_qtouch&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="TOUCH_HOP_LIB"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
+  &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;TOUCH_HOP_LIB&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+  &lt;/lib_qtouch&gt;
+&lt;/lib_qtouch&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="TOUCH_KEY_ENABLE_CNT"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;TOUCH_KEY_ENABLE_CNT&quot;&gt;
@@ -66163,7 +66299,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_e54_xpro\touch\touch_api_ptc.h</file>
-         <hash>f7744ed945aa05b987e2402ae5984faf906490106ad73ed61b48a45afa4c7e33</hash>
+         <hash>2cbbc6c4ea01d1092cea307d2bf46e4855391e90d02528b93df17317a60c52d5</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_gcc.h</file>
@@ -66178,6 +66314,10 @@
          <hash>7a4406dfa7eb718eee60217e7836e2a70d929d7ee4bac6f4495149b9f20ee2c8</hash>
       </entry>
       <entry>
+         <file>..\src\config\sam_e54_xpro\pin_configurations.csv</file>
+         <hash>e1397f5678afac40479c691548cb4cd9c4b246eb36825cf84bee04a40086cee5</hash>
+      </entry>
+      <entry>
          <file>..\src\packs\ATSAME54P20A_DFP\component\pdec.h</file>
          <hash>acbe65ae334a0fc7f7ff94042e6ec87b296cbd0e48aa2e11a2e008ecf317efb5</hash>
       </entry>
@@ -66188,10 +66328,6 @@
       <entry>
          <file>..\src\packs\ATSAME54P20A_DFP\instance\usb.h</file>
          <hash>b4f09538ae20e0e58e8c2a1ce2462322c648e5211b0dc8afeb85849536a1d5ca</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_e54_xpro\pin_configurations.csv</file>
-         <hash>a5ea46f2a19da1ac31bbaa3fe8cbf56e5db2fd410526d5b794130485500b19c7</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_e54_xpro\touch\qtm_acq_same54_0x000f_api.h</file>
@@ -66218,12 +66354,12 @@
          <hash>0677211e0f140cce9806eb3611122a91a3c8c9e9954ac7f2e40b6d75478f72c4</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAME54P20A_DFP\instance\cmcc.h</file>
-         <hash>2195f531dd5af8ea3bb5b496205abae4b862644e6616cc5f4bd3f32c3942bb05</hash>
-      </entry>
-      <entry>
          <file>..\src\config\sam_e54_xpro\device_vectors.h</file>
          <hash>2ca6c5e4f11c88f714464908b2a390e9ca48457311f7e72f6f6679dea2b43b86</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAME54P20A_DFP\instance\cmcc.h</file>
+         <hash>2195f531dd5af8ea3bb5b496205abae4b862644e6616cc5f4bd3f32c3942bb05</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAME54P20A_DFP\component\fuses.h</file>
@@ -66239,7 +66375,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_e54_xpro\peripheral\port\plib_port.c</file>
-         <hash>acf616bc181a88e2c57173d8d588e7516e26a867d7ca828d122729f49d7a1933</hash>
+         <hash>6f1b72f7bd13ccd37edea820b916490c3ea2f4aec48845ca4a562b31b33e929d</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAME54P20A_DFP\instance\tc4.h</file>
@@ -66302,10 +66438,6 @@
          <hash>aa2bdc8321bd2bbc2b22c2f128dfeb347df622da1f3c8a7e3999f289deb5811d</hash>
       </entry>
       <entry>
-         <file>..\src\config\sam_e54_xpro\touch\lib\qtm_freq_hop_cm4_0x0006.X.a</file>
-         <hash>86433ce42999447e51bbcbbfcc140c803ed4b5b15851ae1e84fe1291c52f23eb</hash>
-      </entry>
-      <entry>
          <file>..\src\packs\ATSAME54P20A_DFP\instance\rtc.h</file>
          <hash>cd984dc4e6d77d9d6d6c9dc9280a3920439f0c13cbb092950b2e07c697a57ec8</hash>
       </entry>
@@ -66366,12 +66498,12 @@
          <hash>487382470657aa7cfadf6233d6a14d97decfa8cf91a4e343a39c685e4fa2def0</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAME54P20A_DFP\instance\tc5.h</file>
-         <hash>89aafad0edc1599ec9e28352f5660ea7e956d37ab3f1e6fee402406ad934732c</hash>
-      </entry>
-      <entry>
          <file>..\src\config\sam_e54_xpro\ATSAME54P20A.ld</file>
          <hash>5376ca76ffc77cfc847cf381be187aee4ec4bbc9bf8269ee8c54019750744638</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAME54P20A_DFP\instance\tc5.h</file>
+         <hash>89aafad0edc1599ec9e28352f5660ea7e956d37ab3f1e6fee402406ad934732c</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAME54P20A_DFP\same54p20a.h</file>
@@ -66419,7 +66551,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_e54_xpro\peripheral\port\plib_port.h</file>
-         <hash>16def759479a068cbd72b43214a92fba4146e61ef96e4c114ef2491e89669a55</hash>
+         <hash>be21d987d48ea2e4b5c8b702964243612eddbe512dd52a3cf48db6f22a0ddf66</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAME54P20A_DFP\component\icm.h</file>
@@ -66431,7 +66563,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_e54_xpro\touch\touch.h</file>
-         <hash>5df0f9e03222c003acd6f6527d65e223911f48708eb856861913c00afd353f46</hash>
+         <hash>fe2289d3edcf0c2ac626057cf3f95f6dd01d326b62b271c1bc723200e2562f82</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAME54P20A_DFP\component\ac.h</file>
@@ -66447,11 +66579,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_e54_xpro\interrupts.c</file>
-         <hash>e4af77ddacff13a49cfd5450d0da33237cf71eef81c886ce8071bebeb381c43f</hash>
+         <hash>683995c57861ffcb1f8ad5903e4a65c0121cd1d88472bbe9a90c8fccfbf2228c</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_e54_xpro\touch\touch.c</file>
-         <hash>5fdf600fd879368fe068fd75a007c747a9e2652fba6a0bc30e5eaf69e498731b</hash>
+         <hash>ff10b5eec1f3fe797d53bc52e42df5ba00767f624252655955f41d3860db90ed</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_e54_xpro\peripheral\nvmctrl\plib_nvmctrl.c</file>
@@ -66466,16 +66598,20 @@
          <hash>fd7749dc74a885efd7c593394454abc74afc7cf184123f0315425a3600c26ac5</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAME54P20A_DFP\instance\oscctrl.h</file>
-         <hash>4a8cd26588085dd798c86a20597c7a063c1182a3c6021c45150263b623fb4681</hash>
-      </entry>
-      <entry>
          <file>..\src\config\sam_e54_xpro\interrupts.h</file>
          <hash>486dab2e3a144262b95b593da1a2d6543bfc0e46f57830117d2a2835fb3e3234</hash>
       </entry>
       <entry>
+         <file>..\src\packs\ATSAME54P20A_DFP\instance\oscctrl.h</file>
+         <hash>4a8cd26588085dd798c86a20597c7a063c1182a3c6021c45150263b623fb4681</hash>
+      </entry>
+      <entry>
          <file>..\src\config\sam_e54_xpro\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
          <hash>3feca67a173d19d45961676a16f6153a6d849ecac98e906b62a343258c8bf43b</hash>
+      </entry>
+      <entry>
+         <file>..\src\main.c</file>
+         <hash>d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAME54P20A_DFP\component\evsys.h</file>
@@ -66484,10 +66620,6 @@
       <entry>
          <file>..\src\packs\ATSAME54P20A_DFP\instance\rstc.h</file>
          <hash>bec7acd432ab4742f4b19035e1013197954665683011881ceb181b6304d5e6ee</hash>
-      </entry>
-      <entry>
-         <file>..\src\main.c</file>
-         <hash>d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAME54P20A_DFP\instance\sercom0.h</file>
@@ -66556,10 +66688,6 @@
       <entry>
          <file>..\src\config\sam_e54_xpro\peripheral\clock\plib_clock.h</file>
          <hash>59322a99314cb17c6b595d51d18769582e61189140188aa053acfdc671487f21</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_e54_xpro\touch\qtm_freq_hop_0x0006_api.h</file>
-         <hash>2235eaae22ca0ec808a50c31e79050a4b14408a247d0b868dde1f2330440dc65</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_e54_xpro\touch\lib\qtm_touch_key_cm4_0x0002.X.a</file>
@@ -66631,7 +66759,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_e54_xpro\touch\touchTune.c</file>
-         <hash>b3006f6759a1b1e435e8d655189d797571af139d48a212f8dcd6e2495d8c1ac4</hash>
+         <hash>4219321cb9711806cc77744fce27041d9438bb87ebe17f831d444850318d0f9d</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_e54_xpro\exceptions.c</file>
@@ -66702,12 +66830,12 @@
          <hash>b0e3f093b3b682edd3e89d425dae3830e46689c35eb8c0f995992c0f4c4d1758</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAME54P20A_DFP\instance\tc3.h</file>
-         <hash>8efdc1c1596804c975c2bb3498327623c25644a8225f17c979808ff953e2adc2</hash>
+         <file>..\src\config\sam_e54_xpro\definitions.h</file>
+         <hash>5f37ba20d051609366d7a01a9b83715b1d7172641faaf0942275ca3b6ab053de</hash>
       </entry>
       <entry>
-         <file>..\src\config\sam_e54_xpro\definitions.h</file>
-         <hash>a815fc703536e526577118290c5987b09305937acc0ec894a655c7ad335ec662</hash>
+         <file>..\src\packs\ATSAME54P20A_DFP\instance\tc3.h</file>
+         <hash>8efdc1c1596804c975c2bb3498327623c25644a8225f17c979808ff953e2adc2</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_e54_xpro\toolchain_specifics.h</file>
@@ -66766,12 +66894,12 @@
          <hash>68bb28accb617ce48b644e0b41a8f8a1aab2e1025456ba49a5a4bd72bf8e9fe8</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAME54P20A_DFP\component\dmac.h</file>
-         <hash>75d483c942661a7c27425bbcf069bbe4d51fc5cd414d2e6773827f560d40a3f5</hash>
-      </entry>
-      <entry>
          <file>..\src\config\sam_e54_xpro\peripheral\cmcc\plib_cmcc.c</file>
          <hash>3b03e762c5515130718e7694736be6c25984ff8078c84d21a3fb9eba54f68e5d</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAME54P20A_DFP\component\dmac.h</file>
+         <hash>75d483c942661a7c27425bbcf069bbe4d51fc5cd414d2e6773827f560d40a3f5</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_e54_xpro\startup_xc32.c</file>

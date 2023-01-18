@@ -42,11 +42,10 @@
             <itemPath>../src/config/sam_l10_xpro/touch/qtm_acq_saml10_0x0027_api.h</itemPath>
             <itemPath>../src/config/sam_l10_xpro/touch/touch.h</itemPath>
             <itemPath>../src/config/sam_l10_xpro/touch/touchTune.h</itemPath>
-            <itemPath>../src/config/sam_l10_xpro/touch/qtm_freq_hop_0x0006_api.h</itemPath>
             <itemPath>../src/config/sam_l10_xpro/touch/touch_example.h</itemPath>
-            <itemPath>../src/config/sam_l10_xpro/touch/qtm_freq_hop_auto_0x0004_api.h</itemPath>
             <itemPath>../src/config/sam_l10_xpro/touch/qtm_common_components_api.h</itemPath>
             <itemPath>../src/config/sam_l10_xpro/touch/qtm_touch_key_0x0002_api.h</itemPath>
+            <itemPath>../src/config/sam_l10_xpro/touch/qtm_freq_hop_auto_0x0004_api.h</itemPath>
           </logicalFolder>
           <itemPath>../src/config/sam_l10_xpro/interrupts.h</itemPath>
           <itemPath>../src/config/sam_l10_xpro/device.h</itemPath>
@@ -240,8 +239,8 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
         <pack name="SAML10_DFP" vendor="Microchip" version="3.9.116"/>
+        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -249,9 +248,8 @@
         <linkerTool>
           <linkerLibItems>
             <linkerLibFileItem>../src/config/sam_l10_xpro/touch/lib/qtm_acq_saml10_0x0027.X.a</linkerLibFileItem>
-            <linkerLibFileItem>../src/config/sam_l10_xpro/touch/lib/qtm_freq_hop_cm23_0x0006.X.a</linkerLibFileItem>
-            <linkerLibFileItem>../src/config/sam_l10_xpro/touch/lib/qtm_freq_hop_auto_cm23_0x0004.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/sam_l10_xpro/touch/lib/qtm_touch_key_cm23_0x0002.X.a</linkerLibFileItem>
+            <linkerLibFileItem>../src/config/sam_l10_xpro/touch/lib/qtm_freq_hop_auto_cm23_0x0004.X.a</linkerLibFileItem>
           </linkerLibItems>
         </linkerTool>
         <archiverTool>
@@ -1079,6 +1077,8 @@
         <property key="periphComp5.gte" value="gt"/>
         <property key="periphComp6.gte" value="gt"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="D:/REPOSITORY/TA_1/touch_apps/apps/t9_selfcap_xpro_board/sam_l10_xpro/firmware/sam_l10_xpro.X/debug/sam_l10_xpro/sam_l10_xpro_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"

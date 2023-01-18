@@ -38,11 +38,11 @@
             <itemPath>../src/config/pic32cm_jh_cpro/touch/qtm_touch_key_0x0002_api.h</itemPath>
             <itemPath>../src/config/pic32cm_jh_cpro/touch/touch_api_ptc.h</itemPath>
             <itemPath>../src/config/pic32cm_jh_cpro/touch/touch_example.h</itemPath>
-            <itemPath>../src/config/pic32cm_jh_cpro/touch/qtm_freq_hop_0x0006_api.h</itemPath>
             <itemPath>../src/config/pic32cm_jh_cpro/touch/touch.h</itemPath>
             <itemPath>../src/config/pic32cm_jh_cpro/touch/qtm_acq_pic32cmjh_0x002f_api.h</itemPath>
             <itemPath>../src/config/pic32cm_jh_cpro/touch/qtm_common_components_api.h</itemPath>
             <itemPath>../src/config/pic32cm_jh_cpro/touch/touchTune.h</itemPath>
+            <itemPath>../src/config/pic32cm_jh_cpro/touch/qtm_freq_hop_auto_0x0004_api.h</itemPath>
           </logicalFolder>
           <itemPath>../src/config/pic32cm_jh_cpro/interrupts.h</itemPath>
           <itemPath>../src/config/pic32cm_jh_cpro/device_cache.h</itemPath>
@@ -262,9 +262,9 @@
       <compileType>
         <linkerTool>
           <linkerLibItems>
-            <linkerLibFileItem>../src/config/pic32cm_jh_cpro/touch/lib/qtm_freq_hop_cm0p_0x0006.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/pic32cm_jh_cpro/touch/lib/qtm_touch_key_cm0p_0x0002.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/pic32cm_jh_cpro/touch/lib/qtm_acq_pic32cmjh_0x002f.X.a</linkerLibFileItem>
+            <linkerLibFileItem>../src/config/pic32cm_jh_cpro/touch/lib/qtm_freq_hop_auto_cm0p_0x0004.X.a</linkerLibFileItem>
           </linkerLibItems>
         </linkerTool>
         <archiverTool>

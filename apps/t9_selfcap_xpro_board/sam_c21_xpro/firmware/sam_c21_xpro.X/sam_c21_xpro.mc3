@@ -50,7 +50,8 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;ComponentGraph dnOrder=&quot;0&quot; id=&quot;__ROOTVIEW&quot;&gt;
+    &lt;GraphSettings canvasHeight=&quot;310&quot; canvasWidth=&quot;709&quot; dnOrder=&quot;0&quot;/&gt;
+    &lt;ComponentGraph dnOrder=&quot;1&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;cmsis&quot; x=&quot;30&quot; y=&quot;240&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;core&quot; x=&quot;30&quot; y=&quot;200&quot;/&gt;
@@ -63,7 +64,6 @@
         &lt;ElementPosition dnOrder=&quot;8&quot; id=&quot;sercom4&quot; x=&quot;570&quot; y=&quot;80&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
-    &lt;GraphSettings canvasHeight=&quot;310&quot; canvasWidth=&quot;709&quot; dnOrder=&quot;1&quot;/&gt;
   &lt;/UserData&gt;
 &lt;/UserData&gt;
 </value>
@@ -2093,7 +2093,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="DEF_DIGI_FILT_GAIN0"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;DEF_DIGI_FILT_GAIN0&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;1&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
 </value>
@@ -2102,7 +2104,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="DEF_DIGI_FILT_GAIN1"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;DEF_DIGI_FILT_GAIN1&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;1&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
 </value>
@@ -3101,7 +3105,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="DEF_DIGI_FILT_GAIN2"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;DEF_DIGI_FILT_GAIN2&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;1&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
 </value>
@@ -3848,7 +3854,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="DEF_DIGI_FILT_GAIN3"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;DEF_DIGI_FILT_GAIN3&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;1&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
 </value>
@@ -41599,7 +41607,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="FREQ_AUTOTUNE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;FREQ_AUTOTUNE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;true&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
 </value>
@@ -56933,6 +56943,58 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="TOUCH_HOP_AUTO_HEADER"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
+  &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;TOUCH_HOP_AUTO_HEADER&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+  &lt;/lib_qtouch&gt;
+&lt;/lib_qtouch&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="TOUCH_HOP_AUTO_LIB"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
+  &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;TOUCH_HOP_AUTO_LIB&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+  &lt;/lib_qtouch&gt;
+&lt;/lib_qtouch&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="TOUCH_HOP_HEADER"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
+  &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;TOUCH_HOP_HEADER&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+  &lt;/lib_qtouch&gt;
+&lt;/lib_qtouch&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="TOUCH_HOP_LIB"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
+  &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;TOUCH_HOP_LIB&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+  &lt;/lib_qtouch&gt;
+&lt;/lib_qtouch&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="TOUCH_KEY_ENABLE_CNT"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;TOUCH_KEY_ENABLE_CNT&quot;&gt;
@@ -64482,19 +64544,19 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\pin_configurations.csv</file>
-         <hash>63101cfe7fe16afbf314c264e8150f82cf1d376c7eb1d470f22f04c60a40a63b</hash>
+         <hash>d8ce5e1a8e364a5b422a05192a6f71063ab1a0895361d33efb4a8ef191c8d8bc</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\touch\lib\qtm_freq_hop_auto_cm0p_0x0004.X.a</file>
          <hash>0cc61b670ccb0ebd7693034a5745421fee4bdf43b6d3e6a708a40e9140ad4551</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMC21J18A_DFP\component\tcc.h</file>
-         <hash>5b473343ac6fa6cef135fdef2298cb05733e64588be1b46680e201e29a8beca0</hash>
+         <file>..\src\config\sam_c21_xpro\definitions.h</file>
+         <hash>0294923bb18cb24c02054e0b755b31344b5b122890c91b531e378074f7cc170f</hash>
       </entry>
       <entry>
-         <file>..\src\config\sam_c21_xpro\definitions.h</file>
-         <hash>d988e8416ef7d1f17e00c7ce60b7b3a4b6e2bd3c70a0f720d37bf79266db50f8</hash>
+         <file>..\src\packs\ATSAMC21J18A_DFP\component\tcc.h</file>
+         <hash>5b473343ac6fa6cef135fdef2298cb05733e64588be1b46680e201e29a8beca0</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\exceptions.c</file>
@@ -64502,7 +64564,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\touch\touch_api_ptc.h</file>
-         <hash>1d0a12b5904caff9d7961284a88e49e5bd937343dfc04c95ba149a56e33cd515</hash>
+         <hash>28184583111bd4ffa9ff0bc512a79902f62cae043b5a9e3c207a778ef2973a67</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\core_cm0plus.h</file>
@@ -64569,12 +64631,12 @@
          <hash>ba80c7f480244dee44906821d457a1c4e21522071095da87a4f1877ece6bcf6d</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMC21J18A_DFP\instance\can0.h</file>
-         <hash>b0d5b3cdf228f37930be21a37f588ae575f22bbd96726c88d544017587bae5e9</hash>
-      </entry>
-      <entry>
          <file>..\src\config\sam_c21_xpro\toolchain_specifics.h</file>
          <hash>c93f9d68b1623668727be21b4449250a7e4a5d7040776d6f6d604a7528ffc9eb</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMC21J18A_DFP\instance\can0.h</file>
+         <hash>b0d5b3cdf228f37930be21a37f588ae575f22bbd96726c88d544017587bae5e9</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv7.h</file>
@@ -64595,10 +64657,6 @@
       <entry>
          <file>..\src\config\sam_c21_xpro\ATSAMC21J18A.ld</file>
          <hash>3fc7dbb63ae72ecd9b52572e4dd84ed79cbd37feb6064cb6d4df6fca301d09af</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_c21_xpro\touch\lib\qtm_freq_hop_cm0p_0x0006.X.a</file>
-         <hash>cee4068df9fa1c713dacf6b7ac164de83642186c50fe82f70470d25a2689d328</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\instance\rstc.h</file>
@@ -64626,19 +64684,19 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\peripheral\port\plib_port.c</file>
-         <hash>b362de19d227be06656d34fa6b49759f7358e8fa7a64ebd8a228f996be781c39</hash>
+         <hash>fe9f84d7e5d5b68fc592ea86d1b4da353a0933c080af27cdbd5cae136b94860c</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\component\tc.h</file>
          <hash>b2007af7212367dea3006c0fbb83da05e47201af81711ebb1284aa96b980e6c0</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMC21J18A_DFP\instance\sdadc.h</file>
-         <hash>18a03bc6bf1a127c9e785f1520554e99daaaaa15d3078b8181e477316681ede8</hash>
-      </entry>
-      <entry>
          <file>..\src\config\sam_c21_xpro\peripheral\port\plib_port.h</file>
          <hash>e947d17f1788fc0a1acd6ec74855bd0f7e143713fc048515179e746daa9b41d3</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMC21J18A_DFP\instance\sdadc.h</file>
+         <hash>18a03bc6bf1a127c9e785f1520554e99daaaaa15d3078b8181e477316681ede8</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\instance\tc4.h</file>
@@ -64689,16 +64747,16 @@
          <hash>e2914501b361bbc93a56d6915b1bf4fac00277e61f31fdee87a587bc15dea5b6</hash>
       </entry>
       <entry>
+         <file>..\src\config\sam_c21_xpro\initialization.c</file>
+         <hash>c5df71ecebb456e6e805fe80543cb3f220dda76a0757b4005aaf85afaf448b7d</hash>
+      </entry>
+      <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\instance\sercom2.h</file>
          <hash>31472109d5d3b3c2d2a20ed8a2bb2d009b0eb3ca65cd45c3ba6d5745d47d4b60</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\instance\tc0.h</file>
          <hash>f82a3a62fdb5c1b56dcd752d1dbf66e2b4cc562696cd8bb22e82188f84e9d4af</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_c21_xpro\initialization.c</file>
-         <hash>c5df71ecebb456e6e805fe80543cb3f220dda76a0757b4005aaf85afaf448b7d</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\touch\touchTune.h</file>
@@ -64726,15 +64784,15 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\touch\touchTune.c</file>
-         <hash>b3e53f48b4446292d39844f721a3662f14cb5d5778c8a7e501359d4a3edf1b8f</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMC21J18A_DFP\component\mtb.h</file>
-         <hash>6836d7b1a525ac65a6f1541133e755a21724516f55580b77c2ec4adfaa5f1a34</hash>
+         <hash>7222905f22c2b96086b5e07b748c0ca7ac958ec5e65b96b0011536cd8d240f7f</hash>
       </entry>
       <entry>
          <file>..\src\main.c</file>
          <hash>d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMC21J18A_DFP\component\mtb.h</file>
+         <hash>6836d7b1a525ac65a6f1541133e755a21724516f55580b77c2ec4adfaa5f1a34</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\instance\mclk.h</file>
@@ -64819,10 +64877,6 @@
       <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\component\sercom.h</file>
          <hash>cde3c9cce2d5b9937ad1a3c43d155694654785c55ff7c1f365cbc77666b69d0e</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_c21_xpro\touch\qtm_freq_hop_0x0006_api.h</file>
-         <hash>2235eaae22ca0ec808a50c31e79050a4b14408a247d0b868dde1f2330440dc65</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\component\wdt.h</file>
@@ -64922,7 +64976,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\touch\touch.c</file>
-         <hash>da2083a270600788a16aed668324d153b44bacbad459c82da81b5df257ff84a7</hash>
+         <hash>33e7b1a52b6f595b0c3524de54933e82b8688fcb98ff71639d31fd928935c45f</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\interrupts.c</file>
@@ -64938,19 +64992,19 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\touch\touch.h</file>
-         <hash>ba03cd35dfdd03539c93f72361de2c63d564519f842ba2717b6b579d250fc628</hash>
+         <hash>5e9aea4ae2aa48e6db8b764b37749a361acdffa336f8789f0c4f6e6523ba8eb3</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\touch\lib\qtm_touch_key_cm0p_0x0002.X.a</file>
          <hash>ffa2f4c39c786edd62ed89e458a1a1bd65e083947c42c1abe48432f589497045</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMC21J18A_DFP\instance\tcc1.h</file>
-         <hash>a3d5b071198abb54ebdd2808b3c22b69a9c1f49975e9e73c6742788eddab7b8f</hash>
-      </entry>
-      <entry>
          <file>..\src\config\sam_c21_xpro\interrupts.h</file>
          <hash>406fac151642a40d86e0f7a7b9436f3769a44c8782bfcc95c01683c98533c9c8</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMC21J18A_DFP\instance\tcc1.h</file>
+         <hash>a3d5b071198abb54ebdd2808b3c22b69a9c1f49975e9e73c6742788eddab7b8f</hash>
       </entry>
    </generatedFileHashHistoryMap>
 </config>

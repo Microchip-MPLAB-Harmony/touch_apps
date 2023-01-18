@@ -38,12 +38,11 @@
             <itemPath>../src/config/sam_c21_xpro/touch/touch_example.h</itemPath>
             <itemPath>../src/config/sam_c21_xpro/touch/qtm_acq_samc21_0x0020_api.h</itemPath>
             <itemPath>../src/config/sam_c21_xpro/touch/touch_api_ptc.h</itemPath>
-            <itemPath>../src/config/sam_c21_xpro/touch/qtm_freq_hop_0x0006_api.h</itemPath>
             <itemPath>../src/config/sam_c21_xpro/touch/qtm_touch_key_0x0002_api.h</itemPath>
-            <itemPath>../src/config/sam_c21_xpro/touch/qtm_freq_hop_auto_0x0004_api.h</itemPath>
             <itemPath>../src/config/sam_c21_xpro/touch/qtm_common_components_api.h</itemPath>
             <itemPath>../src/config/sam_c21_xpro/touch/touchTune.h</itemPath>
             <itemPath>../src/config/sam_c21_xpro/touch/touch.h</itemPath>
+            <itemPath>../src/config/sam_c21_xpro/touch/qtm_freq_hop_auto_0x0004_api.h</itemPath>
           </logicalFolder>
           <itemPath>../src/config/sam_c21_xpro/interrupts.h</itemPath>
           <itemPath>../src/config/sam_c21_xpro/device.h</itemPath>
@@ -248,8 +247,8 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
         <pack name="SAMC21_DFP" vendor="Microchip" version="3.8.119"/>
+        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -259,7 +258,6 @@
             <linkerLibFileItem>../src/config/sam_c21_xpro/touch/lib/qtm_touch_key_cm0p_0x0002.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/sam_c21_xpro/touch/lib/qtm_acq_samc21_0x0020.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/sam_c21_xpro/touch/lib/qtm_freq_hop_auto_cm0p_0x0004.X.a</linkerLibFileItem>
-            <linkerLibFileItem>../src/config/sam_c21_xpro/touch/lib/qtm_freq_hop_cm0p_0x0006.X.a</linkerLibFileItem>
           </linkerLibItems>
         </linkerTool>
         <archiverTool>
@@ -500,6 +498,7 @@
         <property key="toolpack.updateoptions.packversion"
                   value="Press to select which tool pack to use"/>
         <property key="voltagevalue" value=""/>
+        <property key="x.erase.clearprot" value="true"/>
       </EdbgTool>
       <PICkit3PlatformTool>
         <property key="ADC 1" value="true"/>
@@ -1087,6 +1086,8 @@
         <property key="periphComp5.gte" value="gt"/>
         <property key="periphComp6.gte" value="gt"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="D:/REPOSITORY/TA_1/touch_apps/apps/t9_selfcap_xpro_board/sam_c21_xpro/firmware/sam_c21_xpro.X/debug/sam_c21_xpro/sam_c21_xpro_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"
@@ -1548,6 +1549,7 @@
         <property key="warningmessagebreakoptions.displaywarningmessagesoption"
                   value=""/>
         <property key="warningmessagebreakoptions.warningmessages" value="holdstate"/>
+        <property key="x.erase.clearprot" value="true"/>
       </Tool>
     </conf>
   </confs>

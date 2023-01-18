@@ -83,23 +83,23 @@
 #define LED_1_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 7U)) & 0x01U)
 #define LED_1_PIN                  PORT_PIN_PA07
 
-/*** Macros for LED_3 pin ***/
-#define LED_3_Set()               (PORT_REGS->GROUP[1].PORT_OUTSET = ((uint32_t)1U << 27U))
-#define LED_3_Clear()             (PORT_REGS->GROUP[1].PORT_OUTCLR = ((uint32_t)1U << 27U))
-#define LED_3_Toggle()            (PORT_REGS->GROUP[1].PORT_OUTTGL = ((uint32_t)1U << 27U))
-#define LED_3_OutputEnable()      (PORT_REGS->GROUP[1].PORT_DIRSET = ((uint32_t)1U << 27U))
-#define LED_3_InputEnable()       (PORT_REGS->GROUP[1].PORT_DIRCLR = ((uint32_t)1U << 27U))
-#define LED_3_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 27U)) & 0x01U)
-#define LED_3_PIN                  PORT_PIN_PB27
-
 /*** Macros for LED_4 pin ***/
-#define LED_4_Set()               (PORT_REGS->GROUP[1].PORT_OUTSET = ((uint32_t)1U << 28U))
-#define LED_4_Clear()             (PORT_REGS->GROUP[1].PORT_OUTCLR = ((uint32_t)1U << 28U))
-#define LED_4_Toggle()            (PORT_REGS->GROUP[1].PORT_OUTTGL = ((uint32_t)1U << 28U))
-#define LED_4_OutputEnable()      (PORT_REGS->GROUP[1].PORT_DIRSET = ((uint32_t)1U << 28U))
-#define LED_4_InputEnable()       (PORT_REGS->GROUP[1].PORT_DIRCLR = ((uint32_t)1U << 28U))
-#define LED_4_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 28U)) & 0x01U)
-#define LED_4_PIN                  PORT_PIN_PB28
+#define LED_4_Set()               (PORT_REGS->GROUP[1].PORT_OUTSET = ((uint32_t)1U << 27U))
+#define LED_4_Clear()             (PORT_REGS->GROUP[1].PORT_OUTCLR = ((uint32_t)1U << 27U))
+#define LED_4_Toggle()            (PORT_REGS->GROUP[1].PORT_OUTTGL = ((uint32_t)1U << 27U))
+#define LED_4_OutputEnable()      (PORT_REGS->GROUP[1].PORT_DIRSET = ((uint32_t)1U << 27U))
+#define LED_4_InputEnable()       (PORT_REGS->GROUP[1].PORT_DIRCLR = ((uint32_t)1U << 27U))
+#define LED_4_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 27U)) & 0x01U)
+#define LED_4_PIN                  PORT_PIN_PB27
+
+/*** Macros for LED_3 pin ***/
+#define LED_3_Set()               (PORT_REGS->GROUP[1].PORT_OUTSET = ((uint32_t)1U << 28U))
+#define LED_3_Clear()             (PORT_REGS->GROUP[1].PORT_OUTCLR = ((uint32_t)1U << 28U))
+#define LED_3_Toggle()            (PORT_REGS->GROUP[1].PORT_OUTTGL = ((uint32_t)1U << 28U))
+#define LED_3_OutputEnable()      (PORT_REGS->GROUP[1].PORT_DIRSET = ((uint32_t)1U << 28U))
+#define LED_3_InputEnable()       (PORT_REGS->GROUP[1].PORT_DIRCLR = ((uint32_t)1U << 28U))
+#define LED_3_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 28U)) & 0x01U)
+#define LED_3_PIN                  PORT_PIN_PB28
 
 // *****************************************************************************
 /* PORT Group

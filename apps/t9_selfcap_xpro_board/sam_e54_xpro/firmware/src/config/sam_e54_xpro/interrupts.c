@@ -193,7 +193,7 @@ extern void TC7_Handler                ( void ) __attribute__((weak, alias("Dumm
 extern void PDEC_OTHER_Handler         ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void PDEC_MC0_Handler           ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void PDEC_MC1_Handler           ( void ) __attribute__((weak, alias("Dummy_Handler")));
-extern void ADC0_OTHER_Handler         ( void ) __attribute__((weak, alias("Dummy_Handler")));
+extern void ADC0_Handler               ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void ADC1_OTHER_Handler         ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void ADC1_RESRDY_Handler        ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void AC_Handler                 ( void ) __attribute__((weak, alias("Dummy_Handler")));
@@ -350,7 +350,7 @@ const H3DeviceVectors exception_table=
     .pfnPDEC_OTHER_Handler         = PDEC_OTHER_Handler,
     .pfnPDEC_MC0_Handler           = PDEC_MC0_Handler,
     .pfnPDEC_MC1_Handler           = PDEC_MC1_Handler,
-    .pfnADC0_OTHER_Handler         = ADC0_OTHER_Handler,
+    .pfnADC0_OTHER_Handler         = ADC0_Handler,
     .pfnADC0_RESRDY_Handler        = ADC0_1_Handler,
     .pfnADC1_OTHER_Handler         = ADC1_OTHER_Handler,
     .pfnADC1_RESRDY_Handler        = ADC1_RESRDY_Handler,

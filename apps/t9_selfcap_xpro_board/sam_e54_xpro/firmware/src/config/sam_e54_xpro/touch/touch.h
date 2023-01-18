@@ -118,19 +118,19 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #define NODE_0_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(1), 0,PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_16                   \
+   X_NONE, Y(1), 0,PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_2), FILTER_LEVEL_16                   \
 }
 #define NODE_1_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(2), 0,PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_16                   \
+   X_NONE, Y(2), 0,PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_2), FILTER_LEVEL_16                   \
 }
 #define NODE_2_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(25), 0,PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_16                   \
+   X_NONE, Y(25), 0,PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_2), FILTER_LEVEL_16                   \
 }
 #define NODE_3_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(18), 0,PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_16                   \
+   X_NONE, Y(18), 0,PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_2), FILTER_LEVEL_16                   \
 }
 
 /**********************************************************/
@@ -148,25 +148,25 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #define KEY_0_PARAMS                                                                                            \
 {                                                                                                              \
-    20, HYST_25, NO_AKS_GROUP                       \
+    30, HYST_25, NO_AKS_GROUP                       \
 }
 
 
 #define KEY_1_PARAMS                                                                                            \
 {                                                                                                              \
-    20, HYST_25, NO_AKS_GROUP                       \
+    30, HYST_25, NO_AKS_GROUP                       \
 }
 
 
 #define KEY_2_PARAMS                                                                                            \
 {                                                                                                              \
-    20, HYST_25, NO_AKS_GROUP                       \
+    30, HYST_25, NO_AKS_GROUP                       \
 }
 
 
 #define KEY_3_PARAMS                                                                                            \
 {                                                                                                              \
-    20, HYST_25, NO_AKS_GROUP                       \
+    30, HYST_25, NO_AKS_GROUP                       \
 }
 
 
@@ -241,6 +241,23 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #define DEF_MEDIAN_FILTER_FREQUENCIES FREQ_SEL_0,FREQ_SEL_1,FREQ_SEL_2
 
+/* Enable / Disable the frequency hop auto tune
+ * Range: 0 / 1
+ * Default value: 1
+ */
+#define DEF_FREQ_AUTOTUNE_ENABLE 1
+
+/* sets the maximum variance for Frequency Hop Auto tune.
+ * Range: 1 to 255.
+ * Default value: 15
+ */
+#define FREQ_AUTOTUNE_MAX_VARIANCE 25
+
+/* sets the Tune in count for Frequency Hop Auto tune.
+ * Range: 1 to 255.
+ * Default value: 6
+ */
+#define FREQ_AUTOTUNE_COUNT_IN 6
 
 /**********************************************************/
 /***************** Communication - Data Streamer ******************/
