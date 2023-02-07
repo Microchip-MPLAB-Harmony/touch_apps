@@ -54,7 +54,8 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;ComponentGraph dnOrder=&quot;0&quot; id=&quot;__ROOTVIEW&quot;&gt;
+    &lt;GraphSettings canvasHeight=&quot;390&quot; canvasWidth=&quot;709&quot; dnOrder=&quot;0&quot;/&gt;
+    &lt;ComponentGraph dnOrder=&quot;1&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;cmsis&quot; x=&quot;30&quot; y=&quot;320&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;core&quot; x=&quot;30&quot; y=&quot;280&quot;/&gt;
@@ -68,7 +69,6 @@
         &lt;ElementPosition dnOrder=&quot;9&quot; id=&quot;sercom0&quot; x=&quot;180&quot; y=&quot;20&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
-    &lt;GraphSettings canvasHeight=&quot;390&quot; canvasWidth=&quot;709&quot; dnOrder=&quot;1&quot;/&gt;
   &lt;/UserData&gt;
 &lt;/UserData&gt;
 </value>
@@ -28565,11 +28565,11 @@
    <generatedFileHashHistoryMap class="java.util.HashMap">
       <entry>
          <file>..\src\config\sam_l10_xpro\toolchain_specifics.h</file>
-         <hash>c93f9d68b1623668727be21b4449250a7e4a5d7040776d6f6d604a7528ffc9eb</hash>
+         <hash>0322d8a252c0047ffd9e533cc76c470158ed1f3ac5193e63b507fe5eb6e1855f</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\touch\touch_example.c</file>
-         <hash>e8de081ee52ae7ab05bcdb667a0d94b624863286f33eb5b8ddbdfc14aa5283fb</hash>
+         <hash>e843c4d54ea790c9423faa164b36fa5a3dadc8aac0d516c4456bc860be9546cd</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\libc_syscalls.c</file>
@@ -28605,7 +28605,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\touch\touch_example.h</file>
-         <hash>e58c89edcd9cad6ac791bfeab116b67e57dd54baf9e7d26f90afa1c5083e874f</hash>
+         <hash>8bdb39ec57aee49f55c431b9b5ef24d51f355a921e1b32a82c883f4ca9334f5a</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML10E16A_DFP\component\adc.h</file>
@@ -28721,7 +28721,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\touch\touch_api_ptc.h</file>
-         <hash>a78122107a42d9bf22b9b1eb85e0c26c5b22c356f7afa7ca4e0264163db28ba0</hash>
+         <hash>6e11a544d8e4865679c144a862d00586bc3a786de4e51fc0223a0ee3e6347982</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\peripheral\nvmctrl\plib_nvmctrl.h</file>
@@ -28837,11 +28837,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\touch\touch.h</file>
-         <hash>a71fa1e9834b0c81c88bf723b7a70d1d34d0140b2cdbaf0d36cb4eb38e60022d</hash>
+         <hash>415ad5df64373c316d313d1b28a3ca5e255cc0ac9e8a8e5396c5bf8e2544afea</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\touch\touch.c</file>
-         <hash>8b170500858be4f564502f570bb7a71eedd8a745d61f5bf1667d7911c7d5c7d9</hash>
+         <hash>b0f13689aed7c9cb82c80931a31b9b8ce492eb6960e94f367a7913c926511289</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML10E16A_DFP\component\rtc.h</file>
@@ -28853,7 +28853,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\touch\lib\qtm_acq_saml10_0x0027.X.a</file>
-         <hash>8b76112146e524d9ea6b61e3d5260a276b83bd20351703924ee2a84a295b68f7</hash>
+         <hash>7104b60cd95642cbfe5669f841afcb26d1e8e6717bdbd1376664fe678d47962d</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML10E16A_DFP\component\pm.h</file>
@@ -28901,7 +28901,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\peripheral\clock\plib_clock.c</file>
-         <hash>4a21115c12c8c48f286a53a63346b4d24f6b6cb9abdbf7d073ae054a03081aba</hash>
+         <hash>cb51ce6fa31662b09279508f9e0fce17b3e3773e64865626c7b388a0fd0d33d1</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML10E16A_DFP\instance\sercom1.h</file>
@@ -28917,7 +28917,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\touch\touchTune.c</file>
-         <hash>35631c409201aeaad238f8129a16b7c44ef5b068ef1d9df5d899e6ddcee061fd</hash>
+         <hash>b404e71d37c3edd1361a6207fb1a12645a8c0ab69d514bc77d30638bf02c2fd6</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
@@ -28925,7 +28925,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\touch\touchTune.h</file>
-         <hash>31ab281dc2b1c84190451fb4aebd5b446a425be3a4b73fbabf81c855d1e86454</hash>
+         <hash>b99c4ee8a08f60952cb2a03c2dd7404b49eccaf9929f7d3becd529fa1527c06b</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_l10_xpro\peripheral\rtc\plib_rtc.h</file>
