@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.13.0 Release
+  Touch Library v3.13.1 Release
 
   Company:
     Microchip Technology Inc.
@@ -17,7 +17,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (c)  2022 released Microchip Technology Inc.  All rights reserved.
+Copyright (c)  2023 released Microchip Technology Inc.  All rights reserved.
 
 Microchip licenses to you the right to use, modify, copy and distribute
 Software only when embedded on a Microchip microcontroller or digital signal
@@ -38,6 +38,8 @@ CONSEQUENTIAL DAMAGES, LOST  PROFITS  OR  LOST  DATA,  COST  OF  PROCUREMENT  OF
 SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 (INCLUDING BUT NOT LIMITED TO ANY DEFENSE  THEREOF),  OR  OTHER  SIMILAR  COSTS.
 *******************************************************************************/
+
+
 
 
 /*----------------------------------------------------------------------------
@@ -308,6 +310,7 @@ void touch_process(void)
             measurement_done_touch =1u;
         }
     }
+
     #if DEF_TOUCH_TUNE_ENABLE == 1u
     touchTuneProcess();
     #endif
@@ -326,16 +329,15 @@ void touch_timer_handler(void)
 {
  
   
-    time_to_measure_touch_var = 1u;
-    qtm_update_qtlib_timer(DEF_TOUCH_MEASUREMENT_PERIOD_MS);
+        time_to_measure_touch_var = 1u;
+        qtm_update_qtlib_timer(DEF_TOUCH_MEASUREMENT_PERIOD_MS);
 }
-
+ 
 void rtc_cb( RTC_TIMER32_INT_MASK intCause, uintptr_t context )
 {
     touch_timer_handler();
 }
 uintptr_t rtc_context;
-
 void touch_timer_config(void)
 {  
     RTC_Timer32CallbackRegister(rtc_cb, rtc_context);
