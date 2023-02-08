@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.3.0",
 
-        "name": "com.microchip.mcu32.mplabx.project.touch_apps_t9_selfcap_xpro_board_pic32cm_jh_xpro",
+        "name": "com.microchip.mcu32.mplabx.project.touch_apps_t9_selfcap_xpro_board_pic32cm_jh_cpro",
         "version": "3.5.0",
 
         "displayName": "Self Capacitance Example using T9 XPRO for PIC32CMJH Family",
