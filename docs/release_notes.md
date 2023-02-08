@@ -33,8 +33,8 @@ See [readme](readme.md) for detailed list of example applications
 
 ### REQUIRED MPLAB HARMONY v3.x.x MODULES
 
-- csp v3.14.0
-- dev_packs v3.14.0
+- csp v3.15.0
+- dev_packs v3.15.0
 - mcc v5.4.14
 - touch v3.13.1
 
