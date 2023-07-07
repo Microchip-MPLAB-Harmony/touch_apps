@@ -1,6 +1,6 @@
 
 /*******************************************************************************
-  Touch Library v3.13.0 Release
+  Touch Library v3.14.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -17,7 +17,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (c)  2022 released Microchip Technology Inc.  All rights reserved.
+Copyright (c)  2023 released Microchip Technology Inc.  All rights reserved.
 
 Microchip licenses to you the right to use, modify, copy and distribute
 Software only when embedded on a Microchip microcontroller or digital signal
@@ -53,7 +53,7 @@ extern "C" {
 #include "qtm_common_components_api.h"
 #include "qtm_acq_pic32cm_le_0x0040_api.h"
 #include "qtm_touch_key_0x0002_api.h"
-#include "qtm_freq_hop_0x0006_api.h"
+#include "qtm_freq_hop_auto_0x0004_api.h"
 /*----------------------------------------------------------------------------
  *   prototypes
  *----------------------------------------------------------------------------*/
@@ -67,8 +67,6 @@ void     update_sensor_cc_val(uint16_t sensor_node, uint16_t new_cc_value);
 uint8_t  get_sensor_state(uint16_t sensor_node);
 void     update_sensor_state(uint16_t sensor_node, uint8_t new_state);
 void     calibrate_node(uint16_t sensor_node);
-uint8_t  get_scroller_state(uint16_t sensor_node);
-uint16_t get_scroller_position(uint16_t sensor_node);
 
 void touch_timer_handler(void);
 void touch_init(void);

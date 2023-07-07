@@ -67,6 +67,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 /* X line bit position */
 #define X_NONE 0u
+#undef X
 #define X(n) ((uint32_t)(1u << (n)))
 
 /* Y line bit position */
@@ -228,6 +229,7 @@ typedef struct qtm_drivenshield_config_tag
 {
 	uint8_t  flags;
 }qtm_drivenshield_config_t;
+extern volatile uint16_t current_measure_channel;
 
 
 /*============================================================================
@@ -423,15 +425,6 @@ Notes    :  none
 ============================================================================*/
 void qtm_saml22_ptc_handler_wcomp(void);
 
-/*============================================================================
-void qtm_ptc_clear_interrupt(void)
-------------------------------------------------------------------------------
-Purpose:  Clears the eoc/wcomp interrupt bits
-Input    :  none
-Output  :  none
-Notes    :  none
-============================================================================*/
-void qtm_ptc_clear_interrupt(void);
 
 
 #endif    /* TOUCH_API_L22_ACQ_H */

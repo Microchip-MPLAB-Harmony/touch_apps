@@ -1,11 +1,11 @@
-"Pin Number","Pin ID","Custom Name","Function","Mode", "Direction","Latch","Pull Up","Pull Down","Drive Strength"
+Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,Drive Strength
 1,PA00,,Available,,,,,,NORMAL
 2,PA01,,Available,,,,,,NORMAL
 3,PC00,,Available,,,,,,NORMAL
 4,PC01,,Available,,,,,,NORMAL
 5,PC02,,Available,,,,,,NORMAL
 6,PC03,,Available,,,,,,NORMAL
-7,PA02,,PTC_DS0/Y0,Digital,High Impedance,n/a,No,No,NORMAL
+7,PA02,,Available,,,,,,NORMAL
 8,PA03,,Available,,,,,,NORMAL
 9,PB04,,Available,,,,,,NORMAL
 10,PB05,,Available,,,,,,NORMAL
@@ -20,7 +20,7 @@
 21,PC05,,Available,,,,,,NORMAL
 22,PC06,,Available,,,,,,NORMAL
 23,PC07,,Available,,,,,,NORMAL
-26,PA08,,PTC_DS16/X0/Y16,Digital,High Impedance,n/a,No,No,NORMAL
+26,PA08,,Available,,,,,,NORMAL
 27,PA09,,Available,,,,,,NORMAL
 28,PA10,,Available,,,,,,NORMAL
 29,PA11,,Available,,,,,,NORMAL

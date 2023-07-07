@@ -17,4 +17,4 @@
 **/*.IAR/*.custom_argvars
 /Gemfile.lock
 /Gemfile
-
+*.bak*

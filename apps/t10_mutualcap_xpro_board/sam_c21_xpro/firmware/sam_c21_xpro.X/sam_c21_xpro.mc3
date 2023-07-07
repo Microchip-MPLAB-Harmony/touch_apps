@@ -1,4 +1,4 @@
-<config configName="sam_c21_xpro" projectName="sam_c21_xpro" configVersion="1.1" device="ATSAMC21J18A" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.14">
+<config configName="sam_c21_xpro" projectName="sam_c21_xpro" configVersion="1.1" device="ATSAMC21J18A" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.5.7">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -43,7 +43,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.0"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.3.2"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -3466,7 +3466,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\peripheral\sercom\i2c_master\plib_sercom_i2c_master_common.h</file>
-         <hash>ff9e28a56c761d9cac20d42c6819063321f71c0d2726249be9bd818e44c3811d</hash>
+         <hash>f167b04b3c6a0f83fe41b7b6f810cbf0a48b8ca7d5a747b76463dd53d3c1a2a2</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\instance\gclk.h</file>
@@ -3502,7 +3502,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\peripheral\nvmctrl\plib_nvmctrl.c</file>
-         <hash>ab6f363dc6978fa96d7ac0736f1647d98df6474db7a58f3e2a2e83bf8ba4c282</hash>
+         <hash>1fb8d05a455e4b5ec9a5e2fdfe11470cbde614fa7df8a005b0f0110a95f071bc</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\component\port.h</file>
@@ -3518,7 +3518,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\peripheral\clock\plib_clock.c</file>
-         <hash>5a26cc0de59d3c31feb2dc25fffadb34ee2661db8f848222183d88fc9cadceac</hash>
+         <hash>89d3f03bf45ca6dafc309ca0fffca2af4860ad72dcc471af434ed8df7cec5bf6</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\instance\adc1.h</file>
@@ -3538,7 +3538,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\pin_configurations.csv</file>
-         <hash>9672993d8394023649d44c29cf51c42026d2c751b5d02c03bf98ed2674b5b115</hash>
+         <hash>c254d8cb9f79e26a05500756f8496a2b6bd775cbf55753e0600889b677ab7d29</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\touch\lib\qtm_freq_hop_auto_cm0p_0x0004.X.a</file>
@@ -3546,7 +3546,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\definitions.h</file>
-         <hash>7072270c84093b1a9ed4e7892d6e2c65633055732500a517f2d744eee9b4fd7e</hash>
+         <hash>f6fcf04a2e8ba12fc9e6dcf13f0441ccc1c8338b6e25b856788fe8f9573c5809</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\component\tcc.h</file>
@@ -3554,11 +3554,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\exceptions.c</file>
-         <hash>b850253aacaae1bddfcb426c2dc11e0688900afffe9b22c60d0ab16298701118</hash>
+         <hash>5efbe5a64a17c496d2f5b177bc9cd66a7f0f80323d9558e220c073a13570a2a7</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\touch\touch_api_ptc.h</file>
-         <hash>d6a5ec7ecc2e28aeaa654b6d94b131918155add523b686c99feeb970c8947291</hash>
+         <hash>f2fcfb2027cb6dc0a7a6a966ae56141c951af948c411fcd3a1656855f0fd209a</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\core_cm0plus.h</file>
@@ -3566,7 +3566,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
-         <hash>3feca67a173d19d45961676a16f6153a6d849ecac98e906b62a343258c8bf43b</hash>
+         <hash>f19dafabe0928d60dd83d7e19f35889f200e3fbadff09e2f42523d320acf780a</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\instance\sercom3.h</file>
@@ -3586,15 +3586,15 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\peripheral\sercom\usart\plib_sercom4_usart.c</file>
-         <hash>1b697aa3056ce3270e244d8440bfe69e43478c6bab8714588ba2f3448dfea692</hash>
+         <hash>abdf1ec23fef46700514d73fce6fbd779251e053a404a96f50900257cb63f465</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\peripheral\sercom\usart\plib_sercom4_usart.h</file>
-         <hash>17febfdaf03fcfe4ac691db68f1eb26f10fe40889195ad19e0664d351a78cb93</hash>
+         <hash>e374916c85080778eeb48cb0ece4105cd4e61b022f018a543fa709a690d48775</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\touch\qtm_acq_samc21_0x0020_api.h</file>
-         <hash>f9a8b0cc4135ca7ad16e09e5331c1fd2b2b90092643daf7c647357fd5950b7a1</hash>
+         <hash>ff8cfde970d64a93468ef14da20a817e014db2b28a1305749eba0c04bb8d9416</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\instance\eic.h</file>
@@ -3602,7 +3602,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\touch\touch_example.c</file>
-         <hash>2b277447741a59cbe52c0ff06dc6d254291ddf3c796ee553be12491d7591d018</hash>
+         <hash>b4a4990a5f90e49e452889437f80b4fffe03c9933e6cc324881bab898a6cd679</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\instance\tcc0.h</file>
@@ -3626,7 +3626,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\toolchain_specifics.h</file>
-         <hash>c93f9d68b1623668727be21b4449250a7e4a5d7040776d6f6d604a7528ffc9eb</hash>
+         <hash>a4f1774c6f1f8c6cd522567536c9e9d75ca63259b868015ac9b0fb0aeeffe1f4</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\instance\can0.h</file>
@@ -3638,7 +3638,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\startup_xc32.c</file>
-         <hash>d7ba451f4fffc267a5da6a83377b2b935a88cd73342f8a1f38ea8c39a86d963f</hash>
+         <hash>e6227d89e36b74af1bc21e00e80b390502c97aaaa65796291f63b2d96cf0678e</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h</file>
@@ -3662,7 +3662,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\peripheral\sercom\i2c_master\plib_sercom2_i2c_master.c</file>
-         <hash>f0b77d63d78432c2c96182abfaf06fd921a945731753726ef217b3593e624d32</hash>
+         <hash>b552b761fcca48ace70b93a9e568bc12cc021a198a234d73cb689d6903aa2394</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\instance\pm.h</file>
@@ -3750,7 +3750,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\initialization.c</file>
-         <hash>7c0a2314dfb9fed9f6464077324598f0febd42b96b5770d0b3c8f2029a9ee79d</hash>
+         <hash>85e40010589848cdde416bc46c722f8c9d4b501cbba678784324758b2bc86d4b</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\instance\sercom2.h</file>
@@ -3766,7 +3766,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\touch\touchTune.h</file>
-         <hash>31ab281dc2b1c84190451fb4aebd5b446a425be3a4b73fbabf81c855d1e86454</hash>
+         <hash>eddff4d924f4c6d725cbbb7729b2a696ae48a09249c8385d8c2e8da63f0d93c7</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\component\dsu.h</file>
@@ -3790,7 +3790,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\touch\touchTune.c</file>
-         <hash>02f258b4a0ddb605f14d451e5287a4dff6dd36536ee1d34894308e5eba01e3fd</hash>
+         <hash>666842a0db633e015234be6493cc3cd8913cef48d44d157607f6d002c40f7889</hash>
       </entry>
       <entry>
          <file>..\src\main.c</file>
@@ -3806,7 +3806,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\touch\qtm_common_components_api.h</file>
-         <hash>cee4827d082a99d2c03004c420d91d548672760aaaed802b1e3b22dcc8a29ba5</hash>
+         <hash>dda305cbf68fed6ac08dc563446ce809e26b1ea9d998290b3368b015ae920281</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\instance\supc.h</file>
@@ -3914,11 +3914,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\touch\touch_example.h</file>
-         <hash>e58c89edcd9cad6ac791bfeab116b67e57dd54baf9e7d26f90afa1c5083e874f</hash>
+         <hash>4ae6436c75b811e53d69afc55e0455238112651cddc04341ff11e6a2b13accf6</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\peripheral\rtc\plib_rtc_timer.c</file>
-         <hash>09a2d1aa40836e93efc5bd87deb1598cb990b2759e6503622747e44851c01335</hash>
+         <hash>31e2faed52e00b785f2eeac7debb08c376f23bb1117b29b343711580c4034e89</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\instance\ccl.h</file>
@@ -3986,15 +3986,15 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\peripheral\nvic\plib_nvic.c</file>
-         <hash>7c43deb725bed48fdc34bc8a39c1de13c43e8a62ffad2d731f3e2840d0171f7e</hash>
+         <hash>f56d91756aa641a1e2de81c0a2c4dfca02522b4d81da4acf90a597f9331e82a7</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\touch\touch.c</file>
-         <hash>8b10d3df6dff64d0244d7e0a31233bf889bb830c36d7922e1ab0d8188c5d9efe</hash>
+         <hash>941607f381cee9896e442b48f01ad00badee561592ae2f237cf99ceadd28ae3b</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\interrupts.c</file>
-         <hash>c04aed70066d0c11c3e9f55bb35e1fc819cf0d1f05471a2ff32fdf82076a4632</hash>
+         <hash>464872539360fd0a7847959ad2e9113036bf1ae127063aa74a4d331672104c40</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMC21J18A_DFP\component\nvmctrl.h</file>
@@ -4006,7 +4006,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\touch\touch.h</file>
-         <hash>c7528d34a3c336cab490d7727d0b544f69cb25a4d883f38ec022a56724d78a18</hash>
+         <hash>e4c7cfca1360500faebc4f9d93244eeb7fe45bba9341e04cc11485b627d0719c</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_c21_xpro\touch\lib\qtm_touch_key_cm0p_0x0002.X.a</file>

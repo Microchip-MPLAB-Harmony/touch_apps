@@ -55,8 +55,8 @@
 #include "peripheral/clock/plib_clock.h"
 #include "peripheral/nvic/plib_nvic.h"
 #include "peripheral/pm/plib_pm.h"
-#include "peripheral/rtc/plib_rtc.h"
 #include "touch/touch.h"
+#include "peripheral/rtc/plib_rtc.h"
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
@@ -65,6 +65,12 @@ extern "C" {
 
 #endif
 // DOM-IGNORE-END
+
+/* Device Information */
+#define DEVICE_NAME			 "ATSAML22N18A"
+#define DEVICE_ARCH			 "CORTEX-M0PLUS"
+#define DEVICE_FAMILY		 "SAML"
+#define DEVICE_SERIES		 "SAML22"
 
 /* CPU clock frequency */
 #define CPU_CLOCK_FREQUENCY 16000000

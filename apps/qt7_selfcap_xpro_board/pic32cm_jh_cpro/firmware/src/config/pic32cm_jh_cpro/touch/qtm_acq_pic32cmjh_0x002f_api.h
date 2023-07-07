@@ -65,6 +65,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 /* X line bit position */
 #define X_NONE 0u
+#undef X
 #define X(n) ((uint32_t)(((uint32_t)1u) << (n)))
 
 /* Y line bit position */
@@ -413,15 +414,7 @@ Notes    :  none
 ============================================================================*/
 void qtm_pic32cmjh_ptc_handler_wcomp(void);
 
-/*============================================================================
-void qtm_ptc_clear_interrupt(void)
-------------------------------------------------------------------------------
-Purpose:  Clears the eoc/wcomp interrupt bits
-Input    :  none
-Output  :  none
-Notes    :  none
-============================================================================*/
-void qtm_ptc_clear_interrupt(void);
+
 
 
 #endif    /* TOUCH_API_D20_ACQ_H */

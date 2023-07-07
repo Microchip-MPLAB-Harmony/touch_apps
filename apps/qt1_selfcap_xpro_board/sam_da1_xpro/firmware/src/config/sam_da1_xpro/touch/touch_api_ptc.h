@@ -1,6 +1,6 @@
 
 /*******************************************************************************
-  Touch Library v3.13.0 Release
+  Touch Library v3.14.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -17,7 +17,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (c)  2022 released Microchip Technology Inc.  All rights reserved.
+Copyright (c)  2023 released Microchip Technology Inc.  All rights reserved.
 
 Microchip licenses to you the right to use, modify, copy and distribute
 Software only when embedded on a Microchip microcontroller or digital signal

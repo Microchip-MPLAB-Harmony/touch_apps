@@ -1,4 +1,4 @@
-<config configName="sam_da1_xpro" projectName="sam_da1_xpro" configVersion="1.1" device="ATSAMDA1J16B" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.14">
+<config configName="sam_da1_xpro" projectName="sam_da1_xpro" configVersion="1.1" device="ATSAMDA1J16B" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.5.7">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -39,7 +39,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.0"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.3.2"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -50,7 +50,8 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;ComponentGraph dnOrder=&quot;0&quot; id=&quot;__ROOTVIEW&quot;&gt;
+    &lt;GraphSettings canvasHeight=&quot;362&quot; canvasWidth=&quot;770&quot; dnOrder=&quot;0&quot;/&gt;
+    &lt;ComponentGraph dnOrder=&quot;1&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;cmsis&quot; x=&quot;660&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;core&quot; x=&quot;560&quot; y=&quot;20&quot;/&gt;
@@ -63,7 +64,6 @@
         &lt;ElementPosition dnOrder=&quot;8&quot; id=&quot;sercom3&quot; x=&quot;265&quot; y=&quot;103&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
-    &lt;GraphSettings canvasHeight=&quot;362&quot; canvasWidth=&quot;770&quot; dnOrder=&quot;1&quot;/&gt;
   &lt;/UserData&gt;
 &lt;/UserData&gt;
 </value>
@@ -4122,346 +4122,58 @@
 </value>
       </entry>
    </tokenMap>
-   <generatedFileHashHistoryMap class="java.util.HashMap">
+   <generatedFileHashHistoryMap class="java.util.TreeMap">
       <entry>
-         <file>..\src\config\sam_da1_xpro\interrupts.h</file>
-         <hash>295b76b3dc21e70c33b52f8aef5b1a3e8af3f0690946a3de519af7ce160c8e10</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\ac.h</file>
-         <hash>6a6ef9779b0c228c7b573fe8b8cbb3a62160a91da1535c827f70bf91e6151ed7</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h</file>
-         <hash>6cdb5b324f2fd1bb5b2f47298ba6e6777e735d7cad3bb8d942cd36e2c6e65328</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\device_vectors.h</file>
-         <hash>65f3666b1b719a491cf4fe70fcc37155cde59cff954ed48726035d3034062783</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_gcc.h</file>
-         <hash>3d4e265d0aa42f888385ccf073666e6ebb5ec9f834760b9da27c474e177f708d</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\nvmctrl.h</file>
-         <hash>ea03ee4f1663737044d1ebe740196ceea542ab6540fd31ac382bb75d5dfbeae0</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\touch\lib\qtm_scroller_cm0p_0x000b.X.a</file>
-         <hash>913ea8751a4a7bd70fa4781a6b9966975a7b0d4b0eca291bcc047c761a84366b</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\touch\qtm_common_components_api.h</file>
-         <hash>cee4827d082a99d2c03004c420d91d548672760aaaed802b1e3b22dcc8a29ba5</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\i2s.h</file>
-         <hash>a28a466ff0f1eeb2ea030d89c93c5eb023d5f1b50743e3741411e5d5be9c6ab0</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\dac.h</file>
-         <hash>34a2a27ddee3dd7836158d513ae787b9ce25ab0f87c06f7d0206e5e43d9ae2c0</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\tc6.h</file>
-         <hash>fd25f946a8f61b12a6eaf808482a51a88cebe73811bd7f6cd5e3e3e28f26c532</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\sercom3.h</file>
-         <hash>519dc9a21be724dd5a2d24bf5f1b9e61e09cac1b429c180c97ee621b5b401646</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\touch\touch.h</file>
-         <hash>88c3e79b3ac5a26584525b60c47d3553cb6ee50e98389e6881d24c53d045e905</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
-         <hash>1dbf674e2bc9708afe2cacc75141707c42b89f166e0f1d6f81c04b1b2fa166b8</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\touch\touch.c</file>
-         <hash>6e27c58ff4034db086bf5ce53bb31de9e437a34f3016a3724f95a815589b65a1</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\fuses.h</file>
-         <hash>a153825483211e80bda57814cef3b4b4d9df53d51d52cd7f58203233b5e9bd88</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\tcc.h</file>
-         <hash>b88ea330cf41335450e483c0870c9dd0d06ac17596d70099cc68a89a1942caf3</hash>
+         <file>..\src\config\sam_da1_xpro\ATSAMDA1J16B.ld</file>
+         <hash>14ff5021c9d243a1c5417114fa63d36c79c394dd9c733554aa6cbd10267fcb95</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_da1_xpro\definitions.h</file>
-         <hash>2d7248faa83d5df5bb7432a2c0fc63b2d99f1d45ecd7e0c327b360adc9166c3a</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\CMSIS\CMSIS\Core\Include\core_cm0plus.h</file>
-         <hash>a19e24c136145b4c72630d0ab7c83a7aef010f3ba165e34c56a05057a2d9fed5</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\port.h</file>
-         <hash>e6574495f2062f86bcea9423633d2e7aabaaa03e135b3110413349c2958f8d57</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\tcc2.h</file>
-         <hash>33c23a2ea24d89df230d1a52f7b01ce967c2bd9e444044d61e4cc6810780257c</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\toolchain_specifics.h</file>
-         <hash>c93f9d68b1623668727be21b4449250a7e4a5d7040776d6f6d604a7528ffc9eb</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\pm.h</file>
-         <hash>f201669b28eff9eeba37ac6416405880a51a40fe0f38252bf90ad4edc419e36c</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\device_cache.h</file>
-         <hash>e2914501b361bbc93a56d6915b1bf4fac00277e61f31fdee87a587bc15dea5b6</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\adc.h</file>
-         <hash>76b7e3e5dfc106abb5bbab2eb609c1acc20543a70a65ef069aef80344ba7d19c</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\interrupts.c</file>
-         <hash>9d43abe8f7eb03eb86498071d3930264335b9f55ec1daf86a35b475e6b0cee7b</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\dmac.h</file>
-         <hash>e29b49728615638b86371da74c665f6416139eafa68c2b9d670fdda49788bda5</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\pac0.h</file>
-         <hash>55f121e45f67420b0d0ad53fcf8c2aac1151a7bd4758a50ccf7709cb65833777</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\evsys.h</file>
-         <hash>43b8aad855963470151f7283e750953e68dff2c2d13c677584a6515cc6d7da2e</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\gclk.h</file>
-         <hash>b4c8708d64420d9e089fdf8555b162d917b00aa5f6b843e10c9d0d5d9c65ea16</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\exceptions.c</file>
-         <hash>b850253aacaae1bddfcb426c2dc11e0688900afffe9b22c60d0ab16298701118</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv7.h</file>
-         <hash>de1b5eb9ed566527b66dc06f4ecb6a43ab6800f7dac47e87c9cb42984dca41bb</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\touch\touch_example.h</file>
-         <hash>e58c89edcd9cad6ac791bfeab116b67e57dd54baf9e7d26f90afa1c5083e874f</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h</file>
-         <hash>d074534d7106cec83474b3b0a897bd2553e1a8895ecbd54f4f4fb25928066eee</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\sysctrl.h</file>
-         <hash>b6dac54167bb8d94a4046499889e890a4c8cdc433411b130411e878f5a241f79</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\tc7.h</file>
-         <hash>e722eaa8df9988b0862f4074e425647cc1591ebf1a85f12b451a44b6b0d9d683</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\sercom2.h</file>
-         <hash>55df8ba9fbdbbd265de3d9ef0068cb61ba3c72e240e017b2a7e2e640c732950e</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\tc3.h</file>
-         <hash>541eb196cf22ca27659f998fdbd48b9f81ff38b09168e5e037cd97c5fce3ee38</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\evsys.h</file>
-         <hash>6d63c7c4e97d3a7c031808e29fbf26a9787c3b328024baf04e354c5bdd6e3905</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\touch\qtm_acq_samda1_0x0024_api.h</file>
-         <hash>b3b88e13118d169c73ef5feafde2eac7ae03efce5663c37225a4c2494ec4ddec</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\touch\touch_example.c</file>
-         <hash>b12b6a2ac9a8cc12eb02228bb87ccc664b5ad22b3001f4c21c23cb3f7463a7a8</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\dac.h</file>
-         <hash>d7e6ef9b07af725f6f485f1d6fa232cae5bb740c59255c137d81877fe18cb160</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\dmac.h</file>
-         <hash>221c742c887378a47ffbbcc95fdf43fd2a83e0b27a39abacb325671bc48b8bb1</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang.h</file>
-         <hash>11b39b96ddc1125124762b3423a77b90dd40ea5b4582a3513830245046b24311</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\touch\qtm_acq_samd21_0x0024_api.h</file>
-         <hash>9e48d4d85ed43835247a68c007e3c45624e744cb916985422be2a65872576dea</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\nvmctrl.h</file>
-         <hash>258c26c39e1181e67d6afa48a4cc568730823afd38e7aefc69bf3c0f83bfdc67</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h</file>
-         <hash>869640702d811c4c63abb52206715c891a93fd03be954df5ad40d378355af3d6</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\touch\lib\qtm_acq_samd21_0x0024.X.a</file>
-         <hash>3f1f85c8a6d16676480600d602d427ec6cc8ef9772de165d41bb27783834d9f9</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\peripheral\clock\plib_clock.c</file>
-         <hash>d92915d84830ab25930d021cf3ae584103a292da7a433edd1e18b51138716d98</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\touch\touchTune.h</file>
-         <hash>31ab281dc2b1c84190451fb4aebd5b446a425be3a4b73fbabf81c855d1e86454</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\peripheral\sercom\usart\plib_sercom3_usart.c</file>
-         <hash>5976992a37fc3c0da1fd85c8e6667e9b3810d14eae2f76a4ad11dd6c2ed291bf</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\peripheral\port\plib_port.c</file>
-         <hash>3f547e7fc78485fa9724460d3fcf0835a50e31f6913ec935b32efc505cb15971</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\peripheral\clock\plib_clock.h</file>
-         <hash>99bff84fe4a99e6423e2d28f881600300ece34a505bb89f3b4eb61154dbeeb10</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\tcc1.h</file>
-         <hash>512c4b2b2c63f96ea80b672a53be623e99018a97fb9c56e8c03910877dac0d9b</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\touch\touchTune.c</file>
-         <hash>3cfa17ccc5f695973e2133dc14b9743e20de6b84f54ea65adc5d8f96b3f5c5c4</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\touch\touch_api_ptc.h</file>
-         <hash>275521b093f37657b198104f3f224a966d70843b83e8c4bc77d4bdab51b2e1ca</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\peripheral\port\plib_port.h</file>
-         <hash>6722e170b8475cb21953f8048000111c541811abf4be7069f764b36a1e84ef7d</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\peripheral\sercom\usart\plib_sercom3_usart.h</file>
-         <hash>13c295e42aec8b53666ffd5fe85d5d5b47f9a75b94c1b1ca466d53e7b47942d2</hash>
+         <hash>07941c4cb99c3fa3c76783b207c9d1e9556b345ff917c35e96a3c7abe45e0fc3</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_da1_xpro\device.h</file>
          <hash>87c5b2e2a06cbafbd1ddaabbdc1f9a9c63c4ded5ee8b8a2e0c063e04bffeaebd</hash>
       </entry>
       <entry>
-         <file>..\src\main.c</file>
-         <hash>d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5</hash>
+         <file>..\src\config\sam_da1_xpro\device_cache.h</file>
+         <hash>e2914501b361bbc93a56d6915b1bf4fac00277e61f31fdee87a587bc15dea5b6</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\pio\samda1j16b.h</file>
-         <hash>8c22b4a320be54d414b3c44f73182500c85a06f0ca94a5866b13f9a36c0fda19</hash>
+         <file>..\src\config\sam_da1_xpro\device_vectors.h</file>
+         <hash>65f3666b1b719a491cf4fe70fcc37155cde59cff954ed48726035d3034062783</hash>
       </entry>
       <entry>
-         <file>..\src\config\sam_da1_xpro\peripheral\rtc\plib_rtc.h</file>
-         <hash>d2457589d2143cfb37806d3f8ed30477aaa584300c1fb9e856f57698f632271e</hash>
+         <file>..\src\config\sam_da1_xpro\exceptions.c</file>
+         <hash>5efbe5a64a17c496d2f5b177bc9cd66a7f0f80323d9558e220c073a13570a2a7</hash>
       </entry>
       <entry>
-         <file>..\src\config\sam_da1_xpro\startup_xc32.c</file>
-         <hash>d7ba451f4fffc267a5da6a83377b2b935a88cd73342f8a1f38ea8c39a86d963f</hash>
+         <file>..\src\config\sam_da1_xpro\initialization.c</file>
+         <hash>0842b25126aded09489317ec35e2cdcb58cf1b0f3dd4b57764c173f02e5d2131</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\gclk.h</file>
-         <hash>3595a7beae1a419a41033307f0a9580f6006036159f95ff713607d361bb8d5ed</hash>
+         <file>..\src\config\sam_da1_xpro\interrupts.c</file>
+         <hash>14715e077a127be60c3bbfc7e790357289c7c40f20c59e4f7f91ce62b7ab5f44</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\rtc.h</file>
-         <hash>f740730de1263c201c826206ab8af38d00fd98e1f598ce4fed73a0b937dbb208</hash>
+         <file>..\src\config\sam_da1_xpro\interrupts.h</file>
+         <hash>295b76b3dc21e70c33b52f8aef5b1a3e8af3f0690946a3de519af7ce160c8e10</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\mtb.h</file>
-         <hash>0b9e658aba50960e6774b1da04284955f252fae8edda836a55659892ed979c04</hash>
+         <file>..\src\config\sam_da1_xpro\libc_syscalls.c</file>
+         <hash>88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\wdt.h</file>
-         <hash>225edc2f3d2824368cc02d7c97d8a75d851b47444c859b6896c806cf969b290e</hash>
+         <file>..\src\config\sam_da1_xpro\peripheral\clock\plib_clock.c</file>
+         <hash>ea504aed3d89cff1b118258443762b680134ca7c85c8585fd59a47ddbc5431dd</hash>
       </entry>
       <entry>
-         <file>..\src\config\sam_da1_xpro\touch\qtm_freq_hop_auto_0x0004_api.h</file>
-         <hash>fede0d96967d873ea9b246b2589d9af3d046d9de3aa3e0dd2090a35328d72d60</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\sbmatrix.h</file>
-         <hash>dec4bfcaec9df80d7b1b594d89cc70bf4cb16e85d4841d4247bd31c9e63e34f3</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\peripheral\nvmctrl\plib_nvmctrl.c</file>
-         <hash>97b1e49e56b1a309d1f9fb1f1e192a9132a66b83406d07bf32f3eb454f100299</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\peripheral\nvmctrl\plib_nvmctrl.h</file>
-         <hash>3dbe7691ca7c7220aa1c9f1126b3297e1c39c6b88467c9ff2f42329a915be9b0</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\tc4.h</file>
-         <hash>bb17bd622bd2619ac0d8a453ed44f3ea29d19ca047a763b6b0644ed442872b20</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\sercom5.h</file>
-         <hash>c5071db4db26d726f1b672ba7cc067061b915bfaf3c6e3118e8db939101eb4ed</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\eic.h</file>
-         <hash>07cc1e89e550568eb058b7e483e28345f1780a887aeb6c8fbc15ecfb55e8f70b</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\ptc.h</file>
-         <hash>6ee0c4534438a3026093c6d5e0e03d5c4a2561138e37ac067c0a54456d2ed789</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\eic.h</file>
-         <hash>f33458f7540ab975e807098eca80401afb9bba7ba1c383418e55acfee8911168</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\hmatrixb.h</file>
-         <hash>fdb15f355ebf20e83ec9a003a47d50ca56d015c06ed477496623b738defdca09</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\ptc.h</file>
-         <hash>45e7fc9e0881cb786cb091eed5f8d710e7b801aed68c423cbb8cd1928355b8ac</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_version.h</file>
-         <hash>2de01ae2556a38eb82c389de23c701805ec63308cfbcf3f84cb12141589b0858</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_iccarm.h</file>
-         <hash>f28119adbc81fb0e3c957c9aebe8fb423ad93634e76ead3caa2b0818d2e123ae</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\dsu.h</file>
-         <hash>4ec5c74a9e3f3ccfbd4c63491aa11d0ea953fed915482d7fca858506c651ecdf</hash>
+         <file>..\src\config\sam_da1_xpro\peripheral\clock\plib_clock.h</file>
+         <hash>99bff84fe4a99e6423e2d28f881600300ece34a505bb89f3b4eb61154dbeeb10</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_da1_xpro\peripheral\evsys\plib_evsys.c</file>
          <hash>fddde9e585752205fc3b2c08567528438b4f536716a6d58da0ea6d6de5a1fcae</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\peripheral\nvic\plib_nvic.h</file>
-         <hash>81e813a093101d546799e00723cbf7245e2d18471fa51c8d130c5809cecca03e</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\sercom.h</file>
-         <hash>315c59445e855f846bc6a8a98e2e382768cdd41dc755b2f0ae794f424d8779b5</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\rtc.h</file>
-         <hash>593f4601c7e8ba4748fe7e79ee9f6a9ae7daa5734020088d4f04d6880153d9db</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_da1_xpro\peripheral\evsys\plib_evsys.h</file>
@@ -4469,35 +4181,95 @@
       </entry>
       <entry>
          <file>..\src\config\sam_da1_xpro\peripheral\nvic\plib_nvic.c</file>
-         <hash>28f07e90905efbac8bad141128f91ef4f41df58bc4303ba34afe51356ff086ac</hash>
+         <hash>3fef79d7314e7bf716c0cda78cd237defe9130eb6022d419852c963ca513528f</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\mtb.h</file>
-         <hash>88d02bec9d12a830e172a242e31acee67da074b0c0b820617428cfc918a1f5a1</hash>
+         <file>..\src\config\sam_da1_xpro\peripheral\nvic\plib_nvic.h</file>
+         <hash>81e813a093101d546799e00723cbf7245e2d18471fa51c8d130c5809cecca03e</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\pac.h</file>
-         <hash>88ebae44ba2bc265c2f529cb58948cefc4928b46656d4bd499e3881414cd3fb0</hash>
+         <file>..\src\config\sam_da1_xpro\peripheral\nvmctrl\plib_nvmctrl.c</file>
+         <hash>647257c0fc4bbcd2c467c98fedef2d1dd6c178a91a9899a89f10dc446d599148</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\sercom1.h</file>
-         <hash>4fadbdf79d2ec521638a600912a26eca26b3f38da3edf16a9523233f3d2e1329</hash>
+         <file>..\src\config\sam_da1_xpro\peripheral\nvmctrl\plib_nvmctrl.h</file>
+         <hash>3dbe7691ca7c7220aa1c9f1126b3297e1c39c6b88467c9ff2f42329a915be9b0</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\tcc0.h</file>
-         <hash>3b66887f1bf0fd1cdd8eb4e0bb5b10fff027f803868bb3764a14963f638e32b6</hash>
+         <file>..\src\config\sam_da1_xpro\peripheral\port\plib_port.c</file>
+         <hash>3f547e7fc78485fa9724460d3fcf0835a50e31f6913ec935b32efc505cb15971</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\samda1j16b.h</file>
-         <hash>0abc02e7f5945994469b6f50d17fa95a1acdf1cb6c8e67abcc6bf3a6449bb8e0</hash>
+         <file>..\src\config\sam_da1_xpro\peripheral\port\plib_port.h</file>
+         <hash>6722e170b8475cb21953f8048000111c541811abf4be7069f764b36a1e84ef7d</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\usb.h</file>
-         <hash>881ac507eb91643abc30c27b48f2f76352ee1de2fa6ce05c07dbcb345e20a0f8</hash>
+         <file>..\src\config\sam_da1_xpro\peripheral\rtc\plib_rtc.h</file>
+         <hash>d2457589d2143cfb37806d3f8ed30477aaa584300c1fb9e856f57698f632271e</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\pac2.h</file>
-         <hash>e669604a8f06850e325c62bd7bc91c2eb4584560b0f361d0766011cac19096a5</hash>
+         <file>..\src\config\sam_da1_xpro\peripheral\rtc\plib_rtc_timer.c</file>
+         <hash>8f91f8879a24b3220615fa456360a520097b45f7fc195bfaee69cc2c14e05d28</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\sam_da1_xpro\peripheral\sercom\usart\plib_sercom3_usart.c</file>
+         <hash>2254b41311f9e708e0a7e9917071d9b486c85e4ffe574d33124658d7929426be</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\sam_da1_xpro\peripheral\sercom\usart\plib_sercom3_usart.h</file>
+         <hash>bdb7a2a6a892bbf75e432ff0874a6903193ef29952e3a75570a5c06e10c9b3bd</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\sam_da1_xpro\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
+         <hash>63c6e89936ba47e8989478a8be0fa40b406361f2f0dcc1b6cfcd801b50a4bf92</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\sam_da1_xpro\pin_configurations.csv</file>
+         <hash>ea398ceed90162d84f8ccecd2eb1a023f2620d8917c9397d01d203b93a0acd95</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\sam_da1_xpro\startup_xc32.c</file>
+         <hash>e6227d89e36b74af1bc21e00e80b390502c97aaaa65796291f63b2d96cf0678e</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\sam_da1_xpro\stdio\xc32_monitor.c</file>
+         <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\sam_da1_xpro\toolchain_specifics.h</file>
+         <hash>a4f1774c6f1f8c6cd522567536c9e9d75ca63259b868015ac9b0fb0aeeffe1f4</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\sam_da1_xpro\touch\lib\qtm_acq_samd21_0x0024.X.a</file>
+         <hash>3f1f85c8a6d16676480600d602d427ec6cc8ef9772de165d41bb27783834d9f9</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\sam_da1_xpro\touch\lib\qtm_freq_hop_auto_cm0p_0x0004.X.a</file>
+         <hash>0cc61b670ccb0ebd7693034a5745421fee4bdf43b6d3e6a708a40e9140ad4551</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\sam_da1_xpro\touch\lib\qtm_scroller_cm0p_0x000b.X.a</file>
+         <hash>913ea8751a4a7bd70fa4781a6b9966975a7b0d4b0eca291bcc047c761a84366b</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\sam_da1_xpro\touch\lib\qtm_touch_key_cm0p_0x0002.X.a</file>
+         <hash>ffa2f4c39c786edd62ed89e458a1a1bd65e083947c42c1abe48432f589497045</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\sam_da1_xpro\touch\qtm_acq_samd21_0x0024_api.h</file>
+         <hash>7863a3b3bf4b4bcf997e4ffbd14fd257080724a84ec84d67f2fa23ca4d08a16a</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\sam_da1_xpro\touch\qtm_acq_samda1_0x0024_api.h</file>
+         <hash>b3b88e13118d169c73ef5feafde2eac7ae03efce5663c37225a4c2494ec4ddec</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\sam_da1_xpro\touch\qtm_common_components_api.h</file>
+         <hash>dda305cbf68fed6ac08dc563446ce809e26b1ea9d998290b3368b015ae920281</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\sam_da1_xpro\touch\qtm_freq_hop_auto_0x0004_api.h</file>
+         <hash>fede0d96967d873ea9b246b2589d9af3d046d9de3aa3e0dd2090a35328d72d60</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_da1_xpro\touch\qtm_scroller_0x000b_api.h</file>
@@ -4508,100 +4280,328 @@
          <hash>f5fb6d6080df1ed77d350b05e797de5d191bbd2c041becf2dc2a4d6b120d728d</hash>
       </entry>
       <entry>
-         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang_ltm.h</file>
-         <hash>8621969ea669a1b230ff2125a760ef66d575c48cb45e9e457f768909abcbda46</hash>
+         <file>..\src\config\sam_da1_xpro\touch\touch.c</file>
+         <hash>454b40a3d98c8d792cb50b22028a326b1b5dd3967d18fe9db4aa8b57105e0e44</hash>
       </entry>
       <entry>
-         <file>..\src\config\sam_da1_xpro\peripheral\rtc\plib_rtc_timer.c</file>
-         <hash>e131cab6ab1bcc3b8b3569704d52c2081a528b0707c4b1773addba6e9f5535c1</hash>
+         <file>..\src\config\sam_da1_xpro\touch\touch.h</file>
+         <hash>2dca9251f2af77f9d96f824ce7aa5aa8c73f77de455eb492b83861ef1bd53906</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\tc.h</file>
-         <hash>6b0d9c0107a76524a0dfb80ca9709860d07168e9311af6a2c9caf5a953f4b4c2</hash>
+         <file>..\src\config\sam_da1_xpro\touch\touchTune.c</file>
+         <hash>b5a6f5422b62b39c2ff346e551d9f7d000fac0fe164dfecd3d4ee1cd3d93bd76</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\usb.h</file>
-         <hash>9ff6798c09daa3ff3108f8461ce9eecd7298cfdf26a325048f554e0e4cd418e7</hash>
+         <file>..\src\config\sam_da1_xpro\touch\touchTune.h</file>
+         <hash>eddff4d924f4c6d725cbbb7729b2a696ae48a09249c8385d8c2e8da63f0d93c7</hash>
       </entry>
       <entry>
-         <file>..\src\config\sam_da1_xpro\pin_configurations.csv</file>
-         <hash>40a28a7981220fc472cc4ed12ad1cf76aaea2e8e4941e7b766310ba76359af22</hash>
+         <file>..\src\config\sam_da1_xpro\touch\touch_api_ptc.h</file>
+         <hash>899746b691ddfd04cd8f408f9f22814f034562e08901d9e68283a1c05317713d</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\sam_da1_xpro\touch\touch_example.c</file>
+         <hash>22c4c05fe7660996a8a0299128339bbcdbddd4d84b08d27c59d9b18e1e90d225</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\sam_da1_xpro\touch\touch_example.h</file>
+         <hash>4ae6436c75b811e53d69afc55e0455238112651cddc04341ff11e6a2b13accf6</hash>
+      </entry>
+      <entry>
+         <file>..\src\main.c</file>
+         <hash>d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMDA1J16B_DFP\component\ac.h</file>
          <hash>a995df9eb6db7dd566b3fde9b0e609cc79e7ca1f7b32fc9f1bf98ceb6ae9e8a8</hash>
       </entry>
       <entry>
-         <file>..\src\config\sam_da1_xpro\touch\lib\qtm_freq_hop_auto_cm0p_0x0004.X.a</file>
-         <hash>0cc61b670ccb0ebd7693034a5745421fee4bdf43b6d3e6a708a40e9140ad4551</hash>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\adc.h</file>
+         <hash>c90bac3b98482908a42048a3c6850d15b319547b337bd164f87c562b680b34a1</hash>
       </entry>
       <entry>
-         <file>..\src\config\sam_da1_xpro\stdio\xc32_monitor.c</file>
-         <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\dac.h</file>
+         <hash>d7e6ef9b07af725f6f485f1d6fa232cae5bb740c59255c137d81877fe18cb160</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\pm.h</file>
-         <hash>9a2f803f9b0888c25c0b7ff3a4e11106b295b36cd20c2008e4474c651810dac6</hash>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\dmac.h</file>
+         <hash>221c742c887378a47ffbbcc95fdf43fd2a83e0b27a39abacb325671bc48b8bb1</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\tc5.h</file>
-         <hash>7bcb2609ecb24a9bc83ac3a0c17aef3800f68162fc78d678a7eee22eebf6f546</hash>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\dsu.h</file>
+         <hash>4ec5c74a9e3f3ccfbd4c63491aa11d0ea953fed915482d7fca858506c651ecdf</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\sercom4.h</file>
-         <hash>5eefd5132ba0479adcdb1cb5a5750e981f30e77d7e5ac25a1dc4f349a144e84a</hash>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\eic.h</file>
+         <hash>f33458f7540ab975e807098eca80401afb9bba7ba1c383418e55acfee8911168</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\dsu.h</file>
-         <hash>08153b9408baeea9c7c57f798b9851bafc5c222cb33ba58bc7e6d8dc1e376222</hash>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\evsys.h</file>
+         <hash>6d63c7c4e97d3a7c031808e29fbf26a9787c3b328024baf04e354c5bdd6e3905</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\wdt.h</file>
-         <hash>e9cac3c1556a8957950836900a91c9fa484ea48660123051ced65759a8e4ef4a</hash>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\fuses.h</file>
+         <hash>a153825483211e80bda57814cef3b4b4d9df53d51d52cd7f58203233b5e9bd88</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\sysctrl.h</file>
-         <hash>090c9e3e86558ed8065e72fa3f8dee88d9d048a8f32ecd819baba3a2fcf5c77d</hash>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\gclk.h</file>
+         <hash>3595a7beae1a419a41033307f0a9580f6006036159f95ff713607d361bb8d5ed</hash>
       </entry>
       <entry>
-         <file>..\src\config\sam_da1_xpro\initialization.c</file>
-         <hash>203b73ea65fb3e2f778cdf06b71af4b7a8dcf07f549cda2aa79ec96bea999b51</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\sam_da1_xpro\ATSAMDA1J16B.ld</file>
-         <hash>14ff5021c9d243a1c5417114fa63d36c79c394dd9c733554aa6cbd10267fcb95</hash>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\hmatrixb.h</file>
+         <hash>fdb15f355ebf20e83ec9a003a47d50ca56d015c06ed477496623b738defdca09</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMDA1J16B_DFP\component\i2s.h</file>
          <hash>b1873f9c9a092d1b46268a6d1bdb76f8bf338ed1177c304bf9ff5dfd6109e276</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\sercom0.h</file>
-         <hash>b95ef2184af24cd91c787bdfba320d579737785b6176ef3ac00528742e33d595</hash>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\mtb.h</file>
+         <hash>0b9e658aba50960e6774b1da04284955f252fae8edda836a55659892ed979c04</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\port.h</file>
-         <hash>d6ce8d6e46e5849812c838e5602858544c01d8c3b302d5f8aaa786e8402b37ca</hash>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\nvmctrl.h</file>
+         <hash>ea03ee4f1663737044d1ebe740196ceea542ab6540fd31ac382bb75d5dfbeae0</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\pac.h</file>
+         <hash>88ebae44ba2bc265c2f529cb58948cefc4928b46656d4bd499e3881414cd3fb0</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\pm.h</file>
+         <hash>9a2f803f9b0888c25c0b7ff3a4e11106b295b36cd20c2008e4474c651810dac6</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\port.h</file>
+         <hash>e6574495f2062f86bcea9423633d2e7aabaaa03e135b3110413349c2958f8d57</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\ptc.h</file>
+         <hash>45e7fc9e0881cb786cb091eed5f8d710e7b801aed68c423cbb8cd1928355b8ac</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\rtc.h</file>
+         <hash>f740730de1263c201c826206ab8af38d00fd98e1f598ce4fed73a0b937dbb208</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\sercom.h</file>
+         <hash>315c59445e855f846bc6a8a98e2e382768cdd41dc755b2f0ae794f424d8779b5</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\sysctrl.h</file>
+         <hash>b6dac54167bb8d94a4046499889e890a4c8cdc433411b130411e878f5a241f79</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\tc.h</file>
+         <hash>6b0d9c0107a76524a0dfb80ca9709860d07168e9311af6a2c9caf5a953f4b4c2</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\tcc.h</file>
+         <hash>b88ea330cf41335450e483c0870c9dd0d06ac17596d70099cc68a89a1942caf3</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\usb.h</file>
+         <hash>9ff6798c09daa3ff3108f8461ce9eecd7298cfdf26a325048f554e0e4cd418e7</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\component\wdt.h</file>
+         <hash>e9cac3c1556a8957950836900a91c9fa484ea48660123051ced65759a8e4ef4a</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\ac.h</file>
+         <hash>6a6ef9779b0c228c7b573fe8b8cbb3a62160a91da1535c827f70bf91e6151ed7</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\adc.h</file>
+         <hash>76b7e3e5dfc106abb5bbab2eb609c1acc20543a70a65ef069aef80344ba7d19c</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\dac.h</file>
+         <hash>34a2a27ddee3dd7836158d513ae787b9ce25ab0f87c06f7d0206e5e43d9ae2c0</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\dmac.h</file>
+         <hash>e29b49728615638b86371da74c665f6416139eafa68c2b9d670fdda49788bda5</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\dsu.h</file>
+         <hash>08153b9408baeea9c7c57f798b9851bafc5c222cb33ba58bc7e6d8dc1e376222</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\eic.h</file>
+         <hash>07cc1e89e550568eb058b7e483e28345f1780a887aeb6c8fbc15ecfb55e8f70b</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\evsys.h</file>
+         <hash>43b8aad855963470151f7283e750953e68dff2c2d13c677584a6515cc6d7da2e</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMDA1J16B_DFP\instance\fuses.h</file>
          <hash>6ce592114a884b1d1f10685fd21e204736d62dbf74d7b738b2a9bd7d79cbf722</hash>
       </entry>
       <entry>
-         <file>..\src\config\sam_da1_xpro\libc_syscalls.c</file>
-         <hash>88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f</hash>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\gclk.h</file>
+         <hash>b4c8708d64420d9e089fdf8555b162d917b00aa5f6b843e10c9d0d5d9c65ea16</hash>
       </entry>
       <entry>
-         <file>..\src\config\sam_da1_xpro\touch\lib\qtm_touch_key_cm0p_0x0002.X.a</file>
-         <hash>ffa2f4c39c786edd62ed89e458a1a1bd65e083947c42c1abe48432f589497045</hash>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\i2s.h</file>
+         <hash>a28a466ff0f1eeb2ea030d89c93c5eb023d5f1b50743e3741411e5d5be9c6ab0</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAMDA1J16B_DFP\component\adc.h</file>
-         <hash>c90bac3b98482908a42048a3c6850d15b319547b337bd164f87c562b680b34a1</hash>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\mtb.h</file>
+         <hash>88d02bec9d12a830e172a242e31acee67da074b0c0b820617428cfc918a1f5a1</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\nvmctrl.h</file>
+         <hash>258c26c39e1181e67d6afa48a4cc568730823afd38e7aefc69bf3c0f83bfdc67</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\pac0.h</file>
+         <hash>55f121e45f67420b0d0ad53fcf8c2aac1151a7bd4758a50ccf7709cb65833777</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMDA1J16B_DFP\instance\pac1.h</file>
          <hash>fd79c749740b84437e3f2fc0bbc74fa360fc8a1e2fe309218d14fac14afc1def</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\pac2.h</file>
+         <hash>e669604a8f06850e325c62bd7bc91c2eb4584560b0f361d0766011cac19096a5</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\pm.h</file>
+         <hash>f201669b28eff9eeba37ac6416405880a51a40fe0f38252bf90ad4edc419e36c</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\port.h</file>
+         <hash>d6ce8d6e46e5849812c838e5602858544c01d8c3b302d5f8aaa786e8402b37ca</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\ptc.h</file>
+         <hash>6ee0c4534438a3026093c6d5e0e03d5c4a2561138e37ac067c0a54456d2ed789</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\rtc.h</file>
+         <hash>593f4601c7e8ba4748fe7e79ee9f6a9ae7daa5734020088d4f04d6880153d9db</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\sbmatrix.h</file>
+         <hash>dec4bfcaec9df80d7b1b594d89cc70bf4cb16e85d4841d4247bd31c9e63e34f3</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\sercom0.h</file>
+         <hash>b95ef2184af24cd91c787bdfba320d579737785b6176ef3ac00528742e33d595</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\sercom1.h</file>
+         <hash>4fadbdf79d2ec521638a600912a26eca26b3f38da3edf16a9523233f3d2e1329</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\sercom2.h</file>
+         <hash>55df8ba9fbdbbd265de3d9ef0068cb61ba3c72e240e017b2a7e2e640c732950e</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\sercom3.h</file>
+         <hash>519dc9a21be724dd5a2d24bf5f1b9e61e09cac1b429c180c97ee621b5b401646</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\sercom4.h</file>
+         <hash>5eefd5132ba0479adcdb1cb5a5750e981f30e77d7e5ac25a1dc4f349a144e84a</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\sercom5.h</file>
+         <hash>c5071db4db26d726f1b672ba7cc067061b915bfaf3c6e3118e8db939101eb4ed</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\sysctrl.h</file>
+         <hash>090c9e3e86558ed8065e72fa3f8dee88d9d048a8f32ecd819baba3a2fcf5c77d</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\tc3.h</file>
+         <hash>541eb196cf22ca27659f998fdbd48b9f81ff38b09168e5e037cd97c5fce3ee38</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\tc4.h</file>
+         <hash>bb17bd622bd2619ac0d8a453ed44f3ea29d19ca047a763b6b0644ed442872b20</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\tc5.h</file>
+         <hash>7bcb2609ecb24a9bc83ac3a0c17aef3800f68162fc78d678a7eee22eebf6f546</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\tc6.h</file>
+         <hash>fd25f946a8f61b12a6eaf808482a51a88cebe73811bd7f6cd5e3e3e28f26c532</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\tc7.h</file>
+         <hash>e722eaa8df9988b0862f4074e425647cc1591ebf1a85f12b451a44b6b0d9d683</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\tcc0.h</file>
+         <hash>3b66887f1bf0fd1cdd8eb4e0bb5b10fff027f803868bb3764a14963f638e32b6</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\tcc1.h</file>
+         <hash>512c4b2b2c63f96ea80b672a53be623e99018a97fb9c56e8c03910877dac0d9b</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\tcc2.h</file>
+         <hash>33c23a2ea24d89df230d1a52f7b01ce967c2bd9e444044d61e4cc6810780257c</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\usb.h</file>
+         <hash>881ac507eb91643abc30c27b48f2f76352ee1de2fa6ce05c07dbcb345e20a0f8</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\instance\wdt.h</file>
+         <hash>225edc2f3d2824368cc02d7c97d8a75d851b47444c859b6896c806cf969b290e</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\pio\samda1j16b.h</file>
+         <hash>8c22b4a320be54d414b3c44f73182500c85a06f0ca94a5866b13f9a36c0fda19</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAMDA1J16B_DFP\samda1j16b.h</file>
+         <hash>0abc02e7f5945994469b6f50d17fa95a1acdf1cb6c8e67abcc6bf3a6449bb8e0</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h</file>
+         <hash>6cdb5b324f2fd1bb5b2f47298ba6e6777e735d7cad3bb8d942cd36e2c6e65328</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h</file>
+         <hash>d074534d7106cec83474b3b0a897bd2553e1a8895ecbd54f4f4fb25928066eee</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang.h</file>
+         <hash>11b39b96ddc1125124762b3423a77b90dd40ea5b4582a3513830245046b24311</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang_ltm.h</file>
+         <hash>8621969ea669a1b230ff2125a760ef66d575c48cb45e9e457f768909abcbda46</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h</file>
+         <hash>869640702d811c4c63abb52206715c891a93fd03be954df5ad40d378355af3d6</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_gcc.h</file>
+         <hash>3d4e265d0aa42f888385ccf073666e6ebb5ec9f834760b9da27c474e177f708d</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_iccarm.h</file>
+         <hash>f28119adbc81fb0e3c957c9aebe8fb423ad93634e76ead3caa2b0818d2e123ae</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_version.h</file>
+         <hash>2de01ae2556a38eb82c389de23c701805ec63308cfbcf3f84cb12141589b0858</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\CMSIS\CMSIS\Core\Include\core_cm0plus.h</file>
+         <hash>a19e24c136145b4c72630d0ab7c83a7aef010f3ba165e34c56a05057a2d9fed5</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv7.h</file>
+         <hash>de1b5eb9ed566527b66dc06f4ecb6a43ab6800f7dac47e87c9cb42984dca41bb</hash>
       </entry>
    </generatedFileHashHistoryMap>
 </config>

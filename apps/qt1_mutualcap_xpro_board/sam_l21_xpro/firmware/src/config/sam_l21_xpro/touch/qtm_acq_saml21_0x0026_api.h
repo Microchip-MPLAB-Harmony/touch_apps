@@ -67,6 +67,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 /* X line bit position */
 #define X_NONE 0u
+#undef X
 #define X(n) ((uint16_t)(1u << (n)))
 
 /* Y line bit position */
@@ -219,6 +220,7 @@ typedef struct qtm_drivenshield_config_tag
 {
 	uint8_t  flags;
 }qtm_drivenshield_config_t;
+extern volatile uint16_t current_measure_channel;
 
 
 /*============================================================================

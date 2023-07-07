@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.13.0 Release
+  Touch Library v3.14.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -17,7 +17,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (c)  2022 released Microchip Technology Inc.  All rights reserved.
+Copyright (c)  2023 released Microchip Technology Inc.  All rights reserved.
 
 Microchip licenses to you the right to use, modify, copy and distribute
 Software only when embedded on a Microchip microcontroller or digital signal
@@ -47,9 +47,9 @@ void touch_mainloop_example(void){
     /* call touch process function */
     touch_process();
 
-    if(measurement_done_touch == 1)
+    if(measurement_done_touch == 1u)
     {
-        measurement_done_touch = 0;
+        measurement_done_touch = 0u;
         // process touch data
     }
 
@@ -67,8 +67,6 @@ Notes  : none
 void touch_status_display(void)
 {
 uint8_t key_status = 0u;
-uint8_t scroller_status = 0u;
-uint16_t scroller_position = 0u;
     key_status = get_sensor_state(0) & KEY_TOUCHED_MASK;
     if (0u != key_status) {
         //Touch detect
@@ -76,80 +74,6 @@ uint16_t scroller_position = 0u;
         //Touch No detect
     }
 
-
-    scroller_status = get_scroller_state(0);
-    scroller_position = get_scroller_position(0);
-    //Example: 8 bit scroller resolution. Modify as per requirement.
-    scroller_position = scroller_position  >> 5;
-    //LED_OFF
-    if ( 0u != scroller_status) {
-        switch (scroller_position) {
-        case 0:
-            //LED0_ON
-            break;
-        case 1:
-            //LED1_ON
-            break;
-        case 2:
-            //LED2_ON
-            break;
-        case 3:
-            //LED3_ON
-            break;
-        case 4:
-            //LED4_ON
-            break;
-        case 5:
-            //LED5_ON
-            break;
-        case 6:
-            //LED6_ON
-            break;
-        case 7:
-            //LED7_ON
-            break;
-        default:
-            //LED_OFF
-            break;
-        }
-    }
-
-    scroller_status = get_scroller_state(-1);
-    scroller_position = get_scroller_position(-1);
-    //Example: 8 bit scroller resolution. Modify as per requirement.
-    scroller_position = scroller_position  >> 5;
-    //LED_OFF
-    if ( 0u != scroller_status) {
-        switch (scroller_position) {
-        case 0:
-            //LED0_ON
-            break;
-        case 1:
-            //LED1_ON
-            break;
-        case 2:
-            //LED2_ON
-            break;
-        case 3:
-            //LED3_ON
-            break;
-        case 4:
-            //LED4_ON
-            break;
-        case 5:
-            //LED5_ON
-            break;
-        case 6:
-            //LED6_ON
-            break;
-        case 7:
-            //LED7_ON
-            break;
-        default:
-            //LED_OFF
-            break;
-        }
-    }
 
 }
 

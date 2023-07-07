@@ -1,6 +1,6 @@
-"Pin Number","Pin ID","Custom Name","Function","Mode", "Direction","Latch","Pull Up","Pull Down","Drive Strength"
-1,PA02,,PTC_Y0,Digital,High Impedance,n/a,No,No,NORMAL
-2,PA03,,PTC_Y1,Digital,High Impedance,n/a,No,No,NORMAL
+Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,Drive Strength
+1,PA02,,PTC_Y0,Analog,High Impedance,n/a,,,NORMAL
+2,PA03,,PTC_Y1,Analog,High Impedance,n/a,,,NORMAL
 3,PA04,,Available,,,,,,NORMAL
 4,PA05,,Available,,,,,,NORMAL
 5,PA06,,Available,,,,,,NORMAL

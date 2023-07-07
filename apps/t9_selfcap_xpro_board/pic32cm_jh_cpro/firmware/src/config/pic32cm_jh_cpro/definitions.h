@@ -54,8 +54,8 @@
 #include "peripheral/clock/plib_clock.h"
 #include "peripheral/nvic/plib_nvic.h"
 #include "peripheral/sercom/usart/plib_sercom4_usart.h"
-#include "touch/touch.h"
 #include "peripheral/rtc/plib_rtc.h"
+#include "touch/touch.h"
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
@@ -64,6 +64,12 @@ extern "C" {
 
 #endif
 // DOM-IGNORE-END
+
+/* Device Information */
+#define DEVICE_NAME			 "PIC32CM5164JH01100"
+#define DEVICE_ARCH			 "CORTEX-M0PLUS"
+#define DEVICE_FAMILY		 "PIC32CM"
+#define DEVICE_SERIES		 "PIC32CMJH01"
 
 /* CPU clock frequency */
 #define CPU_CLOCK_FREQUENCY 48000000

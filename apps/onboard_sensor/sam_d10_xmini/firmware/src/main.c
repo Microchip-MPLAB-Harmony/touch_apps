@@ -68,9 +68,9 @@ int main(void) {
         key_status0 = get_sensor_state(0) & 0x80;
 
         if (0u != key_status0)
-            LED_BUT_0_Clear();
-        else
             LED_BUT_0_Set();
+                    else
+            LED_BUT_0_Clear();
     }
 
     /* Execution should not come here during normal operation */

@@ -32,7 +32,7 @@ void touch_status_display1(void);
 /*----------------------------------------------------------------------------
  *   Extern variables
  *----------------------------------------------------------------------------*/
-extern volatile uint8_t measurement_done_touch;
+//extern volatile uint8_t measurement_done_touch;
 
 /*----------------------------------------------------------------------------
  *   Global variables

@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.13.0 Release
+  Touch Library v3.14.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -17,7 +17,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (c)  2022 released Microchip Technology Inc.  All rights reserved.
+Copyright (c)  2023 released Microchip Technology Inc.  All rights reserved.
 
 Microchip licenses to you the right to use, modify, copy and distribute
 Software only when embedded on a Microchip microcontroller or digital signal
@@ -47,9 +47,9 @@ void touch_mainloop_example(void){
     /* call touch process function */
     touch_process();
 
-    if(measurement_done_touch == 1)
+    if(measurement_done_touch == 1u)
     {
-        measurement_done_touch = 0;
+        measurement_done_touch = 0u;
         // process touch data
     }
 
@@ -108,7 +108,7 @@ uint16_t scroller_position = 0u;
     scroller_status = get_scroller_state(0);
     scroller_position = get_scroller_position(0);
     //Example: 8 bit scroller resolution. Modify as per requirement.
-    scroller_position = scroller_position  >> 5;
+    scroller_position = scroller_position  >> 5u;
     //LED_OFF
     if ( 0u != scroller_status) {
         switch (scroller_position) {

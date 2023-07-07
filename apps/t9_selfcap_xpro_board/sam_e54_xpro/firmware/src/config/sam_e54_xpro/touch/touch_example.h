@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.13.1 Release
+  Touch Library v3.14.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -38,6 +38,16 @@ CONSEQUENTIAL DAMAGES, LOST  PROFITS  OR  LOST  DATA,  COST  OF  PROCUREMENT  OF
 SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 (INCLUDING BUT NOT LIMITED TO ANY DEFENSE  THEREOF),  OR  OTHER  SIMILAR  COSTS.
 *******************************************************************************/
+#ifndef TOUCH_EXMAPLE_H
+#define TOUCH_EXMAPLE_H
+
+// DOM-IGNORE-BEGIN
+#ifdef __cplusplus  // Provide C++ Compatibility
+
+    extern "C" {
+
+#endif
+// DOM-IGNORE-END
 
 
 #include <stddef.h>                     // Defines NULL
@@ -46,9 +56,13 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 #include "definitions.h"                // SYS function prototypes
 #include "touch.h"
 
-
-
-extern volatile uint8_t measurement_done_touch;
-
 void touch_mainloop_example(void);
 void touch_status_display(void);
+// DOM-IGNORE-BEGIN
+#ifdef __cplusplus  // Provide C++ Compatibility
+
+    }
+
+#endif
+// DOM-IGNORE-END
+#endif // TOUCH_H

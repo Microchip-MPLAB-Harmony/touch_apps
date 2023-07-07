@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.13.0 Release
+  Touch Library v3.14.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -16,7 +16,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (c) 2022 released Microchip Technology Inc.  All rights reserved.
+Copyright (c) 2023 released Microchip Technology Inc.  All rights reserved.
 
 Microchip licenses to you the right to use, modify, copy and distribute
 Software only when embedded on a Microchip microcontroller or digital signal
@@ -64,7 +64,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Range: 1 to 255.
  * Default value: 20.
  */
-#define DEF_TOUCH_MEASUREMENT_PERIOD_MS 20
+#define DEF_TOUCH_MEASUREMENT_PERIOD_MS 20u
 
 /* Defines the Type of sensor
  * Default value: NODE_MUTUAL.
@@ -86,7 +86,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 /* Defines the interrupt priority for the PTC. Set low priority to PTC interrupt for applications having interrupt time
  * constraints.
  */
-#define DEF_PTC_INTERRUPT_PRIORITY 3
+#define DEF_PTC_INTERRUPT_PRIORITY 3u
 
 /* Set default bootup acquisition frequency.
  * Range: FREQ_SEL_0 - FREQ_SEL_15 , FREQ_SEL_SPREAD
@@ -107,7 +107,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Range: 1 to 65535.
  * Default value: 1
  */
-#define DEF_NUM_CHANNELS (5)
+#define DEF_NUM_CHANNELS (5u)
 
 
 /* Defines node parameter setting
@@ -117,23 +117,23 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #define NODE_0_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(5), PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_16                   \
+   X_NONE, Y(5), (uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_1_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(4), PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_16                   \
+   X_NONE, Y(4), (uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_2_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(11), PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_16                   \
+   X_NONE, Y(11), (uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_3_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(10), PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_16                   \
+   X_NONE, Y(10), (uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_4_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(13), PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_16                   \
+   X_NONE, Y(13), (uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 
 /**********************************************************/
@@ -143,7 +143,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Range: 1 to 65535.
  * Default value: 1
  */
-#define DEF_NUM_SENSORS (5)
+#define DEF_NUM_SENSORS (5u)
 
 /* Defines Key Sensor setting
  * {Sensor Threshold, Sensor Hysterisis, Sensor AKS}
@@ -151,31 +151,31 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #define KEY_0_PARAMS                                                                                            \
 {                                                                                                              \
-    60, HYST_25, NO_AKS_GROUP                       \
+    60u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
 }
 
 
 #define KEY_1_PARAMS                                                                                            \
 {                                                                                                              \
-    60, HYST_25, NO_AKS_GROUP                       \
+    60u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
 }
 
 
 #define KEY_2_PARAMS                                                                                            \
 {                                                                                                              \
-    40, HYST_25, AKS_GROUP_1                       \
+    40u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_1                       \
 }
 
 
 #define KEY_3_PARAMS                                                                                            \
 {                                                                                                              \
-    40, HYST_25, AKS_GROUP_1                       \
+    40u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_1                       \
 }
 
 
 #define KEY_4_PARAMS                                                                                            \
 {                                                                                                              \
-    40, HYST_25, AKS_GROUP_1                       \
+    40u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_1                       \
 }
 
 
@@ -183,20 +183,20 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Range: 0 to 255.
  * Default value: 4.
  */
-#define DEF_TOUCH_DET_INT 4
+#define DEF_TOUCH_DET_INT 4u
 
 /* De-bounce counter for additional measurements to confirm away from touch signal
  * to initiate Away from touch re-calibration.
  * Range: 0 to 255.
  * Default value: 5.
  */
-#define DEF_ANTI_TCH_DET_INT 5
+#define DEF_ANTI_TCH_DET_INT 5u
 
 /* Threshold beyond with automatic sensor recalibration is initiated.
  * Range: RECAL_100/ RECAL_50 / RECAL_25 / RECAL_12_5 / RECAL_6_25 / MAX_RECAL
  * Default value: RECAL_100.
  */
-#define DEF_ANTI_TCH_RECAL_THRSHLD RECAL_100
+#define DEF_ANTI_TCH_RECAL_THRSHLD (uint8_t)RECAL_100
 
 /* Rate at which sensor reference value is adjusted towards sensor signal value
  * when signal value is greater than reference.
@@ -204,7 +204,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Range: 0-255
  * Default value: 20u = 4 seconds.
  */
-#define DEF_TCH_DRIFT_RATE 20
+#define DEF_TCH_DRIFT_RATE 20u
 
 /* Rate at which sensor reference value is adjusted towards sensor signal value
  * when signal value is less than reference.
@@ -212,33 +212,33 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Range: 0-255
  * Default value: 5u = 1 second.
  */
-#define DEF_ANTI_TCH_DRIFT_RATE 5
+#define DEF_ANTI_TCH_DRIFT_RATE 5u
 
 /* Time to restrict drift on all sensor when one or more sensors are activated.
  * Units: 200ms
  * Range: 0-255
  * Default value: 20u = 4 seconds.
  */
-#define DEF_DRIFT_HOLD_TIME 20
+#define DEF_DRIFT_HOLD_TIME 20u
 
 /* Set mode for additional sensor measurements based on touch activity.
  * Range: REBURST_NONE / REBURST_UNRESOLVED / REBURST_ALL
  * Default value: REBURST_UNRESOLVED
  */
-#define DEF_REBURST_MODE REBURST_UNRESOLVED
+#define DEF_REBURST_MODE (uint8_t)REBURST_UNRESOLVED
 
 /* Sensor maximum ON duration upon touch.
  * Range: 0-255
  * Default value: 0
  */
-#define DEF_MAX_ON_DURATION 0
+#define DEF_MAX_ON_DURATION 0u
 
 /**********************************************************/
 /***************** Slider/Wheel Parameters ****************/
 /**********************************************************/
 /* Defines the number of scrollers (sliders or wheels)
  */
-#define DEF_NUM_SCROLLERS 1
+#define DEF_NUM_SCROLLERS 1u
 
 /* Defines scroller parameter setting
  * {touch_scroller_type, touch_start_key, touch_scroller_size,
@@ -251,8 +251,8 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  */
 #define SCROLLER_0_PARAMS                                                                                       \
 {                                                                                                              \
-    SCROLLER_TYPE_WHEEL, 2, 3,                            \
-		SCROLLER_RESOL_DEADBAND(SCR_RESOL_8_BIT, SCR_DB_10_PERCENT),8,20\
+    (uint8_t)SCROLLER_TYPE_WHEEL, 2u, 3u,                            \
+		SCROLLER_RESOL_DEADBAND((uint8_t)SCR_RESOL_8_BIT, (uint8_t)SCR_DB_10_PERCENT),(uint8_t)8,20\
 }
 
 
@@ -265,29 +265,29 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Range: 3 to 7.
  * Default value: 3
  */
-#define NUM_FREQ_STEPS 3
+#define NUM_FREQ_STEPS 3u
 
 /* PTC Sampling Delay Selection - 0 to 15 PTC CLK cycles */
 
-#define DEF_MEDIAN_FILTER_FREQUENCIES FREQ_SEL_0,FREQ_SEL_1,FREQ_SEL_2
+#define DEF_MEDIAN_FILTER_FREQUENCIES (uint8_t)FREQ_SEL_0,(uint8_t)FREQ_SEL_1,(uint8_t)FREQ_SEL_2
 
 /* Enable / Disable the frequency hop auto tune
  * Range: 0 / 1
  * Default value: 1
  */
-#define DEF_FREQ_AUTOTUNE_ENABLE 1
+#define DEF_FREQ_AUTOTUNE_ENABLE 1u
 
 /* sets the maximum variance for Frequency Hop Auto tune.
  * Range: 1 to 255.
  * Default value: 15
  */
-#define FREQ_AUTOTUNE_MAX_VARIANCE 25
+#define FREQ_AUTOTUNE_MAX_VARIANCE 25u
 
 /* sets the Tune in count for Frequency Hop Auto tune.
  * Range: 1 to 255.
  * Default value: 6
  */
-#define FREQ_AUTOTUNE_COUNT_IN 6
+#define FREQ_AUTOTUNE_COUNT_IN 6u
 
 /**********************************************************/
 /***************** Communication - Data Streamer ******************/
@@ -300,6 +300,25 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 /**********************************************************/
 
 
+
+/* Acquisition variables */
+extern qtm_acq_node_data_t ptc_qtlib_node_stat1[DEF_NUM_CHANNELS];
+extern qtm_acq_samd21_node_config_t ptc_seq_node_cfg1[DEF_NUM_CHANNELS];
+
+
+/* Keys variables */
+extern qtm_touch_key_group_config_t qtlib_key_grp_config_set1;
+extern qtm_touch_key_data_t qtlib_key_data_set1[DEF_NUM_SENSORS];
+extern qtm_touch_key_config_t qtlib_key_configs_set1[DEF_NUM_SENSORS];
+/* Scroller variables */
+extern qtm_scroller_config_t qtm_scroller_config1[DEF_NUM_SCROLLERS];
+extern qtm_scroller_data_t qtm_scroller_data1[DEF_NUM_SCROLLERS];
+/* Frequency Hop Autotune variables */
+extern qtm_freq_hop_autotune_config_t qtm_freq_hop_autotune_config1;
+extern uint8_t module_error_code;
+
+
+extern volatile uint8_t measurement_done_touch;
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility

@@ -1,6 +1,6 @@
 
 /*******************************************************************************
-  Touch Library v3.13.1 Release
+  Touch Library v3.14.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -67,8 +67,6 @@ void     update_sensor_cc_val(uint16_t sensor_node, uint16_t new_cc_value);
 uint8_t  get_sensor_state(uint16_t sensor_node);
 void     update_sensor_state(uint16_t sensor_node, uint8_t new_state);
 void     calibrate_node(uint16_t sensor_node);
-uint8_t  get_scroller_state(uint16_t sensor_node);
-uint16_t get_scroller_position(uint16_t sensor_node);
 
 void touch_timer_handler(void);
 void touch_init(void);

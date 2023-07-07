@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.13.1 Release
+  Touch Library v3.14.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -47,9 +47,9 @@ void touch_mainloop_example(void){
     /* call touch process function */
     touch_process();
 
-    if(measurement_done_touch == 1)
+    if(measurement_done_touch == 1u)
     {
-        measurement_done_touch = 0;
+        measurement_done_touch = 0u;
         // process touch data
     }
 

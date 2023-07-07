@@ -54,8 +54,8 @@
 #include "peripheral/port/plib_port.h"
 #include "peripheral/clock/plib_clock.h"
 #include "peripheral/nvic/plib_nvic.h"
-#include "peripheral/rtc/plib_rtc.h"
 #include "touch/touch.h"
+#include "peripheral/rtc/plib_rtc.h"
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
@@ -64,6 +64,12 @@ extern "C" {
 
 #endif
 // DOM-IGNORE-END
+
+/* Device Information */
+#define DEVICE_NAME			 "ATSAMD11D14AM"
+#define DEVICE_ARCH			 "CORTEX-M0PLUS"
+#define DEVICE_FAMILY		 "SAMD"
+#define DEVICE_SERIES		 "SAMD11"
 
 /* CPU clock frequency */
 #define CPU_CLOCK_FREQUENCY 48000000

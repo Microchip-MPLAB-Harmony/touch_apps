@@ -1,7 +1,7 @@
 /*
  * Component description for EBI
  *
- * Copyright (c) 2022 Microchip Technology Inc. and its subsidiaries.
+ * Copyright (c) 2023 Microchip Technology Inc. and its subsidiaries.
  *
  * Subject to your compliance with these terms, you may use Microchip software and any derivatives
  * exclusively with Microchip products. It is your responsibility to comply with third party license
@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2022-03-10T17:15:57Z */
+/* file generated from device description version 2023-05-18T19:14:33Z */
 #ifndef _PIC32CZCA90_EBI_COMPONENT_H_
 #define _PIC32CZCA90_EBI_COMPONENT_H_
 
@@ -88,12 +88,26 @@
 #define EBI_SMC_MODE_EXNW_MODE_Pos            _UINT32_(4)                                          /* (EBI_SMC_MODE) NWAIT Mode Position */
 #define EBI_SMC_MODE_EXNW_MODE_Msk            (_UINT32_(0x3) << EBI_SMC_MODE_EXNW_MODE_Pos)        /* (EBI_SMC_MODE) NWAIT Mode Mask */
 #define EBI_SMC_MODE_EXNW_MODE(value)         (EBI_SMC_MODE_EXNW_MODE_Msk & (_UINT32_(value) << EBI_SMC_MODE_EXNW_MODE_Pos)) /* Assigment of value for EXNW_MODE in the EBI_SMC_MODE register */
+#define   EBI_SMC_MODE_EXNW_MODE_DISABLED_Val _UINT32_(0x0)                                        /* (EBI_SMC_MODE) Disabled-The NWAIT input signal is ignored on the corresponding chip select.  */
+#define   EBI_SMC_MODE_EXNW_MODE_FROZEN_Val   _UINT32_(0x2)                                        /* (EBI_SMC_MODE) Frozen Mode-If asserted, the NWAIT signal freezes the current read or write cycle. After deassertion, the read/write cycle is resumed from the point where it was stopped.  */
+#define   EBI_SMC_MODE_EXNW_MODE_READY_Val    _UINT32_(0x3)                                        /* (EBI_SMC_MODE) Ready Mode-The NWAIT signal indicates the availability of the external device at the end of the pulse of the controlling read or write signal, to complete the access. If high, the access normally completes. If low, the access is extended until NWAIT returns high.  */
+#define EBI_SMC_MODE_EXNW_MODE_DISABLED       (EBI_SMC_MODE_EXNW_MODE_DISABLED_Val << EBI_SMC_MODE_EXNW_MODE_Pos) /* (EBI_SMC_MODE) Disabled-The NWAIT input signal is ignored on the corresponding chip select. Position  */
+#define EBI_SMC_MODE_EXNW_MODE_FROZEN         (EBI_SMC_MODE_EXNW_MODE_FROZEN_Val << EBI_SMC_MODE_EXNW_MODE_Pos) /* (EBI_SMC_MODE) Frozen Mode-If asserted, the NWAIT signal freezes the current read or write cycle. After deassertion, the read/write cycle is resumed from the point where it was stopped. Position  */
+#define EBI_SMC_MODE_EXNW_MODE_READY          (EBI_SMC_MODE_EXNW_MODE_READY_Val << EBI_SMC_MODE_EXNW_MODE_Pos) /* (EBI_SMC_MODE) Ready Mode-The NWAIT signal indicates the availability of the external device at the end of the pulse of the controlling read or write signal, to complete the access. If high, the access normally completes. If low, the access is extended until NWAIT returns high. Position  */
 #define EBI_SMC_MODE_BAT_Pos                  _UINT32_(8)                                          /* (EBI_SMC_MODE) Byte Access Type Position */
 #define EBI_SMC_MODE_BAT_Msk                  (_UINT32_(0x1) << EBI_SMC_MODE_BAT_Pos)              /* (EBI_SMC_MODE) Byte Access Type Mask */
 #define EBI_SMC_MODE_BAT(value)               (EBI_SMC_MODE_BAT_Msk & (_UINT32_(value) << EBI_SMC_MODE_BAT_Pos)) /* Assigment of value for BAT in the EBI_SMC_MODE register */
+#define   EBI_SMC_MODE_BAT_BYTE_SELECT_Val    _UINT32_(0x0)                                        /* (EBI_SMC_MODE) Byte select access type:- Write operation is controlled using NCS, NWE, NBS0, NBS1.- Read operation is controlled using NCS, NRD, NBS0, NBS1.  */
+#define   EBI_SMC_MODE_BAT_BYTE_WRITE_Val     _UINT32_(0x1)                                        /* (EBI_SMC_MODE) Byte write access type:- Write operation is controlled using NCS, NWR0, NWR1.- Read operation is controlled using NCS and NRD.  */
+#define EBI_SMC_MODE_BAT_BYTE_SELECT          (EBI_SMC_MODE_BAT_BYTE_SELECT_Val << EBI_SMC_MODE_BAT_Pos) /* (EBI_SMC_MODE) Byte select access type:- Write operation is controlled using NCS, NWE, NBS0, NBS1.- Read operation is controlled using NCS, NRD, NBS0, NBS1. Position  */
+#define EBI_SMC_MODE_BAT_BYTE_WRITE           (EBI_SMC_MODE_BAT_BYTE_WRITE_Val << EBI_SMC_MODE_BAT_Pos) /* (EBI_SMC_MODE) Byte write access type:- Write operation is controlled using NCS, NWR0, NWR1.- Read operation is controlled using NCS and NRD. Position  */
 #define EBI_SMC_MODE_DBW_Pos                  _UINT32_(12)                                         /* (EBI_SMC_MODE) Data Bus Width Position */
 #define EBI_SMC_MODE_DBW_Msk                  (_UINT32_(0x1) << EBI_SMC_MODE_DBW_Pos)              /* (EBI_SMC_MODE) Data Bus Width Mask */
 #define EBI_SMC_MODE_DBW(value)               (EBI_SMC_MODE_DBW_Msk & (_UINT32_(value) << EBI_SMC_MODE_DBW_Pos)) /* Assigment of value for DBW in the EBI_SMC_MODE register */
+#define   EBI_SMC_MODE_DBW_8_BIT_Val          _UINT32_(0x0)                                        /* (EBI_SMC_MODE) 8-bit Data Bus  */
+#define   EBI_SMC_MODE_DBW_16_BIT_Val         _UINT32_(0x1)                                        /* (EBI_SMC_MODE) 16-bit Data Bus  */
+#define EBI_SMC_MODE_DBW_8_BIT                (EBI_SMC_MODE_DBW_8_BIT_Val << EBI_SMC_MODE_DBW_Pos) /* (EBI_SMC_MODE) 8-bit Data Bus Position  */
+#define EBI_SMC_MODE_DBW_16_BIT               (EBI_SMC_MODE_DBW_16_BIT_Val << EBI_SMC_MODE_DBW_Pos) /* (EBI_SMC_MODE) 16-bit Data Bus Position  */
 #define EBI_SMC_MODE_TDF_CYCLES_Pos           _UINT32_(16)                                         /* (EBI_SMC_MODE) Data Float Time Position */
 #define EBI_SMC_MODE_TDF_CYCLES_Msk           (_UINT32_(0xF) << EBI_SMC_MODE_TDF_CYCLES_Pos)       /* (EBI_SMC_MODE) Data Float Time Mask */
 #define EBI_SMC_MODE_TDF_CYCLES(value)        (EBI_SMC_MODE_TDF_CYCLES_Msk & (_UINT32_(value) << EBI_SMC_MODE_TDF_CYCLES_Pos)) /* Assigment of value for TDF_CYCLES in the EBI_SMC_MODE register */
@@ -106,6 +120,14 @@
 #define EBI_SMC_MODE_PS_Pos                   _UINT32_(28)                                         /* (EBI_SMC_MODE) Page Size Position */
 #define EBI_SMC_MODE_PS_Msk                   (_UINT32_(0x3) << EBI_SMC_MODE_PS_Pos)               /* (EBI_SMC_MODE) Page Size Mask */
 #define EBI_SMC_MODE_PS(value)                (EBI_SMC_MODE_PS_Msk & (_UINT32_(value) << EBI_SMC_MODE_PS_Pos)) /* Assigment of value for PS in the EBI_SMC_MODE register */
+#define   EBI_SMC_MODE_PS_4_BYTE_Val          _UINT32_(0x0)                                        /* (EBI_SMC_MODE) 4-byte page  */
+#define   EBI_SMC_MODE_PS_8_BYTE_Val          _UINT32_(0x1)                                        /* (EBI_SMC_MODE) 8-byte page  */
+#define   EBI_SMC_MODE_PS_16_BYTE_Val         _UINT32_(0x2)                                        /* (EBI_SMC_MODE) 16-byte page  */
+#define   EBI_SMC_MODE_PS_32_BYTE_Val         _UINT32_(0x3)                                        /* (EBI_SMC_MODE) 32-byte page  */
+#define EBI_SMC_MODE_PS_4_BYTE                (EBI_SMC_MODE_PS_4_BYTE_Val << EBI_SMC_MODE_PS_Pos)  /* (EBI_SMC_MODE) 4-byte page Position  */
+#define EBI_SMC_MODE_PS_8_BYTE                (EBI_SMC_MODE_PS_8_BYTE_Val << EBI_SMC_MODE_PS_Pos)  /* (EBI_SMC_MODE) 8-byte page Position  */
+#define EBI_SMC_MODE_PS_16_BYTE               (EBI_SMC_MODE_PS_16_BYTE_Val << EBI_SMC_MODE_PS_Pos) /* (EBI_SMC_MODE) 16-byte page Position  */
+#define EBI_SMC_MODE_PS_32_BYTE               (EBI_SMC_MODE_PS_32_BYTE_Val << EBI_SMC_MODE_PS_Pos) /* (EBI_SMC_MODE) 32-byte page Position  */
 #define EBI_SMC_MODE_Msk                      _UINT32_(0x311F1133)                                 /* (EBI_SMC_MODE) Register Mask  */
 
 
@@ -118,6 +140,8 @@
 #define EBI_SMC_WPMR_WPKEY_Pos                _UINT32_(8)                                          /* (EBI_SMC_WPMR) Write Protection Key Position */
 #define EBI_SMC_WPMR_WPKEY_Msk                (_UINT32_(0xFFFFFF) << EBI_SMC_WPMR_WPKEY_Pos)       /* (EBI_SMC_WPMR) Write Protection Key Mask */
 #define EBI_SMC_WPMR_WPKEY(value)             (EBI_SMC_WPMR_WPKEY_Msk & (_UINT32_(value) << EBI_SMC_WPMR_WPKEY_Pos)) /* Assigment of value for WPKEY in the EBI_SMC_WPMR register */
+#define   EBI_SMC_WPMR_WPKEY_PASSWD_Val       _UINT32_(0x534D43)                                   /* (EBI_SMC_WPMR) Writing any other value in this field aborts the write operation of the WPEN bit. Always reads as 0.  */
+#define EBI_SMC_WPMR_WPKEY_PASSWD             (EBI_SMC_WPMR_WPKEY_PASSWD_Val << EBI_SMC_WPMR_WPKEY_Pos) /* (EBI_SMC_WPMR) Writing any other value in this field aborts the write operation of the WPEN bit. Always reads as 0. Position  */
 #define EBI_SMC_WPMR_Msk                      _UINT32_(0xFFFFFF01)                                 /* (EBI_SMC_WPMR) Register Mask  */
 
 

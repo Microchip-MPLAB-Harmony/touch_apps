@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.13.0 Release
+  Touch Library v3.14.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -17,7 +17,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (c)  2022 released Microchip Technology Inc.  All rights reserved.
+Copyright (c)  2023 released Microchip Technology Inc.  All rights reserved.
 
 Microchip licenses to you the right to use, modify, copy and distribute
 Software only when embedded on a Microchip microcontroller or digital signal
@@ -58,19 +58,13 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 /*----------------------------------------------------------------------------
   global variables
 ----------------------------------------------------------------------------*/
-extern qtm_acquisition_control_t qtlib_acq_set1;
-extern qtm_touch_key_control_t   qtlib_key_set1;
-extern qtm_touch_key_config_t    qtlib_key_configs_set1[DEF_NUM_SENSORS];
-extern qtm_freq_hop_autotune_control_t qtm_freq_hop_autotune_control1;
-extern uint8_t module_error_code;
-
-uint8_t data[] = {
+static uint8_t data[] = {
     0x5F, 0xB4, 0x00, 0x86, 0x4A, 0x03, 0xEB, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xAA, 0x55, 0x01, 0x6E, 0xA0};
 
 /*----------------------------------------------------------------------------
   prototypes
 ----------------------------------------------------------------------------*/
-void datastreamer_transmit(uint8_t data);
+void datastreamer_transmit(uint8_t data_byte);
 
 /*----------------------------------------------------------------------------
  *   function definitions
@@ -99,7 +93,9 @@ Notes  :
 void datastreamer_transmit(uint8_t data_byte)
 {
 	/* Write the data bye */
-   SERCOM0_USART_Write(&data_byte, 1);
+   if(SERCOM0_USART_Write(&data_byte, 1)) {
+
+   }
 }
 
 /*============================================================================
@@ -113,26 +109,26 @@ Notes  :
 ============================================================================*/
 void datastreamer_output(void)
 {
-	int16_t           i, temp_int_calc;
+	int16_t           temp_int_calc;
 	static uint8_t    sequence = 0u;
 	uint16_t          u16temp_output;
 	uint8_t           u8temp_output, send_header;
-	volatile uint16_t count_bytes_out;
+	uint16_t count_bytes_out;
 
-	send_header = sequence & (0x0f);
-	if (send_header == 0) {
-		for (i = 0; i < sizeof(data); i++) {
-			datastreamer_transmit(data[i]);
+	send_header = sequence & (0x0fu);
+	if (send_header == 0u) {
+		for (count_bytes_out = 0u; count_bytes_out < (uint16_t) sizeof(data); count_bytes_out++) {
+			datastreamer_transmit(data[count_bytes_out]);
 		}
 	}
 
 	// Start token
-	datastreamer_transmit(0x55);
+	datastreamer_transmit(0x55u);
 
 	// Frame Start
 	datastreamer_transmit(sequence);
 
-	for (count_bytes_out = 0u; count_bytes_out < DEF_NUM_SENSORS; count_bytes_out++) {
+	for (count_bytes_out = 0u; count_bytes_out < (uint16_t) DEF_NUM_SENSORS; count_bytes_out++) {
 		/* Signals */
 		u16temp_output = get_sensor_node_signal(count_bytes_out);
 		datastreamer_transmit((uint8_t)u16temp_output);
@@ -144,8 +140,8 @@ void datastreamer_output(void)
 		datastreamer_transmit((uint8_t)(u16temp_output >> 8u));
 
 		/* Touch delta */
-		temp_int_calc = get_sensor_node_signal(count_bytes_out);
-		temp_int_calc -= get_sensor_node_reference(count_bytes_out);
+		temp_int_calc = (int16_t) get_sensor_node_signal(count_bytes_out);
+		temp_int_calc -= (int16_t) get_sensor_node_reference(count_bytes_out);
 		u16temp_output = (uint16_t)(temp_int_calc);
 		datastreamer_transmit((uint8_t)u16temp_output);
 		datastreamer_transmit((uint8_t)(u16temp_output >> 8u));
@@ -159,21 +155,21 @@ void datastreamer_output(void)
 
 #if (DEF_PTC_CAL_OPTION == CAL_AUTO_TUNE_CSD)
 		/* CSD */
-		u8temp_output = qtlib_acq_set1.qtm_acq_node_config[count_bytes_out].node_csd;
+		u8temp_output = ptc_seq_node_cfg1[count_bytes_out].node_csd;
 		datastreamer_transmit(u8temp_output);
 #else
 		/* Prescalar */
-		u8temp_output = NODE_PRSC(qtlib_acq_set1.qtm_acq_node_config[count_bytes_out].node_rsel_prsc);
+		u8temp_output = NODE_PRSC(ptc_seq_node_cfg1[count_bytes_out].node_rsel_prsc);
 		datastreamer_transmit(u8temp_output);
 #endif
 
 #endif
 		/* State */
 		u8temp_output = get_sensor_state(count_bytes_out);
-		if (0u != (u8temp_output & 0x80)) {
-			datastreamer_transmit(0x01);
+		if (0u != (u8temp_output & 0x80u)) {
+			datastreamer_transmit(0x01u);
 		} else {
-			datastreamer_transmit(0x00);
+			datastreamer_transmit(0x00u);
 		}
 
 		/* Threshold */
@@ -182,29 +178,28 @@ void datastreamer_output(void)
 
 #if (SCROLLER_MODULE_OUTPUT == 1)
 
-	for (count_bytes_out = 0u; count_bytes_out < qtm_scroller_control1.qtm_scroller_group_config->num_scrollers;
-	     count_bytes_out++) {
+	for (count_bytes_out = 0u; count_bytes_out < DEF_NUM_SCROLLERS; count_bytes_out++) {
 
 		/* State */
-		u8temp_output = qtm_scroller_control1.qtm_scroller_data[count_bytes_out].scroller_status;
-		if (0u != (u8temp_output & 0x01)) {
-			datastreamer_transmit(0x01);
+		u8temp_output = qtm_scroller_data1[count_bytes_out].scroller_status;
+		if (0u != (u8temp_output & 0x01u)) {
+			datastreamer_transmit(0x01u);
 		} else {
-			datastreamer_transmit(0x00);
+			datastreamer_transmit(0x00u);
 		}
 
 		/* Delta */
-		u16temp_output = qtm_scroller_control1.qtm_scroller_data[count_bytes_out].contact_size;
+		u16temp_output = qtm_scroller_data1[count_bytes_out].contact_size;
 		datastreamer_transmit((uint8_t)u16temp_output);
 		datastreamer_transmit((uint8_t)(u16temp_output >> 8u));
 
 		/* Threshold */
-		u16temp_output = qtm_scroller_control1.qtm_scroller_config[count_bytes_out].contact_min_threshold;
+		u16temp_output = qtm_scroller_config1[count_bytes_out].contact_min_threshold;
 		datastreamer_transmit((uint8_t)u16temp_output);
 		datastreamer_transmit((uint8_t)(u16temp_output >> 8u));
 
 		/* filtered position */
-		u16temp_output = qtm_scroller_control1.qtm_scroller_data[count_bytes_out].position;
+		u16temp_output = qtm_scroller_data1[count_bytes_out].position;
 		datastreamer_transmit((uint8_t)(u16temp_output & 0x00FFu));
 		datastreamer_transmit((uint8_t)((u16temp_output & 0xFF00u) >> 8u));
 	}
@@ -214,11 +209,11 @@ void datastreamer_output(void)
 #if (FREQ_HOP_AUTO_MODULE_OUTPUT == 1)
 
 	/* Frequency selection - from acq module */
-	datastreamer_transmit(qtlib_acq_set1.qtm_acq_node_group_config->freq_option_select);
+	datastreamer_transmit(*qtm_freq_hop_autotune_config1.freq_option_select);
 
-	for (count_bytes_out = 0u; count_bytes_out < qtm_freq_hop_autotune_control1.qtm_freq_hop_autotune_config->num_freqs; count_bytes_out++) {
+	for (count_bytes_out = 0u; count_bytes_out < NUM_FREQ_STEPS; count_bytes_out++) {
 		/* Frequencies */
-		datastreamer_transmit(qtm_freq_hop_autotune_control1.qtm_freq_hop_autotune_config->median_filter_freq[count_bytes_out]);
+		datastreamer_transmit(qtm_freq_hop_autotune_config1.median_filter_freq[count_bytes_out]);
 	}
 #endif
 
@@ -229,7 +224,7 @@ void datastreamer_output(void)
 	datastreamer_transmit(sequence++);
 
 	/* End token */
-	datastreamer_transmit(~0x55);
+	datastreamer_transmit((uint8_t)(~(0x55u)));
 }
 
 #endif

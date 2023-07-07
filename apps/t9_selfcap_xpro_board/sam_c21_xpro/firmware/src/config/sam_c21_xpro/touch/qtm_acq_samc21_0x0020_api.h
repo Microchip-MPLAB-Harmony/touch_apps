@@ -67,6 +67,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 /* X line bit position */
 #define X_NONE 0u
+#undef X
 #define X(n) ((uint16_t)(1u << (n)))
 
 /* Y line bit position */
@@ -209,6 +210,7 @@ typedef struct qtm_drivenshield_config_tag
 {
 	uint8_t  flags;
 }qtm_drivenshield_config_t;
+extern volatile uint16_t current_measure_channel;
 
 /*============================================================================
 touch_ret_t drivenshield_setup(drivenshield_config_t* config);
@@ -394,15 +396,5 @@ Output  :  none
 Notes    :  none
 ============================================================================*/
 void qtm_samc21_ptc_handler_wcomp(void);
-
-/*============================================================================
-void qtm_ptc_clear_interrupt(void)
-------------------------------------------------------------------------------
-Purpose:  Clears the eoc/wcomp interrupt bits
-Input    :  none
-Output  :  none
-Notes    :  none
-============================================================================*/
-void qtm_ptc_clear_interrupt(void);
 
 #endif /* TOUCH_API_D20_ACQ_H */

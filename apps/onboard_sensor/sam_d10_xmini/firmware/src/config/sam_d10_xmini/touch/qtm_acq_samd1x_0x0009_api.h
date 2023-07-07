@@ -67,10 +67,11 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 /* X line bit position */
 #define X_NONE 0u
+#undef X
 #define X(n) ((uint16_t)(1u << (n)))
 
 /* Y line bit position */
-#define Y(n) ((uint32_t)(((uint32_t)1u) << (n)))
+#define Y(n) ((uint16_t)(((uint16_t)1u) << (n)))
   
 
 /* Extract Analog / Digital Gain */

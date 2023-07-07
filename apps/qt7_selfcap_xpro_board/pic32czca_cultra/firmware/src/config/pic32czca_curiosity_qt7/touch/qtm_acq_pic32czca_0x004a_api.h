@@ -32,8 +32,8 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 *******************************************************************************/
 
 /* QTouch Modular Library Configuration */
-#ifndef __TOUCH_API_PIC32CZCA_ACQ_H__
-#define __TOUCH_API_PIC32CZCA_ACQ_H__
+#ifndef TOUCH_API_PIC32CZCA_ACQ_H
+#define TOUCH_API_PIC32CZCA_ACQ_H
 
 /* Include files */
 #include <stdint.h>
@@ -44,6 +44,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 #define TOUCH_BITMASK(np)  (uint32_t)((uint32_t) 1u << (np) )            
     
 /* Touch constant definitions */
+#undef X
 #define X(n)        TOUCH_BITMASK((n))
 #define Y(n)        TOUCH_BITMASK((n))
 #define X_NONE      (0u)
@@ -348,4 +349,4 @@ Notes  : none
 ============================================================================*/
 uint8_t qtm_acq_module_get_version(void);
 
-#endif    /* __TOUCH_API_PIC32CZCA_ACQ_H__ */
+#endif    /* TOUCH_API_PIC32CZCA_ACQ_H */
