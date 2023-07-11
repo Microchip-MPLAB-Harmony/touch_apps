@@ -5,7 +5,7 @@
         "metaDataVersion": "1.3.0",
 
         "name": "com.microchip.mcu32.mplabx.project.touch_apps_qt1_selfcap_xpro_board_sam_c21_xpro",
-        "version": "3.5.0",
+        "version": "3.6.0",
 
         "displayName": "Self Capacitance Example using QT1 SELFCAP XPRO for SAM C20/C21 Family",
         "projectName": "sam_c21_xpro_qt1_selfcap",
@@ -14,13 +14,13 @@
 
         "ide": {
             "name": "MPLABX",
-            "semverRange": ">=6.05.0"
+            "semverRange": ">=6.10"
         },
         
 		"compiler": [
 			{
 				"name": "XC32",
-				"semverRange": ">=4.20.0"
+				"semverRange": ">=4.21"
 			}
 		],
         "dfp": {
@@ -30,7 +30,7 @@
         
         "configurator": {
             "name": "MHC",
-            "semverRange": ">=5.2.2"
+            "semverRange": ">=5.3.7"
         },
         
         "device": {
