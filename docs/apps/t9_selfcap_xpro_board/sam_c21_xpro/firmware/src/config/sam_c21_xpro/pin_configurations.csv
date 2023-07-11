@@ -1,7 +1,7 @@
-"Pin Number","Pin ID","Custom Name","Function","Mode", "Direction","Latch","Pull Up","Pull Down","Drive Strength"
+Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,Drive Strength
 1,PA00,,Available,,,,,,NORMAL
 2,PA01,,Available,,,,,,NORMAL
-3,PA02,,PTC_Y0,Digital,High Impedance,n/a,No,No,NORMAL
+3,PA02,,Available,,,,,,NORMAL
 4,PA03,,Available,,,,,,NORMAL
 5,PB04,,Available,,,,,,NORMAL
 6,PB05,,Available,,,,,,NORMAL
@@ -13,16 +13,16 @@
 14,PA05,,Available,,,,,,NORMAL
 15,PA06,,Available,,,,,,NORMAL
 16,PA07,,Available,,,,,,NORMAL
-17,PA08,,PTC_X0/Y16,Digital,High Impedance,n/a,No,No,NORMAL
+17,PA08,,Available,,,,,,NORMAL
 18,PA09,,Available,,,,,,NORMAL
 19,PA10,,Available,,,,,,NORMAL
 20,PA11,,Available,,,,,,NORMAL
 23,PB10,,SERCOM4_PAD2,Digital,High Impedance,n/a,No,No,NORMAL
 24,PB11,,SERCOM4_PAD3,Digital,High Impedance,n/a,No,No,NORMAL
-25,PB12,,Available,,,,,,NORMAL
-26,PB13,,Available,,,,,,NORMAL
-27,PB14,,Available,,,,,,NORMAL
-28,PB15,,Available,,,,,,NORMAL
+25,PB12,,PTC_X12/Y28,Analog,High Impedance,n/a,,,NORMAL
+26,PB13,,PTC_X13/Y29,Analog,High Impedance,n/a,,,NORMAL
+27,PB14,,PTC_X14/Y30,Analog,High Impedance,n/a,,,NORMAL
+28,PB15,,PTC_X15/Y31,Analog,High Impedance,n/a,,,NORMAL
 29,PA12,,Available,,,,,,NORMAL
 30,PA13,,Available,,,,,,NORMAL
 31,PA14,,Available,,,,,,NORMAL

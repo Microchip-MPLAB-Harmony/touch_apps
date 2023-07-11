@@ -1,7 +1,36 @@
-﻿![Microchip logo](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_logo.png)
-![Harmony logo small](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_mplab_harmony_logo_small.png)
+﻿![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)
 
 # Microchip MPLAB Harmony 3 Touch Applications Release Notes
+
+## Touch Applications v3.6.0 Release
+
+### Development kit and demo application support
+
+See [readme](readme.md) for detailed list of example applications
+
+### NEW FEATURES
+
+- All example projects are rebuilt with MISRA C compliant Touch repository v3.14.0. 
+
+### BUGS FIXED
+
+- None
+
+### DEVELOPMENT TOOLS
+
+- [MPLAB® X IDE v6.10](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
+- [MPLAB® XC32 C/C++ Compiler v4.21](https://www.microchip.com/mplab/compilers)
+- MPLAB® XIDE plug-ins:
+  - MPLAB® Code Configurator (MCC)
+    - MCC Plugin v5.3.7
+    - MCC Core v5.5.7
+
+### REQUIRED MPLAB HARMONY v3.x.x MODULES
+
+- csp v3.17.0
+- dev_packs v3.17.0
+- mcc v5.5.7
+- touch v3.14.0
 
 ## Touch Applications v3.5.0 Release
 

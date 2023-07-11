@@ -80,7 +80,7 @@ var myVariable = `
   },"13": {
     "doc": "PIC32CM JH Curiosity Pro",
     "title": "Hardware Setup",
-    "content": ". | Connect QT7 Xplained Pro Extension Kit to PIC32CM JH Curiosity Pro Evaluation on extension header EXT1 . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
+    "content": ". | Connect QT7 Xplained Pro Extension Kit to PIC32CM JH Curiosity Pro Evaluation on extension header EXT1 | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/pic32cm_jh_cpro/readme_pic32cm_JH_cpro.html#hardware-setup",
     "relUrl": "/apps/qt7_selfcap_xpro_board/pic32cm_jh_cpro/readme_pic32cm_JH_cpro.html#hardware-setup"
   },"14": {
@@ -110,7 +110,7 @@ var myVariable = `
   },"18": {
     "doc": "PIC32CM LE Curiosity Pro",
     "title": "Hardware Setup",
-    "content": ". | Connect QT7 Xplained Pro Extension Kit to PIC32CM LE Curiosity Pro Evaluation Kit on extension header EXT1 . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
+    "content": ". | Connect QT7 Xplained Pro Extension Kit to PIC32CM LE Curiosity Pro Evaluation Kit on extension header EXT1 | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#hardware-setup",
     "relUrl": "/apps/qt7_selfcap_xpro_board/pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.html#hardware-setup"
   },"19": {
@@ -146,7 +146,7 @@ var myVariable = `
   },"24": {
     "doc": "PIC32CM LE Curiosity Pro",
     "title": "Hardware Setup",
-    "content": ". | Project uses PIC32CM LE Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
+    "content": ". | Project uses PIC32CM LE Curiosity Pro Evaluation Kit | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#hardware-setup",
     "relUrl": "/apps/onboard_sensor/pic32cm_le00/readme_pic32cm_LE00_cpro.html#hardware-setup"
   },"25": {
@@ -254,7 +254,7 @@ var myVariable = `
   },"42": {
     "doc": "PIC32CMJH CURIOSITY Pro",
     "title": "Hardware Setup",
-    "content": ". | Project uses PIC32CM JH01 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
+    "content": ". | Project uses PIC32CM JH01 Curiosity Pro Evaluation Kit | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/pic32cm_jh_cpro/readme_pic32cmjh_curiosity_pro.html#hardware-setup",
     "relUrl": "/apps/onboard_sensor/pic32cm_jh_cpro/readme_pic32cmjh_curiosity_pro.html#hardware-setup"
   },"43": {
@@ -284,7 +284,7 @@ var myVariable = `
   },"47": {
     "doc": "PIC32CZ CA Curiosity Ultra",
     "title": "Hardware Setup",
-    "content": ". | Connect QT7 Xplained Pro Extension Kit to PIC32CZ CA Curiosity Ultra Evaluation Kit on extension header EXT1 such that pin 1 of QT7 is connected to pin 3 of Curiosity board. | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
+    "content": ". | Connect QT7 Xplained Pro Extension Kit to PIC32CZ CA Curiosity Ultra Evaluation Kit on extension header EXT1 such that pin 1 of QT7 is connected to pin 3 of Curiosity board. | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/pic32czca_cultra/readme_pic32czca_cultra.html#hardware-setup",
     "relUrl": "/apps/qt7_selfcap_xpro_board/pic32czca_cultra/readme_pic32czca_cultra.html#hardware-setup"
   },"48": {
@@ -458,7 +458,7 @@ var myVariable = `
   },"76": {
     "doc": "SAMD10 Xplained Mini",
     "title": "Hardware Setup",
-    "content": ". | Project uses SAM D10 Xplained Mini Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
+    "content": ". | Project uses SAM D10 Xplained Mini Evaluation Kit | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_d10_xmini/readme_sam_d10_xmini.html#hardware-setup",
     "relUrl": "/apps/onboard_sensor/sam_d10_xmini/readme_sam_d10_xmini.html#hardware-setup"
   },"77": {
@@ -482,7 +482,7 @@ var myVariable = `
   },"80": {
     "doc": "SAMD11 Xplained Pro",
     "title": "Hardware Setup",
-    "content": ". | Project uses SAM D11 Xplained Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
+    "content": ". | Project uses SAM D11 Xplained Pro Evaluation Kit | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_d11_xpro/readme_sam_d11_xpro.html#hardware-setup",
     "relUrl": "/apps/onboard_sensor/sam_d11_xpro/readme_sam_d11_xpro.html#hardware-setup"
   },"81": {
@@ -794,7 +794,7 @@ var myVariable = `
   },"132": {
     "doc": "SAME54 Xplained Pro",
     "title": "Hardware Setup",
-    "content": ". | Project uses SAM E54 Xplained Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
+    "content": ". | Project uses SAM E54 Xplained Pro Evaluation Kit | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_e54_xpro/readme_sam_e54_xpro.html#hardware-setup",
     "relUrl": "/apps/onboard_sensor/sam_e54_xpro/readme_sam_e54_xpro.html#hardware-setup"
   },"133": {
@@ -932,7 +932,7 @@ var myVariable = `
   },"155": {
     "doc": "SAML10 Xplained Pro",
     "title": "Hardware Setup",
-    "content": ". | Connect QT7 Xplained Pro Extension Kit to SAM L10 Xplained Pro Evaluation Kit on extension header EXT1 . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
+    "content": ". | Connect QT7 Xplained Pro Extension Kit to SAM L10 Xplained Pro Evaluation Kit on extension header EXT1 | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/qt7_selfcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html#hardware-setup",
     "relUrl": "/apps/qt7_selfcap_xpro_board/sam_l10_xpro/readme_sam_l10_xpro.html#hardware-setup"
   },"156": {
@@ -1034,7 +1034,7 @@ var myVariable = `
   },"172": {
     "doc": "SAML21 Xplained Pro",
     "title": "Hardware Setup",
-    "content": ". | Project uses SAM L21 Xplained Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
+    "content": ". | Project uses SAM L21 Xplained Pro Evaluation Kit | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_l21_xpro/readme_sam_l21_xpro.html#hardware-setup",
     "relUrl": "/apps/onboard_sensor/sam_l21_xpro/readme_sam_l21_xpro.html#hardware-setup"
   },"173": {
@@ -1106,7 +1106,7 @@ var myVariable = `
   },"184": {
     "doc": "SAML22 Xplained Pro",
     "title": "Hardware Setup",
-    "content": ". | Project uses SAM L22 Xplained Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable . | . ",
+    "content": ". | Project uses SAM L22 Xplained Pro Evaluation Kit | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/touch_apps/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#hardware-setup",
     "relUrl": "/apps/onboard_sensor/sam_l22_xpro/readme_sam_l22_xpro.html#hardware-setup"
   },"185": {

@@ -6,8 +6,7 @@ has_toc: false
 nav_order: 2
 ---
 
-![Microchip logo](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_logo.png)
-![Harmony logo small](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_mplab_harmony_logo_small.png)
+![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)
 
 # T9 Xplained Pro Touch Examples
 

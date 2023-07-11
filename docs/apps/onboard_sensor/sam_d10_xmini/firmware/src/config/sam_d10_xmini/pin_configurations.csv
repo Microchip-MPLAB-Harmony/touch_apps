@@ -1,10 +1,10 @@
-"Pin Number","Pin ID","Custom Name","Function","Mode", "Direction","Latch","Pull Up","Pull Down","Drive Strength"
+Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,Drive Strength
 1,PA02,,Available,,,,,,NORMAL
 2,PA03,,Available,,,,,,NORMAL
 3,PA04,,Available,,,,,,NORMAL
 4,PA05,,Available,,,,,,NORMAL
 5,PA06,,Available,,,,,,NORMAL
-6,PA07,,PTC_Y5,Digital,High Impedance,n/a,No,No,NORMAL
+6,PA07,,PTC_Y5,Analog,High Impedance,n/a,,,NORMAL
 7,PA08,,Available,,,,,,NORMAL
 8,PA09,LED_BUT_0,GPIO,Digital,Out,High,,,NORMAL
 9,PA10,,SERCOM0_PAD2,Digital,High Impedance,n/a,No,No,NORMAL
