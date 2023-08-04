@@ -12,3 +12,6 @@ package:
     - name: "touch"
       type: "package"
       version: "3.14.0"
+    - name: "harmony-services"
+      type: "package"
+      version: "v1.3.0"
