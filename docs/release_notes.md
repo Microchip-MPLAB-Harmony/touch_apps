@@ -31,7 +31,7 @@ See [readme](readme.md) for detailed list of example applications
 - dev_packs v3.17.0
 - mcc v5.5.7
 - touch v3.14.0
-- harmony-services v1.3.0
+- harmony-services v1.3.1
 
 ## Touch Applications v3.5.0 Release
 

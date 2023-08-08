@@ -22,10 +22,8 @@ See [readme](readme.md) for detailed list of example applications
 - [MPLAB® XC32 C/C++ Compiler v4.30](https://www.microchip.com/mplab/compilers)
 - MPLAB® XIDE plug-ins:
   - MPLAB® Code Configurator (MCC)
-		- MCC Plugin v5.3.7
-		- MCC Harmony Core v1.3.2
-		- Harmony 3 – Harmony Services – v1.3.0(mandatory)
-
+    - MCC Plugin v5.3.7
+    - MCC Core v5.5.7
 
 ### REQUIRED MPLAB HARMONY v3.x.x MODULES
 
@@ -33,6 +31,7 @@ See [readme](readme.md) for detailed list of example applications
 - dev_packs v3.17.0
 - mcc v5.5.7
 - touch v3.14.0
+- harmony-services v1.3.1
 
 ## Touch Applications v3.5.0 Release
 
