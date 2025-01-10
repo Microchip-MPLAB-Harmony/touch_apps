@@ -1,4 +1,4 @@
-<config configName="default" projectName="pic32cm_gc00_cpro" configVersion="1.1" device="PIC32CM5112GC00100" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.7.1">
+<config configName="pic32cm_gc00_cpro" projectName="pic32cm_gc00_cpro" configVersion="1.1" device="PIC32CM5112GC00100" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.7.1">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -73686,203 +73686,203 @@
    </tokenMap>
    <generatedFileHashHistoryMap class="java.util.TreeMap">
       <entry>
-         <file>..\src\config\default\PIC32CM5112GC00100.ld</file>
+         <file>..\src\config\pic32cm_gc00_cpro\PIC32CM5112GC00100.ld</file>
          <hash>800bba380e84c343bb64785ef77d50c6a47c6c90297c86e24fbf69ab5cdb0637</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\definitions.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\definitions.h</file>
          <hash>e07d1c94244f825726a764176f9bc670811c38b01bbe9f46f839a251c39141b3</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\device.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\device.h</file>
          <hash>1d2e241e6002c8311292a20f031ca39a31f9cdf26d66976860ffbecbac33cf6e</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\device_cache.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\device_cache.h</file>
          <hash>5117c844c51e88132b384c381a94d9cc9e68777352e4ab4dc39c261d210b3ebd</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\device_vectors.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\device_vectors.h</file>
          <hash>04ae13fe785f5323e4c08e324dc0a35bbc7e32b11b334c428f830898269186aa</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\exceptions.c</file>
+         <file>..\src\config\pic32cm_gc00_cpro\exceptions.c</file>
          <hash>42f9da2668e04ccb3473d45b149683a00f80072c6883c7918d6ce93997cd6987</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\initialization.c</file>
+         <file>..\src\config\pic32cm_gc00_cpro\initialization.c</file>
          <hash>9540ef6c62c73d6624bb0bccd331f09ad2010450a0b7625c42925bae09891a67</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\interrupts.c</file>
+         <file>..\src\config\pic32cm_gc00_cpro\interrupts.c</file>
          <hash>a8c30005d16a51afbbf85ae07ffc66f9cfdcc46e632cc15bfad4a669bb26958c</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\interrupts.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\interrupts.h</file>
          <hash>b59d16646d35c02369a20bb3c217bebfd7aebb482b3a6e02aba11cf8a667ba17</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\libc_syscalls.c</file>
+         <file>..\src\config\pic32cm_gc00_cpro\libc_syscalls.c</file>
          <hash>88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\clock\plib_clock.c</file>
+         <file>..\src\config\pic32cm_gc00_cpro\peripheral\clock\plib_clock.c</file>
          <hash>b4bd026a552c7d8031d05a2614f21df36b1fb1b013b9d8a52af330a341ad00ee</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\clock\plib_clock.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\peripheral\clock\plib_clock.h</file>
          <hash>2cfe368b59fc1bf82ec42d12ce509c5ed8d4affa8c62ae702692709590b627d4</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\evsys\plib_evsys.c</file>
+         <file>..\src\config\pic32cm_gc00_cpro\peripheral\evsys\plib_evsys.c</file>
          <hash>171913270aa095f1e8ff9192995129ff7bab22e5c793c4223f9046802e69d1e6</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\evsys\plib_evsys.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\peripheral\evsys\plib_evsys.h</file>
          <hash>f7d08eb8162f271ce1db384c082586a6624e506aa7f502c64c4ab5a1aadac47d</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\nvic\plib_nvic.c</file>
+         <file>..\src\config\pic32cm_gc00_cpro\peripheral\nvic\plib_nvic.c</file>
          <hash>7280fdb4cd8df295836c6567f1a5e8f11637948d71e74a2fdb1d726afcfa760c</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\nvic\plib_nvic.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\peripheral\nvic\plib_nvic.h</file>
          <hash>9936ac782115af41003255283fa2f603f4ff2212d16275b7c80ea8d067a9e208</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\pm\plib_pm.c</file>
+         <file>..\src\config\pic32cm_gc00_cpro\peripheral\pm\plib_pm.c</file>
          <hash>60aa79685bd6b100e17d137d25852ed6bc0a18528c5f21e795b176769a9f08ca</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\pm\plib_pm.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\peripheral\pm\plib_pm.h</file>
          <hash>37890f6427dd8228e6743897f657f0d22cd7f8ea500c2b6e1bca643804728eb4</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\port\plib_port.c</file>
+         <file>..\src\config\pic32cm_gc00_cpro\peripheral\port\plib_port.c</file>
          <hash>f7823881d73cabd0ec8f72afebb19774eedc6145650515d231c4d6fd53521802</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\port\plib_port.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\peripheral\port\plib_port.h</file>
          <hash>0f3c7745047569d5bccf180744403a1abf44049d914098d1e12dc0ed285a4f13</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\rtc\plib_rtc.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\peripheral\rtc\plib_rtc.h</file>
          <hash>c40110efc92030902a1b7b678fb4b53c89888f9823e6c17ea8dfca48a0b0d06f</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\rtc\plib_rtc_timer.c</file>
+         <file>..\src\config\pic32cm_gc00_cpro\peripheral\rtc\plib_rtc_timer.c</file>
          <hash>055100f814302c9c1380aead3f5d028a909867da8a29f560b723983a9b1bd0e5</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\sercom\usart\plib_sercom4_usart.c</file>
+         <file>..\src\config\pic32cm_gc00_cpro\peripheral\sercom\usart\plib_sercom4_usart.c</file>
          <hash>0f87328865bd9f28eb938eebcc9c146537d48f79f7e7e2a50da5238c593d23cf</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\sercom\usart\plib_sercom4_usart.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\peripheral\sercom\usart\plib_sercom4_usart.h</file>
          <hash>535ef288711860aebfe81da1cf22d8f977f3637fd77c260d588b7302251453f8</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
          <hash>693c2faef140f4d4e78dacb833f7a8a9d30eb0c0125d9cd0fd2fb1bfb4f27ad0</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\pin_configurations.csv</file>
+         <file>..\src\config\pic32cm_gc00_cpro\pin_configurations.csv</file>
          <hash>489706cbfa956006227cdc92541773ab70441599b636a9f19f9f1a7c231dc1a1</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\startup_xc32.c</file>
+         <file>..\src\config\pic32cm_gc00_cpro\startup_xc32.c</file>
          <hash>fa21295b6ad24633b405fa988eb20d42b6e87b0ff9fb07e2d197fd771daa4e54</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\stdio\xc32_monitor.c</file>
+         <file>..\src\config\pic32cm_gc00_cpro\stdio\xc32_monitor.c</file>
          <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\toolchain_specifics.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\toolchain_specifics.h</file>
          <hash>a4f1774c6f1f8c6cd522567536c9e9d75ca63259b868015ac9b0fb0aeeffe1f4</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\datastreamer\03EB00000000000000AA5501.db</file>
+         <file>..\src\config\pic32cm_gc00_cpro\touch\datastreamer\03EB00000000000000AA5501.db</file>
          <hash>9172a226ada425b964a707549c8bbd84295dcb949b395c7ff0c6501fc95ce213</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\datastreamer\03EB00000000000000AA5501.ds</file>
+         <file>..\src\config\pic32cm_gc00_cpro\touch\datastreamer\03EB00000000000000AA5501.ds</file>
          <hash>4886eedf9f46e78824a3fde42c74bbb8a63e0ef0accc8d9e8aea642c9e6d69f8</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\datastreamer\03EB00000000000000AA5501.sc</file>
+         <file>..\src\config\pic32cm_gc00_cpro\touch\datastreamer\03EB00000000000000AA5501.sc</file>
          <hash>bf5e3e8daa6784ce2316a5ed12e7d06dae42120cf806b02583edcfe56e00799a</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\datastreamer\datastreamer.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\touch\datastreamer\datastreamer.h</file>
          <hash>fd4ef50dfd2c5d6d9a76d1a08cd87db26ee85fcc485c6be11a6c3b62b79719bb</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\datastreamer\datastreamer_UART_sam.c</file>
+         <file>..\src\config\pic32cm_gc00_cpro\touch\datastreamer\datastreamer_UART_sam.c</file>
          <hash>aa8850f92efc3c7760f6ceed55e57c2fbc1a3e0c09d450842bff891aeccb79a6</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\lib\qtm_acq_4p_pic32cm_gc_0x0054.X.a</file>
+         <file>..\src\config\pic32cm_gc00_cpro\touch\lib\qtm_acq_4p_pic32cm_gc_0x0054.X.a</file>
          <hash>84a51f95b6e109c0d2966a37661ac1196db55c1955043a5bf776a63fbffc73a4</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\lib\qtm_freq_hop_auto_cm23_0x0004.X.a</file>
+         <file>..\src\config\pic32cm_gc00_cpro\touch\lib\qtm_freq_hop_auto_cm23_0x0004.X.a</file>
          <hash>493082ea8672dbbd87d959b158f63754c545b344029eb5e7ed6bc48e2c55d1d3</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\lib\qtm_freq_hop_cm23_0x0006.X.a</file>
+         <file>..\src\config\pic32cm_gc00_cpro\touch\lib\qtm_freq_hop_cm23_0x0006.X.a</file>
          <hash>edd13e226f74720cc8f0afc6045a20956a621834127d1dbb0d1c53f50b41ea4e</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\lib\qtm_scroller_cm23_0x000b.X.a</file>
+         <file>..\src\config\pic32cm_gc00_cpro\touch\lib\qtm_scroller_cm23_0x000b.X.a</file>
          <hash>5595b5e5bb9488df1ed4e63f968a304632497ab0880581cbd0ce8a5fef5d3009</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\lib\qtm_touch_key_cm23_0x0002.X.a</file>
+         <file>..\src\config\pic32cm_gc00_cpro\touch\lib\qtm_touch_key_cm23_0x0002.X.a</file>
          <hash>8f8ba21473c061b3dedcfddd60df7b402d2fe84162f335cf97e4b7aeb4d490a6</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\qtm_acq_4p_pic32cm_gc_0x0054_api.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\touch\qtm_acq_4p_pic32cm_gc_0x0054_api.h</file>
          <hash>d56f4ce3fbfca9adeae866d7e174473c21f82389a482140f4c73640c4e36ad99</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\qtm_common_components_api.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\touch\qtm_common_components_api.h</file>
          <hash>89a9473fc856d26a78ead0854377a7f61ebc20315a7a72bcc84f05ff1477816e</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\qtm_freq_hop_0x0006_api.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\touch\qtm_freq_hop_0x0006_api.h</file>
          <hash>24ed3242e37471cbe9dd2507e931e88e843c683c9750d30e08f91a9d62a8e7e5</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\qtm_freq_hop_auto_0x0004_api.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\touch\qtm_freq_hop_auto_0x0004_api.h</file>
          <hash>a0e06e45e438b797edcb61796bc74da1b1e488b45ee5263f2a638acdbffe35c9</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\qtm_scroller_0x000b_api.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\touch\qtm_scroller_0x000b_api.h</file>
          <hash>b055b551cbd475e3d999a1aa84fe037875a494709fe475e969e9eedb4f8fb838</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\qtm_touch_key_0x0002_api.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\touch\qtm_touch_key_0x0002_api.h</file>
          <hash>4840f9cd8def73a029c2090d101548329c92bdf13bd19410029aab45234b42e2</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\touch.c</file>
+         <file>..\src\config\pic32cm_gc00_cpro\touch\touch.c</file>
          <hash>95dcbd8a9f5ed40aa093bd5964aaddb57ebe8c29eda401ede60d56086af5d7cb</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\touch.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\touch\touch.h</file>
          <hash>fb7c80d6e14128a2367b2189b524b8f2dd3c8fe2dbcdbd2e8ca533b18679a94a</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\touch_api_ptc.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\touch\touch_api_ptc.h</file>
          <hash>f46621729350e10291911d76e199d593b1defecb0b80f7afd846c8880c03d382</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\touch_example.c</file>
+         <file>..\src\config\pic32cm_gc00_cpro\touch\touch_example.c</file>
          <hash>19f61814377955f0df072f21c040bb961104e54d6e7f5e944fa6b0b2d214bda1</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\touch_example.h</file>
+         <file>..\src\config\pic32cm_gc00_cpro\touch\touch_example.h</file>
          <hash>df2125cb61002463e573369c2a6f73ee4e62d15f351fed0030188ab1cdb10e96</hash>
       </entry>
       <entry>

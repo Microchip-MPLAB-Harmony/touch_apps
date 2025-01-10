@@ -5,30 +5,30 @@
                    displayName="Header Files"
                    projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
-        <logicalFolder name="default" displayName="default" projectFiles="true">
+        <logicalFolder name="pic32cm_gc00_cpro" displayName="pic32cm_gc00_cpro" projectFiles="true">
           <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
             <logicalFolder name="clock" displayName="clock" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/clock/plib_clock.h</itemPath>
+              <itemPath>../src/config/pic32cm_gc00_cpro/peripheral/clock/plib_clock.h</itemPath>
             </logicalFolder>
             <logicalFolder name="evsys" displayName="evsys" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/evsys/plib_evsys.h</itemPath>
+              <itemPath>../src/config/pic32cm_gc00_cpro/peripheral/evsys/plib_evsys.h</itemPath>
             </logicalFolder>
             <logicalFolder name="nvic" displayName="nvic" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/nvic/plib_nvic.h</itemPath>
+              <itemPath>../src/config/pic32cm_gc00_cpro/peripheral/nvic/plib_nvic.h</itemPath>
             </logicalFolder>
             <logicalFolder name="pm" displayName="pm" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/pm/plib_pm.h</itemPath>
+              <itemPath>../src/config/pic32cm_gc00_cpro/peripheral/pm/plib_pm.h</itemPath>
             </logicalFolder>
             <logicalFolder name="port" displayName="port" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/port/plib_port.h</itemPath>
+              <itemPath>../src/config/pic32cm_gc00_cpro/peripheral/port/plib_port.h</itemPath>
             </logicalFolder>
             <logicalFolder name="rtc" displayName="rtc" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/rtc/plib_rtc.h</itemPath>
+              <itemPath>../src/config/pic32cm_gc00_cpro/peripheral/rtc/plib_rtc.h</itemPath>
             </logicalFolder>
             <logicalFolder name="sercom" displayName="sercom" projectFiles="true">
               <logicalFolder name="usart" displayName="usart" projectFiles="true">
-                <itemPath>../src/config/default/peripheral/sercom/usart/plib_sercom4_usart.h</itemPath>
-                <itemPath>../src/config/default/peripheral/sercom/usart/plib_sercom_usart_common.h</itemPath>
+                <itemPath>../src/config/pic32cm_gc00_cpro/peripheral/sercom/usart/plib_sercom4_usart.h</itemPath>
+                <itemPath>../src/config/pic32cm_gc00_cpro/peripheral/sercom/usart/plib_sercom_usart_common.h</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
@@ -36,24 +36,24 @@
             <logicalFolder name="datastreamer"
                            displayName="datastreamer"
                            projectFiles="true">
-              <itemPath>../src/config/default/touch/datastreamer/datastreamer.h</itemPath>
+              <itemPath>../src/config/pic32cm_gc00_cpro/touch/datastreamer/datastreamer.h</itemPath>
             </logicalFolder>
-            <itemPath>../src/config/default/touch/touch_example.h</itemPath>
-            <itemPath>../src/config/default/touch/qtm_touch_key_0x0002_api.h</itemPath>
-            <itemPath>../src/config/default/touch/touch.h</itemPath>
-            <itemPath>../src/config/default/touch/qtm_scroller_0x000b_api.h</itemPath>
-            <itemPath>../src/config/default/touch/qtm_freq_hop_0x0006_api.h</itemPath>
-            <itemPath>../src/config/default/touch/touch_api_ptc.h</itemPath>
-            <itemPath>../src/config/default/touch/qtm_freq_hop_auto_0x0004_api.h</itemPath>
-            <itemPath>../src/config/default/touch/qtm_common_components_api.h</itemPath>
-            <itemPath>../src/config/default/touch/qtm_acq_4p_pic32cm_gc_0x0054_api.h</itemPath>
+            <itemPath>../src/config/pic32cm_gc00_cpro/touch/touch_example.h</itemPath>
+            <itemPath>../src/config/pic32cm_gc00_cpro/touch/qtm_touch_key_0x0002_api.h</itemPath>
+            <itemPath>../src/config/pic32cm_gc00_cpro/touch/touch.h</itemPath>
+            <itemPath>../src/config/pic32cm_gc00_cpro/touch/qtm_scroller_0x000b_api.h</itemPath>
+            <itemPath>../src/config/pic32cm_gc00_cpro/touch/qtm_freq_hop_0x0006_api.h</itemPath>
+            <itemPath>../src/config/pic32cm_gc00_cpro/touch/touch_api_ptc.h</itemPath>
+            <itemPath>../src/config/pic32cm_gc00_cpro/touch/qtm_freq_hop_auto_0x0004_api.h</itemPath>
+            <itemPath>../src/config/pic32cm_gc00_cpro/touch/qtm_common_components_api.h</itemPath>
+            <itemPath>../src/config/pic32cm_gc00_cpro/touch/qtm_acq_4p_pic32cm_gc_0x0054_api.h</itemPath>
           </logicalFolder>
-          <itemPath>../src/config/default/interrupts.h</itemPath>
-          <itemPath>../src/config/default/toolchain_specifics.h</itemPath>
-          <itemPath>../src/config/default/device_vectors.h</itemPath>
-          <itemPath>../src/config/default/device_cache.h</itemPath>
-          <itemPath>../src/config/default/device.h</itemPath>
-          <itemPath>../src/config/default/definitions.h</itemPath>
+          <itemPath>../src/config/pic32cm_gc00_cpro/interrupts.h</itemPath>
+          <itemPath>../src/config/pic32cm_gc00_cpro/toolchain_specifics.h</itemPath>
+          <itemPath>../src/config/pic32cm_gc00_cpro/device_vectors.h</itemPath>
+          <itemPath>../src/config/pic32cm_gc00_cpro/device_cache.h</itemPath>
+          <itemPath>../src/config/pic32cm_gc00_cpro/device.h</itemPath>
+          <itemPath>../src/config/pic32cm_gc00_cpro/definitions.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="packs" displayName="packs" projectFiles="true">
@@ -179,8 +179,8 @@
                    displayName="Linker Files"
                    projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
-        <logicalFolder name="default" displayName="default" projectFiles="true">
-          <itemPath>../src/config/default/PIC32CM5112GC00100.ld</itemPath>
+        <logicalFolder name="pic32cm_gc00_cpro" displayName="pic32cm_gc00_cpro" projectFiles="true">
+          <itemPath>../src/config/pic32cm_gc00_cpro/PIC32CM5112GC00100.ld</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
@@ -188,61 +188,61 @@
                    displayName="Source Files"
                    projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
-        <logicalFolder name="default" displayName="default" projectFiles="true">
+        <logicalFolder name="pic32cm_gc00_cpro" displayName="pic32cm_gc00_cpro" projectFiles="true">
           <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
             <logicalFolder name="clock" displayName="clock" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/clock/plib_clock.c</itemPath>
+              <itemPath>../src/config/pic32cm_gc00_cpro/peripheral/clock/plib_clock.c</itemPath>
             </logicalFolder>
             <logicalFolder name="evsys" displayName="evsys" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/evsys/plib_evsys.c</itemPath>
+              <itemPath>../src/config/pic32cm_gc00_cpro/peripheral/evsys/plib_evsys.c</itemPath>
             </logicalFolder>
             <logicalFolder name="nvic" displayName="nvic" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/nvic/plib_nvic.c</itemPath>
+              <itemPath>../src/config/pic32cm_gc00_cpro/peripheral/nvic/plib_nvic.c</itemPath>
             </logicalFolder>
             <logicalFolder name="pm" displayName="pm" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/pm/plib_pm.c</itemPath>
+              <itemPath>../src/config/pic32cm_gc00_cpro/peripheral/pm/plib_pm.c</itemPath>
             </logicalFolder>
             <logicalFolder name="port" displayName="port" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/port/plib_port.c</itemPath>
+              <itemPath>../src/config/pic32cm_gc00_cpro/peripheral/port/plib_port.c</itemPath>
             </logicalFolder>
             <logicalFolder name="rtc" displayName="rtc" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/rtc/plib_rtc_timer.c</itemPath>
+              <itemPath>../src/config/pic32cm_gc00_cpro/peripheral/rtc/plib_rtc_timer.c</itemPath>
             </logicalFolder>
             <logicalFolder name="sercom" displayName="sercom" projectFiles="true">
               <logicalFolder name="usart" displayName="usart" projectFiles="true">
-                <itemPath>../src/config/default/peripheral/sercom/usart/plib_sercom4_usart.c</itemPath>
+                <itemPath>../src/config/pic32cm_gc00_cpro/peripheral/sercom/usart/plib_sercom4_usart.c</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="stdio" displayName="stdio" projectFiles="true">
-            <itemPath>../src/config/default/stdio/xc32_monitor.c</itemPath>
+            <itemPath>../src/config/pic32cm_gc00_cpro/stdio/xc32_monitor.c</itemPath>
           </logicalFolder>
           <logicalFolder name="touch" displayName="touch" projectFiles="true">
             <logicalFolder name="datastreamer"
                            displayName="datastreamer"
                            projectFiles="true">
-              <itemPath>../src/config/default/touch/datastreamer/03EB00000000000000AA5501.ds</itemPath>
-              <itemPath>../src/config/default/touch/datastreamer/03EB00000000000000AA5501.db</itemPath>
-              <itemPath>../src/config/default/touch/datastreamer/datastreamer_UART_sam.c</itemPath>
-              <itemPath>../src/config/default/touch/datastreamer/03EB00000000000000AA5501.sc</itemPath>
+              <itemPath>../src/config/pic32cm_gc00_cpro/touch/datastreamer/03EB00000000000000AA5501.ds</itemPath>
+              <itemPath>../src/config/pic32cm_gc00_cpro/touch/datastreamer/03EB00000000000000AA5501.db</itemPath>
+              <itemPath>../src/config/pic32cm_gc00_cpro/touch/datastreamer/datastreamer_UART_sam.c</itemPath>
+              <itemPath>../src/config/pic32cm_gc00_cpro/touch/datastreamer/03EB00000000000000AA5501.sc</itemPath>
             </logicalFolder>
-            <itemPath>../src/config/default/touch/touch_example.c</itemPath>
-            <itemPath>../src/config/default/touch/touch.c</itemPath>
+            <itemPath>../src/config/pic32cm_gc00_cpro/touch/touch_example.c</itemPath>
+            <itemPath>../src/config/pic32cm_gc00_cpro/touch/touch.c</itemPath>
           </logicalFolder>
-          <itemPath>../src/config/default/initialization.c</itemPath>
-          <itemPath>../src/config/default/libc_syscalls.c</itemPath>
-          <itemPath>../src/config/default/interrupts.c</itemPath>
-          <itemPath>../src/config/default/exceptions.c</itemPath>
-          <itemPath>../src/config/default/startup_xc32.c</itemPath>
+          <itemPath>../src/config/pic32cm_gc00_cpro/initialization.c</itemPath>
+          <itemPath>../src/config/pic32cm_gc00_cpro/libc_syscalls.c</itemPath>
+          <itemPath>../src/config/pic32cm_gc00_cpro/interrupts.c</itemPath>
+          <itemPath>../src/config/pic32cm_gc00_cpro/exceptions.c</itemPath>
+          <itemPath>../src/config/pic32cm_gc00_cpro/startup_xc32.c</itemPath>
         </logicalFolder>
       </logicalFolder>
       <itemPath>../src/main.c</itemPath>
-      <itemPath>../src/config/default/pin_configurations.csv</itemPath>
+      <itemPath>../src/config/pic32cm_gc00_cpro/pin_configurations.csv</itemPath>
     </logicalFolder>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
-    <conf name="default" type="2">
+    <conf name="pic32cm_gc00_cpro" type="2">
       <toolsSet>
         <developmentServer>localhost</developmentServer>
         <targetDevice>PIC32CM5112GC00100</targetDevice>
@@ -262,11 +262,11 @@
       <compileType>
         <linkerTool>
           <linkerLibItems>
-            <linkerLibFileItem>../src/config/default/touch/lib/qtm_touch_key_cm23_0x0002.X.a</linkerLibFileItem>
-            <linkerLibFileItem>../src/config/default/touch/lib/qtm_freq_hop_cm23_0x0006.X.a</linkerLibFileItem>
-            <linkerLibFileItem>../src/config/default/touch/lib/qtm_scroller_cm23_0x000b.X.a</linkerLibFileItem>
-            <linkerLibFileItem>../src/config/default/touch/lib/qtm_freq_hop_auto_cm23_0x0004.X.a</linkerLibFileItem>
-            <linkerLibFileItem>../src/config/default/touch/lib/qtm_acq_4p_pic32cm_gc_0x0054.X.a</linkerLibFileItem>
+            <linkerLibFileItem>../src/config/pic32cm_gc00_cpro/touch/lib/qtm_touch_key_cm23_0x0002.X.a</linkerLibFileItem>
+            <linkerLibFileItem>../src/config/pic32cm_gc00_cpro/touch/lib/qtm_freq_hop_cm23_0x0006.X.a</linkerLibFileItem>
+            <linkerLibFileItem>../src/config/pic32cm_gc00_cpro/touch/lib/qtm_scroller_cm23_0x000b.X.a</linkerLibFileItem>
+            <linkerLibFileItem>../src/config/pic32cm_gc00_cpro/touch/lib/qtm_freq_hop_auto_cm23_0x0004.X.a</linkerLibFileItem>
+            <linkerLibFileItem>../src/config/pic32cm_gc00_cpro/touch/lib/qtm_acq_4p_pic32cm_gc_0x0054.X.a</linkerLibFileItem>
           </linkerLibItems>
         </linkerTool>
         <archiverTool>
@@ -299,15 +299,15 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/default;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/PIC32CM5112GC00100_DFP"/>
+                  value="../src;../src/config/pic32cm_gc00_cpro;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/PIC32CM5112GC00100_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
         <property key="make-warnings-into-errors" value="true"/>
         <property key="optimization-level" value="-O1"/>
         <property key="place-data-into-section" value="true"/>
-        <property key="post-instruction-scheduling" value="default"/>
-        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="post-instruction-scheduling" value="pic32cm_gc00_cpro"/>
+        <property key="pre-instruction-scheduling" value="pic32cm_gc00_cpro"/>
         <property key="preprocessor-macros" value=""/>
         <property key="strict-ansi" value="false"/>
         <property key="support-ansi" value="false"/>
@@ -399,15 +399,15 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/default;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/PIC32CM5112GC00100_DFP"/>
+                  value="../src;../src/config/pic32cm_gc00_cpro;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/PIC32CM5112GC00100_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
         <property key="make-warnings-into-errors" value="false"/>
         <property key="optimization-level" value="-O1"/>
         <property key="place-data-into-section" value="false"/>
-        <property key="post-instruction-scheduling" value="default"/>
-        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="post-instruction-scheduling" value="pic32cm_gc00_cpro"/>
+        <property key="pre-instruction-scheduling" value="pic32cm_gc00_cpro"/>
         <property key="preprocessor-macros" value=""/>
         <property key="rtti" value="true"/>
         <property key="strict-ansi" value="false"/>

@@ -11,7 +11,7 @@
             <sourceRootList/>
             <confList>
                 <confElem>
-                    <name>default</name>
+                    <name>pic32cm_gc00_cpro</name>
                     <type>2</type>
                 </confElem>
             </confList>

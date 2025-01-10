@@ -1,4 +1,4 @@
-<config configName="default" projectName="wbz653_cpro" configVersion="1.1" device="WBZ653" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.7.1">
+<config configName="wbz653_cpro" projectName="wbz653_cpro" configVersion="1.1" device="WBZ653" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.7.1">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -23080,215 +23080,215 @@
    </tokenMap>
    <generatedFileHashHistoryMap class="java.util.TreeMap">
       <entry>
-         <file>..\src\config\default\WBZ653.ld</file>
+         <file>..\src\config\wbz653_cpro\WBZ653.ld</file>
          <hash>feba8b6fc7294e7a2bb5fb4e2bf39bd14eae5b091b1effc6ed8dd5668f11a147</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\definitions.h</file>
+         <file>..\src\config\wbz653_cpro\definitions.h</file>
          <hash>9531697db1b5bcb6aa49d9cc55209bef7bab6be67d17a023cc64da71a9cb614f</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\device.h</file>
+         <file>..\src\config\wbz653_cpro\device.h</file>
          <hash>fc86b20d2a979af1c174c01e4e97e9b38bf52750d06371d67f205ea0788a7be0</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\device_cache.h</file>
+         <file>..\src\config\wbz653_cpro\device_cache.h</file>
          <hash>e2914501b361bbc93a56d6915b1bf4fac00277e61f31fdee87a587bc15dea5b6</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\device_vectors.h</file>
+         <file>..\src\config\wbz653_cpro\device_vectors.h</file>
          <hash>8e26f22cc2a90b7273441ea53ced95309d1a9bb628eec5fdbe3fd260d07dd163</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\exceptions.c</file>
+         <file>..\src\config\wbz653_cpro\exceptions.c</file>
          <hash>de00e84d46e0d8933ee2fae9d699e08456443d4f80ac78f87edada9c35a9d15f</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\initialization.c</file>
+         <file>..\src\config\wbz653_cpro\initialization.c</file>
          <hash>c0d5283b96f9e0cc6b058e4ee545997a33dc6632b0d400ad2a7b553eaf003b51</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\interrupts.c</file>
+         <file>..\src\config\wbz653_cpro\interrupts.c</file>
          <hash>fc2260e78d3b38ac380ad2ff2c49e7e61ceafd25235a0e70284ff3305b831a55</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\interrupts.h</file>
+         <file>..\src\config\wbz653_cpro\interrupts.h</file>
          <hash>986dc759f6eaa4fe196312437c4b6e3a05a8516c5bdd5f9008ac9f7b11c56a69</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\libc_syscalls.c</file>
+         <file>..\src\config\wbz653_cpro\libc_syscalls.c</file>
          <hash>88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\adchs\plib_adchs.c</file>
+         <file>..\src\config\wbz653_cpro\peripheral\adchs\plib_adchs.c</file>
          <hash>90bbd8e4df30ca7e57299667a99dfe98a4ba4c8018b94f183c0a8e397ee7f3cc</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\adchs\plib_adchs.h</file>
+         <file>..\src\config\wbz653_cpro\peripheral\adchs\plib_adchs.h</file>
          <hash>19b5b51dd98231b7c0b81bbfc816c29ad6cfe243618f591be76b81e0e506ac9a</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\adchs\plib_adchs_common.h</file>
+         <file>..\src\config\wbz653_cpro\peripheral\adchs\plib_adchs_common.h</file>
          <hash>8f74ae928fda5ce5ae91f778f336e0b5086c80be9596469365c367d8a70cfd0f</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\clk\plib_clk.c</file>
+         <file>..\src\config\wbz653_cpro\peripheral\clk\plib_clk.c</file>
          <hash>6eb2924155e2c1c875d9aefa9f7ff08bee3a393a22f426ee16f49413a949d33d</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\clk\plib_clk.h</file>
+         <file>..\src\config\wbz653_cpro\peripheral\clk\plib_clk.h</file>
          <hash>2d1939a0da512a64fea40fffe4c2f30f2d3d16344591a807c5814fc1e67fcc01</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\cmcc\plib_cmcc.c</file>
+         <file>..\src\config\wbz653_cpro\peripheral\cmcc\plib_cmcc.c</file>
          <hash>3b03e762c5515130718e7694736be6c25984ff8078c84d21a3fb9eba54f68e5d</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\cmcc\plib_cmcc.h</file>
+         <file>..\src\config\wbz653_cpro\peripheral\cmcc\plib_cmcc.h</file>
          <hash>89b940242bfa0ecdba3ac53666c5996e25fab712227d37d2d6881c8a86b5f497</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\evsys\plib_evsys.c</file>
+         <file>..\src\config\wbz653_cpro\peripheral\evsys\plib_evsys.c</file>
          <hash>171913270aa095f1e8ff9192995129ff7bab22e5c793c4223f9046802e69d1e6</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\evsys\plib_evsys.h</file>
+         <file>..\src\config\wbz653_cpro\peripheral\evsys\plib_evsys.h</file>
          <hash>f7d08eb8162f271ce1db384c082586a6624e506aa7f502c64c4ab5a1aadac47d</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\gpio\plib_gpio.c</file>
+         <file>..\src\config\wbz653_cpro\peripheral\gpio\plib_gpio.c</file>
          <hash>3a3b9a719cb7e45782c2b9e60d31d6fe3d5248affe19e53a684b3ef2a9ec4f6e</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\gpio\plib_gpio.h</file>
+         <file>..\src\config\wbz653_cpro\peripheral\gpio\plib_gpio.h</file>
          <hash>810a90199c6fd33f88ae5bc894e7459c29206c894276aaeb745ab013c6936952</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\nvic\plib_nvic.c</file>
+         <file>..\src\config\wbz653_cpro\peripheral\nvic\plib_nvic.c</file>
          <hash>cf2b1003db3953e23609b66703c9daec0c59f208d37d9d34d991a984b3bfcf25</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\nvic\plib_nvic.h</file>
+         <file>..\src\config\wbz653_cpro\peripheral\nvic\plib_nvic.h</file>
          <hash>9936ac782115af41003255283fa2f603f4ff2212d16275b7c80ea8d067a9e208</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\rtc\plib_rtc.h</file>
+         <file>..\src\config\wbz653_cpro\peripheral\rtc\plib_rtc.h</file>
          <hash>3ea61a469fd4f0615b0f618b20ac69b99aa2293458b893f03b4a9f1a4c27e5e6</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\rtc\plib_rtc_timer.c</file>
+         <file>..\src\config\wbz653_cpro\peripheral\rtc\plib_rtc_timer.c</file>
          <hash>a75a67d67cc6b21cf0b2708b847fd8ceecfb498b530b34b85c581844200bee84</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\sercom\usart\plib_sercom0_usart.c</file>
+         <file>..\src\config\wbz653_cpro\peripheral\sercom\usart\plib_sercom0_usart.c</file>
          <hash>cc98799b167d5289219320d77518f440bc9f4ffa1674d6fec7dbc30b93961ecc</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\sercom\usart\plib_sercom0_usart.h</file>
+         <file>..\src\config\wbz653_cpro\peripheral\sercom\usart\plib_sercom0_usart.h</file>
          <hash>ada260bab121780e4ff3b1d8514c96508f13c20f21c860135a5e986f23fb2c9e</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
+         <file>..\src\config\wbz653_cpro\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
          <hash>3653b66472c558c50f7037a1dd25d2678e9a13aa718f3c53a2195e6f3919ea48</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\startup_xc32.c</file>
+         <file>..\src\config\wbz653_cpro\startup_xc32.c</file>
          <hash>95d22da03176bc3a797e2e56be702fe4776ce754d18448cd86ca42ccd4083e00</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\stdio\xc32_monitor.c</file>
+         <file>..\src\config\wbz653_cpro\stdio\xc32_monitor.c</file>
          <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\toolchain_specifics.h</file>
+         <file>..\src\config\wbz653_cpro\toolchain_specifics.h</file>
          <hash>6fc0551b0fa3362678b3d7a227386fafa343140d31e4da3ad4af972e61cd0acb</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\datastreamer\03EB00000000000000AA5501.db</file>
+         <file>..\src\config\wbz653_cpro\touch\datastreamer\03EB00000000000000AA5501.db</file>
          <hash>3e7c845740190dd4d00373e35d54f8ad0d4cc273ae3e798502a65c59f68e7dc1</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\datastreamer\03EB00000000000000AA5501.ds</file>
+         <file>..\src\config\wbz653_cpro\touch\datastreamer\03EB00000000000000AA5501.ds</file>
          <hash>2b46c91d94fd59934c59cdb82862b58ce232d53abe2f54c65f9cb8b2df5b5289</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\datastreamer\03EB00000000000000AA5501.sc</file>
+         <file>..\src\config\wbz653_cpro\touch\datastreamer\03EB00000000000000AA5501.sc</file>
          <hash>1400a6cbc3bb4bff4e2b410e2d9e7da9aab5a4cb8d22abc593e1b5259a3caf99</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\datastreamer\datastreamer.h</file>
+         <file>..\src\config\wbz653_cpro\touch\datastreamer\datastreamer.h</file>
          <hash>fd4ef50dfd2c5d6d9a76d1a08cd87db26ee85fcc485c6be11a6c3b62b79719bb</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\datastreamer\datastreamer_UART_sam.c</file>
+         <file>..\src\config\wbz653_cpro\touch\datastreamer\datastreamer_UART_sam.c</file>
          <hash>1e6ae93ef26d2eead9a6ffed31f069abc8d90673aa21de10992421ddcfbb56e3</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\hcvd_driver_PIC32CX.c</file>
+         <file>..\src\config\wbz653_cpro\touch\hcvd_driver_PIC32CX.c</file>
          <hash>bbb7fdeaff14824201f0a973158b764cdeb8d2b689c9b97389a823bbdecd0c55</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\hcvd_driver_PIC32CX.h</file>
+         <file>..\src\config\wbz653_cpro\touch\hcvd_driver_PIC32CX.h</file>
          <hash>e322aa8e7c7a22e8e531d7b86ba69ca6768753b41844196816229d1263fa070a</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\lib\qtm_freq_hop_auto_cm4_0x0004.X.a</file>
+         <file>..\src\config\wbz653_cpro\touch\lib\qtm_freq_hop_auto_cm4_0x0004.X.a</file>
          <hash>6215302a9aabe024c16b652dd1adf3e0fa56fbf55458f64b17fe9678726dcafd</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\lib\qtm_freq_hop_cm4_0x0006.X.a</file>
+         <file>..\src\config\wbz653_cpro\touch\lib\qtm_freq_hop_cm4_0x0006.X.a</file>
          <hash>86433ce42999447e51bbcbbfcc140c803ed4b5b15851ae1e84fe1291c52f23eb</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\lib\qtm_scroller_cm4_0x000b.X.a</file>
+         <file>..\src\config\wbz653_cpro\touch\lib\qtm_scroller_cm4_0x000b.X.a</file>
          <hash>a5d913de00fd568ec6acaf8101cc32d57e7a220e493ca965f1a53af8cc3409c5</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\lib\qtm_touch_key_cm4_0x0002.X.a</file>
+         <file>..\src\config\wbz653_cpro\touch\lib\qtm_touch_key_cm4_0x0002.X.a</file>
          <hash>0bea72377f0be30dc97b6b70435e07b5095d3e1bc2c81ad83a7a2334c2d565de</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\qtm_acq_pic32cx_0x003e_api.h</file>
+         <file>..\src\config\wbz653_cpro\touch\qtm_acq_pic32cx_0x003e_api.h</file>
          <hash>c111aac14e29aa1d579a7d988b150dddb8355f60ebd8f99596b89eb2ebf0c34e</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\qtm_common_components_api.h</file>
+         <file>..\src\config\wbz653_cpro\touch\qtm_common_components_api.h</file>
          <hash>89a9473fc856d26a78ead0854377a7f61ebc20315a7a72bcc84f05ff1477816e</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\qtm_freq_hop_0x0006_api.h</file>
+         <file>..\src\config\wbz653_cpro\touch\qtm_freq_hop_0x0006_api.h</file>
          <hash>24ed3242e37471cbe9dd2507e931e88e843c683c9750d30e08f91a9d62a8e7e5</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\qtm_freq_hop_auto_0x0004_api.h</file>
+         <file>..\src\config\wbz653_cpro\touch\qtm_freq_hop_auto_0x0004_api.h</file>
          <hash>a0e06e45e438b797edcb61796bc74da1b1e488b45ee5263f2a638acdbffe35c9</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\qtm_scroller_0x000b_api.h</file>
+         <file>..\src\config\wbz653_cpro\touch\qtm_scroller_0x000b_api.h</file>
          <hash>b055b551cbd475e3d999a1aa84fe037875a494709fe475e969e9eedb4f8fb838</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\qtm_touch_key_0x0002_api.h</file>
+         <file>..\src\config\wbz653_cpro\touch\qtm_touch_key_0x0002_api.h</file>
          <hash>4840f9cd8def73a029c2090d101548329c92bdf13bd19410029aab45234b42e2</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\touch.c</file>
+         <file>..\src\config\wbz653_cpro\touch\touch.c</file>
          <hash>77fbc0df0fac68e97ddc0ed36da322d8778259dc6462f86ac734096a6de7630c</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\touch.h</file>
+         <file>..\src\config\wbz653_cpro\touch\touch.h</file>
          <hash>1630023858702728d6964041e26a940e25ba6252a0f9e8fbb0198f6db8987a8f</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\touch_api_ptc.h</file>
+         <file>..\src\config\wbz653_cpro\touch\touch_api_ptc.h</file>
          <hash>b34e458ee94200a1941493dc05ec752dc519e5a1d4bafb18bee668bc69d2a229</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\touch_example.c</file>
+         <file>..\src\config\wbz653_cpro\touch\touch_example.c</file>
          <hash>264c16e71442bb87d3552f11533744b1d1d118ca45f3b9f21b24061ddf75150a</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\touch_example.h</file>
+         <file>..\src\config\wbz653_cpro\touch\touch_example.h</file>
          <hash>df2125cb61002463e573369c2a6f73ee4e62d15f351fed0030188ab1cdb10e96</hash>
       </entry>
       <entry>

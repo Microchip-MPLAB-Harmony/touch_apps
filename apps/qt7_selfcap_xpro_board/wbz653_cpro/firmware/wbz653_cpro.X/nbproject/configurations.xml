@@ -5,34 +5,34 @@
                    displayName="Header Files"
                    projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
-        <logicalFolder name="default" displayName="default" projectFiles="true">
+        <logicalFolder name="wbz653_cpro" displayName="wbz653_cpro" projectFiles="true">
           <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
             <logicalFolder name="adchs" displayName="adchs" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/adchs/plib_adchs_common.h</itemPath>
-              <itemPath>../src/config/default/peripheral/adchs/plib_adchs.h</itemPath>
+              <itemPath>../src/config/wbz653_cpro/peripheral/adchs/plib_adchs_common.h</itemPath>
+              <itemPath>../src/config/wbz653_cpro/peripheral/adchs/plib_adchs.h</itemPath>
             </logicalFolder>
             <logicalFolder name="clk" displayName="clk" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/clk/plib_clk.h</itemPath>
+              <itemPath>../src/config/wbz653_cpro/peripheral/clk/plib_clk.h</itemPath>
             </logicalFolder>
             <logicalFolder name="cmcc" displayName="cmcc" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/cmcc/plib_cmcc.h</itemPath>
+              <itemPath>../src/config/wbz653_cpro/peripheral/cmcc/plib_cmcc.h</itemPath>
             </logicalFolder>
             <logicalFolder name="evsys" displayName="evsys" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/evsys/plib_evsys.h</itemPath>
+              <itemPath>../src/config/wbz653_cpro/peripheral/evsys/plib_evsys.h</itemPath>
             </logicalFolder>
             <logicalFolder name="gpio" displayName="gpio" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/gpio/plib_gpio.h</itemPath>
+              <itemPath>../src/config/wbz653_cpro/peripheral/gpio/plib_gpio.h</itemPath>
             </logicalFolder>
             <logicalFolder name="nvic" displayName="nvic" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/nvic/plib_nvic.h</itemPath>
+              <itemPath>../src/config/wbz653_cpro/peripheral/nvic/plib_nvic.h</itemPath>
             </logicalFolder>
             <logicalFolder name="rtc" displayName="rtc" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/rtc/plib_rtc.h</itemPath>
+              <itemPath>../src/config/wbz653_cpro/peripheral/rtc/plib_rtc.h</itemPath>
             </logicalFolder>
             <logicalFolder name="sercom" displayName="sercom" projectFiles="true">
               <logicalFolder name="usart" displayName="usart" projectFiles="true">
-                <itemPath>../src/config/default/peripheral/sercom/usart/plib_sercom_usart_common.h</itemPath>
-                <itemPath>../src/config/default/peripheral/sercom/usart/plib_sercom0_usart.h</itemPath>
+                <itemPath>../src/config/wbz653_cpro/peripheral/sercom/usart/plib_sercom_usart_common.h</itemPath>
+                <itemPath>../src/config/wbz653_cpro/peripheral/sercom/usart/plib_sercom0_usart.h</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
@@ -40,25 +40,25 @@
             <logicalFolder name="datastreamer"
                            displayName="datastreamer"
                            projectFiles="true">
-              <itemPath>../src/config/default/touch/datastreamer/datastreamer.h</itemPath>
+              <itemPath>../src/config/wbz653_cpro/touch/datastreamer/datastreamer.h</itemPath>
             </logicalFolder>
-            <itemPath>../src/config/default/touch/qtm_scroller_0x000b_api.h</itemPath>
-            <itemPath>../src/config/default/touch/qtm_common_components_api.h</itemPath>
-            <itemPath>../src/config/default/touch/qtm_touch_key_0x0002_api.h</itemPath>
-            <itemPath>../src/config/default/touch/hcvd_driver_PIC32CX.h</itemPath>
-            <itemPath>../src/config/default/touch/touch_api_ptc.h</itemPath>
-            <itemPath>../src/config/default/touch/qtm_freq_hop_0x0006_api.h</itemPath>
-            <itemPath>../src/config/default/touch/qtm_freq_hop_auto_0x0004_api.h</itemPath>
-            <itemPath>../src/config/default/touch/touch.h</itemPath>
-            <itemPath>../src/config/default/touch/qtm_acq_pic32cx_0x003e_api.h</itemPath>
-            <itemPath>../src/config/default/touch/touch_example.h</itemPath>
+            <itemPath>../src/config/wbz653_cpro/touch/qtm_scroller_0x000b_api.h</itemPath>
+            <itemPath>../src/config/wbz653_cpro/touch/qtm_common_components_api.h</itemPath>
+            <itemPath>../src/config/wbz653_cpro/touch/qtm_touch_key_0x0002_api.h</itemPath>
+            <itemPath>../src/config/wbz653_cpro/touch/hcvd_driver_PIC32CX.h</itemPath>
+            <itemPath>../src/config/wbz653_cpro/touch/touch_api_ptc.h</itemPath>
+            <itemPath>../src/config/wbz653_cpro/touch/qtm_freq_hop_0x0006_api.h</itemPath>
+            <itemPath>../src/config/wbz653_cpro/touch/qtm_freq_hop_auto_0x0004_api.h</itemPath>
+            <itemPath>../src/config/wbz653_cpro/touch/touch.h</itemPath>
+            <itemPath>../src/config/wbz653_cpro/touch/qtm_acq_pic32cx_0x003e_api.h</itemPath>
+            <itemPath>../src/config/wbz653_cpro/touch/touch_example.h</itemPath>
           </logicalFolder>
-          <itemPath>../src/config/default/device.h</itemPath>
-          <itemPath>../src/config/default/interrupts.h</itemPath>
-          <itemPath>../src/config/default/device_vectors.h</itemPath>
-          <itemPath>../src/config/default/toolchain_specifics.h</itemPath>
-          <itemPath>../src/config/default/device_cache.h</itemPath>
-          <itemPath>../src/config/default/definitions.h</itemPath>
+          <itemPath>../src/config/wbz653_cpro/device.h</itemPath>
+          <itemPath>../src/config/wbz653_cpro/interrupts.h</itemPath>
+          <itemPath>../src/config/wbz653_cpro/device_vectors.h</itemPath>
+          <itemPath>../src/config/wbz653_cpro/toolchain_specifics.h</itemPath>
+          <itemPath>../src/config/wbz653_cpro/device_cache.h</itemPath>
+          <itemPath>../src/config/wbz653_cpro/definitions.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="packs" displayName="packs" projectFiles="true">
@@ -211,8 +211,8 @@
                    displayName="Linker Files"
                    projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
-        <logicalFolder name="default" displayName="default" projectFiles="true">
-          <itemPath>../src/config/default/WBZ653.ld</itemPath>
+        <logicalFolder name="wbz653_cpro" displayName="wbz653_cpro" projectFiles="true">
+          <itemPath>../src/config/wbz653_cpro/WBZ653.ld</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
@@ -220,56 +220,56 @@
                    displayName="Source Files"
                    projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
-        <logicalFolder name="default" displayName="default" projectFiles="true">
+        <logicalFolder name="wbz653_cpro" displayName="wbz653_cpro" projectFiles="true">
           <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
             <logicalFolder name="adchs" displayName="adchs" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/adchs/plib_adchs.c</itemPath>
+              <itemPath>../src/config/wbz653_cpro/peripheral/adchs/plib_adchs.c</itemPath>
             </logicalFolder>
             <logicalFolder name="clk" displayName="clk" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/clk/plib_clk.c</itemPath>
+              <itemPath>../src/config/wbz653_cpro/peripheral/clk/plib_clk.c</itemPath>
             </logicalFolder>
             <logicalFolder name="cmcc" displayName="cmcc" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/cmcc/plib_cmcc.c</itemPath>
+              <itemPath>../src/config/wbz653_cpro/peripheral/cmcc/plib_cmcc.c</itemPath>
             </logicalFolder>
             <logicalFolder name="evsys" displayName="evsys" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/evsys/plib_evsys.c</itemPath>
+              <itemPath>../src/config/wbz653_cpro/peripheral/evsys/plib_evsys.c</itemPath>
             </logicalFolder>
             <logicalFolder name="gpio" displayName="gpio" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/gpio/plib_gpio.c</itemPath>
+              <itemPath>../src/config/wbz653_cpro/peripheral/gpio/plib_gpio.c</itemPath>
             </logicalFolder>
             <logicalFolder name="nvic" displayName="nvic" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/nvic/plib_nvic.c</itemPath>
+              <itemPath>../src/config/wbz653_cpro/peripheral/nvic/plib_nvic.c</itemPath>
             </logicalFolder>
             <logicalFolder name="rtc" displayName="rtc" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/rtc/plib_rtc_timer.c</itemPath>
+              <itemPath>../src/config/wbz653_cpro/peripheral/rtc/plib_rtc_timer.c</itemPath>
             </logicalFolder>
             <logicalFolder name="sercom" displayName="sercom" projectFiles="true">
               <logicalFolder name="usart" displayName="usart" projectFiles="true">
-                <itemPath>../src/config/default/peripheral/sercom/usart/plib_sercom0_usart.c</itemPath>
+                <itemPath>../src/config/wbz653_cpro/peripheral/sercom/usart/plib_sercom0_usart.c</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="stdio" displayName="stdio" projectFiles="true">
-            <itemPath>../src/config/default/stdio/xc32_monitor.c</itemPath>
+            <itemPath>../src/config/wbz653_cpro/stdio/xc32_monitor.c</itemPath>
           </logicalFolder>
           <logicalFolder name="touch" displayName="touch" projectFiles="true">
             <logicalFolder name="datastreamer"
                            displayName="datastreamer"
                            projectFiles="true">
-              <itemPath>../src/config/default/touch/datastreamer/03EB00000000000000AA5501.sc</itemPath>
-              <itemPath>../src/config/default/touch/datastreamer/datastreamer_UART_sam.c</itemPath>
-              <itemPath>../src/config/default/touch/datastreamer/03EB00000000000000AA5501.ds</itemPath>
-              <itemPath>../src/config/default/touch/datastreamer/03EB00000000000000AA5501.db</itemPath>
+              <itemPath>../src/config/wbz653_cpro/touch/datastreamer/03EB00000000000000AA5501.sc</itemPath>
+              <itemPath>../src/config/wbz653_cpro/touch/datastreamer/datastreamer_UART_sam.c</itemPath>
+              <itemPath>../src/config/wbz653_cpro/touch/datastreamer/03EB00000000000000AA5501.ds</itemPath>
+              <itemPath>../src/config/wbz653_cpro/touch/datastreamer/03EB00000000000000AA5501.db</itemPath>
             </logicalFolder>
-            <itemPath>../src/config/default/touch/hcvd_driver_PIC32CX.c</itemPath>
-            <itemPath>../src/config/default/touch/touch.c</itemPath>
-            <itemPath>../src/config/default/touch/touch_example.c</itemPath>
+            <itemPath>../src/config/wbz653_cpro/touch/hcvd_driver_PIC32CX.c</itemPath>
+            <itemPath>../src/config/wbz653_cpro/touch/touch.c</itemPath>
+            <itemPath>../src/config/wbz653_cpro/touch/touch_example.c</itemPath>
           </logicalFolder>
-          <itemPath>../src/config/default/libc_syscalls.c</itemPath>
-          <itemPath>../src/config/default/initialization.c</itemPath>
-          <itemPath>../src/config/default/interrupts.c</itemPath>
-          <itemPath>../src/config/default/startup_xc32.c</itemPath>
-          <itemPath>../src/config/default/exceptions.c</itemPath>
+          <itemPath>../src/config/wbz653_cpro/libc_syscalls.c</itemPath>
+          <itemPath>../src/config/wbz653_cpro/initialization.c</itemPath>
+          <itemPath>../src/config/wbz653_cpro/interrupts.c</itemPath>
+          <itemPath>../src/config/wbz653_cpro/startup_xc32.c</itemPath>
+          <itemPath>../src/config/wbz653_cpro/exceptions.c</itemPath>
         </logicalFolder>
       </logicalFolder>
       <itemPath>../src/main.c</itemPath>
@@ -277,7 +277,7 @@
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
-    <conf name="default" type="2">
+    <conf name="wbz653_cpro" type="2">
       <toolsSet>
         <developmentServer>localhost</developmentServer>
         <targetDevice>WBZ653</targetDevice>
@@ -297,10 +297,10 @@
       <compileType>
         <linkerTool>
           <linkerLibItems>
-            <linkerLibFileItem>../src/config/default/touch/lib/qtm_freq_hop_auto_cm4_0x0004.X.a</linkerLibFileItem>
-            <linkerLibFileItem>../src/config/default/touch/lib/qtm_freq_hop_cm4_0x0006.X.a</linkerLibFileItem>
-            <linkerLibFileItem>../src/config/default/touch/lib/qtm_scroller_cm4_0x000b.X.a</linkerLibFileItem>
-            <linkerLibFileItem>../src/config/default/touch/lib/qtm_touch_key_cm4_0x0002.X.a</linkerLibFileItem>
+            <linkerLibFileItem>../src/config/wbz653_cpro/touch/lib/qtm_freq_hop_auto_cm4_0x0004.X.a</linkerLibFileItem>
+            <linkerLibFileItem>../src/config/wbz653_cpro/touch/lib/qtm_freq_hop_cm4_0x0006.X.a</linkerLibFileItem>
+            <linkerLibFileItem>../src/config/wbz653_cpro/touch/lib/qtm_scroller_cm4_0x000b.X.a</linkerLibFileItem>
+            <linkerLibFileItem>../src/config/wbz653_cpro/touch/lib/qtm_touch_key_cm4_0x0002.X.a</linkerLibFileItem>
           </linkerLibItems>
         </linkerTool>
         <archiverTool>
@@ -333,15 +333,15 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/default;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/WBZ653_DFP"/>
+                  value="../src;../src/config/wbz653_cpro;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/WBZ653_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
         <property key="make-warnings-into-errors" value="true"/>
         <property key="optimization-level" value="-O1"/>
         <property key="place-data-into-section" value="true"/>
-        <property key="post-instruction-scheduling" value="default"/>
-        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="post-instruction-scheduling" value="wbz653_cpro"/>
+        <property key="pre-instruction-scheduling" value="wbz653_cpro"/>
         <property key="preprocessor-macros" value=""/>
         <property key="strict-ansi" value="false"/>
         <property key="support-ansi" value="false"/>
@@ -433,15 +433,15 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/default;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/WBZ653_DFP"/>
+                  value="../src;../src/config/wbz653_cpro;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/WBZ653_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
         <property key="make-warnings-into-errors" value="false"/>
         <property key="optimization-level" value="-O1"/>
         <property key="place-data-into-section" value="false"/>
-        <property key="post-instruction-scheduling" value="default"/>
-        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="post-instruction-scheduling" value="wbz653_cpro"/>
+        <property key="pre-instruction-scheduling" value="wbz653_cpro"/>
         <property key="preprocessor-macros" value=""/>
         <property key="rtti" value="true"/>
         <property key="strict-ansi" value="false"/>
@@ -500,14 +500,14 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="1000000-2007ffff"/>
         <property key="programmerToGoFilePath"
-                  value="D:/PROJECTS/HARMONY/BIGBUCK/PROJECTS/harmony_pre_rel_validation_v3_17_0/bigbuck/wbz653_cpro.X/debug/default/wbz653_cpro_ptg"/>
+                  value="D:/PROJECTS/HARMONY/BIGBUCK/PROJECTS/harmony_pre_rel_validation_v3_17_0/bigbuck/wbz653_cpro.X/debug/wbz653_cpro/wbz653_cpro_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.pgmentry.voltage" value="low"/>
         <property key="programoptions.pgmspeed" value="Med"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"
-                  value="${memories.dataflash.default}"/>
+                  value="${memories.dataflash.wbz653_cpro}"/>
         <property key="programoptions.preserveeeprom" value="false"/>
         <property key="programoptions.preserveeeprom.ranges" value=""/>
         <property key="programoptions.preserveprogram.ranges" value=""/>
@@ -558,14 +558,14 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="1000000-2007ffff"/>
         <property key="programmerToGoFilePath"
-                  value="D:/PROJECTS/HARMONY/BIGBUCK/PROJECTS/harmony_pre_rel_validation_v3_17_0/bigbuck/wbz653_cpro.X/debug/default/wbz653_cpro_ptg"/>
+                  value="D:/PROJECTS/HARMONY/BIGBUCK/PROJECTS/harmony_pre_rel_validation_v3_17_0/bigbuck/wbz653_cpro.X/debug/wbz653_cpro/wbz653_cpro_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.pgmentry.voltage" value="low"/>
         <property key="programoptions.pgmspeed" value="Med"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"
-                  value="${memories.dataflash.default}"/>
+                  value="${memories.dataflash.wbz653_cpro}"/>
         <property key="programoptions.preserveeeprom" value="false"/>
         <property key="programoptions.preserveeeprom.ranges" value=""/>
         <property key="programoptions.preserveprogram.ranges" value=""/>
