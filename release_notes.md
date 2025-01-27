@@ -2,6 +2,34 @@
 
 # Microchip MPLAB Harmony 3 Touch Applications Release Notes
 
+## Touch Applications v3.7.0 Release
+ 
+### Development kit and demo application support
+ 
+See [readme](readme.md) for detailed list of example applications
+ 
+### NEW FEATURES
+ 
+- Self-Capacitance example project is added for [QT7 Xplained Pro](https://www.microchip.com/en-us/development-tool/atqt7-xpro) with [PIC32CM GC Curiosity Pro](https://www.microchip.com/en-us/development-tool/EV17V75A)
+- Mutual-Capacitance example project is added for [T10 Xplained Pro](https://www.microchip.com/en-us/development-tool/ac47h23a) with [PIC32CM GC Curiosity Pro](https://www.microchip.com/en-us/development-tool/EV17V75A)
+ 
+### BUGS FIXED
+ 
+- None
+ 
+### DEVELOPMENT TOOLS
+ 
+- MPLAB® X IDE v6.20 or higher
+- MPLAB® XC32 C/C++ Compiler v4.45 
+- MPLAB® X IDE plug-ins:     
+  * MPLAB® Code Configurator (MCC)       
+  * MCC Plugin v5.5.1
+ 
+### REQUIRED MPLAB HARMONY v3.x.x MODULES
+ 
+- csp v3.20.0
+- touch v3.17.0
+
 ## Touch Applications v3.6.0 Release
 
 ### Development kit and demo application support

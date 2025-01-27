@@ -1,22 +1,3 @@
----
-parent: Touch Applications
-title: QT7 Xplained Pro Touch Examples
-has_children: false
-has_toc: false
-nav_order: 1
----
+[![Microchip logo](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_logo.png)](https://www.microchip.com)
 
-![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)
-
-# QT7 Xplained Pro Touch Examples
-
-The following table provides links to documentation on how to build and run the touch example project on different development kits
-
-| Development Kit                                                                                        |
-| ----------------------------------------------------------------------------------------------------   |
-| [PIC32CM GC Curiosity Pro Example Development Board](pic32cm_gc_cpro/readme_pic32cm_gc_cpro.md) |
-| [WBZ653 Curiosity Pro Example Development Board](wbz653_cpro/readme_wbz653_cpro.md)        |
-| [SAML10 Xplained Example Development Board](sam_l10_xpro/readme_sam_l10_xpro.md)                       |
-| [ PIC32CM LE Curiosity Pro Example Development Board](pic32cm_le00_cpro/readme_pic32cm_LE00_cpro.md)   |
-| [ PIC32CM JH Curiosity Pro Example Development Board](pic32cm_jh_cpro/readme_pic32cm_JH_cpro.md)       |
-| [ PIC32CZ CA Curiosity Ultra Example Development Board](pic32czca_cultra/readme_pic32czca_cultra.md)   |
+[Click here](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=touch_apps_QT7_Xplained_Pro_Touch_Examples&version=latest&redirect=true) to view documentation for this application.

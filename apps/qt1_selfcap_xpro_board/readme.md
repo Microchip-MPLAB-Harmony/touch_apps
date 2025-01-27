@@ -1,20 +1,3 @@
----
-parent: Touch Applications
-title: QT1 Xplained Pro Self Capacitance Examples
-has_children: false
-has_toc: false
-nav_order: 1
----
+[![Microchip logo](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_logo.png)](https://www.microchip.com)
 
-![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)
-
-# QT1 Xplained Pro Self Capacitance Examples
-
-The following table provides links to documentation on how to build and run the touch example project on different development kits
-
-| Development Kit                                                              |
-| ---------------------------------------------------------------------------- |
-| [SAMD21 Xplained Pro Development Board](sam_d21_xpro/readme_sam_d21_xpro.md) |
-| [SAMDA1 Xplained Pro Development Board](sam_da1_xpro/readme_sam_da1_xpro.md) |
-| [SAMD20 Xplained Pro Development Board](sam_d20_xpro/readme_sam_d20_xpro.md) |
-| [SAMC21 Xplained Pro Development Board](sam_c21_xpro/readme_sam_c21_xpro.md) |
+[Click here](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=touch_apps_QT1_Xplained_Pro_Self_Capacitance_Examples&version=latest&redirect=true) to view documentation for this application.

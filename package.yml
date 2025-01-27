@@ -1,7 +1,7 @@
 package:
   format-version: "1.0.0"
   name: "touch_apps"
-  version: "v3.7.0_TC.1"
+  version: "v3.7.0"
   type: "application"
   status: "production"
 
@@ -11,4 +11,4 @@ package:
       version: "3.20.0"
     - name: "touch"
       type: "package"
-      version: "v3.17.0_TC.1"
+      version: "v3.17.0"

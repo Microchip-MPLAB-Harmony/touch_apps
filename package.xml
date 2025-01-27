@@ -2,6 +2,6 @@
 <Package name="touch_apps">
     <Dependencies>
         <Dependency name="csp" version="v3.20.0"/>
-        <Dependency name="touch" version="v3.17.0_TC.1"/>
+        <Dependency name="touch" version="v3.17.0"/>
     </Dependencies>
 </Package>
