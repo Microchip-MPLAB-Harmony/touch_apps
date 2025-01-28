@@ -6,9 +6,6 @@ package:
   status: "production"
 
   dependencies:
-    - name: "csp"
-      type: "package"
-      version: "3.20.0"
     - name: "touch"
       type: "package"
       version: "v3.17.0"
