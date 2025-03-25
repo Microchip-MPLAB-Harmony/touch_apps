@@ -4,7 +4,7 @@
 
 
 project: sam_l10_xpro_low_power
-creation_date: 2025-03-19T14:16:46.181+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2025-03-25T16:11:04.429+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 10
 mcc_mode: IDE            # [IDE|Standalone|Headless]
 mcc_version: v5.5.1
@@ -15,11 +15,8 @@ compiler: XC32 4.60
 
 modules:
     - {name: "csp", version: "v3.20.0"}
-    - {name: "core", version: "v3.14.0-E1"}
     - {name: "CMSIS_5", version: "5.8.0"}
     - {name: "touch", version: "REL_v3P18P0"}
-    - {name: "shd", version: "v1.1.0"}
-    - {name: "CMSIS-FreeRTOS", version: "v11.1.0"}
 
 packs:
     - {name: "SAML10_DFP", version: "3.10.228"}

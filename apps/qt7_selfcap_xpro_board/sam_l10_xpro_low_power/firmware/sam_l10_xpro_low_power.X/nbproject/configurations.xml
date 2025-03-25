@@ -8,9 +8,6 @@
         <logicalFolder name="sam_l10_xpro_low_power"
                        displayName="sam_l10_xpro_low_power"
                        projectFiles="true">
-          <logicalFolder name="bsp" displayName="bsp" projectFiles="true">
-            <itemPath>../src/config/sam_l10_xpro_low_power/bsp/bsp.h</itemPath>
-          </logicalFolder>
           <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
             <logicalFolder name="clock" displayName="clock" projectFiles="true">
               <itemPath>../src/config/sam_l10_xpro_low_power/peripheral/clock/plib_clock.h</itemPath>
@@ -45,48 +42,12 @@
             <itemPath>../src/config/sam_l10_xpro_low_power/touch/touch_api_ptc.h</itemPath>
             <itemPath>../src/config/sam_l10_xpro_low_power/touch/touch.h</itemPath>
           </logicalFolder>
-          <itemPath>../src/config/sam_l10_xpro_low_power/FreeRTOSConfig.h</itemPath>
           <itemPath>../src/config/sam_l10_xpro_low_power/interrupts.h</itemPath>
           <itemPath>../src/config/sam_l10_xpro_low_power/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/sam_l10_xpro_low_power/device_cache.h</itemPath>
           <itemPath>../src/config/sam_l10_xpro_low_power/definitions.h</itemPath>
           <itemPath>../src/config/sam_l10_xpro_low_power/device.h</itemPath>
           <itemPath>../src/config/sam_l10_xpro_low_power/device_vectors.h</itemPath>
-        </logicalFolder>
-      </logicalFolder>
-      <logicalFolder name="FreeRTOS" displayName="FreeRTOS" projectFiles="true">
-        <logicalFolder name="Source" displayName="Source" projectFiles="true">
-          <logicalFolder name="include" displayName="include" projectFiles="true">
-            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/stack_macros.h</itemPath>
-            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/stream_buffer.h</itemPath>
-            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/deprecated_definitions.h</itemPath>
-            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/FreeRTOS.h</itemPath>
-            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/queue.h</itemPath>
-            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/message_buffer.h</itemPath>
-            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/croutine.h</itemPath>
-            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/mpu_prototypes.h</itemPath>
-            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/semphr.h</itemPath>
-            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/projdefs.h</itemPath>
-            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/task.h</itemPath>
-            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/timers.h</itemPath>
-            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/mpu_wrappers.h</itemPath>
-            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/portable.h</itemPath>
-            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/list.h</itemPath>
-            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/event_groups.h</itemPath>
-          </logicalFolder>
-          <logicalFolder name="portable" displayName="portable" projectFiles="true">
-            <logicalFolder name="GCC" displayName="GCC" projectFiles="true">
-              <logicalFolder name="ARM_CM23_NTZ"
-                             displayName="ARM_CM23_NTZ"
-                             projectFiles="true">
-                <logicalFolder name="non_secure" displayName="non_secure" projectFiles="true">
-                  <itemPath>../src/third_party/rtos/FreeRTOS/Source/portable/GCC/ARM_CM23_NTZ/non_secure/portmacrocommon.h</itemPath>
-                  <itemPath>../src/third_party/rtos/FreeRTOS/Source/portable/GCC/ARM_CM23_NTZ/non_secure/portmacro.h</itemPath>
-                  <itemPath>../src/third_party/rtos/FreeRTOS/Source/portable/GCC/ARM_CM23_NTZ/non_secure/portasm.h</itemPath>
-                </logicalFolder>
-              </logicalFolder>
-            </logicalFolder>
-          </logicalFolder>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="packs" displayName="packs" projectFiles="true">
@@ -209,9 +170,6 @@
         <logicalFolder name="sam_l10_xpro_low_power"
                        displayName="sam_l10_xpro_low_power"
                        projectFiles="true">
-          <logicalFolder name="bsp" displayName="bsp" projectFiles="true">
-            <itemPath>../src/config/sam_l10_xpro_low_power/bsp/bsp.c</itemPath>
-          </logicalFolder>
           <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
             <logicalFolder name="clock" displayName="clock" projectFiles="true">
               <itemPath>../src/config/sam_l10_xpro_low_power/peripheral/clock/plib_clock.c</itemPath>
@@ -242,38 +200,11 @@
             <itemPath>../src/config/sam_l10_xpro_low_power/touch/touch_example.c</itemPath>
             <itemPath>../src/config/sam_l10_xpro_low_power/touch/touch.c</itemPath>
           </logicalFolder>
-          <itemPath>../src/config/sam_l10_xpro_low_power/freertos_hooks.c</itemPath>
           <itemPath>../src/config/sam_l10_xpro_low_power/initialization.c</itemPath>
           <itemPath>../src/config/sam_l10_xpro_low_power/interrupts.c</itemPath>
           <itemPath>../src/config/sam_l10_xpro_low_power/libc_syscalls.c</itemPath>
           <itemPath>../src/config/sam_l10_xpro_low_power/exceptions.c</itemPath>
           <itemPath>../src/config/sam_l10_xpro_low_power/startup_xc32.c</itemPath>
-        </logicalFolder>
-      </logicalFolder>
-      <logicalFolder name="FreeRTOS" displayName="FreeRTOS" projectFiles="true">
-        <logicalFolder name="Source" displayName="Source" projectFiles="true">
-          <logicalFolder name="portable" displayName="portable" projectFiles="true">
-            <logicalFolder name="GCC" displayName="GCC" projectFiles="true">
-              <logicalFolder name="ARM_CM23_NTZ"
-                             displayName="ARM_CM23_NTZ"
-                             projectFiles="true">
-                <logicalFolder name="non_secure" displayName="non_secure" projectFiles="true">
-                  <itemPath>../src/third_party/rtos/FreeRTOS/Source/portable/GCC/ARM_CM23_NTZ/non_secure/port.c</itemPath>
-                  <itemPath>../src/third_party/rtos/FreeRTOS/Source/portable/GCC/ARM_CM23_NTZ/non_secure/portasm.c</itemPath>
-                </logicalFolder>
-              </logicalFolder>
-            </logicalFolder>
-            <logicalFolder name="MemMang" displayName="MemMang" projectFiles="true">
-              <itemPath>../src/third_party/rtos/FreeRTOS/Source/portable/MemMang/heap_1.c</itemPath>
-            </logicalFolder>
-          </logicalFolder>
-          <itemPath>../src/third_party/rtos/FreeRTOS/Source/event_groups.c</itemPath>
-          <itemPath>../src/third_party/rtos/FreeRTOS/Source/list.c</itemPath>
-          <itemPath>../src/third_party/rtos/FreeRTOS/Source/croutine.c</itemPath>
-          <itemPath>../src/third_party/rtos/FreeRTOS/Source/FreeRTOS_tasks.c</itemPath>
-          <itemPath>../src/third_party/rtos/FreeRTOS/Source/timers.c</itemPath>
-          <itemPath>../src/third_party/rtos/FreeRTOS/Source/stream_buffer.c</itemPath>
-          <itemPath>../src/third_party/rtos/FreeRTOS/Source/queue.c</itemPath>
         </logicalFolder>
       </logicalFolder>
       <itemPath>../src/config/sam_l10_xpro_low_power/pin_configurations.csv</itemPath>

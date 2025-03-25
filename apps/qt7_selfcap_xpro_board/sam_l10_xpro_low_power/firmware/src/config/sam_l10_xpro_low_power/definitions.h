@@ -54,11 +54,8 @@
 #include "peripheral/clock/plib_clock.h"
 #include "peripheral/nvic/plib_nvic.h"
 #include "peripheral/pm/plib_pm.h"
-#include "bsp/bsp.h"
 #include "touch/touch.h"
 #include "peripheral/rtc/plib_rtc.h"
-#include "FreeRTOS.h"
-#include "task.h"
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
