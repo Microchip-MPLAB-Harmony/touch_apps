@@ -8,4 +8,4 @@ package:
   dependencies:
     - name: "touch"
       type: "package"
-      version: "v3.18.0_TC.3"
+      version: "v3.18.0"
