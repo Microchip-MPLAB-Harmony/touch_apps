@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.14.0 Release
+  Touch Library v3.19.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -17,27 +17,27 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (c)  2023 released Microchip Technology Inc.  All rights reserved.
+Copyright (C) [2025], Microchip Technology Inc., and its subsidiaries. All rights reserved.
 
-Microchip licenses to you the right to use, modify, copy and distribute
-Software only when embedded on a Microchip microcontroller or digital signal
-controller that is integrated into your product or third party product
-(pursuant to the sublicense terms in the accompanying license agreement).
+The software and documentation is provided by microchip and its contributors
+"as is" and any express, implied or statutory warranties, including, but not
+limited to, the implied warranties of merchantability, fitness for a particular
+purpose and non-infringement of third party intellectual property rights are
+disclaimed to the fullest extent permitted by law. In no event shall microchip
+or its contributors be liable for any direct, indirect, incidental, special,
+exemplary, or consequential damages (including, but not limited to, procurement
+of substitute goods or services; loss of use, data, or profits; or business
+interruption) however caused and on any theory of liability, whether in contract,
+strict liability, or tort (including negligence or otherwise) arising in any way
+out of the use of the software and documentation, even if advised of the
+possibility of such damage.
 
-You should refer to the license agreement accompanying this Software for
-additional information regarding your rights and obligations.
-
-SOFTWARE AND DOCUMENTATION ARE PROVIDED AS IS  WITHOUT  WARRANTY  OF  ANY  KIND,
-EITHER EXPRESS  OR  IMPLIED,  INCLUDING  WITHOUT  LIMITATION,  ANY  WARRANTY  OF
-MERCHANTABILITY, TITLE, NON-INFRINGEMENT AND FITNESS FOR A  PARTICULAR  PURPOSE.
-IN NO EVENT SHALL MICROCHIP OR  ITS  LICENSORS  BE  LIABLE  OR  OBLIGATED  UNDER
-CONTRACT, NEGLIGENCE, STRICT LIABILITY, CONTRIBUTION,  BREACH  OF  WARRANTY,  OR
-OTHER LEGAL  EQUITABLE  THEORY  ANY  DIRECT  OR  INDIRECT  DAMAGES  OR  EXPENSES
-INCLUDING BUT NOT LIMITED TO ANY  INCIDENTAL,  SPECIAL,  INDIRECT,  PUNITIVE  OR
-CONSEQUENTIAL DAMAGES, LOST  PROFITS  OR  LOST  DATA,  COST  OF  PROCUREMENT  OF
-SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
-(INCLUDING BUT NOT LIMITED TO ANY DEFENSE  THEREOF),  OR  OTHER  SIMILAR  COSTS.
-*******************************************************************************/
+Except as expressly permitted hereunder and subject to the applicable license terms
+for any third-party software incorporated in the software and any applicable open
+source software license terms, no license or other rights, whether express or
+implied, are granted under any patent or other intellectual property rights of
+Microchip or any third party.
+************************************************************************************/
 
 
 
@@ -247,24 +247,22 @@ void PTC_Initialize(void)
      * The Wake-up Exponent is the exponent for the power of 2 which represents the wake-up count in PTC core clocks.
      * The PTC core must warm up before being allowed to perform conversions. 
      */  
-    if(gclk_freq > 0UL)
-    {
-        /* PTC clock for minimum pre-scaler (PRSC_DIV_SEL_2) */
-        ptc_clock = gclk_freq / 2UL; 
-        /* wakeup-time for Analog Core is 20us. Calculate clock cycles required for 20us */
-        wakeup_clock_cycles = (uint8_t) ((20UL * ptc_clock) / (1000000UL)); 
-        /* find the exponent near to wakeup_clock_cycles */
-        do{
-           wakeup_exp =  wakeup_exp + 1u;
-           wakeup_clock_cycles = (wakeup_clock_cycles >> 1u);
-        }while(wakeup_clock_cycles > 0u);
-        
-        /* set the wakeup exponent */
-        qtlib_acq_set1.qtm_acq_node_group_config->wakeup_exp = wakeup_exp;
-    }  
+    /* PTC clock for minimum pre-scaler (PRSC_DIV_SEL_2) */
+    ptc_clock = gclk_freq / 2UL; 
+    /* wakeup-time for Analog Core is 20us. Calculate clock cycles required for 20us */
+    wakeup_clock_cycles = (uint8_t) ((20UL * ptc_clock) / (1000000UL)); 
+    /* find the exponent near to wakeup_clock_cycles */
+    do{
+       wakeup_exp =  wakeup_exp + 1u;
+       wakeup_clock_cycles = (wakeup_clock_cycles >> 1u);
+    }while(wakeup_clock_cycles > 0u);
+    
+    /* set the wakeup exponent */
+    qtlib_acq_set1.qtm_acq_node_group_config->wakeup_exp = wakeup_exp;
     /* 
      * Enable Analog Input Charge Pump of PTC , for weak VDD 
      */
+	
     SUPC_REGS->SUPC_VREGCTRL |= SUPC_VREGCTRL_CPEN(4u);
     
 }
@@ -460,5 +458,5 @@ Notes  : none
 void PTC_Handler(void)
 {
 	qtm_ptc_clear_interrupt();
-    qtm_pic32cz_ptc_handler_eoc();
+	qtm_pic32czca_ptc_handler_eoc();
 }

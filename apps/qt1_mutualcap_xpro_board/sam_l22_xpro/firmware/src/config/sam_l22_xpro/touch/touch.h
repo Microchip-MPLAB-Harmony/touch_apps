@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.14.0 Release
+  Touch Library v3.19.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -16,7 +16,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (c) 2023 released Microchip Technology Inc.  All rights reserved.
+Copyright (c) 2025 released Microchip Technology Inc.  All rights reserved.
 
 Microchip licenses to you the right to use, modify, copy and distribute
 Software only when embedded on a Microchip microcontroller or digital signal
@@ -111,50 +111,50 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 
 /* Defines node parameter setting
- * {X-line, Y-line, Charge Share Delay, NODE_RSEL_PRSC(series resistor, prescaler), NODE_G(Analog Gain , Digital Gain),
+ * {X-line, Y-line, Charge Share Delay (CSD), NODE_RSEL_PRSC(series resistor, prescaler), NODE_G(Analog Gain , Digital Gain),
  * filter level}
  */
 
 
 #define NODE_0_PARAMS                                                                                               \
 {                                                                                                                  \
- X(18), Y(6), 2, NODE_RSEL_PRSC(RSEL_VAL_0, (uint8_t)PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+ X(18), Y(6), 20, NODE_RSEL_PRSC(RSEL_VAL_0, (uint8_t)PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_1_PARAMS                                                                                               \
 {                                                                                                                  \
- X(19), Y(6), 2, NODE_RSEL_PRSC(RSEL_VAL_0, (uint8_t)PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+ X(19), Y(6), 20, NODE_RSEL_PRSC(RSEL_VAL_0, (uint8_t)PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_2_PARAMS                                                                                               \
 {                                                                                                                  \
- X(0), Y(16),2, NODE_RSEL_PRSC(RSEL_VAL_0, (uint8_t)PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
+ X(0), Y(16), 20, NODE_RSEL_PRSC(RSEL_VAL_0, (uint8_t)PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
 }
 #define NODE_3_PARAMS                                                                                               \
 {                                                                                                                  \
- X(1), Y(16),2, NODE_RSEL_PRSC(RSEL_VAL_0, (uint8_t)PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
+ X(1), Y(16), 20, NODE_RSEL_PRSC(RSEL_VAL_0, (uint8_t)PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
 }
 #define NODE_4_PARAMS                                                                                               \
 {                                                                                                                  \
- X(18), Y(16),2, NODE_RSEL_PRSC(RSEL_VAL_0, (uint8_t)PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
+ X(18), Y(16), 20, NODE_RSEL_PRSC(RSEL_VAL_0, (uint8_t)PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
 }
 #define NODE_5_PARAMS                                                                                               \
 {                                                                                                                  \
- X(19), Y(16),2, NODE_RSEL_PRSC(RSEL_VAL_0, (uint8_t)PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
+ X(19), Y(16), 20, NODE_RSEL_PRSC(RSEL_VAL_0, (uint8_t)PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
 }
 #define NODE_6_PARAMS                                                                                               \
 {                                                                                                                  \
- X(0), Y(17),2, NODE_RSEL_PRSC(RSEL_VAL_0, (uint8_t)PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
+ X(0), Y(17), 20, NODE_RSEL_PRSC(RSEL_VAL_0, (uint8_t)PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
 }
 #define NODE_7_PARAMS                                                                                               \
 {                                                                                                                  \
- X(1), Y(17),2, NODE_RSEL_PRSC(RSEL_VAL_0, (uint8_t)PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
+ X(1), Y(17), 20, NODE_RSEL_PRSC(RSEL_VAL_0, (uint8_t)PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
 }
 #define NODE_8_PARAMS                                                                                               \
 {                                                                                                                  \
- X(18), Y(17),2, NODE_RSEL_PRSC(RSEL_VAL_0, (uint8_t)PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
+ X(18), Y(17), 20, NODE_RSEL_PRSC(RSEL_VAL_0, (uint8_t)PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
 }
 #define NODE_9_PARAMS                                                                                               \
 {                                                                                                                  \
- X(19), Y(17),2, NODE_RSEL_PRSC(RSEL_VAL_0, (uint8_t)PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
+ X(19), Y(17), 20, NODE_RSEL_PRSC(RSEL_VAL_0, (uint8_t)PRSC_DIV_SEL_4), NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
 }
 
 /**********************************************************/
@@ -375,6 +375,7 @@ extern uint8_t module_error_code;
 
 
 extern volatile uint8_t measurement_done_touch;
+
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility

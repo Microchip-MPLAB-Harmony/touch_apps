@@ -1,0 +1,82 @@
+configVersion: 1.0.0
+componentName: evsys
+coreVersion: 5.8.2
+device: PIC32CM5164JH01100
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: evsys
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.22.4
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: evsys
+          x: '468'
+          y: '53'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    EVSYS_CHANNEL_0:
+      attributes:
+        id: EVSYS_CHANNEL_0
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    EVSYS_CHANNEL_0_GENERATOR:
+      attributes:
+        id: EVSYS_CHANNEL_0_GENERATOR
+      children:
+      - children:
+        - attributes:
+            value: '41'
+          type: User
+        type: Values
+      type: KeyValueSet
+    EVSYS_CHANNEL_0_GENERATOR_ACTIVE:
+      attributes:
+        id: EVSYS_CHANNEL_0_GENERATOR_ACTIVE
+      children:
+      - children:
+        - attributes:
+            id: evsys
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVSYS_CHANNEL_0_ONDEMAND:
+      attributes:
+        id: EVSYS_CHANNEL_0_ONDEMAND
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    EVSYS_CHANNEL_0_RUNSTANDBY:
+      attributes:
+        id: EVSYS_CHANNEL_0_RUNSTANDBY
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+  userData: {}

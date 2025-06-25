@@ -4,19 +4,19 @@
 
 
 project: pic32ck_gc_cpro
-creation_date: 2025-03-19T13:46:49.381+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
-operating_system: Windows 10
+creation_date: 2025-06-25T15:05:30.009+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+operating_system: Windows 11
 mcc_mode: IDE            # [IDE|Standalone|Headless]
-mcc_version: v5.5.1
-mcc_core_version: v5.7.1
-mplabx_version: v6.20        # if MPLAB X plugin only
-harmony_version: v1.5.5
+mcc_version: v5.6.2
+mcc_core_version: v5.8.2
+mplabx_version: v6.25        # if MPLAB X plugin only
+harmony_version: v5.6.2
 compiler: XC32 4.60
 
 modules:
-    - {name: "csp", version: "v3.20.0"}
-    - {name: "CMSIS_5", version: "5.8.0"}
-    - {name: "touch", version: "REL_v3P18P0"}
+    - {name: "csp", version: "v3.22.4"}
+    - {name: "CMSIS_5", version: "5.9.0"}
+    - {name: "touch", version: "v3.19.0"}
 
 packs:
     - {name: "PIC32CK-GC_DFP", version: "1.1.148"}

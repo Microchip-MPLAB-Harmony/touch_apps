@@ -1,35 +1,34 @@
 /*
  * Header file for PIC32CM5164JH01100
  *
- * Copyright (c) 2023 Microchip Technology Inc. and its subsidiaries.
+ * Copyright (c) 2025 Microchip Technology Inc. and its subsidiaries.
  *
- * Subject to your compliance with these terms, you may use Microchip software and any derivatives
- * exclusively with Microchip products. It is your responsibility to comply with third party license
- * terms applicable to your use of third party software (including open source software) that may
- * accompany Microchip software.
+ * SPDX-License-Identifier: Apache-2.0
  *
- * THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS". NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY,
- * APPLY TO THIS SOFTWARE, INCLUDING ANY IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND
- * FITNESS FOR A PARTICULAR PURPOSE.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
  *
- * IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, INCIDENTAL OR CONSEQUENTIAL
- * LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF
- * MICROCHIP HAS BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE. TO THE FULLEST EXTENT
- * ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL CLAIMS IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT
- * EXCEED THE AMOUNT OF FEES, IF ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  *
  */
 
-/* File generated from device description version 2023-04-26T09:03:33Z */
+/* File generated from device description file (ATDF) version 2025-02-18T10:55:45Z */
 #ifndef _PIC32CM5164JH01100_H_
 #define _PIC32CM5164JH01100_H_
 
 /* Header version uses Semantic Versioning 2.0.0 (https://semver.org/) */
-#define HEADER_FORMAT_VERSION "2.1.0"
+#define HEADER_FORMAT_VERSION "2.1.1"
 
 #define HEADER_FORMAT_VERSION_MAJOR (2)
 #define HEADER_FORMAT_VERSION_MINOR (1)
-#define HEADER_FORMAT_VERSION_PATCH (0)
+#define HEADER_FORMAT_VERSION_PATCH (1)
 
 /* PIC32CM5164JH01100 definitions
   This file defines all structures and symbols for PIC32CM5164JH01100:
@@ -67,7 +66,7 @@
 #endif /* SKIP_INTEGER_LITERALS */
 
 /* ************************************************************************** */
-/* CMSIS DEFINITIONS FOR PIC32CM5164JH01100                                 */
+/*                  CMSIS DEFINITIONS FOR PIC32CM5164JH01100                  */
 /* ************************************************************************** */
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /* Interrupt Number Definition */
@@ -81,7 +80,7 @@ typedef enum IRQn
   PendSV_IRQn               =  -2, /* -2  Pendable request for system service */
   SysTick_IRQn              =  -1, /* -1  System Tick Timer                   */
 
-/******  PIC32CM5164JH01100 specific Interrupt Numbers ***********************************/
+/* ************* PIC32CM5164JH01100 specific Interrupt Numbers ************** */
   MCLK_IRQn                 =   0, /* 0   Shared between MCLK OSCCTRL OSC32KCTRL PAC PM SUPC (MCLK) */
   OSC32KCTRL_IRQn           =   0, /* 0   Shared between MCLK OSCCTRL OSC32KCTRL PAC PM SUPC (OSC32KCTRL) */
   OSCCTRL_IRQn              =   0, /* 0   Shared between MCLK OSCCTRL OSC32KCTRL PAC PM SUPC (OSCCTRL) */
@@ -251,7 +250,7 @@ void ICM_Handler                   ( void );
 #endif /* USE_CMSIS_INIT */
 
 /* ************************************************************************** */
-/*   SOFTWARE PERIPHERAL API DEFINITION FOR PIC32CM5164JH01100                */
+/*         SOFTWARE PERIPHERAL API DEFINITIONS FOR PIC32CM5164JH01100         */
 /* ************************************************************************** */
 #include "component/ac.h"
 #include "component/adc.h"
@@ -288,7 +287,7 @@ void ICM_Handler                   ( void );
 #include "component/wdt.h"
 
 /* ************************************************************************** */
-/*   INSTANCE DEFINITIONS FOR PIC32CM5164JH01100 */
+/*                INSTANCE DEFINITIONS FOR PIC32CM5164JH01100                 */
 /* ************************************************************************** */
 #include "instance/ac.h"
 #include "instance/adc0.h"
@@ -343,7 +342,7 @@ void ICM_Handler                   ( void );
 #include "instance/wdt.h"
 
 /* ************************************************************************** */
-/*  PERIPHERAL ID DEFINITIONS FOR PIC32CM5164JH01100                          */
+/*              PERIPHERAL ID DEFINITIONS FOR PIC32CM5164JH01100              */
 /* ************************************************************************** */
 #define ID_PAC           (  0) /* Instance index for PAC (PAC) */
 #define ID_PM            (  1) /* Instance index for PM (PM) */
@@ -398,7 +397,7 @@ void ICM_Handler                   ( void );
 #define ID_PERIPH_MAX    (100) /* Number of peripheral IDs */
 
 /* ************************************************************************** */
-/*   REGISTER STRUCTURE ADDRESS DEFINITIONS FOR PIC32CM5164JH01100            */
+/*       REGISTER STRUCTURE ADDRESS DEFINITIONS FOR PIC32CM5164JH01100        */
 /* ************************************************************************** */
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 #define AC_REGS                          ((ac_registers_t*)0x42004c00)                 /* AC Registers Address         */
@@ -464,7 +463,7 @@ void ICM_Handler                   ( void );
 #endif /* (defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__)) */
 
 /* ************************************************************************** */
-/*   BASE ADDRESS DEFINITIONS FOR PIC32CM5164JH01100                          */
+/*              BASE ADDRESS DEFINITIONS FOR PIC32CM5164JH01100               */
 /* ************************************************************************** */
 #define AC_BASE_ADDRESS                  _UINT32_(0x42004c00)                          /* AC Base Address */
 #define ADC0_BASE_ADDRESS                _UINT32_(0x42004400)                          /* ADC0 Base Address */
@@ -528,12 +527,12 @@ void ICM_Handler                   ( void );
 #define WDT_BASE_ADDRESS                 _UINT32_(0x40002000)                          /* WDT Base Address */
 
 /* ************************************************************************** */
-/*   PIO DEFINITIONS FOR PIC32CM5164JH01100                                   */
+/*                   PIO DEFINITIONS FOR PIC32CM5164JH01100                   */
 /* ************************************************************************** */
 #include "pio/pic32cm5164jh01100.h"
 
 /* ************************************************************************** */
-/*   MEMORY MAPPING DEFINITIONS FOR PIC32CM5164JH01100                        */
+/*             MEMORY MAPPING DEFINITIONS FOR PIC32CM5164JH01100              */
 /* ************************************************************************** */
 #define FLASH_SIZE                     _UINT32_(0x00080000)    /*  512kB Memory segment type: flash */
 #define FLASH_PAGE_SIZE                _UINT32_(        64)
@@ -583,16 +582,16 @@ void ICM_Handler                   ( void );
 #define PPB_ADDR                       _UINT32_(0xe0000000)    /* PPB base address (type: io)*/
 
 /* ************************************************************************** */
-/*   DEVICE SIGNATURES FOR PIC32CM5164JH01100                                 */
+/*                  DEVICE SIGNATURES FOR PIC32CM5164JH01100                  */
 /* ************************************************************************** */
 #define CHIP_DSU_DID                   _UINT32_(0X11060000)
 
 /* ************************************************************************** */
-/*   ELECTRICAL DEFINITIONS FOR PIC32CM5164JH01100                            */
+/*               ELECTRICAL DEFINITIONS FOR PIC32CM5164JH01100                */
 /* ************************************************************************** */
 
 /* ************************************************************************** */
-/* Event Generator IDs for C32CM5164JH01100 */
+/*                  Event Generator IDs for C32CM5164JH01100                  */
 /* ************************************************************************** */
 #define EVENT_ID_GEN_RTC_PERD                             1 /* ID for RTC event generator PERD */
 #define EVENT_ID_GEN_OSCCTRL_XOSC_FAIL                    3 /* ID for OSCCTRL event generator XOSC_FAIL */
@@ -695,7 +694,7 @@ void ICM_Handler                   ( void );
 #define EVENT_ID_GEN_PDEC_MC_1                          101 /* ID for PDEC event generator MC_1 */
 
 /* ************************************************************************** */
-/*  Event User IDs for C32CM5164JH01100 */
+/*                    Event User IDs for C32CM5164JH01100                     */
 /* ************************************************************************** */
 #define EVENT_ID_USER_PORT_EV_0                           1 /* ID for PORT event user EV_0 */
 #define EVENT_ID_USER_PORT_EV_1                           2 /* ID for PORT event user EV_1 */

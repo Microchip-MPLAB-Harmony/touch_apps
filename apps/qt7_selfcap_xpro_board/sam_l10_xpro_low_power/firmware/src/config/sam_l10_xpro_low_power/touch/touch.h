@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.17.0 Release
+  Touch Library v3.19.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -118,23 +118,23 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #define NODE_0_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(3), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   Y(2)|Y(13)|Y(14)|Y(17)|Y(16), Y(3), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_1_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(13), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   Y(2)|Y(3)|Y(14)|Y(17)|Y(16), Y(13), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_2_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(14), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   Y(2)|Y(3)|Y(13)|Y(17)|Y(16), Y(14), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_3_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(17), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   Y(2)|Y(3)|Y(13)|Y(14)|Y(16), Y(17), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_4_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(16), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   Y(2)|Y(3)|Y(13)|Y(14)|Y(17), Y(16), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 
 /**********************************************************/

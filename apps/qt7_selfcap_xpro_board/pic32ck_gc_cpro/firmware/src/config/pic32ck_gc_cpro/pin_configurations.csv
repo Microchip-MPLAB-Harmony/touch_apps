@@ -53,7 +53,7 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,O
 69,PB07,,Available,,,,,,No,FAST
 70,PB08,,Available,,,,,,No,FAST
 71,PB09,,Available,,,,,,No,FAST
-72,PB10,,Available,,,,,,No,FAST
+72,PB10,LED_SLIDER_4,GPIO,Digital,In/Out,Low,,,No,FAST
 73,PC00,,Available,,,,,,No,FAST
 74,PC01,,PTC_DRV11,Digital,High Impedance,n/a,No,No,No,FAST
 75,PC02,,PTC_DRV12,Digital,High Impedance,n/a,No,No,No,FAST
@@ -61,7 +61,7 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,O
 77,PC04,,Available,,,,,,No,FAST
 80,PC21,,Available,,,,,,No,FAST
 81,PC22,,Available,,,,,,No,FAST
-82,PC14,,Available,,,,,,No,FAST
+82,PC14,LED_SLIDER_3,GPIO,Digital,In/Out,Low,,,No,FAST
 83,PC23,,Available,,,,,,No,FAST
 84,PC05,,Available,,,,,,No,FAST
 85,PC06,,Available,,,,,,No,FAST
@@ -71,11 +71,11 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,O
 92,PC26,,Available,,,,,,No,FAST
 93,PC27,,Available,,,,,,No,FAST
 94,PC09,,Available,,,,,,No,FAST
-95,PC15,,Available,,,,,,No,FAST
+95,PC15,LED_SLIDER_2,GPIO,Digital,In/Out,Low,,,No,FAST
 96,PC28,,Available,,,,,,No,FAST
 97,PC29,,Available,,,,,,No,FAST
-98,PC16,,Available,,,,,,No,FAST
-99,PC17,,Available,,,,,,No,FAST
+98,PC16,LED_SLIDER_0,GPIO,Digital,In/Out,Low,,,No,FAST
+99,PC17,LED_SLIDER_1,GPIO,Digital,In/Out,Low,,,No,FAST
 100,PC18,,Available,,,,,,No,FAST
 101,PC10,,Available,,,,,,No,FAST
 104,PC11,,Available,,,,,,No,FAST
@@ -91,7 +91,7 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,O
 126,PD15,,Available,,,,,,No,FAST
 127,PD16,,Available,,,,,,No,FAST
 130,PD17,,Available,,,,,,No,FAST
-131,PD18,,Available,,,,,,No,FAST
+131,PD18,LED_SLIDER_5,GPIO,Digital,In/Out,Low,,,No,FAST
 132,PD19,,Available,,,,,,No,FAST
 133,PD20,,Available,,,,,,No,FAST
 134,PD21,,Available,,,,,,No,FAST

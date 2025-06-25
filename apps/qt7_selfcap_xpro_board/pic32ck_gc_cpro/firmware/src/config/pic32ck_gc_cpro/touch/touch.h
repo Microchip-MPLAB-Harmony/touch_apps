@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.17.0 Release
+  Touch Library v3.19.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -69,7 +69,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 /* Defines the Type of sensor
  * Default value: NODE_MUTUAL.
  */
-#define DEF_SENSOR_TYPE NODE_SELFCAP
+#define DEF_SENSOR_TYPE NODE_SELFCAP_SHIELD
 
 
 /* Defines the interrupt priority for the PTC. Set low priority to PTC interrupt for applications having interrupt time
@@ -112,15 +112,15 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #define NODE_0_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(11), 0,(uint8_t)PRSC_DIV_SEL_2, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   Y(12)|Y(11), Y(31), 0,(uint8_t)PRSC_DIV_SEL_2, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_32                   \
 }
 #define NODE_1_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(12), 0,(uint8_t)PRSC_DIV_SEL_2, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   Y(31)|Y(11), Y(12), 0,(uint8_t)PRSC_DIV_SEL_2, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_32                   \
 }
 #define NODE_2_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(31), 0,(uint8_t)PRSC_DIV_SEL_2, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   Y(31)|Y(12), Y(11), 0,(uint8_t)PRSC_DIV_SEL_2, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_32                   \
 }
 
 /**********************************************************/
@@ -138,19 +138,19 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #define KEY_0_PARAMS                                                                                            \
 {                                                                                                              \
-    20u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
+    70u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
 }
 
 
 #define KEY_1_PARAMS                                                                                            \
 {                                                                                                              \
-    20u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
+    70u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
 }
 
 
 #define KEY_2_PARAMS                                                                                            \
 {                                                                                                              \
-    20u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
+    70u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
 }
 
 
@@ -267,8 +267,9 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 /**********************************************************/
 /***************** Communication - Data Streamer ******************/
 /**********************************************************/
-#define DEF_TOUCH_DATA_STREAMER_ENABLE 1u
+#define DEF_TOUCH_DATA_STREAMER_ENABLE 0u
 
+#define DEF_TOUCH_TUNE_ENABLE 1u
 
 
 /**********************************************************/

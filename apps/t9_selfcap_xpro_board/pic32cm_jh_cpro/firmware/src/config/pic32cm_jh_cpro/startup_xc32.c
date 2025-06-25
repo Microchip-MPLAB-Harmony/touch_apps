@@ -75,7 +75,7 @@ extern uint32_t _stack;
 extern int main(void);
 
 
-__STATIC_INLINE void  __attribute__((optimize("-O1")))  RAM_Initialize(void)
+__STATIC_INLINE void  __attribute__((optimize("-O1"))) __attribute__((always_inline)) RAM_Initialize(void)
 {
     register uint32_t *pRam;
 

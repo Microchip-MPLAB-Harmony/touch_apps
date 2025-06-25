@@ -1,0 +1,732 @@
+configVersion: 1.0.0
+componentName: core
+coreVersion: 5.8.2
+device: ATSAML10E16A
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: core
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.22.4
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: core
+          x: '340'
+          y: '20'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    CONFIG_CLOCK_DPLL_ENABLE:
+      attributes:
+        id: CONFIG_CLOCK_DPLL_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+    CONFIG_CLOCK_OSC16M_FREQSEL:
+      attributes:
+        id: CONFIG_CLOCK_OSC16M_FREQSEL
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+    CONFIG_CLOCK_OSC16M_ONDEMAND:
+      attributes:
+        id: CONFIG_CLOCK_OSC16M_ONDEMAND
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+    CPU_CLOCK_FREQUENCY:
+      attributes:
+        id: CPU_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '8000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    DPLL96M_CLOCK_FREQ:
+      attributes:
+        id: DPLL96M_CLOCK_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_0_DIV:
+      attributes:
+        id: GCLK_0_DIV
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '2'
+          type: Dynamic
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: Integer
+    GCLK_0_DIVIDER_VALUE:
+      attributes:
+        id: GCLK_0_DIVIDER_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_0_FREQ:
+      attributes:
+        id: GCLK_0_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '8000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_0_SRC:
+      attributes:
+        id: GCLK_0_SRC
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '3'
+          type: Dynamic
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+    GCLK_1_DIV:
+      attributes:
+        id: GCLK_1_DIV
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '4'
+          type: Dynamic
+        - attributes:
+            value: '2'
+          type: User
+        type: Values
+      type: Integer
+    GCLK_1_DIVIDER_VALUE:
+      attributes:
+        id: GCLK_1_DIVIDER_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '2'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_1_FREQ:
+      attributes:
+        id: GCLK_1_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '4000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_2_FREQ:
+      attributes:
+        id: GCLK_2_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_3_FREQ:
+      attributes:
+        id: GCLK_3_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_4_FREQ:
+      attributes:
+        id: GCLK_4_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_CYCLE_FORMED:
+      attributes:
+        id: GCLK_CYCLE_FORMED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GCLK_ID_0_FREQ:
+      attributes:
+        id: GCLK_ID_0_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '4000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_19_CHEN:
+      attributes:
+        id: GCLK_ID_19_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GCLK_ID_19_FREQ:
+      attributes:
+        id: GCLK_ID_19_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '4000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_19_GENSEL:
+      attributes:
+        id: GCLK_ID_19_GENSEL
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+    GCLK_ID_6_CHEN:
+      attributes:
+        id: GCLK_ID_6_CHEN
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    GCLK_ID_6_FREQ:
+      attributes:
+        id: GCLK_ID_6_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '4000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_6_GENSEL:
+      attributes:
+        id: GCLK_ID_6_GENSEL
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+    MCLK_APBC_INITIAL_VALUE:
+      attributes:
+        id: MCLK_APBC_INITIAL_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1fff'
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_-1_0_ENABLE:
+      attributes:
+        id: NVIC_-1_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_-1_0_HANDLER:
+      attributes:
+        id: NVIC_-1_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SysTick_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_-1_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_-1_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_-2_0_ENABLE:
+      attributes:
+        id: NVIC_-2_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_-2_0_HANDLER:
+      attributes:
+        id: NVIC_-2_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PendSV_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_-2_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_-2_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_-5_0_ENABLE:
+      attributes:
+        id: NVIC_-5_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_-5_0_HANDLER:
+      attributes:
+        id: NVIC_-5_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SVCall_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_-5_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_-5_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_2_0_ENABLE:
+      attributes:
+        id: NVIC_2_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_2_0_HANDLER:
+      attributes:
+        id: NVIC_2_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: RTC_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_2_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_2_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_42_0_ENABLE:
+      attributes:
+        id: NVIC_42_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_42_0_HANDLER:
+      attributes:
+        id: NVIC_42_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PTC_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    OSC16M_FREQ:
+      attributes:
+        id: OSC16M_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '8000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    PTC_CLOCK_ENABLE:
+      attributes:
+        id: PTC_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PTC_CLOCK_FREQUENCY:
+      attributes:
+        id: PTC_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '4000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    PTC_INTERRUPT_ENABLE:
+      attributes:
+        id: PTC_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PTC_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: PTC_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PTC_INTERRUPT_HANDLER:
+      attributes:
+        id: PTC_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: PTC_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    PendSV_INTERRUPT_ENABLE:
+      attributes:
+        id: PendSV_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PendSV_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: PendSV_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PendSV_INTERRUPT_HANDLER:
+      attributes:
+        id: PendSV_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PendSV_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    PendSV_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: PendSV_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    RTC_INTERRUPT_ENABLE:
+      attributes:
+        id: RTC_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: rtc
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    RTC_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: RTC_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    RTC_INTERRUPT_HANDLER:
+      attributes:
+        id: RTC_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: rtc
+            value: RTC_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    RTC_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: RTC_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: rtc
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SVCall_INTERRUPT_ENABLE:
+      attributes:
+        id: SVCall_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SVCall_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SVCall_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SVCall_INTERRUPT_HANDLER:
+      attributes:
+        id: SVCall_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SVCall_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    SVCall_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: SVCall_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SYSTICK_PERIOD:
+      attributes:
+        id: SYSTICK_PERIOD
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1F40'
+          type: Dynamic
+        type: Values
+      type: String
+    SYSTICK_PERIOD_US:
+      attributes:
+        id: SYSTICK_PERIOD_US
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '1000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    SysTick_INTERRUPT_ENABLE:
+      attributes:
+        id: SysTick_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SysTick_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SysTick_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SysTick_INTERRUPT_HANDLER:
+      attributes:
+        id: SysTick_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SysTick_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    SysTick_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: SysTick_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+  userData:
+    children:
+    - attributes:
+        canvasHeight: '386'
+        canvasWidth: '933'
+      type: GraphSettings
+    - children:
+      - attributes:
+          id: profile0
+          name: Main
+        type: Profile
+      type: PowerProfiles
+    type: UserData

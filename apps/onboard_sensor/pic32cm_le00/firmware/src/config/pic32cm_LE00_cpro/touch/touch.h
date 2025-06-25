@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.14.0 Release
+  Touch Library v3.19.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -16,7 +16,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (c) 2023 released Microchip Technology Inc.  All rights reserved.
+Copyright (c) 2025 released Microchip Technology Inc.  All rights reserved.
 
 Microchip licenses to you the right to use, modify, copy and distribute
 Software only when embedded on a Microchip microcontroller or digital signal
@@ -111,14 +111,14 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 
 /* Defines node parameter setting
- * {X-line, Y-line, Charge Share Delay, NODE_RSEL_PRSC(series resistor, prescaler), NODE_G(Analog Gain , Digital Gain),
+ * {X-line, Y-line, Charge Share Delay (CSD), NODE_RSEL_PRSC(series resistor, prescaler), NODE_G(Analog Gain , Digital Gain),
  * filter level}
  */
 
 
 #define NODE_0_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(30), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   Y(1), Y(30), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 
 /**********************************************************/
@@ -256,6 +256,7 @@ extern uint8_t module_error_code;
 
 
 extern volatile uint8_t measurement_done_touch;
+
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility

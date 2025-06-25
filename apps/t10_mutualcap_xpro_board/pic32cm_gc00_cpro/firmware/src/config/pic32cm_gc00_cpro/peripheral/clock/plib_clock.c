@@ -81,6 +81,9 @@ static void PLL0_Initialize(void)
 static void GCLK0_Initialize(void)
 {
 
+    /* Clear Main Clock Ready bit */
+    MCLK_REGS->MCLK_INTFLAG = MCLK_INTFLAG_CKRDY_Msk;
+
     /* Selection of the Clock Domain Division Factor */
     MCLK_REGS->MCLK_CLKDIV[0] = MCLK_CLKDIV_DIV(1U);
 
@@ -141,6 +144,13 @@ void CLOCK_Initialize (void)
     GCLK2_Initialize();
 
 
+    /* Selection of the Generator and write Lock for SERCOM1_CORE */
+    GCLK_REGS->GCLK_PCHCTRL[22] = GCLK_PCHCTRL_GEN(0x1)  | GCLK_PCHCTRL_CHEN_Msk;
+
+    while ((GCLK_REGS->GCLK_PCHCTRL[22] & GCLK_PCHCTRL_CHEN_Msk) != GCLK_PCHCTRL_CHEN_Msk)
+    {
+        /* Wait for synchronization */
+    }
     /* Selection of the Generator and write Lock for SERCOM4_CORE */
     GCLK_REGS->GCLK_PCHCTRL[28] = GCLK_PCHCTRL_GEN(0x1)  | GCLK_PCHCTRL_CHEN_Msk;
 

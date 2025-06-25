@@ -1,0 +1,628 @@
+configVersion: 1.0.0
+componentName: lib_qtouch
+coreVersion: 5.8.2
+device: PIC32CK2051GC01144
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: lib_qtouch
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: touch
+  type: package
+  version: v3.19.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments:
+    children:
+    - children:
+      - attributes:
+          id: Touch_sercom
+        children:
+        - children:
+          - attributes:
+              id: enabled
+            children:
+            - type: Value
+              value: 'false'
+            type: Boolean
+          type: Attributes
+        type: DirectDependency
+      - attributes:
+          id: Touch_sercom_Krono
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: sercom5
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: SERCOM5_UART
+            type: String
+          - attributes:
+              id: enabled
+            children:
+            - type: Value
+              value: 'true'
+            type: Boolean
+          type: Attributes
+        type: DirectDependency
+      - attributes:
+          id: Touch_timer
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: rtc
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: RTC_TMR
+            type: String
+          type: Attributes
+        type: DirectDependency
+      - attributes:
+          id: lib_acquire
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: ptc
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: ptc_Acq_Engine
+            type: String
+          type: Attributes
+        type: DirectDependency
+      type: Attachments
+    type: lib_qtouch
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: lib_qtouch
+          x: '222'
+          y: '176'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    DEF_DIGI_FILT_OVERSAMPLING0:
+      attributes:
+        id: DEF_DIGI_FILT_OVERSAMPLING0
+      children:
+      - children:
+        - attributes:
+            value: '5'
+          type: User
+        type: Values
+      type: KeyValueSet
+    DEF_DIGI_FILT_OVERSAMPLING1:
+      attributes:
+        id: DEF_DIGI_FILT_OVERSAMPLING1
+      children:
+      - children:
+        - attributes:
+            value: '5'
+          type: User
+        type: Values
+      type: KeyValueSet
+    DEF_DIGI_FILT_OVERSAMPLING2:
+      attributes:
+        id: DEF_DIGI_FILT_OVERSAMPLING2
+      children:
+      - children:
+        - attributes:
+            value: '5'
+          type: User
+        type: Values
+      type: KeyValueSet
+    DEF_NOD_PTC_PRESCALER0:
+      attributes:
+        id: DEF_NOD_PTC_PRESCALER0
+      children:
+      - children:
+        - attributes:
+            value: '0'
+          type: User
+        type: Values
+      type: KeyValueSet
+    DEF_NOD_PTC_PRESCALER1:
+      attributes:
+        id: DEF_NOD_PTC_PRESCALER1
+      children:
+      - children:
+        - attributes:
+            value: '0'
+          type: User
+        type: Values
+      type: KeyValueSet
+    DEF_NOD_PTC_PRESCALER2:
+      attributes:
+        id: DEF_NOD_PTC_PRESCALER2
+      children:
+      - children:
+        - attributes:
+            value: '0'
+          type: User
+        type: Values
+      type: KeyValueSet
+    DEF_SENSOR_DET_THRESHOLD0:
+      attributes:
+        id: DEF_SENSOR_DET_THRESHOLD0
+      children:
+      - children:
+        - attributes:
+            value: '70'
+          type: User
+        type: Values
+      type: Integer
+    DEF_SENSOR_DET_THRESHOLD1:
+      attributes:
+        id: DEF_SENSOR_DET_THRESHOLD1
+      children:
+      - children:
+        - attributes:
+            value: '70'
+          type: User
+        type: Values
+      type: Integer
+    DEF_SENSOR_DET_THRESHOLD2:
+      attributes:
+        id: DEF_SENSOR_DET_THRESHOLD2
+      children:
+      - children:
+        - attributes:
+            value: '70'
+          type: User
+        type: Values
+      type: Integer
+    DISABLE_AUTOTUNE_CSD:
+      attributes:
+        id: DISABLE_AUTOTUNE_CSD
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    DS_ADJACENT_SENSE_LINE_AS_SHIELD:
+      attributes:
+        id: DS_ADJACENT_SENSE_LINE_AS_SHIELD
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    ENABLE_DATA_STREAMER:
+      attributes:
+        id: ENABLE_DATA_STREAMER
+      children:
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+    ENABLE_SCROLLER:
+      attributes:
+        id: ENABLE_SCROLLER
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: 'false'
+          type: Dynamic
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    ENABLE_TOUCH_TUNE_WITH_PLUGIN:
+      attributes:
+        id: ENABLE_TOUCH_TUNE_WITH_PLUGIN
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    FTL_X_INFO:
+      attributes:
+        id: FTL_X_INFO
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: Y(12)|Y(11),Y(31)|Y(11),Y(31)|Y(12)
+          type: Dynamic
+        type: Values
+      type: String
+    FTL_Y_INFO:
+      attributes:
+        id: FTL_Y_INFO
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: Y(31),Y(12),Y(11)
+          type: Dynamic
+        type: Values
+      type: String
+    GET_PTC_CLOCK_FREQUENCY:
+      attributes:
+        id: GET_PTC_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: '4000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    HELPER_STATE:
+      attributes:
+        id: HELPER_STATE
+      children:
+      - children:
+        - attributes:
+            value: '{"alert":true}'
+          type: User
+        type: Values
+      type: String
+    PTC_CLOCK_FREQ:
+      attributes:
+        id: PTC_CLOCK_FREQ
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: GCLK_ID_35_FREQ:sync
+          type: Dynamic
+        - attributes:
+            value: GCLK_ID_35_FREQ
+          type: User
+        type: Values
+      type: String
+    SELFCAP-INPUT_0:
+      attributes:
+        id: SELFCAP-INPUT_0
+      children:
+      - children:
+        - attributes:
+            value: '31'
+          type: User
+        type: Values
+      type: KeyValueSet
+    SELFCAP-INPUT_1:
+      attributes:
+        id: SELFCAP-INPUT_1
+      children:
+      - children:
+        - attributes:
+            value: '12'
+          type: User
+        type: Values
+      type: KeyValueSet
+    SELFCAP-INPUT_2:
+      attributes:
+        id: SELFCAP-INPUT_2
+      children:
+      - children:
+        - attributes:
+            value: '11'
+          type: User
+        type: Values
+      type: KeyValueSet
+    SENSE_TECHNOLOGY:
+      attributes:
+        id: SENSE_TECHNOLOGY
+      children:
+      - children:
+        - attributes:
+            value: '2'
+          type: User
+        type: Values
+      type: KeyValueSet
+    TOUCH_CHAN_ENABLE_CNT:
+      attributes:
+        id: TOUCH_CHAN_ENABLE_CNT
+      children:
+      - children:
+        - attributes:
+            value: '3'
+          type: User
+        type: Values
+      type: Integer
+    TOUCH_DATA_STREAMER_HEADER:
+      attributes:
+        id: TOUCH_DATA_STREAMER_HEADER
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        type: Attributes
+      type: File
+    TOUCH_DATA_STREAMER_HEADER_db:
+      attributes:
+        id: TOUCH_DATA_STREAMER_HEADER_db
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        type: Attributes
+      type: File
+    TOUCH_DATA_STREAMER_HEADER_ds:
+      attributes:
+        id: TOUCH_DATA_STREAMER_HEADER_ds
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        type: Attributes
+      type: File
+    TOUCH_DATA_STREAMER_HEADER_sc:
+      attributes:
+        id: TOUCH_DATA_STREAMER_HEADER_sc
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        type: Attributes
+      type: File
+    TOUCH_DATA_STREAMER_SOURCE:
+      attributes:
+        id: TOUCH_DATA_STREAMER_SOURCE
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        type: Attributes
+      type: File
+    TOUCH_ENABLE_CH_0:
+      attributes:
+        id: TOUCH_ENABLE_CH_0
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    TOUCH_ENABLE_CH_1:
+      attributes:
+        id: TOUCH_ENABLE_CH_1
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    TOUCH_ENABLE_CH_2:
+      attributes:
+        id: TOUCH_ENABLE_CH_2
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    TOUCH_ENABLE_KEY_0:
+      attributes:
+        id: TOUCH_ENABLE_KEY_0
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    TOUCH_ENABLE_KEY_1:
+      attributes:
+        id: TOUCH_ENABLE_KEY_1
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    TOUCH_ENABLE_KEY_2:
+      attributes:
+        id: TOUCH_ENABLE_KEY_2
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    TOUCH_ENABLE_SCROLLER_0:
+      attributes:
+        id: TOUCH_ENABLE_SCROLLER_0
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    TOUCH_KEY_ENABLE_CNT:
+      attributes:
+        id: TOUCH_KEY_ENABLE_CNT
+      children:
+      - children:
+        - attributes:
+            value: '3'
+          type: User
+        type: Values
+      type: Integer
+    TOUCH_LOADED:
+      attributes:
+        id: TOUCH_LOADED
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    TOUCH_PRE_GENERATE:
+      attributes:
+        id: TOUCH_PRE_GENERATE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TOUCH_SCRIPT_EVENT:
+      attributes:
+        id: TOUCH_SCRIPT_EVENT
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: ptcclock
+          type: Dynamic
+        type: Values
+      type: String
+    TOUCH_SCROLLER_ENABLE_CNT:
+      attributes:
+        id: TOUCH_SCROLLER_ENABLE_CNT
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: Integer
+    TOUCH_SCR_HEADER:
+      attributes:
+        id: TOUCH_SCR_HEADER
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    TOUCH_SCR_LIB:
+      attributes:
+        id: TOUCH_SCR_LIB
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: Library
+    TOUCH_SERCOM_KRONO_INSTANCE:
+      attributes:
+        id: TOUCH_SERCOM_KRONO_INSTANCE
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: SERCOM5
+          type: Dynamic
+        type: Values
+      type: String
+    TOUCH_TIMER_INSTANCE:
+      attributes:
+        id: TOUCH_TIMER_INSTANCE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: RTC
+          type: Dynamic
+        type: Values
+      type: String
+    TOUCH_TUNE_WITH_PLUGIN_HEADER:
+      attributes:
+        id: TOUCH_TUNE_WITH_PLUGIN_HEADER
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    TOUCH_TUNE_WITH_PLUGIN_SOURCE:
+      attributes:
+        id: TOUCH_TUNE_WITH_PLUGIN_SOURCE
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+  userData: {}

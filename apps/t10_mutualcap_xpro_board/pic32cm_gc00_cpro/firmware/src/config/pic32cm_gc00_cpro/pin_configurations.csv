@@ -58,23 +58,23 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,O
 73,PC06,,Available,,,,,,No,FAST
 74,PC07,,Available,,,,,,No,FAST
 75,PC08,,Available,,,,,,No,FAST
-76,PD00,,Available,,,,,,No,FAST
+76,PD00,,SERCOM1_PAD1,Digital,High Impedance,n/a,No,No,No,FAST
 77,PD10,,Available,,,,,,No,FAST
 78,PD14,,Available,,,,,,No,FAST
 79,PD11,,Available,,,,,,No,FAST
-80,PD01,,Available,,,,,,No,FAST
+80,PD01,,SERCOM1_PAD0,Digital,High Impedance,n/a,No,No,No,FAST
 83,PD02,,Available,,,,,,No,FAST
 84,PD03,,Available,,,,,,No,FAST
 85,PD15,,Available,,,,,,No,FAST
 86,PD16,,Available,,,,,,No,FAST
 87,PD17,,Available,,,,,,No,FAST
 88,PD12,,Available,,,,,,No,FAST
-89,PD18,,SERCOM4_PAD2,Digital,High Impedance,n/a,No,No,No,FAST
+89,PD18,,Available,,,,,,No,FAST
 90,PD13,,Available,,,,,,No,FAST
 94,PD07,,Available,,,,,,No,FAST
 95,PD19,,SERCOM4_PAD0,Digital,High Impedance,n/a,No,No,No,FAST
 96,PD04,,Available,,,,,,No,FAST
 97,PD05,,Available,,,,,,No,FAST
 98,PD08,,Available,,,,,,No,FAST
-99,PD20,,Available,,,,,,No,FAST
+99,PD20,,SERCOM4_PAD1,Digital,High Impedance,n/a,No,No,No,FAST
 100,PD09,,Available,,,,,,No,FAST

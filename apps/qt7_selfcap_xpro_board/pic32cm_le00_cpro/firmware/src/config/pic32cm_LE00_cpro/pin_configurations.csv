@@ -7,12 +7,12 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,D
 6,PC03,,Available,,,,,,NORMAL
 7,PA02,,Available,,,,,,NORMAL
 8,PA03,,Available,,,,,,NORMAL
-9,PB04,,Available,,,,,,NORMAL
+9,PB04,,PTC_DRV26/X26/Y26,Digital,High Impedance,n/a,No,No,NORMAL
 10,PB05,,Available,,,,,,NORMAL
 13,PB06,,Available,,,,,,NORMAL
-14,PB07,,Available,,,,,,NORMAL
-15,PB08,,Available,,,,,,NORMAL
-16,PB09,,Available,,,,,,NORMAL
+14,PB07,,PTC_DRV29/X29/Y29,Digital,High Impedance,n/a,No,No,NORMAL
+15,PB08,,PTC_DRV20/X20/Y20,Digital,High Impedance,n/a,No,No,NORMAL
+16,PB09,,PTC_DRV21/X21/Y21,Digital,High Impedance,n/a,No,No,NORMAL
 17,PA04,,Available,,,,,,NORMAL
 18,PA05,,Available,,,,,,NORMAL
 19,PA06,,Available,,,,,,NORMAL

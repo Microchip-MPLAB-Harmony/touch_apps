@@ -1,40 +1,39 @@
 /*
  * Component description for MTB
  *
- * Copyright (c) 2023 Microchip Technology Inc. and its subsidiaries.
+ * Copyright (c) 2025 Microchip Technology Inc. and its subsidiaries.
  *
- * Subject to your compliance with these terms, you may use Microchip software and any derivatives
- * exclusively with Microchip products. It is your responsibility to comply with third party license
- * terms applicable to your use of third party software (including open source software) that may
- * accompany Microchip software.
+ * SPDX-License-Identifier: Apache-2.0
  *
- * THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS". NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY,
- * APPLY TO THIS SOFTWARE, INCLUDING ANY IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND
- * FITNESS FOR A PARTICULAR PURPOSE.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
  *
- * IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, INCIDENTAL OR CONSEQUENTIAL
- * LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF
- * MICROCHIP HAS BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE. TO THE FULLEST EXTENT
- * ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL CLAIMS IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT
- * EXCEED THE AMOUNT OF FEES, IF ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  *
  */
 
-/* file generated from device description version 2023-04-26T09:03:33Z */
+/*  file generated from device description file (ATDF) version 2025-02-18T10:55:45Z  */
 #ifndef _PIC32CMJH01_MTB_COMPONENT_H_
 #define _PIC32CMJH01_MTB_COMPONENT_H_
 
 /* ************************************************************************** */
-/*   SOFTWARE API DEFINITION FOR MTB                                          */
+/*                      SOFTWARE API DEFINITION FOR MTB                       */
 /* ************************************************************************** */
 
 /* -------- MTB_POSITION : (MTB Offset: 0x00) (R/W 32) MTB Position -------- */
 #define MTB_POSITION_WRAP_Pos                 _UINT32_(2)                                          /* (MTB_POSITION) Pointer Value Wraps Position */
 #define MTB_POSITION_WRAP_Msk                 (_UINT32_(0x1) << MTB_POSITION_WRAP_Pos)             /* (MTB_POSITION) Pointer Value Wraps Mask */
-#define MTB_POSITION_WRAP(value)              (MTB_POSITION_WRAP_Msk & (_UINT32_(value) << MTB_POSITION_WRAP_Pos)) /* Assigment of value for WRAP in the MTB_POSITION register */
+#define MTB_POSITION_WRAP(value)              (MTB_POSITION_WRAP_Msk & (_UINT32_(value) << MTB_POSITION_WRAP_Pos)) /* Assignment of value for WRAP in the MTB_POSITION register */
 #define MTB_POSITION_POINTER_Pos              _UINT32_(3)                                          /* (MTB_POSITION) Trace Packet Location Pointer Position */
 #define MTB_POSITION_POINTER_Msk              (_UINT32_(0x1FFFFFFF) << MTB_POSITION_POINTER_Pos)   /* (MTB_POSITION) Trace Packet Location Pointer Mask */
-#define MTB_POSITION_POINTER(value)           (MTB_POSITION_POINTER_Msk & (_UINT32_(value) << MTB_POSITION_POINTER_Pos)) /* Assigment of value for POINTER in the MTB_POSITION register */
+#define MTB_POSITION_POINTER(value)           (MTB_POSITION_POINTER_Msk & (_UINT32_(value) << MTB_POSITION_POINTER_Pos)) /* Assignment of value for POINTER in the MTB_POSITION register */
 #define MTB_POSITION_Msk                      _UINT32_(0xFFFFFFFC)                                 /* (MTB_POSITION) Register Mask  */
 
 
@@ -43,25 +42,25 @@
 
 #define MTB_MASTER_MASK_Pos                   _UINT32_(0)                                          /* (MTB_MASTER) Maximum Value of the Trace Buffer in SRAM Position */
 #define MTB_MASTER_MASK_Msk                   (_UINT32_(0x1F) << MTB_MASTER_MASK_Pos)              /* (MTB_MASTER) Maximum Value of the Trace Buffer in SRAM Mask */
-#define MTB_MASTER_MASK(value)                (MTB_MASTER_MASK_Msk & (_UINT32_(value) << MTB_MASTER_MASK_Pos)) /* Assigment of value for MASK in the MTB_MASTER register */
+#define MTB_MASTER_MASK(value)                (MTB_MASTER_MASK_Msk & (_UINT32_(value) << MTB_MASTER_MASK_Pos)) /* Assignment of value for MASK in the MTB_MASTER register */
 #define MTB_MASTER_TSTARTEN_Pos               _UINT32_(5)                                          /* (MTB_MASTER) Trace Start Input Enable Position */
 #define MTB_MASTER_TSTARTEN_Msk               (_UINT32_(0x1) << MTB_MASTER_TSTARTEN_Pos)           /* (MTB_MASTER) Trace Start Input Enable Mask */
-#define MTB_MASTER_TSTARTEN(value)            (MTB_MASTER_TSTARTEN_Msk & (_UINT32_(value) << MTB_MASTER_TSTARTEN_Pos)) /* Assigment of value for TSTARTEN in the MTB_MASTER register */
+#define MTB_MASTER_TSTARTEN(value)            (MTB_MASTER_TSTARTEN_Msk & (_UINT32_(value) << MTB_MASTER_TSTARTEN_Pos)) /* Assignment of value for TSTARTEN in the MTB_MASTER register */
 #define MTB_MASTER_TSTOPEN_Pos                _UINT32_(6)                                          /* (MTB_MASTER) Trace Stop Input Enable Position */
 #define MTB_MASTER_TSTOPEN_Msk                (_UINT32_(0x1) << MTB_MASTER_TSTOPEN_Pos)            /* (MTB_MASTER) Trace Stop Input Enable Mask */
-#define MTB_MASTER_TSTOPEN(value)             (MTB_MASTER_TSTOPEN_Msk & (_UINT32_(value) << MTB_MASTER_TSTOPEN_Pos)) /* Assigment of value for TSTOPEN in the MTB_MASTER register */
+#define MTB_MASTER_TSTOPEN(value)             (MTB_MASTER_TSTOPEN_Msk & (_UINT32_(value) << MTB_MASTER_TSTOPEN_Pos)) /* Assignment of value for TSTOPEN in the MTB_MASTER register */
 #define MTB_MASTER_SFRWPRIV_Pos               _UINT32_(7)                                          /* (MTB_MASTER) Special Function Register Write Privilege Position */
 #define MTB_MASTER_SFRWPRIV_Msk               (_UINT32_(0x1) << MTB_MASTER_SFRWPRIV_Pos)           /* (MTB_MASTER) Special Function Register Write Privilege Mask */
-#define MTB_MASTER_SFRWPRIV(value)            (MTB_MASTER_SFRWPRIV_Msk & (_UINT32_(value) << MTB_MASTER_SFRWPRIV_Pos)) /* Assigment of value for SFRWPRIV in the MTB_MASTER register */
+#define MTB_MASTER_SFRWPRIV(value)            (MTB_MASTER_SFRWPRIV_Msk & (_UINT32_(value) << MTB_MASTER_SFRWPRIV_Pos)) /* Assignment of value for SFRWPRIV in the MTB_MASTER register */
 #define MTB_MASTER_RAMPRIV_Pos                _UINT32_(8)                                          /* (MTB_MASTER) SRAM Privilege Position */
 #define MTB_MASTER_RAMPRIV_Msk                (_UINT32_(0x1) << MTB_MASTER_RAMPRIV_Pos)            /* (MTB_MASTER) SRAM Privilege Mask */
-#define MTB_MASTER_RAMPRIV(value)             (MTB_MASTER_RAMPRIV_Msk & (_UINT32_(value) << MTB_MASTER_RAMPRIV_Pos)) /* Assigment of value for RAMPRIV in the MTB_MASTER register */
+#define MTB_MASTER_RAMPRIV(value)             (MTB_MASTER_RAMPRIV_Msk & (_UINT32_(value) << MTB_MASTER_RAMPRIV_Pos)) /* Assignment of value for RAMPRIV in the MTB_MASTER register */
 #define MTB_MASTER_HALTREQ_Pos                _UINT32_(9)                                          /* (MTB_MASTER) Halt Request Position */
 #define MTB_MASTER_HALTREQ_Msk                (_UINT32_(0x1) << MTB_MASTER_HALTREQ_Pos)            /* (MTB_MASTER) Halt Request Mask */
-#define MTB_MASTER_HALTREQ(value)             (MTB_MASTER_HALTREQ_Msk & (_UINT32_(value) << MTB_MASTER_HALTREQ_Pos)) /* Assigment of value for HALTREQ in the MTB_MASTER register */
+#define MTB_MASTER_HALTREQ(value)             (MTB_MASTER_HALTREQ_Msk & (_UINT32_(value) << MTB_MASTER_HALTREQ_Pos)) /* Assignment of value for HALTREQ in the MTB_MASTER register */
 #define MTB_MASTER_EN_Pos                     _UINT32_(31)                                         /* (MTB_MASTER) Main Trace Enable Position */
 #define MTB_MASTER_EN_Msk                     (_UINT32_(0x1) << MTB_MASTER_EN_Pos)                 /* (MTB_MASTER) Main Trace Enable Mask */
-#define MTB_MASTER_EN(value)                  (MTB_MASTER_EN_Msk & (_UINT32_(value) << MTB_MASTER_EN_Pos)) /* Assigment of value for EN in the MTB_MASTER register */
+#define MTB_MASTER_EN(value)                  (MTB_MASTER_EN_Msk & (_UINT32_(value) << MTB_MASTER_EN_Pos)) /* Assignment of value for EN in the MTB_MASTER register */
 #define MTB_MASTER_Msk                        _UINT32_(0x800003FF)                                 /* (MTB_MASTER) Register Mask  */
 
 
@@ -70,13 +69,13 @@
 
 #define MTB_FLOW_AUTOSTOP_Pos                 _UINT32_(0)                                          /* (MTB_FLOW) Auto Stop Tracing Position */
 #define MTB_FLOW_AUTOSTOP_Msk                 (_UINT32_(0x1) << MTB_FLOW_AUTOSTOP_Pos)             /* (MTB_FLOW) Auto Stop Tracing Mask */
-#define MTB_FLOW_AUTOSTOP(value)              (MTB_FLOW_AUTOSTOP_Msk & (_UINT32_(value) << MTB_FLOW_AUTOSTOP_Pos)) /* Assigment of value for AUTOSTOP in the MTB_FLOW register */
+#define MTB_FLOW_AUTOSTOP(value)              (MTB_FLOW_AUTOSTOP_Msk & (_UINT32_(value) << MTB_FLOW_AUTOSTOP_Pos)) /* Assignment of value for AUTOSTOP in the MTB_FLOW register */
 #define MTB_FLOW_AUTOHALT_Pos                 _UINT32_(1)                                          /* (MTB_FLOW) Auto Halt Request Position */
 #define MTB_FLOW_AUTOHALT_Msk                 (_UINT32_(0x1) << MTB_FLOW_AUTOHALT_Pos)             /* (MTB_FLOW) Auto Halt Request Mask */
-#define MTB_FLOW_AUTOHALT(value)              (MTB_FLOW_AUTOHALT_Msk & (_UINT32_(value) << MTB_FLOW_AUTOHALT_Pos)) /* Assigment of value for AUTOHALT in the MTB_FLOW register */
+#define MTB_FLOW_AUTOHALT(value)              (MTB_FLOW_AUTOHALT_Msk & (_UINT32_(value) << MTB_FLOW_AUTOHALT_Pos)) /* Assignment of value for AUTOHALT in the MTB_FLOW register */
 #define MTB_FLOW_WATERMARK_Pos                _UINT32_(3)                                          /* (MTB_FLOW) Watermark value Position */
 #define MTB_FLOW_WATERMARK_Msk                (_UINT32_(0x1FFFFFFF) << MTB_FLOW_WATERMARK_Pos)     /* (MTB_FLOW) Watermark value Mask */
-#define MTB_FLOW_WATERMARK(value)             (MTB_FLOW_WATERMARK_Msk & (_UINT32_(value) << MTB_FLOW_WATERMARK_Pos)) /* Assigment of value for WATERMARK in the MTB_FLOW register */
+#define MTB_FLOW_WATERMARK(value)             (MTB_FLOW_WATERMARK_Msk & (_UINT32_(value) << MTB_FLOW_WATERMARK_Pos)) /* Assignment of value for WATERMARK in the MTB_FLOW register */
 #define MTB_FLOW_Msk                          _UINT32_(0xFFFFFFFB)                                 /* (MTB_FLOW) Register Mask  */
 
 
@@ -168,7 +167,7 @@
 #define MTB_CID3_Msk                          _UINT32_(0x00000000)                                 /* (MTB_CID3) Register Mask  */
 
 
-/** \brief MTB register offsets definitions */
+/* MTB register offsets definitions */
 #define MTB_POSITION_REG_OFST          _UINT32_(0x00)      /* (MTB_POSITION) MTB Position Offset */
 #define MTB_MASTER_REG_OFST            _UINT32_(0x04)      /* (MTB_MASTER) MTB Master Offset */
 #define MTB_FLOW_REG_OFST              _UINT32_(0x08)      /* (MTB_FLOW) MTB Flow Offset */
@@ -196,38 +195,38 @@
 #define MTB_CID3_REG_OFST              _UINT32_(0xFFC)     /* (MTB_CID3) Component Identification 3 Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
-/** \brief MTB register API structure */
+/* MTB register API structure */
 typedef struct
 {  /* Cortex-M0+ Micro-Trace Buffer */
-  __IO  uint32_t                       MTB_POSITION;       /**< Offset: 0x00 (R/W  32) MTB Position */
-  __IO  uint32_t                       MTB_MASTER;         /**< Offset: 0x04 (R/W  32) MTB Master */
-  __IO  uint32_t                       MTB_FLOW;           /**< Offset: 0x08 (R/W  32) MTB Flow */
-  __I   uint32_t                       MTB_BASE;           /**< Offset: 0x0C (R/   32) MTB Base */
+  __IO  uint32_t                       MTB_POSITION;       /* Offset: 0x00 (R/W  32) MTB Position */
+  __IO  uint32_t                       MTB_MASTER;         /* Offset: 0x04 (R/W  32) MTB Master */
+  __IO  uint32_t                       MTB_FLOW;           /* Offset: 0x08 (R/W  32) MTB Flow */
+  __I   uint32_t                       MTB_BASE;           /* Offset: 0x0C (R/   32) MTB Base */
   __I   uint8_t                        Reserved1[0xEF0];
-  __IO  uint32_t                       MTB_ITCTRL;         /**< Offset: 0xF00 (R/W  32) MTB Integration Mode Control */
+  __IO  uint32_t                       MTB_ITCTRL;         /* Offset: 0xF00 (R/W  32) MTB Integration Mode Control */
   __I   uint8_t                        Reserved2[0x9C];
-  __IO  uint32_t                       MTB_CLAIMSET;       /**< Offset: 0xFA0 (R/W  32) MTB Claim Set */
-  __IO  uint32_t                       MTB_CLAIMCLR;       /**< Offset: 0xFA4 (R/W  32) MTB Claim Clear */
+  __IO  uint32_t                       MTB_CLAIMSET;       /* Offset: 0xFA0 (R/W  32) MTB Claim Set */
+  __IO  uint32_t                       MTB_CLAIMCLR;       /* Offset: 0xFA4 (R/W  32) MTB Claim Clear */
   __I   uint8_t                        Reserved3[0x08];
-  __IO  uint32_t                       MTB_LOCKACCESS;     /**< Offset: 0xFB0 (R/W  32) MTB Lock Access */
-  __I   uint32_t                       MTB_LOCKSTATUS;     /**< Offset: 0xFB4 (R/   32) MTB Lock Status */
-  __I   uint32_t                       MTB_AUTHSTATUS;     /**< Offset: 0xFB8 (R/   32) MTB Authentication Status */
-  __I   uint32_t                       MTB_DEVARCH;        /**< Offset: 0xFBC (R/   32) MTB Device Architecture */
+  __IO  uint32_t                       MTB_LOCKACCESS;     /* Offset: 0xFB0 (R/W  32) MTB Lock Access */
+  __I   uint32_t                       MTB_LOCKSTATUS;     /* Offset: 0xFB4 (R/   32) MTB Lock Status */
+  __I   uint32_t                       MTB_AUTHSTATUS;     /* Offset: 0xFB8 (R/   32) MTB Authentication Status */
+  __I   uint32_t                       MTB_DEVARCH;        /* Offset: 0xFBC (R/   32) MTB Device Architecture */
   __I   uint8_t                        Reserved4[0x08];
-  __I   uint32_t                       MTB_DEVID;          /**< Offset: 0xFC8 (R/   32) MTB Device Configuration */
-  __I   uint32_t                       MTB_DEVTYPE;        /**< Offset: 0xFCC (R/   32) MTB Device Type */
-  __I   uint32_t                       MTB_PID4;           /**< Offset: 0xFD0 (R/   32) Peripheral Identification 4 */
-  __I   uint32_t                       MTB_PID5;           /**< Offset: 0xFD4 (R/   32) Peripheral Identification 5 */
-  __I   uint32_t                       MTB_PID6;           /**< Offset: 0xFD8 (R/   32) Peripheral Identification 6 */
-  __I   uint32_t                       MTB_PID7;           /**< Offset: 0xFDC (R/   32) Peripheral Identification 7 */
-  __I   uint32_t                       MTB_PID0;           /**< Offset: 0xFE0 (R/   32) Peripheral Identification 0 */
-  __I   uint32_t                       MTB_PID1;           /**< Offset: 0xFE4 (R/   32) Peripheral Identification 1 */
-  __I   uint32_t                       MTB_PID2;           /**< Offset: 0xFE8 (R/   32) Peripheral Identification 2 */
-  __I   uint32_t                       MTB_PID3;           /**< Offset: 0xFEC (R/   32) Peripheral Identification 3 */
-  __I   uint32_t                       MTB_CID0;           /**< Offset: 0xFF0 (R/   32) Component Identification 0 */
-  __I   uint32_t                       MTB_CID1;           /**< Offset: 0xFF4 (R/   32) Component Identification 1 */
-  __I   uint32_t                       MTB_CID2;           /**< Offset: 0xFF8 (R/   32) Component Identification 2 */
-  __I   uint32_t                       MTB_CID3;           /**< Offset: 0xFFC (R/   32) Component Identification 3 */
+  __I   uint32_t                       MTB_DEVID;          /* Offset: 0xFC8 (R/   32) MTB Device Configuration */
+  __I   uint32_t                       MTB_DEVTYPE;        /* Offset: 0xFCC (R/   32) MTB Device Type */
+  __I   uint32_t                       MTB_PID4;           /* Offset: 0xFD0 (R/   32) Peripheral Identification 4 */
+  __I   uint32_t                       MTB_PID5;           /* Offset: 0xFD4 (R/   32) Peripheral Identification 5 */
+  __I   uint32_t                       MTB_PID6;           /* Offset: 0xFD8 (R/   32) Peripheral Identification 6 */
+  __I   uint32_t                       MTB_PID7;           /* Offset: 0xFDC (R/   32) Peripheral Identification 7 */
+  __I   uint32_t                       MTB_PID0;           /* Offset: 0xFE0 (R/   32) Peripheral Identification 0 */
+  __I   uint32_t                       MTB_PID1;           /* Offset: 0xFE4 (R/   32) Peripheral Identification 1 */
+  __I   uint32_t                       MTB_PID2;           /* Offset: 0xFE8 (R/   32) Peripheral Identification 2 */
+  __I   uint32_t                       MTB_PID3;           /* Offset: 0xFEC (R/   32) Peripheral Identification 3 */
+  __I   uint32_t                       MTB_CID0;           /* Offset: 0xFF0 (R/   32) Component Identification 0 */
+  __I   uint32_t                       MTB_CID1;           /* Offset: 0xFF4 (R/   32) Component Identification 1 */
+  __I   uint32_t                       MTB_CID2;           /* Offset: 0xFF8 (R/   32) Component Identification 2 */
+  __I   uint32_t                       MTB_CID3;           /* Offset: 0xFFC (R/   32) Component Identification 3 */
 } mtb_registers_t;
 
 

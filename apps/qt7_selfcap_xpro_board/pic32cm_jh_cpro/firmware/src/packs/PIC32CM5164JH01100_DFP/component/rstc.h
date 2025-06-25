@@ -1,63 +1,62 @@
 /*
  * Component description for RSTC
  *
- * Copyright (c) 2023 Microchip Technology Inc. and its subsidiaries.
+ * Copyright (c) 2025 Microchip Technology Inc. and its subsidiaries.
  *
- * Subject to your compliance with these terms, you may use Microchip software and any derivatives
- * exclusively with Microchip products. It is your responsibility to comply with third party license
- * terms applicable to your use of third party software (including open source software) that may
- * accompany Microchip software.
+ * SPDX-License-Identifier: Apache-2.0
  *
- * THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS". NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY,
- * APPLY TO THIS SOFTWARE, INCLUDING ANY IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND
- * FITNESS FOR A PARTICULAR PURPOSE.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
  *
- * IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, INCIDENTAL OR CONSEQUENTIAL
- * LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF
- * MICROCHIP HAS BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE. TO THE FULLEST EXTENT
- * ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL CLAIMS IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT
- * EXCEED THE AMOUNT OF FEES, IF ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  *
  */
 
-/* file generated from device description version 2023-04-26T09:03:33Z */
+/*  file generated from device description file (ATDF) version 2025-02-18T10:55:45Z  */
 #ifndef _PIC32CMJH01_RSTC_COMPONENT_H_
 #define _PIC32CMJH01_RSTC_COMPONENT_H_
 
 /* ************************************************************************** */
-/*   SOFTWARE API DEFINITION FOR RSTC                                         */
+/*                      SOFTWARE API DEFINITION FOR RSTC                      */
 /* ************************************************************************** */
 
 /* -------- RSTC_RCAUSE : (RSTC Offset: 0x00) ( R/ 8) Reset Cause -------- */
 #define RSTC_RCAUSE_POR_Pos                   _UINT8_(0)                                           /* (RSTC_RCAUSE) Power On Reset Position */
 #define RSTC_RCAUSE_POR_Msk                   (_UINT8_(0x1) << RSTC_RCAUSE_POR_Pos)                /* (RSTC_RCAUSE) Power On Reset Mask */
-#define RSTC_RCAUSE_POR(value)                (RSTC_RCAUSE_POR_Msk & (_UINT8_(value) << RSTC_RCAUSE_POR_Pos)) /* Assigment of value for POR in the RSTC_RCAUSE register */
+#define RSTC_RCAUSE_POR(value)                (RSTC_RCAUSE_POR_Msk & (_UINT8_(value) << RSTC_RCAUSE_POR_Pos)) /* Assignment of value for POR in the RSTC_RCAUSE register */
 #define RSTC_RCAUSE_BODCORE_Pos               _UINT8_(1)                                           /* (RSTC_RCAUSE) Brown Out CORE Detector Reset Position */
 #define RSTC_RCAUSE_BODCORE_Msk               (_UINT8_(0x1) << RSTC_RCAUSE_BODCORE_Pos)            /* (RSTC_RCAUSE) Brown Out CORE Detector Reset Mask */
-#define RSTC_RCAUSE_BODCORE(value)            (RSTC_RCAUSE_BODCORE_Msk & (_UINT8_(value) << RSTC_RCAUSE_BODCORE_Pos)) /* Assigment of value for BODCORE in the RSTC_RCAUSE register */
+#define RSTC_RCAUSE_BODCORE(value)            (RSTC_RCAUSE_BODCORE_Msk & (_UINT8_(value) << RSTC_RCAUSE_BODCORE_Pos)) /* Assignment of value for BODCORE in the RSTC_RCAUSE register */
 #define RSTC_RCAUSE_BODVDD_Pos                _UINT8_(2)                                           /* (RSTC_RCAUSE) Brown Out VDD Detector Reset Position */
 #define RSTC_RCAUSE_BODVDD_Msk                (_UINT8_(0x1) << RSTC_RCAUSE_BODVDD_Pos)             /* (RSTC_RCAUSE) Brown Out VDD Detector Reset Mask */
-#define RSTC_RCAUSE_BODVDD(value)             (RSTC_RCAUSE_BODVDD_Msk & (_UINT8_(value) << RSTC_RCAUSE_BODVDD_Pos)) /* Assigment of value for BODVDD in the RSTC_RCAUSE register */
+#define RSTC_RCAUSE_BODVDD(value)             (RSTC_RCAUSE_BODVDD_Msk & (_UINT8_(value) << RSTC_RCAUSE_BODVDD_Pos)) /* Assignment of value for BODVDD in the RSTC_RCAUSE register */
 #define RSTC_RCAUSE_EXT_Pos                   _UINT8_(4)                                           /* (RSTC_RCAUSE) External Reset Position */
 #define RSTC_RCAUSE_EXT_Msk                   (_UINT8_(0x1) << RSTC_RCAUSE_EXT_Pos)                /* (RSTC_RCAUSE) External Reset Mask */
-#define RSTC_RCAUSE_EXT(value)                (RSTC_RCAUSE_EXT_Msk & (_UINT8_(value) << RSTC_RCAUSE_EXT_Pos)) /* Assigment of value for EXT in the RSTC_RCAUSE register */
+#define RSTC_RCAUSE_EXT(value)                (RSTC_RCAUSE_EXT_Msk & (_UINT8_(value) << RSTC_RCAUSE_EXT_Pos)) /* Assignment of value for EXT in the RSTC_RCAUSE register */
 #define RSTC_RCAUSE_WDT_Pos                   _UINT8_(5)                                           /* (RSTC_RCAUSE) Watchdog Reset Position */
 #define RSTC_RCAUSE_WDT_Msk                   (_UINT8_(0x1) << RSTC_RCAUSE_WDT_Pos)                /* (RSTC_RCAUSE) Watchdog Reset Mask */
-#define RSTC_RCAUSE_WDT(value)                (RSTC_RCAUSE_WDT_Msk & (_UINT8_(value) << RSTC_RCAUSE_WDT_Pos)) /* Assigment of value for WDT in the RSTC_RCAUSE register */
+#define RSTC_RCAUSE_WDT(value)                (RSTC_RCAUSE_WDT_Msk & (_UINT8_(value) << RSTC_RCAUSE_WDT_Pos)) /* Assignment of value for WDT in the RSTC_RCAUSE register */
 #define RSTC_RCAUSE_SYST_Pos                  _UINT8_(6)                                           /* (RSTC_RCAUSE) System Reset Request Position */
 #define RSTC_RCAUSE_SYST_Msk                  (_UINT8_(0x1) << RSTC_RCAUSE_SYST_Pos)               /* (RSTC_RCAUSE) System Reset Request Mask */
-#define RSTC_RCAUSE_SYST(value)               (RSTC_RCAUSE_SYST_Msk & (_UINT8_(value) << RSTC_RCAUSE_SYST_Pos)) /* Assigment of value for SYST in the RSTC_RCAUSE register */
+#define RSTC_RCAUSE_SYST(value)               (RSTC_RCAUSE_SYST_Msk & (_UINT8_(value) << RSTC_RCAUSE_SYST_Pos)) /* Assignment of value for SYST in the RSTC_RCAUSE register */
 #define RSTC_RCAUSE_Msk                       _UINT8_(0x77)                                        /* (RSTC_RCAUSE) Register Mask  */
 
 
-/** \brief RSTC register offsets definitions */
+/* RSTC register offsets definitions */
 #define RSTC_RCAUSE_REG_OFST           _UINT32_(0x00)      /* (RSTC_RCAUSE) Reset Cause Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
-/** \brief RSTC register API structure */
+/* RSTC register API structure */
 typedef struct
 {  /* Reset Controller */
-  __I   uint8_t                        RSTC_RCAUSE;        /**< Offset: 0x00 (R/   8) Reset Cause */
+  __I   uint8_t                        RSTC_RCAUSE;        /* Offset: 0x00 (R/   8) Reset Cause */
 } rstc_registers_t;
 
 

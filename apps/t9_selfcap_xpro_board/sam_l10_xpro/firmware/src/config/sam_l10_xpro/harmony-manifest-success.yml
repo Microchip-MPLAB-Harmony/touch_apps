@@ -4,17 +4,20 @@
 
 
 project: sam_l10_xpro
-creation_date: 2023-07-05T14:41:15.213+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
-operating_system: Windows 10
+creation_date: 2025-06-23T03:43:06.984+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+operating_system: Windows 11
 mcc_mode: IDE            # [IDE|Standalone|Headless]
-mcc_version: v5.3.7
-mcc_core_version: v5.5.7
-mplabx_version: v6.10        # if MPLAB X plugin only
-harmony_version: v1.3.2
-compiler: XC32 (v4.21) 
+mcc_version: v5.6.2
+mcc_core_version: v5.8.2
+mplabx_version: v6.25        # if MPLAB X plugin only
+harmony_version: v5.6.2
+compiler: XC32 4.60
 
 modules:
-    - {name: "csp", version: "v3.17.0-2-g9dc4d70"}
-    - {name: "dev_packs", version: "v3.17.0"}
-    - {name: "touch", version: "v3.14.0_RC.2-1-gd2ad510"}
+    - {name: "csp", version: "v3.22.4"}
+    - {name: "CMSIS_5", version: "5.9.0"}
+    - {name: "touch", version: "v3.19.0"}
+
+packs:
+    - {name: "SAML10_DFP", version: "3.10.228"}
 

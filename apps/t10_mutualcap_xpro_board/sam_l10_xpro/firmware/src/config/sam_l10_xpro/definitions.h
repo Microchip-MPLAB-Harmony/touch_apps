@@ -14,7 +14,7 @@
 
 //DOM-IGNORE-BEGIN
 /*******************************************************************************
-* Copyright (C) 2018 Microchip Technology Inc. and its subsidiaries.
+* Copyright (C) 2025 Microchip Technology Inc. and its subsidiaries.
 *
 * Subject to your compliance with these terms, you may use Microchip software
 * and any derivatives exclusively with Microchip products. It is your
@@ -48,10 +48,10 @@
 #include <stdint.h>
 #include <stddef.h>
 #include <stdbool.h>
-#include "peripheral/sercom/usart/plib_sercom2_usart.h"
 #include "peripheral/nvmctrl/plib_nvmctrl.h"
-#include "peripheral/evsys/plib_evsys.h"
+#include "peripheral/sercom/usart/plib_sercom2_usart.h"
 #include "peripheral/sercom/i2c_master/plib_sercom0_i2c_master.h"
+#include "peripheral/evsys/plib_evsys.h"
 #include "peripheral/port/plib_port.h"
 #include "peripheral/clock/plib_clock.h"
 #include "peripheral/nvic/plib_nvic.h"
@@ -68,13 +68,13 @@ extern "C" {
 // DOM-IGNORE-END
 
 /* Device Information */
-#define DEVICE_NAME			 "ATSAML10E16A"
-#define DEVICE_ARCH			 "CORTEX-M23"
-#define DEVICE_FAMILY		 "SAML"
-#define DEVICE_SERIES		 "SAML10"
+#define DEVICE_NAME          "ATSAML10E16A"
+#define DEVICE_ARCH          "CORTEX-M23"
+#define DEVICE_FAMILY        "SAML"
+#define DEVICE_SERIES        "SAML10"
 
 /* CPU clock frequency */
-#define CPU_CLOCK_FREQUENCY 8000000
+#define CPU_CLOCK_FREQUENCY 8000000U
 
 // *****************************************************************************
 // *****************************************************************************

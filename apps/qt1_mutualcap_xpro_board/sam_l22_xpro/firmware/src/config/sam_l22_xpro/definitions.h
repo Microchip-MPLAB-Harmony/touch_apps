@@ -14,7 +14,7 @@
 
 //DOM-IGNORE-BEGIN
 /*******************************************************************************
-* Copyright (C) 2018 Microchip Technology Inc. and its subsidiaries.
+* Copyright (C) 2025 Microchip Technology Inc. and its subsidiaries.
 *
 * Subject to your compliance with these terms, you may use Microchip software
 * and any derivatives exclusively with Microchip products. It is your
@@ -49,14 +49,14 @@
 #include <stddef.h>
 #include <stdbool.h>
 #include "peripheral/nvmctrl/plib_nvmctrl.h"
-#include "peripheral/evsys/plib_evsys.h"
 #include "peripheral/sercom/usart/plib_sercom0_usart.h"
+#include "peripheral/evsys/plib_evsys.h"
 #include "peripheral/port/plib_port.h"
 #include "peripheral/clock/plib_clock.h"
 #include "peripheral/nvic/plib_nvic.h"
 #include "peripheral/pm/plib_pm.h"
-#include "peripheral/rtc/plib_rtc.h"
 #include "touch/touch.h"
+#include "peripheral/rtc/plib_rtc.h"
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
@@ -67,13 +67,13 @@ extern "C" {
 // DOM-IGNORE-END
 
 /* Device Information */
-#define DEVICE_NAME			 "ATSAML22N18A"
-#define DEVICE_ARCH			 "CORTEX-M0PLUS"
-#define DEVICE_FAMILY		 "SAML"
-#define DEVICE_SERIES		 "SAML22"
+#define DEVICE_NAME          "ATSAML22N18A"
+#define DEVICE_ARCH          "CORTEX-M0PLUS"
+#define DEVICE_FAMILY        "SAML"
+#define DEVICE_SERIES        "SAML22"
 
 /* CPU clock frequency */
-#define CPU_CLOCK_FREQUENCY 16000000
+#define CPU_CLOCK_FREQUENCY 16000000U
 
 // *****************************************************************************
 // *****************************************************************************

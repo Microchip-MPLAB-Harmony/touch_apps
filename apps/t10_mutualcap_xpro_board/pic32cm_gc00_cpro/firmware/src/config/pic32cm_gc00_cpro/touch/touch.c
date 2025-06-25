@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.16.0 Release
+  Touch Library v3.19.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -17,7 +17,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (C) [2024], Microchip Technology Inc., and its subsidiaries. All rights reserved.
+Copyright (C) [2025], Microchip Technology Inc., and its subsidiaries. All rights reserved.
 
 The software and documentation is provided by microchip and its contributors
 "as is" and any express, implied or statutory warranties, including, but not
@@ -286,6 +286,7 @@ void PTC_Initialize(void)
     /* 
      * Enable Analog Input Charge Pump of PTC , for weak VDD 
      */
+	
     SUPC_REGS->SUPC_VREGCTRL |= SUPC_VREGCTRL_CPEN(3u);
     
 }
@@ -489,5 +490,5 @@ Notes  : none
 void PTC_Handler(void)
 {
 	qtm_ptc_clear_interrupt();
-    qtm_pic32cm_ptc_handler_eoc();
+	qtm_pic32cm_ptc_handler_eoc();
 }

@@ -47,21 +47,18 @@
 // Section: Included Files
 // *****************************************************************************
 // *****************************************************************************
-
 #include "interrupts.h"
 #include "plib_sercom3_usart.h"
-
 // *****************************************************************************
 // *****************************************************************************
 // Section: Global Data
 // *****************************************************************************
 // *****************************************************************************
-
-
 /* SERCOM3 USART baud value for 115200 Hz baud rate */
 #define SERCOM3_USART_INT_BAUD_VALUE            (63019UL)
 
-volatile static SERCOM_USART_OBJECT sercom3USARTObj;
+static volatile SERCOM_USART_OBJECT sercom3USARTObj;
+
 
 // *****************************************************************************
 // *****************************************************************************
@@ -69,7 +66,7 @@ volatile static SERCOM_USART_OBJECT sercom3USARTObj;
 // *****************************************************************************
 // *****************************************************************************
 
-void static SERCOM3_USART_ErrorClear( void )
+static void SERCOM3_USART_ErrorClear( void )
 {
     uint8_t  u8dummyData = 0U;
     USART_ERROR errorStatus = (USART_ERROR) (SERCOM3_REGS->USART_INT.SERCOM_STATUS & (uint16_t)(SERCOM_USART_INT_STATUS_PERR_Msk | SERCOM_USART_INT_STATUS_FERR_Msk | SERCOM_USART_INT_STATUS_BUFOVF_Msk ));
@@ -102,6 +99,7 @@ void SERCOM3_USART_Initialize( void )
      * Configures Sampling rate
      * Configures IBON
      */
+
     SERCOM3_REGS->USART_INT.SERCOM_CTRLA = SERCOM_USART_INT_CTRLA_MODE_USART_INT_CLK | SERCOM_USART_INT_CTRLA_RXPO(0x1UL) | SERCOM_USART_INT_CTRLA_TXPO(0x0UL) | SERCOM_USART_INT_CTRLA_DORD_Msk | SERCOM_USART_INT_CTRLA_IBON_Msk | SERCOM_USART_INT_CTRLA_FORM(0x0UL) | SERCOM_USART_INT_CTRLA_SAMPR(0UL) ;
 
     /* Configure Baud Rate */
@@ -146,6 +144,10 @@ void SERCOM3_USART_Initialize( void )
     sercom3USARTObj.errorStatus = USART_ERROR_NONE;
 }
 
+
+
+
+
 uint32_t SERCOM3_USART_FrequencyGet( void )
 {
     return 48000000UL;
@@ -156,6 +158,7 @@ bool SERCOM3_USART_SerialSetup( USART_SERIAL_SETUP * serialSetup, uint32_t clkFr
     bool setupStatus       = false;
     uint32_t baudValue     = 0U;
     uint32_t sampleRate    = 0U;
+    uint32_t sampleCount   = 0U;
 
     bool transferProgress = sercom3USARTObj.txBusyStatus;
     transferProgress = sercom3USARTObj.rxBusyStatus || transferProgress;
@@ -174,24 +177,24 @@ bool SERCOM3_USART_SerialSetup( USART_SERIAL_SETUP * serialSetup, uint32_t clkFr
 
         if(clkFrequency >= (16U * serialSetup->baudRate))
         {
-            baudValue = 65536U - (uint32_t)(((uint64_t)65536U * 16U * serialSetup->baudRate) / clkFrequency);
             sampleRate = 0U;
+            sampleCount = 16U;
         }
         else if(clkFrequency >= (8U * serialSetup->baudRate))
         {
-            baudValue = 65536U - (uint32_t)(((uint64_t)65536U * 8U * serialSetup->baudRate) / clkFrequency);
             sampleRate = 2U;
+            sampleCount = 8U;
         }
         else if(clkFrequency >= (3U * serialSetup->baudRate))
         {
-            baudValue = 65536U - (uint32_t)(((uint64_t)65536U * 3U * serialSetup->baudRate) / clkFrequency);
             sampleRate = 4U;
+            sampleCount = 3U;
         }
         else
         {
             /* Do nothing */
         }
-
+        baudValue = 65536U - (uint32_t)(((uint64_t)65536U * sampleCount * serialSetup->baudRate) / clkFrequency);
         /* Disable the USART before configurations */
         SERCOM3_REGS->USART_INT.SERCOM_CTRLA &= ~SERCOM_USART_INT_CTRLA_ENABLE_Msk;
 
@@ -453,7 +456,7 @@ void SERCOM3_USART_ReadCallbackRegister( SERCOM_USART_CALLBACK callback, uintptr
 }
 
 
-void static __attribute__((used)) SERCOM3_USART_ISR_ERR_Handler( void )
+static void __attribute__((used)) SERCOM3_USART_ISR_ERR_Handler( void )
 {
     USART_ERROR errorStatus;
 
@@ -482,7 +485,7 @@ void static __attribute__((used)) SERCOM3_USART_ISR_ERR_Handler( void )
     }
 }
 
-void static __attribute__((used)) SERCOM3_USART_ISR_RX_Handler( void )
+static void __attribute__((used)) SERCOM3_USART_ISR_RX_Handler( void )
 {
     uint16_t temp;
 
@@ -529,7 +532,7 @@ void static __attribute__((used)) SERCOM3_USART_ISR_RX_Handler( void )
     }
 }
 
-void static __attribute__((used)) SERCOM3_USART_ISR_TX_Handler( void )
+static void __attribute__((used)) SERCOM3_USART_ISR_TX_Handler( void )
 {
     bool  dataRegisterEmpty;
     bool  dataAvailable;
@@ -606,3 +609,7 @@ void __attribute__((used)) SERCOM3_USART_InterruptHandler( void )
         }
     }
 }
+
+
+
+

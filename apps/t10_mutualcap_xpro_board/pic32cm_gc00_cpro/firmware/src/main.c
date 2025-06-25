@@ -27,6 +27,12 @@
 #include <stdlib.h>                     // Defines EXIT_FAILURE
 #include "definitions.h"                // SYS function prototypes
 
+// *****************************************************************************
+// Function Prototypes
+// *****************************************************************************
+extern volatile uint8_t measurement_done_touch;
+void APP_I2CCallback(uintptr_t context);
+void Update_LED_Display(void);
 
 // *****************************************************************************
 // *****************************************************************************
@@ -44,6 +50,10 @@ int main ( void )
         /* Maintain state machines of all polled MPLAB Harmony modules. */
         SYS_Tasks ( );
         touch_process();
+        if (measurement_done_touch == 1) 
+        {
+            Update_LED_Display();
+        }
     }
 
     /* Execution should not come here during normal operation */

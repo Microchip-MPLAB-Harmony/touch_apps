@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.14.0 Release
+  Touch Library v3.19.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -16,7 +16,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (c) 2023 released Microchip Technology Inc.  All rights reserved.
+Copyright (c) 2025 released Microchip Technology Inc.  All rights reserved.
 
 Microchip licenses to you the right to use, modify, copy and distribute
 Software only when embedded on a Microchip microcontroller or digital signal
@@ -111,30 +111,30 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 
 /* Defines node parameter setting
- * {X-line, Y-line, Charge Share Delay, NODE_RSEL_PRSC(series resistor, prescaler), NODE_G(Analog Gain , Digital Gain),
+ * {X-line, Y-line, Charge Share Delay (CSD), NODE_RSEL_PRSC(series resistor, prescaler), NODE_G(Analog Gain , Digital Gain),
  * filter level}
  */
 
 
 #define NODE_0_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(3), 10,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   Y(2)|Y(17)|Y(16)|Y(15)|Y(14), Y(3), 10,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_1_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(17), 10,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   Y(2)|Y(3)|Y(16)|Y(15)|Y(14), Y(17), 10,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_2_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(16), 10,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   Y(2)|Y(3)|Y(17)|Y(15)|Y(14), Y(16), 10,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_3_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(15), 10,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   Y(2)|Y(3)|Y(17)|Y(16)|Y(14), Y(15), 10,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_4_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(14), 10,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   Y(2)|Y(3)|Y(17)|Y(16)|Y(15), Y(14), 10,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 
 /**********************************************************/
@@ -320,6 +320,7 @@ extern uint8_t module_error_code;
 
 
 extern volatile uint8_t measurement_done_touch;
+
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
