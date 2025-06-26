@@ -3,7 +3,7 @@ coreVersion: 5.8.2
 spaHostVersion: 1.0.0
 device: PIC32CK2051GC01144
 deviceLibrary:
-  className: null
+  className: com.microchip.mcc.harmony.Harmony3Library
 groupModules: []
 modules:
 - cmsis
@@ -19,7 +19,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32ck_gc_cpro\PIC32CK2051GC01144.ld
   hash: af9a19827cf903f321899b3b2b1715dc351398e44d8ddc0b6d1afc5939c3a432
 - file: ..\src\config\pic32ck_gc_cpro\definitions.h
-  hash: 2022ed616a4edba1ec54dd51e50a23fae8b804283f512fbd333127b721bfe866
+  hash: 72dd10273cb87d29fd7d41d73636bda051f92770a2b5829acd6696a0b7abe26b
 - file: ..\src\config\pic32ck_gc_cpro\device.h
   hash: 16c68b32ace41533b1b0f8cffc704dfea71c361c40fbc7fdab13f96645707c9f
 - file: ..\src\config\pic32ck_gc_cpro\device_cache.h
@@ -29,7 +29,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32ck_gc_cpro\exceptions.c
   hash: 42f9da2668e04ccb3473d45b149683a00f80072c6883c7918d6ce93997cd6987
 - file: ..\src\config\pic32ck_gc_cpro\initialization.c
-  hash: 7f627ec1e30f543a37efdda330de64285c9d079d39b546b082fef578d925a92e
+  hash: 23855f20ae63f9314e293c48c6a1ced44e803e9dc684eacc4708f88cab698220
 - file: ..\src\config\pic32ck_gc_cpro\interrupts.c
   hash: 7db1e2ec7eaea0471036284fce72e6c787112efe2a967ff4de9db1ee8e82a89b
 - file: ..\src\config\pic32ck_gc_cpro\interrupts.h
@@ -103,7 +103,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32ck_gc_cpro\touch\touch.c
   hash: 132f8f58f9a1503c7db0ba27ff285279c3d75d32da130f0cc65b5e85de035d45
 - file: ..\src\config\pic32ck_gc_cpro\touch\touch.h
-  hash: 8c545ffb819a77a34fcb9a195a69905dd2887889fbeb668e44c1dfd554106261
+  hash: dddd3e145553f95d32fd87a93f258f899c077e6fc3c93c5238b4e28e5835ecb4
 - file: ..\src\config\pic32ck_gc_cpro\touch\touchTune.c
   hash: ed5b227d16d064a61d14cc658c843e16a6f51eb80a92e55fdc4dfb12e13d65eb
 - file: ..\src\config\pic32ck_gc_cpro\touch\touchTune.h
@@ -115,7 +115,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32ck_gc_cpro\touch\touch_example.h
   hash: 59989902d4630e2ddf0822607a5c4485d4a31fbfa1ff2bc4a2b7aaa6656f58bb
 - file: ..\src\main.c
-  hash: null
+  hash: d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5
 - file: ..\src\packs\PIC32CK2051GC01144_DFP\component\ac.h
   hash: 84008a60f776ad893ca60e4ff8c85185a0fcc6a3a35b3a62ce2ebba0b1fc8bbb
 - file: ..\src\packs\PIC32CK2051GC01144_DFP\component\adc.h

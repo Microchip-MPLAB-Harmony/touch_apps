@@ -68,8 +68,8 @@ data:
     - children:
       - attributes:
           id: sercom5
-          x: '9'
-          y: '190'
+          x: '396'
+          y: '92'
         type: ElementPosition
       type: ElementPositions
     type: ComponentGraph
@@ -85,19 +85,6 @@ data:
           type: Dynamic
         type: Values
       type: Hex
-    I2CS_SDASETUP_TIME_NS:
-      attributes:
-        id: I2CS_SDASETUP_TIME_NS
-      children:
-      - children:
-        - attributes:
-            id: max
-          children:
-          - type: Value
-            value: '2050'
-          type: Integer
-        type: Attributes
-      type: Integer
     I2CS_SDASETUP_TIME_REG_VALUE:
       attributes:
         id: I2CS_SDASETUP_TIME_REG_VALUE
@@ -150,45 +137,6 @@ data:
           type: Dynamic
         type: Values
       type: KeyValueSet
-    SERCOM_USART_COMMON_HEADER:
-      attributes:
-        id: SERCOM_USART_COMMON_HEADER
-      children:
-      - children:
-        - attributes:
-            id: enabled
-          children:
-          - type: Value
-            value: 'true'
-          type: Boolean
-        type: Attributes
-      type: File
-    SERCOM_USART_HEADER:
-      attributes:
-        id: SERCOM_USART_HEADER
-      children:
-      - children:
-        - attributes:
-            id: enabled
-          children:
-          - type: Value
-            value: 'true'
-          type: Boolean
-        type: Attributes
-      type: File
-    SERCOM_USART_SOURCE:
-      attributes:
-        id: SERCOM_USART_SOURCE
-      children:
-      - children:
-        - attributes:
-            id: enabled
-          children:
-          - type: Value
-            value: 'true'
-          type: Boolean
-        type: Attributes
-      type: File
     SPI_BAUD_REG_VALUE:
       attributes:
         id: SPI_BAUD_REG_VALUE
@@ -222,6 +170,17 @@ data:
           type: Dynamic
         type: Values
       type: Integer
+    USART_INTERRUPT_MODE_ENABLE:
+      attributes:
+        id: USART_INTERRUPT_MODE_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: sercom5
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
     USART_LIN_MASTER_SUPPORTED:
       attributes:
         id: USART_LIN_MASTER_SUPPORTED
@@ -230,6 +189,28 @@ data:
         - attributes:
             id: sercom5
             value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    USART_OPERATING_MODE:
+      attributes:
+        id: USART_OPERATING_MODE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    USART_RING_BUFFER_MODE_ENABLE:
+      attributes:
+        id: USART_RING_BUFFER_MODE_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: sercom5
+            value: 'false'
           type: Dynamic
         type: Values
       type: Boolean
@@ -276,4 +257,43 @@ data:
           type: Dynamic
         type: Values
       type: Boolean
+    SERCOM_USART_HEADER:
+      attributes:
+        id: SERCOM_USART_HEADER
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    SERCOM_USART_SOURCE:
+      attributes:
+        id: SERCOM_USART_SOURCE
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    SERCOM_USART_COMMON_HEADER:
+      attributes:
+        id: SERCOM_USART_COMMON_HEADER
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
   userData: {}

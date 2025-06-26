@@ -44,8 +44,8 @@ data:
     - children:
       - attributes:
           id: rtc
-          x: '5'
-          y: '277'
+          x: '400'
+          y: '196'
         type: ElementPosition
       type: ElementPositions
     type: ComponentGraph

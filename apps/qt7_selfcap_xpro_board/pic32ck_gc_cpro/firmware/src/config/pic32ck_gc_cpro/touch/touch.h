@@ -112,15 +112,15 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #define NODE_0_PARAMS                                                                                               \
 {                                                                                                                  \
-   Y(12)|Y(11), Y(31), 0,(uint8_t)PRSC_DIV_SEL_2, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_32                   \
+   Y(12)|Y(11), Y(31), 0,(uint8_t)PRSC_DIV_SEL_2, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_1_PARAMS                                                                                               \
 {                                                                                                                  \
-   Y(31)|Y(11), Y(12), 0,(uint8_t)PRSC_DIV_SEL_2, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_32                   \
+   Y(31)|Y(11), Y(12), 0,(uint8_t)PRSC_DIV_SEL_2, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_2_PARAMS                                                                                               \
 {                                                                                                                  \
-   Y(31)|Y(12), Y(11), 0,(uint8_t)PRSC_DIV_SEL_2, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_32                   \
+   Y(31)|Y(12), Y(11), 0,(uint8_t)PRSC_DIV_SEL_2, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 
 /**********************************************************/
@@ -138,19 +138,19 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #define KEY_0_PARAMS                                                                                            \
 {                                                                                                              \
-    70u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
+    20u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
 }
 
 
 #define KEY_1_PARAMS                                                                                            \
 {                                                                                                              \
-    70u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
+    20u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
 }
 
 
 #define KEY_2_PARAMS                                                                                            \
 {                                                                                                              \
-    70u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
+    20u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
 }
 
 

@@ -15,66 +15,43 @@ dependency:
 customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
 data:
   attachments: {}
-  elementPosition: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: core
+          x: '180'
+          y: '20'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
   symbols:
-    PTC_INTERRUPT_ENABLE_UPDATE:
+    GCLK_2_DIV:
       attributes:
-        id: PTC_INTERRUPT_ENABLE_UPDATE
+        id: GCLK_2_DIV
+      children:
+      - children:
+        - attributes:
+            value: '12'
+          type: User
+        type: Values
+      type: Integer
+    GCLK_2_DIVIDER_VALUE:
+      attributes:
+        id: GCLK_2_DIVIDER_VALUE
       children:
       - children:
         - attributes:
             id: core
-            value: 'false'
+            value: '12'
           type: Dynamic
         type: Values
-      type: Boolean
-    NVIC_139_0_ENABLE:
+      type: Integer
+    GCLK_2_FREQ:
       attributes:
-        id: NVIC_139_0_ENABLE
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    PTC_INTERRUPT_ENABLE:
-      attributes:
-        id: PTC_INTERRUPT_ENABLE
-      children:
-      - children:
-        - attributes:
-            id: lib_qtouch
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    NVIC_139_0_HANDLER:
-      attributes:
-        id: NVIC_139_0_HANDLER
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: PTC_Handler
-          type: Dynamic
-        type: Values
-      type: String
-    PTC_INTERRUPT_HANDLER:
-      attributes:
-        id: PTC_INTERRUPT_HANDLER
-      children:
-      - children:
-        - attributes:
-            id: lib_qtouch
-            value: PTC_Handler
-          type: Dynamic
-        type: Values
-      type: String
-    PTC_CLOCK_FREQUENCY:
-      attributes:
-        id: PTC_CLOCK_FREQUENCY
+        id: GCLK_2_FREQ
       children:
       - children:
         - attributes:
@@ -83,14 +60,46 @@ data:
           type: Dynamic
         type: Values
       type: Integer
-    GCLK_ID_35_FREQ:
+    GCLK_2_RUNSTDBY:
       attributes:
-        id: GCLK_ID_35_FREQ
+        id: GCLK_2_RUNSTDBY
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    GCLK_CYCLE_FORMED:
+      attributes:
+        id: GCLK_CYCLE_FORMED
       children:
       - children:
         - attributes:
             id: core
-            value: '4000000'
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GCLK_ID_26_CHEN:
+      attributes:
+        id: GCLK_ID_26_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GCLK_ID_26_FREQ:
+      attributes:
+        id: GCLK_ID_26_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
           type: Dynamic
         type: Values
       type: Integer
@@ -105,147 +114,35 @@ data:
           type: Dynamic
         type: Values
       type: Boolean
-    PTC_CLOCK_ENABLE:
+    GCLK_ID_35_FREQ:
       attributes:
-        id: PTC_CLOCK_ENABLE
-      children:
-      - children:
-        - attributes:
-            id: lib_qtouch
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    RTC_INTERRUPT_ENABLE_UPDATE:
-      attributes:
-        id: RTC_INTERRUPT_ENABLE_UPDATE
+        id: GCLK_ID_35_FREQ
       children:
       - children:
         - attributes:
             id: core
-            value: 'false'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    NVIC_12_0_ENABLE:
-      attributes:
-        id: NVIC_12_0_ENABLE
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    RTC_INTERRUPT_ENABLE:
-      attributes:
-        id: RTC_INTERRUPT_ENABLE
-      children:
-      - children:
-        - attributes:
-            id: rtc
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    NVIC_12_0_HANDLER_LOCK:
-      attributes:
-        id: NVIC_12_0_HANDLER_LOCK
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    RTC_INTERRUPT_HANDLER_LOCK:
-      attributes:
-        id: RTC_INTERRUPT_HANDLER_LOCK
-      children:
-      - children:
-        - attributes:
-            id: rtc
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    NVIC_12_0_HANDLER:
-      attributes:
-        id: NVIC_12_0_HANDLER
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: RTC_InterruptHandler
-          type: Dynamic
-        type: Values
-      type: String
-    RTC_INTERRUPT_HANDLER:
-      attributes:
-        id: RTC_INTERRUPT_HANDLER
-      children:
-      - children:
-        - attributes:
-            id: rtc
-            value: RTC_InterruptHandler
-          type: Dynamic
-        type: Values
-      type: String
-    SERCOM5_CORE_CLOCK_FREQUENCY:
-      attributes:
-        id: SERCOM5_CORE_CLOCK_FREQUENCY
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: '60000000'
+            value: '4000000'
           type: Dynamic
         type: Values
       type: Integer
-    GCLK_ID_26_FREQ:
+    GCLK_ID_35_GENSEL:
       attributes:
-        id: GCLK_ID_26_FREQ
+        id: GCLK_ID_35_GENSEL
       children:
       - children:
         - attributes:
-            id: core
-            value: '60000000'
-          type: Dynamic
+            value: '2'
+          type: User
         type: Values
-      type: Integer
-    GCLK_ID_26_CHEN:
+      type: KeyValueSet
+    GCLK_INST_NUM2:
       attributes:
-        id: GCLK_ID_26_CHEN
+        id: GCLK_INST_NUM2
       children:
       - children:
         - attributes:
-            id: core
             value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    SERCOM5_CORE_CLOCK_ENABLE:
-      attributes:
-        id: SERCOM5_CORE_CLOCK_ENABLE
-      children:
-      - children:
-        - attributes:
-            id: sercom5
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    SERCOM5_56_INTERRUPT_ENABLE_UPDATE:
-      attributes:
-        id: SERCOM5_56_INTERRUPT_ENABLE_UPDATE
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'false'
-          type: Dynamic
+          type: User
         type: Values
       type: Boolean
     NVIC_102_0_ENABLE:
@@ -255,314 +152,6 @@ data:
       - children:
         - attributes:
             id: core
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    SERCOM5_56_INTERRUPT_ENABLE:
-      attributes:
-        id: SERCOM5_56_INTERRUPT_ENABLE
-      children:
-      - children:
-        - attributes:
-            id: sercom5
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    SERCOM5_0_INTERRUPT_ENABLE_UPDATE:
-      attributes:
-        id: SERCOM5_0_INTERRUPT_ENABLE_UPDATE
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'false'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    NVIC_103_0_ENABLE:
-      attributes:
-        id: NVIC_103_0_ENABLE
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    SERCOM5_0_INTERRUPT_ENABLE:
-      attributes:
-        id: SERCOM5_0_INTERRUPT_ENABLE
-      children:
-      - children:
-        - attributes:
-            id: sercom5
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    SERCOM5_1_INTERRUPT_ENABLE_UPDATE:
-      attributes:
-        id: SERCOM5_1_INTERRUPT_ENABLE_UPDATE
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'false'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    NVIC_104_0_ENABLE:
-      attributes:
-        id: NVIC_104_0_ENABLE
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    SERCOM5_1_INTERRUPT_ENABLE:
-      attributes:
-        id: SERCOM5_1_INTERRUPT_ENABLE
-      children:
-      - children:
-        - attributes:
-            id: sercom5
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    SERCOM5_2_INTERRUPT_ENABLE_UPDATE:
-      attributes:
-        id: SERCOM5_2_INTERRUPT_ENABLE_UPDATE
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'false'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    NVIC_105_0_ENABLE:
-      attributes:
-        id: NVIC_105_0_ENABLE
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    SERCOM5_2_INTERRUPT_ENABLE:
-      attributes:
-        id: SERCOM5_2_INTERRUPT_ENABLE
-      children:
-      - children:
-        - attributes:
-            id: sercom5
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    SERCOM5_3_INTERRUPT_ENABLE_UPDATE:
-      attributes:
-        id: SERCOM5_3_INTERRUPT_ENABLE_UPDATE
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'false'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    NVIC_106_0_ENABLE:
-      attributes:
-        id: NVIC_106_0_ENABLE
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    SERCOM5_3_INTERRUPT_ENABLE:
-      attributes:
-        id: SERCOM5_3_INTERRUPT_ENABLE
-      children:
-      - children:
-        - attributes:
-            id: sercom5
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    SERCOM5_4_INTERRUPT_ENABLE_UPDATE:
-      attributes:
-        id: SERCOM5_4_INTERRUPT_ENABLE_UPDATE
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'false'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    NVIC_107_0_ENABLE:
-      attributes:
-        id: NVIC_107_0_ENABLE
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    SERCOM5_4_INTERRUPT_ENABLE:
-      attributes:
-        id: SERCOM5_4_INTERRUPT_ENABLE
-      children:
-      - children:
-        - attributes:
-            id: sercom5
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    NVIC_102_0_HANDLER_LOCK:
-      attributes:
-        id: NVIC_102_0_HANDLER_LOCK
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    SERCOM5_56_INTERRUPT_HANDLER_LOCK:
-      attributes:
-        id: SERCOM5_56_INTERRUPT_HANDLER_LOCK
-      children:
-      - children:
-        - attributes:
-            id: sercom5
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    NVIC_103_0_HANDLER_LOCK:
-      attributes:
-        id: NVIC_103_0_HANDLER_LOCK
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    SERCOM5_0_INTERRUPT_HANDLER_LOCK:
-      attributes:
-        id: SERCOM5_0_INTERRUPT_HANDLER_LOCK
-      children:
-      - children:
-        - attributes:
-            id: sercom5
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    NVIC_104_0_HANDLER_LOCK:
-      attributes:
-        id: NVIC_104_0_HANDLER_LOCK
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    SERCOM5_1_INTERRUPT_HANDLER_LOCK:
-      attributes:
-        id: SERCOM5_1_INTERRUPT_HANDLER_LOCK
-      children:
-      - children:
-        - attributes:
-            id: sercom5
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    NVIC_105_0_HANDLER_LOCK:
-      attributes:
-        id: NVIC_105_0_HANDLER_LOCK
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    SERCOM5_2_INTERRUPT_HANDLER_LOCK:
-      attributes:
-        id: SERCOM5_2_INTERRUPT_HANDLER_LOCK
-      children:
-      - children:
-        - attributes:
-            id: sercom5
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    NVIC_106_0_HANDLER_LOCK:
-      attributes:
-        id: NVIC_106_0_HANDLER_LOCK
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    SERCOM5_3_INTERRUPT_HANDLER_LOCK:
-      attributes:
-        id: SERCOM5_3_INTERRUPT_HANDLER_LOCK
-      children:
-      - children:
-        - attributes:
-            id: sercom5
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    NVIC_107_0_HANDLER_LOCK:
-      attributes:
-        id: NVIC_107_0_HANDLER_LOCK
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    SERCOM5_4_INTERRUPT_HANDLER_LOCK:
-      attributes:
-        id: SERCOM5_4_INTERRUPT_HANDLER_LOCK
-      children:
-      - children:
-        - attributes:
-            id: sercom5
             value: 'true'
           type: Dynamic
         type: Values
@@ -578,17 +167,28 @@ data:
           type: Dynamic
         type: Values
       type: String
-    SERCOM5_56_INTERRUPT_HANDLER:
+    NVIC_102_0_HANDLER_LOCK:
       attributes:
-        id: SERCOM5_56_INTERRUPT_HANDLER
+        id: NVIC_102_0_HANDLER_LOCK
       children:
       - children:
         - attributes:
-            id: sercom5
-            value: SERCOM5_USART_InterruptHandler
+            id: core
+            value: 'true'
           type: Dynamic
         type: Values
-      type: String
+      type: Boolean
+    NVIC_103_0_ENABLE:
+      attributes:
+        id: NVIC_103_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
     NVIC_103_0_HANDLER:
       attributes:
         id: NVIC_103_0_HANDLER
@@ -600,17 +200,28 @@ data:
           type: Dynamic
         type: Values
       type: String
-    SERCOM5_0_INTERRUPT_HANDLER:
+    NVIC_103_0_HANDLER_LOCK:
       attributes:
-        id: SERCOM5_0_INTERRUPT_HANDLER
+        id: NVIC_103_0_HANDLER_LOCK
       children:
       - children:
         - attributes:
-            id: sercom5
-            value: SERCOM5_USART_InterruptHandler
+            id: core
+            value: 'true'
           type: Dynamic
         type: Values
-      type: String
+      type: Boolean
+    NVIC_104_0_ENABLE:
+      attributes:
+        id: NVIC_104_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
     NVIC_104_0_HANDLER:
       attributes:
         id: NVIC_104_0_HANDLER
@@ -622,17 +233,28 @@ data:
           type: Dynamic
         type: Values
       type: String
-    SERCOM5_1_INTERRUPT_HANDLER:
+    NVIC_104_0_HANDLER_LOCK:
       attributes:
-        id: SERCOM5_1_INTERRUPT_HANDLER
+        id: NVIC_104_0_HANDLER_LOCK
       children:
       - children:
         - attributes:
-            id: sercom5
-            value: SERCOM5_USART_InterruptHandler
+            id: core
+            value: 'true'
           type: Dynamic
         type: Values
-      type: String
+      type: Boolean
+    NVIC_105_0_ENABLE:
+      attributes:
+        id: NVIC_105_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
     NVIC_105_0_HANDLER:
       attributes:
         id: NVIC_105_0_HANDLER
@@ -644,17 +266,28 @@ data:
           type: Dynamic
         type: Values
       type: String
-    SERCOM5_2_INTERRUPT_HANDLER:
+    NVIC_105_0_HANDLER_LOCK:
       attributes:
-        id: SERCOM5_2_INTERRUPT_HANDLER
+        id: NVIC_105_0_HANDLER_LOCK
       children:
       - children:
         - attributes:
-            id: sercom5
-            value: SERCOM5_USART_InterruptHandler
+            id: core
+            value: 'true'
           type: Dynamic
         type: Values
-      type: String
+      type: Boolean
+    NVIC_106_0_ENABLE:
+      attributes:
+        id: NVIC_106_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
     NVIC_106_0_HANDLER:
       attributes:
         id: NVIC_106_0_HANDLER
@@ -666,17 +299,28 @@ data:
           type: Dynamic
         type: Values
       type: String
-    SERCOM5_3_INTERRUPT_HANDLER:
+    NVIC_106_0_HANDLER_LOCK:
       attributes:
-        id: SERCOM5_3_INTERRUPT_HANDLER
+        id: NVIC_106_0_HANDLER_LOCK
       children:
       - children:
         - attributes:
-            id: sercom5
-            value: SERCOM5_USART_InterruptHandler
+            id: core
+            value: 'true'
           type: Dynamic
         type: Values
-      type: String
+      type: Boolean
+    NVIC_107_0_ENABLE:
+      attributes:
+        id: NVIC_107_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
     NVIC_107_0_HANDLER:
       attributes:
         id: NVIC_107_0_HANDLER
@@ -688,86 +332,75 @@ data:
           type: Dynamic
         type: Values
       type: String
-    SERCOM5_4_INTERRUPT_HANDLER:
+    NVIC_107_0_HANDLER_LOCK:
       attributes:
-        id: SERCOM5_4_INTERRUPT_HANDLER
+        id: NVIC_107_0_HANDLER_LOCK
       children:
       - children:
         - attributes:
-            id: sercom5
-            value: SERCOM5_USART_InterruptHandler
+            id: core
+            value: 'true'
           type: Dynamic
         type: Values
-      type: String
-    PIN_75_FUNCTION_TYPE:
+      type: Boolean
+    NVIC_12_0_ENABLE:
       attributes:
-        id: PIN_75_FUNCTION_TYPE
+        id: NVIC_12_0_ENABLE
       children:
       - children:
         - attributes:
-            id: lib_qtouch
-            value: PTC_DRV12
+            id: core
+            value: 'true'
           type: Dynamic
         type: Values
-      type: String
-    PIN_74_FUNCTION_TYPE:
+      type: Boolean
+    NVIC_12_0_HANDLER:
       attributes:
-        id: PIN_74_FUNCTION_TYPE
+        id: NVIC_12_0_HANDLER
       children:
       - children:
         - attributes:
-            id: lib_qtouch
-            value: PTC_DRV11
+            id: core
+            value: RTC_InterruptHandler
           type: Dynamic
         type: Values
       type: String
-    PIN_77_FUNCTION_TYPE:
+    NVIC_12_0_HANDLER_LOCK:
       attributes:
-        id: PIN_77_FUNCTION_TYPE
+        id: NVIC_12_0_HANDLER_LOCK
       children:
       - children:
         - attributes:
-            id: lib_qtouch
-            value: ''
+            id: core
+            value: 'true'
           type: Dynamic
         type: Values
-      type: String
-    PIN_76_FUNCTION_TYPE:
+      type: Boolean
+    NVIC_139_0_ENABLE:
       attributes:
-        id: PIN_76_FUNCTION_TYPE
+        id: NVIC_139_0_ENABLE
       children:
       - children:
         - attributes:
-            id: lib_qtouch
-            value: ''
+            id: core
+            value: 'true'
           type: Dynamic
         type: Values
-      type: String
-    PIN_108_FUNCTION_TYPE:
+      type: Boolean
+    NVIC_139_0_HANDLER:
       attributes:
-        id: PIN_108_FUNCTION_TYPE
+        id: NVIC_139_0_HANDLER
       children:
       - children:
         - attributes:
-            id: lib_qtouch
-            value: ''
+            id: core
+            value: PTC_Handler
           type: Dynamic
         type: Values
       type: String
-    PIN_38_FUNCTION_TYPE:
+    PIN_100_FUNCTION_TYPE:
       attributes:
-        id: PIN_38_FUNCTION_TYPE
-      children:
-      - children:
-        - attributes:
-            id: lib_qtouch
-            value: ''
-          type: Dynamic
-        type: Values
-      type: String
-    PIN_73_FUNCTION_TYPE:
-      attributes:
-        id: PIN_73_FUNCTION_TYPE
+        id: PIN_100_FUNCTION_TYPE
       children:
       - children:
         - attributes:
@@ -776,9 +409,9 @@ data:
           type: Dynamic
         type: Values
       type: String
-    PIN_37_FUNCTION_TYPE:
+    PIN_101_FUNCTION_TYPE:
       attributes:
-        id: PIN_37_FUNCTION_TYPE
+        id: PIN_101_FUNCTION_TYPE
       children:
       - children:
         - attributes:
@@ -787,97 +420,9 @@ data:
           type: Dynamic
         type: Values
       type: String
-    PIN_94_FUNCTION_TYPE:
+    PIN_104_FUNCTION_TYPE:
       attributes:
-        id: PIN_94_FUNCTION_TYPE
-      children:
-      - children:
-        - attributes:
-            id: lib_qtouch
-            value: ''
-          type: Dynamic
-        type: Values
-      type: String
-    PIN_69_FUNCTION_TYPE:
-      attributes:
-        id: PIN_69_FUNCTION_TYPE
-      children:
-      - children:
-        - attributes:
-            id: lib_qtouch
-            value: ''
-          type: Dynamic
-        type: Values
-      type: String
-    PIN_85_FUNCTION_TYPE:
-      attributes:
-        id: PIN_85_FUNCTION_TYPE
-      children:
-      - children:
-        - attributes:
-            id: lib_qtouch
-            value: ''
-          type: Dynamic
-        type: Values
-      type: String
-    PIN_84_FUNCTION_TYPE:
-      attributes:
-        id: PIN_84_FUNCTION_TYPE
-      children:
-      - children:
-        - attributes:
-            id: lib_qtouch
-            value: ''
-          type: Dynamic
-        type: Values
-      type: String
-    PIN_71_FUNCTION_TYPE:
-      attributes:
-        id: PIN_71_FUNCTION_TYPE
-      children:
-      - children:
-        - attributes:
-            id: lib_qtouch
-            value: ''
-          type: Dynamic
-        type: Values
-      type: String
-    PIN_86_FUNCTION_TYPE:
-      attributes:
-        id: PIN_86_FUNCTION_TYPE
-      children:
-      - children:
-        - attributes:
-            id: lib_qtouch
-            value: ''
-          type: Dynamic
-        type: Values
-      type: String
-    PIN_70_FUNCTION_TYPE:
-      attributes:
-        id: PIN_70_FUNCTION_TYPE
-      children:
-      - children:
-        - attributes:
-            id: lib_qtouch
-            value: ''
-          type: Dynamic
-        type: Values
-      type: String
-    PIN_33_FUNCTION_TYPE:
-      attributes:
-        id: PIN_33_FUNCTION_TYPE
-      children:
-      - children:
-        - attributes:
-            id: lib_qtouch
-            value: ''
-          type: Dynamic
-        type: Values
-      type: String
-    PIN_106_FUNCTION_TYPE:
-      attributes:
-        id: PIN_106_FUNCTION_TYPE
+        id: PIN_104_FUNCTION_TYPE
       children:
       - children:
         - attributes:
@@ -897,9 +442,254 @@ data:
           type: Dynamic
         type: Values
       type: String
-    PIN_95_FUNCTION_TYPE:
+    PIN_106_FUNCTION_TYPE:
       attributes:
-        id: PIN_95_FUNCTION_TYPE
+        id: PIN_106_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: ''
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_107_FUNCTION_TYPE:
+      attributes:
+        id: PIN_107_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: PTC_DRV31
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_107_MODE:
+      attributes:
+        id: PIN_107_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_107_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_107_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: N
+          type: User
+        type: Values
+      type: String
+    PIN_108_FUNCTION_TYPE:
+      attributes:
+        id: PIN_108_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: ''
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_17_FUNCTION_TYPE:
+      attributes:
+        id: PIN_17_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: SERCOM5_PAD0
+          type: User
+        type: Values
+      type: String
+    PIN_17_MODE:
+      attributes:
+        id: PIN_17_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_17_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_17_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: C
+          type: User
+        type: Values
+      type: String
+    PIN_20_FUNCTION_TYPE:
+      attributes:
+        id: PIN_20_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: SERCOM5_PAD1
+          type: User
+        type: Values
+      type: String
+    PIN_20_MODE:
+      attributes:
+        id: PIN_20_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_20_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_20_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: C
+          type: User
+        type: Values
+      type: String
+    PIN_28_FUNCTION_TYPE:
+      attributes:
+        id: PIN_28_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: ''
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_33_FUNCTION_TYPE:
+      attributes:
+        id: PIN_33_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: ''
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_34_FUNCTION_TYPE:
+      attributes:
+        id: PIN_34_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: ''
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_35_FUNCTION_TYPE:
+      attributes:
+        id: PIN_35_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: ''
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_36_FUNCTION_TYPE:
+      attributes:
+        id: PIN_36_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: ''
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_37_FUNCTION_TYPE:
+      attributes:
+        id: PIN_37_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: ''
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_38_FUNCTION_TYPE:
+      attributes:
+        id: PIN_38_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: ''
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_65_FUNCTION_TYPE:
+      attributes:
+        id: PIN_65_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: ''
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_68_FUNCTION_TYPE:
+      attributes:
+        id: PIN_68_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: ''
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_69_FUNCTION_TYPE:
+      attributes:
+        id: PIN_69_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: ''
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_70_FUNCTION_TYPE:
+      attributes:
+        id: PIN_70_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: ''
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_71_FUNCTION_TYPE:
+      attributes:
+        id: PIN_71_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: ''
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_72_FUNCTION_TYPE:
+      attributes:
+        id: PIN_72_FUNCTION_TYPE
       children:
       - children:
         - attributes:
@@ -911,9 +701,93 @@ data:
           type: User
         type: Values
       type: String
-    PIN_65_FUNCTION_TYPE:
+    PIN_73_FUNCTION_TYPE:
       attributes:
-        id: PIN_65_FUNCTION_TYPE
+        id: PIN_73_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: ''
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_74_FUNCTION_TYPE:
+      attributes:
+        id: PIN_74_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: PTC_DRV11
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_74_MODE:
+      attributes:
+        id: PIN_74_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_74_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_74_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: N
+          type: User
+        type: Values
+      type: String
+    PIN_75_FUNCTION_TYPE:
+      attributes:
+        id: PIN_75_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: PTC_DRV12
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_75_MODE:
+      attributes:
+        id: PIN_75_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_75_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_75_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: N
+          type: User
+        type: Values
+      type: String
+    PIN_76_FUNCTION_TYPE:
+      attributes:
+        id: PIN_76_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: ''
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_77_FUNCTION_TYPE:
+      attributes:
+        id: PIN_77_FUNCTION_TYPE
       children:
       - children:
         - attributes:
@@ -936,23 +810,9 @@ data:
           type: User
         type: Values
       type: String
-    PIN_72_FUNCTION_TYPE:
+    PIN_84_FUNCTION_TYPE:
       attributes:
-        id: PIN_72_FUNCTION_TYPE
-      children:
-      - children:
-        - attributes:
-            id: lib_qtouch
-            value: ''
-          type: Dynamic
-        - attributes:
-            value: GPIO
-          type: User
-        type: Values
-      type: String
-    PIN_35_FUNCTION_TYPE:
-      attributes:
-        id: PIN_35_FUNCTION_TYPE
+        id: PIN_84_FUNCTION_TYPE
       children:
       - children:
         - attributes:
@@ -961,9 +821,9 @@ data:
           type: Dynamic
         type: Values
       type: String
-    PIN_34_FUNCTION_TYPE:
+    PIN_85_FUNCTION_TYPE:
       attributes:
-        id: PIN_34_FUNCTION_TYPE
+        id: PIN_85_FUNCTION_TYPE
       children:
       - children:
         - attributes:
@@ -972,9 +832,9 @@ data:
           type: Dynamic
         type: Values
       type: String
-    PIN_104_FUNCTION_TYPE:
+    PIN_86_FUNCTION_TYPE:
       attributes:
-        id: PIN_104_FUNCTION_TYPE
+        id: PIN_86_FUNCTION_TYPE
       children:
       - children:
         - attributes:
@@ -983,9 +843,9 @@ data:
           type: Dynamic
         type: Values
       type: String
-    PIN_101_FUNCTION_TYPE:
+    PIN_94_FUNCTION_TYPE:
       attributes:
-        id: PIN_101_FUNCTION_TYPE
+        id: PIN_94_FUNCTION_TYPE
       children:
       - children:
         - attributes:
@@ -994,20 +854,9 @@ data:
           type: Dynamic
         type: Values
       type: String
-    PIN_36_FUNCTION_TYPE:
+    PIN_95_FUNCTION_TYPE:
       attributes:
-        id: PIN_36_FUNCTION_TYPE
-      children:
-      - children:
-        - attributes:
-            id: lib_qtouch
-            value: ''
-          type: Dynamic
-        type: Values
-      type: String
-    PIN_99_FUNCTION_TYPE:
-      attributes:
-        id: PIN_99_FUNCTION_TYPE
+        id: PIN_95_FUNCTION_TYPE
       children:
       - children:
         - attributes:
@@ -1033,141 +882,94 @@ data:
           type: User
         type: Values
       type: String
-    PIN_68_FUNCTION_TYPE:
+    PIN_99_FUNCTION_TYPE:
       attributes:
-        id: PIN_68_FUNCTION_TYPE
+        id: PIN_99_FUNCTION_TYPE
       children:
       - children:
         - attributes:
             id: lib_qtouch
             value: ''
           type: Dynamic
-        type: Values
-      type: String
-    PIN_28_FUNCTION_TYPE:
-      attributes:
-        id: PIN_28_FUNCTION_TYPE
-      children:
-      - children:
         - attributes:
-            id: lib_qtouch
-            value: ''
-          type: Dynamic
-        type: Values
-      type: String
-    PIN_107_FUNCTION_TYPE:
-      attributes:
-        id: PIN_107_FUNCTION_TYPE
-      children:
-      - children:
-        - attributes:
-            id: lib_qtouch
-            value: PTC_DRV31
-          type: Dynamic
-        type: Values
-      type: String
-    PIN_100_FUNCTION_TYPE:
-      attributes:
-        id: PIN_100_FUNCTION_TYPE
-      children:
-      - children:
-        - attributes:
-            id: lib_qtouch
-            value: ''
-          type: Dynamic
-        type: Values
-      type: String
-    GCLK_ID_35_GENSEL:
-      attributes:
-        id: GCLK_ID_35_GENSEL
-      children:
-      - children:
-        - attributes:
-            value: '2'
+            value: GPIO
           type: User
         type: Values
-      type: KeyValueSet
-    GCLK_CYCLE_FORMED:
+      type: String
+    PORT_GROUP_0_PAD_24:
       attributes:
-        id: GCLK_CYCLE_FORMED
+        id: PORT_GROUP_0_PAD_24
       children:
       - children:
         - attributes:
             id: core
-            value: 'false'
+            value: PA24
           type: Dynamic
         type: Values
-      type: Boolean
-    GCLK_2_FREQ:
+      type: String
+    PORT_GROUP_0_PAD_25:
       attributes:
-        id: GCLK_2_FREQ
+        id: PORT_GROUP_0_PAD_25
       children:
       - children:
         - attributes:
             id: core
-            value: '4000000'
+            value: PA25
           type: Dynamic
         type: Values
-      type: Integer
-    GCLK_INST_NUM2:
+      type: String
+    PORT_GROUP_0_PINCFG24:
       attributes:
-        id: GCLK_INST_NUM2
+        id: PORT_GROUP_0_PINCFG24
       children:
       - children:
         - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG25:
+      attributes:
+        id: PORT_GROUP_0_PINCFG25
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PIN_24_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_24_USED
+      children:
+      - children:
+        - attributes:
+            id: core
             value: 'true'
-          type: User
-        type: Values
-      type: Boolean
-    GCLK_2_RUNSTDBY:
-      attributes:
-        id: GCLK_2_RUNSTDBY
-      children:
-      - children:
-        - attributes:
-            value: 'true'
-          type: User
-        type: Values
-      type: Boolean
-    GCLK_2_DIVIDER_VALUE:
-      attributes:
-        id: GCLK_2_DIVIDER_VALUE
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: '12'
           type: Dynamic
         type: Values
-      type: Integer
-    GCLK_2_DIV:
+      type: Boolean
+    PORT_GROUP_0_PIN_25_USED:
       attributes:
-        id: GCLK_2_DIV
-      children:
-      - children:
-        - attributes:
-            value: '12'
-          type: User
-        type: Values
-      type: Integer
-    PIN_74_MODE:
-      attributes:
-        id: PIN_74_MODE
-      children:
-      - children:
-        - attributes:
-            value: ''
-          type: User
-        type: Values
-      type: String
-    PORT_GROUP_2_PMUX0:
-      attributes:
-        id: PORT_GROUP_2_PMUX0
+        id: PORT_GROUP_0_PIN_25_USED
       children:
       - children:
         - attributes:
             id: core
-            value: '0xd0'
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PMUX12:
+      attributes:
+        id: PORT_GROUP_0_PMUX12
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x22'
           type: Dynamic
         type: Values
       type: String
@@ -1182,56 +984,14 @@ data:
           type: Dynamic
         type: Values
       type: String
-    PORT_GROUP_2_PINCFG1:
+    PORT_GROUP_2_PAD_19:
       attributes:
-        id: PORT_GROUP_2_PINCFG1
+        id: PORT_GROUP_2_PAD_19
       children:
       - children:
         - attributes:
             id: core
-            value: '0x1'
-          type: Dynamic
-        type: Values
-      type: String
-    PORT_GROUP_2_PIN_1_USED:
-      attributes:
-        id: PORT_GROUP_2_PIN_1_USED
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    PIN_74_PERIPHERAL_FUNCTION:
-      attributes:
-        id: PIN_74_PERIPHERAL_FUNCTION
-      children:
-      - children:
-        - attributes:
-            value: N
-          type: User
-        type: Values
-      type: String
-    PIN_75_MODE:
-      attributes:
-        id: PIN_75_MODE
-      children:
-      - children:
-        - attributes:
-            value: ''
-          type: User
-        type: Values
-      type: String
-    PORT_GROUP_2_PMUX1:
-      attributes:
-        id: PORT_GROUP_2_PMUX1
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: '0xd'
+            value: PC19
           type: Dynamic
         type: Values
       type: String
@@ -1246,9 +1006,9 @@ data:
           type: Dynamic
         type: Values
       type: String
-    PORT_GROUP_2_PINCFG2:
+    PORT_GROUP_2_PINCFG1:
       attributes:
-        id: PORT_GROUP_2_PINCFG2
+        id: PORT_GROUP_2_PINCFG1
       children:
       - children:
         - attributes:
@@ -1257,62 +1017,20 @@ data:
           type: Dynamic
         type: Values
       type: String
-    PORT_GROUP_2_PIN_2_USED:
-      attributes:
-        id: PORT_GROUP_2_PIN_2_USED
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    PIN_75_PERIPHERAL_FUNCTION:
-      attributes:
-        id: PIN_75_PERIPHERAL_FUNCTION
-      children:
-      - children:
-        - attributes:
-            value: N
-          type: User
-        type: Values
-      type: String
-    PIN_107_MODE:
-      attributes:
-        id: PIN_107_MODE
-      children:
-      - children:
-        - attributes:
-            value: ''
-          type: User
-        type: Values
-      type: String
-    PORT_GROUP_2_PMUX9:
-      attributes:
-        id: PORT_GROUP_2_PMUX9
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: '0xd0'
-          type: Dynamic
-        type: Values
-      type: String
-    PORT_GROUP_2_PAD_19:
-      attributes:
-        id: PORT_GROUP_2_PAD_19
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: PC19
-          type: Dynamic
-        type: Values
-      type: String
     PORT_GROUP_2_PINCFG19:
       attributes:
         id: PORT_GROUP_2_PINCFG19
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG2:
+      attributes:
+        id: PORT_GROUP_2_PINCFG2
       children:
       - children:
         - attributes:
@@ -1332,16 +1050,446 @@ data:
           type: Dynamic
         type: Values
       type: Boolean
-    PIN_107_PERIPHERAL_FUNCTION:
+    PORT_GROUP_2_PIN_1_USED:
       attributes:
-        id: PIN_107_PERIPHERAL_FUNCTION
+        id: PORT_GROUP_2_PIN_1_USED
       children:
       - children:
         - attributes:
-            value: N
-          type: User
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PIN_2_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_2_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PMUX0:
+      attributes:
+        id: PORT_GROUP_2_PMUX0
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0xd0'
+          type: Dynamic
         type: Values
       type: String
+    PORT_GROUP_2_PMUX1:
+      attributes:
+        id: PORT_GROUP_2_PMUX1
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0xd'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PMUX9:
+      attributes:
+        id: PORT_GROUP_2_PMUX9
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0xd0'
+          type: Dynamic
+        type: Values
+      type: String
+    PTC_CLOCK_ENABLE:
+      attributes:
+        id: PTC_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PTC_CLOCK_FREQUENCY:
+      attributes:
+        id: PTC_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '4000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    PTC_INTERRUPT_ENABLE:
+      attributes:
+        id: PTC_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PTC_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: PTC_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PTC_INTERRUPT_HANDLER:
+      attributes:
+        id: PTC_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: PTC_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    RTC_INTERRUPT_ENABLE:
+      attributes:
+        id: RTC_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: rtc
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    RTC_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: RTC_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    RTC_INTERRUPT_HANDLER:
+      attributes:
+        id: RTC_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: rtc
+            value: RTC_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    RTC_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: RTC_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: rtc
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_0_INTERRUPT_ENABLE:
+      attributes:
+        id: SERCOM5_0_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: sercom5
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_0_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM5_0_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_0_INTERRUPT_HANDLER:
+      attributes:
+        id: SERCOM5_0_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: sercom5
+            value: SERCOM5_USART_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    SERCOM5_0_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: SERCOM5_0_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: sercom5
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_1_INTERRUPT_ENABLE:
+      attributes:
+        id: SERCOM5_1_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: sercom5
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_1_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM5_1_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_1_INTERRUPT_HANDLER:
+      attributes:
+        id: SERCOM5_1_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: sercom5
+            value: SERCOM5_USART_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    SERCOM5_1_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: SERCOM5_1_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: sercom5
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_2_INTERRUPT_ENABLE:
+      attributes:
+        id: SERCOM5_2_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: sercom5
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_2_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM5_2_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_2_INTERRUPT_HANDLER:
+      attributes:
+        id: SERCOM5_2_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: sercom5
+            value: SERCOM5_USART_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    SERCOM5_2_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: SERCOM5_2_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: sercom5
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_3_INTERRUPT_ENABLE:
+      attributes:
+        id: SERCOM5_3_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: sercom5
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_3_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM5_3_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_3_INTERRUPT_HANDLER:
+      attributes:
+        id: SERCOM5_3_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: sercom5
+            value: SERCOM5_USART_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    SERCOM5_3_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: SERCOM5_3_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: sercom5
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_4_INTERRUPT_ENABLE:
+      attributes:
+        id: SERCOM5_4_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: sercom5
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_4_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM5_4_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_4_INTERRUPT_HANDLER:
+      attributes:
+        id: SERCOM5_4_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: sercom5
+            value: SERCOM5_USART_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    SERCOM5_4_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: SERCOM5_4_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: sercom5
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_56_INTERRUPT_ENABLE:
+      attributes:
+        id: SERCOM5_56_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: sercom5
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_56_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM5_56_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_56_INTERRUPT_HANDLER:
+      attributes:
+        id: SERCOM5_56_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: sercom5
+            value: SERCOM5_USART_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    SERCOM5_56_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: SERCOM5_56_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: sercom5
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_CORE_CLOCK_ENABLE:
+      attributes:
+        id: SERCOM5_CORE_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: sercom5
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM5_CORE_CLOCK_FREQUENCY:
+      attributes:
+        id: SERCOM5_CORE_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '60000000'
+          type: Dynamic
+        type: Values
+      type: Integer
     PIN_98_MODE:
       attributes:
         id: PIN_98_MODE
@@ -1927,148 +2075,11 @@ data:
           type: User
         type: Values
       type: String
-    PIN_17_MODE:
-      attributes:
-        id: PIN_17_MODE
-      children:
-      - children:
-        - attributes:
-            value: ''
-          type: User
-        type: Values
-      type: String
-    PIN_17_FUNCTION_TYPE:
-      attributes:
-        id: PIN_17_FUNCTION_TYPE
-      children:
-      - children:
-        - attributes:
-            value: SERCOM5_PAD0
-          type: User
-        type: Values
-      type: String
-    PORT_GROUP_0_PMUX12:
-      attributes:
-        id: PORT_GROUP_0_PMUX12
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: '0x22'
-          type: Dynamic
-        type: Values
-      type: String
-    PORT_GROUP_0_PAD_24:
-      attributes:
-        id: PORT_GROUP_0_PAD_24
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: PA24
-          type: Dynamic
-        type: Values
-      type: String
-    PORT_GROUP_0_PINCFG24:
-      attributes:
-        id: PORT_GROUP_0_PINCFG24
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: '0x1'
-          type: Dynamic
-        type: Values
-      type: String
-    PORT_GROUP_0_PIN_24_USED:
-      attributes:
-        id: PORT_GROUP_0_PIN_24_USED
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    PIN_17_PERIPHERAL_FUNCTION:
-      attributes:
-        id: PIN_17_PERIPHERAL_FUNCTION
-      children:
-      - children:
-        - attributes:
-            value: C
-          type: User
-        type: Values
-      type: String
-    PIN_20_MODE:
-      attributes:
-        id: PIN_20_MODE
-      children:
-      - children:
-        - attributes:
-            value: ''
-          type: User
-        type: Values
-      type: String
-    PIN_20_FUNCTION_TYPE:
-      attributes:
-        id: PIN_20_FUNCTION_TYPE
-      children:
-      - children:
-        - attributes:
-            value: SERCOM5_PAD1
-          type: User
-        type: Values
-      type: String
-    PORT_GROUP_0_PAD_25:
-      attributes:
-        id: PORT_GROUP_0_PAD_25
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: PA25
-          type: Dynamic
-        type: Values
-      type: String
-    PORT_GROUP_0_PINCFG25:
-      attributes:
-        id: PORT_GROUP_0_PINCFG25
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: '0x1'
-          type: Dynamic
-        type: Values
-      type: String
-    PORT_GROUP_0_PIN_25_USED:
-      attributes:
-        id: PORT_GROUP_0_PIN_25_USED
-      children:
-      - children:
-        - attributes:
-            id: core
-            value: 'true'
-          type: Dynamic
-        type: Values
-      type: Boolean
-    PIN_20_PERIPHERAL_FUNCTION:
-      attributes:
-        id: PIN_20_PERIPHERAL_FUNCTION
-      children:
-      - children:
-        - attributes:
-            value: C
-          type: User
-        type: Values
-      type: String
   userData:
     children:
     - attributes:
-        canvasHeight: '0'
-        canvasWidth: '0'
+        canvasHeight: '383'
+        canvasWidth: '937'
       type: GraphSettings
     - children:
       - attributes:
