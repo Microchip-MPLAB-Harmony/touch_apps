@@ -20,7 +20,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l22_xpro\ATSAML22N18A.ld
   hash: e690bdf01bc2d45a36550a4277450dddd34e46ab829d4f6f62d6712f16ed80ba
 - file: ..\src\config\sam_l22_xpro\definitions.h
-  hash: 5830fb10c55c47a48fea6aa05f7430d58b25a19021a5a9b2dd8ad7612e1a4e18
+  hash: dc5b96c9fd49d47e0d9cc1909a17569beb881bf9e0019d93a725185c3bf89112
 - file: ..\src\config\sam_l22_xpro\device.h
   hash: 0de67b551f51caff91a4a56e6c390824b6698ffbe714cbcf7df0675af1d0de2b
 - file: ..\src\config\sam_l22_xpro\device_cache.h
@@ -30,7 +30,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l22_xpro\exceptions.c
   hash: 42f9da2668e04ccb3473d45b149683a00f80072c6883c7918d6ce93997cd6987
 - file: ..\src\config\sam_l22_xpro\initialization.c
-  hash: feb9eb8a61148702a13e97bb08b1437357f7fe57d02e6a3cb1120b7929923613
+  hash: d2db3e059f6109dd286cfaeeff88516cf8eeb04e6fee883c02c73072a7f42c31
 - file: ..\src\config\sam_l22_xpro\interrupts.c
   hash: 9dfa4c062965d9d50f777eba7a9ea167992e42dc82be4037aa63fac20c3cf4c2
 - file: ..\src\config\sam_l22_xpro\interrupts.h

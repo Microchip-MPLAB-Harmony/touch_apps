@@ -2082,7 +2082,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: ADC0_AIN9/X7/Y7
+            value: ''
           type: Dynamic
         type: Values
       type: String

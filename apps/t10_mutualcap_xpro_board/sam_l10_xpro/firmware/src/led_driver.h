@@ -85,9 +85,9 @@ typedef enum {
 #endif
 
 #if __ATSAML10E16A__
-#define __I2C_CallbackRegister(x,y) SERCOM0_I2C_CallbackRegister(x,y)
-#define __I2C_Write(x,y,z) SERCOM0_I2C_Write(x,y,z)
-#define __I2C_ErrorGet() SERCOM0_I2C_ErrorGet()
+#define __I2C_CallbackRegister(x,y) SERCOM1_I2C_CallbackRegister(x,y)
+#define __I2C_Write(x,y,z) SERCOM1_I2C_Write(x,y,z)
+#define __I2C_ErrorGet() SERCOM1_I2C_ErrorGet()
 #endif
 
 #if __PIC32CM5164LE00100__

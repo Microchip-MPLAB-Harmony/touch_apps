@@ -24,7 +24,7 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,D
 29,PC06,LED_WHEEL_B,GPIO,Digital,Out,High,,,NORMAL
 30,PC07,,Available,,,,,,NORMAL
 33,PA08,,Available,,,,,,NORMAL
-34,PA09,,ADC0_AIN9/X7/Y7,Analog,High Impedance,n/a,,,NORMAL
+34,PA09,,Available,,,,,,NORMAL
 35,PA10,,Available,,,,,,NORMAL
 36,PA11,,Available,,,,,,NORMAL
 39,PB10,,Available,,,,,,NORMAL

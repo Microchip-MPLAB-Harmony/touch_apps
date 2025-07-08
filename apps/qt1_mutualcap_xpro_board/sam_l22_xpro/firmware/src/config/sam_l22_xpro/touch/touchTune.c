@@ -411,7 +411,7 @@ void touchTuneNewDataAvailable(void) {
 void UART_Write(uint8_t data) {
 	static uint8_t txData;
 	txData = data;
-	if (SERCOM0_USART_Write(&txData, 1)) {
+	if (SERCOM4_USART_Write(&txData, 1)) {
 
 	}
 }
@@ -553,10 +553,10 @@ void uart_recv_frame_data(uint8_t frame_id, uint16_t len)
 
 void touchTuneInit(void) {
 
-    SERCOM0_USART_WriteCallbackRegister(touchUartTxComplete, touchUart);
-    SERCOM0_USART_ReadCallbackRegister(touchUartRxComplete, touchUart);
+    SERCOM4_USART_WriteCallbackRegister(touchUartTxComplete, touchUart);
+    SERCOM4_USART_ReadCallbackRegister(touchUartRxComplete, touchUart);
 
-    if(SERCOM0_USART_Read((void *) &rxData, 1)) {
+    if(SERCOM4_USART_Read((void *) &rxData, 1)) {
 	
 	}
 }
@@ -732,7 +732,7 @@ void touchUartRxComplete(uintptr_t lTouchUart)
 	if (read_buf_write_ptr == UART_RX_BUF_LENGTH) {
 		read_buf_write_ptr = 0u;
 	}
-	if(SERCOM0_USART_Read((void *) &rxData,1)) {
+	if(SERCOM4_USART_Read((void *) &rxData,1)) {
 	}
 	#endif
 }

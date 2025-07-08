@@ -97,13 +97,6 @@ uint16_t scroller_position = 0u;
         //Touch No detect
     }
 
-    key_status = get_sensor_state(4) & KEY_TOUCHED_MASK;
-    if (0u != key_status) {
-        //Touch detect
-    } else {
-        //Touch No detect
-    }
-
 
     scroller_status = get_scroller_state(0);
     scroller_position = get_scroller_position(0);

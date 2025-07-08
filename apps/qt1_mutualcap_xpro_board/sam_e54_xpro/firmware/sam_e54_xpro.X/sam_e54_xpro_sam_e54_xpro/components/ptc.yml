@@ -35,6 +35,24 @@ data:
             type: String
           type: Attributes
         type: DirectDependency
+      - attributes:
+          id: ptc_Acq_Engine
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: lib_qtouch
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: lib_acquire
+            type: String
+          type: Attributes
+        type: DirectCapability
       type: Attachments
     type: ptc
   elementPosition:
@@ -44,8 +62,8 @@ data:
     - children:
       - attributes:
           id: ptc
-          x: '185'
-          y: '207'
+          x: '503'
+          y: '301'
         type: ElementPosition
       type: ElementPositions
     type: ComponentGraph

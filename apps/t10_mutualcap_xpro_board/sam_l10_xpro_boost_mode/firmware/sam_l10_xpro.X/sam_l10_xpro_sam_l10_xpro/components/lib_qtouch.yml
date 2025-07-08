@@ -25,31 +25,19 @@ data:
               id: targetComponentID
             children:
             - type: Value
-              value: sercom2
+              value: sercom0
             type: String
           - attributes:
               id: targetAttachmentID
             children:
             - type: Value
-              value: SERCOM2_UART
+              value: SERCOM0_UART
             type: String
           - attributes:
               id: enabled
             children:
             - type: Value
               value: 'true'
-            type: Boolean
-          type: Attributes
-        type: DirectDependency
-      - attributes:
-          id: Touch_sercom_Krono
-        children:
-        - children:
-          - attributes:
-              id: enabled
-            children:
-            - type: Value
-              value: 'false'
             type: Boolean
           type: Attributes
         type: DirectDependency
@@ -98,8 +86,8 @@ data:
     - children:
       - attributes:
           id: lib_qtouch
-          x: '528'
-          y: '228'
+          x: '508'
+          y: '157'
         type: ElementPosition
       type: ElementPositions
     type: ComponentGraph
@@ -790,7 +778,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '{"alert":true}'
+            value: '{"alert":true,"matrix":{"xSignals":["X14","X15","X16","X17"],"ySignals":["Y2","Y3"]},"target":{"xSignals":["X14  (PA18)","X15  (PA19)","X16  (PA22)","X17  (PA23)"],"ySignals":["Y2  (PA02)","Y3  (PA03)"]}}'
           type: User
         type: Values
       type: String
@@ -911,7 +899,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: SERCOM2
+            value: SERCOM0
           type: Dynamic
         type: Values
       type: String

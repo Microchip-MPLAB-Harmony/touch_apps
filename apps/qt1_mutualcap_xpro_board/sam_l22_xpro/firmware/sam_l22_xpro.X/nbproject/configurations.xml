@@ -32,8 +32,8 @@
             </logicalFolder>
             <logicalFolder name="sercom" displayName="sercom" projectFiles="true">
               <logicalFolder name="usart" displayName="usart" projectFiles="true">
-                <itemPath>../src/config/sam_l22_xpro/peripheral/sercom/usart/plib_sercom0_usart.h</itemPath>
                 <itemPath>../src/config/sam_l22_xpro/peripheral/sercom/usart/plib_sercom_usart_common.h</itemPath>
+                <itemPath>../src/config/sam_l22_xpro/peripheral/sercom/usart/plib_sercom4_usart.h</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
@@ -150,8 +150,8 @@
           <itemPath>sam_l22_xpro_sam_l22_xpro/components/cmsis.yml</itemPath>
           <itemPath>sam_l22_xpro_sam_l22_xpro/components/dfp.yml</itemPath>
           <itemPath>sam_l22_xpro_sam_l22_xpro/components/pm.yml</itemPath>
-          <itemPath>sam_l22_xpro_sam_l22_xpro/components/sercom0.yml</itemPath>
           <itemPath>sam_l22_xpro_sam_l22_xpro/components/evsys.yml</itemPath>
+          <itemPath>sam_l22_xpro_sam_l22_xpro/components/sercom4.yml</itemPath>
           <itemPath>sam_l22_xpro_sam_l22_xpro/components/nvmctrl.yml</itemPath>
           <itemPath>sam_l22_xpro_sam_l22_xpro/components/ptc.yml</itemPath>
           <itemPath>sam_l22_xpro_sam_l22_xpro/components/core.yml</itemPath>
@@ -207,7 +207,7 @@
             </logicalFolder>
             <logicalFolder name="sercom" displayName="sercom" projectFiles="true">
               <logicalFolder name="usart" displayName="usart" projectFiles="true">
-                <itemPath>../src/config/sam_l22_xpro/peripheral/sercom/usart/plib_sercom0_usart.c</itemPath>
+                <itemPath>../src/config/sam_l22_xpro/peripheral/sercom/usart/plib_sercom4_usart.c</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
@@ -238,7 +238,7 @@
         <targetDevice>ATSAML22N18A</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>noID</platformTool>
+        <platformTool>EdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>4.60</languageToolchainVersion>
         <platform>3</platform>
@@ -281,6 +281,7 @@
       <C32>
         <property key="additional-warnings" value="true"/>
         <property key="addresss-attribute-use" value="false"/>
+        <property key="appendMe" value=""/>
         <property key="cast-align" value="false"/>
         <property key="code-model" value="default"/>
         <property key="const-model" value="default"/>
@@ -359,6 +360,7 @@
         <property key="additional-options-use-response-files" value="false"/>
         <property key="additional-options-write-sla" value="false"/>
         <property key="allocate-dinit" value="false"/>
+        <property key="appendMe" value=""/>
         <property key="code-dinit" value="false"/>
         <property key="ebase-addr" value=""/>
         <property key="enable-check-sections" value="false"/>
@@ -404,6 +406,7 @@
       <C32CPP>
         <property key="additional-warnings" value="false"/>
         <property key="addresss-attribute-use" value="false"/>
+        <property key="appendMe" value=""/>
         <property key="check-new" value="false"/>
         <property key="eh-specs" value="true"/>
         <property key="enable-app-io" value="false"/>
@@ -486,6 +489,8 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-3ffff"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="D:/Repo/touch_apps/apps/qt1_mutualcap_xpro_board/sam_l22_xpro/firmware/sam_l22_xpro.X/debug/sam_l22_xpro/sam_l22_xpro_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"

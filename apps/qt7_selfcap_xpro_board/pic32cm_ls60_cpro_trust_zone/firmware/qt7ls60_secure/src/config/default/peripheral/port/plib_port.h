@@ -75,22 +75,13 @@
 #define LED_SLIDER_5_PIN                  PORT_PIN_PA10
 
 /*** Macros for LED_BUTTON_0 pin ***/
-#define LED_BUTTON_0_Set()               (PORT_SEC_REGS->GROUP[0].PORT_OUTSET = ((uint32_t)1U << 11U))
-#define LED_BUTTON_0_Clear()             (PORT_SEC_REGS->GROUP[0].PORT_OUTCLR = ((uint32_t)1U << 11U))
-#define LED_BUTTON_0_Toggle()            (PORT_SEC_REGS->GROUP[0].PORT_OUTTGL = ((uint32_t)1U << 11U))
-#define LED_BUTTON_0_OutputEnable()      (PORT_SEC_REGS->GROUP[0].PORT_DIRSET = ((uint32_t)1U << 11U))
-#define LED_BUTTON_0_InputEnable()       (PORT_SEC_REGS->GROUP[0].PORT_DIRCLR = ((uint32_t)1U << 11U))
-#define LED_BUTTON_0_Get()               (((PORT_SEC_REGS->GROUP[0].PORT_IN >> 11U)) & 0x01U)
-#define LED_BUTTON_0_PIN                  PORT_PIN_PA11
-
-/*** Macros for LED_BUTTON_1 pin ***/
-#define LED_BUTTON_1_Set()               (PORT_SEC_REGS->GROUP[1].PORT_OUTSET = ((uint32_t)1U << 30U))
-#define LED_BUTTON_1_Clear()             (PORT_SEC_REGS->GROUP[1].PORT_OUTCLR = ((uint32_t)1U << 30U))
-#define LED_BUTTON_1_Toggle()            (PORT_SEC_REGS->GROUP[1].PORT_OUTTGL = ((uint32_t)1U << 30U))
-#define LED_BUTTON_1_OutputEnable()      (PORT_SEC_REGS->GROUP[1].PORT_DIRSET = ((uint32_t)1U << 30U))
-#define LED_BUTTON_1_InputEnable()       (PORT_SEC_REGS->GROUP[1].PORT_DIRCLR = ((uint32_t)1U << 30U))
-#define LED_BUTTON_1_Get()               (((PORT_SEC_REGS->GROUP[1].PORT_IN >> 30U)) & 0x01U)
-#define LED_BUTTON_1_PIN                  PORT_PIN_PB30
+#define LED_BUTTON_0_Set()               (PORT_SEC_REGS->GROUP[1].PORT_OUTSET = ((uint32_t)1U << 30U))
+#define LED_BUTTON_0_Clear()             (PORT_SEC_REGS->GROUP[1].PORT_OUTCLR = ((uint32_t)1U << 30U))
+#define LED_BUTTON_0_Toggle()            (PORT_SEC_REGS->GROUP[1].PORT_OUTTGL = ((uint32_t)1U << 30U))
+#define LED_BUTTON_0_OutputEnable()      (PORT_SEC_REGS->GROUP[1].PORT_DIRSET = ((uint32_t)1U << 30U))
+#define LED_BUTTON_0_InputEnable()       (PORT_SEC_REGS->GROUP[1].PORT_DIRCLR = ((uint32_t)1U << 30U))
+#define LED_BUTTON_0_Get()               (((PORT_SEC_REGS->GROUP[1].PORT_IN >> 30U)) & 0x01U)
+#define LED_BUTTON_0_PIN                  PORT_PIN_PB30
 
 /*** Macros for LED_SLIDER_4 pin ***/
 #define LED_SLIDER_4_Set()               (PORT_SEC_REGS->GROUP[1].PORT_OUTSET = ((uint32_t)1U << 31U))

@@ -2,7 +2,7 @@
 
 manifest_file_version: 1.0.0
 project: sam_l22_xpro
-creation_date: 2025-06-23T01:39:03.768+05:30[Asia/Calcutta]
+creation_date: 2025-07-08T11:58:45.638+05:30[Asia/Calcutta]
 operating_system: Windows 11
 mcc_mode: IDE
 mcc_mode_version: v6.25
@@ -10,7 +10,7 @@ device_name: ATSAML22N18A
 compiler: XC32 4.60
 mcc_version: 5.6.2
 mcc_core_version: 5.8.2
-content_manager_version: 6.0.1
+content_manager_version: 6.0.2
 is_mcc_offline: false
 is_using_prerelease_versions: false
 mcc_content_registries: https://registry.npmjs.org/

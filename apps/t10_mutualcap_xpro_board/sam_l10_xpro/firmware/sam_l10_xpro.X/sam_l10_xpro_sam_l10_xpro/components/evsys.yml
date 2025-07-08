@@ -22,8 +22,8 @@ data:
     - children:
       - attributes:
           id: evsys
-          x: '160'
-          y: '20'
+          x: '188'
+          y: '57'
         type: ElementPosition
       type: ElementPositions
     type: ComponentGraph

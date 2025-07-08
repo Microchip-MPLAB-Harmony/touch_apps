@@ -18,6 +18,30 @@ data:
     children:
     - children:
       - attributes:
+          id: Touch_sercom_Krono
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: sercom0
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: SERCOM0_UART
+            type: String
+          - attributes:
+              id: enabled
+            children:
+            - type: Value
+              value: 'true'
+            type: Boolean
+          type: Attributes
+        type: DirectDependency
+      - attributes:
           id: Touch_timer
         children:
         - children:
@@ -675,6 +699,10 @@ data:
       children:
       - children:
         - attributes:
+            id: lib_qtouch
+            value: 'true'
+          type: Dynamic
+        - attributes:
             value: 'true'
           type: User
         type: Values
@@ -735,7 +763,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: SERCOM2
+            value: SERCOM0
           type: Dynamic
         type: Values
       type: String
@@ -748,6 +776,27 @@ data:
             id: lib_qtouch
             value: RTC
           type: Dynamic
+        type: Values
+      type: String
+    GET_PTC_CLOCK_FREQUENCY:
+      attributes:
+        id: GET_PTC_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: '4000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    HELPER_STATE:
+      attributes:
+        id: HELPER_STATE
+      children:
+      - children:
+        - attributes:
+            value: '{"alert":true,"matrix":{"xSignals":["X14","X15","X16","X17"],"ySignals":["Y2","Y3"]},"target":{"xSignals":["X14  (PA18)","X15  (PA19)","X16  (PA22)","X17  (PA23)"],"ySignals":["Y2  (PA02)","Y3  (PA03)"]}}'
+          type: User
         type: Values
       type: String
   userData: {}

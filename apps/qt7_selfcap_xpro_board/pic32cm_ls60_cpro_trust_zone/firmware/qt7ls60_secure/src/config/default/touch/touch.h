@@ -107,7 +107,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Range: 1 to 65535.
  * Default value: 1
  */
-#define DEF_NUM_CHANNELS (5u)
+#define DEF_NUM_CHANNELS (4u)
 
 
 /* Defines node parameter setting
@@ -118,23 +118,19 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #define NODE_0_PARAMS                                                                                               \
 {                                                                                                                  \
-   Y(2), Y(3), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   Y(2)|Y(29)|Y(21)|Y(20), Y(26), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_32                   \
 }
 #define NODE_1_PARAMS                                                                                               \
 {                                                                                                                  \
-   Y(2), Y(26), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   Y(2)|Y(26)|Y(21)|Y(20), Y(29), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_32                   \
 }
 #define NODE_2_PARAMS                                                                                               \
 {                                                                                                                  \
-   Y(2), Y(29), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   Y(2)|Y(26)|Y(29)|Y(20), Y(21), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_32                   \
 }
 #define NODE_3_PARAMS                                                                                               \
 {                                                                                                                  \
-   Y(2), Y(21), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
-}
-#define NODE_4_PARAMS                                                                                               \
-{                                                                                                                  \
-   Y(2), Y(20), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   Y(2)|Y(26)|Y(29)|Y(21), Y(20), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_32                   \
 }
 
 /**********************************************************/
@@ -144,7 +140,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Range: 1 to 65535.
  * Default value: 1
  */
-#define DEF_NUM_SENSORS (5u)
+#define DEF_NUM_SENSORS (4u)
 
 /* Defines Key Sensor setting
  * {Sensor Threshold, Sensor Hysterisis, Sensor AKS}
@@ -152,31 +148,25 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #define KEY_0_PARAMS                                                                                            \
 {                                                                                                              \
-    20u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
+    20u, (uint8_t)HYST_50, (uint8_t)NO_AKS_GROUP                       \
 }
 
 
 #define KEY_1_PARAMS                                                                                            \
 {                                                                                                              \
-    20u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
+    20u, (uint8_t)HYST_50, (uint8_t)AKS_GROUP_1                       \
 }
 
 
 #define KEY_2_PARAMS                                                                                            \
 {                                                                                                              \
-    20u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_1                       \
+    20u, (uint8_t)HYST_50, (uint8_t)AKS_GROUP_1                       \
 }
 
 
 #define KEY_3_PARAMS                                                                                            \
 {                                                                                                              \
-    20u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_1                       \
-}
-
-
-#define KEY_4_PARAMS                                                                                            \
-{                                                                                                              \
-    20u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_1                       \
+    20u, (uint8_t)HYST_50, (uint8_t)AKS_GROUP_1                       \
 }
 
 
@@ -252,7 +242,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  */
 #define SCROLLER_0_PARAMS                                                                                       \
 {                                                                                                              \
-    (uint8_t)SCROLLER_TYPE_SLIDER, 2u, 3u,                            \
+    (uint8_t)SCROLLER_TYPE_SLIDER, 1u, 3u,                            \
 		SCROLLER_RESOL_DEADBAND((uint8_t)SCR_RESOL_8_BIT, (uint8_t)SCR_DB_10_PERCENT),(uint8_t)8,20\
 }
 

@@ -6,7 +6,7 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,D
 5,PC02,,Available,,,,,,NORMAL
 6,PC03,,Available,,,,,,NORMAL
 7,PA02,,PTC_DRV2,Digital,High Impedance,n/a,No,No,NORMAL
-8,PA03,,PTC_ECI0/X3/Y3,Analog,High Impedance,n/a,,,NORMAL
+8,PA03,,Available,,,,,,NORMAL
 9,PB04,,PTC_X26/Y26,Analog,High Impedance,n/a,,,NORMAL
 10,PB05,,Available,,,,,,NORMAL
 13,PB06,,Available,,,,,,NORMAL
@@ -23,7 +23,7 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,D
 26,PA08,,Available,,,,,,NORMAL
 27,PA09,,Available,,,,,,NORMAL
 28,PA10,LED_SLIDER_5,GPIO,Digital,In/Out,Low,,,NORMAL
-29,PA11,LED_BUTTON_0,GPIO,Digital,In/Out,Low,,,NORMAL
+29,PA11,,Available,,,,,,NORMAL
 30,PC08,,Available,,,,,,NORMAL
 31,PC09,,Available,,,,,,NORMAL
 32,PC10,,Available,,,,,,NORMAL
@@ -73,7 +73,7 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,D
 86,PC28,,Available,,,,,,NORMAL
 93,PA30,,Available,,,,,,NORMAL
 94,PA31,,Available,,,,,,NORMAL
-95,PB30,LED_BUTTON_1,GPIO,Digital,In/Out,Low,,,NORMAL
+95,PB30,LED_BUTTON_0,GPIO,Digital,In/Out,Low,,,NORMAL
 96,PB31,LED_SLIDER_4,GPIO,Digital,In/Out,Low,,,NORMAL
 97,PB00,LED_SLIDER_3,GPIO,Digital,In/Out,Low,,,NORMAL
 98,PB01,LED_SLIDER_1,GPIO,Digital,In/Out,Low,,,NORMAL

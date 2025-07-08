@@ -44,9 +44,9 @@ generatedFileHashHistoryMap:
 - file: ..\..\qt7ls60\src\config\default\peripheral\port\plib_port.c
   hash: c5272f06ad2d2ad55fd87b491edb908257f7ea7edcb721940d922743d3b41da6
 - file: ..\..\qt7ls60\src\config\default\peripheral\port\plib_port.h
-  hash: fa8cb774537c2f0f86fd7e08a66488f5b04c14a1b57393130bed7c835daa7189
+  hash: aba9a59054ef98869e32e54cf8d564858293f8d0d6a7e3a90ae3be049ab92913
 - file: ..\..\qt7ls60\src\config\default\pin_configurations.csv
-  hash: 2a99bbafda21d135f89112381c7b3c7a3753162d89e724d914b63c51af6c1dfd
+  hash: ed733b967d6532f1b760597fd80d7ad4324461c2544b0e80d19d13e1b976a0ea
 - file: ..\..\qt7ls60\src\config\default\startup_xc32.c
   hash: e6227d89e36b74af1bc21e00e80b390502c97aaaa65796291f63b2d96cf0678e
 - file: ..\..\qt7ls60\src\config\default\stdio\xc32_monitor.c
@@ -250,9 +250,9 @@ generatedFileHashHistoryMap:
 - file: ..\..\qt7ls60_secure\src\config\default\peripheral\pm\plib_pm.h
   hash: 027462b9369dc5bb8873f96fc3b5ca69ceaf3bd205be7246e58a093b16ee633c
 - file: ..\..\qt7ls60_secure\src\config\default\peripheral\port\plib_port.c
-  hash: 32a6e556c9c47e31a289f9ad43f22a5cc447023125d04511cd8869fc0689fc7e
+  hash: c7c6363c8ed6dd92093d358fc469b981d0248fbca52b2107b8b81eaee200317f
 - file: ..\..\qt7ls60_secure\src\config\default\peripheral\port\plib_port.h
-  hash: f3361cb87852a559d4e54c6aeefacad88b3a56f8c4d8dd6d55e42917124fd807
+  hash: c72ce4f4d2a463c3ce15a4ff10224722efe09d648cba0d59b2e58699104bb310
 - file: ..\..\qt7ls60_secure\src\config\default\peripheral\rtc\plib_rtc.h
   hash: fa7385b5930ea5b0775de954391d0a2cd7c49b1949c66106177e085342dbeb3a
 - file: ..\..\qt7ls60_secure\src\config\default\peripheral\rtc\plib_rtc_timer.c
@@ -292,9 +292,9 @@ generatedFileHashHistoryMap:
 - file: ..\..\qt7ls60_secure\src\config\default\touch\qtm_touch_key_0x0002_api.h
   hash: 4840f9cd8def73a029c2090d101548329c92bdf13bd19410029aab45234b42e2
 - file: ..\..\qt7ls60_secure\src\config\default\touch\touch.c
-  hash: 6b6e7f2b135494d3344e2e3366c4c6e3cbe6f44d6750dfa251e245ae8d68d061
+  hash: 4a07dbdb4259d453e3bad2fdf22c5c895e6e894eb6a4255545e9b727f3ecdd0b
 - file: ..\..\qt7ls60_secure\src\config\default\touch\touch.h
-  hash: f1f190aa62cdd3d622d57add8836779dab9362a8a1ca0bc98e58aeb8a8437289
+  hash: 694b431ba3bdda757c8e3228bfa7a35bcb264df602719da9e7be7336c83b9baf
 - file: ..\..\qt7ls60_secure\src\config\default\touch\touchTune.c
   hash: 625cba32cd8fa9e7d5bf1d990ae7549cd1763fd1e4116b06ca5adb2d50f9f352
 - file: ..\..\qt7ls60_secure\src\config\default\touch\touchTune.h
@@ -302,7 +302,7 @@ generatedFileHashHistoryMap:
 - file: ..\..\qt7ls60_secure\src\config\default\touch\touch_api_ptc.h
   hash: 81e9dd28159b72155a3e66e37adde96f4027ddf5107d866bc0b3a481507657e0
 - file: ..\..\qt7ls60_secure\src\config\default\touch\touch_example.c
-  hash: 1ab38a9a73b5a68fa175a63394fd4b33155f564c9c48312009bea5aa9d35e186
+  hash: 1ffa217452738dc38beae1aca95a189b42e217d48b9420351286a31f0f5a55a8
 - file: ..\..\qt7ls60_secure\src\config\default\touch\touch_example.h
   hash: 59989902d4630e2ddf0822607a5c4485d4a31fbfa1ff2bc4a2b7aaa6656f58bb
 - file: ..\..\qt7ls60_secure\src\main.c

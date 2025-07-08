@@ -20,7 +20,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_e54_xpro\ATSAME54P20A.ld
   hash: ba1b5ba1b9c97c94416b0198dc30e928c5a66c926c3ad7695f9bbe3b798adaba
 - file: ..\src\config\sam_e54_xpro\definitions.h
-  hash: e46d2563d91ee6e474f328e3aabcaa368fea242760a7c00462e07acf8f8c94dc
+  hash: 979c7b7a84ee482ed8ece0d986d7b8934c896daed4933adbe2a005ca0dfce826
 - file: ..\src\config\sam_e54_xpro\device.h
   hash: b8fdcc4ed83daa65a6f38614a689c97d414774be19ae106e6da07556c50a2c82
 - file: ..\src\config\sam_e54_xpro\device_cache.h
@@ -78,7 +78,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_e54_xpro\peripheral\sercom\usart\plib_sercom_usart_common.h
   hash: 3653b66472c558c50f7037a1dd25d2678e9a13aa718f3c53a2195e6f3919ea48
 - file: ..\src\config\sam_e54_xpro\pin_configurations.csv
-  hash: 90e89218e4edf7fb29d399164183f92280243eb4ab0a88c3a11c7109629d8c88
+  hash: 130e8d6cf7336f803212d197b3eb9aa97a614fb9371d19910cc7c67128dca3b4
 - file: ..\src\config\sam_e54_xpro\startup_xc32.c
   hash: f374b97d65f92553f1b75d8c9239b8b0f8581c710f78ea47b02c7f6fa6f74c74
 - file: ..\src\config\sam_e54_xpro\stdio\xc32_monitor.c
@@ -110,7 +110,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_e54_xpro\touch\touch.c
   hash: c69e3ed0e1d0a9d99c29b61ec96022757f6d19501e8722a01e64ca14de106d18
 - file: ..\src\config\sam_e54_xpro\touch\touch.h
-  hash: f6b7d0f8eafd2ed19759248863ace5738362a374700494be2bee56fffa5c22b8
+  hash: c88830a7f24bcd1c94f17932b5904d30c60ee6f35aa89bccd3a70c37b390f8b5
 - file: ..\src\config\sam_e54_xpro\touch\touchTune.c
   hash: 96b6a59c5a20068d7514823519690ccb82b01b1e6012fbb100dead57d8dbdfc1
 - file: ..\src\config\sam_e54_xpro\touch\touchTune.h

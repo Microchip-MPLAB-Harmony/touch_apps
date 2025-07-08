@@ -15,12 +15,12 @@ modules:
 - pm
 - ptc
 - rtc
-- sercom0
+- sercom4
 generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l22_xpro\ATSAML22N18A.ld
   hash: e690bdf01bc2d45a36550a4277450dddd34e46ab829d4f6f62d6712f16ed80ba
 - file: ..\src\config\sam_l22_xpro\definitions.h
-  hash: 5830fb10c55c47a48fea6aa05f7430d58b25a19021a5a9b2dd8ad7612e1a4e18
+  hash: 2ac20243eeed6702bf8b0d2fe002b6537476f1458b3512fb7249c45dc387a576
 - file: ..\src\config\sam_l22_xpro\device.h
   hash: 0de67b551f51caff91a4a56e6c390824b6698ffbe714cbcf7df0675af1d0de2b
 - file: ..\src\config\sam_l22_xpro\device_cache.h
@@ -30,15 +30,15 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l22_xpro\exceptions.c
   hash: 42f9da2668e04ccb3473d45b149683a00f80072c6883c7918d6ce93997cd6987
 - file: ..\src\config\sam_l22_xpro\initialization.c
-  hash: feb9eb8a61148702a13e97bb08b1437357f7fe57d02e6a3cb1120b7929923613
+  hash: 546c4dbda026e01ca94804fbe9226936ed6f9a71a35db769300b5e6a40c37ceb
 - file: ..\src\config\sam_l22_xpro\interrupts.c
-  hash: 9dfa4c062965d9d50f777eba7a9ea167992e42dc82be4037aa63fac20c3cf4c2
+  hash: e61f51d70c2406b6bd0278737370d72eb84ceba7ca9a1a75b763fbce9cad4e22
 - file: ..\src\config\sam_l22_xpro\interrupts.h
-  hash: 2c08443469112b1762a7479d23542a05c3758b8976d29a1316c9dca9c58bb4b7
+  hash: 8752a130e1597ac5422b824bb6551500f52b759bb3f99a475fda1eb124419375
 - file: ..\src\config\sam_l22_xpro\libc_syscalls.c
   hash: 88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f
 - file: ..\src\config\sam_l22_xpro\peripheral\clock\plib_clock.c
-  hash: 6043b19b199f6e313c39b801230605bf12f60ac17e36d4f161efd9fea52411ba
+  hash: ae6f1b22e22bd86d2f620032269842d666ff0cc00893e1f715da5f1486ed751a
 - file: ..\src\config\sam_l22_xpro\peripheral\clock\plib_clock.h
   hash: 7dab32e3ac30b92ddc2d45b26b82d24a8cdad578d20086e4bd2678e2518c5378
 - file: ..\src\config\sam_l22_xpro\peripheral\evsys\plib_evsys.c
@@ -46,7 +46,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l22_xpro\peripheral\evsys\plib_evsys.h
   hash: f7d08eb8162f271ce1db384c082586a6624e506aa7f502c64c4ab5a1aadac47d
 - file: ..\src\config\sam_l22_xpro\peripheral\nvic\plib_nvic.c
-  hash: 018956d4f6c826900edd177c2f9bdb87f3b04e6f74997c756e10cd9dbd56bb0b
+  hash: 02a9be25c767e8703b0d0fac32b3b133676e93ac1db5535c87314149a3864c87
 - file: ..\src\config\sam_l22_xpro\peripheral\nvic\plib_nvic.h
   hash: 9936ac782115af41003255283fa2f603f4ff2212d16275b7c80ea8d067a9e208
 - file: ..\src\config\sam_l22_xpro\peripheral\nvmctrl\plib_nvmctrl.c
@@ -58,21 +58,21 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l22_xpro\peripheral\pm\plib_pm.h
   hash: 643429281888e9ac6543abed62f23e4f2a882ef6f2fb4c42ee61af83cc953a22
 - file: ..\src\config\sam_l22_xpro\peripheral\port\plib_port.c
-  hash: 115db2a95884d66ee333353448ca46a934a15f9fc3c7b65f54432059da67126c
+  hash: 0be094fb0399235ea7007d7ae6ca8acc721d094ff7cf8ad623895995d33526c4
 - file: ..\src\config\sam_l22_xpro\peripheral\port\plib_port.h
   hash: a8029521a890560113895eb9363a59be59ca0cdd16b3e9dddb2768efc9b2ce79
 - file: ..\src\config\sam_l22_xpro\peripheral\rtc\plib_rtc.h
   hash: 21308b37c80a235ac1d00fbfe55776409f1d49466e5e0d4f32d26c4a76ba2a98
 - file: ..\src\config\sam_l22_xpro\peripheral\rtc\plib_rtc_timer.c
   hash: 8048b476f97a82f7d86849610ea7d2df502a9298d246e574f91a434497bf2e50
-- file: ..\src\config\sam_l22_xpro\peripheral\sercom\usart\plib_sercom0_usart.c
-  hash: ce895c9e1d50c7bb0d9275a0c3d316b3e0d3c2c030e6426e90a4b273c5e564c5
-- file: ..\src\config\sam_l22_xpro\peripheral\sercom\usart\plib_sercom0_usart.h
-  hash: e71168d38895bf59feced00ea282037b83ae26cf23116fc26881075607db51ac
+- file: ..\src\config\sam_l22_xpro\peripheral\sercom\usart\plib_sercom4_usart.c
+  hash: 1b62167fdbb50c8356f1a966b5c0cefaee3832d243e90dff947daf5a0765a4bc
+- file: ..\src\config\sam_l22_xpro\peripheral\sercom\usart\plib_sercom4_usart.h
+  hash: 05e5d58beebde6ee9922e3dd2c192792e76a2ba5443969a6696fecbd5414fbf1
 - file: ..\src\config\sam_l22_xpro\peripheral\sercom\usart\plib_sercom_usart_common.h
   hash: 9f02e811b95f0470ca23f3546f3ddf4ccccb385b4d8b8c091899d0d20b0c56e1
 - file: ..\src\config\sam_l22_xpro\pin_configurations.csv
-  hash: b12e1544c8eb023ea68e544633382e9d94bc131da47c17dbcc0fbb072147c28f
+  hash: 1d4d3a35ce928fd19756b74b7389eddb5b0d7861f6341b1fe02209518fa43f74
 - file: ..\src\config\sam_l22_xpro\startup_xc32.c
   hash: e6227d89e36b74af1bc21e00e80b390502c97aaaa65796291f63b2d96cf0678e
 - file: ..\src\config\sam_l22_xpro\stdio\xc32_monitor.c
@@ -100,9 +100,9 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l22_xpro\touch\touch.c
   hash: 54e9ec4caa48694251ca17e15a9a29d921e9f3bed2d6ef7dae0f4257c2677cd5
 - file: ..\src\config\sam_l22_xpro\touch\touch.h
-  hash: 12544bfef73569e4f83c91b9be2a9a927e0ee6859c316aeda92ab9bf42ef54f4
+  hash: 700152137edb9b748d32a6904a9f3e3e2d9f4e0f18689f572e1ce45bf0f922ba
 - file: ..\src\config\sam_l22_xpro\touch\touchTune.c
-  hash: 2e545dd43096c6fd0c7454551e84e8d53363bf01796c29805f2b12f0bf7f8da3
+  hash: 652b41bd0c3090efe1519503f012371d754218afa0a2b1ec2788fd85a977c45f
 - file: ..\src\config\sam_l22_xpro\touch\touchTune.h
   hash: a273e075769ff87265a5b85406b2601c3547289ab739f393566cd5ceae83092c
 - file: ..\src\config\sam_l22_xpro\touch\touch_api_ptc.h

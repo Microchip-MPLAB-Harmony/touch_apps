@@ -25,14 +25,20 @@ data:
               id: targetComponentID
             children:
             - type: Value
-              value: sercom0
+              value: sercom4
             type: String
           - attributes:
               id: targetAttachmentID
             children:
             - type: Value
-              value: SERCOM0_UART
+              value: SERCOM4_UART
             type: String
+          - attributes:
+              id: enabled
+            children:
+            - type: Value
+              value: 'true'
+            type: Boolean
           type: Attributes
         type: DirectDependency
       - attributes:
@@ -417,7 +423,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: X(18),X(19),X(0),X(1),X(18),X(19),X(0),X(1),X(18),X(19)
+            value: X(10),X(11),X(24),X(25),X(10),X(11),X(24),X(25),X(10),X(11)
           type: Dynamic
         type: Values
       type: String
@@ -449,7 +455,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '18'
+            value: '10'
           type: User
         type: Values
       type: KeyValueSet
@@ -459,7 +465,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '19'
+            value: '11'
           type: User
         type: Values
       type: KeyValueSet
@@ -469,7 +475,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '0'
+            value: '24'
           type: User
         type: Values
       type: KeyValueSet
@@ -479,7 +485,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '1'
+            value: '25'
           type: User
         type: Values
       type: KeyValueSet
@@ -489,7 +495,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '18'
+            value: '10'
           type: User
         type: Values
       type: KeyValueSet
@@ -499,7 +505,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '19'
+            value: '11'
           type: User
         type: Values
       type: KeyValueSet
@@ -509,7 +515,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '0'
+            value: '24'
           type: User
         type: Values
       type: KeyValueSet
@@ -519,7 +525,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '1'
+            value: '25'
           type: User
         type: Values
       type: KeyValueSet
@@ -529,7 +535,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '18'
+            value: '10'
           type: User
         type: Values
       type: KeyValueSet
@@ -539,7 +545,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '19'
+            value: '11'
           type: User
         type: Values
       type: KeyValueSet
@@ -923,6 +929,10 @@ data:
       children:
       - children:
         - attributes:
+            id: lib_qtouch
+            value: 'true'
+          type: Dynamic
+        - attributes:
             value: 'true'
           type: User
         type: Values
@@ -1003,7 +1013,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: SERCOM0
+            value: SERCOM4
           type: Dynamic
         type: Values
       type: String
@@ -1028,4 +1038,25 @@ data:
           type: User
         type: Values
       type: KeyValueSet
+    HELPER_STATE:
+      attributes:
+        id: HELPER_STATE
+      children:
+      - children:
+        - attributes:
+            value: '{"alert":true,"matrix":{"xSignals":["X10","X11","X24","X25"],"ySignals":["Y6","Y16","Y17"]},"target":{"xSignals":["X10  (PB04)","X11  (PB05)","X24  (PA04)","X25  (PA05)"],"ySignals":["Y6  (PC02)","Y16  (PA20)","Y17  (PA21)"]}}'
+          type: User
+        type: Values
+      type: String
+    GET_PTC_CLOCK_FREQUENCY:
+      attributes:
+        id: GET_PTC_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: '16000000'
+          type: Dynamic
+        type: Values
+      type: Integer
   userData: {}

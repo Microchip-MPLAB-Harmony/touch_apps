@@ -16,12 +16,12 @@ modules:
 - ptc
 - rtc
 - sercom0
-- sercom2
+- sercom1
 generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l10_xpro\ATSAML10E16A.ld
   hash: 1d94447d77644b78d3bb699d336f843643fba5297fd50da2938d986d3ef8313a
 - file: ..\src\config\sam_l10_xpro\definitions.h
-  hash: 3542bf543060215f8bcd08d24eb72c4c09326ab910fcf924aaa6df61b92e36b7
+  hash: 7c8092a616002568680e42389e0bc3ad7c4eed6ab7aa5bb3b2ffefb3a4596170
 - file: ..\src\config\sam_l10_xpro\device.h
   hash: 70c74c0cb8da2c87fa878a18cf5aa2f7bc8c21e7e4c6ab8a3fa6ef364f2db23a
 - file: ..\src\config\sam_l10_xpro\device_cache.h
@@ -31,15 +31,15 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l10_xpro\exceptions.c
   hash: 42f9da2668e04ccb3473d45b149683a00f80072c6883c7918d6ce93997cd6987
 - file: ..\src\config\sam_l10_xpro\initialization.c
-  hash: 7486be27469d208279001d09f0f50030ffb5d022adf52b8cd4b1792ba471da7c
+  hash: 5d6e4bb43b5a9b0a333c5926ee7d4961f9d56ede98f8e28aacf64b290ac48b37
 - file: ..\src\config\sam_l10_xpro\interrupts.c
-  hash: e15be65bbf0030382eacad14216fe8ef07f6553ee0e2eaa41f8151889a2f4320
+  hash: 92c3f772630e8689159bbd55d591cf32dbcb72c31d2c5a2bc8a47415b9c30012
 - file: ..\src\config\sam_l10_xpro\interrupts.h
-  hash: 710bbcd980d4ccd15a847eb70b5261b03264a85bbc449077d6b6dc579ba5abf0
+  hash: 4f2dd350935d94e32a6e48a22fd5d4c910f28f5fa170726c6acee64b582d5420
 - file: ..\src\config\sam_l10_xpro\libc_syscalls.c
   hash: 88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f
 - file: ..\src\config\sam_l10_xpro\peripheral\clock\plib_clock.c
-  hash: 24a2dd08186763c3e9aa8629393cdf8647dc22a76e65821026dcb70901dc0ab6
+  hash: b90c983e95cd33dd91b1ee32020c0130c26c8c7a2a6935d17c22bdb26c6d1c22
 - file: ..\src\config\sam_l10_xpro\peripheral\clock\plib_clock.h
   hash: 7dab32e3ac30b92ddc2d45b26b82d24a8cdad578d20086e4bd2678e2518c5378
 - file: ..\src\config\sam_l10_xpro\peripheral\evsys\plib_evsys.c
@@ -47,7 +47,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l10_xpro\peripheral\evsys\plib_evsys.h
   hash: f7d08eb8162f271ce1db384c082586a6624e506aa7f502c64c4ab5a1aadac47d
 - file: ..\src\config\sam_l10_xpro\peripheral\nvic\plib_nvic.c
-  hash: e608f3fe045972e5c4f3d1f4066643787275ca22c3309742c6d8c2aaad82682c
+  hash: 2b927440f411f7c17aaa0c695e642e25ea75916370d22d344637026e4835cd28
 - file: ..\src\config\sam_l10_xpro\peripheral\nvic\plib_nvic.h
   hash: 9936ac782115af41003255283fa2f603f4ff2212d16275b7c80ea8d067a9e208
 - file: ..\src\config\sam_l10_xpro\peripheral\nvmctrl\plib_nvmctrl.c
@@ -59,27 +59,27 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l10_xpro\peripheral\pm\plib_pm.h
   hash: 027462b9369dc5bb8873f96fc3b5ca69ceaf3bd205be7246e58a093b16ee633c
 - file: ..\src\config\sam_l10_xpro\peripheral\port\plib_port.c
-  hash: 101de57c7b94a74d314309c9858517888adf53e5e88062d71a336bd33b3fd5f6
+  hash: 5af4c2762e39bb22203be40005dcddd58a6fba31331f10bd807ca133cfb4c30e
 - file: ..\src\config\sam_l10_xpro\peripheral\port\plib_port.h
   hash: b9a8ad6c707e006d01197c1c43bd81c1c999d4fe821f0a4f3c68c9c2b9fef17f
 - file: ..\src\config\sam_l10_xpro\peripheral\rtc\plib_rtc.h
   hash: 86a57416099d16db539eb418d49cf5bf88346dddd2e2a4a9f244b71eb028b3ab
 - file: ..\src\config\sam_l10_xpro\peripheral\rtc\plib_rtc_timer.c
   hash: ac4f862d9ae5949e0d1528412d058f41ec58f0cff85b846b077ac8bc9b4b2a62
-- file: ..\src\config\sam_l10_xpro\peripheral\sercom\i2c_master\plib_sercom0_i2c_master.c
-  hash: 1715ee9d240650eeeb2c92e5e8e95656c7685b9627ecb72128d208b78de60782
-- file: ..\src\config\sam_l10_xpro\peripheral\sercom\i2c_master\plib_sercom0_i2c_master.h
-  hash: 4f6e57019bee0003e723687d36ab3ec995dd9c604ff82014b106043ae1e1aaec
+- file: ..\src\config\sam_l10_xpro\peripheral\sercom\i2c_master\plib_sercom1_i2c_master.c
+  hash: f2d1a74f650d531a80d530586e59754ae648527037ff06dc847c83676b540551
+- file: ..\src\config\sam_l10_xpro\peripheral\sercom\i2c_master\plib_sercom1_i2c_master.h
+  hash: 989b307a02a3932781c3120222b4624c5536e6cda1a1d70259e230a8f60c5ed4
 - file: ..\src\config\sam_l10_xpro\peripheral\sercom\i2c_master\plib_sercom_i2c_master_common.h
   hash: f167b04b3c6a0f83fe41b7b6f810cbf0a48b8ca7d5a747b76463dd53d3c1a2a2
-- file: ..\src\config\sam_l10_xpro\peripheral\sercom\usart\plib_sercom2_usart.c
-  hash: 2bc1d28b5f8a3347fa5ab43324c8ab1768ccf2e895608ffc0910177a7d635f91
-- file: ..\src\config\sam_l10_xpro\peripheral\sercom\usart\plib_sercom2_usart.h
-  hash: 09c17c725b402654121033ff2450cf410b4c9745efc6583f9725677fd909607b
+- file: ..\src\config\sam_l10_xpro\peripheral\sercom\usart\plib_sercom0_usart.c
+  hash: dd11d43f1c76bd5275d17d0bc964360d900326a057875702a2344250537f7d54
+- file: ..\src\config\sam_l10_xpro\peripheral\sercom\usart\plib_sercom0_usart.h
+  hash: e71168d38895bf59feced00ea282037b83ae26cf23116fc26881075607db51ac
 - file: ..\src\config\sam_l10_xpro\peripheral\sercom\usart\plib_sercom_usart_common.h
   hash: 9f02e811b95f0470ca23f3546f3ddf4ccccb385b4d8b8c091899d0d20b0c56e1
 - file: ..\src\config\sam_l10_xpro\pin_configurations.csv
-  hash: 22ac12f592d243f620282cd150861b99debaf70ed599fe1edaa7f26ab800928b
+  hash: e058670d3e548c8ca0ba3f71af7feaa138e829654ebf9cce179ccec6d1904225
 - file: ..\src\config\sam_l10_xpro\startup_xc32.c
   hash: e6227d89e36b74af1bc21e00e80b390502c97aaaa65796291f63b2d96cf0678e
 - file: ..\src\config\sam_l10_xpro\stdio\xc32_monitor.c
@@ -113,7 +113,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l10_xpro\touch\touch.h
   hash: 300847490d8abbd23e5c651409918401be4bd2641149bb7a0ed74f9edc9c62ad
 - file: ..\src\config\sam_l10_xpro\touch\touchTune.c
-  hash: 77ffe1f632957c6156e924350c73b540647a1bdf6d8ccedae8a49d13f0c1e094
+  hash: 36c83843b221115b8fc9c280b966390bb764555d861940fdb20410eed0f27871
 - file: ..\src\config\sam_l10_xpro\touch\touchTune.h
   hash: a273e075769ff87265a5b85406b2601c3547289ab739f393566cd5ceae83092c
 - file: ..\src\config\sam_l10_xpro\touch\touch_api_ptc.h

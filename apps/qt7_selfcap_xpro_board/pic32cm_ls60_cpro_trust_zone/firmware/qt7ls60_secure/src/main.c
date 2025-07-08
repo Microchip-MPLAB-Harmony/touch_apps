@@ -29,7 +29,7 @@
 
 
 uint8_t key_status1 = 0;
-uint8_t  scroller_status1   = 0;
+uint8_t scroller_status1   = 0;
 uint16_t scroller_position1 = 0;
 
 
@@ -82,17 +82,13 @@ int main ( void )
 
 void touch_status_display1(void)
 {
+
 	key_status1 = get_sensor_state(0) & 0x80;
 	if (0u != key_status1) {
 		LED_BUTTON_0_Clear();
-	} else {
+	} else 
+    {
 		LED_BUTTON_0_Set();
-	}
-	key_status1 = get_sensor_state(1) & 0x80;
-	if (0u != key_status1) {
-		LED_BUTTON_1_Clear();
-	} else {
-		LED_BUTTON_1_Set();
 	}
 
 	scroller_status1   = get_scroller_state(0);

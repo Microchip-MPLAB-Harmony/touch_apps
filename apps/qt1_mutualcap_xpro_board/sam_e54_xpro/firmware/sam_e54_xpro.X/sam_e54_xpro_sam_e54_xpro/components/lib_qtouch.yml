@@ -59,6 +59,24 @@ data:
             type: String
           type: Attributes
         type: DirectDependency
+      - attributes:
+          id: lib_acquire
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: ptc
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: ptc_Acq_Engine
+            type: String
+          type: Attributes
+        type: DirectDependency
       type: Attachments
     type: lib_qtouch
   elementPosition:
@@ -68,8 +86,8 @@ data:
     - children:
       - attributes:
           id: lib_qtouch
-          x: '330'
-          y: '60'
+          x: '698'
+          y: '112'
         type: ElementPosition
       type: ElementPositions
     type: ComponentGraph
@@ -345,7 +363,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '7'
+            value: '0'
           type: User
         type: Values
       type: KeyValueSet
@@ -518,6 +536,9 @@ data:
             id: lib_qtouch
             value: GCLK_ID_40_FREQ:sync
           type: Dynamic
+        - attributes:
+            value: GCLK_ID_40_FREQ
+          type: User
         type: Values
       type: String
     SENSE_TECHNOLOGY:
@@ -786,6 +807,10 @@ data:
       children:
       - children:
         - attributes:
+            id: lib_qtouch
+            value: 'true'
+          type: Dynamic
+        - attributes:
             value: 'true'
           type: User
         type: Values
@@ -881,4 +906,126 @@ data:
           type: Dynamic
         type: Values
       type: String
+    FTL_X_INFO:
+      attributes:
+        id: FTL_X_INFO
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: X(31),X(24),X(30),X(0),X(31),X(24),X(30),X(0),X(31),X(24)
+          type: Dynamic
+        type: Values
+      type: String
+    FTL_Y_INFO:
+      attributes:
+        id: FTL_Y_INFO
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: Y(25),Y(25),Y(4),Y(4),Y(4),Y(4),Y(5),Y(5),Y(5),Y(5)
+          type: Dynamic
+        type: Values
+      type: String
+    HELPER_STATE:
+      attributes:
+        id: HELPER_STATE
+      children:
+      - children:
+        - attributes:
+            value: '{"alert":true,"matrix":{"xSignals":["X0","X24","X30","X31"],"ySignals":["Y4","Y5","Y25"]},"target":{"xSignals":["X0  (PA03)","X24  (PB06)","X30  (PB00)","X31  (PB01)"],"ySignals":["Y4  (PA06)","Y5  (PA07)","Y25  (PB07)"]}}'
+          type: User
+        type: Values
+      type: String
+    DEF_TOUCH_CHARGE_SHARE_DELAY0:
+      attributes:
+        id: DEF_TOUCH_CHARGE_SHARE_DELAY0
+      children:
+      - children:
+        - attributes:
+            value: '5'
+          type: User
+        type: Values
+      type: Integer
+    DEF_TOUCH_CHARGE_SHARE_DELAY1:
+      attributes:
+        id: DEF_TOUCH_CHARGE_SHARE_DELAY1
+      children:
+      - children:
+        - attributes:
+            value: '5'
+          type: User
+        type: Values
+      type: Integer
+    DEF_TOUCH_CHARGE_SHARE_DELAY2:
+      attributes:
+        id: DEF_TOUCH_CHARGE_SHARE_DELAY2
+      children:
+      - children:
+        - attributes:
+            value: '5'
+          type: User
+        type: Values
+      type: Integer
+    DEF_TOUCH_CHARGE_SHARE_DELAY3:
+      attributes:
+        id: DEF_TOUCH_CHARGE_SHARE_DELAY3
+      children:
+      - children:
+        - attributes:
+            value: '5'
+          type: User
+        type: Values
+      type: Integer
+    DEF_TOUCH_CHARGE_SHARE_DELAY4:
+      attributes:
+        id: DEF_TOUCH_CHARGE_SHARE_DELAY4
+      children:
+      - children:
+        - attributes:
+            value: '5'
+          type: User
+        type: Values
+      type: Integer
+    DEF_TOUCH_CHARGE_SHARE_DELAY5:
+      attributes:
+        id: DEF_TOUCH_CHARGE_SHARE_DELAY5
+      children:
+      - children:
+        - attributes:
+            value: '5'
+          type: User
+        type: Values
+      type: Integer
+    DEF_TOUCH_CHARGE_SHARE_DELAY6:
+      attributes:
+        id: DEF_TOUCH_CHARGE_SHARE_DELAY6
+      children:
+      - children:
+        - attributes:
+            value: '5'
+          type: User
+        type: Values
+      type: Integer
+    DEF_TOUCH_CHARGE_SHARE_DELAY7:
+      attributes:
+        id: DEF_TOUCH_CHARGE_SHARE_DELAY7
+      children:
+      - children:
+        - attributes:
+            value: '5'
+          type: User
+        type: Values
+      type: Integer
+    DEF_TOUCH_CHARGE_SHARE_DELAY8:
+      attributes:
+        id: DEF_TOUCH_CHARGE_SHARE_DELAY8
+      children:
+      - children:
+        - attributes:
+            value: '5'
+          type: User
+        type: Values
+      type: Integer
   userData: {}

@@ -14,7 +14,53 @@ dependency:
   version: v3.22.4
 customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
 data:
-  attachments: {}
+  attachments:
+    children:
+    - children:
+      - attributes:
+          id: SERCOM0_I2C
+        children:
+        - children:
+          - attributes:
+              id: enabled
+            children:
+            - type: Value
+              value: 'false'
+            type: Boolean
+          type: Attributes
+        type: DirectCapability
+      - attributes:
+          id: SERCOM0_SPI
+        children:
+        - children:
+          - attributes:
+              id: enabled
+            children:
+            - type: Value
+              value: 'false'
+            type: Boolean
+          type: Attributes
+        type: DirectCapability
+      - attributes:
+          id: SERCOM0_UART
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: lib_qtouch
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: Touch_sercom_Krono
+            type: String
+          type: Attributes
+        type: DirectCapability
+      type: Attachments
+    type: sercom0
   elementPosition:
     attributes:
       id: __ROOTVIEW
@@ -22,8 +68,8 @@ data:
     - children:
       - attributes:
           id: sercom0
-          x: '190'
-          y: '222'
+          x: '340'
+          y: '356'
         type: ElementPosition
       type: ElementPositions
     type: ComponentGraph
@@ -86,7 +132,7 @@ data:
       - children:
         - attributes:
             id: sercom0
-            value: ''
+            value: '&(SERCOM0_REGS->USART_INT.SERCOM_DATA)'
           type: Dynamic
         type: Values
       type: String
@@ -96,8 +142,17 @@ data:
       children:
       - children:
         - attributes:
-            value: '2'
-          type: User
+            id: readOnly
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            id: sercom0
+            value: '0'
+          type: Dynamic
         type: Values
       type: KeyValueSet
     SPI_BAUD_REG_VALUE:
@@ -118,7 +173,7 @@ data:
       - children:
         - attributes:
             id: sercom0
-            value: ''
+            value: '&(SERCOM0_REGS->USART_INT.SERCOM_DATA)'
           type: Dynamic
         type: Values
       type: String
@@ -218,4 +273,172 @@ data:
           type: Dynamic
         type: Values
       type: Integer
+    SERCOM_USART_HEADER:
+      attributes:
+        id: SERCOM_USART_HEADER
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    SERCOM_USART_SOURCE:
+      attributes:
+        id: SERCOM_USART_SOURCE
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    SERCOM_USART_COMMON_HEADER:
+      attributes:
+        id: SERCOM_USART_COMMON_HEADER
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    SERCOM_I2CM_SOURCE:
+      attributes:
+        id: SERCOM_I2CM_SOURCE
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        type: Attributes
+      type: File
+    SERCOM_I2CM_HEADER:
+      attributes:
+        id: SERCOM_I2CM_HEADER
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        type: Attributes
+      type: File
+    SERCOM_I2CM_MASTER_HEADER:
+      attributes:
+        id: SERCOM_I2CM_MASTER_HEADER
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        type: Attributes
+      type: File
+    SERCOM_USART_7816_HEADER:
+      attributes:
+        id: SERCOM_USART_7816_HEADER
+      children:
+      - children:
+        - attributes:
+            id: source
+          children:
+          - type: Value
+          type: String
+        type: Attributes
+      type: File
+    SERCOM_USART_7816_SOURCE:
+      attributes:
+        id: SERCOM_USART_7816_SOURCE
+      children:
+      - children:
+        - attributes:
+            id: source
+          children:
+          - type: Value
+          type: String
+        type: Attributes
+      type: File
+    USART_USE_FRACTIONAL_BAUD:
+      attributes:
+        id: USART_USE_FRACTIONAL_BAUD
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            id: sercom0
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    USART_7816_BAUD_VALUE:
+      attributes:
+        id: USART_7816_BAUD_VALUE
+      children:
+      - children:
+        - attributes:
+            id: sercom0
+            value: '14'
+          type: Dynamic
+        type: Values
+      type: Integer
+    USART_RXPO:
+      attributes:
+        id: USART_RXPO
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '3'
+          type: User
+        type: Values
+      type: KeyValueSet
+    USART_TXPO:
+      attributes:
+        id: USART_TXPO
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
   userData: {}

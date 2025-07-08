@@ -1,8 +1,8 @@
 Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,Drive Strength
 1,PA00,,Available,,,,,,NORMAL
 2,PA01,,Available,,,,,,NORMAL
-3,PA02,,Available,,,,,,NORMAL
-4,PA03,,Available,,,,,,NORMAL
+3,PA02,,PTC_X2/Y2,Analog,High Impedance,n/a,,,NORMAL
+4,PA03,,PTC_ECI0/X3/Y3,Analog,High Impedance,n/a,,,NORMAL
 5,PA04,,Available,,,,,,NORMAL
 6,PA05,,Available,,,,,,NORMAL
 7,PA06,,Available,,,,,,NORMAL
@@ -13,14 +13,14 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,D
 14,PA11,,Available,,,,,,NORMAL
 15,PA14,,Available,,,,,,NORMAL
 16,PA15,,Available,,,,,,NORMAL
-17,PA16,,SERCOM0_PAD0,Digital,High Impedance,n/a,No,No,NORMAL
-18,PA17,,SERCOM0_PAD1,Digital,High Impedance,n/a,No,No,NORMAL
-19,PA18,,Available,,,,,,NORMAL
-20,PA19,,Available,,,,,,NORMAL
-21,PA22,,Available,,,,,,NORMAL
-22,PA23,,Available,,,,,,NORMAL
-23,PA24,,SERCOM2_PAD2,Digital,High Impedance,n/a,No,No,NORMAL
-24,PA25,,SERCOM2_PAD3,Digital,High Impedance,n/a,No,No,NORMAL
+17,PA16,,SERCOM1_PAD0,Digital,High Impedance,n/a,No,No,NORMAL
+18,PA17,,SERCOM1_PAD1,Digital,High Impedance,n/a,No,No,NORMAL
+19,PA18,,PTC_X14/Y14,Analog,High Impedance,n/a,,,NORMAL
+20,PA19,,PTC_X15/Y15,Analog,High Impedance,n/a,,,NORMAL
+21,PA22,,PTC_X16/Y16,Analog,High Impedance,n/a,,,NORMAL
+22,PA23,,PTC_X17/Y17,Analog,High Impedance,n/a,,,NORMAL
+23,PA24,,SERCOM0_PAD2,Digital,High Impedance,n/a,No,No,NORMAL
+24,PA25,,SERCOM0_PAD3,Digital,High Impedance,n/a,No,No,NORMAL
 25,PA27,,Available,,,,,,NORMAL
 31,PA30,,Available,,,,,,NORMAL
 32,PA31,,Available,,,,,,NORMAL

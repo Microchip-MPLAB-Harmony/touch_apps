@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.18.1 Release
+  Touch Library v3.19.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -93,7 +93,7 @@ Notes  :
 void datastreamer_transmit(uint8_t data_byte)
 {
 	/* Write the data bye */
-   if(SERCOM2_USART_Write(&data_byte, 1)) {
+   if(SERCOM0_USART_Write(&data_byte, 1)) {
 
    }
 }
