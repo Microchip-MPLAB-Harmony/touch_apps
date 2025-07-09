@@ -435,109 +435,9 @@ data:
           type: Dynamic
         type: Values
       type: Boolean
-    PIN_100_DIR:
-      attributes:
-        id: PIN_100_DIR
-      children:
-      - children:
-        - attributes:
-            value: Out
-          type: User
-        type: Values
-      type: String
-    PIN_100_FUNCTION_NAME:
-      attributes:
-        id: PIN_100_FUNCTION_NAME
-      children:
-      - children:
-        - attributes:
-            value: LED_SLIDER_2
-          type: User
-        type: Values
-      type: String
-    PIN_100_FUNCTION_TYPE:
-      attributes:
-        id: PIN_100_FUNCTION_TYPE
-      children:
-      - children:
-        - attributes:
-            value: GPIO
-          type: User
-        type: Values
-      type: String
-    PIN_100_INEN:
-      attributes:
-        id: PIN_100_INEN
-      children:
-      - children:
-        - attributes:
-            value: 'True'
-          type: User
-        type: Values
-      type: String
-    PIN_100_MODE:
-      attributes:
-        id: PIN_100_MODE
-      children:
-      - children:
-        - attributes:
-            value: ''
-          type: User
-        type: Values
-      type: String
     PIN_100_PERIPHERAL_FUNCTION:
       attributes:
         id: PIN_100_PERIPHERAL_FUNCTION
-      children:
-      - children:
-        - attributes:
-            value: GPIO
-          type: User
-        type: Values
-      type: String
-    PIN_101_DIR:
-      attributes:
-        id: PIN_101_DIR
-      children:
-      - children:
-        - attributes:
-            value: Out
-          type: User
-        type: Values
-      type: String
-    PIN_101_FUNCTION_NAME:
-      attributes:
-        id: PIN_101_FUNCTION_NAME
-      children:
-      - children:
-        - attributes:
-            value: LED_SLIDER_0
-          type: User
-        type: Values
-      type: String
-    PIN_101_FUNCTION_TYPE:
-      attributes:
-        id: PIN_101_FUNCTION_TYPE
-      children:
-      - children:
-        - attributes:
-            value: GPIO
-          type: User
-        type: Values
-      type: String
-    PIN_101_INEN:
-      attributes:
-        id: PIN_101_INEN
-      children:
-      - children:
-        - attributes:
-            value: 'True'
-          type: User
-        type: Values
-      type: String
-    PIN_101_MODE:
-      attributes:
-        id: PIN_101_MODE
       children:
       - children:
         - attributes:
@@ -551,56 +451,6 @@ data:
       children:
       - children:
         - attributes:
-            value: GPIO
-          type: User
-        type: Values
-      type: String
-    PIN_108_DIR:
-      attributes:
-        id: PIN_108_DIR
-      children:
-      - children:
-        - attributes:
-            value: Out
-          type: User
-        type: Values
-      type: String
-    PIN_108_FUNCTION_NAME:
-      attributes:
-        id: PIN_108_FUNCTION_NAME
-      children:
-      - children:
-        - attributes:
-            value: LED_SLIDER_3
-          type: User
-        type: Values
-      type: String
-    PIN_108_FUNCTION_TYPE:
-      attributes:
-        id: PIN_108_FUNCTION_TYPE
-      children:
-      - children:
-        - attributes:
-            value: GPIO
-          type: User
-        type: Values
-      type: String
-    PIN_108_INEN:
-      attributes:
-        id: PIN_108_INEN
-      children:
-      - children:
-        - attributes:
-            value: 'True'
-          type: User
-        type: Values
-      type: String
-    PIN_108_MODE:
-      attributes:
-        id: PIN_108_MODE
-      children:
-      - children:
-        - attributes:
             value: ''
           type: User
         type: Values
@@ -608,56 +458,6 @@ data:
     PIN_108_PERIPHERAL_FUNCTION:
       attributes:
         id: PIN_108_PERIPHERAL_FUNCTION
-      children:
-      - children:
-        - attributes:
-            value: GPIO
-          type: User
-        type: Values
-      type: String
-    PIN_109_DIR:
-      attributes:
-        id: PIN_109_DIR
-      children:
-      - children:
-        - attributes:
-            value: Out
-          type: User
-        type: Values
-      type: String
-    PIN_109_FUNCTION_NAME:
-      attributes:
-        id: PIN_109_FUNCTION_NAME
-      children:
-      - children:
-        - attributes:
-            value: LED_SLIDER_1
-          type: User
-        type: Values
-      type: String
-    PIN_109_FUNCTION_TYPE:
-      attributes:
-        id: PIN_109_FUNCTION_TYPE
-      children:
-      - children:
-        - attributes:
-            value: GPIO
-          type: User
-        type: Values
-      type: String
-    PIN_109_INEN:
-      attributes:
-        id: PIN_109_INEN
-      children:
-      - children:
-        - attributes:
-            value: 'True'
-          type: User
-        type: Values
-      type: String
-    PIN_109_MODE:
-      attributes:
-        id: PIN_109_MODE
       children:
       - children:
         - attributes:
@@ -671,7 +471,7 @@ data:
       children:
       - children:
         - attributes:
-            value: GPIO
+            value: ''
           type: User
         type: Values
       type: String
@@ -682,7 +482,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: ADC0_AIN1/X0/Y0/VREFA
+            value: ''
           type: Dynamic
         type: Values
       type: String
@@ -1071,7 +871,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: ADC0_X28/Y28
+            value: ''
           type: Dynamic
         type: Values
       type: String
@@ -1102,7 +902,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: ADC0_X29/Y29
+            value: ''
           type: Dynamic
         type: Values
       type: String
@@ -1126,63 +926,13 @@ data:
           type: User
         type: Values
       type: String
-    PIN_47_DIR:
-      attributes:
-        id: PIN_47_DIR
-      children:
-      - children:
-        - attributes:
-            value: Out
-          type: User
-        type: Values
-      type: String
-    PIN_47_FUNCTION_NAME:
-      attributes:
-        id: PIN_47_FUNCTION_NAME
-      children:
-      - children:
-        - attributes:
-            value: LED_SLIDER_4
-          type: User
-        type: Values
-      type: String
-    PIN_47_FUNCTION_TYPE:
-      attributes:
-        id: PIN_47_FUNCTION_TYPE
-      children:
-      - children:
-        - attributes:
-            value: GPIO
-          type: User
-        type: Values
-      type: String
-    PIN_47_INEN:
-      attributes:
-        id: PIN_47_INEN
-      children:
-      - children:
-        - attributes:
-            value: 'True'
-          type: User
-        type: Values
-      type: String
-    PIN_47_MODE:
-      attributes:
-        id: PIN_47_MODE
-      children:
-      - children:
-        - attributes:
-            value: ''
-          type: User
-        type: Values
-      type: String
     PIN_47_PERIPHERAL_FUNCTION:
       attributes:
         id: PIN_47_PERIPHERAL_FUNCTION
       children:
       - children:
         - attributes:
-            value: GPIO
+            value: ''
           type: User
         type: Values
       type: String
@@ -1246,63 +996,13 @@ data:
           type: User
         type: Values
       type: String
-    PIN_49_DIR:
-      attributes:
-        id: PIN_49_DIR
-      children:
-      - children:
-        - attributes:
-            value: Out
-          type: User
-        type: Values
-      type: String
-    PIN_49_FUNCTION_NAME:
-      attributes:
-        id: PIN_49_FUNCTION_NAME
-      children:
-      - children:
-        - attributes:
-            value: LED_SLIDER_5
-          type: User
-        type: Values
-      type: String
-    PIN_49_FUNCTION_TYPE:
-      attributes:
-        id: PIN_49_FUNCTION_TYPE
-      children:
-      - children:
-        - attributes:
-            value: GPIO
-          type: User
-        type: Values
-      type: String
-    PIN_49_INEN:
-      attributes:
-        id: PIN_49_INEN
-      children:
-      - children:
-        - attributes:
-            value: 'True'
-          type: User
-        type: Values
-      type: String
-    PIN_49_MODE:
-      attributes:
-        id: PIN_49_MODE
-      children:
-      - children:
-        - attributes:
-            value: ''
-          type: User
-        type: Values
-      type: String
     PIN_49_PERIPHERAL_FUNCTION:
       attributes:
         id: PIN_49_PERIPHERAL_FUNCTION
       children:
       - children:
         - attributes:
-            value: GPIO
+            value: ''
           type: User
         type: Values
       type: String
@@ -1516,7 +1216,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: '0x3001000'
+            value: '0x1000'
           type: Dynamic
         type: Values
       type: String
@@ -1659,7 +1359,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: '0x2'
+            value: '0x0'
           type: Dynamic
         type: Values
       type: String
@@ -1670,7 +1370,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: '0x2'
+            value: '0x0'
           type: Dynamic
         type: Values
       type: String
@@ -1747,7 +1447,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: 'true'
+            value: 'false'
           type: Dynamic
         type: Values
       type: Boolean
@@ -1758,7 +1458,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: 'true'
+            value: 'false'
           type: Dynamic
         type: Values
       type: Boolean
@@ -1846,7 +1546,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: '0x3000000'
+            value: '0x0'
           type: Dynamic
         type: Values
       type: String
@@ -1879,7 +1579,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: '0x2'
+            value: '0x0'
           type: Dynamic
         type: Values
       type: String
@@ -1890,7 +1590,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: '0x2'
+            value: '0x0'
           type: Dynamic
         type: Values
       type: String
@@ -1901,7 +1601,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: 'true'
+            value: 'false'
           type: Dynamic
         type: Values
       type: Boolean
@@ -1912,7 +1612,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: 'true'
+            value: 'false'
           type: Dynamic
         type: Values
       type: Boolean
@@ -1934,7 +1634,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: '0xf00'
+            value: '0xa00'
           type: Dynamic
         type: Values
       type: String
@@ -1989,7 +1689,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: '0x2'
+            value: '0x0'
           type: Dynamic
         type: Values
       type: String
@@ -2011,7 +1711,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: '0x2'
+            value: '0x0'
           type: Dynamic
         type: Values
       type: String
@@ -2033,7 +1733,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: 'true'
+            value: 'false'
           type: Dynamic
         type: Values
       type: Boolean
@@ -2055,7 +1755,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: 'true'
+            value: 'false'
           type: Dynamic
         type: Values
       type: Boolean
@@ -3160,6 +2860,39 @@ data:
           type: Dynamic
         type: Values
       type: Boolean
+    PORT_GROUP_3_OUT:
+      attributes:
+        id: PORT_GROUP_3_OUT
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_OUT:
+      attributes:
+        id: PORT_GROUP_1_OUT
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_OUT:
+      attributes:
+        id: PORT_GROUP_2_OUT
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
   userData:
     children:
     - attributes:

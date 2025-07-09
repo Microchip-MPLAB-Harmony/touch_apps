@@ -54,7 +54,6 @@ extern "C" {
 #include "qtm_acq_pic32cxsg_0x000f_api.h"
 #include "qtm_touch_key_0x0002_api.h"
 #include "qtm_freq_hop_auto_0x0004_api.h"
-#include "qtm_scroller_0x000b_api.h"
 /*----------------------------------------------------------------------------
  *   prototypes
  *----------------------------------------------------------------------------*/
@@ -68,8 +67,6 @@ void     update_sensor_cc_val(uint16_t sensor_node, uint16_t new_cc_value);
 uint8_t  get_sensor_state(uint16_t sensor_node);
 void     update_sensor_state(uint16_t sensor_node, uint8_t new_state);
 void     calibrate_node(uint16_t sensor_node);
-uint8_t  get_scroller_state(uint16_t sensor_node);
-uint16_t get_scroller_position(uint16_t sensor_node);
 
 void touch_timer_handler(void);
 void touch_init(void);

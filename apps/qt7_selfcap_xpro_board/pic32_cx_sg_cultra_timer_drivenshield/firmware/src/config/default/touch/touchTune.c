@@ -52,7 +52,7 @@ void touchUartRxComplete(uintptr_t lTouchUart);
 #endif
 
 
-#define SCROLLER_MODULE_OUTPUT 1u
+#define SCROLLER_MODULE_OUTPUT 0u
 
 
 #define FREQ_HOP_AUTO_MODULE_OUTPUT 1u
@@ -86,30 +86,6 @@ void copy_acq_config(uint8_t channel);
  * Keys' Module Parameters
 *******************************************************************************/
 
-/*******************************************************************************
- * Scroller Parameters
-*******************************************************************************/
-typedef struct __attribute__((packed)) {
-	uint8_t status;
-	uint16_t contactSize;
-	uint16_t position;
-}tuneScrollerData_t;
-
-typedef struct __attribute__((packed))  {
-	uint8_t  type;
-	uint16_t start_key;
-	uint8_t  number_of_keys;
-	uint8_t  res_deadband;
-	uint8_t  position_hysteresis;
-	uint16_t threhsold;
-}scroll_config_param;
-
-static tuneScrollerData_t runtime_scroller_data_arr;
-#define DEBUG_DATA_PER_SCROLLER_LEN sizeof(tuneScrollerData_t)
-#define SCROLLER_CONFIG_LEN sizeof(qtm_scroller_config_t)
-void copy_scroller_run_time_data(uint8_t channel_num);
-void update_scroller_config(uint8_t scroller_num);
-void copy_scroller_config(uint8_t scroller_num);
 
 /*******************************************************************************
  * Frequency Hop Autotune Parameters
@@ -179,7 +155,7 @@ static sensorData_t runtime_data_arr;
 /*******************************************************************************
  * Configuration Macros Parameters
 *******************************************************************************/
-#define NO_OF_CONFIG_FRAME_ID	 (6u)
+#define NO_OF_CONFIG_FRAME_ID	 (5u)
 
 #define PROJECT_CONFIG_DATA_LEN	 (10u)
 #define CONFIG_0_PTR ((uint8_t*) &proj_config[0])
@@ -194,20 +170,15 @@ static sensorData_t runtime_data_arr;
 #define CONFIG_3_PTR ((uint8_t*) (&qtlib_key_grp_config_set1.sensor_touch_di))
 #define CONFIG_3_LEN ((uint16_t)  (sizeof(qtm_touch_key_group_config_t))-(2U))
 
-#if SCROLLER_MODULE_OUTPUT == 1u
-#define CONFIG_4_PTR ((uint8_t*) (&qtm_scroller_config1[0]))
-#define CONFIG_4_LEN ((uint16_t) (sizeof(scroll_config_param) * DEF_NUM_SCROLLERS))
-#endif
-
 #if FREQ_HOP_AUTO_MODULE_OUTPUT == 1u
-#define CONFIG_5_PTR ((uint8_t*) (&qtm_freq_hop_autotune_config1.enable_freq_autotune))
-#define CONFIG_5_LEN ((uint16_t)  FREQ_HOP_AUTOTUNE_PARAM_LEN)
+#define CONFIG_4_PTR ((uint8_t*) (&qtm_freq_hop_autotune_config1.enable_freq_autotune))
+#define CONFIG_4_LEN ((uint16_t)  FREQ_HOP_AUTOTUNE_PARAM_LEN)
 #endif
 
 /*******************************************************************************
  * Debug Data Configuration
 *******************************************************************************/
-#define OUTPUT_MODULE_CNT 3u
+#define OUTPUT_MODULE_CNT 2u
 
 #define DATA_0_PTR 			((uint8_t*)&runtime_data_arr.acq_signal)
 #define DATA_0_ID 			(DEBUG_MASK + KEY_DEBUG_DATA_ID)
@@ -215,39 +186,31 @@ static sensorData_t runtime_data_arr;
 #define DATA_0_REPEAT 		DEF_NUM_CHANNELS
 #define DATA_0_FRAME_LEN 	(uint16_t) (DATA_0_LEN * DATA_0_REPEAT)
 
-#if SCROLLER_MODULE_OUTPUT == 1u
-#define DATA_1_PTR 			((uint8_t*)&runtime_scroller_data_arr.status)
-#define DATA_1_ID 			(DEBUG_MASK + SCROLLER_DEBUG_DATA_ID)
-#define DATA_1_LEN			(uint16_t) DEBUG_DATA_PER_SCROLLER_LEN
-#define DATA_1_REPEAT 		DEF_NUM_SCROLLERS
-#define DATA_1_FRAME_LEN 	(uint16_t) (DATA_1_LEN * DATA_1_REPEAT)
-#endif
-
 #if FREQ_HOP_AUTO_MODULE_OUTPUT == 1u
-#define DATA_2_PTR 			((uint8_t*)&runtime_freq_hop_auto_data_arr.numFreq)
-#define DATA_2_ID 			(DEBUG_MASK + FREQ_HOP_AUTO_TUNE_DATA_ID)
-#define DATA_2_LEN			(uint16_t) (sizeof(tuneFreqData_t))
-#define DATA_2_REPEAT 		1u
-#define DATA_2_FRAME_LEN 	(uint16_t) (DATA_2_LEN * DATA_2_REPEAT)
+#define DATA_1_PTR 			((uint8_t*)&runtime_freq_hop_auto_data_arr.numFreq)
+#define DATA_1_ID 			(DEBUG_MASK + FREQ_HOP_AUTO_TUNE_DATA_ID)
+#define DATA_1_LEN			(uint16_t) (sizeof(tuneFreqData_t))
+#define DATA_1_REPEAT 		1u
+#define DATA_1_FRAME_LEN 	(uint16_t) (DATA_1_LEN * DATA_1_REPEAT)
 #endif
 
 /* configuration details */
 static uint8_t proj_config[PROJECT_CONFIG_DATA_LEN] = {PROTOCOL_VERSION, (uint8_t) same5x, (uint8_t) TECH, (DEF_NUM_CHANNELS),
-									(uint8_t) (SENSOR_NODE_CONFIG_MASK|SENSOR_KEY_CONFIG_MASK|COMMON_SENSOR_CONFIG_MASK|SCROLLER_CONFIG_MASK|FREQ_HOPPING_AUTO_TUNE_MASK), (0u), (0u),
-									(uint8_t) (KEY_DEBUG_MASK|SCROLLER_DEBUG_MASK|FREQ_HOP_AUTO_TUNE_DEBUG_MASK), (0u),(0u)};
+									(uint8_t) (SENSOR_NODE_CONFIG_MASK|SENSOR_KEY_CONFIG_MASK|COMMON_SENSOR_CONFIG_MASK|FREQ_HOPPING_AUTO_TUNE_MASK), (0u), (0u),
+									(uint8_t) (KEY_DEBUG_MASK|FREQ_HOP_AUTO_TUNE_DEBUG_MASK), (0u),(0u)};
 
-static uint16_t frame_len_lookup[NO_OF_CONFIG_FRAME_ID]  = {CONFIG_0_LEN,CONFIG_1_LEN,CONFIG_2_LEN,CONFIG_3_LEN,CONFIG_4_LEN,CONFIG_5_LEN};
-static uint8_t *configPointerArray[NO_OF_CONFIG_FRAME_ID]	= {CONFIG_0_PTR,CONFIG_1_PTR,CONFIG_2_PTR,CONFIG_3_PTR,CONFIG_4_PTR,CONFIG_5_PTR};
+static uint16_t frame_len_lookup[NO_OF_CONFIG_FRAME_ID]  = {CONFIG_0_LEN,CONFIG_1_LEN,CONFIG_2_LEN,CONFIG_3_LEN,CONFIG_4_LEN};
+static uint8_t *configPointerArray[NO_OF_CONFIG_FRAME_ID]	= {CONFIG_0_PTR,CONFIG_1_PTR,CONFIG_2_PTR,CONFIG_3_PTR,CONFIG_4_PTR};
 
 /* output data details */
-static uint8_t *debug_frame_PointerArray[OUTPUT_MODULE_CNT]  = {DATA_0_PTR,DATA_1_PTR,DATA_2_PTR};
-static uint8_t debug_frame_id[OUTPUT_MODULE_CNT]		  = {DATA_0_ID,DATA_1_ID,DATA_2_ID};
-static uint16_t debug_frame_data_len[OUTPUT_MODULE_CNT]  = {DATA_0_LEN,DATA_1_LEN,DATA_2_LEN};
-static uint16_t debug_frame_total_len[OUTPUT_MODULE_CNT] = {DATA_0_FRAME_LEN,DATA_1_FRAME_LEN,DATA_2_FRAME_LEN};
-static uint8_t debug_num_ch_scroller[OUTPUT_MODULE_CNT] = {DATA_0_REPEAT,DATA_1_REPEAT,DATA_2_REPEAT};
-static void (*debug_func_ptr[OUTPUT_MODULE_CNT])(uint8_t ch) = {copy_run_time_data,copy_scroller_run_time_data,copy_freq_hop_auto_runtime_data};
+static uint8_t *debug_frame_PointerArray[OUTPUT_MODULE_CNT]  = {DATA_0_PTR,DATA_1_PTR};
+static uint8_t debug_frame_id[OUTPUT_MODULE_CNT]		  = {DATA_0_ID,DATA_1_ID};
+static uint16_t debug_frame_data_len[OUTPUT_MODULE_CNT]  = {DATA_0_LEN,DATA_1_LEN};
+static uint16_t debug_frame_total_len[OUTPUT_MODULE_CNT] = {DATA_0_FRAME_LEN,DATA_1_FRAME_LEN};
+static uint8_t debug_num_ch_scroller[OUTPUT_MODULE_CNT] = {DATA_0_REPEAT,DATA_1_REPEAT};
+static void (*debug_func_ptr[OUTPUT_MODULE_CNT])(uint8_t ch) = {copy_run_time_data,copy_freq_hop_auto_runtime_data};
 
-static uint8_t frameIdToConfigID[NO_OF_CONFIG_FRAME_ID] = {PROJECT_CONFIG_ID,SENSOR_NODE_CONFIG_ID,SENSOR_KEY_CONFIG_ID,COMMON_SENSOR_CONFIG_ID,SCROLLER_CONFIG_ID,FREQ_HOPPING_AUTO_TUNE_ID};
+static uint8_t frameIdToConfigID[NO_OF_CONFIG_FRAME_ID] = {PROJECT_CONFIG_ID,SENSOR_NODE_CONFIG_ID,SENSOR_KEY_CONFIG_ID,COMMON_SENSOR_CONFIG_ID,FREQ_HOPPING_AUTO_TUNE_ID};
 
 uint8_t getDebugIndex(uint8_t debugFramId) {
 	uint8_t arrayIndex = 0u;
@@ -282,43 +245,6 @@ void copy_freq_hop_auto_runtime_data(uint8_t channel_num)
 }
 #endif
 
-#if SCROLLER_MODULE_OUTPUT == 1u
-void copy_scroller_run_time_data(uint8_t channel_num)
-{
- 	/* Slider State */		
-	runtime_scroller_data_arr.status = (uint8_t) (qtm_scroller_data1[channel_num].scroller_status & 0x01u);
-	/* Slider Delta */
-	runtime_scroller_data_arr.contactSize = qtm_scroller_data1[channel_num].contact_size;
-	/* filtered position */
-	runtime_scroller_data_arr.position = (qtm_scroller_data1[channel_num].position);
-}
-
-
-static scroll_config_param scroll_config_data;
-void copy_scroller_config(uint8_t scroller_num)
-{
-    max_channels_or_scrollers = DEF_NUM_SCROLLERS;
-	scroll_config_data.type							= qtm_scroller_config1[scroller_num].type;
-	scroll_config_data.start_key				= (qtm_scroller_config1[scroller_num].start_key);
-	scroll_config_data.number_of_keys				= qtm_scroller_config1[scroller_num].number_of_keys;
-	scroll_config_data.res_deadband					= qtm_scroller_config1[scroller_num].resol_deadband;
-	scroll_config_data.position_hysteresis			= qtm_scroller_config1[scroller_num].position_hysteresis;
-	scroll_config_data.threhsold = ((qtm_scroller_config1[scroller_num].contact_min_threshold));
-	if(scroller_num == 0u) {
-		uart_send_frame_header((uint8_t)MCU_RESPOND_CONFIG_DATA_TO_PC, uart_command_info.frame_id,((uint16_t) sizeof(scroll_config_param) * (uint8_t) DEF_NUM_SCROLLERS));
-		uart_send_data(STREAMING_CONFIG_DATA,(uint8_t *) &scroll_config_data.type, (uint16_t) sizeof(scroll_config_param));
-	} else {
-		tx_data_ptr	= (uint8_t *) &scroll_config_data;
-		tx_data_len = (uint16_t) sizeof(scroll_config_param);
-	}
-}
-
-void update_scroller_config(uint8_t scroller_num) {
-	qtm_scroller_config1[scroller_num].resol_deadband = scroll_config_data.res_deadband;
-	qtm_scroller_config1[scroller_num].position_hysteresis = scroll_config_data.position_hysteresis;
-	qtm_scroller_config1[scroller_num].contact_min_threshold = scroll_config_data.threhsold;
-}
-#endif
 
 
 
@@ -355,11 +281,6 @@ void copy_channel_config_data(uint8_t id, uint8_t channel) {
 		case SENSOR_NODE_CONFIG_ID:
 		copy_acq_config(channel);
 		break;
-		#if SCROLLER_MODULE_OUTPUT == 1u
-		case SCROLLER_CONFIG_ID:
-		copy_scroller_config(channel);
-		break;		
-		#endif
 		default:
 		max_channels_or_scrollers = 1;
 		uart_send_frame_header((uint8_t)MCU_RESPOND_CONFIG_DATA_TO_PC, uart_command_info.frame_id,frame_len_lookup[arrayIndex]);
@@ -516,31 +437,6 @@ void uart_recv_frame_data(uint8_t frame_id, uint16_t len)
                 }
             }
         break;
-#if SCROLLER_MODULE_OUTPUT == 1u
-        case SCROLLER_CONFIG_ID:
-            while(num_data > (uint16_t) sizeof(scroll_config_param)) {
-
-                uint8_t *ptr = (uint8_t *) &scroll_config_data;
-                for(uint16_t cnt = 0u; cnt < (uint16_t) sizeof(scroll_config_param); cnt++) {
-                    ptr[cnt] = uart_get_char();
-                }
-                update_scroller_config(ch_num);
-                ch_num++;
-                num_data -= (uint16_t) sizeof(scroll_config_param);
-
-                if(ch_num == (uint8_t) DEF_NUM_SCROLLERS) {
-                    ch_num = 0u;
-                    uart_command_info.header_status = HEADER_AWAITING;
-                    command_flags = command_flags & (uint16_t) (~((uint16_t)1<<uart_command_info.frame_id));
-                    tempData = uart_get_char();
-					if(tempData != DV_FOOTER) {
-						/* Error condition */
-					}
-                    break;
-                }
-            }
-        break;
-#endif
 
 
         default:

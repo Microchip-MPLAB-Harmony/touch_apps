@@ -107,7 +107,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Range: 1 to 65535.
  * Default value: 1
  */
-#define DEF_NUM_CHANNELS (5u)
+#define DEF_NUM_CHANNELS (2u)
 
 
 /* Defines node parameter setting
@@ -124,18 +124,6 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 {                                                                                                                  \
    X_NONE, Y(23), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
 }
-#define NODE_2_PARAMS                                                                                               \
-{                                                                                                                  \
-   X_NONE, Y(0), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
-}
-#define NODE_3_PARAMS                                                                                               \
-{                                                                                                                  \
-   X_NONE, Y(29), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
-}
-#define NODE_4_PARAMS                                                                                               \
-{                                                                                                                  \
-   X_NONE, Y(28), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
-}
 
 /**********************************************************/
 /***************** Key Params   ******************/
@@ -144,7 +132,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Range: 1 to 65535.
  * Default value: 1
  */
-#define DEF_NUM_SENSORS (5u)
+#define DEF_NUM_SENSORS (2u)
 
 /* Defines Key Sensor setting
  * {Sensor Threshold, Sensor Hysterisis, Sensor AKS}
@@ -159,24 +147,6 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 #define KEY_1_PARAMS                                                                                            \
 {                                                                                                              \
     70u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
-}
-
-
-#define KEY_2_PARAMS                                                                                            \
-{                                                                                                              \
-    70u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_1                       \
-}
-
-
-#define KEY_3_PARAMS                                                                                            \
-{                                                                                                              \
-    70u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_1                       \
-}
-
-
-#define KEY_4_PARAMS                                                                                            \
-{                                                                                                              \
-    70u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_1                       \
 }
 
 
@@ -234,27 +204,6 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  */
 #define DEF_MAX_ON_DURATION 0u
 
-/**********************************************************/
-/***************** Slider/Wheel Parameters ****************/
-/**********************************************************/
-/* Defines the number of scrollers (sliders or wheels)
- */
-#define DEF_NUM_SCROLLERS 1u
-
-/* Defines scroller parameter setting
- * {touch_scroller_type, touch_start_key, touch_scroller_size,
- * SCROLLER_RESOL_DEADBAND(touch_scroller_resolution,touch_scroller_deadband), touch_scroller_hysterisis,
- * touch_scr_detect_threshold}
- * Configuring scr_detect_threshold: By default, scr_detect_threshold parameter should be
- * set equal to threshold value of the underlying keys. Then the parameter has to be tuned based on the actual contact
- * size of the touch when moved over the scroller. The contact size of the moving touch can be observed from
- * "contact_size" parameter on scroller runtime data structure.
- */
-#define SCROLLER_0_PARAMS                                                                                       \
-{                                                                                                              \
-    (uint8_t)SCROLLER_TYPE_SLIDER, 2u, 3u,                            \
-		SCROLLER_RESOL_DEADBAND((uint8_t)SCR_RESOL_8_BIT, (uint8_t)SCR_DB_10_PERCENT),(uint8_t)8,20\
-}
 
 
 
@@ -316,9 +265,6 @@ extern qtm_acq_pic32cxsg_node_config_t ptc_seq_node_cfg1[DEF_NUM_CHANNELS];
 extern qtm_touch_key_group_config_t qtlib_key_grp_config_set1;
 extern qtm_touch_key_data_t qtlib_key_data_set1[DEF_NUM_SENSORS];
 extern qtm_touch_key_config_t qtlib_key_configs_set1[DEF_NUM_SENSORS];
-/* Scroller variables */
-extern qtm_scroller_config_t qtm_scroller_config1[DEF_NUM_SCROLLERS];
-extern qtm_scroller_data_t qtm_scroller_data1[DEF_NUM_SCROLLERS];
 /* Frequency Hop Autotune variables */
 extern qtm_freq_hop_autotune_config_t qtm_freq_hop_autotune_config1;
 extern uint8_t module_error_code;

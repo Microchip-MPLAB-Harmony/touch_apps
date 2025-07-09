@@ -97,36 +97,6 @@ void touch_status_display1(void)
 		LED_BUTTON_1_Set();
 	}
 
-	scroller_status1   = get_scroller_state(0);
-	scroller_position1 = get_scroller_position(0);
-	
-    LED_SLIDER_0_Set();
-    LED_SLIDER_1_Set();
-    LED_SLIDER_2_Set();
-    LED_SLIDER_3_Set();
-    LED_SLIDER_4_Set();
-    LED_SLIDER_5_Set();
-
-	if (0u != scroller_status1) {
-
-		LED_SLIDER_0_Clear();
-
-		if (scroller_position1 > 43) {
-			LED_SLIDER_1_Clear();
-		}
-		if (scroller_position1 > 85) {
-			LED_SLIDER_2_Clear();
-		}
-		if (scroller_position1 > 120) {
-			LED_SLIDER_3_Clear();
-		}
-		if (scroller_position1 > 165) {
-			LED_SLIDER_4_Clear();
-		}
-		if (scroller_position1 > 213) {
-            LED_SLIDER_5_Clear();
-		}
-	}
 }
 
 /*******************************************************************************

@@ -6,7 +6,7 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,D
 7,PC02,,Available,,,,,,NORMAL
 8,PC03,,Available,,,,,,NORMAL
 9,PA02,,Available,,,,,,NORMAL
-10,PA03,,ADC0_AIN1/X0/Y0/VREFA,Analog,High Impedance,n/a,,,NORMAL
+10,PA03,,Available,,,,,,NORMAL
 11,PB04,,Available,,,,,,NORMAL
 12,PB05,,ADC0_X23/Y23,Analog,High Impedance,n/a,,,NORMAL
 13,PD00,,Available,,,,,,NORMAL
@@ -30,11 +30,11 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,D
 40,PB11,,Available,,,,,,NORMAL
 41,PB12,,SERCOM4_PAD0,Digital,In/Out,Low,,,NORMAL
 42,PB13,,SERCOM4_PAD1,Digital,High Impedance,n/a,No,No,NORMAL
-43,PB14,,ADC0_X28/Y28,Analog,High Impedance,n/a,,,NORMAL
-44,PB15,,ADC0_X29/Y29,Analog,High Impedance,n/a,,,NORMAL
-47,PD08,LED_SLIDER_4,GPIO,Digital,In/Out,Low,,,NORMAL
+43,PB14,,Available,,,,,,NORMAL
+44,PB15,,Available,,,,,,NORMAL
+47,PD08,,Available,,,,,,NORMAL
 48,PD09,LED_BUTTON_1,GPIO,Digital,In/Out,Low,,,NORMAL
-49,PD10,LED_SLIDER_5,GPIO,Digital,In/Out,Low,,,NORMAL
+49,PD10,,Available,,,,,,NORMAL
 50,PD11,LED_BUTTON_0,GPIO,Digital,In/Out,Low,,,NORMAL
 51,PD12,,Available,,,,,,NORMAL
 52,PC10,,Available,,,,,,NORMAL
@@ -75,10 +75,10 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,D
 95,PA25,,Available,,,,,,NORMAL
 98,PB22,,Available,,,,,,NORMAL
 99,PB23,,Available,,,,,,NORMAL
-100,PB24,LED_SLIDER_2,GPIO,Digital,In/Out,Low,,,NORMAL
-101,PB25,LED_SLIDER_0,GPIO,Digital,In/Out,Low,,,NORMAL
-108,PC24,LED_SLIDER_3,GPIO,Digital,In/Out,Low,,,NORMAL
-109,PC25,LED_SLIDER_1,GPIO,Digital,In/Out,Low,,,NORMAL
+100,PB24,,Available,,,,,,NORMAL
+101,PB25,,Available,,,,,,NORMAL
+108,PC24,,Available,,,,,,NORMAL
+109,PC25,,Available,,,,,,NORMAL
 110,PC26,,Available,,,,,,NORMAL
 111,PC27,,Available,,,,,,NORMAL
 112,PC28,,Available,,,,,,NORMAL

@@ -74,9 +74,9 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\peripheral\pm\plib_pm.h
   hash: 1ca20c6f2ba543b9ab30691fe90c11c6f8ea37e4631019cd9db771dcd57cc6b1
 - file: ..\src\config\default\peripheral\port\plib_port.c
-  hash: a0f9f4690fc40af0fdfc0ce8d73849c5ebd79fd907c719f0a601b54d21810b5c
+  hash: ed429c0ea06a5579d83a6467ce76eb1373d6ff16a30ffacce3267fc80c29c047
 - file: ..\src\config\default\peripheral\port\plib_port.h
-  hash: 684996de1e401915e79c43c48ececacec4f9c79eaf4b4c3fa3967192fda05a94
+  hash: 1c2f65e39ed30fdceaf7132f6cd271796154d1090681674db33d1792b7a56ad4
 - file: ..\src\config\default\peripheral\rtc\plib_rtc.h
   hash: 86c1871e2ceb9607d8d953dca11587d357adcb3770f1d11484fee655c8781250
 - file: ..\src\config\default\peripheral\rtc\plib_rtc_timer.c
@@ -94,7 +94,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\peripheral\tc\plib_tc_common.h
   hash: 487b4f489229b8e16b24ab48ddc1f414b095585439f0e10d53b2285fc3979f63
 - file: ..\src\config\default\pin_configurations.csv
-  hash: 0de1aeebcf6ce0985b18cce61e48ba249a8038272fa316cfd083ecab6080a0d2
+  hash: cafd52a891df1f3bfe93876e643bdcec0f8d8f19d981b440285968ac902edd21
 - file: ..\src\config\default\startup_xc32.c
   hash: f374b97d65f92553f1b75d8c9239b8b0f8581c710f78ea47b02c7f6fa6f74c74
 - file: ..\src\config\default\stdio\xc32_monitor.c
@@ -111,8 +111,6 @@ generatedFileHashHistoryMap:
   hash: 6215302a9aabe024c16b652dd1adf3e0fa56fbf55458f64b17fe9678726dcafd
 - file: ..\src\config\default\touch\lib\qtm_freq_hop_cm4_0x0006.X.a
   hash: 86433ce42999447e51bbcbbfcc140c803ed4b5b15851ae1e84fe1291c52f23eb
-- file: ..\src\config\default\touch\lib\qtm_scroller_cm4_0x000b.X.a
-  hash: a5d913de00fd568ec6acaf8101cc32d57e7a220e493ca965f1a53af8cc3409c5
 - file: ..\src\config\default\touch\lib\qtm_touch_key_cm4_0x0002.X.a
   hash: 0bea72377f0be30dc97b6b70435e07b5095d3e1bc2c81ad83a7a2334c2d565de
 - file: ..\src\config\default\touch\qtm_acq_pic32cxsg_0x000f_api.h
@@ -125,22 +123,20 @@ generatedFileHashHistoryMap:
   hash: 24ed3242e37471cbe9dd2507e931e88e843c683c9750d30e08f91a9d62a8e7e5
 - file: ..\src\config\default\touch\qtm_freq_hop_auto_0x0004_api.h
   hash: a0e06e45e438b797edcb61796bc74da1b1e488b45ee5263f2a638acdbffe35c9
-- file: ..\src\config\default\touch\qtm_scroller_0x000b_api.h
-  hash: b055b551cbd475e3d999a1aa84fe037875a494709fe475e969e9eedb4f8fb838
 - file: ..\src\config\default\touch\qtm_touch_key_0x0002_api.h
   hash: 4840f9cd8def73a029c2090d101548329c92bdf13bd19410029aab45234b42e2
 - file: ..\src\config\default\touch\touch.c
-  hash: 87d8a8d4588a7c0d2609d3bfe295a5236dd71c3d55a82b61150cadba47c1150a
+  hash: 2b80a558fda50c4badc999d0a9c49e289afc8f753471f12ec2cf23350000ef06
 - file: ..\src\config\default\touch\touch.h
-  hash: 135304d7722f22dd3e259705516b897cc176dff6386f58f9a1feb160956e9e6a
+  hash: c477e3dead99646162b98d03689b48227613875f5355601e03476852de7cbb93
 - file: ..\src\config\default\touch\touchTune.c
-  hash: dee6a0fb58c74f33b0abd3c5dd3ab7a77c13770a81531660126411a2b29f9b49
+  hash: 9954c2eb4823c5556c0dc03a8a982e2177d99f2b7a92a6397e636b881e59e8cf
 - file: ..\src\config\default\touch\touchTune.h
   hash: a273e075769ff87265a5b85406b2601c3547289ab739f393566cd5ceae83092c
 - file: ..\src\config\default\touch\touch_api_ptc.h
-  hash: 3428382dc1b43fe362f5370baef8cbb648d6a8c05adba944aabf8c88bc519b94
+  hash: 8493e7cfb027148e82c75cac3309882a87ef264b738ac74ffb75c43c1c9876c1
 - file: ..\src\config\default\touch\touch_example.c
-  hash: 1ab38a9a73b5a68fa175a63394fd4b33155f564c9c48312009bea5aa9d35e186
+  hash: e48f6e3c10862f29ee6c054afbbd80da652b5d4e25ca61cec279fd495c946028
 - file: ..\src\config\default\touch\touch_example.h
   hash: 59989902d4630e2ddf0822607a5c4485d4a31fbfa1ff2bc4a2b7aaa6656f58bb
 - file: ..\src\main.c

@@ -1721,7 +1721,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: ''
+            value: PTC_Y6
           type: Dynamic
         type: Values
       type: String
@@ -1732,7 +1732,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: ''
+            value: PTC_Y7
           type: Dynamic
         type: Values
       type: String
@@ -1796,7 +1796,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: ''
+            value: PTC_Y12
           type: Dynamic
         type: Values
       type: String
@@ -2467,7 +2467,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: '0x10'
+            value: '0x11'
           type: Dynamic
         type: Values
       type: String
@@ -2702,6 +2702,176 @@ data:
           type: Dynamic
         type: Values
       type: Integer
+    PIN_9_MODE:
+      attributes:
+        id: PIN_9_MODE
+      children:
+      - children:
+        - attributes:
+            value: ANALOG
+          type: User
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_6:
+      attributes:
+        id: PORT_GROUP_1_PAD_6
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB06
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG6:
+      attributes:
+        id: PORT_GROUP_1_PINCFG6
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PIN_6_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_6_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PIN_9_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_9_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: B
+          type: User
+        type: Values
+      type: String
+    PIN_61_MODE:
+      attributes:
+        id: PIN_61_MODE
+      children:
+      - children:
+        - attributes:
+            value: ANALOG
+          type: User
+        type: Values
+      type: String
+    PORT_GROUP_1_PMUX0:
+      attributes:
+        id: PORT_GROUP_1_PMUX0
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x11'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_0:
+      attributes:
+        id: PORT_GROUP_1_PAD_0
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB00
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG0:
+      attributes:
+        id: PORT_GROUP_1_PINCFG0
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PIN_0_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_0_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PIN_61_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_61_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: B
+          type: User
+        type: Values
+      type: String
+    PIN_62_MODE:
+      attributes:
+        id: PIN_62_MODE
+      children:
+      - children:
+        - attributes:
+            value: ANALOG
+          type: User
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG1:
+      attributes:
+        id: PORT_GROUP_1_PINCFG1
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PIN_1_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_1_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PAD_1:
+      attributes:
+        id: PORT_GROUP_1_PAD_1
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB01
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_62_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_62_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: B
+          type: User
+        type: Values
+      type: String
   userData:
     children:
     - attributes:

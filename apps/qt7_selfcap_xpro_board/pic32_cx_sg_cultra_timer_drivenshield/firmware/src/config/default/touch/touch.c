@@ -95,7 +95,7 @@ static qtm_acq_node_group_config_t ptc_qtlib_acq_gen1
 qtm_acq_node_data_t ptc_qtlib_node_stat1[DEF_NUM_CHANNELS];
 
 /* Node configurations */
-qtm_acq_pic32cxsg_node_config_t ptc_seq_node_cfg1[DEF_NUM_CHANNELS] = {NODE_0_PARAMS,NODE_1_PARAMS,NODE_2_PARAMS,NODE_3_PARAMS,NODE_4_PARAMS};
+qtm_acq_pic32cxsg_node_config_t ptc_seq_node_cfg1[DEF_NUM_CHANNELS] = {NODE_0_PARAMS,NODE_1_PARAMS};
 
 /* Container */
 static qtm_acquisition_control_t qtlib_acq_set1 = {&ptc_qtlib_acq_gen1, &ptc_seq_node_cfg1[0], &ptc_qtlib_node_stat1[0]};
@@ -147,28 +147,11 @@ static qtm_touch_key_group_data_t qtlib_key_grp_data_set1;
 qtm_touch_key_data_t qtlib_key_data_set1[DEF_NUM_SENSORS];
 
 /* Key Configurations */
-qtm_touch_key_config_t qtlib_key_configs_set1[DEF_NUM_SENSORS] = { KEY_0_PARAMS, KEY_1_PARAMS, KEY_2_PARAMS, KEY_3_PARAMS,KEY_4_PARAMS}; 
+qtm_touch_key_config_t qtlib_key_configs_set1[DEF_NUM_SENSORS] = { KEY_0_PARAMS,KEY_1_PARAMS}; 
 /* Container */
 static qtm_touch_key_control_t qtlib_key_set1
     = {&qtlib_key_grp_data_set1, &qtlib_key_grp_config_set1, &qtlib_key_data_set1[0], &qtlib_key_configs_set1[0]};
 
-/**********************************************************/
-/***************** Scroller Module ********************/
-/**********************************************************/
-
-/* Individual and Group Data */
-qtm_scroller_data_t       qtm_scroller_data1[DEF_NUM_SCROLLERS];
-static qtm_scroller_group_data_t qtm_scroller_group_data1 = {0};
-
-/* Group Configuration */
-static qtm_scroller_group_config_t qtm_scroller_group_config1 = {&qtlib_key_data_set1[0], DEF_NUM_SCROLLERS};
-
-/* Scroller Configurations */
-qtm_scroller_config_t qtm_scroller_config1[DEF_NUM_SCROLLERS] = {SCROLLER_0_PARAMS}; 
-
-/* Container */
-static qtm_scroller_control_t qtm_scroller_control1
-    = {&qtm_scroller_group_data1, &qtm_scroller_group_config1, &qtm_scroller_data1[0], &qtm_scroller_config1[0]};
 
 
 
@@ -207,8 +190,6 @@ static touch_ret_t touch_sensors_config(void)
 			touch_ret=qtm_init_sensor_key(&qtlib_key_set1, (uint8_t) sensor_nodes, &ptc_qtlib_node_stat1[sensor_nodes]);
     }
 
-	/* scroller init */
-	touch_ret = qtm_init_scroller_module(&qtm_scroller_control1);
 
 
     return (touch_ret);
@@ -318,10 +299,6 @@ void touch_process(void)
             touch_ret = qtm_key_sensors_process(&qtlib_key_set1);
             if (TOUCH_SUCCESS != touch_ret) {
                 qtm_error_callback(2);
-            }
-            touch_ret = qtm_scroller_process(&qtm_scroller_control1);
-            if (TOUCH_SUCCESS != touch_ret) {
-                qtm_error_callback(3);
             }
          }else {
            /* Acq module Error Detected: Issue an Acq module common error code 0x80 */
@@ -433,16 +410,6 @@ void calibrate_node(uint16_t sensor_node)
     if(touch_ret != TOUCH_SUCCESS) {
 		/* Error condition */
 	}
-}
-
-uint8_t get_scroller_state(uint16_t sensor_node)
-{
-	return (qtm_scroller_control1.qtm_scroller_data[sensor_node].scroller_status);
-}
-
-uint16_t get_scroller_position(uint16_t sensor_node)
-{
-	return (qtm_scroller_control1.qtm_scroller_data[sensor_node].position);
 }
 
 

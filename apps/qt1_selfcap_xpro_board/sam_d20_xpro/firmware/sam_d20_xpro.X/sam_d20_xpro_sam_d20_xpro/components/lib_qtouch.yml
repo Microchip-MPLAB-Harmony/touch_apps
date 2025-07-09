@@ -80,8 +80,8 @@ data:
     - children:
       - attributes:
           id: lib_qtouch
-          x: '315'
-          y: '233'
+          x: '481'
+          y: '120'
         type: ElementPosition
       type: ElementPositions
     type: ComponentGraph
@@ -247,7 +247,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: X_NONE,X_NONE,X_NONE,X_NONE,X_NONE
+            value: X_NONE,X_NONE,X_NONE,X_NONE,X_NONE,X_NONE,X_NONE,X_NONE
           type: Dynamic
         type: Values
       type: String
@@ -258,7 +258,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: Y(5),Y(4),Y(11),Y(10),Y(13)
+            value: Y(5),Y(4),Y(11),Y(10),Y(13),Y(12),Y(7),Y(6)
           type: Dynamic
         type: Values
       type: String
@@ -778,7 +778,7 @@ data:
             value: GCLK_ID_27_FREQ:sync
           type: Dynamic
         - attributes:
-            value: GCLK_ID_27_FREQ:range
+            value: GCLK_ID_27_FREQ
           type: User
         type: Values
       type: String
@@ -838,7 +838,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '5'
+            value: '8'
           type: User
         type: Values
       type: Integer
@@ -958,7 +958,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '5'
+            value: '8'
           type: User
         type: Values
       type: Integer
@@ -999,7 +999,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '1'
+            value: '2'
           type: User
         type: Values
       type: Integer
@@ -1050,6 +1050,167 @@ data:
       - children:
         - attributes:
             value: '0'
+          type: User
+        type: Values
+      type: KeyValueSet
+    HELPER_STATE:
+      attributes:
+        id: HELPER_STATE
+      children:
+      - children:
+        - attributes:
+            value: '{"alert":true}'
+          type: User
+        type: Values
+      type: String
+    GET_PTC_CLOCK_FREQUENCY:
+      attributes:
+        id: GET_PTC_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: '4000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    TOUCH_ENABLE_SCROLLER_1:
+      attributes:
+        id: TOUCH_ENABLE_SCROLLER_1
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    TOUCH_SCR_START_KEY1:
+      attributes:
+        id: TOUCH_SCR_START_KEY1
+      children:
+      - children:
+        - attributes:
+            value: '5'
+          type: User
+        type: Values
+      type: Integer
+    SELFCAP-INPUT_6:
+      attributes:
+        id: SELFCAP-INPUT_6
+      children:
+      - children:
+        - attributes:
+            value: '7'
+          type: User
+        type: Values
+      type: KeyValueSet
+    SELFCAP-INPUT_7:
+      attributes:
+        id: SELFCAP-INPUT_7
+      children:
+      - children:
+        - attributes:
+            value: '6'
+          type: User
+        type: Values
+      type: KeyValueSet
+    TOUCH_ENABLE_CH_5:
+      attributes:
+        id: TOUCH_ENABLE_CH_5
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    TOUCH_ENABLE_KEY_5:
+      attributes:
+        id: TOUCH_ENABLE_KEY_5
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    DEF_NOD_AKS5:
+      attributes:
+        id: DEF_NOD_AKS5
+      children:
+      - children:
+        - attributes:
+            value: '2'
+          type: User
+        type: Values
+      type: KeyValueSet
+    TOUCH_ENABLE_CH_6:
+      attributes:
+        id: TOUCH_ENABLE_CH_6
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    TOUCH_ENABLE_KEY_6:
+      attributes:
+        id: TOUCH_ENABLE_KEY_6
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    DEF_NOD_AKS6:
+      attributes:
+        id: DEF_NOD_AKS6
+      children:
+      - children:
+        - attributes:
+            value: '2'
+          type: User
+        type: Values
+      type: KeyValueSet
+    TOUCH_ENABLE_CH_7:
+      attributes:
+        id: TOUCH_ENABLE_CH_7
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    TOUCH_ENABLE_KEY_7:
+      attributes:
+        id: TOUCH_ENABLE_KEY_7
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    DEF_NOD_AKS7:
+      attributes:
+        id: DEF_NOD_AKS7
+      children:
+      - children:
+        - attributes:
+            value: '2'
+          type: User
+        type: Values
+      type: KeyValueSet
+    SELFCAP-INPUT_5:
+      attributes:
+        id: SELFCAP-INPUT_5
+      children:
+      - children:
+        - attributes:
+            value: '12'
           type: User
         type: Values
       type: KeyValueSet

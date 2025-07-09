@@ -54,7 +54,6 @@
             <itemPath>../src/config/default/touch/qtm_acq_same54_0x000f_api.h</itemPath>
             <itemPath>../src/config/default/touch/qtm_common_components_api.h</itemPath>
             <itemPath>../src/config/default/touch/qtm_touch_key_0x0002_api.h</itemPath>
-            <itemPath>../src/config/default/touch/qtm_scroller_0x000b_api.h</itemPath>
             <itemPath>../src/config/default/touch/qtm_freq_hop_0x0006_api.h</itemPath>
             <itemPath>../src/config/default/touch/qtm_freq_hop_auto_0x0004_api.h</itemPath>
             <itemPath>../src/config/default/touch/touchTune.h</itemPath>
@@ -193,17 +192,17 @@
                      displayName="pic32cx_sg61_timer_ds_default"
                      projectFiles="true">
         <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>pic32cx_sg61_timer_ds_default/components/nvmctrl.yml</itemPath>
+          <itemPath>pic32cx_sg61_timer_ds_default/components/tc4.yml</itemPath>
+          <itemPath>pic32cx_sg61_timer_ds_default/components/dfp.yml</itemPath>
+          <itemPath>pic32cx_sg61_timer_ds_default/components/core.yml</itemPath>
+          <itemPath>pic32cx_sg61_timer_ds_default/components/adc0.yml</itemPath>
+          <itemPath>pic32cx_sg61_timer_ds_default/components/ptc.yml</itemPath>
+          <itemPath>pic32cx_sg61_timer_ds_default/components/pm.yml</itemPath>
+          <itemPath>pic32cx_sg61_timer_ds_default/components/evsys.yml</itemPath>
           <itemPath>pic32cx_sg61_timer_ds_default/components/lib_qtouch.yml</itemPath>
           <itemPath>pic32cx_sg61_timer_ds_default/components/cmsis.yml</itemPath>
-          <itemPath>pic32cx_sg61_timer_ds_default/components/dfp.yml</itemPath>
-          <itemPath>pic32cx_sg61_timer_ds_default/components/tc4.yml</itemPath>
-          <itemPath>pic32cx_sg61_timer_ds_default/components/nvmctrl.yml</itemPath>
-          <itemPath>pic32cx_sg61_timer_ds_default/components/ptc.yml</itemPath>
-          <itemPath>pic32cx_sg61_timer_ds_default/components/evsys.yml</itemPath>
-          <itemPath>pic32cx_sg61_timer_ds_default/components/core.yml</itemPath>
           <itemPath>pic32cx_sg61_timer_ds_default/components/rtc.yml</itemPath>
-          <itemPath>pic32cx_sg61_timer_ds_default/components/adc0.yml</itemPath>
-          <itemPath>pic32cx_sg61_timer_ds_default/components/pm.yml</itemPath>
           <itemPath>pic32cx_sg61_timer_ds_default/components/sercom4.yml</itemPath>
         </logicalFolder>
         <itemPath>pic32cx_sg61_timer_ds_default/mcc-config.mc4</itemPath>
@@ -312,7 +311,6 @@
           <linkerLibItems>
             <linkerLibFileItem>../src/config/default/touch/lib/qtm_acq_pic32cxsg61_0x000f.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/default/touch/lib/qtm_touch_key_cm4_0x0002.X.a</linkerLibFileItem>
-            <linkerLibFileItem>../src/config/default/touch/lib/qtm_scroller_cm4_0x000b.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/default/touch/lib/qtm_freq_hop_cm4_0x0006.X.a</linkerLibFileItem>
             <linkerLibFileItem>../src/config/default/touch/lib/qtm_freq_hop_auto_cm4_0x0004.X.a</linkerLibFileItem>
           </linkerLibItems>
