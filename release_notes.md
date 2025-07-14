@@ -8,9 +8,9 @@
 See [readme](readme.md) for detailed list of example applications
 
 ### NEW FEATURES
-* Touch example project is added for [T10 Xplained Pro](https://www.microchip.com/en-us/development-tool/ac47h23a) with [SAML10 xPLAINED Pro](https://www.microchip.com/en-us/development-tool/dm320204) for showcasing Boost mode feature.
+* Boost mode example project is added for [T10 Xplained Pro](https://www.microchip.com/en-us/development-tool/ac47h23a) with [SAML10 Xplained Pro](https://www.microchip.com/en-us/development-tool/dm320204) for showcasing Boost mode feature.
 * Self-Capacitance example project is added for [QT7 Xplained Pro](https://www.microchip.com/en-us/development-tool/atqt7-xpro) with [PIC32CX SG Curiosity Ultra](https://www.microchip.com/en-us/development-tool/ev09h35a)
-* Trustzone based Touch example project is added for [QT7 Xplained Pro](https://www.microchip.com/en-us/development-tool/atqt7-xpro) with [SAML11 xPLAINED Pro](https://www.microchip.com/en-us/development-tool/dm320205)
+* Trustzone based Touch example project is added for [QT7 Xplained Pro](https://www.microchip.com/en-us/development-tool/atqt7-xpro) with [PIC32CM LS60 Curiosity Pro](https://www.microchip.com/en-us/development-tool/EV76R77A)
 * All existing examples are re-generated.
 
 ### BUGS FIXED
@@ -32,7 +32,7 @@ See [readme](readme.md) for detailed list of example applications
 See [readme](readme.md) for detailed list of example applications
 
 ### NEW FEATURES
-* Low power based Touch example project is added for [QT7 Xplained Pro](https://www.microchip.com/en-us/development-tool/atqt7-xpro) with [SAML10 xPLAINED Pro](https://www.microchip.com/en-us/development-tool/dm320204)
+* Low power based Touch example project is added for [QT7 Xplained Pro](https://www.microchip.com/en-us/development-tool/atqt7-xpro) with [SAML10 Xplained Pro](https://www.microchip.com/en-us/development-tool/dm320204)
 * Self-Capacitance example project is added for [QT7 Xplained Pro](https://www.microchip.com/en-us/development-tool/atqt7-xpro) with [PIC32CK GC Curiosity Pro](https://www.microchip.com/en-us/development-tool/ev44p93a)
 
 ### BUGS FIXED
