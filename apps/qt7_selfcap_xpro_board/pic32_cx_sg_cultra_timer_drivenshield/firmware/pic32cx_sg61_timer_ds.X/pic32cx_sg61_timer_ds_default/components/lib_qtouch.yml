@@ -9,9 +9,9 @@ dependency:
   type: module
   version: ''
 - dependencyPackage: ''
-  name: touch
+  name: tt1
   type: package
-  version: v3.19.0
+  version: touch
 customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
 data:
   attachments:
@@ -439,7 +439,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '6'
+            value: '4'
           type: User
         type: Values
       type: KeyValueSet
@@ -618,7 +618,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '6'
+            value: '4'
           type: User
         type: Values
       type: KeyValueSet
@@ -632,4 +632,24 @@ data:
           type: User
         type: Values
       type: KeyValueSet
+    DEF_TOUCH_CHARGE_SHARE_DELAY0:
+      attributes:
+        id: DEF_TOUCH_CHARGE_SHARE_DELAY0
+      children:
+      - children:
+        - attributes:
+            value: '10'
+          type: User
+        type: Values
+      type: Integer
+    DEF_TOUCH_CHARGE_SHARE_DELAY1:
+      attributes:
+        id: DEF_TOUCH_CHARGE_SHARE_DELAY1
+      children:
+      - children:
+        - attributes:
+            value: '10'
+          type: User
+        type: Values
+      type: Integer
   userData: {}

@@ -9,9 +9,9 @@ dependency:
   type: module
   version: ''
 - dependencyPackage: ''
-  name: touch
+  name: tt1
   type: package
-  version: v3.19.0
+  version: touch
 customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
 data:
   attachments:

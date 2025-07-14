@@ -96,7 +96,7 @@ static void drivenshield_port_mux_config(uint8_t pin, uint8_t mux)
 
 qtm_drivenshield_config_t qtm_drivenshield_config;
 
-//static const uint8_t offset_vs_prescaler[4] = { 0, 0, 0, 0 };
+static const uint8_t offset_vs_prescaler[4] = { 1, 1, 1, 1 };
 /*============================================================================
 void drivenshield_configure(void)
 ------------------------------------------------------------------------------
@@ -126,7 +126,7 @@ void drivenshield_configure(void)
 	
 
 	/* Dedicated Shield Timer pin mux setting */
-	drivenshield_port_mux_config((uint8_t)PIN_PA22E_TC4_WO0, (uint8_t)MUX_PA22E_TC4_WO0);
+	drivenshield_port_mux_config((uint8_t)PIN_PB08E_TC4_WO0, (uint8_t)MUX_PB08E_TC4_WO0);
 
 	/* stop all the timers */
 	drivenshield_stop();
@@ -153,11 +153,33 @@ void drivenshield_start(uint8_t csd, uint8_t sds, uint8_t prescaler, uint8_t vol
 	filter_level = value;
 
 	/* Configure DMA transfer */
-	check = DMAC_ChannelTransfer((DMAC_CHANNEL)0, &filter_level, (uint32_t *) addr, 1u);
+	check = DMAC_ChannelTransfer((DMAC_CHANNEL)0, &filter_level, (uint32_t *) addr, 3u);
 	if (check != true) {
 		/* error condition. During normal operation control shouldn't come here */
 	}
 
+	/* TC/TCC period value */
+	period = (uint16_t) ((uint16_t)csd + 1u);
+	period = (uint16_t) (period << 2);
+	period = period + sds;
+	period = (uint16_t) (period << 1);
+	period = (uint16_t) (period - 1u);
+
+	/* TC/TCC compare value */
+	cc = (uint16_t) ((uint16_t)csd + 1u);
+	cc = (uint16_t) (cc << 1);
+	cc = (uint16_t) (cc + sds);
+	cc = (uint16_t) (cc << 1);
+
+	/* TC/TCC count value - initial offset */
+	count = (uint16_t) ((uint16_t)csd + 1u);
+	count = (uint16_t) (count << 1);
+	if (prescaler <= 3u) {
+		count = count - offset_vs_prescaler[prescaler];
+	} else {
+		/* Using Prescaler value greater than PRSC_DIV_SEL_8
+		is not recommended with Driven Shield */
+	}
 	while (period > 255u) {
 		prescaler = prescaler + 1u;
 		period    = period >> 1u;

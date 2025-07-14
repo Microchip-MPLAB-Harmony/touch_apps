@@ -74,7 +74,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\peripheral\pm\plib_pm.h
   hash: 1ca20c6f2ba543b9ab30691fe90c11c6f8ea37e4631019cd9db771dcd57cc6b1
 - file: ..\src\config\default\peripheral\port\plib_port.c
-  hash: ed429c0ea06a5579d83a6467ce76eb1373d6ff16a30ffacce3267fc80c29c047
+  hash: e872578979212be902c6ec3ad4924c42c6544f07744143fd67ac6f847bde695d
 - file: ..\src\config\default\peripheral\port\plib_port.h
   hash: 1c2f65e39ed30fdceaf7132f6cd271796154d1090681674db33d1792b7a56ad4
 - file: ..\src\config\default\peripheral\rtc\plib_rtc.h
@@ -102,7 +102,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\toolchain_specifics.h
   hash: 6fc0551b0fa3362678b3d7a227386fafa343140d31e4da3ad4af972e61cd0acb
 - file: ..\src\config\default\touch\driven_shield.c
-  hash: 9a9998c56c1160c5877435f80cff9ba31fd353854e8a5812610b9b6b576108f0
+  hash: 7cc32c16f335e8fadb50d6df4429cf6f980725383317a58b1c0c15487e2eb6a6
 - file: ..\src\config\default\touch\driven_shield.h
   hash: 0d48ebb7f0a2f5037e438245737940a11196111923472ec09fa5bfd99888df42
 - file: ..\src\config\default\touch\lib\qtm_acq_pic32cxsg61_0x000f.X.a
@@ -128,7 +128,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\touch\touch.c
   hash: 2b80a558fda50c4badc999d0a9c49e289afc8f753471f12ec2cf23350000ef06
 - file: ..\src\config\default\touch\touch.h
-  hash: c477e3dead99646162b98d03689b48227613875f5355601e03476852de7cbb93
+  hash: 5869daae28af80d40c91c5bb94a9916cedb3702575cba4868651eb3322ffa98c
 - file: ..\src\config\default\touch\touchTune.c
   hash: 9954c2eb4823c5556c0dc03a8a982e2177d99f2b7a92a6397e636b881e59e8cf
 - file: ..\src\config\default\touch\touchTune.h

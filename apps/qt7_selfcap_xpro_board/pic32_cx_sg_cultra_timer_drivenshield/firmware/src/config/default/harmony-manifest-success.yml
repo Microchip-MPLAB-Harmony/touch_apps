@@ -4,7 +4,7 @@
 
 
 project: pic32cx_sg61_timer_ds
-creation_date: 2025-07-09T10:44:43.750+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2025-07-14T09:16:52.264+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 11
 mcc_mode: IDE            # [IDE|Standalone|Headless]
 mcc_version: v5.6.2
@@ -14,9 +14,9 @@ harmony_version: v5.6.2
 compiler: XC32 4.60
 
 modules:
+    - {name: "tt1", version: "touch"}
     - {name: "csp", version: "v3.22.4"}
     - {name: "CMSIS_5", version: "5.9.0"}
-    - {name: "touch", version: "v3.19.0"}
 
 packs:
     - {name: "PIC32CX-SG61_DFP", version: "1.2.124"}
