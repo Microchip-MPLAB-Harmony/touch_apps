@@ -2,6 +2,26 @@
 
 # Microchip MPLAB Harmony 3 Touch Applications Release Notes
 
+## Touch Applications v3.9.1 Release
+### Development kit and demo application support
+
+See [readme](readme.md) for detailed list of example applications
+
+### NEW FEATURES
+* In all example projects, the MPLAB configuration has been updated to remove the 'Warnings as Errors' option to ensure compatibility with XC32 version 5.0.0.
+
+### BUGS FIXED
+* None
+### DEVELOPMENT TOOLS
+* MPLAB® X IDE v6.25
+* MPLAB® XC32 C/C++ Compiler v5.00
+* MPLAB® XIDE plug-ins:
+	* MPLAB® Code Configurator (MCC)
+	* MCC Plugin v5.6.2
+
+### REQUIRED MPLAB HARMONY v3.x.x MODULES
+* csp v3.22.5
+* touch v3.19.0
 ## Touch Applications v3.9.0 Release
 ### Development kit and demo application support
 
