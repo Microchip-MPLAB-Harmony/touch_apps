@@ -58,6 +58,6 @@ The following applications are provided to demonstrate touch applications using 
 
 - Also, refer to the microchip developer pages listed under "Harmony 3 Touch Configurator" > Step by Step Examples > [Set Up the Environment](http://microchipdeveloper.com/touch:set-up-the-environment) for detailed information regarding configuring touch projects in Harmony framework.
 
-- For licensing information about contents of this module, please refer to [MPLAB Harmony License](License.md).
+- For licensing information about contents of this module, please refer to [License](License.md).
 
 - For more information about the latest release, please refer to [Release Notes](release_notes.md).
