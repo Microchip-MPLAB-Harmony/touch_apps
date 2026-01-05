@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>sam_d21_xpro.mc3</name>
+            <name>sam_d21_xpro</name>
             <creation-uuid>dfd6c19f-980f-4a03-b28e-ae4c7139fbde</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
