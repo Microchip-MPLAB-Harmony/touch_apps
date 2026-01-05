@@ -26,7 +26,7 @@
 
 /* ========== Instance Parameter definitions for PDEC peripheral ========== */
 #define PDEC_CC_NUM                              (2)        /* Number of Compare Channels units */
-#define PDEC_GCLK_ID                             (41)       
+#define PDEC_GCLK_ID                             (41)
 #define PDEC_INSTANCE_ID                         (90)       /* Instance index for PDEC */
 
 #endif /* _PIC32CMJH01_PDEC_INSTANCE_ */

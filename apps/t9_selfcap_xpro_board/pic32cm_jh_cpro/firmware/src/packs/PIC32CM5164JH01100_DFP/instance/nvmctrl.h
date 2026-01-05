@@ -26,19 +26,19 @@
 
 /* ========== Instance Parameter definitions for NVMCTRL peripheral ========== */
 #define NVMCTRL_DATAFLASH_ADDR                   (0x00400000) /* Start address of the Data Flash area */
-#define NVMCTRL_DATAFLASH_PAGES                  (128)      
+#define NVMCTRL_DATAFLASH_PAGES                  (128)
 #define NVMCTRL_DATAFLASH_SIZE                   (8192)     /* Byte size of the Data Flash area */
 #define NVMCTRL_ECC_PRESENT                      (1)        /* define out all the added ECC logic - when =0 there shall be no ECC logic present in the design */
-#define NVMCTRL_FACTORY_WORD_IMPLEMENTED_MASK    (0XC0000007FFFFFFFF) 
-#define NVMCTRL_FLASH_SIZE                       (524288)   
+#define NVMCTRL_FACTORY_WORD_IMPLEMENTED_MASK    (0XC0000007FFFFFFFF)
+#define NVMCTRL_FLASH_SIZE                       (524288)
 #define NVMCTRL_INSTANCE_ID                      (34)       /* Instance index for NVMCTRL */
-#define NVMCTRL_PAGES                            (8192)     
-#define NVMCTRL_PAGES_PR_REGION                  (512)      
-#define NVMCTRL_PAGE_SIZE                        (64)       
-#define NVMCTRL_PMSB                             (3)        
-#define NVMCTRL_PSZ_BITS                         (6)        
+#define NVMCTRL_PAGES                            (8192)
+#define NVMCTRL_PAGES_PR_REGION                  (512)
+#define NVMCTRL_PAGE_SIZE                        (64)
+#define NVMCTRL_PMSB                             (3)
+#define NVMCTRL_PSZ_BITS                         (6)
 #define NVMCTRL_RSTFFLTADDR                      (0x00000000) /* the reset default for FFLTADDR */
-#define NVMCTRL_USER_PAGE_OFFSET                 (0x00800000) 
-#define NVMCTRL_USER_WORD_IMPLEMENTED_MASK       (0XC01FFFFFFFFFFFFF) 
+#define NVMCTRL_USER_PAGE_OFFSET                 (0x00800000)
+#define NVMCTRL_USER_WORD_IMPLEMENTED_MASK       (0XC01FFFFFFFFFFFFF)
 
 #endif /* _PIC32CMJH01_NVMCTRL_INSTANCE_ */

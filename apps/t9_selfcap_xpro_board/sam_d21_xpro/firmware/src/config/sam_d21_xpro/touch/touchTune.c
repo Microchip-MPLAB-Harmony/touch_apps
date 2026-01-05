@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.19.0 Release
+  Touch Library v3.20.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -16,7 +16,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (c) 2025 released Microchip Technology Inc.  All rights reserved.
+Copyright (c) 2026 released Microchip Technology Inc.  All rights reserved.
 
 Microchip licenses to you the right to use, modify, copy and distribute
 Software only when embedded on a Microchip microcontroller or digital signal
@@ -45,7 +45,7 @@ void touchUartRxComplete(uintptr_t lTouchUart);
 
 #if DEF_TOUCH_TUNE_ENABLE == 1U
 
-#if ((DEF_SENSOR_TYPE == NODE_SELFCAP) || (DEF_SENSOR_TYPE == NODE_SELFCAP_SHIELD) )
+#if ((DEF_SENSOR_TYPE == NODE_SELFCAP) || (DEF_SENSOR_TYPE == NODE_SELFCAP_SHIELD) || (DEF_SENSOR_TYPE == NODE_SELFCAP_SHIELD_2L) )
 #define TECH SELF_CAP
 #elif (DEF_SENSOR_TYPE == NODE_MUTUAL)
 #define TECH MUTUAL_CAP

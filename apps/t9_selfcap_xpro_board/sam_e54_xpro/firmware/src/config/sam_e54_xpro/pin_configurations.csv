@@ -6,7 +6,7 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,D
 7,PC02,,Available,,,,,,NORMAL
 8,PC03,,Available,,,,,,NORMAL
 9,PA02,,Available,,,,,,NORMAL
-10,PA03,,Available,,,,,,NORMAL
+10,PA03,,ADC0_AIN1/X0/Y0/VREFA,Analog,High Impedance,n/a,,,NORMAL
 11,PB04,,Available,,,,,,NORMAL
 12,PB05,,Available,,,,,,NORMAL
 13,PD00,,Available,,,,,,NORMAL
@@ -14,7 +14,7 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,D
 17,PB06,,Available,,,,,,NORMAL
 18,PB07,,ADC0_X25/Y25,Analog,High Impedance,n/a,,,NORMAL
 19,PB08,,ADC0_AIN2/X1/Y1,Analog,High Impedance,n/a,,,NORMAL
-20,PB09,,ADC0_AIN3/X2/Y2,Analog,High Impedance,n/a,,,NORMAL
+20,PB09,,Available,,,,,,NORMAL
 21,PA04,,Available,,,,,,NORMAL
 22,PA05,,Available,,,,,,NORMAL
 23,PA06,LED_2,GPIO,Digital,In/Out,Low,,,NORMAL

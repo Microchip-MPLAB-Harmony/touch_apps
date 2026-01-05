@@ -1,6 +1,6 @@
 configVersion: 1.0.0
-coreVersion: 5.8.2
-spaHostVersion: 1.0.0
+coreVersion: 5.8.3
+spaHostVersion: 1.2.0
 device: ATSAMC21J18A
 deviceLibrary:
   className: com.microchip.mcc.harmony.Harmony3Library
@@ -19,7 +19,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_c21_xpro\ATSAMC21J18A.ld
   hash: 3fc7dbb63ae72ecd9b52572e4dd84ed79cbd37feb6064cb6d4df6fca301d09af
 - file: ..\src\config\sam_c21_xpro\definitions.h
-  hash: 45ab53ccf0e39ad1d39575ffcdb5bb7be6f292f2d1c94ce72cd60addb8f2ad55
+  hash: 7b28bf2798d5ff9ba911b9ad5cac2c9ee9782f44415d4386d5a9cf4c5a1b6acd
 - file: ..\src\config\sam_c21_xpro\device.h
   hash: e539bb402fa4783d95ccf06235458b2e1fe01207c83c0e046a853e0385d0b6f4
 - file: ..\src\config\sam_c21_xpro\device_cache.h
@@ -27,15 +27,15 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_c21_xpro\device_vectors.h
   hash: 0ffcf2109c1550773094e211109c77b5ce60b5d264766d8e479d6ed2104425b8
 - file: ..\src\config\sam_c21_xpro\exceptions.c
-  hash: 42f9da2668e04ccb3473d45b149683a00f80072c6883c7918d6ce93997cd6987
+  hash: d1567a190561858cc1cb7e796cf1a29720e52b9799bbd88b087993d8539e137f
 - file: ..\src\config\sam_c21_xpro\initialization.c
-  hash: c220f6e29bb6514dc215916cab8b493164b2784deb64c6f7ff133f95546ee053
+  hash: 19c428931e40a819da19e435c84226661e70dd24256030ddb00626b627d11e98
 - file: ..\src\config\sam_c21_xpro\interrupts.c
-  hash: 67091b6a7a3d75b82209c8416f358d6fceb1beb9c46918fe8700fe66762a2788
+  hash: 54d3063753b819f3e6c476e564783ed354a3f514e34522bbf22e558a30f67f38
 - file: ..\src\config\sam_c21_xpro\interrupts.h
   hash: 8752a130e1597ac5422b824bb6551500f52b759bb3f99a475fda1eb124419375
 - file: ..\src\config\sam_c21_xpro\libc_syscalls.c
-  hash: 88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f
+  hash: c9afc1b1257829415a1a6746ce3744f0a768b339d59fff2ab3ca1fab58b2a916
 - file: ..\src\config\sam_c21_xpro\peripheral\clock\plib_clock.c
   hash: c9c4ab1a51809085e000a7be30522d8aef1ff9de098dba5d53ba8d5efdc24e3d
 - file: ..\src\config\sam_c21_xpro\peripheral\clock\plib_clock.h
@@ -61,7 +61,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_c21_xpro\peripheral\rtc\plib_rtc_timer.c
   hash: f43f44c5c6b1739cbc31208a75fdc6c6ec28f7132c39917bc8e5d4a52689fe7c
 - file: ..\src\config\sam_c21_xpro\peripheral\sercom\usart\plib_sercom4_usart.c
-  hash: 8cd2465d167ef3fc2781697dd6a948b45cb869b44c14a853993cb4e05eaee97b
+  hash: 7ad2e2313933bf4cc79131a66069da8008486a1040a871d61410924f2baa0406
 - file: ..\src\config\sam_c21_xpro\peripheral\sercom\usart\plib_sercom4_usart.h
   hash: 05e5d58beebde6ee9922e3dd2c192792e76a2ba5443969a6696fecbd5414fbf1
 - file: ..\src\config\sam_c21_xpro\peripheral\sercom\usart\plib_sercom_usart_common.h
@@ -69,7 +69,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_c21_xpro\pin_configurations.csv
   hash: 2ef83a3b1e65b362a28ff002ac867aea0f04741702929f361e07f0d700dcf507
 - file: ..\src\config\sam_c21_xpro\startup_xc32.c
-  hash: e6227d89e36b74af1bc21e00e80b390502c97aaaa65796291f63b2d96cf0678e
+  hash: 3aa1360f333b564211c35f641c7327c2111e11aa633bd02ec5a0be9466b1df04
 - file: ..\src\config\sam_c21_xpro\stdio\xc32_monitor.c
   hash: 858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a
 - file: ..\src\config\sam_c21_xpro\toolchain_specifics.h
@@ -83,25 +83,25 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_c21_xpro\touch\qtm_acq_samc21_0x0020_api.h
   hash: 6c1437460320048b82a68499bf56719d5c4e11a117a1c34a55f2d0a4af640151
 - file: ..\src\config\sam_c21_xpro\touch\qtm_common_components_api.h
-  hash: 89a9473fc856d26a78ead0854377a7f61ebc20315a7a72bcc84f05ff1477816e
+  hash: 27367c4c6332d8ea31c183e3946108168deea1cbb2d59c21ec00404bb6e4e34f
 - file: ..\src\config\sam_c21_xpro\touch\qtm_freq_hop_auto_0x0004_api.h
   hash: a0e06e45e438b797edcb61796bc74da1b1e488b45ee5263f2a638acdbffe35c9
 - file: ..\src\config\sam_c21_xpro\touch\qtm_touch_key_0x0002_api.h
   hash: 4840f9cd8def73a029c2090d101548329c92bdf13bd19410029aab45234b42e2
 - file: ..\src\config\sam_c21_xpro\touch\touch.c
-  hash: f20b8fab71b4034f27794c3823aa076dab9b27c8a75fcb7d84cff3a6c23efa49
+  hash: 5671eee0371aa1a20166074539debb50860a4c58bb570c01ff8790e10abc4180
 - file: ..\src\config\sam_c21_xpro\touch\touch.h
-  hash: 2e2474971424a5291f17fb05ed7f9ab59a5b4a180abcb25cedc14de0fc152e2f
+  hash: 56c3f989900429a77e17eb508c90ad41740aa1524ddfdaac3b50756c02dd1e17
 - file: ..\src\config\sam_c21_xpro\touch\touchTune.c
-  hash: db2b4664ad47b3e41056dfc69cbc48b3431dafb6c8a10d5d1951993e4f6a610b
+  hash: ae67ca516de81d8444fa0b934bc1e109a2f17a2b5faacc4318ce814b72ba2f65
 - file: ..\src\config\sam_c21_xpro\touch\touchTune.h
-  hash: a273e075769ff87265a5b85406b2601c3547289ab739f393566cd5ceae83092c
+  hash: 35da8d42a347b50a99bf0ef570253bc01896b0988efa628b7ac67e75fc90b922
 - file: ..\src\config\sam_c21_xpro\touch\touch_api_ptc.h
-  hash: ae7ef8aed286a129de7e3da9e9388a3e6fd988db6d26b704500528ef955a7131
+  hash: c970eab2be3c62c22bd4ee5a5a2dbb4dbf498e18e4f2091ff8905b26c4447f0c
 - file: ..\src\config\sam_c21_xpro\touch\touch_example.c
-  hash: bea7190aa7d153ffa07ad4c3222811dc8c619aaaf152ce1972818a11115c063a
+  hash: 70599cd3fc72e0bba3332d37cd47d41ba98ff5a0040a1e5e49509f3430b3caa3
 - file: ..\src\config\sam_c21_xpro\touch\touch_example.h
-  hash: 59989902d4630e2ddf0822607a5c4485d4a31fbfa1ff2bc4a2b7aaa6656f58bb
+  hash: e3c082ba1e57bada628e30fb631a889f4b19e1f2688d1e8ea8abd2beab379a0e
 - file: ..\src\main.c
   hash: d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5
 - file: ..\src\packs\ATSAMC21J18A_DFP\component\ac.h
@@ -262,3 +262,23 @@ generatedFileHashHistoryMap:
   hash: d4920a5074f62dff1f8213991c83b2689c6ad59364d094e0997990dfb4fd4789
 - file: ..\src\packs\ATSAMC21J18A_DFP\samc21j18a.h
   hash: 35c3b0e29e6a92608192900edd4bc31d7b605c58d752fae0952040e9e805e746
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h
+  hash: 6cdb5b324f2fd1bb5b2f47298ba6e6777e735d7cad3bb8d942cd36e2c6e65328
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h
+  hash: d074534d7106cec83474b3b0a897bd2553e1a8895ecbd54f4f4fb25928066eee
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang.h
+  hash: 11b39b96ddc1125124762b3423a77b90dd40ea5b4582a3513830245046b24311
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang_ltm.h
+  hash: 8621969ea669a1b230ff2125a760ef66d575c48cb45e9e457f768909abcbda46
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h
+  hash: 869640702d811c4c63abb52206715c891a93fd03be954df5ad40d378355af3d6
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_gcc.h
+  hash: 3d4e265d0aa42f888385ccf073666e6ebb5ec9f834760b9da27c474e177f708d
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_iccarm.h
+  hash: f28119adbc81fb0e3c957c9aebe8fb423ad93634e76ead3caa2b0818d2e123ae
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_version.h
+  hash: 8cda7ac3ff6f0eb5e83c4fe613dd195151b24da54167f5c3c007e599a03f1edc
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\core_cm0plus.h
+  hash: a19e24c136145b4c72630d0ab7c83a7aef010f3ba165e34c56a05057a2d9fed5
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv7.h
+  hash: de1b5eb9ed566527b66dc06f4ecb6a43ab6800f7dac47e87c9cb42984dca41bb

@@ -246,7 +246,7 @@ void ICM_Handler                   ( void );
 /* CMSIS includes */
 #include "core_cm0plus.h"
 #if defined USE_CMSIS_INIT
-#include "system_pic32cmjh01.h"
+#include "system_pic32cm5164jh01100.h"
 #endif /* USE_CMSIS_INIT */
 
 /* ************************************************************************** */
