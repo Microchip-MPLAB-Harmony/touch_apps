@@ -115,6 +115,24 @@
           </logicalFolder>
           <itemPath>../src/packs/ATSAMD10D14AM_DFP/samd10d14am.h</itemPath>
         </logicalFolder>
+        <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+          <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+            <logicalFolder name="Core" displayName="Core" projectFiles="true">
+              <logicalFolder name="Include" displayName="Include" projectFiles="true">
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_version.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_iccarm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_gcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm0plus.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
@@ -138,15 +156,15 @@
                      displayName="sam_d10_xmini_sam_d10_xmini"
                      projectFiles="true">
         <logicalFolder name="components" displayName="components" projectFiles="true">
-          <itemPath>sam_d10_xmini_sam_d10_xmini/components/evsys.yml</itemPath>
-          <itemPath>sam_d10_xmini_sam_d10_xmini/components/nvmctrl.yml</itemPath>
+          <itemPath>sam_d10_xmini_sam_d10_xmini/components/core.yml</itemPath>
           <itemPath>sam_d10_xmini_sam_d10_xmini/components/dfp.yml</itemPath>
-          <itemPath>sam_d10_xmini_sam_d10_xmini/components/lib_qtouch.yml</itemPath>
+          <itemPath>sam_d10_xmini_sam_d10_xmini/components/evsys.yml</itemPath>
           <itemPath>sam_d10_xmini_sam_d10_xmini/components/cmsis.yml</itemPath>
+          <itemPath>sam_d10_xmini_sam_d10_xmini/components/lib_qtouch.yml</itemPath>
           <itemPath>sam_d10_xmini_sam_d10_xmini/components/sercom0.yml</itemPath>
+          <itemPath>sam_d10_xmini_sam_d10_xmini/components/nvmctrl.yml</itemPath>
           <itemPath>sam_d10_xmini_sam_d10_xmini/components/ptc.yml</itemPath>
           <itemPath>sam_d10_xmini_sam_d10_xmini/components/rtc.yml</itemPath>
-          <itemPath>sam_d10_xmini_sam_d10_xmini/components/core.yml</itemPath>
         </logicalFolder>
         <itemPath>sam_d10_xmini_sam_d10_xmini/mcc-config.mc4</itemPath>
       </logicalFolder>
@@ -375,6 +393,7 @@
         <property key="additional-options-use-response-files" value="false"/>
         <property key="additional-options-write-sla" value="false"/>
         <property key="allocate-dinit" value="false"/>
+        <property key="appendMe" value=""/>
         <property key="code-dinit" value="false"/>
         <property key="ebase-addr" value=""/>
         <property key="enable-check-sections" value="false"/>
@@ -980,6 +999,8 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-3fff"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="E:/TXFG/Ongoing Project/Harmony v3.20/Touch apps/onboard_sensor/sam_d10_xmini/firmware/sam_d10_xmini.X/debug/sam_d10_xmini/sam_d10_xmini_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"

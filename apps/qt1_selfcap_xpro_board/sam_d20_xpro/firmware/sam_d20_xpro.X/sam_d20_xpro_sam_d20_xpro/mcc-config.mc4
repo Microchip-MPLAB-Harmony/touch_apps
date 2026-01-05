@@ -1,6 +1,6 @@
 configVersion: 1.0.0
-coreVersion: 5.8.2
-spaHostVersion: 1.0.0
+coreVersion: 5.8.3
+spaHostVersion: 1.2.0
 device: ATSAMD20J18
 deviceLibrary:
   className: com.microchip.mcc.harmony.Harmony3Library
@@ -19,7 +19,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d20_xpro\ATSAMD20J18.ld
   hash: c33cc5c4b14c2223cff210edabed90f66346a45decbaf1953123b1ee4083a90e
 - file: ..\src\config\sam_d20_xpro\definitions.h
-  hash: a8900328cfe01c6a35882c32dbee6e4777c3b426da2022a719ffc681a111b5b3
+  hash: 3f5b1e60468245a8dab3181def5acc748e77047e15bb063b124725b2bed214de
 - file: ..\src\config\sam_d20_xpro\device.h
   hash: 5847311f7358c9120549b11e53650ee68db8c2d886fa1aa8659af1ca42789dac
 - file: ..\src\config\sam_d20_xpro\device_cache.h
@@ -27,15 +27,15 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d20_xpro\device_vectors.h
   hash: cde0a99a6aa326911ee9d936ce8b766d77080107accf2c405a4749eb1d77e5cb
 - file: ..\src\config\sam_d20_xpro\exceptions.c
-  hash: 42f9da2668e04ccb3473d45b149683a00f80072c6883c7918d6ce93997cd6987
+  hash: d1567a190561858cc1cb7e796cf1a29720e52b9799bbd88b087993d8539e137f
 - file: ..\src\config\sam_d20_xpro\initialization.c
-  hash: e6455f6c42ff75ebf49c57e9ec777ebd10fe9d28b85da612f7d740f6a36171a4
+  hash: 6ed2b55532bd86f8376b972b25c53306213a9ed87304d19cf51e72c310a06616
 - file: ..\src\config\sam_d20_xpro\interrupts.c
-  hash: cc7aa11b9d1d8ee185075e9d1823e3034faf50dbd42e411e63901fa1cffe5720
+  hash: e20e39dff566bbd3ba9ea30906a50265b394454043be8bf28bd733284ecd74c4
 - file: ..\src\config\sam_d20_xpro\interrupts.h
   hash: fd55ff7742e79fd0c786a16e3746c6b625a76bbcb709f04c661dcb08d8b09815
 - file: ..\src\config\sam_d20_xpro\libc_syscalls.c
-  hash: 88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f
+  hash: c9afc1b1257829415a1a6746ce3744f0a768b339d59fff2ab3ca1fab58b2a916
 - file: ..\src\config\sam_d20_xpro\peripheral\clock\plib_clock.c
   hash: 3c5bd379f0f7a3336600ceefbd4932659f3945d8107eb63ffef225e8e6ce1b3f
 - file: ..\src\config\sam_d20_xpro\peripheral\clock\plib_clock.h
@@ -53,7 +53,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d20_xpro\peripheral\nvmctrl\plib_nvmctrl.h
   hash: 5ed5f5c5b0892544d57303872afa61c7a560577850ce23de1af5f8113193f2dd
 - file: ..\src\config\sam_d20_xpro\peripheral\port\plib_port.c
-  hash: 1edc3c5d958740fcbb0413b2d3492f65626d855d0b1f8fad06004f98050b1b1f
+  hash: de6211e7af0c485902f1f98d8a22e581d0cdf450129897649c9721034c1ace18
 - file: ..\src\config\sam_d20_xpro\peripheral\port\plib_port.h
   hash: afef056227c60ca571189d4173f3b16678fd00bab7c8149c8da10770b7913e2f
 - file: ..\src\config\sam_d20_xpro\peripheral\rtc\plib_rtc.h
@@ -61,15 +61,15 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d20_xpro\peripheral\rtc\plib_rtc_timer.c
   hash: 84c5357f5cee1b71880c3aeb04d8e7ce8c261383ccb4a4ccebdb4907049b98b0
 - file: ..\src\config\sam_d20_xpro\peripheral\sercom\usart\plib_sercom3_usart.c
-  hash: 1137837e0aa7fb4c30e173bb9bced2fbf09ef2f26894c4b4fe172a78119c0bc2
+  hash: 7c5dd7802f5201502fafcaa716f8e2d24caf5f115deccfea34082453d3aca29b
 - file: ..\src\config\sam_d20_xpro\peripheral\sercom\usart\plib_sercom3_usart.h
   hash: 22b0b20a392b7b9a0bcc89663853e622c2fcadb751f6b8ded1a4f834614accc8
 - file: ..\src\config\sam_d20_xpro\peripheral\sercom\usart\plib_sercom_usart_common.h
   hash: 9f02e811b95f0470ca23f3546f3ddf4ccccb385b4d8b8c091899d0d20b0c56e1
 - file: ..\src\config\sam_d20_xpro\pin_configurations.csv
-  hash: 055fb774ae7c24fe01d188186c5872a01b9911dd56188c13c59e5940ca293d30
+  hash: 729d52d265fe2b36346cc44374032b203fde05c8ddf3032e4f116fe0c6fa6537
 - file: ..\src\config\sam_d20_xpro\startup_xc32.c
-  hash: e6227d89e36b74af1bc21e00e80b390502c97aaaa65796291f63b2d96cf0678e
+  hash: 3aa1360f333b564211c35f641c7327c2111e11aa633bd02ec5a0be9466b1df04
 - file: ..\src\config\sam_d20_xpro\stdio\xc32_monitor.c
   hash: 858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a
 - file: ..\src\config\sam_d20_xpro\toolchain_specifics.h
@@ -85,7 +85,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d20_xpro\touch\qtm_acq_samd20_0x000e_api.h
   hash: a955e152222b32a7679699ffb2c9e25a980031c5b9a71e8d6e4d8c9fcc5cb72f
 - file: ..\src\config\sam_d20_xpro\touch\qtm_common_components_api.h
-  hash: 89a9473fc856d26a78ead0854377a7f61ebc20315a7a72bcc84f05ff1477816e
+  hash: 27367c4c6332d8ea31c183e3946108168deea1cbb2d59c21ec00404bb6e4e34f
 - file: ..\src\config\sam_d20_xpro\touch\qtm_freq_hop_auto_0x0004_api.h
   hash: a0e06e45e438b797edcb61796bc74da1b1e488b45ee5263f2a638acdbffe35c9
 - file: ..\src\config\sam_d20_xpro\touch\qtm_scroller_0x000b_api.h
@@ -93,17 +93,17 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d20_xpro\touch\qtm_touch_key_0x0002_api.h
   hash: 4840f9cd8def73a029c2090d101548329c92bdf13bd19410029aab45234b42e2
 - file: ..\src\config\sam_d20_xpro\touch\touch.c
-  hash: 88a2ea82af4a8ab4a90d859f46306e8f0d23005577019ab5fc814d8317f7ee80
+  hash: b966b261ca698e6db8c8931711a503a58a4de9d51b21b0580ddf56b5c0f60499
 - file: ..\src\config\sam_d20_xpro\touch\touch.h
-  hash: 67a423110001116262ddbb2ba51865aa707306623da7c1fa38f9f86c78d22bd6
+  hash: 5f01b2d14160f5740bf4d25799854d0046257c9e434e595e6599e386f2dca334
 - file: ..\src\config\sam_d20_xpro\touch\touchTune.c
-  hash: 9f2519b7af3182994e469f2a34b84fc2cb42e5149cdd2daf217b4f58eb3cc4a4
+  hash: 68247dcd864598a0e186e5dd18d01a980552011c6e22514589ecd8de728696a5
 - file: ..\src\config\sam_d20_xpro\touch\touchTune.h
-  hash: a273e075769ff87265a5b85406b2601c3547289ab739f393566cd5ceae83092c
+  hash: b00f217b8f2d304a2d340ef6e416fbd3c9a3b8bdaefb85c87ded05ccff7fd41a
 - file: ..\src\config\sam_d20_xpro\touch\touch_api_ptc.h
   hash: 5d5a01ca220559b566d681fb918fbc6865acc7b26f001be4d62f45a683ad5e21
 - file: ..\src\config\sam_d20_xpro\touch\touch_example.c
-  hash: 1ab38a9a73b5a68fa175a63394fd4b33155f564c9c48312009bea5aa9d35e186
+  hash: 4000c59230f5f13a7a7ef2cc81508eab06fa40f433c435de326c824973c069ce
 - file: ..\src\config\sam_d20_xpro\touch\touch_example.h
   hash: 59989902d4630e2ddf0822607a5c4485d4a31fbfa1ff2bc4a2b7aaa6656f58bb
 - file: ..\src\main.c
@@ -212,3 +212,23 @@ generatedFileHashHistoryMap:
   hash: 95741de7831172d956ac0f76bc8abc164ffe1d8a8e48130fd46294abb9531da0
 - file: ..\src\packs\ATSAMD20J18_DFP\samd20j18.h
   hash: 70bafe3c2165b7ce23d8d9e81e576a7903d3d1410886fa79a1c5b4dd1848a82c
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h
+  hash: 6cdb5b324f2fd1bb5b2f47298ba6e6777e735d7cad3bb8d942cd36e2c6e65328
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h
+  hash: d074534d7106cec83474b3b0a897bd2553e1a8895ecbd54f4f4fb25928066eee
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang.h
+  hash: 11b39b96ddc1125124762b3423a77b90dd40ea5b4582a3513830245046b24311
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang_ltm.h
+  hash: 8621969ea669a1b230ff2125a760ef66d575c48cb45e9e457f768909abcbda46
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h
+  hash: 869640702d811c4c63abb52206715c891a93fd03be954df5ad40d378355af3d6
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_gcc.h
+  hash: 3d4e265d0aa42f888385ccf073666e6ebb5ec9f834760b9da27c474e177f708d
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_iccarm.h
+  hash: f28119adbc81fb0e3c957c9aebe8fb423ad93634e76ead3caa2b0818d2e123ae
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_version.h
+  hash: 8cda7ac3ff6f0eb5e83c4fe613dd195151b24da54167f5c3c007e599a03f1edc
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\core_cm0plus.h
+  hash: a19e24c136145b4c72630d0ab7c83a7aef010f3ba165e34c56a05057a2d9fed5
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv7.h
+  hash: de1b5eb9ed566527b66dc06f4ecb6a43ab6800f7dac47e87c9cb42984dca41bb

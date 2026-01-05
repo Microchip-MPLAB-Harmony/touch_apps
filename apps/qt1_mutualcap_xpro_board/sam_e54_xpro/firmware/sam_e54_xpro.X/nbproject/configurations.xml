@@ -170,6 +170,24 @@
           </logicalFolder>
           <itemPath>../src/packs/ATSAME54P20A_DFP/same54p20a.h</itemPath>
         </logicalFolder>
+        <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+          <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+            <logicalFolder name="Core" displayName="Core" projectFiles="true">
+              <logicalFolder name="Include" displayName="Include" projectFiles="true">
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_version.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_iccarm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_gcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm4.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
@@ -194,16 +212,16 @@
                      displayName="sam_e54_xpro_sam_e54_xpro"
                      projectFiles="true">
         <logicalFolder name="components" displayName="components" projectFiles="true">
-          <itemPath>sam_e54_xpro_sam_e54_xpro/components/cmsis.yml</itemPath>
-          <itemPath>sam_e54_xpro_sam_e54_xpro/components/dfp.yml</itemPath>
-          <itemPath>sam_e54_xpro_sam_e54_xpro/components/sercom2.yml</itemPath>
-          <itemPath>sam_e54_xpro_sam_e54_xpro/components/rtc.yml</itemPath>
-          <itemPath>sam_e54_xpro_sam_e54_xpro/components/nvmctrl.yml</itemPath>
-          <itemPath>sam_e54_xpro_sam_e54_xpro/components/evsys.yml</itemPath>
-          <itemPath>sam_e54_xpro_sam_e54_xpro/components/lib_qtouch.yml</itemPath>
           <itemPath>sam_e54_xpro_sam_e54_xpro/components/adc0.yml</itemPath>
+          <itemPath>sam_e54_xpro_sam_e54_xpro/components/dfp.yml</itemPath>
           <itemPath>sam_e54_xpro_sam_e54_xpro/components/ptc.yml</itemPath>
+          <itemPath>sam_e54_xpro_sam_e54_xpro/components/rtc.yml</itemPath>
+          <itemPath>sam_e54_xpro_sam_e54_xpro/components/lib_qtouch.yml</itemPath>
+          <itemPath>sam_e54_xpro_sam_e54_xpro/components/cmsis.yml</itemPath>
+          <itemPath>sam_e54_xpro_sam_e54_xpro/components/nvmctrl.yml</itemPath>
           <itemPath>sam_e54_xpro_sam_e54_xpro/components/core.yml</itemPath>
+          <itemPath>sam_e54_xpro_sam_e54_xpro/components/evsys.yml</itemPath>
+          <itemPath>sam_e54_xpro_sam_e54_xpro/components/sercom2.yml</itemPath>
         </logicalFolder>
         <itemPath>sam_e54_xpro_sam_e54_xpro/mcc-config.mc4</itemPath>
       </logicalFolder>
@@ -289,14 +307,14 @@
         <targetDevice>ATSAME54P20A</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>EdbgTool</platformTool>
+        <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>5.00</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
         <pack name="CMSIS" vendor="ARM" version="6.2.0"/>
-        <pack name="SAME54_DFP" vendor="Microchip" version="3.10.249"/>
+        <pack name="SAME54_DFP" vendor="Microchip" version="3.11.261"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -566,8 +584,6 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-fffff"/>
         <property key="poweroptions.powerenable" value="false"/>
-        <property key="programmerToGoFilePath"
-                  value="D:/Repo/touch_apps/apps/qt1_mutualcap_xpro_board/sam_e54_xpro/firmware/sam_e54_xpro.X/debug/sam_e54_xpro/sam_e54_xpro_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"

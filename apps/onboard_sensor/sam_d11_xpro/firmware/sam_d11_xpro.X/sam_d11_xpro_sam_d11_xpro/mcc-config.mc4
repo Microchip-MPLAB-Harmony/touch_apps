@@ -1,6 +1,6 @@
 configVersion: 1.0.0
-coreVersion: 5.8.2
-spaHostVersion: 1.0.0
+coreVersion: 5.8.3
+spaHostVersion: 1.2.0
 device: ATSAMD11D14AM
 deviceLibrary:
   className: com.microchip.mcc.harmony.Harmony3Library
@@ -19,7 +19,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d11_xpro\ATSAMD11D14AM.ld
   hash: f6580131af17952a35720427f89dbb10674bf107596f12669c610c5fbf61ba28
 - file: ..\src\config\sam_d11_xpro\definitions.h
-  hash: 8486ca539de14b0566d99ca3b22b29859fe54255fbdd99eabff4194f2a39e8fb
+  hash: 7c764334ab61078331463568150e62a5c96bb1c5233cefa5dc01ef7b1ed5aeb0
 - file: ..\src\config\sam_d11_xpro\device.h
   hash: 7347a796fa2b06629d79b7fb2cd16f26f8fae803b7f90d571ad8ac71ddadf9e9
 - file: ..\src\config\sam_d11_xpro\device_cache.h
@@ -27,15 +27,15 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d11_xpro\device_vectors.h
   hash: 8ddff96a1480dcccd38db70e9815dd326f53a2af142a61da3da2b3e6ef1ebd37
 - file: ..\src\config\sam_d11_xpro\exceptions.c
-  hash: 42f9da2668e04ccb3473d45b149683a00f80072c6883c7918d6ce93997cd6987
+  hash: d1567a190561858cc1cb7e796cf1a29720e52b9799bbd88b087993d8539e137f
 - file: ..\src\config\sam_d11_xpro\initialization.c
-  hash: 824a18a4895c42f422825863e0bce9c54310b7ff4d2755f66d1eda7f6a68bc14
+  hash: 7255266ccb6dfbaf41d6e6cf8c4f04f13a3037f20bbac3cc0d91da7587440c51
 - file: ..\src\config\sam_d11_xpro\interrupts.c
-  hash: f4495142f9210836c4f0545e41044c39287286866ebce8a755375401b7c8cdea
+  hash: 8068c642de1c9118ec9f4736baf52c864aff396208c020c43edc6050804d9a7f
 - file: ..\src\config\sam_d11_xpro\interrupts.h
   hash: 6b5a5b22ccf6f3233c4975b8a0aeba07d866e7231cc0d7396dee33958ba5942a
 - file: ..\src\config\sam_d11_xpro\libc_syscalls.c
-  hash: 88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f
+  hash: c9afc1b1257829415a1a6746ce3744f0a768b339d59fff2ab3ca1fab58b2a916
 - file: ..\src\config\sam_d11_xpro\peripheral\clock\plib_clock.c
   hash: 4a2a1f44daf605d677ea2c89d6400fd6e2ecfb569164bed5cff4e79be82be4a1
 - file: ..\src\config\sam_d11_xpro\peripheral\clock\plib_clock.h
@@ -61,7 +61,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d11_xpro\peripheral\rtc\plib_rtc_timer.c
   hash: 84c5357f5cee1b71880c3aeb04d8e7ce8c261383ccb4a4ccebdb4907049b98b0
 - file: ..\src\config\sam_d11_xpro\peripheral\sercom\usart\plib_sercom0_usart.c
-  hash: ee4f2a3c571daba35fa06238f560e3d1b3cc2ef00e87810976cf03ecf0319744
+  hash: ee93b7f6ab92871d3d7a711d580f9269f98e993671437f82c287a27ace1f1b5d
 - file: ..\src\config\sam_d11_xpro\peripheral\sercom\usart\plib_sercom0_usart.h
   hash: ada260bab121780e4ff3b1d8514c96508f13c20f21c860135a5e986f23fb2c9e
 - file: ..\src\config\sam_d11_xpro\peripheral\sercom\usart\plib_sercom_usart_common.h
@@ -69,7 +69,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d11_xpro\pin_configurations.csv
   hash: a23f94d6066475e9bb068ca0770c3ff00d10c5909be310c8ae3fa1f70c3daaf9
 - file: ..\src\config\sam_d11_xpro\startup_xc32.c
-  hash: e6227d89e36b74af1bc21e00e80b390502c97aaaa65796291f63b2d96cf0678e
+  hash: 3aa1360f333b564211c35f641c7327c2111e11aa633bd02ec5a0be9466b1df04
 - file: ..\src\config\sam_d11_xpro\stdio\xc32_monitor.c
   hash: 858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a
 - file: ..\src\config\sam_d11_xpro\toolchain_specifics.h
@@ -93,15 +93,15 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d11_xpro\touch\qtm_acq_samd1x_0x0009_api.h
   hash: be8e3c6beea3c53d9e119391b09b3fb85526c376249b265ccca00379e3a09ee7
 - file: ..\src\config\sam_d11_xpro\touch\qtm_common_components_api.h
-  hash: 89a9473fc856d26a78ead0854377a7f61ebc20315a7a72bcc84f05ff1477816e
+  hash: 27367c4c6332d8ea31c183e3946108168deea1cbb2d59c21ec00404bb6e4e34f
 - file: ..\src\config\sam_d11_xpro\touch\qtm_freq_hop_auto_0x0004_api.h
   hash: a0e06e45e438b797edcb61796bc74da1b1e488b45ee5263f2a638acdbffe35c9
 - file: ..\src\config\sam_d11_xpro\touch\qtm_touch_key_0x0002_api.h
   hash: 4840f9cd8def73a029c2090d101548329c92bdf13bd19410029aab45234b42e2
 - file: ..\src\config\sam_d11_xpro\touch\touch.c
-  hash: 33b1daac99bf7d9d351f2afd07f296c81a6fa42058c0e546be00ec392cbc9d0f
+  hash: b61be91da618fc148f0214f40b862c0d990adc68ded81077f5bb82937d635e8a
 - file: ..\src\config\sam_d11_xpro\touch\touch.h
-  hash: 57df1bdb6cf78917e798ee950cfe2ad170df8f4eeea7d455cc3ab99fc08a56e2
+  hash: 250432c3010fd448db21290689e3c2725e96727aa4205334486e6d9e24f974b0
 - file: ..\src\config\sam_d11_xpro\touch\touch_api_ptc.h
   hash: fcdf43cef4a4019b590a37d7aa5c6ca37a36a28a5cb06f792c49118e0210439b
 - file: ..\src\config\sam_d11_xpro\touch\touch_example.c
@@ -216,3 +216,23 @@ generatedFileHashHistoryMap:
   hash: b4478c779e656c818f9463353f10afd20a42fecb707a0be7570f04a94f118159
 - file: ..\src\packs\ATSAMD11D14AM_DFP\samd11d14am.h
   hash: ad05161e8a26ed1f55e243d9135054fefd677c6c81d43ebacf0cdb8897cf0c89
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h
+  hash: 6cdb5b324f2fd1bb5b2f47298ba6e6777e735d7cad3bb8d942cd36e2c6e65328
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h
+  hash: d074534d7106cec83474b3b0a897bd2553e1a8895ecbd54f4f4fb25928066eee
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang.h
+  hash: 11b39b96ddc1125124762b3423a77b90dd40ea5b4582a3513830245046b24311
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang_ltm.h
+  hash: 8621969ea669a1b230ff2125a760ef66d575c48cb45e9e457f768909abcbda46
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h
+  hash: 869640702d811c4c63abb52206715c891a93fd03be954df5ad40d378355af3d6
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_gcc.h
+  hash: 3d4e265d0aa42f888385ccf073666e6ebb5ec9f834760b9da27c474e177f708d
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_iccarm.h
+  hash: f28119adbc81fb0e3c957c9aebe8fb423ad93634e76ead3caa2b0818d2e123ae
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_version.h
+  hash: 8cda7ac3ff6f0eb5e83c4fe613dd195151b24da54167f5c3c007e599a03f1edc
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\core_cm0plus.h
+  hash: a19e24c136145b4c72630d0ab7c83a7aef010f3ba165e34c56a05057a2d9fed5
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv7.h
+  hash: de1b5eb9ed566527b66dc06f4ecb6a43ab6800f7dac47e87c9cb42984dca41bb

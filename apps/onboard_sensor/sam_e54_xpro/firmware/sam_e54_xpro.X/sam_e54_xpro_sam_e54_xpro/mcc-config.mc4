@@ -1,9 +1,8 @@
 configVersion: 1.0.0
-coreVersion: 5.8.2
-spaHostVersion: 1.0.0
+coreVersion: 5.8.3
+spaHostVersion: 1.2.0
 device: ATSAME54P20A
-deviceLibrary:
-  className: null
+deviceLibrary: {}
 groupModules: []
 modules:
 - adc0
@@ -28,15 +27,15 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_e54_xpro\device_vectors.h
   hash: 2ca6c5e4f11c88f714464908b2a390e9ca48457311f7e72f6f6679dea2b43b86
 - file: ..\src\config\sam_e54_xpro\exceptions.c
-  hash: de00e84d46e0d8933ee2fae9d699e08456443d4f80ac78f87edada9c35a9d15f
+  hash: d1fcd7158950bb6ce6461d093cfa2ab341af3e6ea0337a936aa3ee9da98c6e55
 - file: ..\src\config\sam_e54_xpro\initialization.c
-  hash: 05ce6537f8b6127b196e0f666399ff57576eaee1e644408b019a85e55a9a5f54
+  hash: 7f294d13658589acacd0f1af14ba2ff653ba2fec902ab405963cd61bf0af96d5
 - file: ..\src\config\sam_e54_xpro\interrupts.c
-  hash: 6d6ade2d1c1c63b9d4a6426ee4825af71f0d5b131874618355473fd3d3ff04a8
+  hash: 6cf19d5483b39c1c60ad22b69ce07916d0b4cf88265561cb2031211127c94841
 - file: ..\src\config\sam_e54_xpro\interrupts.h
   hash: b5b4cd91a9a701ab332aaaf09678787fb3424f77f831487dd6eb47411798f526
 - file: ..\src\config\sam_e54_xpro\libc_syscalls.c
-  hash: 88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f
+  hash: c9afc1b1257829415a1a6746ce3744f0a768b339d59fff2ab3ca1fab58b2a916
 - file: ..\src\config\sam_e54_xpro\peripheral\adc\plib_adc0.c
   hash: df58bc295fb058fb1b22f715bf719b5d8e673d01cb10adf53bcef22bb0683f74
 - file: ..\src\config\sam_e54_xpro\peripheral\adc\plib_adc0.h
@@ -44,7 +43,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_e54_xpro\peripheral\adc\plib_adc_common.h
   hash: b6100059702feb5d6031f6c694dc636b0871d6d256ca47a73f991cb418209500
 - file: ..\src\config\sam_e54_xpro\peripheral\clock\plib_clock.c
-  hash: 4f4c0e3427f15b386466f3c6a958b3f4424bc189c0baba845b1815807204f872
+  hash: 8b99ec3f96f6bdb30aeb49ef665cf7e49e19b6379f3017f08b525f51f3c7d0f5
 - file: ..\src\config\sam_e54_xpro\peripheral\clock\plib_clock.h
   hash: 59322a99314cb17c6b595d51d18769582e61189140188aa053acfdc671487f21
 - file: ..\src\config\sam_e54_xpro\peripheral\cmcc\plib_cmcc.c
@@ -64,7 +63,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_e54_xpro\peripheral\nvmctrl\plib_nvmctrl.h
   hash: fd7749dc74a885efd7c593394454abc74afc7cf184123f0315425a3600c26ac5
 - file: ..\src\config\sam_e54_xpro\peripheral\port\plib_port.c
-  hash: 4c8505132b721be4d9e56d519f2c2e986ab090608696d1d4aa238ac1960632cd
+  hash: f7be442ea320301c2d8a67de3aae0f7f96fcb7e5b0f152b90029c0dcdeac5573
 - file: ..\src\config\sam_e54_xpro\peripheral\port\plib_port.h
   hash: 8bed91b8ce7aa99876fce5da6f1d5e61fc215d07e1961643d6998c6cdb9c440f
 - file: ..\src\config\sam_e54_xpro\peripheral\rtc\plib_rtc.h
@@ -72,15 +71,15 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_e54_xpro\peripheral\rtc\plib_rtc_timer.c
   hash: 9d23aa84826126f7a1f8fd11de8865ca4a08b920136bc2de4f99eba6a12e9235
 - file: ..\src\config\sam_e54_xpro\peripheral\sercom\usart\plib_sercom2_usart.c
-  hash: dea38e426ea74a76d9a70d3c627ec4d067e6477a8cec206be7415ae3565cb0c8
+  hash: 5befca6dc3b7687a7eceab218f4f4261463833b616bc57dff8b2bf234f08cf31
 - file: ..\src\config\sam_e54_xpro\peripheral\sercom\usart\plib_sercom2_usart.h
   hash: 09c17c725b402654121033ff2450cf410b4c9745efc6583f9725677fd909607b
 - file: ..\src\config\sam_e54_xpro\peripheral\sercom\usart\plib_sercom_usart_common.h
   hash: 3653b66472c558c50f7037a1dd25d2678e9a13aa718f3c53a2195e6f3919ea48
 - file: ..\src\config\sam_e54_xpro\pin_configurations.csv
-  hash: 944426ab210aa950e8440138bca82fb904b9b2409c0c5e7003020698e457c24b
+  hash: 1f6562616a25f56d464885558e0cd3c3ed7fef9acb12d5d9964db15ec3c9fdc9
 - file: ..\src\config\sam_e54_xpro\startup_xc32.c
-  hash: f374b97d65f92553f1b75d8c9239b8b0f8581c710f78ea47b02c7f6fa6f74c74
+  hash: 2916a631dd72c23f29daf3ec7ebc84abec03a29948825df0b1505d670d73fe50
 - file: ..\src\config\sam_e54_xpro\stdio\xc32_monitor.c
   hash: 858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a
 - file: ..\src\config\sam_e54_xpro\toolchain_specifics.h
@@ -96,7 +95,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_e54_xpro\touch\qtm_acq_same54_0x000f_api.h
   hash: 7abf8721586c1f1108ddf97d1a1a3a1adb8aa750282971705718a0832e7dedf9
 - file: ..\src\config\sam_e54_xpro\touch\qtm_common_components_api.h
-  hash: 89a9473fc856d26a78ead0854377a7f61ebc20315a7a72bcc84f05ff1477816e
+  hash: 27367c4c6332d8ea31c183e3946108168deea1cbb2d59c21ec00404bb6e4e34f
 - file: ..\src\config\sam_e54_xpro\touch\qtm_freq_hop_0x0006_api.h
   hash: 24ed3242e37471cbe9dd2507e931e88e843c683c9750d30e08f91a9d62a8e7e5
 - file: ..\src\config\sam_e54_xpro\touch\qtm_freq_hop_auto_0x0004_api.h
@@ -104,13 +103,13 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_e54_xpro\touch\qtm_touch_key_0x0002_api.h
   hash: 4840f9cd8def73a029c2090d101548329c92bdf13bd19410029aab45234b42e2
 - file: ..\src\config\sam_e54_xpro\touch\touch.c
-  hash: 33efe1963a4e69dca16f53abb6a804675925a5b16d1276c040097b33882fffdb
+  hash: 97d0ea3f5d29398f2ce4ad3e35b2d190661725b638ac6a28454052cea90685a4
 - file: ..\src\config\sam_e54_xpro\touch\touch.h
-  hash: 88670a0071f27123f690509865775990835ca15a33a6c74afe028fd896f24344
+  hash: b8cb5a2c1b0bdc9266f50321e83e43e3c24963b8fd1cbd9e4f7cc7c8100859ab
 - file: ..\src\config\sam_e54_xpro\touch\touchTune.c
-  hash: ed51755d2af1bccbf77a9bf7a8f5dff7940f15ed6049e40cb028b3db92b05e60
+  hash: 33f0563bdb04296fb4866cbb28614f53344c5340c11b4d7efe1be2507df8b90b
 - file: ..\src\config\sam_e54_xpro\touch\touchTune.h
-  hash: a273e075769ff87265a5b85406b2601c3547289ab739f393566cd5ceae83092c
+  hash: b00f217b8f2d304a2d340ef6e416fbd3c9a3b8bdaefb85c87ded05ccff7fd41a
 - file: ..\src\config\sam_e54_xpro\touch\touch_api_ptc.h
   hash: 98ec49d2325cd0db0698ce9b3f20d5acb7e79a0ed741833fb7d74dbe07b67f64
 - file: ..\src\config\sam_e54_xpro\touch\touch_example.c
@@ -118,7 +117,6 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_e54_xpro\touch\touch_example.h
   hash: 59989902d4630e2ddf0822607a5c4485d4a31fbfa1ff2bc4a2b7aaa6656f58bb
 - file: ..\src\main.c
-  hash: null
 - file: ..\src\packs\ATSAME54P20A_DFP\component\ac.h
   hash: f157f4448aa3fa1bcd7e772c8d8ec7320ad5f17a8b9ac40b4eb881b2e207a932
 - file: ..\src\packs\ATSAME54P20A_DFP\component\adc.h
@@ -323,3 +321,23 @@ generatedFileHashHistoryMap:
   hash: 0a5e0e847bf5e3efac0f6a5d0c5e88d89289f6806176f150604262d784375ae3
 - file: ..\src\packs\ATSAME54P20A_DFP\same54p20a.h
   hash: bc2c22a6acc9f4347473581e283c769c4c1ac03331eae6b2735d45d2ef08cf20
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h
+  hash: 6cdb5b324f2fd1bb5b2f47298ba6e6777e735d7cad3bb8d942cd36e2c6e65328
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h
+  hash: d074534d7106cec83474b3b0a897bd2553e1a8895ecbd54f4f4fb25928066eee
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang.h
+  hash: 11b39b96ddc1125124762b3423a77b90dd40ea5b4582a3513830245046b24311
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang_ltm.h
+  hash: 8621969ea669a1b230ff2125a760ef66d575c48cb45e9e457f768909abcbda46
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h
+  hash: 869640702d811c4c63abb52206715c891a93fd03be954df5ad40d378355af3d6
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_gcc.h
+  hash: 3d4e265d0aa42f888385ccf073666e6ebb5ec9f834760b9da27c474e177f708d
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_iccarm.h
+  hash: f28119adbc81fb0e3c957c9aebe8fb423ad93634e76ead3caa2b0818d2e123ae
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_version.h
+  hash: 8cda7ac3ff6f0eb5e83c4fe613dd195151b24da54167f5c3c007e599a03f1edc
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\core_cm4.h
+  hash: d59a9e3ed4cf43a3c74a2e48f344d41be2b6363ef9394ea2c551052fe553a6af
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv7.h
+  hash: de1b5eb9ed566527b66dc06f4ecb6a43ab6800f7dac47e87c9cb42984dca41bb

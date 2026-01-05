@@ -135,6 +135,24 @@
           </logicalFolder>
           <itemPath>../src/packs/ATSAML21J18B_DFP/saml21j18b.h</itemPath>
         </logicalFolder>
+        <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+          <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+            <logicalFolder name="Core" displayName="Core" projectFiles="true">
+              <logicalFolder name="Include" displayName="Include" projectFiles="true">
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_version.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_iccarm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_gcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm0plus.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
@@ -174,16 +192,16 @@
                      displayName="sam_l21_xpro_sam_l21_xpro"
                      projectFiles="true">
         <logicalFolder name="components" displayName="components" projectFiles="true">
-          <itemPath>sam_l21_xpro_sam_l21_xpro/components/core.yml</itemPath>
-          <itemPath>sam_l21_xpro_sam_l21_xpro/components/nvmctrl.yml</itemPath>
-          <itemPath>sam_l21_xpro_sam_l21_xpro/components/ptc.yml</itemPath>
-          <itemPath>sam_l21_xpro_sam_l21_xpro/components/evsys.yml</itemPath>
-          <itemPath>sam_l21_xpro_sam_l21_xpro/components/pm.yml</itemPath>
-          <itemPath>sam_l21_xpro_sam_l21_xpro/components/lib_qtouch.yml</itemPath>
           <itemPath>sam_l21_xpro_sam_l21_xpro/components/cmsis.yml</itemPath>
-          <itemPath>sam_l21_xpro_sam_l21_xpro/components/rtc.yml</itemPath>
+          <itemPath>sam_l21_xpro_sam_l21_xpro/components/pm.yml</itemPath>
           <itemPath>sam_l21_xpro_sam_l21_xpro/components/dfp.yml</itemPath>
+          <itemPath>sam_l21_xpro_sam_l21_xpro/components/core.yml</itemPath>
+          <itemPath>sam_l21_xpro_sam_l21_xpro/components/evsys.yml</itemPath>
+          <itemPath>sam_l21_xpro_sam_l21_xpro/components/nvmctrl.yml</itemPath>
           <itemPath>sam_l21_xpro_sam_l21_xpro/components/sercom3.yml</itemPath>
+          <itemPath>sam_l21_xpro_sam_l21_xpro/components/rtc.yml</itemPath>
+          <itemPath>sam_l21_xpro_sam_l21_xpro/components/lib_qtouch.yml</itemPath>
+          <itemPath>sam_l21_xpro_sam_l21_xpro/components/ptc.yml</itemPath>
         </logicalFolder>
         <itemPath>sam_l21_xpro_sam_l21_xpro/mcc-config.mc4</itemPath>
       </logicalFolder>
@@ -281,14 +299,14 @@
         <targetDevice>ATSAML21J18B</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>EdbgTool</platformTool>
+        <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>5.00</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
         <pack name="CMSIS" vendor="ARM" version="6.2.0"/>
-        <pack name="SAML21_DFP" vendor="Microchip" version="3.7.217"/>
+        <pack name="SAML21_DFP" vendor="Microchip" version="3.8.229"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -426,6 +444,7 @@
         <property key="additional-options-use-response-files" value="false"/>
         <property key="additional-options-write-sla" value="false"/>
         <property key="allocate-dinit" value="false"/>
+        <property key="appendMe" value=""/>
         <property key="code-dinit" value="false"/>
         <property key="ebase-addr" value=""/>
         <property key="enable-check-sections" value="false"/>

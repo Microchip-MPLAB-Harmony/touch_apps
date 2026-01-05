@@ -137,6 +137,24 @@
           </logicalFolder>
           <itemPath>../src/packs/ATSAML22N18A_DFP/saml22n18a.h</itemPath>
         </logicalFolder>
+        <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+          <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+            <logicalFolder name="Core" displayName="Core" projectFiles="true">
+              <logicalFolder name="Include" displayName="Include" projectFiles="true">
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_version.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_iccarm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_gcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm0plus.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
@@ -146,16 +164,16 @@
                      displayName="sam_l22_xpro_sam_l22_xpro"
                      projectFiles="true">
         <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>sam_l22_xpro_sam_l22_xpro/components/lib_qtouch.yml</itemPath>
           <itemPath>sam_l22_xpro_sam_l22_xpro/components/rtc.yml</itemPath>
-          <itemPath>sam_l22_xpro_sam_l22_xpro/components/cmsis.yml</itemPath>
-          <itemPath>sam_l22_xpro_sam_l22_xpro/components/dfp.yml</itemPath>
-          <itemPath>sam_l22_xpro_sam_l22_xpro/components/pm.yml</itemPath>
-          <itemPath>sam_l22_xpro_sam_l22_xpro/components/evsys.yml</itemPath>
           <itemPath>sam_l22_xpro_sam_l22_xpro/components/sercom4.yml</itemPath>
           <itemPath>sam_l22_xpro_sam_l22_xpro/components/nvmctrl.yml</itemPath>
+          <itemPath>sam_l22_xpro_sam_l22_xpro/components/pm.yml</itemPath>
           <itemPath>sam_l22_xpro_sam_l22_xpro/components/ptc.yml</itemPath>
+          <itemPath>sam_l22_xpro_sam_l22_xpro/components/cmsis.yml</itemPath>
           <itemPath>sam_l22_xpro_sam_l22_xpro/components/core.yml</itemPath>
-          <itemPath>sam_l22_xpro_sam_l22_xpro/components/lib_qtouch.yml</itemPath>
+          <itemPath>sam_l22_xpro_sam_l22_xpro/components/dfp.yml</itemPath>
+          <itemPath>sam_l22_xpro_sam_l22_xpro/components/evsys.yml</itemPath>
         </logicalFolder>
         <itemPath>sam_l22_xpro_sam_l22_xpro/mcc-config.mc4</itemPath>
       </logicalFolder>
@@ -238,9 +256,9 @@
         <targetDevice>ATSAML22N18A</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>EdbgTool</platformTool>
+        <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.60</languageToolchainVersion>
+        <languageToolchainVersion>5.00</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
@@ -489,8 +507,6 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-3ffff"/>
         <property key="poweroptions.powerenable" value="false"/>
-        <property key="programmerToGoFilePath"
-                  value="D:/REPOSITORY/TOUCHAPPS_V3.6.0/touch_apps/apps/qt1_mutualcap_xpro_board/sam_l22_xpro/firmware/sam_l22_xpro.X/debug/sam_l22_xpro/sam_l22_xpro_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"

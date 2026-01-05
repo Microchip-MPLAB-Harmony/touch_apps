@@ -50,6 +50,7 @@ Microchip or any third party.
 #include "touch/touch.h"
 #include "touch/touchTune.h"
 
+
 /*----------------------------------------------------------------------------
  *   prototypes
  *----------------------------------------------------------------------------*/
@@ -455,6 +456,6 @@ Notes  : none
 ============================================================================*/
 void PTC_Handler(void)
 {
-	qtm_ptc_clear_interrupt();
+qtm_ptc_clear_interrupt();
 	qtm_saml21_ptc_handler_eoc();
 }

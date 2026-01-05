@@ -1,6 +1,6 @@
 configVersion: 1.0.0
-coreVersion: 5.8.2
-spaHostVersion: 1.0.0
+coreVersion: 5.8.3
+spaHostVersion: 1.2.0
 device: ATSAMD10D14AM
 deviceLibrary:
   className: com.microchip.mcc.harmony.Harmony3Library
@@ -19,7 +19,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d10_xmini\ATSAMD10D14AM.ld
   hash: c8496f629b23d64812c60c31c13598c47bcdfeeb142ee9ada403dadd350c2086
 - file: ..\src\config\sam_d10_xmini\definitions.h
-  hash: 203141b548052f9bc66751a1554ddf7eaf7f570e1f2cf480fc725c6c1c45f84d
+  hash: bab6150ed1889cb5ae6a9d9f09ee557291ea947ade44127286615a49f07cc03b
 - file: ..\src\config\sam_d10_xmini\device.h
   hash: 93b8d8d83259a00c866b3312233e91fa69eedea5bb45abec1eed44f07218a900
 - file: ..\src\config\sam_d10_xmini\device_cache.h
@@ -27,15 +27,15 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d10_xmini\device_vectors.h
   hash: 0db7460236357139684ff7ed0506430412b44be9ba78a3d54547769b56801d6d
 - file: ..\src\config\sam_d10_xmini\exceptions.c
-  hash: 42f9da2668e04ccb3473d45b149683a00f80072c6883c7918d6ce93997cd6987
+  hash: d1567a190561858cc1cb7e796cf1a29720e52b9799bbd88b087993d8539e137f
 - file: ..\src\config\sam_d10_xmini\initialization.c
-  hash: 8d7132cb0199078099ed7054de0660fefc9e2315c9a7040c12020d5d6fed5b49
+  hash: 7255266ccb6dfbaf41d6e6cf8c4f04f13a3037f20bbac3cc0d91da7587440c51
 - file: ..\src\config\sam_d10_xmini\interrupts.c
-  hash: 3b1da3330a7d5ff732e3b55fb0a5ae85c6a2d71a1adf74608cf32dfc617df6e6
+  hash: 4cbd5f090e787211df87de2e2ea5d82835879cf16d695f679dd4a5ab2aed0264
 - file: ..\src\config\sam_d10_xmini\interrupts.h
   hash: 6b5a5b22ccf6f3233c4975b8a0aeba07d866e7231cc0d7396dee33958ba5942a
 - file: ..\src\config\sam_d10_xmini\libc_syscalls.c
-  hash: 88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f
+  hash: c9afc1b1257829415a1a6746ce3744f0a768b339d59fff2ab3ca1fab58b2a916
 - file: ..\src\config\sam_d10_xmini\peripheral\clock\plib_clock.c
   hash: 91eea95cf44f5a64b08959eb9f3a1d8f5d3468e4d6be5f79ca6cc0adb146509b
 - file: ..\src\config\sam_d10_xmini\peripheral\clock\plib_clock.h
@@ -61,7 +61,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d10_xmini\peripheral\rtc\plib_rtc_timer.c
   hash: 84c5357f5cee1b71880c3aeb04d8e7ce8c261383ccb4a4ccebdb4907049b98b0
 - file: ..\src\config\sam_d10_xmini\peripheral\sercom\usart\plib_sercom0_usart.c
-  hash: 0a71da5a7259f97236ef278060298d874fd75bdd1ac7516fcb374b0bd143d24d
+  hash: 6e6139f335e2cc68ab93059c467f2df8c3dd4fb825cabb9caf7e05ce3f0df9d2
 - file: ..\src\config\sam_d10_xmini\peripheral\sercom\usart\plib_sercom0_usart.h
   hash: ada260bab121780e4ff3b1d8514c96508f13c20f21c860135a5e986f23fb2c9e
 - file: ..\src\config\sam_d10_xmini\peripheral\sercom\usart\plib_sercom_usart_common.h
@@ -69,7 +69,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d10_xmini\pin_configurations.csv
   hash: a13e27c1034c3bd136b16743a1b27beb096ed373c02ed287c89217dda011f2e2
 - file: ..\src\config\sam_d10_xmini\startup_xc32.c
-  hash: e6227d89e36b74af1bc21e00e80b390502c97aaaa65796291f63b2d96cf0678e
+  hash: 3aa1360f333b564211c35f641c7327c2111e11aa633bd02ec5a0be9466b1df04
 - file: ..\src\config\sam_d10_xmini\stdio\xc32_monitor.c
   hash: 858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a
 - file: ..\src\config\sam_d10_xmini\toolchain_specifics.h
@@ -93,15 +93,15 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d10_xmini\touch\qtm_acq_samd1x_0x0009_api.h
   hash: be8e3c6beea3c53d9e119391b09b3fb85526c376249b265ccca00379e3a09ee7
 - file: ..\src\config\sam_d10_xmini\touch\qtm_common_components_api.h
-  hash: 89a9473fc856d26a78ead0854377a7f61ebc20315a7a72bcc84f05ff1477816e
+  hash: 27367c4c6332d8ea31c183e3946108168deea1cbb2d59c21ec00404bb6e4e34f
 - file: ..\src\config\sam_d10_xmini\touch\qtm_freq_hop_auto_0x0004_api.h
   hash: a0e06e45e438b797edcb61796bc74da1b1e488b45ee5263f2a638acdbffe35c9
 - file: ..\src\config\sam_d10_xmini\touch\qtm_touch_key_0x0002_api.h
   hash: 4840f9cd8def73a029c2090d101548329c92bdf13bd19410029aab45234b42e2
 - file: ..\src\config\sam_d10_xmini\touch\touch.c
-  hash: 279c78249cecbe7903bdda6900f2fbd47f9a80ece098f17df6a305fa1bc80afc
+  hash: b0b8e59037cbbed1c0335c7d9c71be5503dc2f34bd0265659c1fb67f69745193
 - file: ..\src\config\sam_d10_xmini\touch\touch.h
-  hash: 90875fef36c2aab9d23dbd6ebf9ae547c08edbdb8e69dbdffc2c714891958df3
+  hash: c82f9de612d59b539ba9bba2c50d7b3451e643711beeed40f854e973f8626260
 - file: ..\src\config\sam_d10_xmini\touch\touch_api_ptc.h
   hash: fcdf43cef4a4019b590a37d7aa5c6ca37a36a28a5cb06f792c49118e0210439b
 - file: ..\src\config\sam_d10_xmini\touch\touch_example.c
@@ -212,3 +212,23 @@ generatedFileHashHistoryMap:
   hash: 1dffb669d1717197e632343d64de705d1c80ddf0ee71a258a9db5d8ad6880104
 - file: ..\src\packs\ATSAMD10D14AM_DFP\samd10d14am.h
   hash: 5ee4d37579c36973fef1369a64486526ab826314ca75543aec27ba0657d4878f
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h
+  hash: 6cdb5b324f2fd1bb5b2f47298ba6e6777e735d7cad3bb8d942cd36e2c6e65328
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h
+  hash: d074534d7106cec83474b3b0a897bd2553e1a8895ecbd54f4f4fb25928066eee
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang.h
+  hash: 11b39b96ddc1125124762b3423a77b90dd40ea5b4582a3513830245046b24311
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang_ltm.h
+  hash: 8621969ea669a1b230ff2125a760ef66d575c48cb45e9e457f768909abcbda46
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h
+  hash: 869640702d811c4c63abb52206715c891a93fd03be954df5ad40d378355af3d6
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_gcc.h
+  hash: 3d4e265d0aa42f888385ccf073666e6ebb5ec9f834760b9da27c474e177f708d
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_iccarm.h
+  hash: f28119adbc81fb0e3c957c9aebe8fb423ad93634e76ead3caa2b0818d2e123ae
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_version.h
+  hash: 8cda7ac3ff6f0eb5e83c4fe613dd195151b24da54167f5c3c007e599a03f1edc
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\core_cm0plus.h
+  hash: a19e24c136145b4c72630d0ab7c83a7aef010f3ba165e34c56a05057a2d9fed5
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv7.h
+  hash: de1b5eb9ed566527b66dc06f4ecb6a43ab6800f7dac47e87c9cb42984dca41bb

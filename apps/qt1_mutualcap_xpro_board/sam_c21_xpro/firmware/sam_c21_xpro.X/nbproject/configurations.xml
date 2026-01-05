@@ -139,6 +139,24 @@
           </logicalFolder>
           <itemPath>../src/packs/ATSAMC21J18A_DFP/samc21j18a.h</itemPath>
         </logicalFolder>
+        <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+          <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+            <logicalFolder name="Core" displayName="Core" projectFiles="true">
+              <logicalFolder name="Include" displayName="Include" projectFiles="true">
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_version.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_iccarm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_gcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm0plus.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
@@ -162,15 +180,15 @@
                      displayName="sam_c21_xpro_sam_c21_xpro"
                      projectFiles="true">
         <logicalFolder name="components" displayName="components" projectFiles="true">
-          <itemPath>sam_c21_xpro_sam_c21_xpro/components/cmsis.yml</itemPath>
-          <itemPath>sam_c21_xpro_sam_c21_xpro/components/ptc.yml</itemPath>
-          <itemPath>sam_c21_xpro_sam_c21_xpro/components/core.yml</itemPath>
-          <itemPath>sam_c21_xpro_sam_c21_xpro/components/nvmctrl.yml</itemPath>
-          <itemPath>sam_c21_xpro_sam_c21_xpro/components/sercom4.yml</itemPath>
           <itemPath>sam_c21_xpro_sam_c21_xpro/components/lib_qtouch.yml</itemPath>
-          <itemPath>sam_c21_xpro_sam_c21_xpro/components/rtc.yml</itemPath>
-          <itemPath>sam_c21_xpro_sam_c21_xpro/components/dfp.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/nvmctrl.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/ptc.yml</itemPath>
           <itemPath>sam_c21_xpro_sam_c21_xpro/components/evsys.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/rtc.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/cmsis.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/core.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/dfp.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/sercom4.yml</itemPath>
         </logicalFolder>
         <itemPath>sam_c21_xpro_sam_c21_xpro/mcc-config.mc4</itemPath>
       </logicalFolder>

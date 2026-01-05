@@ -112,6 +112,24 @@
           </logicalFolder>
           <itemPath>../src/packs/ATSAMD20J18_DFP/samd20j18.h</itemPath>
         </logicalFolder>
+        <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+          <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+            <logicalFolder name="Core" displayName="Core" projectFiles="true">
+              <logicalFolder name="Include" displayName="Include" projectFiles="true">
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_version.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_iccarm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_gcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm0plus.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
@@ -135,15 +153,15 @@
                      displayName="sam_d20_xpro_sam_d20_xpro"
                      projectFiles="true">
         <logicalFolder name="components" displayName="components" projectFiles="true">
-          <itemPath>sam_d20_xpro_sam_d20_xpro/components/lib_qtouch.yml</itemPath>
-          <itemPath>sam_d20_xpro_sam_d20_xpro/components/cmsis.yml</itemPath>
-          <itemPath>sam_d20_xpro_sam_d20_xpro/components/core.yml</itemPath>
-          <itemPath>sam_d20_xpro_sam_d20_xpro/components/dfp.yml</itemPath>
           <itemPath>sam_d20_xpro_sam_d20_xpro/components/nvmctrl.yml</itemPath>
-          <itemPath>sam_d20_xpro_sam_d20_xpro/components/sercom3.yml</itemPath>
           <itemPath>sam_d20_xpro_sam_d20_xpro/components/ptc.yml</itemPath>
+          <itemPath>sam_d20_xpro_sam_d20_xpro/components/sercom3.yml</itemPath>
           <itemPath>sam_d20_xpro_sam_d20_xpro/components/rtc.yml</itemPath>
+          <itemPath>sam_d20_xpro_sam_d20_xpro/components/dfp.yml</itemPath>
           <itemPath>sam_d20_xpro_sam_d20_xpro/components/evsys.yml</itemPath>
+          <itemPath>sam_d20_xpro_sam_d20_xpro/components/cmsis.yml</itemPath>
+          <itemPath>sam_d20_xpro_sam_d20_xpro/components/lib_qtouch.yml</itemPath>
+          <itemPath>sam_d20_xpro_sam_d20_xpro/components/core.yml</itemPath>
         </logicalFolder>
         <itemPath>sam_d20_xpro_sam_d20_xpro/mcc-config.mc4</itemPath>
       </logicalFolder>
@@ -225,11 +243,11 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.60</languageToolchainVersion>
+        <languageToolchainVersion>5.00</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="SAMD20_DFP" vendor="Microchip" version="3.6.112"/>
+        <pack name="SAMD20_DFP" vendor="Microchip" version="3.7.231"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>

@@ -4,19 +4,19 @@
 
 
 project: 
-creation_date: 2025-06-23T01:06:34.442+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2026-01-02T16:57:42.018+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 11
 mcc_mode: IDE            # [IDE|Standalone|Headless]
-mcc_version: v5.6.2
-mcc_core_version: v5.8.2
+mcc_version: v5.6.3
+mcc_core_version: v5.8.3
 mplabx_version: v6.25        # if MPLAB X plugin only
-harmony_version: v5.6.2
-compiler: XC32 4.60
+harmony_version: v5.6.3
+compiler: XC32 5.00
 
 modules:
-    - {name: "csp", version: "v3.22.4"}
+    - {name: "csp", version: "v3.25.0"}
     - {name: "CMSIS_5", version: "5.9.0"}
-    - {name: "touch", version: "v3.19.0"}
+    - {name: "touch", version: "v3.20.0"}
 
 packs:
     - {name: "SAML21_DFP", version: "3.7.217"}

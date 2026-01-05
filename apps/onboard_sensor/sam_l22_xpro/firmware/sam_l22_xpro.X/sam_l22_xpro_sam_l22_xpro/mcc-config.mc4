@@ -1,6 +1,6 @@
 configVersion: 1.0.0
-coreVersion: 5.8.2
-spaHostVersion: 1.0.0
+coreVersion: 5.8.3
+spaHostVersion: 1.2.0
 device: ATSAML22N18A
 deviceLibrary:
   className: com.microchip.mcc.harmony.Harmony3Library
@@ -20,7 +20,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l22_xpro\ATSAML22N18A.ld
   hash: e690bdf01bc2d45a36550a4277450dddd34e46ab829d4f6f62d6712f16ed80ba
 - file: ..\src\config\sam_l22_xpro\definitions.h
-  hash: dc5b96c9fd49d47e0d9cc1909a17569beb881bf9e0019d93a725185c3bf89112
+  hash: 69f25e8c41f10e0ec2a4dd1be38c27fd456bccb31eaebb02ae28285ae8154fe1
 - file: ..\src\config\sam_l22_xpro\device.h
   hash: 0de67b551f51caff91a4a56e6c390824b6698ffbe714cbcf7df0675af1d0de2b
 - file: ..\src\config\sam_l22_xpro\device_cache.h
@@ -28,15 +28,15 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l22_xpro\device_vectors.h
   hash: 76a738d34902c8bf47e7c4b1bc46359258d1f2dddcbf6a43cfca424465c2489d
 - file: ..\src\config\sam_l22_xpro\exceptions.c
-  hash: 42f9da2668e04ccb3473d45b149683a00f80072c6883c7918d6ce93997cd6987
+  hash: d1567a190561858cc1cb7e796cf1a29720e52b9799bbd88b087993d8539e137f
 - file: ..\src\config\sam_l22_xpro\initialization.c
-  hash: d2db3e059f6109dd286cfaeeff88516cf8eeb04e6fee883c02c73072a7f42c31
+  hash: 2e40d43a7c99698145eb016dad1e81801d7ad373317905188b57ca4625127c99
 - file: ..\src\config\sam_l22_xpro\interrupts.c
-  hash: 9dfa4c062965d9d50f777eba7a9ea167992e42dc82be4037aa63fac20c3cf4c2
+  hash: 2d8f33f3e72573d7f60c7bd8bc4dc86b9351d6cda7fc1cc6179dd9bf73418357
 - file: ..\src\config\sam_l22_xpro\interrupts.h
   hash: 2c08443469112b1762a7479d23542a05c3758b8976d29a1316c9dca9c58bb4b7
 - file: ..\src\config\sam_l22_xpro\libc_syscalls.c
-  hash: 88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f
+  hash: c9afc1b1257829415a1a6746ce3744f0a768b339d59fff2ab3ca1fab58b2a916
 - file: ..\src\config\sam_l22_xpro\peripheral\clock\plib_clock.c
   hash: 684824fa2a9297407abd869edadfc77ebb18a3400c11b340bf3190929500db38
 - file: ..\src\config\sam_l22_xpro\peripheral\clock\plib_clock.h
@@ -66,7 +66,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l22_xpro\peripheral\rtc\plib_rtc_timer.c
   hash: 8048b476f97a82f7d86849610ea7d2df502a9298d246e574f91a434497bf2e50
 - file: ..\src\config\sam_l22_xpro\peripheral\sercom\usart\plib_sercom0_usart.c
-  hash: ce895c9e1d50c7bb0d9275a0c3d316b3e0d3c2c030e6426e90a4b273c5e564c5
+  hash: a778293e19b68b063f7cbb2ac49fec43458f521a14570338cc3f939a5d0c327b
 - file: ..\src\config\sam_l22_xpro\peripheral\sercom\usart\plib_sercom0_usart.h
   hash: e71168d38895bf59feced00ea282037b83ae26cf23116fc26881075607db51ac
 - file: ..\src\config\sam_l22_xpro\peripheral\sercom\usart\plib_sercom_usart_common.h
@@ -74,7 +74,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l22_xpro\pin_configurations.csv
   hash: 05a9fe8bb8f4a445e7893c2a12d76e3f434b2c0a3cfe0f6e74b9061f31f866a1
 - file: ..\src\config\sam_l22_xpro\startup_xc32.c
-  hash: e6227d89e36b74af1bc21e00e80b390502c97aaaa65796291f63b2d96cf0678e
+  hash: 3aa1360f333b564211c35f641c7327c2111e11aa633bd02ec5a0be9466b1df04
 - file: ..\src\config\sam_l22_xpro\stdio\xc32_monitor.c
   hash: 858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a
 - file: ..\src\config\sam_l22_xpro\toolchain_specifics.h
@@ -88,19 +88,19 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l22_xpro\touch\qtm_acq_saml22_0x0028_api.h
   hash: c512838e27508673ea1be3bc8d64dc32056f7d29cd89accdaad1fa8f38edd04d
 - file: ..\src\config\sam_l22_xpro\touch\qtm_common_components_api.h
-  hash: 89a9473fc856d26a78ead0854377a7f61ebc20315a7a72bcc84f05ff1477816e
+  hash: 27367c4c6332d8ea31c183e3946108168deea1cbb2d59c21ec00404bb6e4e34f
 - file: ..\src\config\sam_l22_xpro\touch\qtm_freq_hop_auto_0x0004_api.h
   hash: a0e06e45e438b797edcb61796bc74da1b1e488b45ee5263f2a638acdbffe35c9
 - file: ..\src\config\sam_l22_xpro\touch\qtm_touch_key_0x0002_api.h
   hash: 4840f9cd8def73a029c2090d101548329c92bdf13bd19410029aab45234b42e2
 - file: ..\src\config\sam_l22_xpro\touch\touch.c
-  hash: 07c5a1e302b42dcd93f0d8e4244f943fc0e28a5bf8f65fc5430d8d865a598aba
+  hash: 81abd233dcfe2c058e0ad17c54eaad0ca0a2ab4c8a91b31deaca9748c125edf1
 - file: ..\src\config\sam_l22_xpro\touch\touch.h
-  hash: 819c53200a87a25c536a0141a4b29b89ac5b084734bf3f24fd805feb457350d0
+  hash: bbc57be993ff278b8367d981d6b4cf14723241f8c3697dabda41648b99a5af07
 - file: ..\src\config\sam_l22_xpro\touch\touchTune.c
-  hash: 276112567171e8bbd947df68e47e48485a648169813fbe2f37844a6ae144b38f
+  hash: ee92936dc6615f93bcef2f9275c84ed0d592c709244aedee4b6930639ab747ec
 - file: ..\src\config\sam_l22_xpro\touch\touchTune.h
-  hash: a273e075769ff87265a5b85406b2601c3547289ab739f393566cd5ceae83092c
+  hash: b00f217b8f2d304a2d340ef6e416fbd3c9a3b8bdaefb85c87ded05ccff7fd41a
 - file: ..\src\config\sam_l22_xpro\touch\touch_api_ptc.h
   hash: 794e717c429395a531ad5c8bcd011e2a74d622b363a48df9461b762b7e6c6fba
 - file: ..\src\config\sam_l22_xpro\touch\touch_example.c
@@ -249,3 +249,23 @@ generatedFileHashHistoryMap:
   hash: 4f1276b95aad38720743df4f32212cfcf898b0856d41bd8473817f5ea5fd27c5
 - file: ..\src\packs\ATSAML22N18A_DFP\saml22n18a.h
   hash: 3609459ac205a922b2d411b2c7bf6412d9ff9373c955548c8eb077eee09f822b
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h
+  hash: 6cdb5b324f2fd1bb5b2f47298ba6e6777e735d7cad3bb8d942cd36e2c6e65328
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h
+  hash: d074534d7106cec83474b3b0a897bd2553e1a8895ecbd54f4f4fb25928066eee
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang.h
+  hash: 11b39b96ddc1125124762b3423a77b90dd40ea5b4582a3513830245046b24311
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang_ltm.h
+  hash: 8621969ea669a1b230ff2125a760ef66d575c48cb45e9e457f768909abcbda46
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h
+  hash: 869640702d811c4c63abb52206715c891a93fd03be954df5ad40d378355af3d6
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_gcc.h
+  hash: 3d4e265d0aa42f888385ccf073666e6ebb5ec9f834760b9da27c474e177f708d
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_iccarm.h
+  hash: f28119adbc81fb0e3c957c9aebe8fb423ad93634e76ead3caa2b0818d2e123ae
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_version.h
+  hash: 8cda7ac3ff6f0eb5e83c4fe613dd195151b24da54167f5c3c007e599a03f1edc
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\core_cm0plus.h
+  hash: a19e24c136145b4c72630d0ab7c83a7aef010f3ba165e34c56a05057a2d9fed5
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv7.h
+  hash: de1b5eb9ed566527b66dc06f4ecb6a43ab6800f7dac47e87c9cb42984dca41bb

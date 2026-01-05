@@ -71,6 +71,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  */
 #define DEF_SENSOR_TYPE NODE_SELFCAP
 
+
 /* Set sensor calibration mode for charge share delay ,Prescaler or series resistor.
  * Range: CAL_AUTO_TUNE_NONE / CAL_AUTO_TUNE_RSEL / CAL_AUTO_TUNE_PRSC / CAL_AUTO_TUNE_CSD
  * Default value: CAL_AUTO_TUNE_NONE.
@@ -93,6 +94,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Default value: FREQ_SEL_0.
  */
 #define DEF_SEL_FREQ_INIT FREQ_SEL_0
+
 
 
 /*----------------------------------------------------------------------------
