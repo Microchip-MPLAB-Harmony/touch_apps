@@ -3,21 +3,15 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>pic32cm_jh_cpro.mc3</name>
-            <creation-uuid>bce72347-30fa-4571-acb6-1c4de878d487</creation-uuid>
+            <name>pic32cm_jh_cpro</name>
+            <creation-uuid>bc9da5fa-9d8b-4a07-9043-fcbc7aac39bf</creation-uuid>
             <make-project-type>0</make-project-type>
-            <c-extensions>c</c-extensions>
-            <cpp-extensions/>
-            <header-extensions>h</header-extensions>
-            <asminc-extensions/>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
-            <sourceRootList>
-                <sourceRootElem>../src</sourceRootElem>
-            </sourceRootList>
+            <sourceRootList/>
             <confList>
                 <confElem>
-                    <name>pic32cm_jh_cpro</name>
+                    <name>default</name>
                     <type>2</type>
                 </confElem>
             </confList>

@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.19.0 Release
+  Touch Library v3.20.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -16,7 +16,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (c) 2025 released Microchip Technology Inc.  All rights reserved.
+Copyright (c) 2026 released Microchip Technology Inc.  All rights reserved.
 
 Microchip licenses to you the right to use, modify, copy and distribute
 Software only when embedded on a Microchip microcontroller or digital signal
@@ -87,7 +87,8 @@ typedef enum {
 	saml1x_pic32cmle = 0x36u,
 	saml22 = 0x37u,
 	pic32cvd = 0x38u,
-	pic32czca = 0x39u
+	pic32czca = 0x39u,
+	pic32cmpl= 0x40u
 }DEVICE_TYPE;
 
 /***********

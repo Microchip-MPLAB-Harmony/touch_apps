@@ -27,10 +27,10 @@
 /* ========== Instance Parameter definitions for SERCOM7 peripheral ========== */
 #define SERCOM7_DMAC_ID_RX                       (51)       /* Index of DMA RX trigger */
 #define SERCOM7_DMAC_ID_TX                       (52)       /* Index of DMA TX trigger */
-#define SERCOM7_GCLK_ID_CORE                     (25)       
-#define SERCOM7_GCLK_ID_SLOW                     (17)       
+#define SERCOM7_GCLK_ID_CORE                     (25)
+#define SERCOM7_GCLK_ID_SLOW                     (17)
 #define SERCOM7_INSTANCE_ID                      (97)       /* Instance index for SERCOM7 */
-#define SERCOM7_INT_MSB                          (6)        
-#define SERCOM7_PMSB                             (3)        
+#define SERCOM7_INT_MSB                          (6)
+#define SERCOM7_PMSB                             (3)
 
 #endif /* _PIC32CMJH01_SERCOM7_INSTANCE_ */

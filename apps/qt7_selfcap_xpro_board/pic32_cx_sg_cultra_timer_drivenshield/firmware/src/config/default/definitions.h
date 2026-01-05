@@ -58,8 +58,8 @@
 #include "peripheral/cmcc/plib_cmcc.h"
 #include "peripheral/pm/plib_pm.h"
 #include "peripheral/sercom/usart/plib_sercom4_usart.h"
-#include "peripheral/rtc/plib_rtc.h"
 #include "touch/touch.h"
+#include "peripheral/rtc/plib_rtc.h"
 #include "peripheral/tc/plib_tc4.h"
 
 // DOM-IGNORE-BEGIN

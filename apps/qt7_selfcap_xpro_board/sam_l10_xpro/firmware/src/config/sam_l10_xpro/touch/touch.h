@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.19.0 Release
+  Touch Library v3.20.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -16,7 +16,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (c) 2025 released Microchip Technology Inc.  All rights reserved.
+Copyright (c) 2026 released Microchip Technology Inc.  All rights reserved.
 
 Microchip licenses to you the right to use, modify, copy and distribute
 Software only when embedded on a Microchip microcontroller or digital signal
@@ -93,6 +93,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Default value: FREQ_SEL_0.
  */
 #define DEF_SEL_FREQ_INIT FREQ_SEL_0
+
 
 
 /*----------------------------------------------------------------------------

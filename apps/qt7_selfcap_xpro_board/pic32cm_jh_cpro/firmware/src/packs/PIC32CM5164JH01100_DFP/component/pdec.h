@@ -23,6 +23,8 @@
 #ifndef _PIC32CMJH01_PDEC_COMPONENT_H_
 #define _PIC32CMJH01_PDEC_COMPONENT_H_
 
+#include "core_cm0plus.h"
+
 /* ************************************************************************** */
 /*                      SOFTWARE API DEFINITION FOR PDEC                      */
 /* ************************************************************************** */

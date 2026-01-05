@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.19.0 Release
+  Touch Library v3.20.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -17,7 +17,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (C) [2025], Microchip Technology Inc., and its subsidiaries. All rights reserved.
+Copyright (C) [2026], Microchip Technology Inc., and its subsidiaries. All rights reserved.
 
 The software and documentation is provided by microchip and its contributors
 "as is" and any express, implied or statutory warranties, including, but not
@@ -49,6 +49,7 @@ Microchip or any third party.
 #include "../interrupts.h"
 #include "touch/touch.h"
 #include "touch/touchTune.h"
+
 
 /*----------------------------------------------------------------------------
  *   prototypes
@@ -455,6 +456,6 @@ Notes  : none
 ============================================================================*/
 void PTC_Handler(void)
 {
-	qtm_ptc_clear_interrupt();
+qtm_ptc_clear_interrupt();
 	qtm_pic32cm_ptc_handler_eoc();
 }

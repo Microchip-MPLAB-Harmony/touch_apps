@@ -26,7 +26,7 @@
 
 /* ========== Instance Parameter definitions for DAC peripheral ========== */
 #define DAC_DMAC_ID_EMPTY                        (45)       /* Index of DMA EMPTY trigger */
-#define DAC_GCLK_ID                              (38)       
+#define DAC_GCLK_ID                              (38)
 #define DAC_INSTANCE_ID                          (84)       /* Instance index for DAC */
 
 #endif /* _PIC32CMJH01_DAC_INSTANCE_ */

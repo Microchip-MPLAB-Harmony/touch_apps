@@ -1,6 +1,6 @@
 configVersion: 1.0.0
 componentName: ptc
-coreVersion: 5.8.2
+coreVersion: 5.8.3
 device: PIC32CM5164LE00100
 library: []
 dependency:
@@ -9,13 +9,9 @@ dependency:
   type: module
   version: ''
 - dependencyPackage: ''
-  name: csp
-  type: package
-  version: v3.22.4
-- dependencyPackage: ''
   name: touch
   type: package
-  version: v3.19.0
+  version: v3.20.0
 customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
 data:
   attachments:
@@ -48,8 +44,8 @@ data:
     - children:
       - attributes:
           id: ptc
-          x: '321'
-          y: '317'
+          x: '337'
+          y: '289'
         type: ElementPosition
       type: ElementPositions
     type: ComponentGraph

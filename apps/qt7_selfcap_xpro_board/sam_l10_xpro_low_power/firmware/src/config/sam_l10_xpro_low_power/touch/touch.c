@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.19.0 Release
+  Touch Library v3.20.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -17,7 +17,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (C) [2025], Microchip Technology Inc., and its subsidiaries. All rights reserved.
+Copyright (C) [2026], Microchip Technology Inc., and its subsidiaries. All rights reserved.
 
 The software and documentation is provided by microchip and its contributors
 "as is" and any express, implied or statutory warranties, including, but not
@@ -48,6 +48,7 @@ Microchip or any third party.
 #include "../peripheral/rtc/plib_rtc.h"
 #include "../interrupts.h"
 #include "touch/touch.h"
+
 
 /*----------------------------------------------------------------------------
  *   prototypes
@@ -452,14 +453,12 @@ static void touch_process_lowpower(void) {
     
 		/* Start Autoscan */
 		touch_ret = qtm_autoscan_sensor_node(&auto_scan_setup, touch_measure_wcomp_match);
-
         if ((touch_ret == TOUCH_SUCCESS) && (measurement_period_store != DEF_TOUCH_DRIFT_PERIOD_MS)){
 
             /* Enable Event System */
             touch_enable_lowpower_measurement();
         }
     } else if (measurement_period_store != DEF_TOUCH_MEASUREMENT_PERIOD_MS) {
-
         /* Cancel node auto scan */
         touch_ret = qtm_autoscan_node_cancel();
 
@@ -617,6 +616,6 @@ Notes  : none
 ============================================================================*/
 void PTC_Handler(void)
 {
-	qtm_ptc_clear_interrupt();
+qtm_ptc_clear_interrupt();
 	qtm_saml10_ptc_handler_eoc();
 }

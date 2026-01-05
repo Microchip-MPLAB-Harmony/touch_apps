@@ -1,6 +1,6 @@
 configVersion: 1.0.0
-coreVersion: 5.8.2
-spaHostVersion: 1.0.0
+coreVersion: 5.8.3
+spaHostVersion: 1.2.0
 device: PIC32CK2051GC01144
 deviceLibrary:
   className: com.microchip.mcc.harmony.Harmony3Library
@@ -19,7 +19,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32ck_gc_cpro\PIC32CK2051GC01144.ld
   hash: af9a19827cf903f321899b3b2b1715dc351398e44d8ddc0b6d1afc5939c3a432
 - file: ..\src\config\pic32ck_gc_cpro\definitions.h
-  hash: 72dd10273cb87d29fd7d41d73636bda051f92770a2b5829acd6696a0b7abe26b
+  hash: 875a40b417c75e93ed6fe2cc6dffccde492028e16bd65dbab7c2893432c56ef8
 - file: ..\src\config\pic32ck_gc_cpro\device.h
   hash: 16c68b32ace41533b1b0f8cffc704dfea71c361c40fbc7fdab13f96645707c9f
 - file: ..\src\config\pic32ck_gc_cpro\device_cache.h
@@ -27,15 +27,15 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32ck_gc_cpro\device_vectors.h
   hash: dc853617f7875e6a95194e872e2657c222a3cfddd7349ba75e8e39e966c72b3a
 - file: ..\src\config\pic32ck_gc_cpro\exceptions.c
-  hash: 42f9da2668e04ccb3473d45b149683a00f80072c6883c7918d6ce93997cd6987
+  hash: d1567a190561858cc1cb7e796cf1a29720e52b9799bbd88b087993d8539e137f
 - file: ..\src\config\pic32ck_gc_cpro\initialization.c
-  hash: 23855f20ae63f9314e293c48c6a1ced44e803e9dc684eacc4708f88cab698220
+  hash: 6bc40816c7635fb5b064593a923fa5edc4ebf19544cfbc41fd4c4a25b952dce1
 - file: ..\src\config\pic32ck_gc_cpro\interrupts.c
-  hash: 7db1e2ec7eaea0471036284fce72e6c787112efe2a967ff4de9db1ee8e82a89b
+  hash: 4ea02dc7808aa3192e12c0f4c567d4a22225c0d21cf2a1219acf70667c5bd28b
 - file: ..\src\config\pic32ck_gc_cpro\interrupts.h
   hash: 3c222006522bea3a3badbca8d1ad5ec26423c03d9b97d4012078e51fb13453de
 - file: ..\src\config\pic32ck_gc_cpro\libc_syscalls.c
-  hash: 88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f
+  hash: c9afc1b1257829415a1a6746ce3744f0a768b339d59fff2ab3ca1fab58b2a916
 - file: ..\src\config\pic32ck_gc_cpro\peripheral\clock\plib_clock.c
   hash: 8bb29f98638987bfa6858c16aff80fd7449784bb291b0d178d796e107576ca8e
 - file: ..\src\config\pic32ck_gc_cpro\peripheral\clock\plib_clock.h
@@ -65,7 +65,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32ck_gc_cpro\peripheral\rtc\plib_rtc_timer.c
   hash: ec04d431878a9f9e26d53e97e676b952743b1c92ab373488439835472246a50e
 - file: ..\src\config\pic32ck_gc_cpro\peripheral\sercom\usart\plib_sercom5_usart.c
-  hash: 98a3d21af30b28f42f231e08dfd807a49361696e20530b61435517e005872040
+  hash: b1de74b98d7ea59c8612ca145854ec5eac22d87f1fa5190d685b7a1c2a462344
 - file: ..\src\config\pic32ck_gc_cpro\peripheral\sercom\usart\plib_sercom5_usart.h
   hash: b164e53009f437f7e478c694766f9ed8acad87726f0322f067dfc5e45a1b9a27
 - file: ..\src\config\pic32ck_gc_cpro\peripheral\sercom\usart\plib_sercom_usart_common.h
@@ -73,7 +73,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32ck_gc_cpro\pin_configurations.csv
   hash: 3ad77db7d7773ea9c4cfdeb0fe59c076b01e40d9540d51198976634b115e0250
 - file: ..\src\config\pic32ck_gc_cpro\startup_xc32.c
-  hash: 6945b6a1826ae28babaae6cd59e20b8e74e464d4de4fa6fdbb92158ffaa02257
+  hash: 4175a6826e3ad6955caa8fd14b2b9a3a0d38a7569baf4a6f05d4119ed1c202c2
 - file: ..\src\config\pic32ck_gc_cpro\stdio\xc32_monitor.c
   hash: 858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a
 - file: ..\src\config\pic32ck_gc_cpro\toolchain_specifics.h
@@ -91,7 +91,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32ck_gc_cpro\touch\qtm_acq_pic32ck_0x004e_api.h
   hash: f909d78368b78a85ffec072ff7b1be2f145c2ea3845c23618ab6d16083ae0b82
 - file: ..\src\config\pic32ck_gc_cpro\touch\qtm_common_components_api.h
-  hash: 89a9473fc856d26a78ead0854377a7f61ebc20315a7a72bcc84f05ff1477816e
+  hash: 27367c4c6332d8ea31c183e3946108168deea1cbb2d59c21ec00404bb6e4e34f
 - file: ..\src\config\pic32ck_gc_cpro\touch\qtm_freq_hop_0x0006_api.h
   hash: 24ed3242e37471cbe9dd2507e931e88e843c683c9750d30e08f91a9d62a8e7e5
 - file: ..\src\config\pic32ck_gc_cpro\touch\qtm_freq_hop_auto_0x0004_api.h
@@ -101,21 +101,43 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32ck_gc_cpro\touch\qtm_touch_key_0x0002_api.h
   hash: 4840f9cd8def73a029c2090d101548329c92bdf13bd19410029aab45234b42e2
 - file: ..\src\config\pic32ck_gc_cpro\touch\touch.c
-  hash: 132f8f58f9a1503c7db0ba27ff285279c3d75d32da130f0cc65b5e85de035d45
+  hash: 8bcb84c9aa9653bd0aaa70b94ab86da1de457182e6c7c05173f6c0019d353583
 - file: ..\src\config\pic32ck_gc_cpro\touch\touch.h
-  hash: dddd3e145553f95d32fd87a93f258f899c077e6fc3c93c5238b4e28e5835ecb4
+  hash: a6732c5eb12b4e2ce59fea904b398e76472f6277c0fa6b79dc37a2d4f3b9d48e
 - file: ..\src\config\pic32ck_gc_cpro\touch\touchTune.c
-  hash: ed5b227d16d064a61d14cc658c843e16a6f51eb80a92e55fdc4dfb12e13d65eb
+  hash: f7f211f14de2083cb65cfd84a91e5d54bd8f355c96f5e4992fef6f4a29462820
 - file: ..\src\config\pic32ck_gc_cpro\touch\touchTune.h
-  hash: a273e075769ff87265a5b85406b2601c3547289ab739f393566cd5ceae83092c
+  hash: 35da8d42a347b50a99bf0ef570253bc01896b0988efa628b7ac67e75fc90b922
 - file: ..\src\config\pic32ck_gc_cpro\touch\touch_api_ptc.h
-  hash: e18f3cb0d706dbc91dfbfbc4fdc3defb9a116b59d3a5b5f43b6118f43fbcba94
+  hash: 39c798921df9d88b1202f23905e5e2565048f80ace5d126b3544d732847678e0
 - file: ..\src\config\pic32ck_gc_cpro\touch\touch_example.c
-  hash: f144dc4bc7c1dad947f30934eb1136a0a9afecd8d52c9e33a8ad6f707c22f8eb
+  hash: 89edcfd118276d243ecbd48afe7ec6188d79708d1ffd0d053419f50858a6720d
 - file: ..\src\config\pic32ck_gc_cpro\touch\touch_example.h
-  hash: 59989902d4630e2ddf0822607a5c4485d4a31fbfa1ff2bc4a2b7aaa6656f58bb
+  hash: e3c082ba1e57bada628e30fb631a889f4b19e1f2688d1e8ea8abd2beab379a0e
 - file: ..\src\main.c
   hash: d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h
+  hash: 6cdb5b324f2fd1bb5b2f47298ba6e6777e735d7cad3bb8d942cd36e2c6e65328
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h
+  hash: d074534d7106cec83474b3b0a897bd2553e1a8895ecbd54f4f4fb25928066eee
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang.h
+  hash: 11b39b96ddc1125124762b3423a77b90dd40ea5b4582a3513830245046b24311
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang_ltm.h
+  hash: 8621969ea669a1b230ff2125a760ef66d575c48cb45e9e457f768909abcbda46
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h
+  hash: 869640702d811c4c63abb52206715c891a93fd03be954df5ad40d378355af3d6
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_gcc.h
+  hash: 3d4e265d0aa42f888385ccf073666e6ebb5ec9f834760b9da27c474e177f708d
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_iccarm.h
+  hash: f28119adbc81fb0e3c957c9aebe8fb423ad93634e76ead3caa2b0818d2e123ae
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_version.h
+  hash: 8cda7ac3ff6f0eb5e83c4fe613dd195151b24da54167f5c3c007e599a03f1edc
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\core_cm33.h
+  hash: d5c5fc559cbbbc1e495af4ac2ea81959bcadb35aa69ecb1c20d183c3ed9cfeae
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv8.h
+  hash: 467a5ce9d65d9b37fc32e01001ed184500d56576f303713d27b76e68dd67911c
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\tz_context.h
+  hash: 7fcc21fc190f6fd970390e9caaa6a86d72fd10f9edf4efab36f12aecf1a8baa0
 - file: ..\src\packs\PIC32CK2051GC01144_DFP\component\ac.h
   hash: 84008a60f776ad893ca60e4ff8c85185a0fcc6a3a35b3a62ce2ebba0b1fc8bbb
 - file: ..\src\packs\PIC32CK2051GC01144_DFP\component\adc.h

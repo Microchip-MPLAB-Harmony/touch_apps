@@ -205,7 +205,7 @@ bool SERCOM4_USART_SerialSetup( USART_SERIAL_SETUP * serialSetup, uint32_t clkFr
         }
 
         /* Configure Baud Rate */
-        SERCOM4_REGS->USART.SERCOM_BAUD = (uint16_t)SERCOM_USART_BAUD_BAUD(baudValue);
+		SERCOM4_REGS->USART.SERCOM_BAUD = (uint16_t)SERCOM_USART_BAUD_BAUD(baudValue);
 
         /* Configure Parity Options */
         if(serialSetup->parity == USART_PARITY_NONE)

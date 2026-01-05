@@ -1,9 +1,8 @@
 configVersion: 1.0.0
-coreVersion: 5.8.2
-spaHostVersion: 1.0.0
+coreVersion: 5.8.3
+spaHostVersion: 1.2.0
 device: PIC32CM5164LS60100
-deviceLibrary:
-  className: null
+deviceLibrary: {}
 groupModules: []
 modules:
 - cmsis
@@ -28,15 +27,15 @@ generatedFileHashHistoryMap:
 - file: ..\..\qt7ls60\src\config\default\device_vectors.h
   hash: 4343d3015ef7012ae53a5996a7242b00201b4d9f479d930146614289c5dd347d
 - file: ..\..\qt7ls60\src\config\default\exceptions.c
-  hash: 42f9da2668e04ccb3473d45b149683a00f80072c6883c7918d6ce93997cd6987
+  hash: d1567a190561858cc1cb7e796cf1a29720e52b9799bbd88b087993d8539e137f
 - file: ..\..\qt7ls60\src\config\default\initialization.c
-  hash: 93e3199bd9705f643457d7b09bbabcb9c594352f13f8b65ccc2ec9144873a4b0
+  hash: c2fb10e45e1f0ce75964ce693011e7c619ff2371176f967e67c75c37cc9bd16c
 - file: ..\..\qt7ls60\src\config\default\interrupts.c
-  hash: 9179af0c2e91a1f86cee968af286e176dc00dba8b929a8df23e7e6a44e2354e2
+  hash: 531a2984bca33c0d6446212b6a3f89edf828f88f7afc3e51a5ba04c6af8c248c
 - file: ..\..\qt7ls60\src\config\default\interrupts.h
   hash: 6c483ae3f5e6b7d94c52e2459b77e7ce20ad261afe8ee1413622d9ab38d745b1
 - file: ..\..\qt7ls60\src\config\default\libc_syscalls.c
-  hash: 88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f
+  hash: c9afc1b1257829415a1a6746ce3744f0a768b339d59fff2ab3ca1fab58b2a916
 - file: ..\..\qt7ls60\src\config\default\peripheral\nvic\plib_nvic.c
   hash: ee797659f864f78e10fa08e0359aba44189bd433d71f55fada22a418d90c2dfe
 - file: ..\..\qt7ls60\src\config\default\peripheral\nvic\plib_nvic.h
@@ -44,17 +43,38 @@ generatedFileHashHistoryMap:
 - file: ..\..\qt7ls60\src\config\default\peripheral\port\plib_port.c
   hash: c5272f06ad2d2ad55fd87b491edb908257f7ea7edcb721940d922743d3b41da6
 - file: ..\..\qt7ls60\src\config\default\peripheral\port\plib_port.h
-  hash: aba9a59054ef98869e32e54cf8d564858293f8d0d6a7e3a90ae3be049ab92913
+  hash: fa8cb774537c2f0f86fd7e08a66488f5b04c14a1b57393130bed7c835daa7189
 - file: ..\..\qt7ls60\src\config\default\pin_configurations.csv
-  hash: ed733b967d6532f1b760597fd80d7ad4324461c2544b0e80d19d13e1b976a0ea
+  hash: 91b211c720cff663f081eacbb27a605815c495bf15edd2ffca449a36ead47dce
 - file: ..\..\qt7ls60\src\config\default\startup_xc32.c
-  hash: e6227d89e36b74af1bc21e00e80b390502c97aaaa65796291f63b2d96cf0678e
+  hash: 3aa1360f333b564211c35f641c7327c2111e11aa633bd02ec5a0be9466b1df04
 - file: ..\..\qt7ls60\src\config\default\stdio\xc32_monitor.c
   hash: 858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a
 - file: ..\..\qt7ls60\src\config\default\toolchain_specifics.h
   hash: a4f1774c6f1f8c6cd522567536c9e9d75ca63259b868015ac9b0fb0aeeffe1f4
 - file: ..\..\qt7ls60\src\main.c
-  hash: null
+- file: ..\..\qt7ls60\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h
+  hash: 6cdb5b324f2fd1bb5b2f47298ba6e6777e735d7cad3bb8d942cd36e2c6e65328
+- file: ..\..\qt7ls60\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h
+  hash: d074534d7106cec83474b3b0a897bd2553e1a8895ecbd54f4f4fb25928066eee
+- file: ..\..\qt7ls60\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang.h
+  hash: 11b39b96ddc1125124762b3423a77b90dd40ea5b4582a3513830245046b24311
+- file: ..\..\qt7ls60\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang_ltm.h
+  hash: 8621969ea669a1b230ff2125a760ef66d575c48cb45e9e457f768909abcbda46
+- file: ..\..\qt7ls60\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h
+  hash: 869640702d811c4c63abb52206715c891a93fd03be954df5ad40d378355af3d6
+- file: ..\..\qt7ls60\src\packs\CMSIS\CMSIS\Core\Include\cmsis_gcc.h
+  hash: 3d4e265d0aa42f888385ccf073666e6ebb5ec9f834760b9da27c474e177f708d
+- file: ..\..\qt7ls60\src\packs\CMSIS\CMSIS\Core\Include\cmsis_iccarm.h
+  hash: f28119adbc81fb0e3c957c9aebe8fb423ad93634e76ead3caa2b0818d2e123ae
+- file: ..\..\qt7ls60\src\packs\CMSIS\CMSIS\Core\Include\cmsis_version.h
+  hash: 8cda7ac3ff6f0eb5e83c4fe613dd195151b24da54167f5c3c007e599a03f1edc
+- file: ..\..\qt7ls60\src\packs\CMSIS\CMSIS\Core\Include\core_cm23.h
+  hash: b6fb9bb5faedffe8eec563550e21dc9097c9f64956258b2af51e6d4d88ca4411
+- file: ..\..\qt7ls60\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv8.h
+  hash: 467a5ce9d65d9b37fc32e01001ed184500d56576f303713d27b76e68dd67911c
+- file: ..\..\qt7ls60\src\packs\CMSIS\CMSIS\Core\Include\tz_context.h
+  hash: 7fcc21fc190f6fd970390e9caaa6a86d72fd10f9edf4efab36f12aecf1a8baa0
 - file: ..\..\qt7ls60\src\packs\PIC32CM5164LS60100_DFP\component\ac.h
   hash: cdca5800b4bd1d70aa5bc7789cf5b32b53f688c579116fd79447800d02538574
 - file: ..\..\qt7ls60\src\packs\PIC32CM5164LS60100_DFP\component\adc.h
@@ -208,7 +228,6 @@ generatedFileHashHistoryMap:
 - file: ..\..\qt7ls60\src\packs\PIC32CM5164LS60100_DFP\pio\pic32cm5164ls60100.h
   hash: bd3f7c4a24834e848d06dea60158d5c627d22cdbf4013edadfcbaf18629c0e8d
 - file: ..\..\qt7ls60\src\trustZone\nonsecure_entry.h
-  hash: null
 - file: ..\..\qt7ls60_secure\src\config\default\PIC32CM5164LS60100.ld
   hash: 9d0ff78674dc3baa8faad8aa674d8636e4e1e5e842416c65fc9972ffde461272
 - file: ..\..\qt7ls60_secure\src\config\default\definitions.h
@@ -228,7 +247,7 @@ generatedFileHashHistoryMap:
 - file: ..\..\qt7ls60_secure\src\config\default\interrupts.h
   hash: a34a0511359313d5ad2769f884de579974cc23252eccc8d0dae06a6b623ce9bb
 - file: ..\..\qt7ls60_secure\src\config\default\libc_syscalls.c
-  hash: 88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f
+  hash: c9afc1b1257829415a1a6746ce3744f0a768b339d59fff2ab3ca1fab58b2a916
 - file: ..\..\qt7ls60_secure\src\config\default\peripheral\clock\plib_clock.c
   hash: febce6aed523d87c113fe961cfffad599ecc5b75fb4a6f123db632165e8f1a3e
 - file: ..\..\qt7ls60_secure\src\config\default\peripheral\clock\plib_clock.h
@@ -250,23 +269,23 @@ generatedFileHashHistoryMap:
 - file: ..\..\qt7ls60_secure\src\config\default\peripheral\pm\plib_pm.h
   hash: 027462b9369dc5bb8873f96fc3b5ca69ceaf3bd205be7246e58a093b16ee633c
 - file: ..\..\qt7ls60_secure\src\config\default\peripheral\port\plib_port.c
-  hash: c7c6363c8ed6dd92093d358fc469b981d0248fbca52b2107b8b81eaee200317f
+  hash: 32a6e556c9c47e31a289f9ad43f22a5cc447023125d04511cd8869fc0689fc7e
 - file: ..\..\qt7ls60_secure\src\config\default\peripheral\port\plib_port.h
-  hash: c72ce4f4d2a463c3ce15a4ff10224722efe09d648cba0d59b2e58699104bb310
+  hash: f3361cb87852a559d4e54c6aeefacad88b3a56f8c4d8dd6d55e42917124fd807
 - file: ..\..\qt7ls60_secure\src\config\default\peripheral\rtc\plib_rtc.h
   hash: fa7385b5930ea5b0775de954391d0a2cd7c49b1949c66106177e085342dbeb3a
 - file: ..\..\qt7ls60_secure\src\config\default\peripheral\rtc\plib_rtc_timer.c
   hash: 111276244d136c28b812b367e675a05eebbda1653f08a3d0a983c1d051012013
 - file: ..\..\qt7ls60_secure\src\config\default\peripheral\sercom\usart\plib_sercom3_usart.c
-  hash: c72b3003dfafcc9b20351092fa7598685afb92ed21d16ca185b8db8a599db657
+  hash: 16ec49e7823b3565f928d071eb76048eaf1da581eda567ec364f89f16075adff
 - file: ..\..\qt7ls60_secure\src\config\default\peripheral\sercom\usart\plib_sercom3_usart.h
   hash: 22b0b20a392b7b9a0bcc89663853e622c2fcadb751f6b8ded1a4f834614accc8
 - file: ..\..\qt7ls60_secure\src\config\default\peripheral\sercom\usart\plib_sercom_usart_common.h
   hash: 3653b66472c558c50f7037a1dd25d2678e9a13aa718f3c53a2195e6f3919ea48
 - file: ..\..\qt7ls60_secure\src\config\default\startup_xc32.c
-  hash: e6227d89e36b74af1bc21e00e80b390502c97aaaa65796291f63b2d96cf0678e
+  hash: 3aa1360f333b564211c35f641c7327c2111e11aa633bd02ec5a0be9466b1df04
 - file: ..\..\qt7ls60_secure\src\config\default\stdio\xc32_monitor.c
-  hash: 5f5a687b7a63b5d88010003acaadf1ba2a00b188fb24407883a40760a3de08cd
+  hash: a4d5ad5477a8fcb4e25d7fc8fa08e03ae0aa8939444affcf1fc626bba31f3b6b
 - file: ..\..\qt7ls60_secure\src\config\default\toolchain_specifics.h
   hash: a4f1774c6f1f8c6cd522567536c9e9d75ca63259b868015ac9b0fb0aeeffe1f4
 - file: ..\..\qt7ls60_secure\src\config\default\touch\lib\qtm_acq_pic32cm_le_0x0040.X.a
@@ -282,7 +301,7 @@ generatedFileHashHistoryMap:
 - file: ..\..\qt7ls60_secure\src\config\default\touch\qtm_acq_pic32cm_le_0x0040_api.h
   hash: bba1dd775e1a6172e92d9bcc2098d1173bac9476b1e3b4fa8c63a4e79641fac6
 - file: ..\..\qt7ls60_secure\src\config\default\touch\qtm_common_components_api.h
-  hash: 89a9473fc856d26a78ead0854377a7f61ebc20315a7a72bcc84f05ff1477816e
+  hash: 27367c4c6332d8ea31c183e3946108168deea1cbb2d59c21ec00404bb6e4e34f
 - file: ..\..\qt7ls60_secure\src\config\default\touch\qtm_freq_hop_0x0006_api.h
   hash: 24ed3242e37471cbe9dd2507e931e88e843c683c9750d30e08f91a9d62a8e7e5
 - file: ..\..\qt7ls60_secure\src\config\default\touch\qtm_freq_hop_auto_0x0004_api.h
@@ -292,21 +311,42 @@ generatedFileHashHistoryMap:
 - file: ..\..\qt7ls60_secure\src\config\default\touch\qtm_touch_key_0x0002_api.h
   hash: 4840f9cd8def73a029c2090d101548329c92bdf13bd19410029aab45234b42e2
 - file: ..\..\qt7ls60_secure\src\config\default\touch\touch.c
-  hash: 4a07dbdb4259d453e3bad2fdf22c5c895e6e894eb6a4255545e9b727f3ecdd0b
+  hash: abc2b8eb4ff91ffb2677378cb2aea9efc320230bbebdbf4f6dc082e83be57ac2
 - file: ..\..\qt7ls60_secure\src\config\default\touch\touch.h
-  hash: 694b431ba3bdda757c8e3228bfa7a35bcb264df602719da9e7be7336c83b9baf
+  hash: 59966df19d6820012bb9e350a0b15b4dda060715656a95cc2d79dd747dfcf727
 - file: ..\..\qt7ls60_secure\src\config\default\touch\touchTune.c
-  hash: 625cba32cd8fa9e7d5bf1d990ae7549cd1763fd1e4116b06ca5adb2d50f9f352
+  hash: 4692486054d091e8ba02a3bb6d8f41b43efb7ea2393d9e733fe36b090417d912
 - file: ..\..\qt7ls60_secure\src\config\default\touch\touchTune.h
-  hash: a273e075769ff87265a5b85406b2601c3547289ab739f393566cd5ceae83092c
+  hash: 35da8d42a347b50a99bf0ef570253bc01896b0988efa628b7ac67e75fc90b922
 - file: ..\..\qt7ls60_secure\src\config\default\touch\touch_api_ptc.h
-  hash: 81e9dd28159b72155a3e66e37adde96f4027ddf5107d866bc0b3a481507657e0
+  hash: 88b65d5ce109af1a0e2fbccccb297e7895afb25de7eeceea5d2496dc70ceec98
 - file: ..\..\qt7ls60_secure\src\config\default\touch\touch_example.c
-  hash: 1ffa217452738dc38beae1aca95a189b42e217d48b9420351286a31f0f5a55a8
+  hash: fe73fedadffad6cad4abeb248396f6b738f9517c95f436aa5a49b7b2646a69a0
 - file: ..\..\qt7ls60_secure\src\config\default\touch\touch_example.h
-  hash: 59989902d4630e2ddf0822607a5c4485d4a31fbfa1ff2bc4a2b7aaa6656f58bb
+  hash: e3c082ba1e57bada628e30fb631a889f4b19e1f2688d1e8ea8abd2beab379a0e
 - file: ..\..\qt7ls60_secure\src\main.c
-  hash: null
+- file: ..\..\qt7ls60_secure\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h
+  hash: 6cdb5b324f2fd1bb5b2f47298ba6e6777e735d7cad3bb8d942cd36e2c6e65328
+- file: ..\..\qt7ls60_secure\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h
+  hash: d074534d7106cec83474b3b0a897bd2553e1a8895ecbd54f4f4fb25928066eee
+- file: ..\..\qt7ls60_secure\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang.h
+  hash: 11b39b96ddc1125124762b3423a77b90dd40ea5b4582a3513830245046b24311
+- file: ..\..\qt7ls60_secure\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang_ltm.h
+  hash: 8621969ea669a1b230ff2125a760ef66d575c48cb45e9e457f768909abcbda46
+- file: ..\..\qt7ls60_secure\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h
+  hash: 869640702d811c4c63abb52206715c891a93fd03be954df5ad40d378355af3d6
+- file: ..\..\qt7ls60_secure\src\packs\CMSIS\CMSIS\Core\Include\cmsis_gcc.h
+  hash: 3d4e265d0aa42f888385ccf073666e6ebb5ec9f834760b9da27c474e177f708d
+- file: ..\..\qt7ls60_secure\src\packs\CMSIS\CMSIS\Core\Include\cmsis_iccarm.h
+  hash: f28119adbc81fb0e3c957c9aebe8fb423ad93634e76ead3caa2b0818d2e123ae
+- file: ..\..\qt7ls60_secure\src\packs\CMSIS\CMSIS\Core\Include\cmsis_version.h
+  hash: 8cda7ac3ff6f0eb5e83c4fe613dd195151b24da54167f5c3c007e599a03f1edc
+- file: ..\..\qt7ls60_secure\src\packs\CMSIS\CMSIS\Core\Include\core_cm23.h
+  hash: b6fb9bb5faedffe8eec563550e21dc9097c9f64956258b2af51e6d4d88ca4411
+- file: ..\..\qt7ls60_secure\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv8.h
+  hash: 467a5ce9d65d9b37fc32e01001ed184500d56576f303713d27b76e68dd67911c
+- file: ..\..\qt7ls60_secure\src\packs\CMSIS\CMSIS\Core\Include\tz_context.h
+  hash: 7fcc21fc190f6fd970390e9caaa6a86d72fd10f9edf4efab36f12aecf1a8baa0
 - file: ..\..\qt7ls60_secure\src\packs\PIC32CM5164LS60100_DFP\component\ac.h
   hash: cdca5800b4bd1d70aa5bc7789cf5b32b53f688c579116fd79447800d02538574
 - file: ..\..\qt7ls60_secure\src\packs\PIC32CM5164LS60100_DFP\component\adc.h
@@ -460,4 +500,3 @@ generatedFileHashHistoryMap:
 - file: ..\..\qt7ls60_secure\src\packs\PIC32CM5164LS60100_DFP\pio\pic32cm5164ls60100.h
   hash: bd3f7c4a24834e848d06dea60158d5c627d22cdbf4013edadfcbaf18629c0e8d
 - file: ..\..\qt7ls60_secure\src\trustZone\nonsecure_entry.c
-  hash: null

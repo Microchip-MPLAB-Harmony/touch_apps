@@ -55,8 +55,8 @@
 #include "peripheral/clock/plib_clock.h"
 #include "peripheral/nvic/plib_nvic.h"
 #include "peripheral/pm/plib_pm.h"
-#include "peripheral/rtc/plib_rtc.h"
 #include "touch/touch.h"
+#include "peripheral/rtc/plib_rtc.h"
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
 
@@ -75,7 +75,7 @@ extern "C" {
 #define DEVICE_SERIES		 "PIC32CMLS60"
 
 /* CPU clock frequency */
-#define CPU_CLOCK_FREQUENCY 12000000
+#define CPU_CLOCK_FREQUENCY 48000000
 
 // *****************************************************************************
 // *****************************************************************************

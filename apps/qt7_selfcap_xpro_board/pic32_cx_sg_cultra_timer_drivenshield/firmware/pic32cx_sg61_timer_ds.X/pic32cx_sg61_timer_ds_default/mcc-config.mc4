@@ -1,9 +1,8 @@
 configVersion: 1.0.0
-coreVersion: 5.8.2
-spaHostVersion: 1.0.0
+coreVersion: 5.8.3
+spaHostVersion: 1.2.0
 device: PIC32CX1025SG61128
-deviceLibrary:
-  className: null
+deviceLibrary: {}
 groupModules: []
 modules:
 - adc0
@@ -22,7 +21,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\PIC32CX1025SG61128.ld
   hash: 2d9373ad2ea3ded9194efc0d3b3ed982bcb72aae406e612ac1935328311558e5
 - file: ..\src\config\default\definitions.h
-  hash: ff287ebcbc5c9a9ec331b2f3c3e0e11a6ba50a0eecc0974939fd6052b54ca6e0
+  hash: 5032416aa40d5f2780bf52e8e9fcff984fe993ad132fecb47940e73ff5bd826d
 - file: ..\src\config\default\device.h
   hash: 7c69d47bd5c33cdfa92ad57f51ec49aa8988b13be9e3f905a2b5341effe9de8b
 - file: ..\src\config\default\device_cache.h
@@ -30,15 +29,15 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\device_vectors.h
   hash: cecee259552d47120d7862b74e337dd459ec9971cabb43c66b45404bbf9d10f0
 - file: ..\src\config\default\exceptions.c
-  hash: de00e84d46e0d8933ee2fae9d699e08456443d4f80ac78f87edada9c35a9d15f
+  hash: d1fcd7158950bb6ce6461d093cfa2ab341af3e6ea0337a936aa3ee9da98c6e55
 - file: ..\src\config\default\initialization.c
-  hash: aed2ee9d7c44b8c6e6739a81ad7c2d9f36e9e2c7b96c445833954b5c2ed9bf43
+  hash: b4d461a6bae1d80ada6584a29d1f97d0fe54f814fa51171496447b2a4ac35a24
 - file: ..\src\config\default\interrupts.c
-  hash: 18fb16cb862067a84bbca3ece3a84ca5a2932ac546fb95ddc5d03ea8d899f342
+  hash: aebec053d605bdf1b19257b2e5a6d9b4e25a022b7847ffce6997837719ff28ba
 - file: ..\src\config\default\interrupts.h
   hash: d57595820430d00cabe3e42ce3f7ca93ac5c87e3cfb9a6e23ffeb9ad5057bc35
 - file: ..\src\config\default\libc_syscalls.c
-  hash: 88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f
+  hash: c9afc1b1257829415a1a6746ce3744f0a768b339d59fff2ab3ca1fab58b2a916
 - file: ..\src\config\default\peripheral\adc\plib_adc0.c
   hash: 6cbc87ca1378847d37fc460e6f4a0dc5bc2b7a0d96baec4f2424a73926c6924c
 - file: ..\src\config\default\peripheral\adc\plib_adc0.h
@@ -46,7 +45,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\peripheral\adc\plib_adc_common.h
   hash: 91bf78b00899ceb43d8b1ae0c2e4245b20d561808179040af292e8e6d9f1cd99
 - file: ..\src\config\default\peripheral\clock\plib_clock.c
-  hash: 5f8dd8b1932e51bb55bba769bb21b1f6c686e01e0beeac9c56c68d0cd3fce615
+  hash: 1514db2d0b711e0dc293af516dcd258d3aff4200e24cff421243a5d2a72c8a91
 - file: ..\src\config\default\peripheral\clock\plib_clock.h
   hash: 59322a99314cb17c6b595d51d18769582e61189140188aa053acfdc671487f21
 - file: ..\src\config\default\peripheral\cmcc\plib_cmcc.c
@@ -82,7 +81,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\peripheral\rtc\plib_rtc_timer.c
   hash: 9d23aa84826126f7a1f8fd11de8865ca4a08b920136bc2de4f99eba6a12e9235
 - file: ..\src\config\default\peripheral\sercom\usart\plib_sercom4_usart.c
-  hash: a1173a15dd287a0b1ab2f64c8ac1861b0cf9e531fbf95453f3430ec3d819cd7f
+  hash: fa4d6ce4769b935ef6e3cf7348c6ea369f1bde1a32aed65280a8386665c558c3
 - file: ..\src\config\default\peripheral\sercom\usart\plib_sercom4_usart.h
   hash: 05e5d58beebde6ee9922e3dd2c192792e76a2ba5443969a6696fecbd5414fbf1
 - file: ..\src\config\default\peripheral\sercom\usart\plib_sercom_usart_common.h
@@ -94,17 +93,17 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\peripheral\tc\plib_tc_common.h
   hash: 487b4f489229b8e16b24ab48ddc1f414b095585439f0e10d53b2285fc3979f63
 - file: ..\src\config\default\pin_configurations.csv
-  hash: cafd52a891df1f3bfe93876e643bdcec0f8d8f19d981b440285968ac902edd21
+  hash: 4fef1ddc6803a1a6e4bba2d5dab87886687600c8254724173348ebd5107ea00b
 - file: ..\src\config\default\startup_xc32.c
-  hash: f374b97d65f92553f1b75d8c9239b8b0f8581c710f78ea47b02c7f6fa6f74c74
+  hash: 2916a631dd72c23f29daf3ec7ebc84abec03a29948825df0b1505d670d73fe50
 - file: ..\src\config\default\stdio\xc32_monitor.c
   hash: 858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a
 - file: ..\src\config\default\toolchain_specifics.h
   hash: 6fc0551b0fa3362678b3d7a227386fafa343140d31e4da3ad4af972e61cd0acb
 - file: ..\src\config\default\touch\driven_shield.c
-  hash: 7cc32c16f335e8fadb50d6df4429cf6f980725383317a58b1c0c15487e2eb6a6
+  hash: f5c71aea65d43e703895d6da7d7f5a3ce8d45efe56cfdc427fbe8a0643aa2de8
 - file: ..\src\config\default\touch\driven_shield.h
-  hash: 0d48ebb7f0a2f5037e438245737940a11196111923472ec09fa5bfd99888df42
+  hash: 81c0b559c3a45ae2edb4117f7136796d92d727c9355e84f58885ab18a3c10b4a
 - file: ..\src\config\default\touch\lib\qtm_acq_pic32cxsg61_0x000f.X.a
   hash: 664dbfa132ae0f6f04cedd2d788496fcef60b8a1cac28e96ad2bf702203f8314
 - file: ..\src\config\default\touch\lib\qtm_freq_hop_auto_cm4_0x0004.X.a
@@ -118,7 +117,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\touch\qtm_acq_same54_0x000f_api.h
   hash: 7abf8721586c1f1108ddf97d1a1a3a1adb8aa750282971705718a0832e7dedf9
 - file: ..\src\config\default\touch\qtm_common_components_api.h
-  hash: 89a9473fc856d26a78ead0854377a7f61ebc20315a7a72bcc84f05ff1477816e
+  hash: 27367c4c6332d8ea31c183e3946108168deea1cbb2d59c21ec00404bb6e4e34f
 - file: ..\src\config\default\touch\qtm_freq_hop_0x0006_api.h
   hash: 24ed3242e37471cbe9dd2507e931e88e843c683c9750d30e08f91a9d62a8e7e5
 - file: ..\src\config\default\touch\qtm_freq_hop_auto_0x0004_api.h
@@ -126,21 +125,41 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\touch\qtm_touch_key_0x0002_api.h
   hash: 4840f9cd8def73a029c2090d101548329c92bdf13bd19410029aab45234b42e2
 - file: ..\src\config\default\touch\touch.c
-  hash: 2b80a558fda50c4badc999d0a9c49e289afc8f753471f12ec2cf23350000ef06
+  hash: 6e7e6dbaa32abd87d1d66fba02b402c68fb83d4961e925851fa939f488f66441
 - file: ..\src\config\default\touch\touch.h
-  hash: 5869daae28af80d40c91c5bb94a9916cedb3702575cba4868651eb3322ffa98c
+  hash: b951873ff86b5b361ed1c19c760d3202183b5850402ac4d3c6648787107324d0
 - file: ..\src\config\default\touch\touchTune.c
-  hash: 9954c2eb4823c5556c0dc03a8a982e2177d99f2b7a92a6397e636b881e59e8cf
+  hash: 831879898e19f2465cbea5f18391d46b69a0c139c070beb1b2b47204309017e6
 - file: ..\src\config\default\touch\touchTune.h
-  hash: a273e075769ff87265a5b85406b2601c3547289ab739f393566cd5ceae83092c
+  hash: 35da8d42a347b50a99bf0ef570253bc01896b0988efa628b7ac67e75fc90b922
 - file: ..\src\config\default\touch\touch_api_ptc.h
-  hash: 8493e7cfb027148e82c75cac3309882a87ef264b738ac74ffb75c43c1c9876c1
+  hash: c0e70493f0570fd1a379ad1000ab69a32563a1180b5699c40ab69b689ac64af9
 - file: ..\src\config\default\touch\touch_example.c
-  hash: e48f6e3c10862f29ee6c054afbbd80da652b5d4e25ca61cec279fd495c946028
+  hash: 0b7931880fb872c70ce515d866918620a4cd2388c1910e3f8a8efa19ee032436
 - file: ..\src\config\default\touch\touch_example.h
-  hash: 59989902d4630e2ddf0822607a5c4485d4a31fbfa1ff2bc4a2b7aaa6656f58bb
+  hash: e3c082ba1e57bada628e30fb631a889f4b19e1f2688d1e8ea8abd2beab379a0e
 - file: ..\src\main.c
   hash: d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h
+  hash: 6cdb5b324f2fd1bb5b2f47298ba6e6777e735d7cad3bb8d942cd36e2c6e65328
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h
+  hash: d074534d7106cec83474b3b0a897bd2553e1a8895ecbd54f4f4fb25928066eee
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang.h
+  hash: 11b39b96ddc1125124762b3423a77b90dd40ea5b4582a3513830245046b24311
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang_ltm.h
+  hash: 8621969ea669a1b230ff2125a760ef66d575c48cb45e9e457f768909abcbda46
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h
+  hash: 869640702d811c4c63abb52206715c891a93fd03be954df5ad40d378355af3d6
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_gcc.h
+  hash: 3d4e265d0aa42f888385ccf073666e6ebb5ec9f834760b9da27c474e177f708d
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_iccarm.h
+  hash: f28119adbc81fb0e3c957c9aebe8fb423ad93634e76ead3caa2b0818d2e123ae
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_version.h
+  hash: 8cda7ac3ff6f0eb5e83c4fe613dd195151b24da54167f5c3c007e599a03f1edc
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\core_cm4.h
+  hash: d59a9e3ed4cf43a3c74a2e48f344d41be2b6363ef9394ea2c551052fe553a6af
+- file: ..\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv7.h
+  hash: de1b5eb9ed566527b66dc06f4ecb6a43ab6800f7dac47e87c9cb42984dca41bb
 - file: ..\src\packs\PIC32CX1025SG61128_DFP\component\ac.h
   hash: 492e828ba86f27178881633184eb138695edd60d07396b2111b39b9ec8f8f87e
 - file: ..\src\packs\PIC32CX1025SG61128_DFP\component\adc.h

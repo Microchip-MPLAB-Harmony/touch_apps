@@ -142,6 +142,17 @@
                 <itemPath>../../../pic32cm_le00_cpro/firmware/src/packs/CMSIS/CMSIS/Core/Include/mpu_armv8.h</itemPath>
                 <itemPath>../../../pic32cm_le00_cpro/firmware/src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
                 <itemPath>../../../pic32cm_le00_cpro/firmware/src/packs/CMSIS/CMSIS/Core/Include/tz_context.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_version.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_iccarm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_gcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm23.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv8.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/tz_context.h</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
@@ -252,7 +263,7 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.60</languageToolchainVersion>
+        <languageToolchainVersion>5.00</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
@@ -315,7 +326,7 @@
         <property key="programoptions.preserveuserid" value="false"/>
       </AtmelIceTool>
       <C32>
-        <property key="additional-warnings" value="false"/>
+        <property key="additional-warnings" value="true"/>
         <property key="addresss-attribute-use" value="false"/>
         <property key="appendMe"
                   value="-Wformat=2 -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-format-attribute -Wno-deprecated-declarations -Wredundant-decls -Wnested-externs -Winline -Wlong-long -Wunreachable-code -Wmissing-noreturn"/>
@@ -338,7 +349,7 @@
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
         <property key="keep-inline" value="false"/>
-        <property key="make-warnings-into-errors" value="false"/>
+        <property key="make-warnings-into-errors" value="true"/>
         <property key="oXC16gcc-errata" value=""/>
         <property key="oXC16gcc-large-aggregate" value="false"/>
         <property key="oXC16gcc-mpa-lvl" value=""/>

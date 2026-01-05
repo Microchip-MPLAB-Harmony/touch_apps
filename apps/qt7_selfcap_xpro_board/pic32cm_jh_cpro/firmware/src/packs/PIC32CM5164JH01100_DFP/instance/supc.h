@@ -25,8 +25,8 @@
 
 
 /* ========== Instance Parameter definitions for SUPC peripheral ========== */
-#define SUPC_BODCORE_CALIB_MSB                   (5)        
-#define SUPC_BODVDD_CALIB_MSB                    (5)        
+#define SUPC_BODCORE_CALIB_MSB                   (5)
+#define SUPC_BODVDD_CALIB_MSB                    (5)
 #define SUPC_INSTANCE_ID                         (6)        /* Instance index for SUPC */
 #define SUPC_OUT_NUM_MSB                         (1)        /* MSB of backup output pad Number */
 

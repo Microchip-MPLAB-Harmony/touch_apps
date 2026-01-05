@@ -25,14 +25,14 @@
 
 
 /* ========== Instance Parameter definitions for GCLK peripheral ========== */
-#define GCLK_GENDIV_BITS                         (16)       
-#define GCLK_GEN_BITS                            (4)        
+#define GCLK_GENDIV_BITS                         (16)
+#define GCLK_GEN_BITS                            (4)
 #define GCLK_GEN_NUM                             (9)        /* Number of Generic Clock Generators */
 #define GCLK_GEN_NUM_MSB                         (8)        /* Number of Generic Clock Generators - 1 */
 #define GCLK_GEN_SOURCE_NUM_MSB                  (7)        /* Number of Generic Clock Sources - 1 */
 #define GCLK_INSTANCE_ID                         (7)        /* Instance index for GCLK */
 #define GCLK_NUM                                 (43)       /* Number of Generic Clock Users */
-#define GCLK_SOURCE_BITS                         (3)        
+#define GCLK_SOURCE_BITS                         (3)
 #define GCLK_SOURCE_NUM                          (8)        /* Number of Generic Clock Sources */
 
 #endif /* _PIC32CMJH01_GCLK_INSTANCE_ */

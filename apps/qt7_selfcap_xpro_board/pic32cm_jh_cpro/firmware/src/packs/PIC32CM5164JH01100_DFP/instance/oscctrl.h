@@ -25,11 +25,11 @@
 
 
 /* ========== Instance Parameter definitions for OSCCTRL peripheral ========== */
-#define OSCCTRL_FDPLL_VERSION                    (0x220)    
+#define OSCCTRL_FDPLL_VERSION                    (0x220)
 #define OSCCTRL_GCLK_ID_FDPLL                    (0)        /* Index of Generic Clock for DPLL */
 #define OSCCTRL_GCLK_ID_FDPLL32K                 (1)        /* Index of Generic Clock for DPLL 32K */
 #define OSCCTRL_INSTANCE_ID                      (4)        /* Instance index for OSCCTRL */
-#define OSCCTRL_OSC48M_VERSION                   (0x101)    
-#define OSCCTRL_XOSC_VERSION                     (0x210)    
+#define OSCCTRL_OSC48M_VERSION                   (0x101)
+#define OSCCTRL_XOSC_VERSION                     (0x210)
 
 #endif /* _PIC32CMJH01_OSCCTRL_INSTANCE_ */

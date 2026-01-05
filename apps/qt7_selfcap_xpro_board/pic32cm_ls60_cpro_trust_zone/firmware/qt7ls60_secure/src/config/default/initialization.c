@@ -211,10 +211,10 @@ void SYS_Initialize ( void* data )
 
     EVSYS_Initialize();
 
-    RTC_Initialize();
-
     
 	touch_init();
+
+    RTC_Initialize();
 
 
     NVIC_Initialize();

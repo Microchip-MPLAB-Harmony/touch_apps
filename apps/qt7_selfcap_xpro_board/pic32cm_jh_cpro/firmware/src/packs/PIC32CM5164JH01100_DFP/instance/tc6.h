@@ -25,7 +25,7 @@
 
 
 /* ========== Instance Parameter definitions for TC6 peripheral ========== */
-#define TC6_CC_NUM                               (2)        
+#define TC6_CC_NUM                               (2)
 #define TC6_DMAC_ID_MC_0                         (57)       /* Indexes of DMA Match/Compare triggers 0 */
 #define TC6_DMAC_ID_MC_1                         (58)       /* Indexes of DMA Match/Compare triggers 1 */
 #define TC6_DMAC_ID_OVF                          (56)       /* Indexes of DMA Overflow trigger */

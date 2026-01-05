@@ -1,5 +1,5 @@
 /*
- * Peripheral I/O description for PIC32CM5164JH01100
+ * Peripheral I/O description for pic32cm5164jh01100
  *
  * Copyright (c) 2025 Microchip Technology Inc. and its subsidiaries.
  *
@@ -20,8 +20,8 @@
  */
 
 /*  file generated from device description file (ATDF) version 2025-02-18T10:55:45Z  */
-#ifndef _PIC32CM5164JH01100_GPIO_H_
-#define _PIC32CM5164JH01100_GPIO_H_
+#ifndef _pic32cm5164jh01100_GPIO_H_
+#define _pic32cm5164jh01100_GPIO_H_
 
 /* ======================= Peripheral I/O pin numbers ======================= */
 #define PIN_PA00                    (    0)  /* Pin Number for PA00 */
@@ -2751,5 +2751,5 @@
 
 
 
-#endif /* _PIC32CM5164JH01100_GPIO_H_ */
+#endif /* _pic32cm5164jh01100_GPIO_H_ */
 

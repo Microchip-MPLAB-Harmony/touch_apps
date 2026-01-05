@@ -25,7 +25,7 @@
 
 
 /* ========== Instance Parameter definitions for TC1 peripheral ========== */
-#define TC1_CC_NUM                               (2)        
+#define TC1_CC_NUM                               (2)
 #define TC1_DMAC_ID_MC_0                         (31)       /* Indexes of DMA Match/Compare triggers 0 */
 #define TC1_DMAC_ID_MC_1                         (32)       /* Indexes of DMA Match/Compare triggers 1 */
 #define TC1_DMAC_ID_OVF                          (30)       /* Indexes of DMA Overflow trigger */
