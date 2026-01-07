@@ -2,7 +2,7 @@
 
 manifest_file_version: 1.0.0
 project: pic32cm_pl10
-creation_date: 2026-01-06T16:05:12.874+05:30[Asia/Calcutta]
+creation_date: 2026-01-07T14:08:48.128+05:30[Asia/Calcutta]
 operating_system: Windows 11
 mcc_mode: IDE
 mcc_mode_version: v6.25
@@ -19,4 +19,5 @@ device_library: {library_class: com.microchip.mcc.harmony.Harmony3Library, name:
 packs: {name: PIC32CM-PL_DFP, version: 1.0.313}
 modules:
 - {name: csp, type: HARMONY, version: v3.25.0}
-- {name: touch, type: HARMONY, version: v3.19.0}
+- {name: CMSIS_5, type: HARMONY, version: 5.9.0}
+- {name: touch, type: HARMONY, version: v3.20.0}

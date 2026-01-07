@@ -9,14 +9,39 @@ dependency:
   type: module
   version: ''
 - dependencyPackage: ''
+  devMode: true
   name: touch
   type: package
-  version: v3.19.0
+  version: v3.20.0
 customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
 data:
   attachments:
     children:
     - children:
+      - attributes:
+          id: Touch_sercom_Krono
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: sercom1
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: SERCOM1_UART
+            type: String
+          - attributes:
+              id: enabled
+            children:
+            - type: Value
+              value: 'true'
+            type: Boolean
+          type: Attributes
+        type: DirectDependency
       - attributes:
           id: Touch_timer
         children:
@@ -62,12 +87,22 @@ data:
     - children:
       - attributes:
           id: lib_qtouch
-          x: '460'
-          y: '273'
+          x: '347'
+          y: '211'
         type: ElementPosition
       type: ElementPositions
     type: ComponentGraph
   symbols:
+    DEF_ADC_PUMP_ENABLE:
+      attributes:
+        id: DEF_ADC_PUMP_ENABLE
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
     DEF_NOD_AKS2:
       attributes:
         id: DEF_NOD_AKS2
@@ -98,6 +133,176 @@ data:
           type: User
         type: Values
       type: KeyValueSet
+    DEF_SCR_CONTACT_THRESHOLD0:
+      attributes:
+        id: DEF_SCR_CONTACT_THRESHOLD0
+      children:
+      - children:
+        - attributes:
+            value: '150'
+          type: User
+        type: Values
+      type: Integer
+    DEF_SCR_POS_HYS0:
+      attributes:
+        id: DEF_SCR_POS_HYS0
+      children:
+      - children:
+        - attributes:
+            value: '12'
+          type: User
+        type: Values
+      type: Integer
+    DEF_SENSOR_DET_THRESHOLD0:
+      attributes:
+        id: DEF_SENSOR_DET_THRESHOLD0
+      children:
+      - children:
+        - attributes:
+            value: '150'
+          type: User
+        type: Values
+      type: Integer
+    DEF_SENSOR_DET_THRESHOLD1:
+      attributes:
+        id: DEF_SENSOR_DET_THRESHOLD1
+      children:
+      - children:
+        - attributes:
+            value: '150'
+          type: User
+        type: Values
+      type: Integer
+    DEF_SENSOR_DET_THRESHOLD2:
+      attributes:
+        id: DEF_SENSOR_DET_THRESHOLD2
+      children:
+      - children:
+        - attributes:
+            value: '150'
+          type: User
+        type: Values
+      type: Integer
+    DEF_SENSOR_DET_THRESHOLD3:
+      attributes:
+        id: DEF_SENSOR_DET_THRESHOLD3
+      children:
+      - children:
+        - attributes:
+            value: '150'
+          type: User
+        type: Values
+      type: Integer
+    DEF_SENSOR_DET_THRESHOLD4:
+      attributes:
+        id: DEF_SENSOR_DET_THRESHOLD4
+      children:
+      - children:
+        - attributes:
+            value: '150'
+          type: User
+        type: Values
+      type: Integer
+    DEF_SENSOR_HYST0:
+      attributes:
+        id: DEF_SENSOR_HYST0
+      children:
+      - children:
+        - attributes:
+            value: '2'
+          type: User
+        type: Values
+      type: KeyValueSet
+    DEF_SENSOR_HYST1:
+      attributes:
+        id: DEF_SENSOR_HYST1
+      children:
+      - children:
+        - attributes:
+            value: '2'
+          type: User
+        type: Values
+      type: KeyValueSet
+    DEF_SENSOR_HYST2:
+      attributes:
+        id: DEF_SENSOR_HYST2
+      children:
+      - children:
+        - attributes:
+            value: '2'
+          type: User
+        type: Values
+      type: KeyValueSet
+    DEF_SENSOR_HYST3:
+      attributes:
+        id: DEF_SENSOR_HYST3
+      children:
+      - children:
+        - attributes:
+            value: '2'
+          type: User
+        type: Values
+      type: KeyValueSet
+    DEF_SENSOR_HYST4:
+      attributes:
+        id: DEF_SENSOR_HYST4
+      children:
+      - children:
+        - attributes:
+            value: '2'
+          type: User
+        type: Values
+      type: KeyValueSet
+    DEF_TOUCH_CHARGE_SHARE_DELAY0:
+      attributes:
+        id: DEF_TOUCH_CHARGE_SHARE_DELAY0
+      children:
+      - children:
+        - attributes:
+            value: '10'
+          type: User
+        type: Values
+      type: Integer
+    DEF_TOUCH_CHARGE_SHARE_DELAY1:
+      attributes:
+        id: DEF_TOUCH_CHARGE_SHARE_DELAY1
+      children:
+      - children:
+        - attributes:
+            value: '10'
+          type: User
+        type: Values
+      type: Integer
+    DEF_TOUCH_CHARGE_SHARE_DELAY2:
+      attributes:
+        id: DEF_TOUCH_CHARGE_SHARE_DELAY2
+      children:
+      - children:
+        - attributes:
+            value: '70'
+          type: User
+        type: Values
+      type: Integer
+    DEF_TOUCH_CHARGE_SHARE_DELAY3:
+      attributes:
+        id: DEF_TOUCH_CHARGE_SHARE_DELAY3
+      children:
+      - children:
+        - attributes:
+            value: '70'
+          type: User
+        type: Values
+      type: Integer
+    DEF_TOUCH_CHARGE_SHARE_DELAY4:
+      attributes:
+        id: DEF_TOUCH_CHARGE_SHARE_DELAY4
+      children:
+      - children:
+        - attributes:
+            value: '70'
+          type: User
+        type: Values
+      type: Integer
     DISABLE_AUTOTUNE_CSD:
       attributes:
         id: DISABLE_AUTOTUNE_CSD
@@ -107,6 +312,26 @@ data:
             id: lib_qtouch
             value: 'false'
           type: Dynamic
+        type: Values
+      type: Boolean
+    DS_DEDICATED_PIN:
+      attributes:
+        id: DS_DEDICATED_PIN
+      children:
+      - children:
+        - attributes:
+            value: '2'
+          type: User
+        type: Values
+      type: KeyValueSet
+    DS_DEDICATED_PIN_ENABLE:
+      attributes:
+        id: DS_DEDICATED_PIN_ENABLE
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
         type: Values
       type: Boolean
     ENABLE_SCROLLER:
@@ -123,6 +348,16 @@ data:
           type: User
         type: Values
       type: Boolean
+    ENABLE_TOUCH_TUNE_WITH_PLUGIN:
+      attributes:
+        id: ENABLE_TOUCH_TUNE_WITH_PLUGIN
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
     FTL_X_INFO:
       attributes:
         id: FTL_X_INFO
@@ -130,7 +365,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: X_NONE,X_NONE,X_NONE,X_NONE,X_NONE
+            value: Y(4),Y(4),Y(4),Y(4),Y(4)
           type: Dynamic
         type: Values
       type: String
@@ -141,7 +376,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: Y(29),Y(17),Y(4),Y(5),Y(6)
+            value: Y(29),Y(17),Y(5),Y(18),Y(19)
           type: Dynamic
         type: Values
       type: String
@@ -192,7 +427,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '2'
+            value: '3'
           type: User
         type: Values
       type: KeyValueSet
@@ -202,7 +437,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '3'
+            value: '8'
           type: User
         type: Values
       type: KeyValueSet
@@ -212,7 +447,17 @@ data:
       children:
       - children:
         - attributes:
-            value: '4'
+            value: '9'
+          type: User
+        type: Values
+      type: KeyValueSet
+    SENSE_TECHNOLOGY:
+      attributes:
+        id: SENSE_TECHNOLOGY
+      children:
+      - children:
+        - attributes:
+            value: '2'
           type: User
         type: Values
       type: KeyValueSet
@@ -413,6 +658,25 @@ data:
           type: User
         type: Values
       type: Integer
+    TOUCH_SERCOM_KRONO_INSTANCE:
+      attributes:
+        id: TOUCH_SERCOM_KRONO_INSTANCE
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: SERCOM1
+          type: Dynamic
+        type: Values
+      type: String
     TOUCH_TIMER_INSTANCE:
       attributes:
         id: TOUCH_TIMER_INSTANCE
@@ -424,4 +688,30 @@ data:
           type: Dynamic
         type: Values
       type: String
+    TOUCH_TUNE_WITH_PLUGIN_HEADER:
+      attributes:
+        id: TOUCH_TUNE_WITH_PLUGIN_HEADER
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    TOUCH_TUNE_WITH_PLUGIN_SOURCE:
+      attributes:
+        id: TOUCH_TUNE_WITH_PLUGIN_SOURCE
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
   userData: {}

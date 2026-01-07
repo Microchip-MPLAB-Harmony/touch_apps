@@ -1,0 +1,72 @@
+configVersion: 1.0.0
+componentName: ptc
+coreVersion: 5.8.3
+device: PIC32CM6408PL10048
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: ptc
+  type: module
+  version: ''
+- dependencyPackage: ''
+  devMode: true
+  name: touch
+  type: package
+  version: v3.20.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments:
+    children:
+    - children:
+      - attributes:
+          id: lib_acquire
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: adc0
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: ADC0_ADC
+            type: String
+          type: Attributes
+        type: DirectDependency
+      - attributes:
+          id: ptc_Acq_Engine
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: lib_qtouch
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: lib_acquire
+            type: String
+          type: Attributes
+        type: DirectCapability
+      type: Attachments
+    type: ptc
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: ptc
+          x: '191'
+          y: '397'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols: {}
+  userData: {}

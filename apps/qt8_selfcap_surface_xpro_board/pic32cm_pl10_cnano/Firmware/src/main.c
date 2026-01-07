@@ -38,6 +38,7 @@ int main ( void )
 {
     /* Initialize all modules */
     SYS_Initialize ( NULL );
+    
     LED_Init();
 
     while ( true )
@@ -49,8 +50,8 @@ int main ( void )
         led_decode_gesture();
         
         led_process();
-    }
 
+    }
     /* Execution should not come here during normal operation */
 
     return ( EXIT_FAILURE );

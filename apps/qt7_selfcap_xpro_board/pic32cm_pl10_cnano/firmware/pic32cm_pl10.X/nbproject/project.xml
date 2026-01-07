@@ -4,7 +4,7 @@
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
             <name>pic32cm_pl10</name>
-            <creation-uuid>fd305566-7509-4a21-8664-f940f956068f</creation-uuid>
+            <creation-uuid>8ab97ee7-57ef-4a3d-ba4e-8ab3e4acdfed</creation-uuid>
             <make-project-type>0</make-project-type>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>

@@ -1,7 +1,7 @@
 #include "led_driver.h"
-#include "config/pic32cm_pl10_qt8/peripheral/sercom/i2c_master/plib_sercom0_i2c_master.h"
-#include "config/pic32cm_pl10_qt8/touch/qtm_gestures_2d_0x0023_api.h"
-#include "config/pic32cm_pl10_qt8/touch/qtm_surface_cs2t_0x0025_api.h"
+#include "config/pl10_qt8/touch/qtm_surface_cs2t_0x0025_api.h"
+#include "config/pl10_qt8/touch/qtm_gestures_2d_0x0023_api.h"
+
 
 extern qtm_surface_cs2t_control_t qtm_surface_cs_control1;
 extern qtm_gestures_2d_control_t  qtm_gestures_2d_control1;

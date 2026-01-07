@@ -9,8 +9,8 @@
 #define LED_DRIVER_H_
 
 #include <stdint.h>
-#include "config/pic32cm_pl10_qt8/touch/touch.h"
-#include "config/pic32cm_pl10_qt8/peripheral/sercom/i2c_master/plib_sercom0_i2c_master.h"
+#include "config/pl10_qt8/touch/touch.h"
+#include "config/pl10_qt8/peripheral/sercom/i2c_master/plib_sercom0_i2c_master.h"
 
 // MCP23017 definitions
 #define MCP23017_ADDR   0x20

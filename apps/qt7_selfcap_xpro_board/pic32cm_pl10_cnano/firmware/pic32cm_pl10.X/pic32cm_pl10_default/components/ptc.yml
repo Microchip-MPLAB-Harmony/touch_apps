@@ -9,9 +9,10 @@ dependency:
   type: module
   version: ''
 - dependencyPackage: ''
+  devMode: true
   name: touch
   type: package
-  version: v3.19.0
+  version: v3.20.0
 customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
 data:
   attachments:
@@ -62,8 +63,8 @@ data:
     - children:
       - attributes:
           id: ptc
-          x: '249'
-          y: '351'
+          x: '171'
+          y: '240'
         type: ElementPosition
       type: ElementPositions
     type: ComponentGraph
