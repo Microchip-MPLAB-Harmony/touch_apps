@@ -28,7 +28,7 @@
 #define CAN0_DMAC_ID_DEBUG                       (14)       /* DMA CAN Debug Req */
 #define CAN0_GCLK_ID                             (26)       /* Index of Generic Clock */
 #define CAN0_INSTANCE_ID                         (71)       /* Instance index for CAN0 */
-#define CAN0_MSG_RAM_ADDR                        (0x200000000) 
+#define CAN0_MSG_RAM_ADDR                        (0x200000000)
 #define CAN0_QOS_RESET_VAL                       (2)        /* QOS reset value */
 
 #endif /* _PIC32CMJH01_CAN0_INSTANCE_ */

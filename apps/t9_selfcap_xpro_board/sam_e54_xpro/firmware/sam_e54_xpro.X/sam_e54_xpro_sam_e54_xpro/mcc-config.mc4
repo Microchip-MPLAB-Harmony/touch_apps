@@ -20,7 +20,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_e54_xpro\ATSAME54P20A.ld
   hash: ba1b5ba1b9c97c94416b0198dc30e928c5a66c926c3ad7695f9bbe3b798adaba
 - file: ..\src\config\sam_e54_xpro\definitions.h
-  hash: e46d2563d91ee6e474f328e3aabcaa368fea242760a7c00462e07acf8f8c94dc
+  hash: 68593e42761034c5646054c012543d5111db9eb90a337aaf01ebb092aa6e7d78
 - file: ..\src\config\sam_e54_xpro\device.h
   hash: b8fdcc4ed83daa65a6f38614a689c97d414774be19ae106e6da07556c50a2c82
 - file: ..\src\config\sam_e54_xpro\device_cache.h
@@ -102,7 +102,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_e54_xpro\touch\touch.c
   hash: a37ab81e2a3bc129a1e15787e17370d6769cbd2c8eae69e55fa3a3f4a0efdef4
 - file: ..\src\config\sam_e54_xpro\touch\touch.h
-  hash: 0e02d268c0609d817a802494a14bdb0973cb7b285c25fab666778d1909db75ea
+  hash: 281dabf90158ef42f79a51ae6d829aa4d950b71928aa754534e798072a8c8c04
 - file: ..\src\config\sam_e54_xpro\touch\touchTune.c
   hash: c6827607ba44e218edf0162ef0402956f7c59addff914c153290b546687aee22
 - file: ..\src\config\sam_e54_xpro\touch\touchTune.h

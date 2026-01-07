@@ -1,0 +1,18 @@
+configVersion: 1.0.0
+coreVersion: 5.8.3
+spaHostVersion: 1.2.0
+device: PIC32CM6408PL10048
+deviceLibrary: {}
+groupModules: []
+modules:
+- adc0
+- cmsis
+- core
+- dfp
+- evsys
+- lib_qtouch
+- pm
+- ptc
+- rtc
+- sercom1
+generatedFileHashHistoryMap: []

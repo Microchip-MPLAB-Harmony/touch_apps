@@ -184,16 +184,16 @@
                      displayName="pic32cm_LE00_cpro_pic32cm_LE00_cpro"
                      projectFiles="true">
         <logicalFolder name="components" displayName="components" projectFiles="true">
-          <itemPath>pic32cm_LE00_cpro_pic32cm_LE00_cpro/components/evsys.yml</itemPath>
+          <itemPath>pic32cm_LE00_cpro_pic32cm_LE00_cpro/components/pm.yml</itemPath>
           <itemPath>pic32cm_LE00_cpro_pic32cm_LE00_cpro/components/dfp.yml</itemPath>
-          <itemPath>pic32cm_LE00_cpro_pic32cm_LE00_cpro/components/lib_qtouch.yml</itemPath>
+          <itemPath>pic32cm_LE00_cpro_pic32cm_LE00_cpro/components/evsys.yml</itemPath>
+          <itemPath>pic32cm_LE00_cpro_pic32cm_LE00_cpro/components/rtc.yml</itemPath>
           <itemPath>pic32cm_LE00_cpro_pic32cm_LE00_cpro/components/nvmctrl.yml</itemPath>
           <itemPath>pic32cm_LE00_cpro_pic32cm_LE00_cpro/components/sercom3.yml</itemPath>
-          <itemPath>pic32cm_LE00_cpro_pic32cm_LE00_cpro/components/ptc.yml</itemPath>
-          <itemPath>pic32cm_LE00_cpro_pic32cm_LE00_cpro/components/core.yml</itemPath>
           <itemPath>pic32cm_LE00_cpro_pic32cm_LE00_cpro/components/cmsis.yml</itemPath>
-          <itemPath>pic32cm_LE00_cpro_pic32cm_LE00_cpro/components/pm.yml</itemPath>
-          <itemPath>pic32cm_LE00_cpro_pic32cm_LE00_cpro/components/rtc.yml</itemPath>
+          <itemPath>pic32cm_LE00_cpro_pic32cm_LE00_cpro/components/core.yml</itemPath>
+          <itemPath>pic32cm_LE00_cpro_pic32cm_LE00_cpro/components/ptc.yml</itemPath>
+          <itemPath>pic32cm_LE00_cpro_pic32cm_LE00_cpro/components/lib_qtouch.yml</itemPath>
         </logicalFolder>
         <itemPath>pic32cm_LE00_cpro_pic32cm_LE00_cpro/mcc-config.mc4</itemPath>
       </logicalFolder>
@@ -552,7 +552,7 @@
         <property key="memories.programmemory.ranges" value="0-7ffff"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programmerToGoFilePath"
-                  value="E:/TXFG/Ongoing Project/Harmony v3.20/Touch apps/onboard_sensor/pic32cm_le00/firmware/pic32cm_LE00_cpro.X/debug/pic32cm_LE00_cpro/pic32cm_LE00_cpro_ptg"/>
+                  value="C:/Users/i41757/Desktop/example projects/lifeguard/onboard_sensor/firmware/pic32cm_LE00_cpro.X/debug/pic32cm_LE00_cpro/pic32cm_LE00_cpro_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"

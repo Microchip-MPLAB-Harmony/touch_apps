@@ -19,7 +19,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_e54_xpro\ATSAME54P20A.ld
   hash: ba1b5ba1b9c97c94416b0198dc30e928c5a66c926c3ad7695f9bbe3b798adaba
 - file: ..\src\config\sam_e54_xpro\definitions.h
-  hash: 979c7b7a84ee482ed8ece0d986d7b8934c896daed4933adbe2a005ca0dfce826
+  hash: 072c3124fe1bcb132fda448306647d234bba6a0a084e21f4cb102c8e7b9378dd
 - file: ..\src\config\sam_e54_xpro\device.h
   hash: b8fdcc4ed83daa65a6f38614a689c97d414774be19ae106e6da07556c50a2c82
 - file: ..\src\config\sam_e54_xpro\device_cache.h
@@ -63,7 +63,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_e54_xpro\peripheral\nvmctrl\plib_nvmctrl.h
   hash: fd7749dc74a885efd7c593394454abc74afc7cf184123f0315425a3600c26ac5
 - file: ..\src\config\sam_e54_xpro\peripheral\port\plib_port.c
-  hash: f7be442ea320301c2d8a67de3aae0f7f96fcb7e5b0f152b90029c0dcdeac5573
+  hash: 4c8505132b721be4d9e56d519f2c2e986ab090608696d1d4aa238ac1960632cd
 - file: ..\src\config\sam_e54_xpro\peripheral\port\plib_port.h
   hash: 8bed91b8ce7aa99876fce5da6f1d5e61fc215d07e1961643d6998c6cdb9c440f
 - file: ..\src\config\sam_e54_xpro\peripheral\rtc\plib_rtc.h
@@ -103,19 +103,19 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_e54_xpro\touch\qtm_touch_key_0x0002_api.h
   hash: 4840f9cd8def73a029c2090d101548329c92bdf13bd19410029aab45234b42e2
 - file: ..\src\config\sam_e54_xpro\touch\touch.c
-  hash: 97d0ea3f5d29398f2ce4ad3e35b2d190661725b638ac6a28454052cea90685a4
+  hash: ab7645da088f7a7e0480b1eea7ab6d7f9c47f9d5eecb19817b99d6f9990b8409
 - file: ..\src\config\sam_e54_xpro\touch\touch.h
-  hash: b8cb5a2c1b0bdc9266f50321e83e43e3c24963b8fd1cbd9e4f7cc7c8100859ab
+  hash: 9622279d11b9965707b5090bcd22a949d292f2b6c6841616c83d25a820b6435c
 - file: ..\src\config\sam_e54_xpro\touch\touchTune.c
-  hash: 33f0563bdb04296fb4866cbb28614f53344c5340c11b4d7efe1be2507df8b90b
+  hash: c6827607ba44e218edf0162ef0402956f7c59addff914c153290b546687aee22
 - file: ..\src\config\sam_e54_xpro\touch\touchTune.h
-  hash: b00f217b8f2d304a2d340ef6e416fbd3c9a3b8bdaefb85c87ded05ccff7fd41a
+  hash: 35da8d42a347b50a99bf0ef570253bc01896b0988efa628b7ac67e75fc90b922
 - file: ..\src\config\sam_e54_xpro\touch\touch_api_ptc.h
-  hash: 98ec49d2325cd0db0698ce9b3f20d5acb7e79a0ed741833fb7d74dbe07b67f64
+  hash: cf1589c8333f5ac67f4d0a9894352493f06ab862d080cc04924263d05b39543f
 - file: ..\src\config\sam_e54_xpro\touch\touch_example.c
-  hash: 663f6a2b9a49549e69052242b7dade8214ad5e70c8b89b9a540ddf0655a1ad37
+  hash: e6e32e0f806de4970ff263a9c5ae9de8487e771351ef6814f07b38bed3e2fd11
 - file: ..\src\config\sam_e54_xpro\touch\touch_example.h
-  hash: 59989902d4630e2ddf0822607a5c4485d4a31fbfa1ff2bc4a2b7aaa6656f58bb
+  hash: e3c082ba1e57bada628e30fb631a889f4b19e1f2688d1e8ea8abd2beab379a0e
 - file: ..\src\main.c
 - file: ..\src\packs\ATSAME54P20A_DFP\component\ac.h
   hash: f157f4448aa3fa1bcd7e772c8d8ec7320ad5f17a8b9ac40b4eb881b2e207a932

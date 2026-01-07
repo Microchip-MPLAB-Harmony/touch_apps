@@ -1721,7 +1721,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: PTC_Y6
+            value: ''
           type: Dynamic
         type: Values
       type: String
@@ -1732,7 +1732,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: PTC_Y7
+            value: ''
           type: Dynamic
         type: Values
       type: String
@@ -1796,7 +1796,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: PTC_Y12
+            value: ''
           type: Dynamic
         type: Values
       type: String

@@ -91,7 +91,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_c21_xpro\touch\touch.c
   hash: 5671eee0371aa1a20166074539debb50860a4c58bb570c01ff8790e10abc4180
 - file: ..\src\config\sam_c21_xpro\touch\touch.h
-  hash: 56c3f989900429a77e17eb508c90ad41740aa1524ddfdaac3b50756c02dd1e17
+  hash: 0404ecefef50783f93445ac3716c882dadd66b5da035120162c4900f0cdb4f22
 - file: ..\src\config\sam_c21_xpro\touch\touchTune.c
   hash: ae67ca516de81d8444fa0b934bc1e109a2f17a2b5faacc4318ce814b72ba2f65
 - file: ..\src\config\sam_c21_xpro\touch\touchTune.h

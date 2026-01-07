@@ -180,15 +180,15 @@
                      displayName="sam_c21_xpro_sam_c21_xpro"
                      projectFiles="true">
         <logicalFolder name="components" displayName="components" projectFiles="true">
-          <itemPath>sam_c21_xpro_sam_c21_xpro/components/lib_qtouch.yml</itemPath>
-          <itemPath>sam_c21_xpro_sam_c21_xpro/components/nvmctrl.yml</itemPath>
-          <itemPath>sam_c21_xpro_sam_c21_xpro/components/ptc.yml</itemPath>
-          <itemPath>sam_c21_xpro_sam_c21_xpro/components/evsys.yml</itemPath>
-          <itemPath>sam_c21_xpro_sam_c21_xpro/components/rtc.yml</itemPath>
           <itemPath>sam_c21_xpro_sam_c21_xpro/components/cmsis.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/ptc.yml</itemPath>
           <itemPath>sam_c21_xpro_sam_c21_xpro/components/core.yml</itemPath>
-          <itemPath>sam_c21_xpro_sam_c21_xpro/components/dfp.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/nvmctrl.yml</itemPath>
           <itemPath>sam_c21_xpro_sam_c21_xpro/components/sercom4.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/lib_qtouch.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/rtc.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/dfp.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/evsys.yml</itemPath>
         </logicalFolder>
         <itemPath>sam_c21_xpro_sam_c21_xpro/mcc-config.mc4</itemPath>
       </logicalFolder>
@@ -268,9 +268,9 @@
         <targetDevice>ATSAMC21J18A</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>noID</platformTool>
+        <platformTool>EdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.60</languageToolchainVersion>
+        <languageToolchainVersion>5.00</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>

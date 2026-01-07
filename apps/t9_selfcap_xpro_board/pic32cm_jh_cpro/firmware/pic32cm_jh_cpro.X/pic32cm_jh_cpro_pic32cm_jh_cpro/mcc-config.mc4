@@ -19,7 +19,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32cm_jh_cpro\PIC32CM5164JH01100.ld
   hash: 342880b5026488987e3eaecac49a90fa597e6e62aaa2a958138af9137e7759de
 - file: ..\src\config\pic32cm_jh_cpro\definitions.h
-  hash: 8834d5424d4f18b09b1e7880b6724c001dfec3fcecebec5a1cb71c484a88a0be
+  hash: dc218180a1f495a57a3ed31e41d370f487542dcfb41f6e4ea75504f1adeddc69
 - file: ..\src\config\pic32cm_jh_cpro\device.h
   hash: 7c97d3f5b796da3cec806d0156380075f2dfac6566857296f5423c211ded1297
 - file: ..\src\config\pic32cm_jh_cpro\device_cache.h
@@ -91,7 +91,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32cm_jh_cpro\touch\touch.c
   hash: 3632e81f1872d896d4990ac7f3507c8ef9e9862f63cb0f99b407be638c8dc8f5
 - file: ..\src\config\pic32cm_jh_cpro\touch\touch.h
-  hash: d8bfaac95fd8deaf213cfd7c623dc5562899ee2dacacc7cc96cbf46cf924b76d
+  hash: 61258ec5a7b7e2661a179e45233be22ec8d5f1c4529e4420e5980682357ebb75
 - file: ..\src\config\pic32cm_jh_cpro\touch\touchTune.c
   hash: 0a53352ecda0dff46c8e9c0b0bf5c0e347c78d886f17e396b689ba33710e82f5
 - file: ..\src\config\pic32cm_jh_cpro\touch\touchTune.h

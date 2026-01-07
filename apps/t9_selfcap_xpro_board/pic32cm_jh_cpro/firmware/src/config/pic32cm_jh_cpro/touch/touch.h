@@ -128,11 +128,11 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 }
 #define NODE_2_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(25), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_2), (uint8_t)FILTER_LEVEL_16                   \
+   X_NONE, Y(13), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_2), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_3_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(13), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_2), (uint8_t)FILTER_LEVEL_16                   \
+   X_NONE, Y(25), 0,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_2), (uint8_t)FILTER_LEVEL_16                   \
 }
 
 /**********************************************************/

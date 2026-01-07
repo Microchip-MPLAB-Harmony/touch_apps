@@ -15,11 +15,12 @@ modules:
 - pm
 - ptc
 - rtc
+- sercom0
 generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l10_xpro_low_power\ATSAML10E16A.ld
   hash: 1d94447d77644b78d3bb699d336f843643fba5297fd50da2938d986d3ef8313a
 - file: ..\src\config\sam_l10_xpro_low_power\definitions.h
-  hash: 8d1b1c60c87bca33f58bbbe5583961fbb683e2e69d61a4073f831aeb29a38735
+  hash: 0e65aaceacf67392cfb8dd8175f48d10ef7449b8cd70ab3aebc34f968974cb20
 - file: ..\src\config\sam_l10_xpro_low_power\device.h
   hash: 70c74c0cb8da2c87fa878a18cf5aa2f7bc8c21e7e4c6ab8a3fa6ef364f2db23a
 - file: ..\src\config\sam_l10_xpro_low_power\device_cache.h
@@ -29,15 +30,15 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l10_xpro_low_power\exceptions.c
   hash: d1567a190561858cc1cb7e796cf1a29720e52b9799bbd88b087993d8539e137f
 - file: ..\src\config\sam_l10_xpro_low_power\initialization.c
-  hash: 8a6445e056a63e7e3e251f97a47cab9d365ebb2be094de3471df75c843230199
+  hash: 3cdc9be7eed08b51a79d1e0e540005858684cf5e5440698344c14c7544e8f548
 - file: ..\src\config\sam_l10_xpro_low_power\interrupts.c
-  hash: 0c6019ffea4c21629b0400ca808f4046c0e97e9c3c7d9f405b5125e0afa0efee
+  hash: 871972f2f8a3d48bbb3bb94327980f3c122ad5d26a62bdb8b2ff05ec9ae83d0d
 - file: ..\src\config\sam_l10_xpro_low_power\interrupts.h
-  hash: 6b5a5b22ccf6f3233c4975b8a0aeba07d866e7231cc0d7396dee33958ba5942a
+  hash: 2c08443469112b1762a7479d23542a05c3758b8976d29a1316c9dca9c58bb4b7
 - file: ..\src\config\sam_l10_xpro_low_power\libc_syscalls.c
   hash: c9afc1b1257829415a1a6746ce3744f0a768b339d59fff2ab3ca1fab58b2a916
 - file: ..\src\config\sam_l10_xpro_low_power\peripheral\clock\plib_clock.c
-  hash: 69db892a714b50c86c2bf8d196d3612c70ad0df62643b0a0588c02aee9922e46
+  hash: cb51ce6fa31662b09279508f9e0fce17b3e3773e64865626c7b388a0fd0d33d1
 - file: ..\src\config\sam_l10_xpro_low_power\peripheral\clock\plib_clock.h
   hash: 7dab32e3ac30b92ddc2d45b26b82d24a8cdad578d20086e4bd2678e2518c5378
 - file: ..\src\config\sam_l10_xpro_low_power\peripheral\evsys\plib_evsys.c
@@ -45,7 +46,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l10_xpro_low_power\peripheral\evsys\plib_evsys.h
   hash: f7d08eb8162f271ce1db384c082586a6624e506aa7f502c64c4ab5a1aadac47d
 - file: ..\src\config\sam_l10_xpro_low_power\peripheral\nvic\plib_nvic.c
-  hash: 771e84eba8d414b61eca8318240f98e08eb9a2ce328da4ea6864814088fe9007
+  hash: 03917c6db97db2f7861907b651346838ce258f0718c3b3c1d6551f551ba6306b
 - file: ..\src\config\sam_l10_xpro_low_power\peripheral\nvic\plib_nvic.h
   hash: 9936ac782115af41003255283fa2f603f4ff2212d16275b7c80ea8d067a9e208
 - file: ..\src\config\sam_l10_xpro_low_power\peripheral\nvmctrl\plib_nvmctrl.c
@@ -57,15 +58,21 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l10_xpro_low_power\peripheral\pm\plib_pm.h
   hash: 027462b9369dc5bb8873f96fc3b5ca69ceaf3bd205be7246e58a093b16ee633c
 - file: ..\src\config\sam_l10_xpro_low_power\peripheral\port\plib_port.c
-  hash: 554b36ce35723948e94f7872d1d82d2876b522dd9f4d4eaa6750c080ef01365f
+  hash: 922817c5a33c9e57f755dc4e55a70d3ba814e4a76d4cfbee6ed1b0481656288e
 - file: ..\src\config\sam_l10_xpro_low_power\peripheral\port\plib_port.h
-  hash: dc9ab52a3ffc940db156634d15b68822dffcef77e6e3fc228cd01189fc1f045a
+  hash: 7d62b38cbee38c18c67cb3cb43e68cde29bb03d7648ef7eaee7ef2ac5d18c0f0
 - file: ..\src\config\sam_l10_xpro_low_power\peripheral\rtc\plib_rtc.h
   hash: 86a57416099d16db539eb418d49cf5bf88346dddd2e2a4a9f244b71eb028b3ab
 - file: ..\src\config\sam_l10_xpro_low_power\peripheral\rtc\plib_rtc_timer.c
   hash: ac4f862d9ae5949e0d1528412d058f41ec58f0cff85b846b077ac8bc9b4b2a62
+- file: ..\src\config\sam_l10_xpro_low_power\peripheral\sercom\usart\plib_sercom0_usart.c
+  hash: 554e30e45efa6e4a9e7b3cde6b6a3e2b579844ea0b9b08a4577f3e2541475434
+- file: ..\src\config\sam_l10_xpro_low_power\peripheral\sercom\usart\plib_sercom0_usart.h
+  hash: e71168d38895bf59feced00ea282037b83ae26cf23116fc26881075607db51ac
+- file: ..\src\config\sam_l10_xpro_low_power\peripheral\sercom\usart\plib_sercom_usart_common.h
+  hash: 9f02e811b95f0470ca23f3546f3ddf4ccccb385b4d8b8c091899d0d20b0c56e1
 - file: ..\src\config\sam_l10_xpro_low_power\pin_configurations.csv
-  hash: a8b3c52e8ef8bf927dae9e813d681e52250ecd2e429e5c393656132bfafd7bee
+  hash: 083e6b228bcae58ca85ecd4a05b62d2408511607c736ef5a98823c6cbda65076
 - file: ..\src\config\sam_l10_xpro_low_power\startup_xc32.c
   hash: 3aa1360f333b564211c35f641c7327c2111e11aa633bd02ec5a0be9466b1df04
 - file: ..\src\config\sam_l10_xpro_low_power\stdio\xc32_monitor.c
@@ -95,9 +102,13 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l10_xpro_low_power\touch\qtm_touch_key_0x0002_api.h
   hash: 4840f9cd8def73a029c2090d101548329c92bdf13bd19410029aab45234b42e2
 - file: ..\src\config\sam_l10_xpro_low_power\touch\touch.c
-  hash: 414a6f9032a17562ccb20a4b215fda217fec35c875d4b6b2e60098f339cc3d2c
+  hash: c7a67bf5179a937727fcfebf4dac56595619fe61597161f6cc0461c952987c1a
 - file: ..\src\config\sam_l10_xpro_low_power\touch\touch.h
-  hash: 14a9f1fec1c241a0fc1d48302410a285f1d1a11b993e926de835a044f57cab6b
+  hash: 1e03b5c8d0dc1e18f91f2bbec6b3292d481c367e9aa684fb4c556dc562365ca3
+- file: ..\src\config\sam_l10_xpro_low_power\touch\touchTune.c
+  hash: 02ff83f1bcfc8f377f15705f7a425139fd42b401057e74809f91b29d2bf89b11
+- file: ..\src\config\sam_l10_xpro_low_power\touch\touchTune.h
+  hash: 35da8d42a347b50a99bf0ef570253bc01896b0988efa628b7ac67e75fc90b922
 - file: ..\src\config\sam_l10_xpro_low_power\touch\touch_api_ptc.h
   hash: 315b2df58f15f7b1710abab80a6d3ed541b362c1592586066ad13f0be3d1f930
 - file: ..\src\config\sam_l10_xpro_low_power\touch\touch_example.c

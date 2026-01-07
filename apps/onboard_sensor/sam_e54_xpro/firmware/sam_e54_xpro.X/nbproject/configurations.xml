@@ -211,16 +211,16 @@
                      displayName="sam_e54_xpro_sam_e54_xpro"
                      projectFiles="true">
         <logicalFolder name="components" displayName="components" projectFiles="true">
-          <itemPath>sam_e54_xpro_sam_e54_xpro/components/cmsis.yml</itemPath>
-          <itemPath>sam_e54_xpro_sam_e54_xpro/components/rtc.yml</itemPath>
-          <itemPath>sam_e54_xpro_sam_e54_xpro/components/lib_qtouch.yml</itemPath>
-          <itemPath>sam_e54_xpro_sam_e54_xpro/components/sercom2.yml</itemPath>
-          <itemPath>sam_e54_xpro_sam_e54_xpro/components/adc0.yml</itemPath>
-          <itemPath>sam_e54_xpro_sam_e54_xpro/components/dfp.yml</itemPath>
-          <itemPath>sam_e54_xpro_sam_e54_xpro/components/evsys.yml</itemPath>
-          <itemPath>sam_e54_xpro_sam_e54_xpro/components/nvmctrl.yml</itemPath>
           <itemPath>sam_e54_xpro_sam_e54_xpro/components/core.yml</itemPath>
+          <itemPath>sam_e54_xpro_sam_e54_xpro/components/dfp.yml</itemPath>
+          <itemPath>sam_e54_xpro_sam_e54_xpro/components/nvmctrl.yml</itemPath>
+          <itemPath>sam_e54_xpro_sam_e54_xpro/components/evsys.yml</itemPath>
+          <itemPath>sam_e54_xpro_sam_e54_xpro/components/rtc.yml</itemPath>
+          <itemPath>sam_e54_xpro_sam_e54_xpro/components/sercom2.yml</itemPath>
+          <itemPath>sam_e54_xpro_sam_e54_xpro/components/lib_qtouch.yml</itemPath>
           <itemPath>sam_e54_xpro_sam_e54_xpro/components/ptc.yml</itemPath>
+          <itemPath>sam_e54_xpro_sam_e54_xpro/components/adc0.yml</itemPath>
+          <itemPath>sam_e54_xpro_sam_e54_xpro/components/cmsis.yml</itemPath>
         </logicalFolder>
         <itemPath>sam_e54_xpro_sam_e54_xpro/mcc-config.mc4</itemPath>
       </logicalFolder>
@@ -306,7 +306,7 @@
         <targetDevice>ATSAME54P20A</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>noID</platformTool>
+        <platformTool>EdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>5.00</languageToolchainVersion>
         <platform>3</platform>

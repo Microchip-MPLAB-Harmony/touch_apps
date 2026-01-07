@@ -247,7 +247,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: X_NONE,X_NONE,X_NONE,X_NONE,X_NONE,X_NONE,X_NONE,X_NONE
+            value: X_NONE,X_NONE,X_NONE,X_NONE,X_NONE
           type: Dynamic
         type: Values
       type: String
@@ -258,7 +258,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: Y(5),Y(4),Y(11),Y(10),Y(13),Y(12),Y(7),Y(6)
+            value: Y(5),Y(4),Y(11),Y(10),Y(13)
           type: Dynamic
         type: Values
       type: String
@@ -832,26 +832,6 @@ data:
           type: User
         type: Values
       type: KeyValueSet
-    TOUCH_CHAN_ENABLE_CNT:
-      attributes:
-        id: TOUCH_CHAN_ENABLE_CNT
-      children:
-      - children:
-        - attributes:
-            value: '8'
-          type: User
-        type: Values
-      type: Integer
-    TOUCH_ENABLE_CH_0:
-      attributes:
-        id: TOUCH_ENABLE_CH_0
-      children:
-      - children:
-        - attributes:
-            value: 'true'
-          type: User
-        type: Values
-      type: Boolean
     TOUCH_ENABLE_CH_1:
       attributes:
         id: TOUCH_ENABLE_CH_1
@@ -885,16 +865,6 @@ data:
     TOUCH_ENABLE_CH_4:
       attributes:
         id: TOUCH_ENABLE_CH_4
-      children:
-      - children:
-        - attributes:
-            value: 'true'
-          type: User
-        type: Values
-      type: Boolean
-    TOUCH_ENABLE_KEY_0:
-      attributes:
-        id: TOUCH_ENABLE_KEY_0
       children:
       - children:
         - attributes:
@@ -952,16 +922,6 @@ data:
           type: User
         type: Values
       type: Boolean
-    TOUCH_KEY_ENABLE_CNT:
-      attributes:
-        id: TOUCH_KEY_ENABLE_CNT
-      children:
-      - children:
-        - attributes:
-            value: '8'
-          type: User
-        type: Values
-      type: Integer
     TOUCH_LOADED:
       attributes:
         id: TOUCH_LOADED
@@ -999,7 +959,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '2'
+            value: '1'
           type: User
         type: Values
       type: Integer
@@ -1074,19 +1034,35 @@ data:
           type: Dynamic
         type: Values
       type: Integer
-    TOUCH_ENABLE_SCROLLER_1:
+    TOUCH_SCR_LIB:
       attributes:
-        id: TOUCH_ENABLE_SCROLLER_1
+        id: TOUCH_SCR_LIB
       children:
       - children:
         - attributes:
+            id: enabled
+          children:
+          - type: Value
             value: 'true'
-          type: User
-        type: Values
-      type: Boolean
-    TOUCH_SCR_START_KEY1:
+          type: Boolean
+        type: Attributes
+      type: Library
+    TOUCH_SCR_HEADER:
       attributes:
-        id: TOUCH_SCR_START_KEY1
+        id: TOUCH_SCR_HEADER
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    TOUCH_CHAN_ENABLE_CNT:
+      attributes:
+        id: TOUCH_CHAN_ENABLE_CNT
       children:
       - children:
         - attributes:
@@ -1094,29 +1070,19 @@ data:
           type: User
         type: Values
       type: Integer
-    SELFCAP-INPUT_6:
+    TOUCH_KEY_ENABLE_CNT:
       attributes:
-        id: SELFCAP-INPUT_6
+        id: TOUCH_KEY_ENABLE_CNT
       children:
       - children:
         - attributes:
-            value: '7'
+            value: '5'
           type: User
         type: Values
-      type: KeyValueSet
-    SELFCAP-INPUT_7:
+      type: Integer
+    TOUCH_ENABLE_CH_0:
       attributes:
-        id: SELFCAP-INPUT_7
-      children:
-      - children:
-        - attributes:
-            value: '6'
-          type: User
-        type: Values
-      type: KeyValueSet
-    TOUCH_ENABLE_CH_5:
-      attributes:
-        id: TOUCH_ENABLE_CH_5
+        id: TOUCH_ENABLE_CH_0
       children:
       - children:
         - attributes:
@@ -1124,9 +1090,9 @@ data:
           type: User
         type: Values
       type: Boolean
-    TOUCH_ENABLE_KEY_5:
+    TOUCH_ENABLE_KEY_0:
       attributes:
-        id: TOUCH_ENABLE_KEY_5
+        id: TOUCH_ENABLE_KEY_0
       children:
       - children:
         - attributes:
@@ -1134,84 +1100,4 @@ data:
           type: User
         type: Values
       type: Boolean
-    DEF_NOD_AKS5:
-      attributes:
-        id: DEF_NOD_AKS5
-      children:
-      - children:
-        - attributes:
-            value: '2'
-          type: User
-        type: Values
-      type: KeyValueSet
-    TOUCH_ENABLE_CH_6:
-      attributes:
-        id: TOUCH_ENABLE_CH_6
-      children:
-      - children:
-        - attributes:
-            value: 'true'
-          type: User
-        type: Values
-      type: Boolean
-    TOUCH_ENABLE_KEY_6:
-      attributes:
-        id: TOUCH_ENABLE_KEY_6
-      children:
-      - children:
-        - attributes:
-            value: 'true'
-          type: User
-        type: Values
-      type: Boolean
-    DEF_NOD_AKS6:
-      attributes:
-        id: DEF_NOD_AKS6
-      children:
-      - children:
-        - attributes:
-            value: '2'
-          type: User
-        type: Values
-      type: KeyValueSet
-    TOUCH_ENABLE_CH_7:
-      attributes:
-        id: TOUCH_ENABLE_CH_7
-      children:
-      - children:
-        - attributes:
-            value: 'true'
-          type: User
-        type: Values
-      type: Boolean
-    TOUCH_ENABLE_KEY_7:
-      attributes:
-        id: TOUCH_ENABLE_KEY_7
-      children:
-      - children:
-        - attributes:
-            value: 'true'
-          type: User
-        type: Values
-      type: Boolean
-    DEF_NOD_AKS7:
-      attributes:
-        id: DEF_NOD_AKS7
-      children:
-      - children:
-        - attributes:
-            value: '2'
-          type: User
-        type: Values
-      type: KeyValueSet
-    SELFCAP-INPUT_5:
-      attributes:
-        id: SELFCAP-INPUT_5
-      children:
-      - children:
-        - attributes:
-            value: '12'
-          type: User
-        type: Values
-      type: KeyValueSet
   userData: {}

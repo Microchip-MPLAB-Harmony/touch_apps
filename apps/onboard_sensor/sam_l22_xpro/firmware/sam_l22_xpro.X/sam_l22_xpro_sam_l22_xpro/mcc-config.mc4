@@ -20,7 +20,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l22_xpro\ATSAML22N18A.ld
   hash: e690bdf01bc2d45a36550a4277450dddd34e46ab829d4f6f62d6712f16ed80ba
 - file: ..\src\config\sam_l22_xpro\definitions.h
-  hash: 69f25e8c41f10e0ec2a4dd1be38c27fd456bccb31eaebb02ae28285ae8154fe1
+  hash: b4802b0effa97ec01cab1984ea27cf3e7737e4b2e7af96e1e2f96cb6a7144370
 - file: ..\src\config\sam_l22_xpro\device.h
   hash: 0de67b551f51caff91a4a56e6c390824b6698ffbe714cbcf7df0675af1d0de2b
 - file: ..\src\config\sam_l22_xpro\device_cache.h
@@ -30,7 +30,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l22_xpro\exceptions.c
   hash: d1567a190561858cc1cb7e796cf1a29720e52b9799bbd88b087993d8539e137f
 - file: ..\src\config\sam_l22_xpro\initialization.c
-  hash: 2e40d43a7c99698145eb016dad1e81801d7ad373317905188b57ca4625127c99
+  hash: f13fbba8dea33f1de0ed9b3b170ad50bf702af3eb3d993f11bb73aeebc079b45
 - file: ..\src\config\sam_l22_xpro\interrupts.c
   hash: 2d8f33f3e72573d7f60c7bd8bc4dc86b9351d6cda7fc1cc6179dd9bf73418357
 - file: ..\src\config\sam_l22_xpro\interrupts.h
@@ -94,19 +94,19 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_l22_xpro\touch\qtm_touch_key_0x0002_api.h
   hash: 4840f9cd8def73a029c2090d101548329c92bdf13bd19410029aab45234b42e2
 - file: ..\src\config\sam_l22_xpro\touch\touch.c
-  hash: 81abd233dcfe2c058e0ad17c54eaad0ca0a2ab4c8a91b31deaca9748c125edf1
+  hash: 4a4b9fe62e67d86e9da6520a2ff56c6c867110798e7de0a04928c0e23ee4e421
 - file: ..\src\config\sam_l22_xpro\touch\touch.h
-  hash: bbc57be993ff278b8367d981d6b4cf14723241f8c3697dabda41648b99a5af07
+  hash: 0e6e363e7fe69e4d61ed4408c5ea6c984ece0675f1157bd414e3fea988cd1967
 - file: ..\src\config\sam_l22_xpro\touch\touchTune.c
-  hash: ee92936dc6615f93bcef2f9275c84ed0d592c709244aedee4b6930639ab747ec
+  hash: 48050ff2137e91ee986f796784ba651191460cae7ef2dc7dcfd6b59761466942
 - file: ..\src\config\sam_l22_xpro\touch\touchTune.h
-  hash: b00f217b8f2d304a2d340ef6e416fbd3c9a3b8bdaefb85c87ded05ccff7fd41a
+  hash: 35da8d42a347b50a99bf0ef570253bc01896b0988efa628b7ac67e75fc90b922
 - file: ..\src\config\sam_l22_xpro\touch\touch_api_ptc.h
-  hash: 794e717c429395a531ad5c8bcd011e2a74d622b363a48df9461b762b7e6c6fba
+  hash: 7be95989258784760a88c0b212d9eb797315ddc6f03e83e73b12375c5097b2d9
 - file: ..\src\config\sam_l22_xpro\touch\touch_example.c
-  hash: 663f6a2b9a49549e69052242b7dade8214ad5e70c8b89b9a540ddf0655a1ad37
+  hash: e6e32e0f806de4970ff263a9c5ae9de8487e771351ef6814f07b38bed3e2fd11
 - file: ..\src\config\sam_l22_xpro\touch\touch_example.h
-  hash: 59989902d4630e2ddf0822607a5c4485d4a31fbfa1ff2bc4a2b7aaa6656f58bb
+  hash: e3c082ba1e57bada628e30fb631a889f4b19e1f2688d1e8ea8abd2beab379a0e
 - file: ..\src\main.c
   hash: d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5
 - file: ..\src\packs\ATSAML22N18A_DFP\component\ac.h

@@ -48,6 +48,7 @@ Microchip or any third party.
 #include "../peripheral/rtc/plib_rtc.h"
 #include "../interrupts.h"
 #include "touch/touch.h"
+#include "touch/touchTune.h"
 
 
 /*----------------------------------------------------------------------------
@@ -287,6 +288,9 @@ void touch_init(void)
     (void)touch_sensors_config();
 
 	
+    #if DEF_TOUCH_TUNE_ENABLE == 1u
+    touchTuneInit();
+    #endif
 }
 
 /*============================================================================
@@ -349,6 +353,9 @@ void touch_process(void)
         }
         #endif
 
+        #if DEF_TOUCH_TUNE_ENABLE == 1u
+        touchTuneNewDataAvailable();
+        #endif
 
         if (0u != (qtlib_key_set1.qtm_touch_key_group_data->qtm_keys_status & QTM_KEY_REBURST)) {
             time_to_measure_touch_var = 1u;
@@ -361,6 +368,9 @@ void touch_process(void)
         }
     }
 
+    #if DEF_TOUCH_TUNE_ENABLE == 1u
+    touchTuneProcess();
+    #endif
 }
 #if (DEF_TOUCH_LOWPOWER_ENABLE == 1u)
 static void touch_configure_pm_supc(void)

@@ -85,10 +85,10 @@ void touch_status_display1(void)
 
 	key_status1 = get_sensor_state(0) & 0x80;
 	if (0u != key_status1) {
-		LED_BUTTON_0_Clear();
+		LED_BUTTON_0_Set();
 	} else 
     {
-		LED_BUTTON_0_Set();
+		LED_BUTTON_0_Clear();
 	}
 
 	scroller_status1   = get_scroller_state(0);

@@ -19,7 +19,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d21_xpro\ATSAMD21J18A.ld
   hash: dd064fb89a563661fb32ac093d1ef3bc8495f5201e8c8e921fbde22096715ce9
 - file: ..\src\config\sam_d21_xpro\definitions.h
-  hash: 59063310d9e3e621342b597c54d3f111b42dcca53f0605156d22806006dfd802
+  hash: 0d91c8ee4f5dfcfd681c9b8d26f3887749410c3a6a4747ef6ce829f0f4f7c100
 - file: ..\src\config\sam_d21_xpro\device.h
   hash: b47b11ceb9f360e667a14c68f72033c9a8c1dcb7abb5fb77d0b2cb4abe939249
 - file: ..\src\config\sam_d21_xpro\device_cache.h
@@ -91,7 +91,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d21_xpro\touch\touch.c
   hash: bb45290a4fb5061b28128d45cd24449499ff8d9d3d54ae15290e11af16de533f
 - file: ..\src\config\sam_d21_xpro\touch\touch.h
-  hash: a454157cbac51d0ba296b47e8896e625f53de53df5a501b153b0ea900c095c46
+  hash: 735f399e3ad5352a44bef6e126040c6816b34bf77597d81a8117ce636c7cedd0
 - file: ..\src\config\sam_d21_xpro\touch\touchTune.c
   hash: d707685ce509e85b6641271b2d6274f313b9f4cbc9db9c503c2254fc2f333a36
 - file: ..\src\config\sam_d21_xpro\touch\touchTune.h

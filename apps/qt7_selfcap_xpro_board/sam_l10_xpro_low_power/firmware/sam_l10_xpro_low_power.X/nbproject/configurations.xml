@@ -30,6 +30,12 @@
             <logicalFolder name="rtc" displayName="rtc" projectFiles="true">
               <itemPath>../src/config/sam_l10_xpro_low_power/peripheral/rtc/plib_rtc.h</itemPath>
             </logicalFolder>
+            <logicalFolder name="sercom" displayName="sercom" projectFiles="true">
+              <logicalFolder name="usart" displayName="usart" projectFiles="true">
+                <itemPath>../src/config/sam_l10_xpro_low_power/peripheral/sercom/usart/plib_sercom0_usart.h</itemPath>
+                <itemPath>../src/config/sam_l10_xpro_low_power/peripheral/sercom/usart/plib_sercom_usart_common.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
           </logicalFolder>
           <logicalFolder name="touch" displayName="touch" projectFiles="true">
             <itemPath>../src/config/sam_l10_xpro_low_power/touch/qtm_scroller_0x000b_api.h</itemPath>
@@ -41,6 +47,7 @@
             <itemPath>../src/config/sam_l10_xpro_low_power/touch/qtm_touch_key_0x0002_api.h</itemPath>
             <itemPath>../src/config/sam_l10_xpro_low_power/touch/touch_api_ptc.h</itemPath>
             <itemPath>../src/config/sam_l10_xpro_low_power/touch/touch.h</itemPath>
+            <itemPath>../src/config/sam_l10_xpro_low_power/touch/touchTune.h</itemPath>
           </logicalFolder>
           <itemPath>../src/config/sam_l10_xpro_low_power/interrupts.h</itemPath>
           <itemPath>../src/config/sam_l10_xpro_low_power/toolchain_specifics.h</itemPath>
@@ -157,6 +164,7 @@
           <itemPath>sam_l10_xpro_low_power_sam_l10_xpro_low_power/components/dfp.yml</itemPath>
           <itemPath>sam_l10_xpro_low_power_sam_l10_xpro_low_power/components/evsys.yml</itemPath>
           <itemPath>sam_l10_xpro_low_power_sam_l10_xpro_low_power/components/core.yml</itemPath>
+          <itemPath>sam_l10_xpro_low_power_sam_l10_xpro_low_power/components/sercom0.yml</itemPath>
           <itemPath>sam_l10_xpro_low_power_sam_l10_xpro_low_power/components/ptc.yml</itemPath>
           <itemPath>sam_l10_xpro_low_power_sam_l10_xpro_low_power/components/pm.yml</itemPath>
           <itemPath>sam_l10_xpro_low_power_sam_l10_xpro_low_power/components/rtc.yml</itemPath>
@@ -211,6 +219,11 @@
             <logicalFolder name="rtc" displayName="rtc" projectFiles="true">
               <itemPath>../src/config/sam_l10_xpro_low_power/peripheral/rtc/plib_rtc_timer.c</itemPath>
             </logicalFolder>
+            <logicalFolder name="sercom" displayName="sercom" projectFiles="true">
+              <logicalFolder name="usart" displayName="usart" projectFiles="true">
+                <itemPath>../src/config/sam_l10_xpro_low_power/peripheral/sercom/usart/plib_sercom0_usart.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
           </logicalFolder>
           <logicalFolder name="stdio" displayName="stdio" projectFiles="true">
             <itemPath>../src/config/sam_l10_xpro_low_power/stdio/xc32_monitor.c</itemPath>
@@ -218,6 +231,7 @@
           <logicalFolder name="touch" displayName="touch" projectFiles="true">
             <itemPath>../src/config/sam_l10_xpro_low_power/touch/touch_example.c</itemPath>
             <itemPath>../src/config/sam_l10_xpro_low_power/touch/touch.c</itemPath>
+            <itemPath>../src/config/sam_l10_xpro_low_power/touch/touchTune.c</itemPath>
           </logicalFolder>
           <itemPath>../src/config/sam_l10_xpro_low_power/initialization.c</itemPath>
           <itemPath>../src/config/sam_l10_xpro_low_power/interrupts.c</itemPath>
@@ -238,7 +252,7 @@
         <targetDevice>ATSAML10E16A</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>noID</platformTool>
+        <platformTool>EdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>5.00</languageToolchainVersion>
         <platform>3</platform>

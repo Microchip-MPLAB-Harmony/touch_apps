@@ -7,14 +7,14 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,D
 6,PB05,,Available,,,,,,NORMAL
 9,PB06,,Available,,,,,,NORMAL
 10,PB07,,Available,,,,,,NORMAL
-11,PB08,,PTC_Y14,Digital,High Impedance,n/a,No,No,NORMAL
-12,PB09,,PTC_Y15,Digital,High Impedance,n/a,No,No,NORMAL
+11,PB08,,PTC_Y14,Analog,High Impedance,n/a,,,NORMAL
+12,PB09,,PTC_Y15,Analog,High Impedance,n/a,,,NORMAL
 13,PA04,,Available,,,,,,NORMAL
 14,PA05,,Available,,,,,,NORMAL
 15,PA06,,Available,,,,,,NORMAL
 16,PA07,,Available,,,,,,NORMAL
-17,PA08,,PTC_X0/Y16,Digital,High Impedance,n/a,No,No,NORMAL
-18,PA09,,PTC_X1/Y17,Digital,High Impedance,n/a,No,No,NORMAL
+17,PA08,,PTC_X0/Y16,Analog,High Impedance,n/a,,,NORMAL
+18,PA09,,PTC_X1/Y17,Analog,High Impedance,n/a,,,NORMAL
 19,PA10,,PTC_X2/Y18,Digital,High Impedance,n/a,No,No,NORMAL
 20,PA11,,PTC_X3/Y19,Digital,High Impedance,n/a,No,No,NORMAL
 23,PB10,,SERCOM4_PAD2,Digital,High Impedance,n/a,No,No,NORMAL

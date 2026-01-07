@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.19.0 Release
+  Touch Library v3.20.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -16,7 +16,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (c) 2025 released Microchip Technology Inc.  All rights reserved.
+Copyright (c) 2026 released Microchip Technology Inc.  All rights reserved.
 
 Microchip licenses to you the right to use, modify, copy and distribute
 Software only when embedded on a Microchip microcontroller or digital signal
@@ -128,7 +128,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 }
 #define NODE_2_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(25), 8,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
+   X_NONE, Y(31), 8,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
 }
 #define NODE_3_PARAMS                                                                                               \
 {                                                                                                                  \
@@ -136,7 +136,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 }
 #define NODE_4_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(31), 8,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
+   X_NONE, Y(25), 8,(uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_64                   \
 }
 
 /**********************************************************/

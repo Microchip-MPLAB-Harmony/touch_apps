@@ -664,7 +664,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: ''
+            value: ADC0_AIN1/X0/Y0/VREFA
           type: Dynamic
         type: Values
       type: String
@@ -876,7 +876,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: ADC0_AIN3/X2/Y2
+            value: ''
           type: Dynamic
         type: Values
       type: String

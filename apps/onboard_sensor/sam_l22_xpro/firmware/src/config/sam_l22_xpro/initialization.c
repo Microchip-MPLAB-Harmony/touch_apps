@@ -140,9 +140,9 @@ void SYS_Initialize ( void* data )
 
     NVMCTRL_Initialize( );
 
-    EVSYS_Initialize();
-
     SERCOM0_USART_Initialize();
+
+    EVSYS_Initialize();
 
     RTC_Initialize();
 

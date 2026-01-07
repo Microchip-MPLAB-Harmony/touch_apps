@@ -4,7 +4,7 @@
 
 
 project: 
-creation_date: 2026-01-02T16:45:29.477+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2026-01-06T09:18:14.891+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 11
 mcc_mode: IDE            # [IDE|Standalone|Headless]
 mcc_version: v5.6.3
@@ -15,7 +15,7 @@ compiler: XC32 5.00
 
 modules:
     - {name: "csp", version: "v3.25.0"}
-    - {name: "CMSIS_5", version: "5.9.0"}
+    - {name: "CMSIS_5", version: "5.9.1-dev"}
     - {name: "touch", version: "v3.20.0"}
 
 packs:

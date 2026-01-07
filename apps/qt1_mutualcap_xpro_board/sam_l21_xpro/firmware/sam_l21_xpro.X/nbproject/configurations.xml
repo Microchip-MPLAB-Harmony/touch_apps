@@ -163,16 +163,16 @@
                      displayName="sam_l21_xpro_sam_l21_xpro"
                      projectFiles="true">
         <logicalFolder name="components" displayName="components" projectFiles="true">
-          <itemPath>sam_l21_xpro_sam_l21_xpro/components/evsys.yml</itemPath>
-          <itemPath>sam_l21_xpro_sam_l21_xpro/components/nvmctrl.yml</itemPath>
-          <itemPath>sam_l21_xpro_sam_l21_xpro/components/ptc.yml</itemPath>
-          <itemPath>sam_l21_xpro_sam_l21_xpro/components/sercom3.yml</itemPath>
-          <itemPath>sam_l21_xpro_sam_l21_xpro/components/rtc.yml</itemPath>
+          <itemPath>sam_l21_xpro_sam_l21_xpro/components/cmsis.yml</itemPath>
+          <itemPath>sam_l21_xpro_sam_l21_xpro/components/core.yml</itemPath>
+          <itemPath>sam_l21_xpro_sam_l21_xpro/components/dfp.yml</itemPath>
           <itemPath>sam_l21_xpro_sam_l21_xpro/components/lib_qtouch.yml</itemPath>
           <itemPath>sam_l21_xpro_sam_l21_xpro/components/pm.yml</itemPath>
-          <itemPath>sam_l21_xpro_sam_l21_xpro/components/dfp.yml</itemPath>
-          <itemPath>sam_l21_xpro_sam_l21_xpro/components/core.yml</itemPath>
-          <itemPath>sam_l21_xpro_sam_l21_xpro/components/cmsis.yml</itemPath>
+          <itemPath>sam_l21_xpro_sam_l21_xpro/components/rtc.yml</itemPath>
+          <itemPath>sam_l21_xpro_sam_l21_xpro/components/evsys.yml</itemPath>
+          <itemPath>sam_l21_xpro_sam_l21_xpro/components/sercom3.yml</itemPath>
+          <itemPath>sam_l21_xpro_sam_l21_xpro/components/ptc.yml</itemPath>
+          <itemPath>sam_l21_xpro_sam_l21_xpro/components/nvmctrl.yml</itemPath>
         </logicalFolder>
         <itemPath>sam_l21_xpro_sam_l21_xpro/mcc-config.mc4</itemPath>
       </logicalFolder>
@@ -255,7 +255,7 @@
         <targetDevice>ATSAML21J18B</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>noID</platformTool>
+        <platformTool>EdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>5.00</languageToolchainVersion>
         <platform>3</platform>

@@ -26,6 +26,6 @@
 
 /* ========== Instance Parameter definitions for OSC32KCTRL peripheral ========== */
 #define OSC32KCTRL_INSTANCE_ID                   (5)        /* Instance index for OSC32KCTRL */
-#define OSC32KCTRL_OSC32K_COARSE_CALIB_MSB       (6)        
+#define OSC32KCTRL_OSC32K_COARSE_CALIB_MSB       (6)
 
 #endif /* _PIC32CMJH01_OSC32KCTRL_INSTANCE_ */

@@ -55,8 +55,9 @@
 #include "peripheral/port/plib_port.h"
 #include "peripheral/clock/plib_clock.h"
 #include "peripheral/nvic/plib_nvic.h"
-#include "touch/touch.h"
+#include "peripheral/pm/plib_pm.h"
 #include "peripheral/rtc/plib_rtc.h"
+#include "touch/touch.h"
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility

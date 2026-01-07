@@ -19,7 +19,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d21_xpro\ATSAMD21J18A.ld
   hash: dd064fb89a563661fb32ac093d1ef3bc8495f5201e8c8e921fbde22096715ce9
 - file: ..\src\config\sam_d21_xpro\definitions.h
-  hash: 0d91c8ee4f5dfcfd681c9b8d26f3887749410c3a6a4747ef6ce829f0f4f7c100
+  hash: 59063310d9e3e621342b597c54d3f111b42dcca53f0605156d22806006dfd802
 - file: ..\src\config\sam_d21_xpro\device.h
   hash: b47b11ceb9f360e667a14c68f72033c9a8c1dcb7abb5fb77d0b2cb4abe939249
 - file: ..\src\config\sam_d21_xpro\device_cache.h
@@ -93,19 +93,19 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d21_xpro\touch\qtm_touch_key_0x0002_api.h
   hash: 4840f9cd8def73a029c2090d101548329c92bdf13bd19410029aab45234b42e2
 - file: ..\src\config\sam_d21_xpro\touch\touch.c
-  hash: 2d26937bf134a2223a4817152e094ffc42f644da360303a6e060228b96c15e02
+  hash: 4b1fd929b6723fac7126b7bcc9459b5832857ab12e386af829d4f40801fed154
 - file: ..\src\config\sam_d21_xpro\touch\touch.h
-  hash: b2e09ebf207d619cf7780b0160bdc1d7700e82355ee8a9e01a4c2f2482822698
+  hash: 698b345078fc2163a91ac4fe1cd37ba449b6e97db4341973dfbd45fd6d30d23a
 - file: ..\src\config\sam_d21_xpro\touch\touchTune.c
-  hash: cfef84a1d29b6616ab979bc7cfa72986b11ffe635a89e160f5895e726ecd2266
+  hash: cf0a545b4b65595edf897437a8858e0667768283aa3e267d4f3e94fe918918b0
 - file: ..\src\config\sam_d21_xpro\touch\touchTune.h
-  hash: b00f217b8f2d304a2d340ef6e416fbd3c9a3b8bdaefb85c87ded05ccff7fd41a
+  hash: 35da8d42a347b50a99bf0ef570253bc01896b0988efa628b7ac67e75fc90b922
 - file: ..\src\config\sam_d21_xpro\touch\touch_api_ptc.h
-  hash: 29e388059baeecb15f4b155fb2fe336747a308eece60826ddb3fd026983f66cc
+  hash: 636638c083a0857ce271cf7b5e957d01b7bcf51df261352702a92add0d9c7d78
 - file: ..\src\config\sam_d21_xpro\touch\touch_example.c
-  hash: 1ab38a9a73b5a68fa175a63394fd4b33155f564c9c48312009bea5aa9d35e186
+  hash: 8b4e747ffdfa6552646306bb047fed6fc3384126318a8078fa2f7df0a40e93ac
 - file: ..\src\config\sam_d21_xpro\touch\touch_example.h
-  hash: 59989902d4630e2ddf0822607a5c4485d4a31fbfa1ff2bc4a2b7aaa6656f58bb
+  hash: e3c082ba1e57bada628e30fb631a889f4b19e1f2688d1e8ea8abd2beab379a0e
 - file: ..\src\main.c
   hash: d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5
 - file: ..\src\packs\ATSAMD21J18A_DFP\component\ac.h

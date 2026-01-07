@@ -44,8 +44,8 @@ data:
     - children:
       - attributes:
           id: ptc
-          x: '322'
-          y: '292'
+          x: '66'
+          y: '295'
         type: ElementPosition
       type: ElementPositions
     type: ComponentGraph

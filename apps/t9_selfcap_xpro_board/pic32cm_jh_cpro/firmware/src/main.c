@@ -137,26 +137,6 @@ void processTouchStatus(void)
         if (touchDetectMultiTouch(2))
         {
             // Touch No detect
-            LED_4_Set();
-        }
-        else
-        {
-            // Touch detect
-            LED_4_Clear();
-        }
-    }
-    else
-    {
-        // Touch No detect
-        LED_4_Set();
-    }
-
-    key_status1 = get_sensor_state(3) & KEY_TOUCHED_MASK;
-    if (0u != key_status1)
-    {
-        if (touchDetectMultiTouch(3))
-        {
-            // Touch No detect
             LED_3_Set();
         }
         else
@@ -169,6 +149,26 @@ void processTouchStatus(void)
     {
         // Touch No detect
         LED_3_Set();
+    }
+
+    key_status1 = get_sensor_state(3) & KEY_TOUCHED_MASK;
+    if (0u != key_status1)
+    {
+        if (touchDetectMultiTouch(3))
+        {
+            // Touch No detect
+            LED_4_Set();
+        }
+        else
+        {
+            // Touch detect
+            LED_4_Clear();
+        }
+    }
+    else
+    {
+        // Touch No detect
+        LED_4_Set();
     }
 }
 

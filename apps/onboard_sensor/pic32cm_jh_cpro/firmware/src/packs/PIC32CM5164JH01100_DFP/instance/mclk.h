@@ -25,10 +25,10 @@
 
 
 /* ========== Instance Parameter definitions for MCLK peripheral ========== */
-#define MCLK_CTRLA_MCSEL_GCLK                    (1)        
-#define MCLK_CTRLA_MCSEL_OSC8M                   (0)        
+#define MCLK_CTRLA_MCSEL_GCLK                    (1)
+#define MCLK_CTRLA_MCSEL_OSC8M                   (0)
 #define MCLK_INSTANCE_ID                         (2)        /* Instance index for MCLK */
-#define MCLK_CLK_APB_NUM                         (4)        
+#define MCLK_CLK_APB_NUM                         (4)
 #define MCLK_SYSTEM_CLOCK                        (4000000)  /* System Clock Frequency at Reset */
 
 #endif /* _PIC32CMJH01_MCLK_INSTANCE_ */

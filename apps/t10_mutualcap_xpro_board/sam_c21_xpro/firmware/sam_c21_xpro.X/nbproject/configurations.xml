@@ -21,6 +21,9 @@
             <logicalFolder name="nvmctrl" displayName="nvmctrl" projectFiles="true">
               <itemPath>../src/config/sam_c21_xpro/peripheral/nvmctrl/plib_nvmctrl.h</itemPath>
             </logicalFolder>
+            <logicalFolder name="pm" displayName="pm" projectFiles="true">
+              <itemPath>../src/config/sam_c21_xpro/peripheral/pm/plib_pm.h</itemPath>
+            </logicalFolder>
             <logicalFolder name="port" displayName="port" projectFiles="true">
               <itemPath>../src/config/sam_c21_xpro/peripheral/port/plib_port.h</itemPath>
             </logicalFolder>
@@ -174,19 +177,25 @@
       <logicalFolder name="sam_c21_xpro.mc3_sam_c21_xpro"
                      displayName="sam_c21_xpro.mc3_sam_c21_xpro"
                      projectFiles="true">
-        <logicalFolder name="components" displayName="components" projectFiles="true">
-          <itemPath>sam_c21_xpro.mc3_sam_c21_xpro/components/core.yml</itemPath>
-          <itemPath>sam_c21_xpro.mc3_sam_c21_xpro/components/dfp.yml</itemPath>
-          <itemPath>sam_c21_xpro.mc3_sam_c21_xpro/components/sercom4.yml</itemPath>
-          <itemPath>sam_c21_xpro.mc3_sam_c21_xpro/components/cmsis.yml</itemPath>
-          <itemPath>sam_c21_xpro.mc3_sam_c21_xpro/components/lib_qtouch.yml</itemPath>
-          <itemPath>sam_c21_xpro.mc3_sam_c21_xpro/components/nvmctrl.yml</itemPath>
-          <itemPath>sam_c21_xpro.mc3_sam_c21_xpro/components/rtc.yml</itemPath>
-          <itemPath>sam_c21_xpro.mc3_sam_c21_xpro/components/sercom2.yml</itemPath>
-          <itemPath>sam_c21_xpro.mc3_sam_c21_xpro/components/evsys.yml</itemPath>
-          <itemPath>sam_c21_xpro.mc3_sam_c21_xpro/components/ptc.yml</itemPath>
-        </logicalFolder>
         <itemPath>sam_c21_xpro.mc3_sam_c21_xpro/mcc-config.mc4</itemPath>
+      </logicalFolder>
+      <logicalFolder name="sam_c21_xpro_sam_c21_xpro"
+                     displayName="sam_c21_xpro_sam_c21_xpro"
+                     projectFiles="true">
+        <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/core.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/ptc.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/rtc.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/evsys.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/nvmctrl.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/pm.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/sercom2.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/sercom4.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/dfp.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/cmsis.yml</itemPath>
+          <itemPath>sam_c21_xpro_sam_c21_xpro/components/lib_qtouch.yml</itemPath>
+        </logicalFolder>
+        <itemPath>sam_c21_xpro_sam_c21_xpro/mcc-config.mc4</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
     </logicalFolder>
@@ -224,6 +233,9 @@
             </logicalFolder>
             <logicalFolder name="nvmctrl" displayName="nvmctrl" projectFiles="true">
               <itemPath>../src/config/sam_c21_xpro/peripheral/nvmctrl/plib_nvmctrl.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="pm" displayName="pm" projectFiles="true">
+              <itemPath>../src/config/sam_c21_xpro/peripheral/pm/plib_pm.c</itemPath>
             </logicalFolder>
             <logicalFolder name="port" displayName="port" projectFiles="true">
               <itemPath>../src/config/sam_c21_xpro/peripheral/port/plib_port.c</itemPath>
@@ -272,7 +284,7 @@
         <targetDevice>ATSAMC21J18A</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>noID</platformTool>
+        <platformTool>EdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>5.00</languageToolchainVersion>
         <platform>3</platform>

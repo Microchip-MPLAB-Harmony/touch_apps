@@ -65,6 +65,78 @@
 // *****************************************************************************
 // *****************************************************************************
 
+/*** Macros for LED_SLIDER_1 pin ***/
+#define LED_SLIDER_1_Set()               (PORT_REGS->GROUP[0].PORT_OUTSET = ((uint32_t)1U << 4U))
+#define LED_SLIDER_1_Clear()             (PORT_REGS->GROUP[0].PORT_OUTCLR = ((uint32_t)1U << 4U))
+#define LED_SLIDER_1_Toggle()            (PORT_REGS->GROUP[0].PORT_OUTTGL = ((uint32_t)1U << 4U))
+#define LED_SLIDER_1_OutputEnable()      (PORT_REGS->GROUP[0].PORT_DIRSET = ((uint32_t)1U << 4U))
+#define LED_SLIDER_1_InputEnable()       (PORT_REGS->GROUP[0].PORT_DIRCLR = ((uint32_t)1U << 4U))
+#define LED_SLIDER_1_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 4U)) & 0x01U)
+#define LED_SLIDER_1_PIN                  PORT_PIN_PA04
+
+/*** Macros for LED_SLIDER_3 pin ***/
+#define LED_SLIDER_3_Set()               (PORT_REGS->GROUP[0].PORT_OUTSET = ((uint32_t)1U << 5U))
+#define LED_SLIDER_3_Clear()             (PORT_REGS->GROUP[0].PORT_OUTCLR = ((uint32_t)1U << 5U))
+#define LED_SLIDER_3_Toggle()            (PORT_REGS->GROUP[0].PORT_OUTTGL = ((uint32_t)1U << 5U))
+#define LED_SLIDER_3_OutputEnable()      (PORT_REGS->GROUP[0].PORT_DIRSET = ((uint32_t)1U << 5U))
+#define LED_SLIDER_3_InputEnable()       (PORT_REGS->GROUP[0].PORT_DIRCLR = ((uint32_t)1U << 5U))
+#define LED_SLIDER_3_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 5U)) & 0x01U)
+#define LED_SLIDER_3_PIN                  PORT_PIN_PA05
+
+/*** Macros for LED_SLIDER_5 pin ***/
+#define LED_SLIDER_5_Set()               (PORT_REGS->GROUP[0].PORT_OUTSET = ((uint32_t)1U << 10U))
+#define LED_SLIDER_5_Clear()             (PORT_REGS->GROUP[0].PORT_OUTCLR = ((uint32_t)1U << 10U))
+#define LED_SLIDER_5_Toggle()            (PORT_REGS->GROUP[0].PORT_OUTTGL = ((uint32_t)1U << 10U))
+#define LED_SLIDER_5_OutputEnable()      (PORT_REGS->GROUP[0].PORT_DIRSET = ((uint32_t)1U << 10U))
+#define LED_SLIDER_5_InputEnable()       (PORT_REGS->GROUP[0].PORT_DIRCLR = ((uint32_t)1U << 10U))
+#define LED_SLIDER_5_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 10U)) & 0x01U)
+#define LED_SLIDER_5_PIN                  PORT_PIN_PA10
+
+/*** Macros for LED_BUTTON_0 pin ***/
+#define LED_BUTTON_0_Set()               (PORT_REGS->GROUP[0].PORT_OUTSET = ((uint32_t)1U << 11U))
+#define LED_BUTTON_0_Clear()             (PORT_REGS->GROUP[0].PORT_OUTCLR = ((uint32_t)1U << 11U))
+#define LED_BUTTON_0_Toggle()            (PORT_REGS->GROUP[0].PORT_OUTTGL = ((uint32_t)1U << 11U))
+#define LED_BUTTON_0_OutputEnable()      (PORT_REGS->GROUP[0].PORT_DIRSET = ((uint32_t)1U << 11U))
+#define LED_BUTTON_0_InputEnable()       (PORT_REGS->GROUP[0].PORT_DIRCLR = ((uint32_t)1U << 11U))
+#define LED_BUTTON_0_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 11U)) & 0x01U)
+#define LED_BUTTON_0_PIN                  PORT_PIN_PA11
+
+/*** Macros for LED_SLIDER_2 pin ***/
+#define LED_SLIDER_2_Set()               (PORT_REGS->GROUP[0].PORT_OUTSET = ((uint32_t)1U << 14U))
+#define LED_SLIDER_2_Clear()             (PORT_REGS->GROUP[0].PORT_OUTCLR = ((uint32_t)1U << 14U))
+#define LED_SLIDER_2_Toggle()            (PORT_REGS->GROUP[0].PORT_OUTTGL = ((uint32_t)1U << 14U))
+#define LED_SLIDER_2_OutputEnable()      (PORT_REGS->GROUP[0].PORT_DIRSET = ((uint32_t)1U << 14U))
+#define LED_SLIDER_2_InputEnable()       (PORT_REGS->GROUP[0].PORT_DIRCLR = ((uint32_t)1U << 14U))
+#define LED_SLIDER_2_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 14U)) & 0x01U)
+#define LED_SLIDER_2_PIN                  PORT_PIN_PA14
+
+/*** Macros for LED_SLIDER_0 pin ***/
+#define LED_SLIDER_0_Set()               (PORT_REGS->GROUP[0].PORT_OUTSET = ((uint32_t)1U << 15U))
+#define LED_SLIDER_0_Clear()             (PORT_REGS->GROUP[0].PORT_OUTCLR = ((uint32_t)1U << 15U))
+#define LED_SLIDER_0_Toggle()            (PORT_REGS->GROUP[0].PORT_OUTTGL = ((uint32_t)1U << 15U))
+#define LED_SLIDER_0_OutputEnable()      (PORT_REGS->GROUP[0].PORT_DIRSET = ((uint32_t)1U << 15U))
+#define LED_SLIDER_0_InputEnable()       (PORT_REGS->GROUP[0].PORT_DIRCLR = ((uint32_t)1U << 15U))
+#define LED_SLIDER_0_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 15U)) & 0x01U)
+#define LED_SLIDER_0_PIN                  PORT_PIN_PA15
+
+/*** Macros for LED_BUTTON_1 pin ***/
+#define LED_BUTTON_1_Set()               (PORT_REGS->GROUP[0].PORT_OUTSET = ((uint32_t)1U << 16U))
+#define LED_BUTTON_1_Clear()             (PORT_REGS->GROUP[0].PORT_OUTCLR = ((uint32_t)1U << 16U))
+#define LED_BUTTON_1_Toggle()            (PORT_REGS->GROUP[0].PORT_OUTTGL = ((uint32_t)1U << 16U))
+#define LED_BUTTON_1_OutputEnable()      (PORT_REGS->GROUP[0].PORT_DIRSET = ((uint32_t)1U << 16U))
+#define LED_BUTTON_1_InputEnable()       (PORT_REGS->GROUP[0].PORT_DIRCLR = ((uint32_t)1U << 16U))
+#define LED_BUTTON_1_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 16U)) & 0x01U)
+#define LED_BUTTON_1_PIN                  PORT_PIN_PA16
+
+/*** Macros for LED_SLIDER_4 pin ***/
+#define LED_SLIDER_4_Set()               (PORT_REGS->GROUP[0].PORT_OUTSET = ((uint32_t)1U << 17U))
+#define LED_SLIDER_4_Clear()             (PORT_REGS->GROUP[0].PORT_OUTCLR = ((uint32_t)1U << 17U))
+#define LED_SLIDER_4_Toggle()            (PORT_REGS->GROUP[0].PORT_OUTTGL = ((uint32_t)1U << 17U))
+#define LED_SLIDER_4_OutputEnable()      (PORT_REGS->GROUP[0].PORT_DIRSET = ((uint32_t)1U << 17U))
+#define LED_SLIDER_4_InputEnable()       (PORT_REGS->GROUP[0].PORT_DIRCLR = ((uint32_t)1U << 17U))
+#define LED_SLIDER_4_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 17U)) & 0x01U)
+#define LED_SLIDER_4_PIN                  PORT_PIN_PA17
+
 // *****************************************************************************
 /* PORT Group
 
@@ -219,6 +291,40 @@ typedef enum
 // Section: Generated API based on pin configurations done in Pin Manager
 // *****************************************************************************
 // *****************************************************************************
+// *****************************************************************************
+/* Function:
+    void PORT_Initialize(void)
+
+  Summary:
+    Initializes the PORT Library.
+
+  Description:
+    This function initializes all ports and pins as configured in the
+    MHC Pin Manager.
+
+  Precondition:
+    None.
+
+  Parameters:
+    None.
+
+  Returns:
+    None.
+
+  Example:
+    <code>
+
+    PORT_Initialize();
+
+    </code>
+
+  Remarks:
+    The function should be called once before calling any other PORTS PLIB
+    functions.
+*/
+
+void PORT_Initialize(void);
+
 // *****************************************************************************
 // *****************************************************************************
 // Section: PORT APIs which operates on multiple pins of a group

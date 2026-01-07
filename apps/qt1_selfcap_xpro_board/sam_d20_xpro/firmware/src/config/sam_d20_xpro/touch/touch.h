@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.19.0 Release
+  Touch Library v3.20.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -16,7 +16,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (c) 2025 released Microchip Technology Inc.  All rights reserved.
+Copyright (c) 2026 released Microchip Technology Inc.  All rights reserved.
 
 Microchip licenses to you the right to use, modify, copy and distribute
 Software only when embedded on a Microchip microcontroller or digital signal
@@ -109,7 +109,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Range: 1 to 65535.
  * Default value: 1
  */
-#define DEF_NUM_CHANNELS (8u)
+#define DEF_NUM_CHANNELS (5u)
 
 
 /* Defines node parameter setting
@@ -137,18 +137,6 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 {                                                                                                                  \
    X_NONE, Y(13), (uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
-#define NODE_5_PARAMS                                                                                               \
-{                                                                                                                  \
-   X_NONE, Y(12), (uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
-}
-#define NODE_6_PARAMS                                                                                               \
-{                                                                                                                  \
-   X_NONE, Y(7), (uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
-}
-#define NODE_7_PARAMS                                                                                               \
-{                                                                                                                  \
-   X_NONE, Y(6), (uint8_t)PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
-}
 
 /**********************************************************/
 /***************** Key Params   ******************/
@@ -157,7 +145,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Range: 1 to 65535.
  * Default value: 1
  */
-#define DEF_NUM_SENSORS (8u)
+#define DEF_NUM_SENSORS (5u)
 
 /* Defines Key Sensor setting
  * {Sensor Threshold, Sensor Hysterisis, Sensor AKS}
@@ -190,24 +178,6 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 #define KEY_4_PARAMS                                                                                            \
 {                                                                                                              \
     40u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_1                       \
-}
-
-
-#define KEY_5_PARAMS                                                                                            \
-{                                                                                                              \
-    20u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_2                       \
-}
-
-
-#define KEY_6_PARAMS                                                                                            \
-{                                                                                                              \
-    20u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_2                       \
-}
-
-
-#define KEY_7_PARAMS                                                                                            \
-{                                                                                                              \
-    20u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_2                       \
 }
 
 
@@ -270,7 +240,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 /**********************************************************/
 /* Defines the number of scrollers (sliders or wheels)
  */
-#define DEF_NUM_SCROLLERS 2u
+#define DEF_NUM_SCROLLERS 1u
 
 /* Defines scroller parameter setting
  * {touch_scroller_type, touch_start_key, touch_scroller_size,
@@ -284,11 +254,6 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 #define SCROLLER_0_PARAMS                                                                                       \
 {                                                                                                              \
     (uint8_t)SCROLLER_TYPE_WHEEL, 2u, 3u,                            \
-		SCROLLER_RESOL_DEADBAND((uint8_t)SCR_RESOL_8_BIT, (uint8_t)SCR_DB_10_PERCENT),(uint8_t)8,20\
-}
-#define SCROLLER_1_PARAMS                                                                                       \
-{                                                                                                              \
-    (uint8_t)SCROLLER_TYPE_SLIDER, 5u, 3u,                            \
 		SCROLLER_RESOL_DEADBAND((uint8_t)SCR_RESOL_8_BIT, (uint8_t)SCR_DB_10_PERCENT),(uint8_t)8,20\
 }
 

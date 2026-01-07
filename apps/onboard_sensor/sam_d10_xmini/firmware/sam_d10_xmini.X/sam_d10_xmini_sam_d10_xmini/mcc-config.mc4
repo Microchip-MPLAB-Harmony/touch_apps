@@ -19,7 +19,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d10_xmini\ATSAMD10D14AM.ld
   hash: c8496f629b23d64812c60c31c13598c47bcdfeeb142ee9ada403dadd350c2086
 - file: ..\src\config\sam_d10_xmini\definitions.h
-  hash: bab6150ed1889cb5ae6a9d9f09ee557291ea947ade44127286615a49f07cc03b
+  hash: ad6e03624dada81c54839dba1ee9dcf42ecd40f9ee9eb2c5116aa5c690bb6bad
 - file: ..\src\config\sam_d10_xmini\device.h
   hash: 93b8d8d83259a00c866b3312233e91fa69eedea5bb45abec1eed44f07218a900
 - file: ..\src\config\sam_d10_xmini\device_cache.h
@@ -29,7 +29,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d10_xmini\exceptions.c
   hash: d1567a190561858cc1cb7e796cf1a29720e52b9799bbd88b087993d8539e137f
 - file: ..\src\config\sam_d10_xmini\initialization.c
-  hash: 7255266ccb6dfbaf41d6e6cf8c4f04f13a3037f20bbac3cc0d91da7587440c51
+  hash: 89fbd49203824917eab79561f99eaea30deaecae00f08da42f36c4c2ada1082f
 - file: ..\src\config\sam_d10_xmini\interrupts.c
   hash: 4cbd5f090e787211df87de2e2ea5d82835879cf16d695f679dd4a5ab2aed0264
 - file: ..\src\config\sam_d10_xmini\interrupts.h
@@ -83,7 +83,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d10_xmini\touch\datastreamer\datastreamer.h
   hash: fd4ef50dfd2c5d6d9a76d1a08cd87db26ee85fcc485c6be11a6c3b62b79719bb
 - file: ..\src\config\sam_d10_xmini\touch\datastreamer\datastreamer_UART_sam.c
-  hash: 78af36c08fac704946c74e44bd3bb823fc1dea642803bba49eb98b23de4a86db
+  hash: c2c07e7fb0549ef2db3e1e18f7f1e1fe257958463e865955910fd234dafeda2b
 - file: ..\src\config\sam_d10_xmini\touch\lib\qtm_acq_samd10_0x0009.X.a
   hash: 648bfd2b8ebc8ee96c3589913b2a498e2ebf50a9bf411972eb107d5e67112946
 - file: ..\src\config\sam_d10_xmini\touch\lib\qtm_freq_hop_auto_cm0p_0x0004.X.a
@@ -99,15 +99,15 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d10_xmini\touch\qtm_touch_key_0x0002_api.h
   hash: 4840f9cd8def73a029c2090d101548329c92bdf13bd19410029aab45234b42e2
 - file: ..\src\config\sam_d10_xmini\touch\touch.c
-  hash: b0b8e59037cbbed1c0335c7d9c71be5503dc2f34bd0265659c1fb67f69745193
+  hash: 8676b9460c5b4148edf5a6d64d9b2905625b4a3ef2df44b328c3ecfb98aee1e7
 - file: ..\src\config\sam_d10_xmini\touch\touch.h
-  hash: c82f9de612d59b539ba9bba2c50d7b3451e643711beeed40f854e973f8626260
+  hash: a013ab5a488e1ca002ece86b5c00c9b0fdd352e1abdfdf53c84788f0c4772dd6
 - file: ..\src\config\sam_d10_xmini\touch\touch_api_ptc.h
-  hash: fcdf43cef4a4019b590a37d7aa5c6ca37a36a28a5cb06f792c49118e0210439b
+  hash: 450d974e4282e3d92da6833bd89cbe62f20f07003cb35ea66411a62ed413b554
 - file: ..\src\config\sam_d10_xmini\touch\touch_example.c
-  hash: 663f6a2b9a49549e69052242b7dade8214ad5e70c8b89b9a540ddf0655a1ad37
+  hash: e6e32e0f806de4970ff263a9c5ae9de8487e771351ef6814f07b38bed3e2fd11
 - file: ..\src\config\sam_d10_xmini\touch\touch_example.h
-  hash: 59989902d4630e2ddf0822607a5c4485d4a31fbfa1ff2bc4a2b7aaa6656f58bb
+  hash: e3c082ba1e57bada628e30fb631a889f4b19e1f2688d1e8ea8abd2beab379a0e
 - file: ..\src\main.c
   hash: d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5
 - file: ..\src\packs\ATSAMD10D14AM_DFP\component\ac.h

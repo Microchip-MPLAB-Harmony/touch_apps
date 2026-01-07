@@ -25,7 +25,7 @@
 
 
 /* ========== Instance Parameter definitions for RSTC peripheral ========== */
-#define RSTC_BACKUP_IMPLEMENTED                  (0)        
+#define RSTC_BACKUP_IMPLEMENTED                  (0)
 #define RSTC_INSTANCE_ID                         (3)        /* Instance index for RSTC */
 #define RSTC_NUMBER_OF_EXTWAKE                   (0)        /* number of external wakeup line */
 

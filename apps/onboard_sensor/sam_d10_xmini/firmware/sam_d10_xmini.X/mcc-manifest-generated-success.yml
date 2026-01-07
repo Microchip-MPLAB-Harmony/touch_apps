@@ -2,7 +2,7 @@
 
 manifest_file_version: 1.0.0
 project: sam_d10_xmini
-creation_date: 2026-01-02T16:45:29.463+05:30[Asia/Calcutta]
+creation_date: 2026-01-06T09:18:14.765+05:30[Asia/Calcutta]
 operating_system: Windows 11
 mcc_mode: IDE
 mcc_mode_version: v6.25
@@ -19,5 +19,5 @@ device_library: {library_class: com.microchip.mcc.harmony.Harmony3Library, name:
 packs: {name: SAMD10_DFP, version: 2.7.81}
 modules:
 - {name: csp, type: HARMONY, version: v3.25.0}
-- {name: CMSIS_5, type: HARMONY, version: 5.9.0}
+- {name: CMSIS_5, type: HARMONY, version: 5.9.1-dev}
 - {name: touch, type: HARMONY, version: v3.20.0}

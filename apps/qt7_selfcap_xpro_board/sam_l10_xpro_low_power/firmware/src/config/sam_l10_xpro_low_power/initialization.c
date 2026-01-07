@@ -136,6 +136,7 @@ void SYS_Initialize ( void* data )
     PM_Initialize();
 
   
+    PORT_Initialize();
 
     CLOCK_Initialize();
 
@@ -144,6 +145,8 @@ void SYS_Initialize ( void* data )
     NVMCTRL_Initialize();
 
     EVSYS_Initialize();
+
+    SERCOM0_USART_Initialize();
 
     RTC_Initialize();
 

@@ -98,19 +98,19 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32cm_LE00_cpro\touch\qtm_touch_key_0x0002_api.h
   hash: 4840f9cd8def73a029c2090d101548329c92bdf13bd19410029aab45234b42e2
 - file: ..\src\config\pic32cm_LE00_cpro\touch\touch.c
-  hash: 166cfc1716b17ad236eda9a9720204f4bec2d3bb8064a90ad9dd61380691aa39
+  hash: ad9bdfd1200787bc67aab6ab02888f9b7eba9b0caee4bf3a269aaba5993c3140
 - file: ..\src\config\pic32cm_LE00_cpro\touch\touch.h
-  hash: e1c20319576e8f5682bf5c474c33f574bba7339eeb22e357568a1f19884840e3
+  hash: 167dd383398080ead0becc4d600428d789432a65680ed0ad009942f07675b5b1
 - file: ..\src\config\pic32cm_LE00_cpro\touch\touchTune.c
-  hash: bd2e499e6dc99a165baaa7cf612da9c62ec245afef133217459468149bfaeeeb
+  hash: 457286d5e31adfec2cf7b2438688e3655602b7941e89490ec907944f8b0d327b
 - file: ..\src\config\pic32cm_LE00_cpro\touch\touchTune.h
-  hash: b00f217b8f2d304a2d340ef6e416fbd3c9a3b8bdaefb85c87ded05ccff7fd41a
+  hash: 35da8d42a347b50a99bf0ef570253bc01896b0988efa628b7ac67e75fc90b922
 - file: ..\src\config\pic32cm_LE00_cpro\touch\touch_api_ptc.h
-  hash: 9ae29d40fdb628102a237ff12d1c284ee3bfb3af059e9b01371c9cea55698218
+  hash: 83620f00993f5aea1da088c9242ca16e7278c8e8bb9ceb98ab77da8f3e788b1a
 - file: ..\src\config\pic32cm_LE00_cpro\touch\touch_example.c
-  hash: 663f6a2b9a49549e69052242b7dade8214ad5e70c8b89b9a540ddf0655a1ad37
+  hash: e6e32e0f806de4970ff263a9c5ae9de8487e771351ef6814f07b38bed3e2fd11
 - file: ..\src\config\pic32cm_LE00_cpro\touch\touch_example.h
-  hash: 59989902d4630e2ddf0822607a5c4485d4a31fbfa1ff2bc4a2b7aaa6656f58bb
+  hash: e3c082ba1e57bada628e30fb631a889f4b19e1f2688d1e8ea8abd2beab379a0e
 - file: ..\src\main.c
   hash: d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5
 - file: ..\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h

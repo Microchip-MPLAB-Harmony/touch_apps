@@ -727,6 +727,9 @@ data:
             id: lib_qtouch
             value: GCLK_ID_34_FREQ:sync
           type: Dynamic
+        - attributes:
+            value: GCLK_ID_34_FREQ
+          type: User
         type: Values
       type: String
     SELFCAP-INPUT_0:
@@ -987,6 +990,49 @@ data:
         - attributes:
             id: lib_qtouch
             value: RTC
+          type: Dynamic
+        type: Values
+      type: String
+    HELPER_STATE:
+      attributes:
+        id: HELPER_STATE
+      children:
+      - children:
+        - attributes:
+            value: '{"alert":true}'
+          type: User
+        type: Values
+      type: String
+    GET_PTC_CLOCK_FREQUENCY:
+      attributes:
+        id: GET_PTC_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: '4000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    FTL_X_INFO:
+      attributes:
+        id: FTL_X_INFO
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: X_NONE,X_NONE,X_NONE,X_NONE,X_NONE
+          type: Dynamic
+        type: Values
+      type: String
+    FTL_Y_INFO:
+      attributes:
+        id: FTL_Y_INFO
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: Y(5),Y(4),Y(11),Y(10),Y(13)
           type: Dynamic
         type: Values
       type: String

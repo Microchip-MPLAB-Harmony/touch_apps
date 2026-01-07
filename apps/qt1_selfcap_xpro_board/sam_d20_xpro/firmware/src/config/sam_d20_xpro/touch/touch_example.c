@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Touch Library v3.19.0 Release
+  Touch Library v3.20.0 Release
 
   Company:
     Microchip Technology Inc.
@@ -17,7 +17,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
-Copyright (C) [2025], Microchip Technology Inc., and its subsidiaries. All rights reserved.
+Copyright (C) [2026], Microchip Technology Inc., and its subsidiaries. All rights reserved.
 
 The software and documentation is provided by microchip and its contributors
 "as is" and any express, implied or statutory warranties, including, but not
@@ -104,67 +104,9 @@ uint16_t scroller_position = 0u;
         //Touch No detect
     }
 
-    key_status = get_sensor_state(5) & KEY_TOUCHED_MASK;
-    if (0u != key_status) {
-        //Touch detect
-    } else {
-        //Touch No detect
-    }
-
-    key_status = get_sensor_state(6) & KEY_TOUCHED_MASK;
-    if (0u != key_status) {
-        //Touch detect
-    } else {
-        //Touch No detect
-    }
-
-    key_status = get_sensor_state(7) & KEY_TOUCHED_MASK;
-    if (0u != key_status) {
-        //Touch detect
-    } else {
-        //Touch No detect
-    }
-
 
     scroller_status = get_scroller_state(0);
     scroller_position = get_scroller_position(0);
-    //Example: 8 bit scroller resolution. Modify as per requirement.
-    scroller_position = scroller_position  >> 5u;
-    //LED_OFF
-    if ( 0u != scroller_status) {
-        switch (scroller_position) {
-        case 0:
-            //LED0_ON
-            break;
-        case 1:
-            //LED1_ON
-            break;
-        case 2:
-            //LED2_ON
-            break;
-        case 3:
-            //LED3_ON
-            break;
-        case 4:
-            //LED4_ON
-            break;
-        case 5:
-            //LED5_ON
-            break;
-        case 6:
-            //LED6_ON
-            break;
-        case 7:
-            //LED7_ON
-            break;
-        default:
-            //LED_OFF
-            break;
-        }
-    }
-
-    scroller_status = get_scroller_state(1);
-    scroller_position = get_scroller_position(1);
     //Example: 8 bit scroller resolution. Modify as per requirement.
     scroller_position = scroller_position  >> 5u;
     //LED_OFF

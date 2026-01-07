@@ -39,7 +39,7 @@
 #define TCC0_OTMX                                (1)        /* Output Matrix feature implemented */
 #define TCC0_OW_NUM                              (8)        /* Number of Output Waveforms */
 #define TCC0_PG                                  (1)        /* Pattern Generation feature implemented */
-#define TCC0_SIZE                                (24)       
+#define TCC0_SIZE                                (24)
 #define TCC0_SWAP                                (1)        /* DTI outputs swap feature implemented */
 
 #endif /* _PIC32CMJH01_TCC0_INSTANCE_ */

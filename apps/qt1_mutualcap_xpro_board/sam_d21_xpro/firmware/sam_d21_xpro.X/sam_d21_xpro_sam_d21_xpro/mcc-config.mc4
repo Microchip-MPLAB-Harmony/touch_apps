@@ -93,19 +93,19 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_d21_xpro\touch\qtm_touch_key_0x0002_api.h
   hash: 4840f9cd8def73a029c2090d101548329c92bdf13bd19410029aab45234b42e2
 - file: ..\src\config\sam_d21_xpro\touch\touch.c
-  hash: c8f5bec397a8bedbae69991a77a66a430ef6b2af33e0b0e8ce617e03889a66ea
+  hash: db854a02496fe9e535b2e6fd3af20536881754f61d32041aa961830f30e8025a
 - file: ..\src\config\sam_d21_xpro\touch\touch.h
-  hash: c4a7002af41da33e478a61d831e65591c3c1f9e0642ea66013279d1ee02f955c
+  hash: 71dd71aa84ebe1eb79e3e06ae350abf844635ce716ba47b3328aeaec68d844bd
 - file: ..\src\config\sam_d21_xpro\touch\touchTune.c
-  hash: cfef84a1d29b6616ab979bc7cfa72986b11ffe635a89e160f5895e726ecd2266
+  hash: cf0a545b4b65595edf897437a8858e0667768283aa3e267d4f3e94fe918918b0
 - file: ..\src\config\sam_d21_xpro\touch\touchTune.h
-  hash: b00f217b8f2d304a2d340ef6e416fbd3c9a3b8bdaefb85c87ded05ccff7fd41a
+  hash: 35da8d42a347b50a99bf0ef570253bc01896b0988efa628b7ac67e75fc90b922
 - file: ..\src\config\sam_d21_xpro\touch\touch_api_ptc.h
-  hash: 29e388059baeecb15f4b155fb2fe336747a308eece60826ddb3fd026983f66cc
+  hash: 636638c083a0857ce271cf7b5e957d01b7bcf51df261352702a92add0d9c7d78
 - file: ..\src\config\sam_d21_xpro\touch\touch_example.c
-  hash: 5ac88948c43f9c9a5e02e7cddd6f26c628bcc1860486af40ae58ee06587e7e63
+  hash: 5b2d214c825739251488bc604143e51085a0439c120b1aa9ef2e08a5e15d7e08
 - file: ..\src\config\sam_d21_xpro\touch\touch_example.h
-  hash: 59989902d4630e2ddf0822607a5c4485d4a31fbfa1ff2bc4a2b7aaa6656f58bb
+  hash: e3c082ba1e57bada628e30fb631a889f4b19e1f2688d1e8ea8abd2beab379a0e
 - file: ..\src\main.c
   hash: d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5
 - file: ..\src\packs\ATSAMD21J18A_DFP\component\ac.h

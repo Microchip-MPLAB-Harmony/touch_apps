@@ -18,6 +18,30 @@ data:
     children:
     - children:
       - attributes:
+          id: Touch_sercom_Krono
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: sercom0
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: SERCOM0_UART
+            type: String
+          - attributes:
+              id: enabled
+            children:
+            - type: Value
+              value: 'true'
+            type: Boolean
+          type: Attributes
+        type: DirectDependency
+      - attributes:
           id: Touch_timer
         children:
         - children:
@@ -62,8 +86,8 @@ data:
     - children:
       - attributes:
           id: lib_qtouch
-          x: '683'
-          y: '255'
+          x: '269'
+          y: '160'
         type: ElementPosition
       type: ElementPositions
     type: ComponentGraph
@@ -190,7 +214,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: Y(2)|Y(13)|Y(14)|Y(17)|Y(16),Y(2)|Y(3)|Y(14)|Y(17)|Y(16),Y(2)|Y(3)|Y(13)|Y(17)|Y(16),Y(2)|Y(3)|Y(13)|Y(14)|Y(16),Y(2)|Y(3)|Y(13)|Y(14)|Y(17)
+            value: Y(2)|Y(17)|Y(16)|Y(15)|Y(14),Y(2)|Y(3)|Y(16)|Y(15)|Y(14),Y(2)|Y(3)|Y(17)|Y(15)|Y(14),Y(2)|Y(3)|Y(17)|Y(16)|Y(14),Y(2)|Y(3)|Y(17)|Y(16)|Y(15)
           type: Dynamic
         type: Values
       type: String
@@ -201,7 +225,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: Y(3),Y(13),Y(14),Y(17),Y(16)
+            value: Y(3),Y(17),Y(16),Y(15),Y(14)
           type: Dynamic
         type: Values
       type: String
@@ -287,7 +311,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '13'
+            value: '17'
           type: User
         type: Values
       type: KeyValueSet
@@ -297,7 +321,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '14'
+            value: '16'
           type: User
         type: Values
       type: KeyValueSet
@@ -307,7 +331,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '17'
+            value: '15'
           type: User
         type: Values
       type: KeyValueSet
@@ -317,7 +341,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '16'
+            value: '14'
           type: User
         type: Values
       type: KeyValueSet
@@ -521,6 +545,61 @@ data:
         - attributes:
             id: lib_qtouch
             value: RTC
+          type: Dynamic
+        type: Values
+      type: String
+    TOUCH_TUNE_WITH_PLUGIN_SOURCE:
+      attributes:
+        id: TOUCH_TUNE_WITH_PLUGIN_SOURCE
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    TOUCH_TUNE_WITH_PLUGIN_HEADER:
+      attributes:
+        id: TOUCH_TUNE_WITH_PLUGIN_HEADER
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ENABLE_TOUCH_TUNE_WITH_PLUGIN:
+      attributes:
+        id: ENABLE_TOUCH_TUNE_WITH_PLUGIN
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    TOUCH_SERCOM_KRONO_INSTANCE:
+      attributes:
+        id: TOUCH_SERCOM_KRONO_INSTANCE
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: SERCOM0
           type: Dynamic
         type: Values
       type: String

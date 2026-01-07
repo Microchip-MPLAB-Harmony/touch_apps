@@ -4,14 +4,14 @@
 
 
 project: 
-creation_date: 2026-01-02T17:08:59.364+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2026-01-06T15:48:51.439+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 11
 mcc_mode: IDE            # [IDE|Standalone|Headless]
 mcc_version: v5.6.3
 mcc_core_version: v5.8.3
 mplabx_version: v6.25        # if MPLAB X plugin only
 harmony_version: v5.6.3
-compiler: XC32 4.60
+compiler: XC32 5.00
 
 modules:
     - {name: "csp", version: "v3.25.0"}

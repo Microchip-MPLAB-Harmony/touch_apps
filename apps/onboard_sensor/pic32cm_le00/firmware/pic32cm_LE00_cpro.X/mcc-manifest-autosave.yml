@@ -2,7 +2,7 @@
 
 manifest_file_version: 1.0.0
 project: pic32cm_LE00_cpro
-creation_date: 2026-01-02T16:39:56.362+05:30[Asia/Calcutta]
+creation_date: 2026-01-06T10:00:30.531+05:30[Asia/Calcutta]
 operating_system: Windows 11
 mcc_mode: IDE
 mcc_mode_version: v6.25
@@ -11,7 +11,7 @@ compiler: XC32 5.00
 mcc_version: 5.6.3
 mcc_core_version: 5.8.3
 content_manager_version: 6.0.3
-is_mcc_offline: false
+is_mcc_offline: true
 is_using_prerelease_versions: false
 mcc_content_registries: https://registry.npmjs.org/
 device_library: {library_class: com.microchip.mcc.harmony.Harmony3Library, name: Bundled,
