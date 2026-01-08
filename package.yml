@@ -1,11 +1,11 @@
 package:
   format-version: "1.0.0"
   name: "touch_apps"
-  version: "v3.9.1"
+  version: "v3.10.0"
   type: "application"
   status: "production"
 
   dependencies:
     - name: "touch"
       type: "package"
-      version: "v3.19.0"
+      version: "v3.20.0"

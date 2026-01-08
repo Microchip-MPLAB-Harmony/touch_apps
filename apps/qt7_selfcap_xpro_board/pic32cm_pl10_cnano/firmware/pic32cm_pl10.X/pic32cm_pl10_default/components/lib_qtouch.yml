@@ -9,7 +9,6 @@ dependency:
   type: module
   version: ''
 - dependencyPackage: ''
-  devMode: true
   name: touch
   type: package
   version: v3.20.0

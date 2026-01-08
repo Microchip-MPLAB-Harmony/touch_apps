@@ -1,9 +1,4 @@
-﻿---
-title: Touch Applications
-has_children: true
-has_toc: false
-nav_order: 1
----
+﻿# Touch Applications
 
 ![Microchip logo](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_logo.png)
 ![Harmony logo small](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_mplab_harmony_logo_small.png)
@@ -50,6 +45,7 @@ The following applications are provided to demonstrate touch applications using 
 | [QT1 Xplained Pro Self Capacitance Extension Board](apps/qt1_selfcap_xpro_board/readme.md)     | Examples using the button and scroller operation using self capacitance   |
 | [QT1 Xplained Pro Mutual Capacitance Extension Board](apps/qt1_mutualcap_xpro_board/readme.md) | Examples using the button and scroller operation using mutual capacitance |
 | [QT7 Xplained Pro Extension Board](apps/qt7_selfcap_xpro_board/readme.md)                      | Examples using the QT7 water tolerant and robust touch board              |
+| [QT8 Xplained Pro Extension Board](apps/qt8_selfcap_xpro_board/readme.md)                      | Examples using the QT8 water tolerant and robust touch surface board      |
 | [T9 Xplained Pro Extension Board](apps/t9_selfcap_xpro_board/readme.md)                        | Examples using buttons operation using self capacitance.                  |
 | [T10 Xplained Pro Extension Board](apps/t10_mutualcap_xpro_board/readme.md)                    | Examples using the button and scroller operation using mutual capacitance |
 | [Onboard Sensors Development Boards](apps/onboard_sensor/readme.md)                            | Examples using onboard touch button(s) on Development boards              |

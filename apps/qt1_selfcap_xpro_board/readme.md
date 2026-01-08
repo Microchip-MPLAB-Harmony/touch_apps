@@ -1,3 +1,3 @@
 [![Microchip logo](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_logo.png)](https://www.microchip.com)
 
-[Click here](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=touch_apps_QT1_Xplained_Pro_Self_Capacitance_Examples&version=latest&redirect=true) to view documentation for this application.
+[Click here](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=h3-touch-example-qt1-self-cap-main&version=latest&redirect=true) to view documentation for this application.
