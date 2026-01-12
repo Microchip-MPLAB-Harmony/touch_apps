@@ -105,7 +105,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\touch\touch.c
   hash: 40d360ef7f486bc21d623a0a89c0042bf0dd70df30b61f8cf1ce26699ffb9f32
 - file: ..\src\config\default\touch\touch.h
-  hash: 401b26423035af7ff8113d8fb802efb6056f32d6067753c5c591dc903e13342d
+  hash: a3737adfe29d1fedec8aaf2e0c1d961c73f26433b932e320d6d69c84dbb5f78e
 - file: ..\src\config\default\touch\touchTune.c
   hash: 47a6858fa0404f68788ebb4bc74de3b47cc49a4c601a5fbdb8e5aecce5d1e612
 - file: ..\src\config\default\touch\touchTune.h

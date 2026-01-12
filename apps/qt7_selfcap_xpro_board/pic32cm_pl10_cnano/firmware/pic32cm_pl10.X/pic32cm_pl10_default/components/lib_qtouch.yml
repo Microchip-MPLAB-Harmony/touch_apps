@@ -9,6 +9,7 @@ dependency:
   type: module
   version: ''
 - dependencyPackage: ''
+  devMode: true
   name: touch
   type: package
   version: v3.20.0
@@ -86,8 +87,8 @@ data:
     - children:
       - attributes:
           id: lib_qtouch
-          x: '347'
-          y: '211'
+          x: '570'
+          y: '177'
         type: ElementPosition
       type: ElementPositions
     type: ComponentGraph
@@ -258,7 +259,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '10'
+            value: '8'
           type: User
         type: Values
       type: Integer
@@ -268,7 +269,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '10'
+            value: '9'
           type: User
         type: Values
       type: Integer
@@ -278,7 +279,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '70'
+            value: '50'
           type: User
         type: Values
       type: Integer
@@ -288,7 +289,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '70'
+            value: '60'
           type: User
         type: Values
       type: Integer
@@ -298,7 +299,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '70'
+            value: '60'
           type: User
         type: Values
       type: Integer
@@ -311,26 +312,6 @@ data:
             id: lib_qtouch
             value: 'false'
           type: Dynamic
-        type: Values
-      type: Boolean
-    DS_DEDICATED_PIN:
-      attributes:
-        id: DS_DEDICATED_PIN
-      children:
-      - children:
-        - attributes:
-            value: '2'
-          type: User
-        type: Values
-      type: KeyValueSet
-    DS_DEDICATED_PIN_ENABLE:
-      attributes:
-        id: DS_DEDICATED_PIN_ENABLE
-      children:
-      - children:
-        - attributes:
-            value: 'true'
-          type: User
         type: Values
       type: Boolean
     ENABLE_SCROLLER:
@@ -364,7 +345,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: Y(4),Y(4),Y(4),Y(4),Y(4)
+            value: X_NONE,X_NONE,X_NONE,X_NONE,X_NONE
           type: Dynamic
         type: Values
       type: String
@@ -456,7 +437,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '2'
+            value: '0'
           type: User
         type: Values
       type: KeyValueSet
@@ -713,4 +694,18 @@ data:
           type: Boolean
         type: Attributes
       type: File
+    PTC_CLOCK_FREQ:
+      attributes:
+        id: PTC_CLOCK_FREQ
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: ADC0_CLOCK_FREQUENCY:sync
+          type: Dynamic
+        - attributes:
+            value: ADC0_CLOCK_FREQUENCY
+          type: User
+        type: Values
+      type: String
   userData: {}

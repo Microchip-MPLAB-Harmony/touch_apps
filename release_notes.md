@@ -8,7 +8,7 @@
 See [readme](readme.md) for detailed list of example applications
 
 ### NEW FEATURES
-* On-board sensor example project for PIC32CM_PL10_Curiosity_Nano
+* On-board sensor example project is added for PIC32CM_PL10_Curiosity_Nano
 * Self-Capacitance example project is added for [QT7 Xplained Pro](https://www.microchip.com/en-us/development-tool/atqt7-xpro) with PIC32CM_PL10_Curiosity_Nano
 * Mutual Capacitance example project is added for [T10 Xplained Pro](https://www.microchip.com/en-us/development-tool/ac47h23a) with PIC32CM_PL10_Curiosity_Nano
 * Self Capaciatnce Surface and Gesture based example project is added for [QT8 Xplained Pro](https://www.microchip.com/en-us/development-tool/AC164161) with PIC32CM_PL10_Curiosity_Nano
