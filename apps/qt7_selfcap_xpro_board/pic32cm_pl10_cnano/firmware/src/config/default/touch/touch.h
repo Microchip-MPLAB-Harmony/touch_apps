@@ -136,19 +136,19 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #define NODE_0_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(29), 8,(uint8_t)PRSC_DIV_SEL_1, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   X_NONE, Y(29), 10,(uint8_t)PRSC_DIV_SEL_1, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_1_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(17), 9,(uint8_t)PRSC_DIV_SEL_1, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   X_NONE, Y(17), 12,(uint8_t)PRSC_DIV_SEL_1, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_2_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(5), 50,(uint8_t)PRSC_DIV_SEL_1, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   X_NONE, Y(5), 60,(uint8_t)PRSC_DIV_SEL_1, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_3_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(18), 60,(uint8_t)PRSC_DIV_SEL_1, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   X_NONE, Y(18), 70,(uint8_t)PRSC_DIV_SEL_1, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_4_PARAMS                                                                                               \
 {                                                                                                                  \
@@ -170,31 +170,31 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #define KEY_0_PARAMS                                                                                            \
 {                                                                                                              \
-    150u, (uint8_t)HYST_12_5, (uint8_t)NO_AKS_GROUP                       \
+    150u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
 }
 
 
 #define KEY_1_PARAMS                                                                                            \
 {                                                                                                              \
-    150u, (uint8_t)HYST_12_5, (uint8_t)NO_AKS_GROUP                       \
+    150u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
 }
 
 
 #define KEY_2_PARAMS                                                                                            \
 {                                                                                                              \
-    150u, (uint8_t)HYST_12_5, (uint8_t)AKS_GROUP_1                       \
+    150u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_1                       \
 }
 
 
 #define KEY_3_PARAMS                                                                                            \
 {                                                                                                              \
-    150u, (uint8_t)HYST_12_5, (uint8_t)AKS_GROUP_1                       \
+    150u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_1                       \
 }
 
 
 #define KEY_4_PARAMS                                                                                            \
 {                                                                                                              \
-    150u, (uint8_t)HYST_12_5, (uint8_t)AKS_GROUP_1                       \
+    150u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_1                       \
 }
 
 

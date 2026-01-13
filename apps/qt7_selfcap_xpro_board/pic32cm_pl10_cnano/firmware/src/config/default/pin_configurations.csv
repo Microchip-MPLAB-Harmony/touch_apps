@@ -40,4 +40,4 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,S
 45,PA01, LED_SLIDER_4,GPIO,Digital,Out,Low,,,DISABLED
 46,PA02,,Available,,,,,,DISABLED
 47,PA03,,Available,,,,,,DISABLED
-48,PA04,,Available,,,,,,DISABLED
+48,PA04,GPIO_PA04,GPIO,Digital,Out,Low,,,DISABLED

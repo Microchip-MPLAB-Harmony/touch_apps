@@ -1101,6 +1101,9 @@ data:
             id: lib_qtouch
             value: ''
           type: Dynamic
+        - attributes:
+            value: GPIO
+          type: User
         type: Values
       type: String
     PIN_4_FUNCTION_TYPE:
@@ -1170,7 +1173,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: '0x1c0100c3'
+            value: '0x1c0100d3'
           type: Dynamic
         type: Values
       type: String
@@ -2010,6 +2013,89 @@ data:
           type: Dynamic
         type: Values
       type: Boolean
+    PIN_48_MODE:
+      attributes:
+        id: PIN_48_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG4:
+      attributes:
+        id: PORT_GROUP_0_PINCFG4
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PIN_4_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_4_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PIN_48_INEN:
+      attributes:
+        id: PIN_48_INEN
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_48_DIR:
+      attributes:
+        id: PIN_48_DIR
+      children:
+      - children:
+        - attributes:
+            value: Out
+          type: User
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_4:
+      attributes:
+        id: PORT_GROUP_0_PAD_4
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA04
+          type: Dynamic
+        type: Values
+      type: String
+    PIN_48_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_48_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_48_FUNCTION_NAME:
+      attributes:
+        id: PIN_48_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: GPIO_PA04
+          type: User
+        type: Values
+      type: String
   userData:
     children:
     - attributes:

@@ -493,6 +493,8 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="c000000-c00ffff"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="D:/Repo/touch_apps/apps/qt7_selfcap_xpro_board/pic32cm_pl10_cnano/firmware/pic32cm_pl10.X/debug/default/pic32cm_pl10_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"

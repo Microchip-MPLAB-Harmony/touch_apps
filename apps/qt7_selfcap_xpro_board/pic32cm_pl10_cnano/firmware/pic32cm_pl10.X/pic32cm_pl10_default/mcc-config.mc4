@@ -59,9 +59,9 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\peripheral\pm\plib_pm.h
   hash: 2c710197399980bce12b1e61ef1e2f88a3f9fa94f6bd5d1544b93f657c8a08b2
 - file: ..\src\config\default\peripheral\port\plib_port.c
-  hash: a51b6d122631b545c0c3a7068d553e60f75135e05a28b1ffecd351c98b3cdd99
+  hash: 0eba4e29f02752c37581905f24e07bb4cd91ca3a02077d292c13cb783b171de4
 - file: ..\src\config\default\peripheral\port\plib_port.h
-  hash: a4b31139f29df4bc99b3b153f659c56c1498f7382732ccd120fc232139f92854
+  hash: 88e59be59cd8e2f53835014d47edf50dc27e3831d23ef21d6bd53e30f7ee9c74
 - file: ..\src\config\default\peripheral\rtc\plib_rtc.h
   hash: 92e9a13ceda691e011ad7efff84d616e8466f744723f8135850fc171fd53ac3b
 - file: ..\src\config\default\peripheral\rtc\plib_rtc_timer.c
@@ -73,7 +73,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\peripheral\sercom\usart\plib_sercom_usart_common.h
   hash: 8ce7e93172c9cde3c5940869cb66ab1646c706a4ea1605209085ea58382e8b1e
 - file: ..\src\config\default\pin_configurations.csv
-  hash: 89a4ac1b72a10467c4012d3f62f23c702ce3c29a830873360980efb6e937e06b
+  hash: c61d5c37524ae3f4ae8199af8a271e517d0afc86e0fffc5fe777bfde0419ce94
 - file: ..\src\config\default\startup_xc32.c
   hash: 3aa1360f333b564211c35f641c7327c2111e11aa633bd02ec5a0be9466b1df04
 - file: ..\src\config\default\stdio\xc32_monitor.c
@@ -105,7 +105,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\touch\touch.c
   hash: 40d360ef7f486bc21d623a0a89c0042bf0dd70df30b61f8cf1ce26699ffb9f32
 - file: ..\src\config\default\touch\touch.h
-  hash: a3737adfe29d1fedec8aaf2e0c1d961c73f26433b932e320d6d69c84dbb5f78e
+  hash: 4273fb114a321746b403138b79b3d5ae328b7b5ca9e8371365d4b31267c86fab
 - file: ..\src\config\default\touch\touchTune.c
   hash: 47a6858fa0404f68788ebb4bc74de3b47cc49a4c601a5fbdb8e5aecce5d1e612
 - file: ..\src\config\default\touch\touchTune.h
