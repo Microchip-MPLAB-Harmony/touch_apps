@@ -81,7 +81,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pl10_onboard\toolchain_specifics.h
   hash: a4f1774c6f1f8c6cd522567536c9e9d75ca63259b868015ac9b0fb0aeeffe1f4
 - file: ..\src\config\pl10_onboard\touch\lib\qtm_acq_pic32cm_pl10_0x005b.X.a
-  hash: 3a94c06d839b1e02dc2da5453c7dfd0e7a118ddacf3aaf1a426d83a23fe1e77d
+  hash: 43d2088f50f944121426c93f4e6a2c27dbe93d431e4c1fabfd830c4b99ca36a7
 - file: ..\src\config\pl10_onboard\touch\lib\qtm_freq_hop_auto_cm0p_0x0004.X.a
   hash: 0cc61b670ccb0ebd7693034a5745421fee4bdf43b6d3e6a708a40e9140ad4551
 - file: ..\src\config\pl10_onboard\touch\lib\qtm_freq_hop_cm0p_0x0006.X.a
@@ -89,7 +89,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pl10_onboard\touch\lib\qtm_touch_key_cm0p_0x0002.X.a
   hash: ffa2f4c39c786edd62ed89e458a1a1bd65e083947c42c1abe48432f589497045
 - file: ..\src\config\pl10_onboard\touch\qtm_acq_pic32cm_pl10_0x005b_api.h
-  hash: 626a58db98e0d49418c0b102704c2aacd5ced187200dca83c0c8cbf4119e77bf
+  hash: d828f7cf8e7a0ae229b1204675090c29a5314b6f371f37f27a48ccd6db065394
 - file: ..\src\config\pl10_onboard\touch\qtm_common_components_api.h
   hash: 27367c4c6332d8ea31c183e3946108168deea1cbb2d59c21ec00404bb6e4e34f
 - file: ..\src\config\pl10_onboard\touch\qtm_freq_hop_0x0006_api.h
@@ -101,7 +101,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pl10_onboard\touch\touch.c
   hash: 1227dec035f4dfa02533da68d9602566624bde9e7d0cfd46dbfb392798ace586
 - file: ..\src\config\pl10_onboard\touch\touch.h
-  hash: 4a6404e2012efaff211c1c0c742383f525df69678e1ac4c0dad64d6939399969
+  hash: 2ad03ef73a4a45961b98a112955c825161a8597793d01a704a61da784cd48ed3
 - file: ..\src\config\pl10_onboard\touch\touchTune.c
   hash: 5afeacb94b36402abfc518f5dc14fb290d9de698765408c7ed9105e148a62a03
 - file: ..\src\config\pl10_onboard\touch\touchTune.h

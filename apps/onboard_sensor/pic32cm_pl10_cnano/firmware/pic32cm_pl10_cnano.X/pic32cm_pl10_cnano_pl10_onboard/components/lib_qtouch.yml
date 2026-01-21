@@ -131,7 +131,7 @@ data:
       - children:
         - attributes:
             id: lib_qtouch
-            value: X_NONE
+            value: Y(41)
           type: Dynamic
         type: Values
       type: String
@@ -294,4 +294,48 @@ data:
           type: Boolean
         type: Attributes
       type: File
+    PTC_CLOCK_FREQ:
+      attributes:
+        id: PTC_CLOCK_FREQ
+      children:
+      - children:
+        - attributes:
+            id: lib_qtouch
+            value: ADC0_CLOCK_FREQUENCY:sync
+          type: Dynamic
+        - attributes:
+            value: ADC0_CLOCK_FREQUENCY
+          type: User
+        type: Values
+      type: String
+    SENSE_TECHNOLOGY:
+      attributes:
+        id: SENSE_TECHNOLOGY
+      children:
+      - children:
+        - attributes:
+            value: '2'
+          type: User
+        type: Values
+      type: KeyValueSet
+    DS_DEDICATED_PIN_ENABLE:
+      attributes:
+        id: DS_DEDICATED_PIN_ENABLE
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    DS_DEDICATED_PIN:
+      attributes:
+        id: DS_DEDICATED_PIN
+      children:
+      - children:
+        - attributes:
+            value: '22'
+          type: User
+        type: Values
+      type: KeyValueSet
   userData: {}
