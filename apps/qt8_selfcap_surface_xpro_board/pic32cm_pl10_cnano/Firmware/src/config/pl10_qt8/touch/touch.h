@@ -100,7 +100,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Range: 0u- 255u
  * Default value: 40u.
  */
-#define DEF_CAL_PRCISION 40u
+#define DEF_CAL_PRCISION 80u
       
 
 /* Enable ADC voltage pump.
@@ -140,7 +140,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 }
 #define NODE_1_PARAMS                                                                                               \
 {                                                                                                                  \
-   Y(27), Y(6), 10,(uint8_t)PRSC_DIV_SEL_1, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   Y(27), Y(6), 12,(uint8_t)PRSC_DIV_SEL_1, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_2_PARAMS                                                                                               \
 {                                                                                                                  \
@@ -156,7 +156,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 }
 #define NODE_5_PARAMS                                                                                               \
 {                                                                                                                  \
-   Y(27), Y(18), 8,(uint8_t)PRSC_DIV_SEL_1, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   Y(27), Y(18), 10,(uint8_t)PRSC_DIV_SEL_1, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_6_PARAMS                                                                                               \
 {                                                                                                                  \
@@ -164,7 +164,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 }
 #define NODE_7_PARAMS                                                                                               \
 {                                                                                                                  \
-   Y(27), Y(28), 10,(uint8_t)PRSC_DIV_SEL_1, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
+   Y(27), Y(28), 14,(uint8_t)PRSC_DIV_SEL_1, NODE_GAIN(GAIN_1, GAIN_1), (uint8_t)FILTER_LEVEL_16                   \
 }
 #define NODE_8_PARAMS                                                                                               \
 {                                                                                                                  \
@@ -332,7 +332,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  *  RESOL_2_BIT - RESOL_12_BIT
  *  DB_NONE - DB_15_PERCENT
  */
-#define SURFACE_CS_RESOL_DB SCR_RESOL_DEADBAND((uint8_t)RESOL_8_BIT, (uint8_t)DB_1_PERCENT)
+#define SURFACE_CS_RESOL_DB SCR_RESOL_DEADBAND((uint8_t)RESOL_8_BIT, (uint8_t)DB_10_PERCENT)
 /* Median filter enable and  IIR filter Config
  * Median Filter <0-1>
  * Enable or Disable Median Filter
@@ -516,13 +516,20 @@ extern qtm_freq_hop_autotune_config_t qtm_freq_hop_autotune_config1;
 extern qtm_surface_cs_config_t  qtm_surface_cs_config1;
 extern qtm_surface_contact_data_t qtm_surface_contacts[2];
 extern qtm_surface_cs2t_data_t qtm_surface_cs_data1;
+extern qtm_surface_cs2t_control_t qtm_surface_cs_control1;
 /* Gesture variables */
 extern qtm_gestures_2d_config_t qtm_gestures_2d_config;
 extern qtm_gestures_2d_data_t qtm_gestures_2d_data;
+extern qtm_gestures_2d_control_t qtm_gestures_2d_control1;
+extern uint16_t touch_gesture_time_cnt;
+extern uint8_t interrupt_cnt;
 extern uint8_t module_error_code;
 
 
 extern volatile uint8_t measurement_done_touch;
+
+extern qtm_acq_pic32cm_pl_device_config_t acq_adc_config;
+
 
 
 // DOM-IGNORE-BEGIN

@@ -100,7 +100,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Range: 0u- 255u
  * Default value: 40u.
  */
-#define DEF_CAL_PRCISION 40u
+#define DEF_CAL_PRCISION 80u
       
 
 /* Enable ADC voltage pump.
@@ -170,31 +170,31 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #define KEY_0_PARAMS                                                                                            \
 {                                                                                                              \
-    150u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
+    255u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
 }
 
 
 #define KEY_1_PARAMS                                                                                            \
 {                                                                                                              \
-    150u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
+    255u, (uint8_t)HYST_25, (uint8_t)NO_AKS_GROUP                       \
 }
 
 
 #define KEY_2_PARAMS                                                                                            \
 {                                                                                                              \
-    150u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_1                       \
+    255u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_1                       \
 }
 
 
 #define KEY_3_PARAMS                                                                                            \
 {                                                                                                              \
-    150u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_1                       \
+    255u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_1                       \
 }
 
 
 #define KEY_4_PARAMS                                                                                            \
 {                                                                                                              \
-    150u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_1                       \
+    255u, (uint8_t)HYST_25, (uint8_t)AKS_GROUP_1                       \
 }
 
 
@@ -271,7 +271,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 #define SCROLLER_0_PARAMS                                                                                       \
 {                                                                                                              \
     (uint8_t)SCROLLER_TYPE_SLIDER, 2u, 3u,                            \
-		SCROLLER_RESOL_DEADBAND((uint8_t)SCR_RESOL_8_BIT, (uint8_t)SCR_DB_10_PERCENT),(uint8_t)12,150\
+		SCROLLER_RESOL_DEADBAND((uint8_t)SCR_RESOL_8_BIT, (uint8_t)SCR_DB_10_PERCENT),(uint8_t)12,255\
 }
 
 
@@ -300,7 +300,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Range: 1 to 255.
  * Default value: 15
  */
-#define FREQ_AUTOTUNE_MAX_VARIANCE 25u
+#define FREQ_AUTOTUNE_MAX_VARIANCE 191u
 
 /* sets the Tune in count for Frequency Hop Auto tune.
  * Range: 1 to 255.
@@ -338,6 +338,9 @@ extern uint8_t module_error_code;
 
 
 extern volatile uint8_t measurement_done_touch;
+
+extern qtm_acq_pic32cm_pl_device_config_t acq_adc_config;
+
 
 
 // DOM-IGNORE-BEGIN

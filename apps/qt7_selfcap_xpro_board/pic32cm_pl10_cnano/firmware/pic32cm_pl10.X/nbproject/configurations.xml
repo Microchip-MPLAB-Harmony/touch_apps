@@ -247,8 +247,8 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC32CM-PL_DFP" vendor="Microchip" version="1.0.313"/>
         <pack name="CMSIS" vendor="ARM" version="6.2.0"/>
+        <pack name="PIC32CM-PL_DFP" vendor="Microchip" version="1.0.313"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -506,6 +506,7 @@
         <property key="programoptions.preserveuserid" value="false"/>
         <property key="programoptions.programuserotp" value="false"/>
         <property key="programoptions.smartprog" value="true"/>
+        <property key="programoptions.use_flm" value="true"/>
         <property key="script.has_reset" value="true"/>
         <property key="script.log_level" value="1"/>
         <property key="script.reset_delay" value="0"/>
@@ -565,6 +566,7 @@
         <property key="programoptions.preserveuserid" value="false"/>
         <property key="programoptions.programuserotp" value="false"/>
         <property key="programoptions.smartprog" value="true"/>
+        <property key="programoptions.use_flm" value="true"/>
         <property key="script.has_reset" value="true"/>
         <property key="script.log_level" value="1"/>
         <property key="script.reset_delay" value="0"/>
@@ -574,7 +576,6 @@
         <property key="toolpack.updateoptions.packversion"
                   value="Press to select which tool pack to use"/>
         <property key="voltagevalue" value=""/>
-        <property key="x.erase.key" value="0xFFFFFFFF,0xFFFFFFFF,0xFFFFFFFF,0xFFFFFFFF"/>
       </nEdbgTool>
     </conf>
   </confs>

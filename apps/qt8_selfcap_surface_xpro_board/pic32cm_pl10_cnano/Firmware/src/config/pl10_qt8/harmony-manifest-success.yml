@@ -4,13 +4,13 @@
 
 
 project: pic32cm_pl10
-creation_date: 2026-01-07T14:02:18.479+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2026-01-29T14:17:08.689+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 11
 mcc_mode: IDE            # [IDE|Standalone|Headless]
-mcc_version: v5.6.3
-mcc_core_version: v5.8.3
-mplabx_version: v6.25        # if MPLAB X plugin only
-harmony_version: v5.6.3
+mcc_version: v5.6.4
+mcc_core_version: v5.8.4
+mplabx_version: v6.30        # if MPLAB X plugin only
+harmony_version: v5.6.4
 compiler: XC32 5.00
 
 modules:

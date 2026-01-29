@@ -1,6 +1,6 @@
 configVersion: 1.0.0
-coreVersion: 5.8.3
-spaHostVersion: 1.2.0
+coreVersion: 5.8.4
+spaHostVersion: 1.2.1
 device: PIC32CM6408PL10048
 deviceLibrary: {}
 groupModules: []
@@ -20,7 +20,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pl10_qt8\PIC32CM6408PL10048.ld
   hash: 1be83a2de4596f61ef9a0a0cda41503b2d2f00e87036363eaff5607db25fadb4
 - file: ..\src\config\pl10_qt8\definitions.h
-  hash: 0d6af1a1a2f28b658f57f66df4327eaba919a63339d0d78967c7f7de9a602456
+  hash: 3f29e870dec93eb3b34a7b4ee5b6636b7005acae5faeda682115dbb342e9c960
 - file: ..\src\config\pl10_qt8\device.h
   hash: f40c62947defe219b277f683370437d7ecd5cb24c57aa1e381d1a61f4311e6e2
 - file: ..\src\config\pl10_qt8\device_cache.h
@@ -30,7 +30,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pl10_qt8\exceptions.c
   hash: d1567a190561858cc1cb7e796cf1a29720e52b9799bbd88b087993d8539e137f
 - file: ..\src\config\pl10_qt8\initialization.c
-  hash: 47cae20d461a38fb4e0a11993e9f9e9eb8db26488837427d13d451f32d408013
+  hash: e4288c99e8b734f208a991c07a2b0940494bb9e76b21ab97e24bcfb1aa2c75f6
 - file: ..\src\config\pl10_qt8\interrupts.c
   hash: 8f6abd3c8bd27cab95376ce42d1afe976fd70df759c2c214f73b25bef3432997
 - file: ..\src\config\pl10_qt8\interrupts.h
@@ -88,7 +88,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pl10_qt8\toolchain_specifics.h
   hash: a4f1774c6f1f8c6cd522567536c9e9d75ca63259b868015ac9b0fb0aeeffe1f4
 - file: ..\src\config\pl10_qt8\touch\lib\qtm_acq_pic32cm_pl10_0x005b.X.a
-  hash: 3a94c06d839b1e02dc2da5453c7dfd0e7a118ddacf3aaf1a426d83a23fe1e77d
+  hash: 43d2088f50f944121426c93f4e6a2c27dbe93d431e4c1fabfd830c4b99ca36a7
 - file: ..\src\config\pl10_qt8\touch\lib\qtm_freq_hop_auto_cm0p_0x0004.X.a
   hash: 0cc61b670ccb0ebd7693034a5745421fee4bdf43b6d3e6a708a40e9140ad4551
 - file: ..\src\config\pl10_qt8\touch\lib\qtm_freq_hop_cm0p_0x0006.X.a
@@ -100,7 +100,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pl10_qt8\touch\lib\qtm_touch_key_cm0p_0x0002.X.a
   hash: ffa2f4c39c786edd62ed89e458a1a1bd65e083947c42c1abe48432f589497045
 - file: ..\src\config\pl10_qt8\touch\qtm_acq_pic32cm_pl10_0x005b_api.h
-  hash: 626a58db98e0d49418c0b102704c2aacd5ced187200dca83c0c8cbf4119e77bf
+  hash: d828f7cf8e7a0ae229b1204675090c29a5314b6f371f37f27a48ccd6db065394
 - file: ..\src\config\pl10_qt8\touch\qtm_common_components_api.h
   hash: 27367c4c6332d8ea31c183e3946108168deea1cbb2d59c21ec00404bb6e4e34f
 - file: ..\src\config\pl10_qt8\touch\qtm_freq_hop_0x0006_api.h
@@ -114,9 +114,9 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pl10_qt8\touch\qtm_touch_key_0x0002_api.h
   hash: 4840f9cd8def73a029c2090d101548329c92bdf13bd19410029aab45234b42e2
 - file: ..\src\config\pl10_qt8\touch\touch.c
-  hash: d6ccf914728c7d88dd9b16142e4f88c12a35cae8d65c759bdfe7c7d2f18be3e2
+  hash: 2880870c0dffcd47580be790808a3baf128ea3936710d1f876c779d805ae8405
 - file: ..\src\config\pl10_qt8\touch\touch.h
-  hash: 79e43ae2ced60fd3aaa3f4f10711e956d2a5c3d4c386b4e57097439522c5382f
+  hash: c38ee91a529602397f8b430cf99ddb6297b2e6fa8c5ae47dd255eae08cf1402b
 - file: ..\src\config\pl10_qt8\touch\touchTune.c
   hash: cf8135aac6ca927d7d66f13aa82f1b4e1b4f5add2196b3114ba8fd3ab2321c93
 - file: ..\src\config\pl10_qt8\touch\touchTune.h

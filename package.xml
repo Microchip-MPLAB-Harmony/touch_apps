@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Package name="touch_apps">
     <Dependencies>
-        <Dependency name="touch" version="v3.20.0"/>
+        <Dependency name="touch" version="v3.20.1"/>
     </Dependencies>
 </Package>

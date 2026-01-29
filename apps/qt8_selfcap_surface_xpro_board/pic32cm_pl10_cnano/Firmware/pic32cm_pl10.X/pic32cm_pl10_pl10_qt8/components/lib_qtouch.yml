@@ -1,6 +1,6 @@
 configVersion: 1.0.0
 componentName: lib_qtouch
-coreVersion: 5.8.3
+coreVersion: 5.8.4
 device: PIC32CM6408PL10048
 library: []
 dependency:
@@ -348,7 +348,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '10'
+            value: '12'
           type: User
         type: Values
       type: Integer
@@ -388,7 +388,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '8'
+            value: '10'
           type: User
         type: Values
       type: Integer
@@ -408,7 +408,7 @@ data:
       children:
       - children:
         - attributes:
-            value: '10'
+            value: '14'
           type: User
         type: Values
       type: Integer
@@ -451,26 +451,6 @@ data:
             id: lib_qtouch
             value: 'false'
           type: Dynamic
-        type: Values
-      type: Boolean
-    DS_DEDICATED_PIN:
-      attributes:
-        id: DS_DEDICATED_PIN
-      children:
-      - children:
-        - attributes:
-            value: '17'
-          type: User
-        type: Values
-      type: KeyValueSet
-    DS_DEDICATED_PIN_ENABLE:
-      attributes:
-        id: DS_DEDICATED_PIN_ENABLE
-      children:
-      - children:
-        - attributes:
-            value: 'true'
-          type: User
         type: Values
       type: Boolean
     ENABLE_GESTURE:
@@ -1110,4 +1090,44 @@ data:
           type: User
         type: Values
       type: String
+    DS_DEDICATED_PIN_ENABLE:
+      attributes:
+        id: DS_DEDICATED_PIN_ENABLE
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    DS_DEDICATED_PIN:
+      attributes:
+        id: DS_DEDICATED_PIN
+      children:
+      - children:
+        - attributes:
+            value: '17'
+          type: User
+        type: Values
+      type: KeyValueSet
+    DEF_CAL_PRCISION:
+      attributes:
+        id: DEF_CAL_PRCISION
+      children:
+      - children:
+        - attributes:
+            value: '80'
+          type: User
+        type: Values
+      type: Integer
+    DEF_DEADBAND_PERCENT:
+      attributes:
+        id: DEF_DEADBAND_PERCENT
+      children:
+      - children:
+        - attributes:
+            value: '10'
+          type: User
+        type: Values
+      type: KeyValueSet
   userData: {}

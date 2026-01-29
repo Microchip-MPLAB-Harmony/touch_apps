@@ -1,6 +1,6 @@
 configVersion: 1.0.0
-coreVersion: 5.8.3
-spaHostVersion: 1.2.0
+coreVersion: 5.8.4
+spaHostVersion: 1.2.1
 device: PIC32CM6408PL10048
 deviceLibrary: {}
 groupModules: []
@@ -81,7 +81,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\toolchain_specifics.h
   hash: a4f1774c6f1f8c6cd522567536c9e9d75ca63259b868015ac9b0fb0aeeffe1f4
 - file: ..\src\config\default\touch\lib\qtm_acq_pic32cm_pl10_0x005b.X.a
-  hash: 3a94c06d839b1e02dc2da5453c7dfd0e7a118ddacf3aaf1a426d83a23fe1e77d
+  hash: 43d2088f50f944121426c93f4e6a2c27dbe93d431e4c1fabfd830c4b99ca36a7
 - file: ..\src\config\default\touch\lib\qtm_freq_hop_auto_cm0p_0x0004.X.a
   hash: 0cc61b670ccb0ebd7693034a5745421fee4bdf43b6d3e6a708a40e9140ad4551
 - file: ..\src\config\default\touch\lib\qtm_freq_hop_cm0p_0x0006.X.a
@@ -91,7 +91,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\touch\lib\qtm_touch_key_cm0p_0x0002.X.a
   hash: ffa2f4c39c786edd62ed89e458a1a1bd65e083947c42c1abe48432f589497045
 - file: ..\src\config\default\touch\qtm_acq_pic32cm_pl10_0x005b_api.h
-  hash: 626a58db98e0d49418c0b102704c2aacd5ced187200dca83c0c8cbf4119e77bf
+  hash: d828f7cf8e7a0ae229b1204675090c29a5314b6f371f37f27a48ccd6db065394
 - file: ..\src\config\default\touch\qtm_common_components_api.h
   hash: 27367c4c6332d8ea31c183e3946108168deea1cbb2d59c21ec00404bb6e4e34f
 - file: ..\src\config\default\touch\qtm_freq_hop_0x0006_api.h
@@ -105,7 +105,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\touch\touch.c
   hash: 40d360ef7f486bc21d623a0a89c0042bf0dd70df30b61f8cf1ce26699ffb9f32
 - file: ..\src\config\default\touch\touch.h
-  hash: 4273fb114a321746b403138b79b3d5ae328b7b5ca9e8371365d4b31267c86fab
+  hash: abdd712b2bd621c3a8cdc999187793aa11a48f1ee2a55e3ae3aad73f4f5cd26c
 - file: ..\src\config\default\touch\touchTune.c
   hash: 47a6858fa0404f68788ebb4bc74de3b47cc49a4c601a5fbdb8e5aecce5d1e612
 - file: ..\src\config\default\touch\touchTune.h

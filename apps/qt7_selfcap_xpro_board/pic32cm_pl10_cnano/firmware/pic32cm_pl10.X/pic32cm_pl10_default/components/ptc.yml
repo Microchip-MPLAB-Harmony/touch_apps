@@ -1,6 +1,6 @@
 configVersion: 1.0.0
 componentName: ptc
-coreVersion: 5.8.3
+coreVersion: 5.8.4
 device: PIC32CM6408PL10048
 library: []
 dependency:

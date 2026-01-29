@@ -49,8 +49,8 @@
 #include <stddef.h>
 #include <stdbool.h>
 #include "peripheral/sercom/usart/plib_sercom1_usart.h"
-#include "peripheral/evsys/plib_evsys.h"
 #include "peripheral/sercom/i2c_master/plib_sercom0_i2c_master.h"
+#include "peripheral/evsys/plib_evsys.h"
 #include "peripheral/adc/plib_adc0.h"
 #include "peripheral/port/plib_port.h"
 #include "peripheral/clock/plib_clock.h"
